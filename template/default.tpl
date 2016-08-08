@@ -176,6 +176,9 @@
                 </div>
                 <div class="right-column <?php echo ($options['float']?'float-view':''); ?> content-area col-sm-9">
                     <div class="content-page">
+                        <div align="right">
+                            <a href="https://github.com/testfairy/docs/tree/master/docs/<?php echo $page['path']; ?>" rel="nofollow">Suggest an edit</a>
+                        </div>
                         <article>
                             <?php if($options['date_modified'] && isset($page['modified'])) { ?>
                                 <div class="page-header sub-header clearfix">

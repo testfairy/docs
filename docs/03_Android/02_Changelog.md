@@ -1,8 +1,7 @@
 ### Version 1.3.4
 Released: 2016-08-08
 
-* [NEW] Adaptive screenshot interval, 
-  when TestFairy detects heavy work on the UI thread, it increases the screenshot interval so your app can run smoothly.
+* [NEW] Adaptive screenshot interval - When heavy work detected on the UI thread, screenshot interval is increased automatically.
 
 
 ### Version 1.3.3

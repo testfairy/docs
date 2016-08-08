@@ -1,6 +1,4 @@
 
-## Configuration
-
 This guide explains how to configure the TestFairy Connect agent to work with an on-premise JIRA using basic-authentication (user/password.)
 
 If your organization is using OAuth or SSO services, you might need to use TestFairy Connect with OAuth authentication.

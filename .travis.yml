@@ -1,0 +1,17 @@
+language: php
+
+before_script:
+  - npm install less
+
+branches:
+  only:
+    - master
+  
+script:
+  - lessc -x less/daux-navy.less >css/daux-navy.min.css
+  - php index.php generate
+  - cp static/API/Upload_API.html static/index.html
+  - curl -s http://checkip.amazonaws.com/
+  - chmod 0600 id_docs.key
+  - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key -r static/* $REMOTE_DOCS_LOCATION
+

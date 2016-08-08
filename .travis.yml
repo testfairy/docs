@@ -1,5 +1,8 @@
 language: php
 
+before_install:
+  - openssl aes-256-cbc -K $encrypted_968efea6ce8c_key -iv $encrypted_968efea6ce8c_iv -in id_docs.key.enc -out id_docs.key -d
+
 before_script:
   - npm install less
 

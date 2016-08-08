@@ -13,3 +13,6 @@ Where to go from here:
 - [Configuring JIRA with OAuth](/TestFairy_Connect/Configuring_JIRA_with_OAuth.html)
 - [Configuring JIRA with Basic Auth](/TestFairy_Connect/Configuring_JIRA.html)
 
+Tutorials:
+
+- [TestFairy Connect with On-Premise JIRA](https://www.youtube.com/watch?v=SdEHd8jNsOM)

@@ -1,48 +1,38 @@
 
 ## Configuration
 
-Configuration file `config.json` is located in `.testfairyconnect` under running user's home directory. 
+This guide explains how to configure the TestFairy Connect agent to work with an on-premise JIRA using basic-authentication (user/password.)
 
-- On linux/Mac: `~/.testfairyconnect/config.json`
-- On Windows: `C:\Users\MyUser\.testfairyconnect\config.json`
+If your organization is using OAuth or SSO services, you might need to use TestFairy Connect with OAuth authentication.
 
-You'll need the following data:
+#### Using the wizard
 
-* TestFairy Connect URL (typically at [https://app.testfairy.com/connect/](https://app.testfairy.com/connect/)). 
-Might contain your organization subdomain instead of 'app'.
-* TestFairy API key (found at [https://app.testfairy.com/settings/](https://app.testfairy.com/settings/))
-* URL to you bug system.
-* Valid credentials for a bug system user.
-* List of projects to expose via TestFairy Connect agent.
+Start the wizard by typing the following command in your terminal or command prompt:
 
-## Supported issue trackers specific stuff
-
-### JIRA (using username/password)
-
-Example ```config.json```:
-   
-```json
-    {
-        "testfairy": {
-            "timeout": 5000,
-            "apiKey": "[as found under Upload API Key @ https://app.testfairy.com/settings]",
-            "URL": "https://app.testfairy.com/connect"
-        },
-        "issueTracker": {
-            "type": "jira",
-            "issueType": "Bug",
-            "URL": "http://localhost:2990/jira",
-            "username": "admin",
-            "password": "admin",
-            "strictSSL": false,
-            "oauth": false,
-            "projects": ["PROJECT1", "PROJECT2"],
-            "fieldMapping": {
-                "status": "status",
-                "summary": "summary",
-                "description": "description"
-            }
-        }
-    }
+```sh
+$ node node_modules/testfairy-connect/service.js configure
 ```
-Please note that `issueTracker.URL` setting  should have proper schema (https or http), port (if not default), and path to JIRA application included.
+
+**Welcome to TestFairy Connect configuration wizard.**
+
+- What is your TestFairy API Key?
+   - Please put your Upload API key here, you can access it via the [Settings Page](https://app.testfairy.com/settings/#api-key)
+- What kind of issue tracking system will you use with TestFairy Connect?
+   - Choose "JIRA"
+- What is your JIRA URL (e.g. https://example.atlassian.net)?
+   - Please provide the url address of your JIRA server. Don't forget to include the http:// or https:// prefix.
+- How shall TestFairy Connect authenticate to JIRA? 
+   - Choose "basic"
+- What is the type of JIRA issues to be created using TestFairy Connect? 
+   - Please choose to appropriate issuetype used in your JIRA. By default, JIRA uses "Bug", but it varys on project type. Other examples are "Defect" or "Task".
+- JIRA username:
+   - Please enter your JIRA login username
+- JIRA password:
+   - And your JIRA login password
+- Please enter HTTP proxy server address, leave empty if none: 
+   - If you require HTTP proxy to access this JIRA server, please send it here. For example, http://user@10.0.0.1:8080.
+   
+When done, the configuration wizard will display the success message: **Successfully connected to issue tracker.**
+
+Congratulations! You have successfully configured TestFairy Connect with JIRA using basic authentication. Next, [start the agent from command line](https://docs.testfairy.com/TestFairy_Connect/Installing_on_Linux_or_Mac.html)
+

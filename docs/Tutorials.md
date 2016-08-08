@@ -17,4 +17,7 @@
 
 * [How to Upload Android APK from Command Line on Mac](https://youtu.be/_eV-B1HfV8E)
 
+# Integrations
+
+* [TestFairy Connect with on-premise Jira](https://youtu.be/SdEHd8jNsOM)
 

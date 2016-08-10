@@ -6,9 +6,7 @@ There is the enterprise certificate that technically allows you to send your app
 
 This document refers to ad-hoc certificates and explains how to add a tester's UDID to your app development profile in the Apple developer portal.
 
-We would warmly recommend any company to apply to Apple's [iOS Developer Enterprise Program](https://developer.apple.com/programs/ios/enterprise/), and sign iOS apps for internal use with an Enterprise certificate. 
-
-Please note that this is not a legal document, please refer to Apple's website for the exact terms of service for any Apple service.
+We would warmly recommend any company to apply to Apple's [iOS Developer Enterprise Program](https://developer.apple.com/programs/ios/enterprise/), and sign iOS apps for internal use with an Enterprise certificate. Please note that this is not a legal document, please refer to Apple's website for the exact terms of service for any Apple service.
 
 In order to add a UDID to your Ad-Hoc certificate please follow the following instructions.
 

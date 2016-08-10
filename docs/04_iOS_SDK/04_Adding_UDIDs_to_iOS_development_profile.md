@@ -1,6 +1,8 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/omYf_-KjPE0" frameborder="0" allowfullscreen></iframe>
 
-There two ways to sign iOS apps. There is the enterprise certificate that technically allows you to send your app to any iOS device, and there is the Ad-Hoc certificate that requires you to get the user's device ID before sending them an ipa file.
+There are two ways to sign iOS apps. 
+
+There is the enterprise certificate that technically allows you to send your app to any iOS device, and there is the Ad-Hoc certificate that requires you to get the user's device ID before sending them an ipa file.
 
 This document refers to ad-hoc certificates and explains how to add a tester's UDID to your app development profile in the Apple developer portal.
 

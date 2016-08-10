@@ -1,8 +1,14 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/omYf_-KjPE0" frameborder="0" allowfullscreen></iframe>
 
-Note: If you are part of Apple's [iOS Developer Enterprise Program](https://developer.apple.com/programs/ios/enterprise/), this document is not for you. If you are not part of this program, we warmly recommend that you do your best to apply.
+There two ways to sign iOS apps. There is the enterprise certificate that technically allows you to send your app to any iOS device, and there is the Ad-Hoc certificate that requires you to get the user's device ID before sending them an ipa file.
 
-This document explains how to add a tester's UDID to your app development profile in the Apple developer portal.
+This document refers to ad-hoc certificates and explains how to add a tester's UDID to your app development profile in the Apple developer portal.
+
+We would warmly recommend any company to apply to Apple's [iOS Developer Enterprise Program](https://developer.apple.com/programs/ios/enterprise/), and sign iOS apps for internal use with an Enterprise certificate. 
+
+Please note that this is not a legal document, please refer to Apple's website for the exact terms of service for any Apple service.
+
+In order to add a UDID to your Ad-Hoc certificate please follow the following instructions.
 
 1. Open your TestFairy [testers page](https://app.testfairy.com/testers) and invite new testers. You can add multiple addresses, one per line.
 Your testers will get an email asking them to register their device. Once they register, you will get an email with your tester's UDID and their device details will be listed in https://app.testfairy.com/testers

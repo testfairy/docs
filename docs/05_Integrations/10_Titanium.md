@@ -19,8 +19,10 @@ The TiTestFairy Module extends the Appcelerator Titanium Mobile framework with t
 
 ```javascript
 	var TiTestFairy = require('com.testfairy.titestfairy');
-	TiTestFairy.begin("API_APP");
+	TiTestFairy.begin("<APP TOKEN>");
 ```
+
+NOTE: Replace 'APP TOKEN' with your token, taken from the [user preferences page](https://app.testfairy.com/settings/#app-token).
 
 For more detailed code examples take a look at the [example app](https://github.com/testfairy/ti.testfairy/blob/feat-readme/example/app.js).
 

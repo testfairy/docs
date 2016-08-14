@@ -37,7 +37,7 @@ when and how people are using your app, and provide you with any metric you need
 
 ## Class Reference
 
-https://app.testfairy.com/reference/android/
+[https://app.testfairy.com/reference/android/](https://app.testfairy.com/reference/android/)
    
 ## Upgrading
 

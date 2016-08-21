@@ -66,7 +66,6 @@ deploy:
 * **video-quality**: Video quality settings, "high", "medium" or "low". Default is "high".
 * **screenshot-interval**: Seconds between video frames. Default "1" seconds.
 * **record-on-background**: If true, data will be collected while the app on background.
-* **icon-watermark**: Add a small watermark to app icon. Default is "false".
 * **metrics**: Comma-separated list of metrics to record. View list on [Upload parameters](http://docs.testfairy.com/Upload_API.html).
 * **advanced-options**: Additional settings (eg shake,anonymous).
 
@@ -86,7 +85,6 @@ deploy:
   screenshot-interval: 2
   video: true
   video-quality: high
-  icon-watermark: true
   data-only-wifi: true
   metrics: cpu,memory,network,phone-signal,logcat,gps,battery
   advanced-options: shake,anonymous

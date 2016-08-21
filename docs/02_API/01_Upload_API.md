@@ -24,7 +24,6 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | video           |             | Video recording settings "on", "off" or "wifi" for recording video only when wifi is available. Default is "on". |
 | video-quality   |             | Video quality settings, "high", "medium" or "low". Default is "high". |
 | video-rate      |             | Video rate recording in frames per second, default is "1.0". |
-| icon-watermark  |             | Add a small watermark to app icon. Default is "off". |
 | comment         |             | Additional release notes for this upload. This text will be added to email notifications. |
 | auto-update     |             | Allows easy upgrade of all users to current version. Set to "on" to enable. Default is "off". |
 | instrumentation |             | Allows disabling instrumentation of Android apps. Set to "off" to disable. Default is "on". |

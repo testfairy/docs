@@ -43,8 +43,6 @@ In addition, you can set the following parameters:
 
 -- **Auto-Update** - When auto update is enabled, users using previous versions of this app will get a notification about the new version next time they use the app. Download of the new version will start immediately, the user will not have to actively download it. Note that in this case no email will be sent to the testers.
 
--- **App Icon** - check to add a TestFairy watermark to the app icon
-
 -- **Comment** - add any comments you would like your testers to receive in the update email
 
 ![ alt testfairy-upload](../../img/app/upload-APK.png)

@@ -1,3 +1,10 @@
+### Version 1.8.0
+Released: 2016-08-25
+
+* [BUGFIX] Improve SDK startup time
+* [BUGFIX] Send screenshots during feedback on iPads
+* [BUGFIX] Send Correlation ID before or after `begin` is invoked
+
 ### Version 1.7.9
 Released: 2016-07-20
 

@@ -1,3 +1,8 @@
+### Version 1.3.5
+Released: 2016-08-30
+
+* [BUGFIX] Feedback module can now be initialized without an existing activity.
+
 ### Version 1.3.4
 Released: 2016-08-08
 

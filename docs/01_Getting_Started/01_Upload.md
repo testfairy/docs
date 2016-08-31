@@ -6,7 +6,7 @@ If you have a TestFairy account, please  <a href="https://app.testfairy.com/logi
 
 Once your account is created and verified, you are ready to upload your app.
 
-Upload is as simple as it sounds, just click on the  **Upload** button on the upper menu, choose your OS and your’re done.
+Upload is as simple as it sounds, just click on the  **Upload** button on the upper menu, choose your OS and you’re done.
 ![ alt upload](../../img/app/upload.png)
 
 Please note that in some situations you might prefer our <a href="http://docs.testfairy.com/Upload_API.html">Upload API</a> and use our <a href="https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin">Jenkins plugin</a>, <a href="#">Gradle plugin</a>, or <a href="https://github.com/testfairy/command-line-uploader" target="_blank">Command line uploader</a>. 

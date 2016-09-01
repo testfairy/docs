@@ -14,7 +14,7 @@ TestFairy will find any `UIWebView` or `WKWebView` in the view hierarchy, and hi
 
 ### Sample video
 
-Below is a sample screen taken from a demo video. On the left, this is how the app looks like normally. On the right is a screenshot taken with the Images hidden.
+Below is a sample screen taken from a demo video. On the left, this is how the app looks like normally. On the right is a screenshot taken with the HTML elements hidden.
 
 ![](../../img/ios/hidden_views/webview_before.jpg) ![](../../img/ios/hidden_views/webview_after.jpg)
 

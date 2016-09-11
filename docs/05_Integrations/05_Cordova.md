@@ -1,7 +1,15 @@
 
-TestFairy SDK for PhoneGap/Cordova is currently available for iOS and Android apps.
+TestFairy SDK for PhoneGap/Cordova/Ionic is currently available for iOS and Android apps.
+
+Adding TestFairy plugin to your Cordova or Ionic project is simple. Cordova provides two workflows for development, either through the [command line](https://cordova.apache.org/docs/en/latest/guide/cli/index.html), or a [platform-centered workflow](https://cordova.apache.org/docs/en/latest/guide/platforms/index.html). If your current development leverages the platform-centered workflow, then please refer to the [iOS integration document](/iOS_SDK/Integrating_iOS_SDK.html) for adding TestFairy to your project. Here, we'll walkthrough adding TestFairy to a new project through the command-line workflow.
 
 ## Installation
+
+### Cordova
+
+Make sure you have `cordova` installed on your machine, you can follow instructions [here](https://cordova.apache.org/docs/en/latest/guide/overview/index.html) on getting started.
+
+Once installed, we'll start with creating an new project. If you already have an existing project, then please skip to the next step
 
 To add the plugin to your project via [npm](https://www.npmjs.com/package/com.testfairy.cordova-plugin), simply run the following command from Terminal:
 
@@ -15,7 +23,7 @@ Alternatively, you could install it directly from GitHub:
 cordova plugin add https://github.com/testfairy/testfairy-cordova-plugin
 ```
 
-#### Ionic
+### Ionic
 
 The same plugin can be used for ionic by installing the plugin using the following command
 
@@ -44,6 +52,11 @@ It's recommended to invoke `TestFairy.begin` from `onDeviceReady`. For example, 
   }
 ```
 
+Check your console log, and you should see the following message
+```
+TestFairy: Session started successfully
+```
+
 ### Ionic
 
 On Ionic, you can initialize the TestFairy plugin in the `ready` method. Your **APP TOKEN** is available at `https://app.testfairy.com/settings/#apptoken`.
@@ -58,7 +71,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 })
 ```
 
+Check your console log, and you should see the following message
+```
+TestFairy: Session started successfully
+```
+
 ## Where to go from here?
+
+Congratulations! You've successfully integrated TestFairy into your Cordova project! Visit your [dashboard](http://app.testfairy.com/), and you should see your app listed.
 
 * Have a look at the [API documentation](https://github.com/testfairy/testfairy-cordova-plugin/blob/master/www/testfairy.js) for other calls you can make to the TestFairy plugin
 

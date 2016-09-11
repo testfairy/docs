@@ -25,6 +25,8 @@
   * [Why does app icon disappear right after download?](#ios-app-icon-disappears)
   * [Why linking fails with `ld: symbol(s) not found for architecture arm64`?](#ios-symbol-not-found)
   * [What's "You must rebuild it with bitcode enabled (Xcode setting ENABLE_BITCODE)" error?](#ios-bitcode-error)
+  * [Push notifications work when installed from Xcode, but not with TestFairy. Why?](#ios-push-notificatios-xcode)
+  * [What is the difference between in-house and enterprise certificates?](#ios-in-house-or-enterprise)
 
 ### <a name="crashes-offline"></a>My app crashes while offline, will I get the report?
 
@@ -210,5 +212,20 @@ To compile an app with `bitcode`, it is required that all libraries and framewor
 TestFairy iOS SDK version 1.5.0 has bitcode flag enabled and solves this problem. Simply upgrading the SDK will resolve this error in compilation. 
 
 [Back to top](#top)
+
+### <a name="ios-push-notificatios-xcode"></a>Push notifications work when installed from Xcode, but not with TestFairy. 
+Why?
+
+TestFairy's SDK does not make any changes to your executable or IPA. A very common problem we have been seeing, is that developers make a mistake and develop using sandbox, and release using production aps environment. Please make sure your configuration is the same for production and adhoc/in-house releases.
+
+[Back to top](#top)
+
+### <a name="ios-in-house-or-enterprise"></a>What is the difference between in-house and enterprise certificates?
+
+These two are the same. When exporting an IPA from within Xcode, you export for Enterprise Development, but in some cases on iTunes Connect, this is refered as In-House.
+
+[Back to top](#top)
+
+
 
 

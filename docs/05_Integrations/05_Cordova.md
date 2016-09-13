@@ -23,7 +23,7 @@ Alternatively, you could install it directly from GitHub:
 cordova plugin add https://github.com/testfairy/testfairy-cordova-plugin
 ```
 
-### Ionic
+### Ionic and Ionic 2
 
 The same plugin can be used for ionic by installing the plugin using the following command
 
@@ -74,6 +74,28 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 Check your console log, and you should see the following message
 ```
 TestFairy: Session started successfully
+```
+
+### Ionic 2
+With Ionic 2, after adding the plugin to your project, you must first add a path to the plugin typescript definition. Modify your `typings/index.d.ts` by adding the line
+
+```
+/// <reference path="../plugins/com.testfairy.cordova-plugin/www/testfairy.d.ts" />
+```
+
+Next, in your `app.ts` file, right after the imports, add the following line to import TestFairy
+
+```
+declare var TestFairy: TestFairy;
+```
+
+Finally, invoke `begin` passing in your **APP TOKEN** which is available at `https://app.testfairy.com/settings/#apptoken`. We recommend invoking the `begin` method once `platform.ready()` is invoked as given in the example below:
+
+```
+platform.ready().then(() => {
+  TestFairy.begin(APP TOKEN);
+  ...
+});
 ```
 
 ## Where to go from here?

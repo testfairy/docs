@@ -1,3 +1,8 @@
+### Version 1.3.7
+Released: 2016-09-19
+
+* [NEW] New TestFairy session will be created after the app spend some time in the background.
+
 ### Version 1.3.5
 Released: 2016-08-30
 

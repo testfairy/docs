@@ -1,3 +1,8 @@
+### Version 1.3.8
+Released: 2016-09-20
+
+* [BUGFIX] Drawing on feedback screenshot will work on devices with disabled animation.
+
 ### Version 1.3.7
 Released: 2016-09-19
 

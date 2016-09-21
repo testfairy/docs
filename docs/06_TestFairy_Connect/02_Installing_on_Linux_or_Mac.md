@@ -22,7 +22,8 @@ To start the configuration wizard, simply run the following command:
 
  ```
  mkdir ~/.testfairy-connect
- 
+ ```
+ ```
  node node_modules/testfairy-connect/service.js configure
  ```
 

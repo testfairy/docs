@@ -10,9 +10,9 @@ For Team Foundation Server (TFS) integration, please refer to that documentation
 
 Installation is done via npm, please run the following command in a folder for your TestFairy Connect installation.
 
- ```
- npm install git+https://github.com/testfairy/testfairy-connect
- ```
+```
+npm install git+https://github.com/testfairy/testfairy-connect
+```
 
 ## Configuration
 
@@ -21,7 +21,8 @@ TestFairy Connect has a built-in configuration wizard. This wizard will guide yo
 To start the configuration wizard, simply run the following command:
 
  ```
- node node_modules/testfairy-connect/serviec.js configure
+ mkdir ~/.testfairy-connect/config.json
+ node node_modules/testfairy-connect/service.js configure
  ```
 
 ## Running TestFairy Connect

@@ -21,7 +21,7 @@ TestFairy Connect has a built-in configuration wizard. This wizard will guide yo
 To start the configuration wizard, simply run the following command:
 
  ```
- mkdir ~/.testfairy-connect/config.json
+ mkdir ~/.testfairy-connect
  node node_modules/testfairy-connect/service.js configure
  ```
 

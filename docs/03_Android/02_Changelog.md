@@ -1,7 +1,7 @@
 ### Version 1.3.9
 Released: 2016-09-29
 
-* [IMPROVEMENT] When there is connection and tester tries to send a feedback, an error messgae is shown.
+* [IMPROVEMENT] When there is no connection and tester tries to send a feedback, an error messgae is shown.
 * [IMPROVEMENT] Multiple clicks on the send feedback button will send it only once.
 * [BUGFIX] NullPointerException exceptions fixed
 

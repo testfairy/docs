@@ -1,9 +1,9 @@
 ### Version 1.3.9
 Released: 2016-09-29
 
-* [IMPROVEMENT] Feedback model behavior improved in case of no internet connection.
+* [IMPROVEMENT] When there is connection and tester tries to send a feedback, an error messgae is shown.
 * [IMPROVEMENT] Multiple clicks on the send feedback button will send it only once.
-* [BUGFIX] NullPointerException on singleton instance was fixed.
+* [BUGFIX] NullPointerException exceptions fixed
 
 ### Version 1.3.8
 Released: 2016-09-20

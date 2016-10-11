@@ -29,3 +29,8 @@ Make sure to reply **UPLOAD_API_KEY** with the your secret upload api key, found
 ![alt](../../img/ios/dsym-upload/step3.png)
 
 
+### Fatal: Can't find .dSYM folder!
+
+If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could be that your project is not configured to generate debug symbols. To output debug symbols, enable the option from `Target > Build Options > Debug Information Format`. If you don't see option, make sure you're not viewing the `Basic` options; instead, select `All` options. You can see the option in the following screenshot
+
+![alt](../../img/ios/dsym-upload/enable_dsyms.png)

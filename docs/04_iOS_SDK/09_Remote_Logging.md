@@ -27,5 +27,6 @@ Although TestFairy automatically collects the output of `NSLog`, if your project
 As a workaround, we suggest using the above remote logging service provided by TestFairy. You can replace calls to `NSLog` with calls to `TFLog`. However, if you'd like to also log output to your console, one suggestion might be to add a macro to a universally used header. The macro can be as follows:
 
 ```
-#define NSLog( s, ... ) NSLog([NSString stringWithFormat:(s)], ##__VA_ARGS__); TFLog([NSString stringWithFormat:(s)], ##__VA_ARGS__)
+#import "TestFairy.h"
+#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
 ```

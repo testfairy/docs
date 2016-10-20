@@ -60,13 +60,12 @@ To enable the app sending logs to TestFairy,  you will update your projects Pref
 
 1. First, locate and access your Prefix Header (.pch): Click on the Project File > Build Settings > Apple LLVM-Language.
 2. Add these two lines of code to the end of Prefix Header (.pch):
-
-   ```
-   #import "TestFairy.h"
-   #define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
-   ```
-
-   (This macro allows you to continue using NSLog in your code, while also adding the logs to the  matching session in TestFairy.)
+	```
+	#import "TestFairy.h"
+	#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
+	```    
+    
+	(This macro allows you to continue using NSLog in your code, while also adding the logs to the  matching session in TestFairy.)
    
     
 **Creating a new Prefix Header**

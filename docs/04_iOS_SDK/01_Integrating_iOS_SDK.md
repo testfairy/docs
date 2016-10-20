@@ -50,6 +50,48 @@ You get:
         ```
         TestFairy.begin("0000111122223333444455566667777788889999")	
         ```
+  
+## Sending your NSLog to TestFairy
+TestFairy shows you a video recording and screenshots of your app, paired with a full app log so can see what happened behind the scenes as well. This combination allows you to understand what happens in your app at any given moment.
+
+**Changing your Prefix Header** 
+
+To enable the app sending logs to TestFairy,  you will update your projects Prefix Header (.pch):
+
+1. First, locate and access your Prefix Header (.pch): Click on the Project File > Build Settings > Apple LLVM-Language.
+2. Add these two lines of code to the end of Prefix Header (.pch):
+   
+   ```
+    #import "TestFairy.h"
+    #define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
+    ```
+
+    This macro allows you to continue using NSLog in your code, while also adding the logs to the  matching session in TestFairy.
+    
+**Creating a new Prefix Header**
+
+If your project doesn’t already include a Prefix Header (.pch), follow these steps to add it:
+
+1. Create a new file under iOS > Other > PCH File.
+2. Name your file “PCH file”.
+3. Add these two lines of code to the file:
+
+     ```
+    #import "TestFairy.h"
+    #define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0) 
+    ```
+
+4. From the Project Navigator, select your project and the corresponding target.
+
+5. Project > Build Settings > Search: "Prefix Header".
+
+6. Under "Apple LLVM 7.0" you will get the Prefix Header key.
+
+7. Type the location of the file, eg.: "$(SRCROOT)/$(PROJECT_NAME)/ProjectName-Prefix.pch".
+
+8. Clean your project, and rebuild.
+
+That’s it! Your app will be sending logs to TestFairy.
 
 ### Class Reference
 

@@ -52,7 +52,7 @@ You get:
         ```
   
 ## Sending your NSLog to TestFairy
-TestFairy shows you a video recording and screenshots of your app, paired with a full app log so can see what happened behind the scenes as well. This combination allows you to understand what happens in your app at any given moment.
+TestFairy shows you a video recording and screenshots of your app, paired with a full app log. This combination allows you to understand what happens in your app at any given moment.
 
 **Changing your Prefix Header** 
 

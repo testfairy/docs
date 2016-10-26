@@ -51,7 +51,7 @@ You get:
         TestFairy.begin("0000111122223333444455566667777788889999")	
         ```
   
-## Sending your NSLog to TestFairy
+## Sending your NSLog to TestFairy (optional)
 TestFairy shows you a video recording and screenshots of your app, paired with a full app log. This combination allows you to understand what happens in your app at any given moment.
 
 **Changing your Prefix Header** 
@@ -94,7 +94,7 @@ That’s it! Your app will be sending logs to TestFairy.
 
 ### Class Reference
 
-https://app.testfairy.com/reference/ios/Classes/TestFairy.html
+(https://app.testfairy.com/reference/ios/Classes/TestFairy.html)
 
 ### Troubleshooting
 

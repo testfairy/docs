@@ -1,7 +1,7 @@
 ### Version 1.3.10
 Released: 2016-10-26
 
-* [IMPROVEMENT] - Auto Update feature will work better for apps that has services.
+* [IMPROVEMENT] - Auto Update behaviour improved for apps that has services.
 
 ### Version 1.3.9
 Released: 2016-09-29

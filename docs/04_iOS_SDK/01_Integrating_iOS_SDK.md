@@ -94,7 +94,7 @@ That’s it! Your app will be sending logs to TestFairy.
 
 ### Class Reference
 
-(https://app.testfairy.com/reference/ios/Classes/TestFairy.html)
+[https://app.testfairy.com/reference/ios/Classes/TestFairy.html](https://app.testfairy.com/reference/ios/Classes/TestFairy.html)
 
 ### Troubleshooting
 

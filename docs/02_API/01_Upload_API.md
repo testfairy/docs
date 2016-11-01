@@ -35,6 +35,7 @@ Below is a list of available metrics for recording in a session. For use with `m
  - `cpu` - user/kernel usage statistics.
  - `memory` - process private/shared memory statistics.
  - `network` - process network utilization.
+ - `network-requests` - process network requests.
  - `phone-signal` - phone signal strength.
  - `logcat` - process logs from logcat (Adds *android.permission.READ_LOGS* permission.)
  - `gps` - raw GPS location data, if used by app.

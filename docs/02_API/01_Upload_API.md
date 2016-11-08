@@ -64,11 +64,11 @@ listed below. An additional human-readable error message is supplied, with regar
 ### Example Request (CURL)
 ```
 curl https://app.testfairy.com/api/upload
-	-F api_key='your_api_key'
-	-F file=@sample.apk
-	-F symbols_file=@sample_mapping.txt
-	-F metrics='cpu,network,logcat'
-	-F testers_groups='friends,beta'
+	-F api_key='your_api_key' \
+	-F file=@sample.apk \
+	-F symbols_file=@sample_mapping.txt \
+	-F metrics='cpu,network,logcat' \
+	-F testers_groups='friends,beta' 
 ```
 
 ### Example Response

@@ -3,7 +3,7 @@
 	"tagline": "",
 	"docs_path": "docs",
 	"image": "img/app.png",
-	"theme": "navy",
+	"theme": "navy", 
 	"template":"default",
 	"float": false,
 	"toggle_code": false,

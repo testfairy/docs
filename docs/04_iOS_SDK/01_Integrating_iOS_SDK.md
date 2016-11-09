@@ -86,9 +86,11 @@ If your project doesn’t already include a Prefix Header (.pch), follow these s
 
 6. Under "Apple LLVM 7.0" you will get the Prefix Header key.
 
-7. Type the location of the file, eg.: "$(SRCROOT)/$(PROJECT_NAME)/ProjectName-Prefix.pch".
+7. Type the path of the file, eg.: "$(SRCROOT)/$(PROJECT_NAME)/ProjectName-Prefix.pch", however your file may be at a different location.
 
-8. Clean your project, and rebuild.
+8. Make sure the option "Precompile Prefix Header" is set to YES.
+
+9. Clean your project, and rebuild.
 
 That’s it! Your app will be sending logs to TestFairy.
 

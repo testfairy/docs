@@ -18,7 +18,8 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | api_key         | Y           | Your API application key. See https://app.testfairy.com/settings for details. |
 | file            | Y           | APK or IPA file data. |
 | symbols_file    |             | Symbols mapping file. |
-| testers_groups  |             | Comma-separated list of tester groups to be notified on the new build. Or "all" to notify all testers. |
+| testers_groups  |             | Comma-separated list of tester groups to be invited on the new build. Or "all" to invite all testers. |
+| notify          |             | Send emails to the notified tester groups. Default is "on". |
 | metrics         |             | Comma-separated list of metrics to record. View list below. |
 | max-duration    |             | Maximum session recording length, eg 20m or 1h. Default is "10m". Maximum 24h. |
 | video           |             | Video recording settings "on", "off" or "wifi" for recording video only when wifi is available. Default is "on". |
@@ -68,7 +69,8 @@ curl https://app.testfairy.com/api/upload \
 	-F file=@sample.apk \
 	-F symbols_file=@sample_mapping.txt \
 	-F metrics='cpu,network,logcat' \
-	-F testers_groups='friends,beta' 
+	-F testers_groups='friends,beta' \
+	-F notify='on'
 ```
 
 ### Example Response

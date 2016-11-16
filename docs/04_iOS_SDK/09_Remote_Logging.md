@@ -37,7 +37,7 @@ One suggestion might be to add a macro to a universally used header. The macro c
 
 ### Swift
 
-In Swift, you can override calls to NSLog by creating a new swift file, and replacing the contents of the file with the snippet below. This will override all calls to NSLog with a call to `print` and `TFLogv`, which will output to your console, and to your TestFairy Session
+In Swift, you can override calls to NSLog by creating a new swift file, and replacing the contents of the file with the snippet below. This will override all calls to NSLog with a call to `print` and `TFLogv`, which will output to your console, and to your TestFairy session (make sure you've already follow the steps to adding the TestFairy sdk to your [Swift projects](https://docs.testfairy.com/iOS_SDK/Adding_to_Swift_Projects.html))
 
 ```
 //

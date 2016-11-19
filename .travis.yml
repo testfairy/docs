@@ -20,5 +20,5 @@ script:
   - chmod 0600 id_docs.key
   - chmod 0600 static/.htaccess
   - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key -r static/* $REMOTE_DOCS_LOCATION
-  - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key static/.htaccess $REMOTE_DOCS_LOCATION
+# FIND A WAY TO CP .htaccess OR SET ErrorDocument  - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key static/.htaccess $REMOTE_DOCS_LOCATION
 

@@ -54,6 +54,8 @@ You get:
 ## Sending your NSLog to TestFairy (optional)
 TestFairy shows you a video recording and screenshots of your app, paired with a full app log. This combination allows you to understand what happens in your app at any given moment.
 
+### Objective-C
+
 **Changing your Prefix Header** 
 
 To enable the app sending logs to TestFairy,  you will update your projects Prefix Header (.pch):
@@ -79,7 +81,28 @@ If your project doesn’t already include a Prefix Header (.pch), follow these s
 	#import "TestFairy.h"
 	#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0) 
 	```
-	
+
+### Swift
+
+1. Once you've included the TestFairy SDK into your Swift application, in order to automatically gather logs from your app, create a new file named `NSLog.swift`, and add the following to the contents of the file
+
+```
+//
+//  NSLog.swift
+//
+//  Copyright © 2016 TestFairy. All rights reserved.
+//
+
+import Foundation
+
+public func NSLog(_ format: String, _ args: CVarArg...) {
+    let message = String(format: format, arguments:args)
+    print(message);
+    TFLogv(message, getVaList([]))
+}
+```
+This will print any output to `NSLog` to both the console, and to the active session on TestFairy.
+
 4. From the Project Navigator, select your project and the corresponding target.
 
 5. Project > Build Settings > Search: "Prefix Header".

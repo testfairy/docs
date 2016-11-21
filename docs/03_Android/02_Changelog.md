@@ -1,10 +1,12 @@
 ### Version 1.4.0
 Released: 2016-11-21
+
 * [NEW] Stop API added, as a developer you can decide to stop the current session recording, and start a new one whenever you want [See java doc](https://app.testfairy.com/reference/android/).
 * [BUGFIX] Fix memory leaks that was appeared in very specific scenarios.
 
 ### Version 1.3.11
 Released: 2016-11-06
+
 * [BUGFIX] Fix double start session issue
 
 ### Version 1.3.10

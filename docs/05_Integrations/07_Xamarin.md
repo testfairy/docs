@@ -23,6 +23,31 @@ public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 }
 ```
 
+### Remote Logging
+
+Prior to iOS 10, TestFairy would automatically capture any device logs. However, with the introduction of a new logging system by Apple in iOS 10, in order to capture logging information along with your session, some extra steps are required. We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks as follows:
+
+```
+using TestFairyLib;
+...
+public static void Log(string format, params object[] arg)
+{
+    using (var nsFormat = new NSString(string.Format(format, arg)))
+    {
+        CFunctions.TFLog(nsFormat.Handle, "");
+        Console.WriteLine(string.Format(format, arg));
+    }
+}
+```
+
+Now, you can log statements using the call
+
+```
+Log("Hello {0}", "World");
+```
+
+Note: This requires Xamarin plugin version 2.1.0 and above.
+
 ### Upload dSYM
 
 With TestFairy, symbolicating crash reports is easy as pie. A simple Build Phase script can automatically upload the compressed .dSYM file for future symbolicaton.

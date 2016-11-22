@@ -1,3 +1,14 @@
+### Version 1.4.0
+Released: 2016-11-21
+
+* [NEW] We added an API for stopping sessions, so you can stop and restart session according to your own specific logic [See java doc](https://app.testfairy.com/reference/android/).
+* [BUGFIX] We fixed a minor memory-leak.
+
+### Version 1.3.11
+Released: 2016-11-06
+
+* [BUGFIX] Fix double start session issue
+
 ### Version 1.3.10
 Released: 2016-10-26
 

@@ -1,7 +1,7 @@
 ### Version 1.4.2
 Released: 2016-11-28
 
-* [BUGFIX] fix a bug related to TextureView screenshot.
+* [BUGFIX] Fix a bug related to TextureView screenshot while the app in the background.
 
 ### Version 1.4.0
 Released: 2016-11-21

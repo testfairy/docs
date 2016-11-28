@@ -17,6 +17,7 @@
 			"text" => $text,
 			"color" => "danger",
 		);
+
 		$post_data = "payload=" . json_encode($args);
 		$context = stream_context_create(array(
 			'http' => array(
@@ -28,8 +29,10 @@
 				'content' => $post_data
 			),
 		));
+
 		@file_get_contents($url, false, $context);
 	}
 
 	$requestedRoute = $_SERVER['REQUEST_URI'];
-	sendSlackMessage("https://hooks.slack.com/services/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", "tishma", "404 - not found: $requestedRoute");
+	$url = trim(file_get_contents("/etc/testfairy/docs-404-slack-url"));
+	sendSlackMessage($url, "tishma", "404 - not found: $requestedRoute");

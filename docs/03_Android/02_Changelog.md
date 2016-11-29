@@ -1,3 +1,8 @@
+### Version 1.4.3
+Released: 2016-11-29
+
+* [BUGFIX] Fix sessions that was detected as on background from the first seconds.
+
 ### Version 1.4.2
 Released: 2016-11-28
 

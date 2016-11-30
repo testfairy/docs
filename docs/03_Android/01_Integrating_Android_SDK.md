@@ -73,6 +73,9 @@ The phone signal graph shows the GSM Signal Strength, with valid values (0-31, 9
 In order to automatically upload wifi status to your account, please add the permission ```android.permission.ACCESS_WIFI_STATE```. 
 The wifi signal will be tracked. 
 
+## File Size
+The size of the SDK is 302KB
+
 <br><br>
 Maybe you want to read also [Manual integration with Eclipse and Ant](http://docs.testfairy.com/Android/Manual_integration_with_Eclipse_and_Ant.html).
 

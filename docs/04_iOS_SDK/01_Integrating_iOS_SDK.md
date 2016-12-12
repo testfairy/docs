@@ -50,6 +50,28 @@ You get:
         ```
         TestFairy.begin("0000111122223333444455566667777788889999")	
         ```
+	
+    * Create an Objective-C bridging header 
+		
+		Since this process only needs to be done once per project, if you have already done so, just update your bridging header file.
+
+		* Right-click on your project, select `New File...`
+		* Select `Header File.h`
+		* Save as `Bridging.h` in your project
+		* Click on `Bridging.h` to open it in editor
+		* Add the following line to the code: 
+
+	  ```
+	   #import "TestFairy.h"
+	   ```
+
+		Update Build Settings with the new bridging header:
+
+		* Click on your project
+		* Select *Build Settings* tab
+		* Select the "All" filter, in order to find *Swift Compiler - Code Generation*: *Objective-C Bridging Header*
+		* Edit *Swift Compiler - Code Generation*: *Objective-C Bridging Header* (double-click to edit).
+		* Drag "Bridging.h" from the source tree onto the edit box opened
   
 ## Sending your NSLog to TestFairy (optional)
 TestFairy shows you a video recording and screenshots of your app, paired with a full app log. This combination allows you to understand what happens in your app at any given moment.

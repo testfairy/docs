@@ -1,3 +1,10 @@
+### Version 1.8.1
+Released 2016-12-13
+
+* [NEW] Improved startup time
+* [NEW] Detect button and table cell selections
+* [NEW] Improved feedback experience
+
 ### Version 1.8.0
 Released: 2016-08-25
 

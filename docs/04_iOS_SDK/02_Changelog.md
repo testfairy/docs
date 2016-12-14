@@ -2,8 +2,9 @@
 Released 2016-12-13
 
 * [NEW] Improved startup time
-* [NEW] Detect button and table cell selections
-* [NEW] Improved feedback experience
+* [NEW] Detect UIButton clicks and table cell selections
+* [NEW] Remember tester's email accross feedback submissions
+* [BUGFIX] `updateLocations` failed to register coordinates in some cases
 
 ### Version 1.8.0
 Released: 2016-08-25

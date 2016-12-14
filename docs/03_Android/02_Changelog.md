@@ -1,3 +1,8 @@
+### Version 1.4.4
+Released: 2016-12-15
+
+* [BUGFIX] Fix Auto Update for Android 7 and targetSdkVersion > 23  
+
 ### Version 1.4.3
 Released: 2016-11-29
 

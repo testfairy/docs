@@ -5,8 +5,7 @@
 ## Manual installation iOS
 
 1. `npm install --save react-native-testfairy`
-2. In XCode, right click the Libraries folder under your project ➜ `Add Files to <your project>`.
-3. Go to `node_modules` ➜ `react-native-testfairy` ➜ `ios` and add all files.
+3. In Finder, Go to `node_modules` ➜ `react-native-testfairy`, and drag the `ios` directory into your project. Be sure to "Copy items if needed" is selected in the dialog box shown.
 4. Add libTestFairy.a from the linked project to your project properties ➜ "Build Phases" ➜ "Link Binary With Libraries"
 5. Next you will have to link a few more SDK framework/libraries which are required by TestFairy (if you do not already have them linked.) Under the same "Link Binary With Libraries", click the + and add the following:  
    * CoreMedia.framework  

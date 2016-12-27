@@ -1,3 +1,8 @@
+### Version 1.4.5
+Released: 2016-12-27
+
+* [IMPROVEMENT] Minor performance improvement on inspect element component.
+
 ### Version 1.4.4
 Released: 2016-12-15
 

@@ -30,6 +30,7 @@ Identify the current session with in-house identifier:
   ```
   
 Identify the current session with traits about its user:
+
   ```
   Map<String, Object> traits = new HashMap<String, Object>();
   

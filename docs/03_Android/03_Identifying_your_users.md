@@ -31,14 +31,14 @@ Identify the current session with in-house identifier:
   
 Identify the current session with traits about its user:
 
-  ```
+```
   Map<String, Object> traits = new HashMap<String, Object>();
   
   traits.put(TestFairy.IDENTITY_TRAIT_NAME, "Johnny Bonny");
   traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
   traits.put(TestFairy.IDENTITY_TRAIT_PHONE_NUMBER, "+1-850-245-5655");
   TestFairy.identify("", traits);
-  ```
+```
   
 Identify session with custom fields:
   ```

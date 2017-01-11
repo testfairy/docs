@@ -41,7 +41,7 @@ Identify the current session with traits about its user:
 ```
   
 Identify session with custom fields:
-  ```
+```
   Map<String, Object> traits = new HashMap<String, Object>();
   
   traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
@@ -49,7 +49,7 @@ Identify session with custom fields:
   traits.put("custom.total_game_play_hours", 314);
   traits.put("custom.amount_spent_in_game", 864.30);
   TestFairy.identify("", traits);
-  ```
+```
 
 ### Code snippet: Grabbing the user's email address
 

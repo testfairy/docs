@@ -15,10 +15,10 @@ script:
   - php index.php generate
   - cp static/API/Upload_API.html static/index.html
   - cp 404/* static/
-  - cp 404/.htaccess static/
+  - cp .htaccess static/
   - curl -s http://checkip.amazonaws.com/
   - chmod 0600 id_docs.key
   - chmod 0600 static/.htaccess
-  - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key -r static/* $REMOTE_DOCS_LOCATION
+  - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key -r static/* static/.htaccess $REMOTE_DOCS_LOCATION
 # FIND A WAY TO CP .htaccess OR SET ErrorDocument  - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key static/.htaccess $REMOTE_DOCS_LOCATION
 

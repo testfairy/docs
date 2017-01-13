@@ -18,6 +18,6 @@ script:
   - cp .htaccess static/
   - curl -s http://checkip.amazonaws.com/
   - chmod 0600 id_docs.key
-  - chmod 0600 static/.htaccess
+  - chmod 0644 static/.htaccess
   - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key -r static/* static/.htaccess $REMOTE_DOCS_LOCATION
 

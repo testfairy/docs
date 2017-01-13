@@ -11,5 +11,6 @@ RewriteRule ^ios_sdk/adding_udids_to_ios_development_profile.html /iOS_SDK/Addin
 RewriteRule ^api/upload_api.html /API/Upload_API.html [R=301,L]
 
 RewriteRule ^Integrations/Travis_CI.html /Continuous_Integration/Travis_CI.html [R=301,L]
+RewriteRule ^Integrations/Bamboo.html /Continuous_Integration/Bamboo.html [R=301,L]
 
 ErrorDocument 404     /404.php

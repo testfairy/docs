@@ -1,5 +1,5 @@
 
-#How to upload .dSYM
+
 <hr>
 ## Upload API
 

@@ -2,7 +2,7 @@ Adding TestFairy plugin to your Ionic project is simple.
 
 ## Install te TestFairy Ionic plugin
 
-Run the following commands:
+Run the following commands from your application root folder:
 
 ```
 ionic plugin add com.testfairy.cordova-plugin

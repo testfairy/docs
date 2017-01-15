@@ -21,7 +21,7 @@ For more details, please checkout the [Upload API Documentation](https://docs.te
 
 To enable automatic uploads of .dSYM file, please follow [these steps](https://docs.testfairy.com/iOS_SDK/Automatic_Upload_of_dSYM.html)
 
-## Automatic Upload of dSYM
+## Upload of dSYM for Xamarin
 
 In order to upload .dSYM for Xamarin projects please follow [these steps](https://docs.testfairy.com/Platforms/Xamarin.html)
 

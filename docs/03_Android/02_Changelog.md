@@ -1,3 +1,8 @@
+### Version 1.4.6
+Released: 2016-01-12
+
+* [NEW] Support for VisualSupport
+
 ### Version 1.4.5
 Released: 2016-12-27
 

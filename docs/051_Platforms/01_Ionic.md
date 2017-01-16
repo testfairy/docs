@@ -6,7 +6,7 @@ Run the following commands from your application root folder:
 
 ```
 ionic plugin add com.testfairy.cordova-plugin
-cordova plugin add cordoba-plugin-console
+cordova plugin add cordova-plugin-console
 ```
 Alternatively, you could install it directly from GitHub:
 ```

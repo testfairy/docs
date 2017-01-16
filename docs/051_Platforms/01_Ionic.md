@@ -6,13 +6,18 @@ Run the following commands from your application root folder:
 
 ```
 ionic plugin add com.testfairy.cordova-plugin
-ionic plugin add cordova-plugin-console
 ```
 
 Alternatively, you could install it directly from GitHub:
 
 ```
 ionic plugin add https://github.com/testfairy/testfairy-cordova-plugin
+```
+
+In order to support [remote logging](https://docs.testfairy.com/iOS_SDK/Remote_Logging.html) for iOS 10 devices, you'll need to install the console plugin
+
+```
+ionic plugin add cordova-plugin-console
 ```
 
 ## Add TestFairy to your code

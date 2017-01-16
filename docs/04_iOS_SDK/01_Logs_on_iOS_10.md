@@ -30,6 +30,19 @@ If your project doesn’t already include a Prefix Header (.pch), follow these s
 	#import "TestFairy.h"
 	#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0) 
 	```
+4. From the Project Navigator, select your project and the corresponding target.
+
+5. Project > Build Settings > Search: "Prefix Header".
+
+6. Under "Apple LLVM 7.0" you will get the Prefix Header key.
+
+7. Type the path of the file, eg.: "$(SRCROOT)/$(PROJECT_NAME)/ProjectName-Prefix.pch", however your file may be at a different location.
+
+8. Make sure the option "Precompile Prefix Header" is set to YES.
+
+9. Clean your project, and rebuild.
+
+That’s it! Your app will be sending logs to TestFairy.
 
 ### Swift
 
@@ -52,16 +65,3 @@ public func NSLog(_ format: String, _ args: CVarArg...) {
 ```
 This will print any output to `NSLog` to both the console, and to the active session on TestFairy.
 
-4. From the Project Navigator, select your project and the corresponding target.
-
-5. Project > Build Settings > Search: "Prefix Header".
-
-6. Under "Apple LLVM 7.0" you will get the Prefix Header key.
-
-7. Type the path of the file, eg.: "$(SRCROOT)/$(PROJECT_NAME)/ProjectName-Prefix.pch", however your file may be at a different location.
-
-8. Make sure the option "Precompile Prefix Header" is set to YES.
-
-9. Clean your project, and rebuild.
-
-That’s it! Your app will be sending logs to TestFairy.

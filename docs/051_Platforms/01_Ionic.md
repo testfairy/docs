@@ -43,19 +43,13 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 ### Ionic 2
 
-With Ionic 2, after adding the plugin to your project, you must first add a path to the plugin typescript definition. Modify your `typings/index.d.ts` by adding the line
+With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaraion file in `src/declarations.d.ts` by adding the line
 
 ```
-/// <reference path="../plugins/com.testfairy.cordova-plugin/www/testfairy.d.ts" />
+declare var TestFairy:any;
 ```
 
-Next, in your `app.ts` file, right after the imports, add the following line to import TestFairy
-
-```
-declare var TestFairy: TestFairy;
-```
-
-Finally, invoke `begin` passing in your **APP TOKEN** which is available at `https://app.testfairy.com/settings/#apptoken`. We recommend invoking the `begin` method once `platform.ready()` is invoked as given in the example below:
+Next, in your `src/app/app.component.ts` file, invoke `begin` passing in your **APP TOKEN** which is available at `https://app.testfairy.com/settings/#apptoken`. We recommend invoking the `begin` method once `platform.ready()` is invoked as given in the example below:
 
 ```
 platform.ready().then(() => {

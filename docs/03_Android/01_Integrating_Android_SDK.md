@@ -22,17 +22,6 @@ when and how people are using your app, and provide you with any metric you need
 <iframe frameBorder="0" width="100%" height="300" src="https://app3-yair.testfairy.com/sdk/android/iframe"></iframe>
 
 
-   ```
-   import com.testfairy.TestFairy;
-
-   public class MainActivity extends Activity {
-
-       @Override
-       public void onCreate() {
-           TestFairy.begin(this, YOUR_APP_TOKEN); // e.g "0000111122223333444455566667777788889999";
-       }
-   ```
-
 3. (Optional) If you have *Proguard* enabled, please add this snippet to your proguard rules file (eg `proguard-rules.pro`, `proguard.cfg` or others):
    ```
    -keep class com.testfairy.** { *; }

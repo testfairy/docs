@@ -34,14 +34,11 @@ You get:
     
     * Open your **AppDelegate.m** file.
     
-    * Add this line to your *imports* section:
-    `#import "TestFairy.h"`
+    * Add this code to your app:
     
-    * Locate `application:didFinishLaunchingWithOptions:` method and add a call using the *App Token* from your [Account Settings page](https://app.testfairy.com/settings#apptoken).
-        ```
-        [TestFairy begin:@"0000111122223333444455566667777788889999"];
-        ```
+    <iframe frameBorder="0" width="100%" height="200" src="https://app3-yair.testfairy.com/sdk/ios/iframe"></iframe>
 
+    
     **Swift**
     
     * Open your **AppDelegate.swift** file.

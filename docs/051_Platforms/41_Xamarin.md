@@ -1,3 +1,5 @@
+Xamarin Component is available [here](https://docs.testfairy.com/Platforms/Xamarin_Component.html)
+
 TestFairy is available for both Android and iOS. You can install the bindings by 1 of 3 ways
 
 1. Download the latest binding dll directly from [GitHub](https://github.com/testfairy/testfairy-xamarin/releases) for your specific platform

@@ -18,9 +18,9 @@ when and how people are using your app, and provide you with any metric you need
 
 2. Add Testfairy to your main activity's `onCreate`:
 
-<!--
-<iframe src="https://app.testfairy.com/sdk/android/iframe"></iframe>
--->
+
+<iframe frameBorder="0" width="100%" height="300" src="https://app3-yair.testfairy.com/sdk/android/iframe"></iframe>
+
 
    ```
    import com.testfairy.TestFairy;

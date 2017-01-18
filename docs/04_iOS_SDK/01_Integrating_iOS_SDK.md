@@ -36,7 +36,7 @@ You get:
     
     * Add this code to your app:
     
-    <iframe frameBorder="0" width="100%" height="200" src="https://app3-yair.testfairy.com/sdk/ios/iframe"></iframe>
+    <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/ios/iframe"></iframe>
 
     
     **Swift**

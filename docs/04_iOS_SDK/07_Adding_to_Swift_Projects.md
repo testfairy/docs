@@ -12,8 +12,15 @@ TestFairy runs in Swift projects as well. Follow these steps to add it to your p
       ```
       #import "TestFairy.h"
       ```
- 
- 2. **Initialize** the TestFairy framework:
+
+ 2. Update **Build Settings** with the new bridging header:
+
+    + Click on your project
+    + Select *Build Settings* tab
+    + Edit *Swift Compiler - Code Generation*: *Objective-C Bridging Header*
+    + Double-click, and enter `${SRCROOT}/${PROJECT_NAME}/BridgingHeader.h` into the edit box opened
+    
+ 3. **Initialize** the TestFairy framework:
 
     + Open your `AppDelegate.swift` file
     
@@ -23,13 +30,6 @@ TestFairy runs in Swift projects as well. Follow these steps to add it to your p
       ```
       TestFairy.begin("APP_TOKEN")  
       ```
-
-3. Update **Build Settings** with the new bridging header:
-
-    + Click on your project
-    + Select *Build Settings* tab
-    + Edit *Swift Compiler - Code Generation*: *Objective-C Bridging Header*
-    + Drag "Bridging.h" from the source tree onto the edit box opened
 
 4. Add the following **frameworks**:
 

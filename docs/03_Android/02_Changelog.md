@@ -1,7 +1,13 @@
+### Version 1.4.7
+Released: 2016-01-19
+
+* [BUGFIX] Improved VisualSupport.
+* [BUGFIX] Increased buffers to help app with log bursts.
+
 ### Version 1.4.6
 Released: 2016-01-12
 
-* [NEW] Support for VisualSupport
+* [NEW] Support for VisualSupport.
 
 ### Version 1.4.5
 Released: 2016-12-27
@@ -11,7 +17,7 @@ Released: 2016-12-27
 ### Version 1.4.4
 Released: 2016-12-15
 
-* [IMPROVEMENT] Auto Update is supported for Android 7 & targetSdkVersion > 23  
+* [IMPROVEMENT] Auto Update is supported for Android 7 and targetSdkVersion > 23 .
 
 ### Version 1.4.3
 Released: 2016-11-29

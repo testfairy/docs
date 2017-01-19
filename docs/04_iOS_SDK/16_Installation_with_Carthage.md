@@ -42,8 +42,10 @@ Once you have Carthage installed, you can begin adding frameworks to your projec
 1. You can follow the steps given (here)[] for automatic upload of symbol files, however, you can replace the path to the upload script with the following
 
 ```
-${SRCROOT}/Carthage/Build/iOS/TestFairySDK.framework/upload-dsym.sh 7ac85171ea92ad548396846dc4310e1e625fe65a
+${SRCROOT}/Carthage/Build/iOS/TestFairySDK.framework/upload-dsym.sh API_KEY
 ```
+
+Remember to replace API_KEY with your Upload API found in your user preferences at https://app.testfairy.com/settings
 
 2. If you get an error saying that you do not have permission to execute this script, you may need to make the script executable, so find the file on disk, and run the following command at the command line
 ```

@@ -23,6 +23,7 @@ when and how people are using your app, and provide you with any metric you need
 
 
 3. (Optional) If you have *Proguard* enabled, please add this snippet to your proguard rules file (eg `proguard-rules.pro`, `proguard.cfg` or others):
+
    ```
    -keep class com.testfairy.** { *; }
    -dontwarn com.testfairy.**

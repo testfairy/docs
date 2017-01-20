@@ -9,6 +9,9 @@ RewriteRule ^wp-login.php https://wordpress.com [R=302,L]
 RewriteRule ^ios_sdk/integrating_with_cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^iOS_SDK/Integrating_with_Cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^Integrations/Cordova.html /Platforms/Cordova.html [R=301,L]
+RewriteRule ^ios_sdk/integrating_with_react_native.html /Platforms/React_Native.html [R=301,L]
+
+RewriteRule ^android/integrating_android_sdk.html /Android/Integrating_Android_SDK.html [R=301,L]
 
 RewriteRule ^api/webhooks.html /API/Webhooks.html [R=301,L]
 

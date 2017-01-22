@@ -13,7 +13,7 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 3. Click on “Debug Information Format” and select “DWARF with dSYM File”
 ![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)
 
-### Select your convinient method to upload debug symbols ###
+### Choose the right method for you to upload debug symbols
 There are different ways to upload the debug symbols: 
 * [Using our app upload API](#upload-dsym-using-the-upload-api): upload your ipa with the debug symbols.
 * [Using the TestFairy Jenkins plugin](#upload-dsym-using-the-testFairy-jenkins-plugin): upload your ipa with the debug symbols.

@@ -1,6 +1,5 @@
 
 
-# How to make sure crash reports contain debug symbols #
 TestFairy crash reports are easier to understand when they show actual debug symbols instead of addresses. To enable this, you'll need to upload your debug symbols to TestFairy. 
 There are several ways to do that.
 

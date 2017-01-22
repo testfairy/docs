@@ -133,16 +133,16 @@ Locate your dSYM directory. It can be found under
       ```
       
  For example, the dsym file for my ‘Hi’ app is stored here:     
-```
-   ~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphonesimulator/Hi.app.dSym
-```
+	```
+	   ~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphonesimulator/Hi.app.dSym
+	```
       
 2. Locate your Upload API Key, you can find it here (make sure not to use your App-token, which is a different thing entirely).
 3. Run this script: 
   
- ```
-	./Upload-dsym.sh -f TESTFAIRY_UPLOAD_API_KEY -p DSYM_PATH
- ```
+	 ```
+		./Upload-dsym.sh -f TESTFAIRY_UPLOAD_API_KEY -p DSYM_PATH
+	 ```
       
 Once you run the script it will compress the symbols directory and upload the symbols to TestFairy. 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
@@ -152,17 +152,17 @@ If you upload apps straight from the TestFairy dashboard, upload your debug symb
 
 1. Create a zip file from the contents of your symbols directory. This directory is usually found under this location:
 
-``` 
-    {XCODE}/DerivedData/{APP_DERIVED_DATA}/Builds/Products/{TARGET_NAME}/  
-```
+	``` 
+	    {XCODE}/DerivedData/{APP_DERIVED_DATA}/Builds/Products/{TARGET_NAME}/  
+	```
     
 For example, this commands creates a zip file called symbols.zip  from the symbols of my ‘Hi’ app and stores it under the /tmp directory.
 
 
-``` 
-    zip -r /tmp/symbols.zip
-    ~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphoneos/Hi.app.dSYM/*
- ``` 
+	``` 
+	zip -r /tmp/symbols.zip
+	 ~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphoneos/Hi.app.dSYM/*
+	 ``` 
 
 2. Login to TestFairy.
 

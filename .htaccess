@@ -24,6 +24,7 @@ RewriteRule ^api/webhooks.html /API/Webhooks.html [R=301,L]
 
 RewriteRule ^ios_sdk/adding_udids_to_ios_development_profile.html /iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html [R=301,L]
 RewriteRule ^api/upload_api.html /API/Upload_API.html [R=301,L]
+RewriteRule ^upload_api.html /API/Upload_API.html [R=301,L]
 
 
 RewriteRule ^Integrations/Travis_CI.html /Continuous_Integration/Travis_CI.html [R=301,L]

@@ -22,7 +22,7 @@ There are different ways to upload the debug symbols:
 * [From the build settings menu in TestFairy](#uploading-the-dsym-through-your-testfairy-dashboard): if you upload your app from the dashboard.
 * [There are also specific instructions for Xamarin](#debug-symbols-for-xamarin-apps)
 
-### Upload dSYM using the upload API ###
+### Upload dSYM using the upload API
 
 We recommend uploading dSYM files together with the app build files.
 Use our upload API when the app is ready for distribution and testing, and add the dSYM files as well.
@@ -40,8 +40,8 @@ Use our upload API when the app is ready for distribution and testing, and add t
      ```
      
 2. Run the upload command:
-    ```
     
+    ```
     curl https://app.testfairy.com/api/upload \
         -F api_key='YOUR_API_KEY GOES HERE' \
         -F file='YOUR IPA FILE GOES HERE' \
@@ -126,18 +126,20 @@ Please perform the following actions:
 If you are not planning to upload your app to TestFairy and you are not using Xcode, follow these instrucitons to upload your debug symbols:
 
 1. Download the upload dSYM script from [here]("https://s3.amazonaws.com/testfairy/sdk/upload-dsym.sh")
-Locate your dSYM directory. It can be found under
+2. Locate your dSYM directory. It can be found in:
      
      ```
     {XCODE}/DerivedData/{APP_DERIVED_DATA}/Builds/Products/{TARGET}/  
       ```
       
- For example, the dsym file for my ‘Hi’ app is stored here:     
+	For example, the dsym file for my ‘Hi’ app is stored here:     
+
 	```
 	~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphonesimulator/Hi.app.dSym
 	```
       
 2. Locate your Upload API Key, you can find it here (make sure not to use your App-token, which is a different thing entirely).
+
 3. Run this script: 
   
 	 ```
@@ -157,13 +159,12 @@ If you upload apps straight from the TestFairy dashboard, upload your debug symb
 	```
 	
     
-For example, this commands creates a zip file called symbols.zip  from the symbols of my ‘Hi’ app and stores it under the /tmp directory:
+	For example, this commands creates a zip file called symbols.zip  from the symbols of my ‘Hi’ app and stores it under the /tmp directory:
 
 	```
 	zip -r /tmp/symbols.zip
 	~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphoneos/Hi.app.dSYM/*
 	 ```
-
 
 2. Login to TestFairy.
 

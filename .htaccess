@@ -12,6 +12,7 @@ RewriteRule ^iOS_SDK/Using_Xamarin_Component.html /Platforms/Xamarin.html [R=301
 RewriteRule ^ios_sdk/adding_udids_to_ios_development_profile.html /iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html [R=301,L]
 
 RewriteRule ^Integrations/Cordova.html /Platforms/Cordova.html [R=301,L]
+RewriteRule ^integrations/cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^Integrations/React_Native.html /Platforms/React_Native.html [R=301,L]
 RewriteRule ^Integrations/Xamarin.html /Platforms/Xamarin.html [R=301,L]
 RewriteRule ^Integrations/Adobe_Air.html /Platforms/Adobe_Air.html [R=301,L]

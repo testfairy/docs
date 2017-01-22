@@ -14,14 +14,14 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 
 ### Choose the right method for you to upload debug symbols
 There are different ways to upload the debug symbols: 
-* [Using our app upload API](#upload-dsym-using-the-upload-api) : upload your ipa with the debug symbols.
-* [Using the TestFairy Jenkins plugin](#upload-dsym-using-the-testFairy-jenkins-plugin): upload your ipa with the debug symbols.
+* [Using our app upload API](#upload-api): upload your ipa with the debug symbols.
+* [Using the TestFairy Jenkins plugin](#jenkins): upload your ipa with the debug symbols.
 * [Straight from Xcode](#upload-dsym-from-xcode): when you don't distribute your ipa with TestFairy.
 * [Use our dsym upload script](#upload-dsym-using-a-script): if you don't use xcode and not distributing the app with TestFairy.
-* [From the build settings menu in TestFairy](#uploading-the-dsym-through-your-testfairy-dashboard): if you upload your app from the dashboard.
+* [From the build settings menu in TestFairy](#settings): if you upload your app from the dashboard.
 * [There are also specific instructions for Xamarin](#debug-symbols-for-xamarin-apps)
 
-### <a name="upload-dsym-using-upload-api"></a>Upload dSYM using the upload API
+### <a name="upload-api"></a>Upload dSYM using the upload API
 
 We recommend uploading dSYM files together with the app build files.
 Use our upload API when the app is ready for distribution and testing, and add the dSYM files as well.
@@ -54,7 +54,7 @@ You may also use our script that contains this command and use it in your build 
 
 If you need further instructions regarding out upload API, [read about it here](https://docs.testfairy.com/)
 
-### <a name="upload-dsym-using-the-testfairy-jenkins-plugin"></a>Upload dSYM using the TestFairy Jenkins Plugin
+### <a name="jenkins"></a>Upload dSYM using the TestFairy Jenkins Plugin
 
 We recommend uploading dSYM files together with the app build files.
 If you are using Jenkins for continuous integration, you can use the Jenkins TestFairy plugin to upload your app and add the dSym along the way.
@@ -148,7 +148,7 @@ If you are not planning to upload your app to TestFairy and you are not using Xc
 Once you run the script it will compress the symbols directory and upload the symbols to TestFairy. 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
-### <a name="upload-the-dsym-through-your-testfairy-dashboard"></a>Uploading the dsym through your TestFairy Dashboard
+### <a name="settings"></a>Uploading the dsym through your TestFairy Dashboard
 If you upload apps straight from the TestFairy dashboard, upload your debug symbols from the build-settings page. Here is how you do it:
 
 1. Create a zip file from the contents of your symbols directory. This directory is usually found under this location:

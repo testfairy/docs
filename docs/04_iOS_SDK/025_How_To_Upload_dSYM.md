@@ -1,6 +1,3 @@
-
-Take me to [hhh](#hhh)
-
 TestFairy crash reports are easier to understand when they show actual debug symbols instead of addresses. To enable this, you'll need to upload your debug symbols to TestFairy. 
 There are several ways to do that.
 
@@ -14,6 +11,7 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 3. Click on “Debug Information Format” and select “DWARF with dSYM File”
 ![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)
 
+
 ### Choose the right method for you to upload debug symbols
 There are different ways to upload the debug symbols: 
 * [Using our app upload API](#upload-dsym-using-the-upload-api) : upload your ipa with the debug symbols.
@@ -23,7 +21,7 @@ There are different ways to upload the debug symbols:
 * [From the build settings menu in TestFairy](#uploading-the-dsym-through-your-testfairy-dashboard): if you upload your app from the dashboard.
 * [There are also specific instructions for Xamarin](#debug-symbols-for-xamarin-apps)
 
-### Upload dSYM using the upload API
+### <a name="upload-dsym-using-upload-api"></a>Upload dSYM using the upload API
 
 We recommend uploading dSYM files together with the app build files.
 Use our upload API when the app is ready for distribution and testing, and add the dSYM files as well.
@@ -56,7 +54,7 @@ You may also use our script that contains this command and use it in your build 
 
 If you need further instructions regarding out upload API, [read about it here](https://docs.testfairy.com/)
 
-### Upload dSYM using the TestFairy Jenkins Plugin
+### <a name="upload-dsym-using-the-testfairy-jenkins-plugin"></a>Upload dSYM using the TestFairy Jenkins Plugin
 
 We recommend uploading dSYM files together with the app build files.
 If you are using Jenkins for continuous integration, you can use the Jenkins TestFairy plugin to upload your app and add the dSym along the way.
@@ -87,7 +85,7 @@ If you are using Jenkins for continuous integration, you can use the Jenkins Tes
 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
-### Upload dSYM from Xcode
+### <a name="upload-dsym-from-xcode"></a>Upload dSYM from Xcode
 
 If you don’t plan to distribute your app build through testfairy, but you added the SDK to your code and want to see crash reports, you can upload your dSYM straight from XCode.
 
@@ -123,7 +121,7 @@ Please perform the following actions:
 
 
 
-### Upload dSYM using a script
+### <a name="upload-dsym-using-a-script"></a>Upload dSYM using a script
 If you are not planning to upload your app to TestFairy and you are not using Xcode, follow these instrucitons to upload your debug symbols:
 
 1. Download the upload dSYM script from [here]("https://s3.amazonaws.com/testfairy/sdk/upload-dsym.sh")
@@ -150,7 +148,7 @@ If you are not planning to upload your app to TestFairy and you are not using Xc
 Once you run the script it will compress the symbols directory and upload the symbols to TestFairy. 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
-### Uploading the dsym through your TestFairy Dashboard
+### <a name="upload-the-dsym-through-your-testfairy-dashboard"></a>Uploading the dsym through your TestFairy Dashboard
 If you upload apps straight from the TestFairy dashboard, upload your debug symbols from the build-settings page. Here is how you do it:
 
 1. Create a zip file from the contents of your symbols directory. This directory is usually found under this location:
@@ -179,14 +177,9 @@ If you upload apps straight from the TestFairy dashboard, upload your debug symb
 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
-### Debug Symbols for Xamarin apps
+### <a name="debug-symbols-for-xamarin-apps"></a>Debug Symbols for Xamarin apps
 If you are using Xamarin, please refer to instructions in [this page.](https://docs.testfairy.com/Platforms/Xamarin.html)
 
-
-
-
-
-### <a name="hhh"></a>This is the Heading
 
 
 

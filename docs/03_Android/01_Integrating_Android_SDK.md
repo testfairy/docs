@@ -69,7 +69,8 @@ In order to automatically upload wifi status to your account, please add the per
 The wifi signal will be tracked. 
 
 ## File Size
-The size of the SDK is 302KB
+
+The size of the SDK is less than 250KB.
 
 <br><br>
 Maybe you want to read also [Manual integration with Eclipse and Ant](http://docs.testfairy.com/Android/Manual_integration_with_Eclipse_and_Ant.html).

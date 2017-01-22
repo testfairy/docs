@@ -55,7 +55,7 @@ You may also use our script that contains this command and use it in your build 
 
 If you need further instructions regarding out upload API, [read about it here](https://docs.testfairy.com/)
 
-### Upload dSYM using the TestFairy Jenkins Plugin ###
+### Upload dSYM using the TestFairy Jenkins Plugin
 
 We recommend uploading dSYM files together with the app build files.
 If you are using Jenkins for continuous integration, you can use the Jenkins TestFairy plugin to upload your app and add the dSym along the way.
@@ -86,7 +86,7 @@ If you are using Jenkins for continuous integration, you can use the Jenkins Tes
 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
-### Upload dSYM from Xcode ###
+### Upload dSYM from Xcode
 
 If you don’t plan to distribute your app build through testfairy, but you added the SDK to your code and want to see crash reports, you can upload your dSYM straight from XCode.
 
@@ -122,7 +122,7 @@ Please perform the following actions:
 
 
 
-### Upload dSYM using a script ###
+### Upload dSYM using a script
 If you are not planning to upload your app to TestFairy and you are not using Xcode, follow these instrucitons to upload your debug symbols:
 
 1. Download the upload dSYM script from [here]("https://s3.amazonaws.com/testfairy/sdk/upload-dsym.sh")
@@ -149,7 +149,7 @@ If you are not planning to upload your app to TestFairy and you are not using Xc
 Once you run the script it will compress the symbols directory and upload the symbols to TestFairy. 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
-### Uploading the dsym through your TestFairy Dashboard ###
+### Uploading the dsym through your TestFairy Dashboard
 If you upload apps straight from the TestFairy dashboard, upload your debug symbols from the build-settings page. Here is how you do it:
 
 1. Create a zip file from the contents of your symbols directory. This directory is usually found under this location:
@@ -178,7 +178,7 @@ If you upload apps straight from the TestFairy dashboard, upload your debug symb
 
 If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
-### Debug Symbols for Xamarin apps ###
+### Debug Symbols for Xamarin apps
 If you are using Xamarin, please refer to instructions in [this page.](https://docs.testfairy.com/Platforms/Xamarin.html)
 
 

@@ -15,7 +15,7 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 
 ### Choose the right method for you to upload debug symbols
 There are different ways to upload the debug symbols: 
-* [Using our app upload API](#upload-dsym-using-the-upload-api): upload your ipa with the debug symbols.
+* [Using our app upload API](#upload-dsym-using-the-upload-api) : upload your ipa with the debug symbols.
 * [Using the TestFairy Jenkins plugin](#upload-dsym-using-the-testFairy-jenkins-plugin): upload your ipa with the debug symbols.
 * [Straight from Xcode](#upload-dsym-from-xcode): when you don't distribute your ipa with TestFairy.
 * [Use our dsym upload script](#upload-dsym-using-a-script): if you don't use xcode and not distributing the app with TestFairy.

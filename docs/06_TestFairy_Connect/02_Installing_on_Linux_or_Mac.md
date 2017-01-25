@@ -3,6 +3,7 @@
 In order to install TestFairy Connect, you will need a linux server with
 - Nodejs 4.2+
 - Git 1.7+
+
 This server will need permissions to access your JIRA server, and to access the TestFairy cloud.
 
 For Team Foundation Server (TFS) integration, please refer to that documentation for additional requirements. 

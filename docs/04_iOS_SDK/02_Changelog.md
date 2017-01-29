@@ -2,7 +2,7 @@
 Released 2017-01-26
 
 * [NEW] Sessions can be stopped and restarted by invoking [TestFairy stop] and [TestFairy resume] respectively
-* [NEW] Identify crashes in TestFairy when using Crashlytics
+* [NEW] When using Crashlytics and TestFairy together, you can now easily get to your TestFairy session from Crashlytics with an easy to follow link. You will also see a message in TestFairy on how you can find your stack trace in Crashlytics.
 * [NEW] View network connection state on session timeline
 * [NEW] View network request error code in session timeline
 * [BUGFIX] Improved SDK security

@@ -35,7 +35,7 @@ If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could
 
 ![alt](../../img/ios/dsym-upload/enable_dsyms.png)
 
-### Multiple dSYMs? No problem!
+### How to upload multiple dSYMs
 
 You can upload multiple dSYMs per build. Some developers have frameworks developed in-house, and these frameworks make it to the final .IPA file. In order to upload dSYM in your framework project, just implement **Run Script** above in your framework's settings.
 

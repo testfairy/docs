@@ -1,3 +1,12 @@
+### Version 1.8.2
+Released 2017-01-26
+
+* [NEW] Sessions can be stopped and restarted by invoking [TestFairy stop] and [TestFairy resume] respectively
+* [NEW] Identify crashes in TestFairy when using Crashlytics
+* [NEW] View network connection state on session timeline
+* [NEW] View network request error code in session timeline
+* [BUGFIX] Improved SDK security
+
 ### Version 1.8.1
 Released 2016-12-13
 

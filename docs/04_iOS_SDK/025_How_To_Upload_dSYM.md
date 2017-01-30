@@ -180,7 +180,6 @@ If a crash will occur, Testfairy will add the symbols to the crash report so you
 ### <a name="debug-symbols-for-xamarin-apps"></a>Debug Symbols for Xamarin apps
 If you are using Xamarin, please refer to instructions in [this page.](https://docs.testfairy.com/Platforms/Xamarin.html)
 
-
-
-
+### How to upload multiple dSYMs
+You can upload multiple dSYMs per build. Some developers have frameworks developed in-house, and these frameworks make it to the final .IPA file. In order to upload dSYM in your framework project, just implement Run Script above in your framework's settings.
 

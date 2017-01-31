@@ -1,17 +1,17 @@
 <a name="top"></a>
 
-* Becoming a Testfaiy tester (iOS)
+* Becoming a TestFariy tester (iOS)
   * [How do I register to TestFairy as a tester?](#invite-tester-ios)
   * [How do I download and install an application?](#download-tester-ios)
   * [Troubleshooting installation](#troubleshooting-tester-ios)
 
-* Becoming a Testfaiy tester (Android)
+* Becoming a TestFariy tester (Android)
   * [How do I register to TestFairy as a tester?](#invite-tester-android)
   * [How do I download and install an application?](#download-tester-android)
   * [Troubleshooting installation](#troubleshooting-tester-android)
 
 ### <a name="invite-testere-ios"></a>How do I register to TestFairy as a tester? (iOS)
-  * In order to start testing with TestFairy, you need to be invited by the application owner/developer.
+  In order to start testing with TestFairy, you need to be invited by the application owner/developer.
   Once you get an email invitation from the developer of the app, follow these steps to register your phone.
   
   1. Open the invitation mail and follow the link to register your mobile device in TestFairy.
@@ -30,7 +30,7 @@
 [Back to top](#top)
 
 ### <a name="download-tester-ios"></a>How do I download and install an application? (iOS)
-  * You should receive an email from the application developer that invites you to test an application build:
+  You should receive an email from the application developer that invites you to test an application build:
 
   1. Click the “DOWNLOAD APP” link that appears in the mail:
   
@@ -51,7 +51,7 @@
 [Back to top](#top)
 
 ### <a name="troubleshooting-tester-ios"></a>Troubleshooting installation (iOS)
-  * In case the application does not install on your device, we recommend that you run the troubleshooting tool.
+  In case the application does not install on your device, we recommend that you run the troubleshooting tool.
   
 
   1. Open your TestFairy account (https://my.testfairy.com) link that appears in the mail:
@@ -78,7 +78,7 @@
 
 
 ### <a name="invite-testere-android"></a>How do I register to TestFairy as a tester? (Android)
-  * In order to start testing with TestFairy, you need to be invited by the application owner/developer.
+  In order to start testing with TestFairy, you need to be invited by the application owner/developer.
   Once you get an email invitation from the developer of the app, follow these steps to register your phone.
   
   1. Open the invitation mail and follow the link to register your mobile device in TestFairy.
@@ -92,7 +92,7 @@
 [Back to top](#top)
 
 ### <a name="download-tester-android"></a>How do I download and install an application? (Android)
-  * You should receive an email from the application developer that invites you to test an application build:
+  You should receive an email from the application developer that invites you to test an application build:
 
   1. Click the “DOWNLOAD APP” link that appears in the mail:
   

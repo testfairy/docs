@@ -23,7 +23,7 @@
     <img src="/img/tester/02-install-profile-ios.png" width="300"/><img src="/img/tester/03-install-profile2-ios.png" width="300"/>
     
   
-  3. Your device is now Registered in TestFairy, You should now wait for the developer to send you a link to download the application to be tested.
+  3. Your device is now registered in TestFairy, You should now wait for the developer to send you a link to download the application to be tested.
   
     <img src="/img/tester/04-register-done-ios.png" width="300"/> 
 
@@ -85,7 +85,7 @@
   
     <img src="/img/tester/40-invite-android.png" width="300"/> 
 
-  2. Your device is now Registered in TestFairy, You should now wait for the developer to send you a link to download the application to be tested.
+  2. Your device is now registered in TestFairy, You should now wait for the developer to send you a link to download the application to be tested.
   
     <img src="/img/tester/41-invite-android.png" width="300"/>
 

@@ -1,14 +1,21 @@
 <a name="top"></a>
 
-* Becoming a TestFariy tester (iOS)
+## Becoming a TestFariy tester (iOS)
   * [How do I register to TestFairy as a tester?](#invite-tester-ios)
   * [How do I download and install an application?](#download-tester-ios)
   * [Troubleshooting installation](#troubleshooting-tester-ios)
 
-* Becoming a TestFariy tester (Android)
+## Becoming a TestFariy tester (Android)
   * [How do I register to TestFairy as a tester?](#invite-tester-android)
   * [How do I download and install an application?](#download-tester-android)
   * [Troubleshooting installation](#troubleshooting-tester-android)
+
+## Genral
+  * [How do I create a tester account?](#create-tester-account)
+  * [How do I open a bug?](#open-bug)
+  * [How do I provide feedback on the application?](#send-feedback)
+  * [How do I see which applications can I test?](#mytestfairy-apps)
+  * [How do I download applications?](#mytestfairy-download)
 
 ### <a name="invite-testere-ios"></a>How do I register to TestFairy as a tester? (iOS)
   In order to start testing with TestFairy, you need to be invited by the application owner/developer.
@@ -118,6 +125,61 @@
 
 ### <a name="troubleshooting-tester-android"></a>Troubleshooting installation (Android)
   * In case the application does not install on your device, please check if you have the same application already installed with the same name and remove it.
+  
+  * In Case you are getting "Install blocked" message
+  
+   <img src="/img/tester/60-unknown-sources-msg.png" width="300"/> 
+  
+    * Go to "Settings" of your device
+    * Choose "Security" option
+    * Look for "Unknown sources" option
+    * Activate the "Allow installation of apps from sources other than the Play Store" option
+    * Install the application again
+   
+    <img src="/img/tester/61-unknown-sources-android.png" width="300"/> 
+  
+[Back to top](#top)
+
+### <a name="create-tester-account"></a>How do I create a tester account?
+  * Once you are invited to test an application via TestFairy, you can create a TestFairy account to see your invitations, open bugs, download applications etc.
+  Open the mail you got to test a new build and click the ["tester account"](https://my.testfairy.com/) link.
+  
+  <img src="/img/tester/11-invite-build.png" width="300"/> 
+  
+  Click on the ["I am a tester, I do not know my password"](https://my.testfairy.com/forgot-password) and submit your email.
+  You will recive an email that will instaruct you to set a new password to your tester account at https://my.testfairy.com/.
+  
+[Back to top](#top)
+
+### <a name="open-bug"></a>How do I open a bug?
+
+When you find a bug is found during your testing session, you can report back in several ways.
+
+* Logging into your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com)
+* Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app.
+* Shaking the device and fill in the feedback form that pops up. 
+
+<img src="/img/app/tester.png" width="800"/>
+  
+[Back to top](#top)
+
+### <a name="send-feedback"></a>How do I provide feedback on the application?
+* The best way to provide feedback is to shake the device and fill the pop up form. If this is not available, ask the application developer to enable it. 
+  
+[Back to top](#top)
+
+### <a name="mytestfairy-apps"></a>How do I see which applications can I test?
+  * Login to your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com) or [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) and you will be able to see all the applications you have been invited to test, download them and open bugs. 
+  
+[Back to top](#top)
+
+
+### <a name="mytestfairy-download"></a>How do I download an applications?
+You have several options to download an application
+  
+  * You should receive an email from the application developer that invites you to test and download an application build.
+  * Login to your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com) or [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) and you will be able to see all the applications you have been invited to test, download them and open bugs.
+  * Via the community page of the application that was published by the application developer.
   
 [Back to top](#top)
 

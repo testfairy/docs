@@ -8,7 +8,7 @@ TestFairy has a seamless, bi-directional integration with **Bugzilla**, **JIRA**
 When a bug is found during a testing session, testers can report back in several ways.
 
 * Logging into the testers dashboard at [https://my.testfairy.com](https://my.testfairy.com)
-* Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or iOS testers app. (iOS app coming soon)
+* Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS] (https://itunes.apple.com/app/testfairy/id977307991) testers app.
 * Shaking the device and fill in a feedback form that pops up (available only on the enterprise package) 
 
 <img src="../../img/app/tester.png" width="800"/>

@@ -4,7 +4,7 @@
 We help teams find and fix problem fast. We will help your team with:
 * Dsitributing apps to anyone who should be testing the app (thats you!). You'll get emal invitations and notifications when there is a new version to test.
 * You will be able to send visual feedback and bug reports directly from the app by shaking your device. Videos, app logs and device info will automatically be attached to your report. Feedback will be sent in email to your dev team and to your issue ticketing system.
-* With your feedback, developers will receive all the information they need to reproduc and fix problems. This includes videos, logs, device metrics, performance graphs and crash information. Solutions are minutes away!
+* With your feedback, developers will receive all the information they need to reproduce and fix problems. This includes videos, logs, device metrics, performance graphs and crash information. Solutions are minutes away!
 
 ## Becoming a TestFariy tester (iOS)
   * [How do I register to TestFairy as a tester?](#invite-tester-ios)

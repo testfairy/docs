@@ -1,5 +1,12 @@
 <a name="top"></a>
 
+## What is TestFairy?
+ * TestFairy is a platform for managing application distribution and testing for mobile applications.
+ TestFairy is helping testers to test the applications while everything is recorded, so you don't need to capture video, screetshoots or send logs anymore. 
+ All the testing activities are accesable to the developers and you just need to test the scenarios and give your feedback on what is working or not. 
+ * Via TestFairy you can be notified when a new build for testing is available to downalod, install.
+ * Via Testfairy you can send feedback and bugs directly to the developer from the ppa and your mobile device.
+
 ## Becoming a TestFariy tester (iOS)
   * [How do I register to TestFairy as a tester?](#invite-tester-ios)
   * [How do I download and install an application?](#download-tester-ios)

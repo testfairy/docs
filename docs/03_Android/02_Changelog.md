@@ -1,11 +1,16 @@
+### Version 1.4.8
+Released: 2017-02-02
+
+* [NEW] Callback when a session has started.
+
 ### Version 1.4.7
-Released: 2016-01-19
+Released: 2017-01-19
 
 * [BUGFIX] Improved VisualSupport.
 * [BUGFIX] Increased buffers to help app with log bursts.
 
 ### Version 1.4.6
-Released: 2016-01-12
+Released: 2017-01-12
 
 * [NEW] Support for VisualSupport.
 

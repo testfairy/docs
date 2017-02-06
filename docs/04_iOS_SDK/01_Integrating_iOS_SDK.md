@@ -70,7 +70,18 @@ You get:
 		* Edit *Swift Compiler - Code Generation*: *Objective-C Bridging Header* (double-click to edit).
 		* Drag "Bridging.h" from the source tree onto the edit box opened
   
-## Sending your NSLog to TestFairy (optional)
+## Identifying user address (optional)
+
+In order to identify users by their email address please use the following example:
+
+```
+[TestFairy identify:@"" traits:@{
+    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
+}];
+```
+For more identification options [https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html](read here)
+
+## Sending NSLog to TestFairy (optional)
 TestFairy shows you a video recording and screenshots of your app, paired with a full app log. This combination allows you to understand what happens in your app at any given moment.
 
 ### Objective-C

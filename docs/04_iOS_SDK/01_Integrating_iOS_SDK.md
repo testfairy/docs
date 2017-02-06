@@ -79,7 +79,7 @@ In order to identify users by their email address please use the following examp
     TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
 }];
 ```
-For more identification options [https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html](read here)
+For more identification options [read here](https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html)
 
 ## Sending NSLog to TestFairy (optional)
 TestFairy shows you a video recording and screenshots of your app, paired with a full app log. This combination allows you to understand what happens in your app at any given moment.

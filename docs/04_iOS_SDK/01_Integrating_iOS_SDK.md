@@ -87,6 +87,7 @@ In order to send  logs to TestFairy,  please do the following:
 
 1. Locate and access your Prefix Header (.pch): Click on the Project File > Build Settings > Apple LLVM-Language.
 2. Add these two lines of code to the end of Prefix Header (.pch):
+
 	```
 	#import "TestFairy.h"
 	#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)

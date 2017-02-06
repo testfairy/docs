@@ -10,7 +10,7 @@ Where `correlation_id` is a string representing an association to your backend. 
 
 The second parameter, `traits` is optional and is a dictionary of predefined attributes and custom attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
 
-### Example 1: Identify email with user address
+### Example 1: Identify users by email address
 
 ```
 [TestFairy identify:@"" traits:@{
@@ -19,7 +19,7 @@ The second parameter, `traits` is optional and is a dictionary of predefined att
 ```
 
 
-### Example 2: Identify with multiple traits
+### Example 2: Identify users by multiple traits
 
 ```
 [TestFairy identify:@"ab536003-8419-4324-a673-0cdd13150dfa" traits:@{

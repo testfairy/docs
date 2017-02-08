@@ -10,7 +10,15 @@ Where `correlation_id` is a string representing an association to your backend. 
 
 The second parameter, `traits` is optional and is a dictionary of predefined attributes and custom attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
 
-### Example 1: Identify users by email address
+### Example 1: Identify users by email address add Correlation Id
+
+```
+[TestFairy identify:@"ab536003-8419-4324-a673-0cdd13150dfa" traits:@{
+    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
+}];
+```
+
+### Example 2: Identify users only by email address
 
 ```
 [TestFairy identify:@"" traits:@{
@@ -18,8 +26,7 @@ The second parameter, `traits` is optional and is a dictionary of predefined att
 }];
 ```
 
-
-### Example 2: Identify users by multiple traits
+### Example 3: Identify users by multiple traits
 
 ```
 [TestFairy identify:@"ab536003-8419-4324-a673-0cdd13150dfa" traits:@{
@@ -27,8 +34,8 @@ The second parameter, `traits` is optional and is a dictionary of predefined att
     TFSDKIdentityTraitNameKey: @"John Snow",
     TFSDKIdentityTraitPhoneNumberKey: @"+672-14-5109",
     TFSDKIdentityTraitAgeKey: @14,
-    @"custom.wears": @"black",
-    @"custom.works_at": @"The Wall",
+    @"custom.mothers_maiden_name": @"smith",
+    @"custom.favorite_color": @"blue",
 }];
 ```
 

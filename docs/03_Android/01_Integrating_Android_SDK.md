@@ -30,6 +30,17 @@ when and how people are using your app, and provide you with any metric you need
    -keepattributes Exceptions, Signature, LineNumberTable
    ```
 
+
+### How to Identify users
+
+Here is a quick example for an easy way to identify users by email address.
+```
+[TestFairy identify:@"" traits:@{
+    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
+}];
+```
+For more identification options [read here](https://docs.testfairy.com/Android/Identifying_your_users.html)
+
 ## Class Reference
 
 [https://app.testfairy.com/reference/android/](https://app.testfairy.com/reference/android/)

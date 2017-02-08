@@ -22,14 +22,22 @@ A few pre-defined traits are provided, these include:
 
 For the full traits list, please review the [class reference](https://app.testfairy.com/reference/android/com/testfairy/TestFairy.html) document.
 
-### Examples
+## Example 1: Identify by Correlation ID and email address
+```
+  Map<String, Object> traits = new HashMap<String, Object>();
+  traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
+  TestFairy.identify("25F127E0-0894-3604-A557-7FAAE481898F", traits);
+```
 
-Identify the current session with in-house identifier:
-  ```
-  TestFairy.identify(myOwnIdentifier());
-  ```
-  
-Identify the current session with traits about its user:
+## Example 2: Identify only by email address
+
+```
+  Map<String, Object> traits = new HashMap<String, Object>();
+  traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
+  TestFairy.identify("", traits);
+```
+
+## Example 3: Identify by nultiple custom traits
 
 ```
   Map<String, Object> traits = new HashMap<String, Object>();
@@ -37,15 +45,7 @@ Identify the current session with traits about its user:
   traits.put(TestFairy.IDENTITY_TRAIT_NAME, "Johnny Bonny");
   traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
   traits.put(TestFairy.IDENTITY_TRAIT_PHONE_NUMBER, "+1-850-245-5655");
-  TestFairy.identify("", traits);
-```
-  
-Identify session with custom fields:
-```
-  Map<String, Object> traits = new HashMap<String, Object>();
-  
-  traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
-  traits.put("custom.currency", "usd");
+  traits.put("custom.is_using_advanced_mode", "true");
   traits.put("custom.total_game_play_hours", 314);
   traits.put("custom.amount_spent_in_game", 864.30);
   TestFairy.identify("", traits);

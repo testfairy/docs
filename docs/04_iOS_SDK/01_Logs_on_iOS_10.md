@@ -7,17 +7,15 @@ This page explains how to setup your iOS 10.x app to send NSLog to TestFairy (th
 
 **Changing your Prefix Header** 
 
-To enable the app sending logs to TestFairy,  you will update your projects Prefix Header (.pch):
+To enable the app sending logs to TestFairy, you will have to redefine `NSLog` using a macro with the following lines (This macro allows you to continue using NSLog in your code, while also adding the logs to the  matching session in TestFairy).
 
-1. First, locate and access your Prefix Header (.pch): Click on the Project File > Build Settings > Apple LLVM-Language.
-2. Add these two lines of code to the end of Prefix Header (.pch):
-	```
-	#import "TestFairy.h"
-	#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
-	```    
-    
-	(This macro allows you to continue using NSLog in your code, while also adding the logs to the  matching session in TestFairy.)
-   
+```
+#import "TestFairy.h"
+#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)
+```    
+
+1. Either add the above line to a global header in your project, accessible to every class file
+2. Update or create a Prefix Header (.pch) for your project. If you do not have a PCH file in your project, you can follow the steps in the next section
     
 **Creating a new Prefix Header**
 

@@ -35,24 +35,29 @@ dependencies {
 ```
 
 ```java
-// file: MainActivity.java
+// file: MainApplication.java
 ...
 
 import com.testfairy.react.TestFairyPackage; // import package
 
-public class MainActivity extends ReactActivity {
+public class MainApplication extends ReactActivity {
 
    /**
    * A list of packages used by the app. If the app uses additional views
    * or modules besides the default ones, add more packages here.
    */
+  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
+    ....
+
     @Override
     protected List<ReactPackage> getPackages() {
-        return Arrays.<ReactPackage>asList(
-            new MainReactPackage(),
-            new TestFairyPackage() // Add package
-        );
+      return Arrays.<ReactPackage>asList(
+          new MainReactPackage(),
+          new TestFairyPackage()
+      );
     }
+  };
+  
 ...
 }
 

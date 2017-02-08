@@ -31,15 +31,6 @@ when and how people are using your app, and provide you with any metric you need
    ```
 
 
-### How to Identify users
-
-Here is a quick example for an easy way to identify users by email address.
-```
-[TestFairy identify:@"" traits:@{
-    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
-}];
-```
-For more identification options [read here](https://docs.testfairy.com/Android/Identifying_your_users.html)
 
 ## Class Reference
 
@@ -54,7 +45,18 @@ If you used the compile dependency: `testfairy:testfairy-android-sdk:1.+@aar`, t
 Otherwise, if you are using a fixed version, for example: `testfairy:testfairy-android-sdk:1.2.4@aar`, then you will have to update the version manually.
 
 List of changes is available in the [Android SDK Changelog](http://docs.testfairy.com/Android/Changelog.html).
-   
+
+## How to Identify users (Optional)
+
+Here is a quick example for an easy way to identify users by email address.
+```
+[TestFairy identify:@"" traits:@{
+    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
+}];
+```
+For more identification options [read here](https://docs.testfairy.com/Android/Identifying_your_users.html)
+
+
 ## <a name="permissions"></a>Additional Permissions (Optional)
 
 TestFairy can record additional insights that require specific permissions. Below is a list of permissions needed for each metric:

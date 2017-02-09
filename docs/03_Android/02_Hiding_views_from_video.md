@@ -41,6 +41,6 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 * You may use '***TestFairy.hideView(Integer.valueOf(R.id.my_view))***' on multiple Views.
 * You may add the same view multiple times, no checks needed.
 
-[1]: https://app.testfairy.com/images/docs/advanced/secure-viewid/before.png
-[2]: https://app.testfairy.com/images/docs/advanced/secure-viewid/after.png
+![](../../img/android/hidden_views/android-with-fields.png)
+![](../../img/android/hidden_views/android-no-fields.png)
 

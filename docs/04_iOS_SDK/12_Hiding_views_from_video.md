@@ -35,8 +35,9 @@ To hide a view from video, all you need to do is call the static instance method
 
 Below is a sample screen taken from a demo video. On the left, this is how the app looks like normally. On the right is a screenshot taken with the Images hidden.
 
-![](../../img/ios/hidden_views/iphone-with-fields.png)
-![](../../img/ios/hidden_views/iphone-no-fields.png)
+<img src="../../img/ios/hidden_views/iphone-with-fields.png" width="300px" />
+<img src="../../img/ios/hidden_views/iphone-no-fields.png" width="300px" />
+
 
 ### Notes
 

@@ -50,9 +50,9 @@ List of changes is available in the [Android SDK Changelog](http://docs.testfair
 
 Here is a quick example for an easy way to identify users by email address.
 ```
-[TestFairy identify:@"" traits:@{
-    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
-}];
+Map<String, Object> traits = new HashMap<String, Object>();
+traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
+TestFairy.identify("", traits);
 ```
 For more identification options [read here](https://docs.testfairy.com/Android/Identifying_your_users.html)
 

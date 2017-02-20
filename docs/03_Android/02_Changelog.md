@@ -2,7 +2,6 @@
 Released: 2017-02-19
 
 * [NEW] Inspect element will show dialogs and toasts.
-* [IMPROVEMENT] Video recorder improvment.
 * [IMPROVEMENT] Logs will be recorded only after the session started, timestamp and sorting are improved.
 
 ### Version 1.4.8

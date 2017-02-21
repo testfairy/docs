@@ -1,11 +1,22 @@
+### Version 1.8.3
+Released 2017-02-21
+
+* [NEW] New Relic integration
+* [BUGFIX] Fixed issue where some screenshots attached during feedback were empty
+* [BUGFIX] Reduced the number of network calls made
+* [BUGFIX] Fixed toolbar spacing in feedback view controller
+* [BUGFIX] Show TestFairy events in session timeline
+
 ### Version 1.8.2
 Released 2017-01-26
 
 * [NEW] Sessions can be stopped and restarted by invoking [TestFairy stop] and [TestFairy resume] respectively
-* [NEW] When using Crashlytics and TestFairy together, you can now easily get to your TestFairy session from Crashlytics with an easy to follow link. You will also see a message in TestFairy on how you can find your stack trace in Crashlytics.
+* [NEW] When using Crashlytics and TestFairy together, you can now easily get to your TestFairy session from Crashlytics with an easy to follow link. You will also see a message in TestFairy on how you can find your stack trace in Crashlytics*
 * [NEW] View network connection state on session timeline
 * [NEW] View network request error code in session timeline
 * [BUGFIX] Improved SDK security
+
+* NOTE: `TestFairy begin` should be called before starting Crashlytics or Fabric
 
 ### Version 1.8.1
 Released 2016-12-13

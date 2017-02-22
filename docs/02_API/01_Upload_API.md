@@ -62,7 +62,12 @@ listed below. An additional human-readable error message is supplied, with regar
 | 5          | Invalid API key |
 | 105        | Invalid file |
 
-### Example Request (CURL)
+### Example 1 
+```
+curl https://app.testfairy.com/api/upload -F api_key='your_api_key' -F file=@sample.apk 
+```
+
+### Example 2 (CURL)
 ```
 curl https://app.testfairy.com/api/upload \
 	-F api_key='your_api_key' \

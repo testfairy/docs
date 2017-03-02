@@ -1,3 +1,8 @@
+### Version 1.4.12
+Released: 2017-03-02
+
+* [BUGFIX] Fix missing logs on some Android 5 devices.
+
 ### Version 1.4.10
 Released: 2017-02-19
 

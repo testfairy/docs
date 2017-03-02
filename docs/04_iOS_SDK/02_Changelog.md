@@ -1,3 +1,8 @@
+### Version 1.8.4
+Released 2017-03-01
+
+* [BUGFIX] Fixed regression allowing `identify` to be called after `begin`
+
 ### Version 1.8.3
 Released 2017-02-21
 

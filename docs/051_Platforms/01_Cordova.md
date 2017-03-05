@@ -49,9 +49,9 @@ TestFairy can automatically detect sessions recorded by the same user, however, 
 
 ```
 TestFairy.begin("5b3af35e59a1e074e2d50675b1b629306cf0cfbd");
-TestFairy.identify("correlation-id", {
-    "name": "user name",
-    "email": "user email",
+TestFairy.identify("my-correlation-id", {
+    "name": "John Smith",
+    "email": "john@example.com",
 });
 ```
 

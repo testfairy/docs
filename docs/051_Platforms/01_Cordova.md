@@ -48,7 +48,7 @@ It's recommended to invoke `TestFairy.begin` from `onDeviceReady`. For example, 
 TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights. 
 
 ```
-TestFairy.begin("5b3af35e59a1e074e2d50675b1b629306cf0cfbd");
+TestFairy.begin("APP TOKEN");
 TestFairy.identify("my-correlation-id", {
     "name": "John Smith",
     "email": "john@example.com",

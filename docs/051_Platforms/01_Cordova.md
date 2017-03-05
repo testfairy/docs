@@ -43,6 +43,32 @@ It's recommended to invoke `TestFairy.begin` from `onDeviceReady`. For example, 
   }
 ```
 
+## Identifying Users
+
+TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights. 
+
+```
+TestFairy.begin("5b3af35e59a1e074e2d50675b1b629306cf0cfbd");
+TestFairy.identify("correlation-id", {
+    "name": "user name",
+    "email": "user email",
+});
+```
+
+Where `correlation-id` is a string representing an association to your backend. It may be, for example, the id of this user in your database or some random GUID. This value may not be null, and is searchable via API and web search.
+
+The second parameter, `traits` is optional and is a dictionary of predefined attributes and custom attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
+
+Attributes include the follow, however, you're free to add your own custom attributes that are searchable:
+ * "name"
+ * "email"
+ * "birthday"
+ * "gender"
+ * "phone_number"
+ * "website_address"
+ * "age"
+ * "signup_date"
+
 ## Where to go from here?
 
 Congratulations! You've successfully integrated TestFairy into your Cordova project! Visit your [dashboard](http://app.testfairy.com/), and you should see your app listed.

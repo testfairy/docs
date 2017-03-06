@@ -1,3 +1,8 @@
+### Version 1.4.13
+Released: 2017-03-06
+
+* [BUGFIX] Fixed WebView screenshot capturing bug (Android 5 or later).
+
 ### Version 1.4.12
 Released: 2017-03-02
 

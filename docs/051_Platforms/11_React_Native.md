@@ -15,6 +15,9 @@
    * OpenGLES.framework  
 
 ## Manual installation Android
+```
+npm install --save react-native-testfairy
+```
 
 ```gradle
 // file: android/settings.gradle
@@ -66,7 +69,7 @@ public class MainApplication extends ReactActivity {
 ## Usage
 Once the native library has been added to your project, you can now enable session recording with TestFairy. You will need an app token, which you can get from your [preferences](http://app.testfairy.com/settings/) page on your TestFairy account.
 
-Next, from your JavaScript file, (index.ios.js for example), import the TestFairy bridge into your project, and invoke `begin` passing in the app token. Best time to invoke `begin` is usually in `componentWillMount` or right before you register your application. 
+Next, from your JavaScript file, (index.ios.js or index.android.js for example), import the TestFairy bridge into your project, and invoke `begin` passing in the app token. Best time to invoke `begin` is usually in `componentWillMount` or right before you register your application. 
 
 ```
 const TestFairy = require('react-native-testfairy');

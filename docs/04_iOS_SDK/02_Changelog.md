@@ -1,3 +1,8 @@
+### Version 1.8.5
+Released 2017-03-016
+
+* [BUGFIX] Improvide SDK security
+
 ### Version 1.8.4
 Released 2017-03-01
 

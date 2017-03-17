@@ -61,18 +61,6 @@ Note that visual analysis  is only available for our startup and enterprise cust
 <!-- ![ alt visual-analysis](../../img/app/visual-analysis.png) -->
  <img src="../../img/app/visual-analysis.png" width="800"/>
 
-## Heatmaps
-
-If you want to know how your users really use your app, whether they click on the right buttons, and pay attention to the content that you want to them to see, this is for you.
-Heatmaps are a super powerful tool that allows you to understand how your users really use your product, where exactly they touch, and what is the trend on every screen, activity or fragment, on every resolution. 
-Do they click on the right side of the screen or on the left? Do they click on the top of the button or at the bottom, do they touch specific areas more than others? 
-Will ads work better this way or the other?
-
-Heatmaps help you **understand your user behavior** and improve your app, improve the user experience and grow conversion rates.
-
-Note that heatmaps are only available for our startup and enterprise customers.
-
- ![ alt heatmaps](../../img/app/heatmaps.png)
 
 
 ## Statistics 

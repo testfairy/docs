@@ -86,6 +86,8 @@ We help teams find and fix problem fast. We will help your team with:
   5. You should see the troubleshooting resaults with instructions in case there is a problem to be solved by the application developer:
   
     <img src="/img/tester/35-trble-done-success.png" width="300"/> <img src="/img/tester/36-trble-doe-fail.png" width="300"/> 
+    
+* Remember that if the application is bigger than 100MB it must be download over WiFi.
 
 [Back to top](#top)
 

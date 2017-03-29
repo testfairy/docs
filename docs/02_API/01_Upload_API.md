@@ -9,7 +9,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 
 ### Method
-`POST https://app.testfairy.com/api/upload/`
+`POST https://upload.testfairy.com/api/upload/`
 
 ### Parameters
 

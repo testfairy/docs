@@ -64,12 +64,12 @@ listed below. An additional human-readable error message is supplied, with regar
 
 ### Example 1: (CURL)
 ```
-curl https://app.testfairy.com/api/upload -F api_key='your_api_key' -F file=@sample.apk 
+curl https://upload.testfairy.com/api/upload -F api_key='your_api_key' -F file=@sample.apk 
 ```
 
 ### Example 2:
 ```
-curl https://app.testfairy.com/api/upload \
+curl https://upload.testfairy.com/api/upload \
 	-F api_key='your_api_key' \
 	-F file=@sample.apk \
 	-F symbols_file=@sample_mapping.txt \
@@ -91,4 +91,13 @@ curl https://app.testfairy.com/api/upload \
 	"icon_url": "https:\/\/s3.amazonaws.com\/testfairy\/icons\/4\/30040977a9f83070ac983cfb4f706d61472caf5c.png"
 }
 ```
+
+### Where can I find my API Key?
+
+In order to get your API KEY open your account preferences at https://app.testfairy.com/settings/ and click on "Upload API Key".
+
+### How can I create a new API Key?
+
+In order to create a new API KEY just click on "Regenerate API Key".
+
 

@@ -1,5 +1,11 @@
+### Version 1.9.0
+Released 2017-04-04
+
+* [NEW] Updated Feedback View to include screenshot thumbnail
+* [BUGFIX] Stability improvements
+
 ### Version 1.8.5
-Released 2017-03-016
+Released 2017-03-16
 
 * [BUGFIX] Improvide SDK security
 

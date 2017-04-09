@@ -1,3 +1,9 @@
+### Version 1.4.14
+Released: 2017-04-09
+
+* [New API] Use `TestFairy.setUserId(String userId)` to tell as who is the current user, it will help you to find the user in the TestFairy dashboard. [More information](https://app.testfairy.com/reference/android/).
+* [New API] Use `TestFairy.setAttribute(String key, String value)` to add additional data to the current session. [More information](https://app.testfairy.com/reference/android/).
+
 ### Version 1.4.13
 Released: 2017-03-06
 

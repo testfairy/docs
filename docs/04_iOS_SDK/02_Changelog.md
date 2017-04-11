@@ -1,7 +1,7 @@
 ### Version 1.9.1
 Released 2017-04-11
 
-* [NEW] Use `[TestFairy setUserId]` to tell as who is the current user, it will help you to find the user in the TestFairy dashboard
+* [NEW] Use `[TestFairy setUserId]` to tell who is the current user, it will help you to find the user in the TestFairy dashboard
 * [NEW] Use `[TestFairy setAttribute]` with key-value to add additional data to the current session
 * [BUGFIX] Stability improvements
 * [DEPRECATED] `identify` and `setCorrelationId`. These have been replaced with `setAttribute` and `setUserId` resepectively.

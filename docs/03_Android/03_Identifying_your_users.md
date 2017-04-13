@@ -4,6 +4,8 @@ This is useful in cases where sessions are anonymous and or when sessions are re
 
 Furthermore, TestFairy allows identifying the user with traits such as name, email or phone number. These will later be available for the developer to search upon, or review when looking at a specific session recording.
 
+In order to set session level attributes associated with your user, please see the document on [Session Attributes](https://docs.testfairy.com/Android/Session_Attributes.html).
+
 ### Usage
 
 *First, please make sure you have integrated the [TestFairy SDK](Integrating_Android_SDK.html)*

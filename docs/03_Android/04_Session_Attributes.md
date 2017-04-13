@@ -1,5 +1,7 @@
 TestFairy can collect additional information in your session that can help you generate better insights. 
 
+In order to set a unique identifier for your user in the current session, please see the document on [Identifying Your Users](https://docs.testfairy.com/Android/Identifying_Your_Users.html).
+
 ### Syntax
 
 `TestFairy.setAttribute("<key>", "value")`;

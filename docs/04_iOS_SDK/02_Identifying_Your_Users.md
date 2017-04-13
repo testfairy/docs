@@ -1,5 +1,7 @@
 TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights. 
 
+In order to set session level attributes associated with your user, please see the document on [Session Attributes](https://docs.testfairy.com/iOS_SDK/Session_Attributes.html).
+
 ### Syntax
 
 `[TestFairy setUserId:@"<userId>"]`

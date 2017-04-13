@@ -16,6 +16,6 @@ It will mark this session with the values above, so when you review the recordin
 
 ### Notes
 
-1. `setUserId:` may be called many times, but only values used in the first call will be sent. 
+1. `setUserId:` may be called many times. 
 2. You may call `setUserId` before or after `begin`.
-3. `setCorrelationId` and `identify` are deprecated.
+

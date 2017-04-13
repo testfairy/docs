@@ -22,5 +22,4 @@ It will mark this session with the values above, so when you review the recordin
 
 1. `setAttribute:` may be called many times. 
 2. You may call `setAttribute` before or after `begin`.
-3. `setCorrelationId` and `identify` are deprecated.
-4. You can only store a maximum of 64 keys. The keys can be a maximum of 64 characters. The values can have a maximum of 1000 characters.
+3. You can only store a maximum of 64 keys. The keys can be a maximum of 64 characters. The values can have a maximum of 1000 characters.

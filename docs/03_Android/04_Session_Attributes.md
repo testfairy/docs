@@ -13,7 +13,6 @@ TestFairy.setAttribute("name" "John Snow");
 TestFairy.setAttribute("phone" "+672-14-5109");
 TestFairy.setAttribute("age" "20");
 TestFairy.setAttribute("favorite_color" "blue");
-}];
 ```
 
 It will mark this session with the values above, so when you review the recording, you have more information about the person running the app.

@@ -13,7 +13,6 @@ The first value is a string `key` to help you search for the attribute in your s
 [TestFairy setAttribute:@"phone" withValue:@"+672-14-5109"];
 [TestFairy setAttribute:@"age" withValue:@"20"];
 [TestFairy setAttribute:@"favorite_color" withValue:@"blue"];
-}];
 ```
 
 It will mark this session with the values above, so when you review the recording, you have more information about the person running the app.

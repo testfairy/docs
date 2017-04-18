@@ -140,13 +140,6 @@ Now, your Views will be hidden before any video is uploaded to TestFairy.
 
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
 
-### Other methods
-
-*  `TestFairy.pause()` - Pauses the current session until resume() is called.
-*  `TestFairy.resume()` - Resumes a paused session.
-*  `TestFairy.checkpoint(<checkpoint name>)` - Marks a checkpoint in session.
-*  `TestFairy.sendUserFeedback(<feedback>)` - Send a feedback on behalf of the user.
-
 ## Migrating from 1.x to 2.x
 
 In order to migrate from 1.x to 2.x, a minor change is required in the way you hide views.

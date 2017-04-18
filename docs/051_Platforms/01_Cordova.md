@@ -49,25 +49,20 @@ TestFairy can automatically detect sessions recorded by the same user, however, 
 
 ```
 TestFairy.begin("APP TOKEN");
-TestFairy.identify("my-correlation-id", {
-    "name": "John Smith",
-    "email": "john@example.com",
-});
+TestFairy.setUserId("USER ID");
 ```
 
-Where `correlation-id` is a string representing an association to your backend. It may be, for example, the id of this user in your database or some random GUID. This value may not be null, and is searchable via API and web search.
+Where `USER ID` is a string representing an association to your backend. It may be, for example, the id of this user in your database or some random GUID. This value may not be null, and is searchable via API and web search.
 
-The second parameter, `traits` is optional and is a dictionary of predefined attributes and custom attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
+# Session Attributes
 
-Attributes include the follow, however, you're free to add your own custom attributes that are searchable:
- * "name"
- * "email"
- * "birthday"
- * "gender"
- * "phone_number"
- * "website_address"
- * "age"
- * "signup_date"
+TestFairy can collect additional information in your session that can help you generate better insights.
+
+```
+TestFairy.setAttribute("key", "value");
+```
+
+The first value is a string `key` to help you search for the attribute in your session. The second paramter `value` is any string value for the attribute associated with the session. Neither value can be null. These attributes are available later in the session recording page, is available via API, and is searchable.
 
 ## Where to go from here?
 

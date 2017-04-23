@@ -1,3 +1,10 @@
+### Version 1.4.15
+Released: 2017-04-23
+
+* [NEW] Button clicks will be recorded and visible in session Overview.
+* [IMPROVEMENT] User interactions will be recorded even if the view recorder is disabled.
+* [BUGFIX] Fix wrong app name issue. 
+
 ### Version 1.4.14
 Released: 2017-04-09
 

@@ -1,3 +1,9 @@
+### Version 1.4.16
+Released: 2017-04-25
+
+* [IMPROVEMENT] Touch recorder will now supported for android 7
+* [IMPROVEMENT] Minor security fix
+
 ### Version 1.4.15
 Released: 2017-04-23
 

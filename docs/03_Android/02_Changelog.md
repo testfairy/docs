@@ -1,13 +1,13 @@
 ### Version 1.4.16
 Released: 2017-04-25
 
-* [IMPROVEMENT] Touch recorder will now supported for android 7
-* [IMPROVEMENT] Minor security fix
+* [IMPROVEMENT] Touch recorder support for android 7
+* [IMPROVEMENT] Minor security fixes for Veracode approval
 
 ### Version 1.4.15
 Released: 2017-04-23
 
-* [NEW] Button clicks will be recorded and visible in session Overview.
+* [NEW] Button clicks will be recorded and visible in session Overview timeline.
 * [IMPROVEMENT] User interactions will be recorded even if the view recorder is disabled.
 * [BUGFIX] Fix wrong app name issue. 
 

@@ -11,7 +11,7 @@ Where `userId` is a string representing an association to your backend. We recom
 ### Example: Identify users by email address add Correlation Id
 
 ```
-[TestFairy setUserId:@"johns@wall.gov"]
+[TestFairy setUserId:@"john@example.com"]
 ```
 
 It will mark this session with the values above, so when you review the recording, you have more information about the person running the app.
@@ -21,3 +21,6 @@ It will mark this session with the values above, so when you review the recordin
 1. `setUserId:` may be called many times. 
 2. You may call `setUserId` before or after `begin`.
 
+### Related Articles:
+
+[Identifying users on Android](https://docs.testfairy.com/Android/Identifying_your_users.html)

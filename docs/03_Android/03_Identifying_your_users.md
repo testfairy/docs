@@ -41,3 +41,6 @@ Remember that you are required to add the `GET_ACCOUNTS` permission to your *And
 
 1. `setUserId:` may be called many times. 
 2. You may call `setUserId` before or after `begin`.
+
+### Related Articles
+[Identifying users on iOS](https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html)

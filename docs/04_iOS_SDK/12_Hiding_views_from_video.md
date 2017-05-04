@@ -26,7 +26,7 @@ To hide a view from video, all you need to do is call the static instance method
 {
 	[super viewDidLoad];
 
-	[TestFairy hideView:creditCardView];
+	<span style="background-color:yellow">[TestFairy hideView:creditCardView];</span>
 	[TestFairy hideView:cvvNumberView];
 }
 ```

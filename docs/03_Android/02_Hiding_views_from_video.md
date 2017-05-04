@@ -8,7 +8,7 @@ For example, you might want to remove all information related to credit card dat
 To hide a view from video, all you need to do is this :
 
 **`TestFairy.hideView(Integer.valueOf(R.id.my_view));`**  
-or
+or  
 **`TestFairy.hideView(View myView);`**
 
 Replace *R.id.my_view* with the identifier of the view you wish to hide. Please review the full example below.

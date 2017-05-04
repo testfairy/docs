@@ -21,7 +21,7 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 <img style="float:left" src="../../img/ios/hidden_views/iphone-no-fields.png" width="300" />
 </div>
 
-<br style="clear: both”/> 
+<br style="clear: both" /> 
 
 ### Notes
 

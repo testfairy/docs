@@ -20,6 +20,7 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 <img style="float:left" src="../../img/ios/hidden_views/iphone-with-fields.png" width="300px" />
 <img style="float:left" src="../../img/ios/hidden_views/iphone-no-fields.png" width="300px" />
 </div>
+
 <br clear=“both”/> 
 
 ### Notes
@@ -27,3 +28,9 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 * Elements are hidden from screenshots before they are uploaded.
 * You may use `hideWebViewElements` with multiple comma separated selectors.
 * You may add more selectors at any time by calling `hideWebViewElements` again.
+
+
+### Related Articles
+
+* [Hiding views in iOS](https://docs.testfairy.com/iOS_SDK/Hiding_views_from_video.html)
+* [Hiding views in Android](https://docs.testfairy.com/iOS_SDK/Hiding_views_from_video.html)

@@ -6,8 +6,8 @@ For example, you might want to remove all information related to credit card dat
 
 To hide an element from video, all you need to do is call the static instance method `hideWebViewElements` in the `TestFairy` class passing in a CSS selector to target your element:
 
-**`[TestFairy hideWebViewElements:@"body"];`**
-**`[TestFairy hideWebViewElements:@"div#username,div#password"];`**
+**`[TestFairy hideWebViewElements:@"body"];`**  
+**`[TestFairy hideWebViewElements:@"div#username,div#password"];`**  
 **`[TestFairy hideWebViewElements:@".col-12,h1 .header"];`**
 
 TestFairy will find any `UIWebView` or `WKWebView` in the view hierarchy, and hide a given HTML element based on a valid CSS selector.
@@ -16,8 +16,11 @@ TestFairy will find any `UIWebView` or `WKWebView` in the view hierarchy, and hi
 
 Below is a sample screen taken from a demo video. On the left, this is how the app looks like normally. On the right is a screenshot taken with the HTML elements hidden.
 
-<img src="../../img/ios/hidden_views/iphone-with-fields.png" width="300px" />
-<img src="../../img/ios/hidden_views/iphone-no-fields.png" width="300px" />
+<div>
+<img style="float:left" src="../../img/ios/hidden_views/iphone-with-fields.png" width="300px" />
+<img style="float:left" src="../../img/ios/hidden_views/iphone-no-fields.png" width="300px" />
+</div>
+<br clear=“both”/> 
 
 ### Notes
 

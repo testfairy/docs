@@ -39,6 +39,8 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 <img style="float:left" src="../../img/android/hidden_views/android-no-fields.png" width="300px">
 </div>
 
+<br clear=“both”/> 
+
 
 
 ### Notes

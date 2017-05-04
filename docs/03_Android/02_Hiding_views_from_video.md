@@ -48,7 +48,6 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 
 ### Related Articles
 
-[Hiding webview elements in iOS](https://docs.testfairy.com/iOS_SDK/Hiding_webview_elements_from_video.html)
-
-[Hiding views in Android](https://docs.testfairy.com/iOS_SDK/Hiding_views_from_video.html)
+* [Hiding webview elements in iOS](https://docs.testfairy.com/iOS_SDK/Hiding_webview_elements_from_video.html)
+* [Hiding views in Android](https://docs.testfairy.com/iOS_SDK/Hiding_views_from_video.html)
 

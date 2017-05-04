@@ -33,8 +33,11 @@ public class MyActivity extends Activity {
 
 Below is a sample screen taken from a demo video. On the left, this is how the app looks like normally. On the right is a screenshot taken with the "Card Number" EditText hidden by testfairy-secure-viewid.
 
-<img src="../../img/android/hidden_views/android-with-fields.png" width="300px">
-<img src="../../img/android/hidden_views/android-no-fields.png" width="300px">
+<div>
+<img style="float:left" src="../../img/android/hidden_views/android-with-fields.png" width="300px">
+<img style="float:left" src="../../img/android/hidden_views/android-no-fields.png" width="300px">
+</div>
+
 
 
 ### Notes

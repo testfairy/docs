@@ -15,7 +15,7 @@ To hide a view from video, all you need to do is call the static instance method
 {
 	IBOutlet UITextField *usernameView;
 	IBOutlet UITextField *creditCardView;
-	IBOutlet UITextField *cvvNumberView;
+	IBOutlet UITextField *cvvView;
 }
 
 ...
@@ -27,7 +27,7 @@ To hide a view from video, all you need to do is call the static instance method
 	[super viewDidLoad];
 
 	[TestFairy hideView:creditCardView];
-	[TestFairy hideView:cvvNumberView];
+	[TestFairy hideView:cvvView];
 }
 ```
 

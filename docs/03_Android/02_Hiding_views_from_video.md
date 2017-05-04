@@ -21,11 +21,7 @@ public class MyActivity extends Activity {
                 super.onCreate(savedInstanceState);
                 setContentView(R.layout.my_activity);
 
-                TestFairy.hideView(R.id.credit_card_number);
-                
-                //or
-               
-                TestFairy.hideView(findViewById(R.id.credit_card_number));
+                TestFairy.hideView(findViewById(R.id.credit_card));
         }
 }
 ```

@@ -39,7 +39,7 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 <img style="float:left" src="../../img/ios/hidden_views/iphone-with-fields.png" width="300px" />
 <img style="float:left" src="../../img/ios/hidden_views/iphone-no-fields.png" width="300px" />
 </div>
-<br clear=“both”/> 
+<br clear="both"/> 
 
 ### Notes
 

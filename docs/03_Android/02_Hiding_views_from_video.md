@@ -43,7 +43,7 @@ Below is a sample screen taken from a demo video. On the left, this is how the a
 * You may use '***TestFairy.hideView(Integer.valueOf(R.id.my_view))***' on multiple Views.
 * You may add the same view multiple times, no checks needed.
 
-# Related Articles
+### Related Articles
 
 [Hiding webview elements in iOS](https://docs.testfairy.com/iOS_SDK/Hiding_webview_elements_from_video.html)
 

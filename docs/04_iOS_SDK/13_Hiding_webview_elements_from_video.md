@@ -17,11 +17,11 @@ TestFairy will find any `UIWebView` or `WKWebView` in the view hierarchy, and hi
 Below is a sample screen taken from a demo video. On the left, this is how the app looks like normally. On the right is a screenshot taken with the HTML elements hidden.
 
 <div>
-<img style="float:left" src="../../img/ios/hidden_views/iphone-with-fields.png" width="300px" />
-<img style="float:left" src="../../img/ios/hidden_views/iphone-no-fields.png" width="300px" />
+<img style="float:left" src="../../img/ios/hidden_views/iphone-with-fields.png" width="300" />
+<img style="float:left" src="../../img/ios/hidden_views/iphone-no-fields.png" width="300" />
 </div>
 
-<br clear=“both”/> 
+<br style="clear: both”/> 
 
 ### Notes
 

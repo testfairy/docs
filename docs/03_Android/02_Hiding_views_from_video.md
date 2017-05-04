@@ -5,9 +5,10 @@ For example, you might want to remove all information related to credit card dat
 
 ### Syntax
 
-To hide a view from video, all you need to do is :
+To hide a view from video, all you need to do is this :
 
 **`TestFairy.hideView(Integer.valueOf(R.id.my_view));`**  
+or
 **`TestFairy.hideView(View myView);`**
 
 Replace *R.id.my_view* with the identifier of the view you wish to hide. Please review the full example below.
@@ -24,7 +25,7 @@ public class MyActivity extends Activity {
                 
                 //or use 
                 View creditCardNumber = findViewById(R.id.credit_card_number);
-                TestFairy.hideView(creditCardNumber);
+                TestFairy.hideView(findViewById(R.id.credit_card_number));
         }
 }
 ```

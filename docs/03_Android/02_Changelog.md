@@ -1,3 +1,8 @@
+### Version 1.4.17
+Released: 2017-05-09
+
+* [BUG-FIX] Fix video recording for Cordova.
+
 ### Version 1.4.16
 Released: 2017-04-25
 

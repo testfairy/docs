@@ -16,6 +16,19 @@ Identifying a session meaning setting a unique identifier for your user.
 
 Where `userId` is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.
 
+### Exaple 1: identify user by email
+
+```
+TestFairy.setUserId("john@example.com")`
+```
+### Exaple 2: identify user by email and correlation ID
+
+```
+TestFairy.setUserId("john@example.com")`
+TestFairy.setAttribute("correlation-id" "9add066a-591a-44e7-8ca1-dd892863b2ab");
+```
+
+
 ### Notes
 
 1. `setUserId:` may be called many times. 

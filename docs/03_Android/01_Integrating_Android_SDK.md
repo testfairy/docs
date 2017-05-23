@@ -1,5 +1,6 @@
 Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you
 when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
+Both Java and Kotlin apps are supproted.
 
 ## Installation
 

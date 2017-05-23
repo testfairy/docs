@@ -16,31 +16,12 @@ Identifying a session meaning setting a unique identifier for your user.
 
 Where `userId` is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.
 
-Please review the [class reference](https://app.testfairy.com/reference/android/com/testfairy/TestFairy.html) document for more information.
-
-### Code snippet: Grabbing the user's email address
-
-The following code snippet will match the first valid email account and set that as your user's ID:
-
-```
-Account[] accounts = AccountManager.get(MainActivity.this).getAccounts();
-for (Account account : accounts) {
-	if (Patterns.EMAIL_ADDRESS.matcher(account.name).matches()) {
-    TestFairy.setUserId(account.name);
-		break;
-	}
-}
-```
-
-Remember that you are required to add the `GET_ACCOUNTS` permission to your *AndroidManifest.xml* file:
-```
-<uses-permission android:name="android.permission.GET_ACCOUNTS" />
-```
-
 ### Notes
 
 1. `setUserId:` may be called many times. 
 2. You may call `setUserId` before or after `begin`.
 
 ### Related Articles
+[How to automatically identify users with Android Accounts](https://docs.testfairy.com/iOS_SDK/Identify_with_Android_account.html)
 [Identifying users on iOS](https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html)
+[TestFairy class reference](https://app.testfairy.com/reference/android/com/testfairy/TestFairy.html)

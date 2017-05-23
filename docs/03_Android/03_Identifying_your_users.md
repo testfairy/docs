@@ -25,7 +25,7 @@ TestFairy.setUserId("john@example.com");
 
 ```
 TestFairy.setUserId("john@example.com");
-TestFairy.setAttribute("correlation-id","9add066a-591a-44e7-8ca1-dd892863b2ab");
+TestFairy.setAttribute("correlationId","9add066a-591a-44e7-8ca1-dd892863b2ab");
 ```
 
 

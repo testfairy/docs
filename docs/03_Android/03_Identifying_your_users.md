@@ -19,13 +19,13 @@ Where `userId` is a string representing an association to your backend. We recom
 ### Exaple 1: identify user by email
 
 ```
-TestFairy.setUserId("john@example.com")`
+TestFairy.setUserId("john@example.com")
 ```
 ### Exaple 2: identify user by email and correlation ID
 
 ```
-TestFairy.setUserId("john@example.com")`
-TestFairy.setAttribute("correlation-id" "9add066a-591a-44e7-8ca1-dd892863b2ab");
+TestFairy.setUserId("john@example.com")
+TestFairy.setAttribute("correlation-id","9add066a-591a-44e7-8ca1-dd892863b2ab");
 ```
 
 
@@ -35,6 +35,6 @@ TestFairy.setAttribute("correlation-id" "9add066a-591a-44e7-8ca1-dd892863b2ab");
 2. You may call `setUserId` before or after `begin`.
 
 ### Related Articles
-[How to automatically identify users with Android Accounts](https://docs.testfairy.com/iOS_SDK/Identify_with_Android_account.html)
+[How to automatically identify users with Android Accounts](https://docs.testfairy.com/Android/Identify_with_Android_account.html)
 [Identifying users on iOS](https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html)
 [TestFairy class reference](https://app.testfairy.com/reference/android/com/testfairy/TestFairy.html)

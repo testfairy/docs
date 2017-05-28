@@ -1,3 +1,8 @@
+### Version 1.5.0
+Released: 2017-05-28
+
+* [BUG-FIX] Fix getNetworkInfo crash on Android 7.
+
 ### Version 1.4.17
 Released: 2017-05-09
 

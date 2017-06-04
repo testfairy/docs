@@ -1,7 +1,7 @@
-## Sending your NSLog to TestFairy
+## Sending NSLog to TestFairy
 The TestFairy SDK records your app being used so you can watch recorded sessions to solve problems faster. The SDK can record videos, screenshots, custom events, logs and device metrics.
 
-This page explains how to setup your iOS 10.x app to send NSLog to TestFairy (this applies to iOS 10 and future versions).
+This page explains how to setup iOS apps to send NSLog to TestFairy (this applies to iOS 10 and future versions).
 
 ### Objective-C
 

@@ -25,7 +25,7 @@ If your project doesn’t already include a Prefix Header (.pch), follow these s
 2. Name your file “PCH file”.
 3. Add these two lines of code to the file:
 	```
-	#import "TestFairy.h"
+	#import "TestFairy.h" 
 	#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0) 
 	```
 4. From the Project Navigator, select your project and the corresponding target.

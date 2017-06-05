@@ -59,7 +59,9 @@
 
 8. Save, build and run.
 
-## Setting Screen Name
+## Usage 
+
+### Setting Screen Name
 
 TestFairy can capture screenshots during a recorded session. It attempts to autmatically name a screenshot based on different measures. In order to override this you can invoke `setScreenName`, and set your own name for a captured screen. `setScreenName` expects a String, so developers are free to label screenshots with any label appropriate. Some developers make use of the level name to set the screenshot. For example
 
@@ -76,4 +78,46 @@ public class cameraScript : MonoBehaviour {
     }
 ...
 }
+```
+
+### Identifying your users
+
+TestFairy allows the developer to correlate sessions to app specific information such as users, server-sessions or events.   
+This is useful in cases where sessions are anonymous and or when sessions are related to server activities that are critical to understanding test behaviour.
+
+Furthermore, TestFairy allows identifying the user with traits such as name, email or phone number. These will later be available for the developer to search upon, or review when looking at a specific session recording.
+
+In order to set session level attributes associated with your user, please see the document on [Session Attributes](https://docs.testfairy.com/Android/Session_Attributes.html).
+
+Identifying a session meaning setting a unique identifier for your user.
+
+```
+TestFairy.setUserId("<userId>");
+```
+
+Where `userId` is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.
+
+### Exaple: identify user by email
+
+```
+TestFairy.setUserId("john@example.com");
+```
+
+### Session Attributes
+
+TestFairy can collect additional information in your session that can help you generate better insights. 
+
+```
+TestFairy.setAttribute("<key>", "value");
+```
+
+The first value is a string `key` to help you search for the attribute in your session. The second paramter `value` is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, is available via API, and is searchable.
+
+#### Example
+
+```
+TestFairy.setAttribute("name","John Snow");
+TestFairy.setAttribute("phone","+672-14-5109");
+TestFairy.setAttribute("age","20");
+TestFairy.setAttribute("favorite_color","blue");
 ```

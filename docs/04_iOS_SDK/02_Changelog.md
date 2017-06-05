@@ -1,3 +1,9 @@
+### Version 1.9.2
+Released 2017-06-05
+* [NEW] Improved screen capture of web views that include hidden elements
+* [BUGFIX] Fixed random crashes in network monitoring
+* [BUGFIX] Fixed warnings about minimum sdk version. Now set to 7.0.
+
 ### Version 1.9.1
 Released 2017-04-11
 

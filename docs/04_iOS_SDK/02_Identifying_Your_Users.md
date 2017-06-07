@@ -17,10 +17,7 @@ Where `userId` is a string representing an association to your backend. We recom
 
 ### Notes
 
-1. `setUserId:` may be called many times. 
-2. `setAttribute` is optional.
-3. You may call `setUserId` and `setAttribute` before or after `begin`.
-4. `setAttribute:` may be called many times. 
+`setUserId:` may be called many times, before or after begin. 
 
 ### Related Articles:
 

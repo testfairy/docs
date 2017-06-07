@@ -14,13 +14,6 @@ Where `userId` is a string representing an association to your backend. We recom
 [TestFairy setUserId:@"john@example.com"]
 ```
 
-### Example: Identify users by email address and correlation ID
-
-```
-[TestFairy setUserId:@"john@example.com"]
-[TestFairy setAttribute:@"correlationId" withValue:@"9add066a-591a-44e7-8ca1-dd892863b2ab"];
-```
-
 
 ### Notes
 

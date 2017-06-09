@@ -25,7 +25,7 @@ Your testers will get an email asking them to register their device. Once they r
 
 6. Review the new UDIDs and click done.
 
-7. Open The provisioning prfile [distribution section](https://developer.apple.com/account/ios/profile/profileList.action?type=production)
+7. Open the provisioning profile [distribution section](https://developer.apple.com/account/ios/profile/profileList.action?type=production)
 
 8. Choose your ad-hoc profile and click 'edit'
 

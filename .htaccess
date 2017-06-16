@@ -11,6 +11,7 @@ RewriteRule ^ios_sdk/integrating_with_react_native.html /Platforms/React_Native.
 RewriteRule ^iOS_SDK/Using_Xamarin_Component.html /Platforms/Xamarin.html [R=301,L]
 RewriteRule ^ios_sdk/adding_udids_to_ios_development_profile.html /iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html [R=301,L]
 RewriteRule ^ios_sdk/integrating_ios_sdk.html /iOS_SDK/Integrating_iOS_SDK.html [R=301,L]
+RewriteRule ^ios_sdk/exporting_ad_hoc_ipa.html /iOS_SDK/Exporting_Ad_Hoc_IPA.html [R=301,L]
 
 RewriteRule ^Android/Identifying_Your_Users.html /Android/Identifying_your_users.html [R=301,L]
 

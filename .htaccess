@@ -12,8 +12,10 @@ RewriteRule ^iOS_SDK/Using_Xamarin_Component.html /Platforms/Xamarin.html [R=301
 RewriteRule ^ios_sdk/adding_udids_to_ios_development_profile.html /iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html [R=301,L]
 RewriteRule ^ios_sdk/integrating_ios_sdk.html /iOS_SDK/Integrating_iOS_SDK.html [R=301,L]
 RewriteRule ^ios_sdk/exporting_ad_hoc_ipa.html /iOS_SDK/Exporting_Ad_Hoc_IPA.html [R=301,L]
+RewriteRule ^ios_sdk/identifying_your_users.html /iOS_SDK/Identifying_Your_Users.html [R=301,L]
 
 RewriteRule ^Android/Identifying_Your_Users.html /Android/Identifying_your_users.html [R=301,L]
+RewriteRule ^ANDROID_SDK/Changelog.html /Android/Changelog.html [R=301,L]
 
 RewriteRule ^Integrations/Cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^integrations/cordova.html /Platforms/Cordova.html [R=301,L]
@@ -24,6 +26,7 @@ RewriteRule ^Integrations/Unity.html /Platforms/Unity.html [R=301,L]
 RewriteRule ^Integrations/Travis_CI.html /Continuous_Integration/Travis_CI.html [R=301,L]
 RewriteRule ^Integrations/Bamboo.html /Continuous_Integration/Bamboo.html [R=301,L]
 RewriteRule ^Integrations/Titanium.html /Platforms/Titanium.html [R=301,L]
+RewriteRule ^integrations/travis_ci.html /Continuous_Integration/Travis_CI.html [R=301,L]
 
 RewriteRule ^ios_sdk/using_xamarin_component.html /Platforms/Xamarin_Component.html [R=301,L]
 

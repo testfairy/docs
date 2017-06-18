@@ -116,8 +116,7 @@ The first value is a string `key` to help you search for the attribute in your s
 #### Example
 
 ```
-TestFairy.setAttribute("name","John Snow");
-TestFairy.setAttribute("phone","+672-14-5109");
-TestFairy.setAttribute("age","20");
-TestFairy.setAttribute("favorite_color","blue");
+TestFairy.setAttribute("first-session","True");
+TestFairy.setAttribute("visits-in-checkout-during-session","3");
+TestFairy.setAttribute("max-score-this-session","200");
 ```

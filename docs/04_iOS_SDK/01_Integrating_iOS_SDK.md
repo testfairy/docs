@@ -69,17 +69,6 @@ You get:
 		* Select the "All" filter, in order to find *Swift Compiler - Code Generation*: *Objective-C Bridging Header*
 		* Edit *Swift Compiler - Code Generation*: *Objective-C Bridging Header* (double-click to edit).
 		* Drag "Bridging.h" from the source tree onto the edit box opened
-  
-## Identifying users (optional)
-
-In order to identify users by their email address please use the following example:
-
-```
-[TestFairy identify:@"" traits:@{
-    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
-}];
-```
-For more identification options [read here](https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html)
 
 ## Sending NSLog to TestFairy (optional)
 

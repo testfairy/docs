@@ -12,6 +12,6 @@ TestFairy.begin(context, "<your app token here>");
 Note: It's important that you include a trailing slash `/` in your URL. A concrete example of this is given below
 
 ```
-TestFairy.setServerEndpoint("https://app.testfairy.com/services/");
-TestFairy.begin(context, "1234567890");
+TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+TestFairy.begin(context, "<your app token here>");
 ```

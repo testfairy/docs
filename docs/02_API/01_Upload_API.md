@@ -87,7 +87,8 @@ curl https://upload.testfairy.com/api/upload \
 	"file_size": 9585610,
 	"build_url": "https:\/\/app.testfairy.com\/projects\/100-jigsawpuzzlers\/builds\/1",
 	"invite_testers_url": "https:\/\/app.testfairy.com\/projects\/100-jigsawpuzzlers\/builds\/1\/invite\/",
-	"instrumented_url": "https:\/\/app.testfairy.com\/download\/6CWKJCHD60PPVWYJHGM4AADJ26QWY63BTHAKQYA4SDR0\/filename_v1.1-testfairy.apk",
+	"app_url": "https:\/\/app.testfairy.com\/download\/6CWKJCHD60PPVWYJHGM4AADJ26QWY63BTHAKQYA4SDR0\/filename_v1.1-testfairy.apk",
+	"download_page_url": "https:\/\/tsfr.io\/3tajti",
 	"icon_url": "https:\/\/s3.amazonaws.com\/testfairy\/icons\/4\/30040977a9f83070ac983cfb4f706d61472caf5c.png"
 }
 ```

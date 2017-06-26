@@ -1,3 +1,8 @@
+### Version 1.5.1
+Released: 2017-06-26
+
+* [IMPROVEMENT] Fix gradle build warning
+
 ### Version 1.5.0
 Released: 2017-05-28
 

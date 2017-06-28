@@ -12,6 +12,6 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 Note: It's important that you include a trailing slash `/` in your URL. A concrete example of this is given below
 
 ```
-[TestFairy setServerEndpoint:@"https://app.testfairy.com/services/"];
+[TestFairy setServerEndpoint:@"https://your-subdomain.testfairy.com/services/"];
 [TestFairy begin:@"1234567890"];
 ```

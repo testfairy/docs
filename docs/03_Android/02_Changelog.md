@@ -1,3 +1,9 @@
+### Version 1.5.2
+Released: 2017-07-04
+
+* [NEW] Support for offline feedbacks, in case of no connectivity the feedbacks will be stored to disk, it will be sent at the beginning of the next session.
+* [NEW] Support for server url redirect (only for private clouds).
+
 ### Version 1.5.1
 Released: 2017-06-26
 

@@ -56,34 +56,11 @@ If you need further instructions regarding out upload API, [read about it here](
 
 ### <a name="jenkins"></a>Upload dSYM using the TestFairy Jenkins Plugin
 
-We recommend uploading dSYM files together with the app build files.
-If you are using Jenkins for continuous integration, you can use the Jenkins TestFairy plugin to upload your app and add the dSym along the way.
 
 1. If you did not use the TestFairy Jenkins plugin before, see the [installation instructions.](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
 
-2. Enter your app build configuration in Jenkins.
+2. Setup the Xcode that builds the app on the Jenkis server to upload your debug symbols following the instructions [here](#upload-api).
 
-3. Create a build step that executes a shell command to zip the symbols. The symbols directory is usually found under this location:
-
-    ```
-    {XCODE}/DerivedData/{APP_DERIVED_DATA}/Builds/Products/{TARGET}/  
-    ```
-
-	For example, this commands creates a zip file called symbols.zip  from the symbols of my ‘Hi’ app and stores it under the /tmp directory.
-
-	```
-	zip -r /tmp/symbols.zip
-	~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphoneos/Hi.app.dSYM/*
-	 ```
-    
-4. Open the job configuration post build actions for the TestFairy Plugin.
-
-5. Enter the full dSYM zip file location inside the “Path to dSYM zip” field.
-
-6. Once you run the build, Jenkins will compress the symbols directory, upload your app and the zipped symbols to TestFairy.
-
-
-If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
 ### <a name="upload-dsym-from-xcode"></a>Upload dSYM from Xcode
 

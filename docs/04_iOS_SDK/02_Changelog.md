@@ -1,3 +1,11 @@
+### Version 1.9.3
+Released 2017-07-09
+
+* [NEW] Allow your testers to capture feedbacks while offline
+* [NEW] Improved stability while capturing network data
+* [NEW] Improved event collection
+* [BUGFIX] Improved hidden views in video capture
+
 ### Version 1.9.2
 Released 2017-06-05
 

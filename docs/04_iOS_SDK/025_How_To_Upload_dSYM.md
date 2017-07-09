@@ -59,7 +59,7 @@ If you need further instructions regarding out upload API, [read about it here](
 
 1. If you did not use the TestFairy Jenkins plugin before, see the [installation instructions.](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
 
-2. Setup the Xcode that builds the app on the Jenkis server to upload your debug symbols following the instructions [here](#upload-api).
+2. Setup the Xcode that builds the app on the Jenkis server to upload your debug symbols following the instructions [here](#upload-dsym-from-xcode).
 
 
 ### <a name="upload-dsym-from-xcode"></a>Upload dSYM from Xcode

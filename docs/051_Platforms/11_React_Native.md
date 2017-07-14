@@ -1,6 +1,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HpLOsNwd_FM" frameborder="0" allowfullscreen></iframe>
 
-[TestFairy](https://www.testfairy.com) bridge to the TestFairy iOS SDK. Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
+TestFairy for React native is a bridge to the [TestFairy](https://www.testfairy.com) SDK. Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
 
 ## Manual installation iOS
 
@@ -82,6 +82,7 @@ componentWillMount: function() {
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
 
 ### Identify
+
 TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights.
 
 You have to invoke `identify` passing in a `correlation_id`. The `correlation_id` is a string representing an association to your backend. It may be, for example, the id of this user in your database or some random GUID. This value may not be null or empty, and is searchable via API and web search.
@@ -107,6 +108,7 @@ componentWillMount: function() {
 For more information on `identify`, head over [here](http://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html).
 
 ### Hiding views
+
 TestFairy allows the developer to hide specific views from the recorded video. As the developer, you may choose to hide one or more views from video for security and privacy reasons. For example, you might want to remove all information related to credit card data from appearing in the session.
 
 In order to hide views from your recorded session, you will need to pass a reference to a view to TestFairy. First, give the element to be hidden a `ref` attribute. For example:

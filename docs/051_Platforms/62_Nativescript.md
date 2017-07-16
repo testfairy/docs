@@ -71,6 +71,42 @@ For more information on identifying your users, head over [here](http://docs.tes
 
 ### Hiding views
 
+TestFairy allows the developer to hide specific views from the recorded video. As the developer, you may choose to hide one or more views from video for security and privacy reasons. For example, you might want to remove all information related to credit card data from appearing in the session.
+
+In order to hide views from your recorded session, you will need to pass a reference to a view to TestFairy. 
+
+```
+// in Nativescript
+import { TestFairySDK } from 'nativescript-testfairy';
+
+// in Javascript
+var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
+
+...
+
+TestFairySDK.hideView(view);
+```
+
+Note that with nativescript, view objects either have a `ios` or `android` property object. You're free to either pass in the nativescript view object, or the native view object directly.
+
+```
+// in Nativescript
+import { TestFairySDK } from 'nativescript-testfairy';
+
+// in Javascript
+var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
+
+...
+
+TestFairySDK.hideView(view.android);
+// or
+TestFairySDK.hideView(view.ios);
+```
+
+Both approaches are acceptable and the corresponding view will be hidden.
+
+And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
+
 ### Where to go from here?
 
 * Follow the project on [GitHub](https://github.com/testfairy/nativescript-testfairy) for updates, reporting bugs, or contributing to the project!

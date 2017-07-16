@@ -39,6 +39,38 @@ application.start({ moduleName: "main-page" });
 
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
 
+### User ID and Session Attributes
+
+TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights.
+
+You have to invoke `setUserId` or `setAttribute`. With `setUserId`, you can pass in a string representing an association to your backend. It may be, for example, the ID of this user in your database or some random GUID. This value may not be null or empty, and is searchable via API and web search.
+
+The second method, `setAttributes` uses predefined key/value attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
+
+```
+// in Nativescript
+import { TestFairySDK } from 'nativescript-testfairy';
+
+// in Javascript
+var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
+
+...
+
+TestFairySDK.setUserId(<correlation id>);
+TestFairySDK.setAttribute("email": "johns@wall.gov");
+TestFairySDK.setAttribute("name": "John Snow");
+TestFairySDK.setAttribute("phone_number": "+672-14-5109");
+TestFairySDK.setAttribute("age": 14);
+TestFairySDK.setAttribute("custom.wears": "black");
+TestFairySDK.setAttribute("custom.works_at": "The Wall");
+
+TestFairySDK.begin(<insert ios app token here>);
+```
+
+For more information on identifying your users, head over [here](http://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html).
+
+### Hiding views
+
 ### Where to go from here?
 
 * Follow the project on [GitHub](https://github.com/testfairy/nativescript-testfairy) for updates, reporting bugs, or contributing to the project!

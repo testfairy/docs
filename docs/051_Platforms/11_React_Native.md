@@ -100,12 +100,12 @@ componentWillMount: function() {
   TestFairy.setAttribute("age": 14);
   TestFairy.setAttribute("custom.wears": "black");
   TestFairy.setAttribute("custom.works_at": "The Wall");
-  
+
   TestFairy.begin(<insert ios app token here>);
 }
 ```
 
-For more information on `identify`, head over [here](http://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html).
+For more information on identifying your users, head over [here](http://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html).
 
 ### Hiding views
 

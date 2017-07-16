@@ -2,7 +2,7 @@
 
 TestFairy for React native is a bridge to the [TestFairy](https://www.testfairy.com) SDK. Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
 
-## Manual installation iOS
+## iOS installation
 
 1. `npm install --save react-native-testfairy`
 3. In Finder, Go to `node_modules` ➜ `react-native-testfairy`, and drag the `ios` directory into your project. Be sure to "Copy items if needed" is selected in the dialog box shown.
@@ -14,7 +14,7 @@ TestFairy for React native is a bridge to the [TestFairy](https://www.testfairy.
    * SystemConfiguration.framework  
    * OpenGLES.framework  
 
-## Manual installation Android
+## Android installation
 ```
 npm install --save react-native-testfairy
 ```
@@ -81,26 +81,26 @@ componentWillMount: function() {
 
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
 
-### Identify
+### User ID and Session Attributes
 
 TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights.
 
-You have to invoke `identify` passing in a `correlation_id`. The `correlation_id` is a string representing an association to your backend. It may be, for example, the id of this user in your database or some random GUID. This value may not be null or empty, and is searchable via API and web search.
+You have to invoke `setUserId` or `setAttribute`. With `setUserId`, you can pass in a string representing an association to your backend. It may be, for example, the ID of this user in your database or some random GUID. This value may not be null or empty, and is searchable via API and web search.
 
-The second parameter, `traits` is optional and is a dictionary of predefined attributes and custom attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
+The second method, `setAttributes` uses predefined key/value attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
 
 ```
 const TestFairy = require('react-native-testfairy');
 ...
 componentWillMount: function() {
-  TestFairy.identify(<correlation id>, {
-    "email": "johns@wall.gov",
-    "name": "John Snow",
-    "phone_number": "+672-14-5109",
-    "age": 14,
-    "custom.wears": "black",
-    "custom.works_at": "The Wall",
-  });
+  TestFairy.setUserId(<correlation id>);
+  TestFairy.setAttribute("email": "johns@wall.gov");
+  TestFairy.setAttribute("name": "John Snow");
+  TestFairy.setAttribute("phone_number": "+672-14-5109");
+  TestFairy.setAttribute("age": 14);
+  TestFairy.setAttribute("custom.wears": "black");
+  TestFairy.setAttribute("custom.works_at": "The Wall");
+  
   TestFairy.begin(<insert ios app token here>);
 }
 ```

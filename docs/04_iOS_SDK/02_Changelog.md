@@ -1,3 +1,8 @@
+### Version 1.9.4
+Released 2017-07-17
+
+* [NEW] Add `log` to TestFairy object for remote logging
+
 ### Version 1.9.3
 Released 2017-07-09
 

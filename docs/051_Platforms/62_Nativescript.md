@@ -69,6 +69,32 @@ TestFairySDK.begin(<insert ios app token here>);
 
 For more information on identifying your users, head over [here](http://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html).
 
+### Remote Logging
+
+TestFairy provides a way of viewing your application's log statements along with your session. Note that this api does not also log to the console.
+
+```
+// in Nativescript
+import { TestFairySDK } from 'nativescript-testfairy';
+
+// in Javascript
+var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
+
+...
+
+TestFairySDK.log("Your log message here");
+```
+
+We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks as follows:
+
+```
+var _testfairyConsoleLog = console.log;
+console.log = function(message) {
+    _testfairyConsoleLog(message);
+	TestFairySDK.log(message);
+}
+```
+
 ### Hiding views
 
 TestFairy allows the developer to hide specific views from the recorded video. As the developer, you may choose to hide one or more views from video for security and privacy reasons. For example, you might want to remove all information related to credit card data from appearing in the session.

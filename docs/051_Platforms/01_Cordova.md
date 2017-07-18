@@ -43,6 +43,24 @@ It's recommended to invoke `TestFairy.begin` from `onDeviceReady`. For example, 
   }
 ```
 
+## Remote Logging
+
+TestFairy provides a way of viewing your application's log statements along with your session. Note that this api does not also log to the console.
+
+```
+TestFairy.log("Your log message here");
+```
+
+We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks as follows:
+
+```
+var _testfairyConsoleLog = console.log;
+console.log = function(message) {
+    _testfairyConsoleLog(message);
+  TestFairySDK.log(message);
+}
+```
+
 ## Identifying Users
 
 TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights. 

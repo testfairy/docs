@@ -81,6 +81,27 @@ componentWillMount: function() {
 
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
 
+### Remote Logging
+
+TestFairy provides a way of viewing your application's log statements along with your session. Note that this api does not also log to the console.
+
+```
+const TestFairy = require('react-native-testfairy');
+...
+
+TestFairy.log("Your log message here");
+```
+
+We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks as follows:
+
+```
+var _testfairyConsoleLog = console.log;
+console.log = function(message) {
+    _testfairyConsoleLog(message);
+  TestFairySDK.log(message);
+}
+```
+
 ### User ID and Session Attributes
 
 TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights.

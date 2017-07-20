@@ -1,0 +1,12 @@
+In order to import testers, please upload a CSV file in the following format:
+
+email,groups
+email address, space seperated groups
+
+Example:
+email,groups
+mike@gmail.com,friends
+sharon@yahoo.com,friends family
+stacy@live.com,friends family
+
+example csv file

@@ -1,3 +1,8 @@
+### Version 1.5.3
+Released: 2017-08-02
+
+* [BUG-FIX]  Minor bug fix for enterprise users when calling `TestFairy.setServerEndpoint`.
+
 ### Version 1.5.2
 Released: 2017-07-04
 

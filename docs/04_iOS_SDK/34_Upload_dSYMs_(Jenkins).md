@@ -1,16 +1,18 @@
 ### The TestFairy Jenkins plugin
+
 If you did not use the TestFairy Jenkins plugin before, see the [installation instructions.](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
 
-
 ### Setup Xcode to create debug symbols
+
 Open Xcode on the machine that runs Jenkis and follow these instructions:
 
 1. Click on your project and select Build-Settings.
-2. In the search box, type “Debug Information Format”.
-3. Click on “Debug Information Format” and select “DWARF with dSYM File”
+2. In the search box, type "Debug Information Format".
+3. Click on "Debug Information Format" and select "DWARF with dSYM File"
 ![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)
 
 ### Setup Xcode to upload DSYMs for every build
+
 If your Jenkins is configured to build your app, it will pickup that build phases configured on Xcode and run them as well.
 
 Open Xcode on the machine that runs Jenkis and follow these instructions:
@@ -30,7 +32,7 @@ sh "$SRCROOT/TestFairy/upload-dsym.sh" UPLOAD_API_KEY
 ```
 Makue sure the specified path include the upload-dsym.sh file.
 
-Make sure to reply **UPLOAD_API_KEY** with the your secret upload api key, found in the [Settings](https://app.testfairy.com/settings/) page.
+Make sure to replace **UPLOAD_API_KEY** with the your secret Upload API key, found in the [Settings](https://app.testfairy.com/settings/) page.
 
 ![alt](../../img/ios/dsym-upload/step3.png)
 
@@ -40,6 +42,6 @@ If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could
 Please perform the following actions:
 
 1. Click on your project and select Build-Settings.
-2. In the search box, type “Debug Information Format”.
-3. Click on “Debug Information Format” and select “DWARF with dSYM File”
+2. In the search box, type "Debug Information Format".
+3. Click on "Debug Information Format" and select "DWARF with dSYM File"
 ![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)

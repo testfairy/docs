@@ -1,7 +1,8 @@
 ### Setup Xcode to create debug symbols
+
 1. In Xcode, click on your project and select Build-Settings.
-2. In the search box, type “Debug Information Format”.
-3. Click on “Debug Information Format” and select “DWARF with dSYM File”
+2. In the search box, type "Debug Information Format".
+3. Click on "Debug Information Format" and select "DWARF with dSYM File"
 ![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)
 
 ### Setup Xcode to upload dSYMs for every build
@@ -21,7 +22,7 @@ sh "$SRCROOT/TestFairy/upload-dsym.sh" UPLOAD_API_KEY
 ```
 Makue sure the specified path include the upload-dsym.sh file.
 
-Make sure to reply **UPLOAD_API_KEY** with the your secret upload api key, found in the [Settings](https://app.testfairy.com/settings/) page.
+Make sure to replace **UPLOAD_API_KEY** with the your secret upload API key, found in the [Settings](https://app.testfairy.com/settings/) page.
 
 ![alt](../../img/ios/dsym-upload/step3.png)
 
@@ -32,7 +33,7 @@ Please perform the following actions:
 
 1. Click on your project and select Build-Settings.
 
-2. In the search box, type “Debug Information Format”.
+2. In the search box, type "Debug Information Format".
 
-3. Click on “Debug Information Format” and select “DWARF with dSYM File”
+3. Click on "Debug Information Format" and select "DWARF with dSYM File"
 ![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)

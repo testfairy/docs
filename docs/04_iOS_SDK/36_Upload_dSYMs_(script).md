@@ -7,7 +7,7 @@ If you are not using Xcode, follow these instructions to upload your debug symbo
 4. Run this script:
 
 	 ```
-	./Upload-dsym.sh -f TESTFAIRY_UPLOAD_API_KEY -p DSYM_PATH
+	./upload-dsym.sh -f TESTFAIRY_UPLOAD_API_KEY -p DSYM_PATH
 	 ```
 
 The script will compress the symbols directory and upload the symbols to TestFairy.

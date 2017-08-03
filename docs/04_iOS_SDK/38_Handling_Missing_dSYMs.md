@@ -1,4 +1,4 @@
-We recommend setting up your environment to upload dSYMs automatically from Xcode, [here's how]().
+We recommend setting up your environment to upload dSYMs automatically from Xcode, [here's how](/04_iOS_SDK/About_dSYMs.html).
 But if you already did this and you are seeing a message in TestFairy about missing dSYMs, this section is here to help.
 
 *** Locating dSYMs on your hard-drive

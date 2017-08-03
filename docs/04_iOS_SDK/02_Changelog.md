@@ -1,3 +1,8 @@
+### Version 1.10.0
+Released 2017-08-02
+
+* [BUGFIX] Fixed minor issue identifying simulators and production apps
+
 ### Version 1.9.4
 Released 2017-07-17
 

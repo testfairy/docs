@@ -2,7 +2,7 @@
 
 If you did not use the TestFairy Jenkins plugin before, see the [installation instructions.](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
 
-### Setup Xcode to create debug symbols
+### <a name="setup">Setup Xcode to create debug symbols</a>
 
 Open Xcode on the machine that runs Jenkis and follow these instructions:
 
@@ -38,10 +38,4 @@ Make sure to replace **UPLOAD_API_KEY** with the your secret Upload API key, fou
 
 ##### Fatal: Can't find .dSYM folder!
 
-If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could be that your project is not configured to generate debug symbols.
-Please perform the following actions:
-
-1. Click on your project and select Build-Settings.
-2. In the search box, type "Debug Information Format".
-3. Click on "Debug Information Format" and select "DWARF with dSYM File"
-![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)
+If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could be that your project is not configured to generate debug symbols. [Here is how you setup Xcode to generate dSYMs](setup)

@@ -56,13 +56,11 @@ var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
 
 ...
 
-TestFairySDK.setUserId(<correlation id>);
-TestFairySDK.setAttribute("email": "johns@wall.gov");
+TestFairySDK.setUserId("johns@wall.gov");
+
 TestFairySDK.setAttribute("name": "John Snow");
 TestFairySDK.setAttribute("phone_number": "+672-14-5109");
-TestFairySDK.setAttribute("age": 14);
-TestFairySDK.setAttribute("custom.wears": "black");
-TestFairySDK.setAttribute("custom.works_at": "The Wall");
+TestFairySDK.setAttribute("session_id": "12345678");
 
 TestFairySDK.begin(<insert ios app token here>);
 ```

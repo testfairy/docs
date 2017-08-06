@@ -17,7 +17,7 @@ If your build is missing dSYMs, you can find them and upload them manually to Te
 	```
 	zip -r /tmp/symbols.zip <YOUR_DSYM_LOCATION>/*
 	 ```
-7. Proceed to upload the zip as described [here].
+7. Proceed to upload the zip as described [here](upload).
 
 If you can't locate your dSYMS using mfind, follow these instructions:
 
@@ -37,7 +37,7 @@ If you enabled Bitcode for your build and released it to the store or submitted 
 4. From the right side menu, click download dSYMs.
 5. Manually upload the dSYMs to TestFairy, [as described here]
 
-*** Manually upload dSYMs to TestFairy
+*** <a name="upload">Manually upload dSYMs to TestFairy</a>
 
 1. Login to TestFairy and go to the App overview page by clicking the name of your app.
 2. Click on the name of your app build to reach the build overview page.

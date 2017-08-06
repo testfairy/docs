@@ -4,7 +4,7 @@ If you did not use the TestFairy Jenkins plugin before, see the [installation in
 
 ### <a name="setup">Setup Xcode to create debug symbols</a>
 
-Open Xcode on the machine that runs Jenkis and follow these instructions:
+Open Xcode on the machine that runs Jenkins and follow these instructions:
 
 1. Click on your project and select Build-Settings.
 2. In the search box, type "Debug Information Format".
@@ -15,7 +15,7 @@ Open Xcode on the machine that runs Jenkis and follow these instructions:
 
 If your Jenkins is configured to build your app, it will pickup that build phases configured on Xcode and run them as well.
 
-Open Xcode on the machine that runs Jenkis and follow these instructions:
+Open Xcode on the machine that runs Jenkins and follow these instructions:
 
 1. Click on your project in the left sidebar, then click on **Build Phases**.
 

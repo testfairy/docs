@@ -8,7 +8,7 @@ Open Xcode on the machine that runs Jenkis and follow these instructions:
 
 1. Click on your project and select Build-Settings.
 2. In the search box, type "Debug Information Format".
-3. Click on "Debug Information Format" and select "DWARF with dSYM File"
+3. Click on "Debug Information Format", search for "DWARF" and select "DWARF with dSYM File"
 ![alt dsym](https://docs.testfairy.com/img/ios/dsym-upload/dsym.png)
 
 ### Setup Xcode to upload DSYMs for every build

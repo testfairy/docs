@@ -56,7 +56,7 @@ var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
 
 ...
 
-TestFairySDK.setUserId("johns@wall.gov");
+TestFairySDK.setUserId("johns@example.com");
 
 TestFairySDK.setAttribute("name": "John Snow");
 TestFairySDK.setAttribute("phone_number": "+672-14-5109");

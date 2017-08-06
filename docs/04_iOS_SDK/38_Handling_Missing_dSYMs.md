@@ -31,11 +31,10 @@ If you can't locate your dSYMS using mfind, follow these instructions:
 
 If you enabled Bitcode for your build and released it to the store or submitted to TestFlight be advised that Apple will generate new dSYMs for your app and you'll need to download the new dSYMs from Xcode, and the upload them to TestFairy.
 
-1. Open Xcode.
-2. Open the Organizer window.
-3. Click on the relevant build.
-4. From the right side menu, click download dSYMs.
-5. Manually upload the dSYMs to TestFairy, [as described here]
+1. In Xcode, open the organizer window.
+2. Click on the relevant build.
+3. From the right side menu, click download dSYMs.
+4. Manually upload the dSYMs to TestFairy, [as described here]
 
 *** <a name="upload">Manually upload dSYMs to TestFairy</a>
 

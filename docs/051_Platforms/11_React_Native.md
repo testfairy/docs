@@ -114,13 +114,10 @@ The second method, `setAttributes` uses predefined key/value attributes. These a
 const TestFairy = require('react-native-testfairy');
 ...
 componentWillMount: function() {
-  TestFairy.setUserId(<correlation id>);
-  TestFairy.setAttribute("email": "johns@wall.gov");
-  TestFairy.setAttribute("name": "John Snow");
+  TestFairy.setUserId("joe@example.com");
   TestFairy.setAttribute("phone_number": "+672-14-5109");
-  TestFairy.setAttribute("age": 14);
+  TestFairy.setAttribute("internal_id": 1454325432543253);
   TestFairy.setAttribute("custom.wears": "black");
-  TestFairy.setAttribute("custom.works_at": "The Wall");
 
   TestFairy.begin(<insert ios app token here>);
 }

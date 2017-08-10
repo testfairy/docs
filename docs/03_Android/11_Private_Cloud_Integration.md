@@ -15,3 +15,8 @@ Note: It's important that you include a trailing slash `/` in your URL. A concre
 TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
 TestFairy.begin(context, "<your app token here>");
 ```
+
+### Related Articles
+
+* [Private cloud integration in iOS](https://docs.testfairy.com/iOS_SDK/Private_Cloud_Integration.html)
+

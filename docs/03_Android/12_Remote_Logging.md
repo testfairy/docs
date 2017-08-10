@@ -5,3 +5,6 @@ TestFairy offers a means to allow developers to log items with a session, withou
 ```
 TestFairy.log("Tag", "Here is a message");
 ```
+
+
+[Remote Logging for the iOS SDK](/iOS_SDK/Remote_Logging.html)

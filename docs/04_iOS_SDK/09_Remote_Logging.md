@@ -15,3 +15,5 @@ TFLog(...);
 
 TFLog("There are %lu items", list.count);
 ```
+
+[Remote Logging for the Android SDK)(/Android/Remote_Logging.html)

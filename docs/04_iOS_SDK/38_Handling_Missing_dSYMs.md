@@ -1,7 +1,8 @@
 We recommend setting up your environment to upload dSYMs automatically from Xcode, [here's how](/04_iOS_SDK/About_dSYMs.html).
 But if you already did this and you are seeing a message in TestFairy about missing dSYMs, this section is here to help.
 
-*** Locating dSYMs on your hard-drive
+### Locating dSYMs on your hard-drive
+
 
 If your build is missing dSYMs, you can find them and upload them manually to TestFairy.
 
@@ -27,16 +28,16 @@ If you can't locate your dSYMS using mfind, follow these instructions:
 4. The archive will contain a folder called dSYM.
 5. Create a zip with the contents of the folder and proceed to upload the zip to TestFairy as explained [here].
 
-***  Locating dSYMs for Bitcode builds.
+### Locating dSYMs for Bitcode builds.
 
 If you enabled Bitcode for your build and released it to the store or submitted to TestFlight be advised that Apple will generate new dSYMs for your app and you'll need to download the new dSYMs from Xcode, and the upload them to TestFairy.
 
 1. In Xcode, open the organizer window.
 2. Click on the relevant build.
 3. From the right side menu, click download dSYMs.
-4. Manually upload the dSYMs to TestFairy, [as described here]
+4. Manually upload the dSYMs to TestFairy, [as described here](upload)
 
-*** <a name="upload">Manually upload dSYMs to TestFairy</a>
+### <a name="upload">Manually upload dSYMs to TestFairy</a>
 
 1. Login to TestFairy and go to the App overview page by clicking the name of your app.
 2. Click on the name of your app build to reach the build overview page.

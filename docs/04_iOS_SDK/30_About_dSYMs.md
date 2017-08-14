@@ -6,10 +6,10 @@
 
 ### Setup your environment to upload DSYMs automatically
 
-* We recommended uploading dSYMs straight from Xcode: [Upload DSYMs from Xcode](/iOS_SDK/Uploading_dSYMs_(Xcode).html).
-* If you build with Jenkins follow these instructions: [Upload DSYMs form Jenkins](/iOS_SDK/Uploading_dSYMs_(Jenkins).html).
+* We recommended uploading dSYMs straight from Xcode: [Upload DSYMs from Xcode](/iOS_SDK/Upload_dSYMs_(Xcode).html).
+* If you build with Jenkins follow these instructions: [Upload DSYMs form Jenkins](/iOS_SDK/Upload_dSYMs_(Jenkins).html).
 * If you are using Xamarin: [There are also specific instructions for Xamarin](https://docs.testfairy.com/Platforms/Xamarin.html)
-* If you are not using Xcode: [Use a dSYM upload script](/iOS_SDK/Uploading_dSYMs_(script).html).
+* If you are not using Xcode: [Use a dSYM upload script](/iOS_SDK/Upload_dSYMs_(script).html).
 
 ### Handling missing DSYMs
 

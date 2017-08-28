@@ -1,3 +1,7 @@
+### Version 1.5.5
+Released: 2017-08-28
+* [NEW] Upload files associated with your session
+
 ### Version 1.5.4
 Released: 2017-08-13
 

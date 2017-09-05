@@ -43,4 +43,3 @@ Talk to us! Request a demo at https://testfairy.com/products/solutions/enterpris
   ![](https://docs.testfairy.com/img/sso/okta/okta-11.png)
 
 Now please logout, and you should see the "Login with SSO" 
-![login screenshot](https://docs.testfairy.com/img/sso/sso-login-screenshot.png)

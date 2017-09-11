@@ -3,8 +3,6 @@ Single Sign-on allows managing users and testers outside of TestFairy. List of p
 
 When SSO is configured in your account, the login page is replaced with a simple `login with sso` button.
 
-![login screenshot](https://docs.testfairy.com/img/sso/onelogin/onelogin-screenshot.png)
-
 Talk to us! Request a demo at https://testfairy.com/products/solutions/enterprise#request-a-demo
 
 #### Setting up Onelogin in your account

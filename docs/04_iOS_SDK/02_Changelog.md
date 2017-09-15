@@ -1,3 +1,9 @@
+### Version 1.10.1
+Released 2017-09-14
+
+* [NEW] Improved Stability and performance
+* [NEW] Improve memory management during video capture
+
 ### Version 1.10.0
 Released 2017-08-02
 

@@ -5,9 +5,9 @@ When SSO is configured in your account, the login page is replaced with a simple
 
 Talk to us! Request a demo at https://testfairy.com/products/solutions/enterprise#request-a-demo
 
-#### Setting up Onelogin in your account
+#### Setting up OneLogin in your account
 
-- Login to Onelogin, click on the 'NEW APP' button on the right.
+- Login to OneLogin, click on the 'NEW APP' button on the right.
   ![](https://docs.testfairy.com/img/sso/onelogin/onelogin-1.png)
  
 - Type in "testfairy" in the search box, and select the application.

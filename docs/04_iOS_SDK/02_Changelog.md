@@ -1,3 +1,9 @@
+### Version 1.10.2
+Released 2017-09-25
+
+* [NEW] Improved Stability and performance around network capture with `NSURLConnection`
+* [BUGFIX] Avoid over writing endpoint when `setServerEndpoint` is called
+
 ### Version 1.10.1
 Released 2017-09-14
 

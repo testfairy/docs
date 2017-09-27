@@ -1,6 +1,7 @@
 Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you
 when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
-Both Java and Kotlin apps are supproted.
+
+Both Java and Kotlin apps are supported.
 
 ## Installation
 
@@ -8,7 +9,7 @@ Both Java and Kotlin apps are supproted.
 [ ![Download](https://api.bintray.com/packages/testfairy/testfairy/testfairy/images/download.svg) ](https://bintray.com/testfairy/testfairy/testfairy/_latestVersion)
 -->
 
-1. Add the SDK to your build.gradle
+1. Add the SDK to your build.gradle app module (eg. `app/build.gradle`)
    ```
       dependencies {
           compile 'testfairy:testfairy-android-sdk:1.+@aar'

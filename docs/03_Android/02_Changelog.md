@@ -1,8 +1,3 @@
-### Version 1.5.6
-Released: 2017-09-28
-
-* [BUGFIX] Fixed a bug with Nativescript where StackLayout failed to render.
-
 ### Version 1.5.5
 Released: 2017-08-28
 

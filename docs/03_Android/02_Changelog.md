@@ -1,17 +1,23 @@
+### Version 1.5.6
+Released: 2017-09-28
+
+* [BUGFIX] Fixed a bug with Nativescript where StackLayout failed to render.
+
 ### Version 1.5.5
 Released: 2017-08-28
-* [NEW] Upload files associated with your session
+
+* [NEW] Upload files associated with your session with our new API.
 
 ### Version 1.5.4
 Released: 2017-08-13
 
-* [IMPROVEMENT] Performance improvements  
-* [IMPROVEMENT] `TestFairy.setServerEndpoint` can get a simple url format (for example "app.testfairy.com")
+* [IMPROVEMENT] Performance improvements.
+* [IMPROVEMENT] `TestFairy.setServerEndpoint` can get a simple url format (for example "app.testfairy.com").
 
 ### Version 1.5.3
 Released: 2017-08-02
 
-* [BUG-FIX] Minor bug fix for enterprise users when calling `TestFairy.setServerEndpoint`.
+* [BUGFIX] Minor bug fix for enterprise users when calling `TestFairy.setServerEndpoint`.
 
 ### Version 1.5.2
 Released: 2017-07-04
@@ -27,12 +33,12 @@ Released: 2017-06-26
 ### Version 1.5.0
 Released: 2017-05-28
 
-* [BUG-FIX] Fix getNetworkInfo crash on Android 7.
+* [BUGFIX] Fix getNetworkInfo crash on Android 7.
 
 ### Version 1.4.17
 Released: 2017-05-09
 
-* [BUG-FIX] Fix video recording for Cordova.
+* [BUGFIX] Fix video recording for Cordova.
 
 ### Version 1.4.16
 Released: 2017-04-25

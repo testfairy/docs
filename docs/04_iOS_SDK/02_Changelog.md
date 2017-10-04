@@ -1,3 +1,8 @@
+### Version 1.11.0
+Released 2017-10-04
+
+* [BUGFIX] Fixed warnings related to Main thread sanitizer
+
 ### Version 1.10.2
 Released 2017-09-25
 

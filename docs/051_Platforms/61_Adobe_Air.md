@@ -35,9 +35,15 @@ Android requires some extra permissions and activities to be added to the final 
 		        <activity android:name="com.testfairy.activities.ProvideFeedbackActivity" android:configChanges="orientation|screenSize"/>
 		        <activity android:name="com.testfairy.activities.AutoUpdateActivity" android:configChanges="orientation|screenSize"/>
 		    </application>			    
-		</manifest>	
+		</manifest>
 	]]></manifestAdditions>
 </android>
 ```
 
 ### You are ready to build and run your project
+
+## Troubleshooting
+
+### "The content cannot be loaded because there was a problem loading an extension: Error: Requested extension com.testfairy.AirTestFairy could not be found."
+
+In the descriptor xml, add `com.testfairy` as the extension id

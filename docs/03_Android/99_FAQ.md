@@ -14,6 +14,8 @@ Yes.
 
 TestFairy keeps crashes on disk if it can't send them immediately. The next time the app runs, TestFairy will send out the saved crash reports and attach them to the appropriate sessions.
 
+[Back to top](#top)
+
 ### <a name="crashes-after-stop"></a>Will crashes be caught even after session stopped recording?
 
 Yes.

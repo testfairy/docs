@@ -118,6 +118,8 @@ ld: symbol(s) not found for architecture arm64
 
 For those projects, please add `libTestFairy.a` as a framework in your Build Settings.
 
+[Back to top](#top)
+
 ### <a name="ios-bitcode-error"></a>What's "You must rebuild it with bitcode enabled (Xcode setting ENABLE_BITCODE)" error?
 
 Xcode7 introduced a new feature (virtual architecture) called `Bitcode`. This is a short for LLVM Bitcode, which is a virtual machine architecture Xcode uses as an intermediate platform for compilation. Instead of compiling apps to armv7, armv7s, arm64 - Xcode can now create a single architecture and the AppStore will generate optimized binaries for mobiles. This will greatly reduce the IPA filesize as an iPhone6+ user won't be downloading the binaries needed for iPhone4 and vice-versa.

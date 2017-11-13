@@ -229,6 +229,48 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	</span>
 	<code>POST /api/1/testers/</code>
 </div>
+<div class="method-description hidden">
+	Add a new tester to account. Optionally can add them to a group, and optionally send an invitation email.<br />
+
+	<table>
+	<tr>
+		<th style="width: 160px;"><b>parameter</b></th>
+		<th style="width: 100px;"><b>type</b></th>
+		<th><b>description</b></th>
+	</tr>
+	<tr>
+		<td>email</td>
+		<td><em>string</em></td>
+		<td>
+			One or more emails, separated by commas, to add to your account.
+		</td>
+        </tr>
+	<tr>
+		<td>group</td>
+		<td><em>string</em></td>
+		<td>
+			Assign tester or testers to this tester-group. Will create one if no such group exists.
+			Default value: none<br />
+		</td>
+	</tr>
+	<tr>
+        	<td>allow-all</td>
+        	<td><em>string</em></td>
+        	<td>
+        		Allow these testers to see all apps, including apps that will be uploaded in the future?
+        		Default value: false<br />
+        	</td>
+        </tr>
+	</table>
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
 
 <hr />
 

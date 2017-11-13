@@ -21,6 +21,26 @@ $(function () {
     });
 });
 
+// gilm (testfairy)
+$(document).ready(function() {
+    $("div.method button.expand").click(function(e) {
+        $(e.currentTarget).blur();
+
+        var description = $(e.currentTarget).closest(".method").next();
+        if (description.hasClass("hidden")) {
+            // currently hidden, show
+            description.removeClass("hidden");
+            $(e.currentTarget).text("▼");
+        } else {
+            // currently visible, hide
+            description.addClass("hidden");
+            $(e.currentTarget).text("▶");
+        }
+
+        e.preventDefault();
+    });
+});
+
 //Fix GitHub Ribbon overlapping Scrollbar
 var t = $('#github-ribbon');
 if (t[0] && $('article')[0].scrollHeight > $('.right-column').height()) t[0].style.right = '16px';

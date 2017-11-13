@@ -1,89 +1,143 @@
+#### About
 
-### REST API Endpoint
+This is the reference document for the TestFairy REST API. This API allows the developer to access and interact with TestFairy
+data remotely.
 
-`GET https://app.testfairy.com/api/1/`
+#### Getting Started
 
-### Parameters (Required)
- - `email` Your email.
- - `api_key` Your API application key. See https://app.testfairy.com/settings for details.
+Getting started with the REST API is easy, and can be done from command line and with any programming language. Let's begin with a simple example. We will start by listing all our projects.
 
-### Functions
+A project is either an iOS app or an Android app (two apps with the same package name but on different platforms are considered two projects.)
 
- - `list projects`
-	get a list of all projects.
-	for example: [https://app.testfairy.com/api/1/projects](https://app.testfairy.com/api/1/projects?pretty)
- - `list builds`
-	get a list of all builds.
-	for example: https://app.testfairy.com/api/1/projects/(projectId-projectName)/builds/
- - `list sessions`
-	get a list of all sessions.
-	for example: https://app.testfairy.com/api/1/projects/(projectId-projectName)/builds/(buildId)/sessions/
- - `get session`
-	get a session data.
-	for example: https://app.testfairy.com/api/1/projects/(projectId-projectName)/builds/(buildId)/sessions/(sessionId)
- - `list crashes`
-	get a list of all crashes.
-	for example: https://app.testfairy.com/api/1/projects/(projectId-projectName)/builds/(buildId)/crashes
- - `list testers`
-	get a list of all testers.
-	for example: [https://app.testfairy.com/api/1/testers](https://app.testfairy.com/api/1/testers?pretty)
- - `add testers`
- 	add one or more testers, and assign them to a group.
- - `get testers`
-	get a list of all build testers.
-	for example: https://app.testfairy.com/api/1/projects/(projectId-projectName)/builds/(buildId)/testers
-
-### Error Codes
-
-In case of an error, TestFairy will return a JSON with `status` => `fail` and `code` with one of the values
-listed below. An additional human-readable error message is supplied, with regards to cause of the specific error.
-
-| Code | Reason             |
-|-----:|:-------------------|
-|    1 | Missing parameters |
-|  104 | User not found     |
-|  106 | No permissions     |
-
-### Example Request (CURL)
-```sh
-curl -u "david@gmail.com:abcde" "https://app.testfairy.com/api/1/search?loaded=home&notLoaded=away"
+```
+curl -u john@example.com:00001234cafecafe "https://api.testfairy.com/api/1/projects/"
 ```
 
-### Example Response
-```json
+In the example above, you can see that our user is `john@example.com` and the API key is `0001234cafecafe`. This user authentication token is required for all requests to the REST server.
+
+**Your API key is private**, please do not share it or post it on public code repositories or forums. To find your API key, please refer to [https://app.testfairy.com/settings](https://app.testfairy.com/settings).
+
+<hr />
+
+#### [api/1/projects](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get all projects
+	</span>
+	<code>GET /api/1/projects/</code>
+</div>
+<div class="method-description hidden">
+	Returns a list of all projects (iOS and Android apps) in this account.<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
 {
 	"status": "ok",
-	"sessions":[
-        		{
-        			"id":"8",
-        			"sessionStartTime":"2014-05-28 11:49:00",
-        			"duration":"17:54:09",
-        			"testerEmail":"tester@gmail.com",
-        			"device":"LG - Optimus L5 II",
-        			"ipAddress":"10.10.10.10",
-        			"crashed":false,
-        			"activities":[
-        				"com.example.HelloActivity"
-        			],
-        			"checkpoints":[
-        				"home"
-        			]
-        		}
-        	]
-}
-```
-
-### Example Request (CURL)
-```sh
-curl -u "david@gmail.com:abcde" "https://app.testfairy.com/api/1/testers" -F email=mario@gmail.com -F group=family 
-```
-
-### Example Response
-```json
-{
-	"status": "ok",
-	"testers":[
-		"mario@gmail.com"
+	"projects": [
+		{
+			"id": "19-groupshot",
+			"self": "/projects/19-groupshot",
+			"name":"GroupShot",
+			"packageName":"com.groupshot",
+			"platform":"Android"
+		}
 	]
-}
-```
+}</pre>
+</div>
+
+<hr />
+
+#### [api/1/projects/{project-id}/builds/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get all builds in a project
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/</code>
+</div>
+
+<hr />
+
+#### [api/1/projects/{project-id}/builds/{build-id}/crashes/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> List all crashes in build
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/{build-id}/crashes/</code>
+</div>
+
+<hr />
+
+#### [api/1/projects/{project-id}/builds/{build-id}/sessions/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> List all recorded sessions in build
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/{build-id}/sessions/</code>
+</div>
+
+<hr />
+
+#### [api/1/projects/{project-id}/builds/{build-id}/testers/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get invitation status for build
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/{build-id}/testers/</code>
+</div>
+
+<hr />
+
+#### [api/1/projects/{project-id}/builds/{build-id}/sessions/{session-id}/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get session data, events and logs
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/{build-id}/sessions/{session-id}/</code>
+</div>
+
+<hr />
+
+#### [api/1/testers/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> List all testers
+	</span>
+	<code>GET /api/1/testers/</code>
+</div>
+<div class="method-description hidden">
+	List all testers in this account.<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"testers": [
+		{
+			"email": "john@testfairy.com",
+			"deviceCount": 3
+		},
+		{
+			"email": "alice@testfairy.com",
+			"deviceCount": 1
+		}
+	]
+}</pre>
+</div>
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Add a new tester
+	</span>
+	<code>POST /api/1/testers/</code>
+</div>
+
+<hr />
+
+<style>h4 {margin-bottom: 30px;}</style>

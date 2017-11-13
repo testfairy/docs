@@ -9,9 +9,9 @@ Getting started with the REST API is easy, and can be done from command line and
 
 A project is either an iOS app or an Android app (two apps with the same package name but on different platforms are considered two projects.)
 
-```
-curl -u john@example.com:00001234cafecafe "https://api.testfairy.com/api/1/projects/"
-```
+<pre>
+curl -u "john@example.com:00001234cafecafe" "https://api.testfairy.com/api/1/projects/"
+</pre>
 
 In the example above, you can see that our user is `john@example.com` and the API key is `0001234cafecafe`. This user authentication token is required for all requests to the REST server.
 
@@ -56,6 +56,29 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	</span>
 	<code>GET /api/1/projects/{project-id}/builds/</code>
 </div>
+<div class="method-description hidden">
+	Get all builds in a specific project. Each build is a distinct version that was either uploaded, or created by the TestFairy SDK.<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"builds": [
+		{
+			"id": 2820564,
+			"self": "/projects/2197059-mainactivity/builds/2820564",
+			"appName": "My Mobile Application",
+			"originalFilename": "my-mobile-application-release.apk",
+			"fileSize": 129153,
+			"uploadDate": "2017-12-20 22:03:00",
+			"version": "1.0",
+			"sessions": 14,
+			"crashes": 3
+		}
+	]
+}
+</pre>
+</div>
 
 <hr />
 
@@ -66,6 +89,24 @@ In the example above, you can see that our user is `john@example.com` and the AP
 		<button class="expand">▶</button> List all crashes in build
 	</span>
 	<code>GET /api/1/projects/{project-id}/builds/{build-id}/crashes/</code>
+</div>
+<div class="method-description hidden">
+	Get all crashes in a specific build. These crashes ungrouped, meaning, the same stack trace may appear multiple times (one for each session).<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"crashes": [
+		{
+			"sessionId": 50571690,
+			"testerEmail": "john@testfairy.com",
+			"message": "android.content.ActivityNotFoundException: Unable to find explicit activity class {com.testfairy.apps.sample/com.testfairy.apps.sample.MemoryTest}; have you declared this activity in your AndroidManifest.xml?",
+			"stackTrace": "android.content.ActivityNotFoundException: Unable to find explicit activity class {com.testfairy.apps.sample/com.testfairy.apps.sample.MemoryTest}; have you declared this activity in your AndroidManifest.xml? at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1794) at android.app.Instrumentation.execStartActivity(Instrumentation.java:1512) at android.app.Activity.startActivityForResult(Activity.java:3917) at android.app.Activity.startActivityForResult(Activity.java:3877) at android.app.Activity.startActivity(Activity.java:4200) at android.app.Activity.startActivity(Activity.java:4168) at com.testfairy.apps.sample.MainActivity$14.onClick(MainActivity.java:187) at android.view.View.performClick(View.java:5198) at android.view.View$PerformClick.run(View.java:21147) at android.os.Handler.handleCallback(Handler.java:739) at android.os.Handler.dispatchMessage(Handler.java:95) at android.os.Looper.loop(Looper.java:148) at android.app.ActivityThread.main(ActivityThread.java:5417) at java.lang.reflect.Method.invoke(Native Method) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616) "
+		}
+	]
+}
+</pre>
 </div>
 
 <hr />
@@ -78,16 +119,29 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	</span>
 	<code>GET /api/1/projects/{project-id}/builds/{build-id}/sessions/</code>
 </div>
-
-<hr />
-
-#### [api/1/projects/{project-id}/builds/{build-id}/testers/](#)
-
-<div class="method">
-	<span>
-		<button class="expand">▶</button> Get invitation status for build
-	</span>
-	<code>GET /api/1/projects/{project-id}/builds/{build-id}/testers/</code>
+<div class="method-description hidden">
+	Get metadata for all sessions recorded for a specific build.<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"sessions": [
+		{
+			"id": 1,
+			"self": "/projects/2197059-demoapp/builds/4867553/sessions/1",
+			"startTime": "2017-01-22 16:42:40",
+			"duration": "15:01",
+			"testerEmail": "john@testfairy.com",
+			"device": "Samsung - Samsung Galaxy S8",
+			"ipAddress": "23.100.122.175",
+			"crashed": false,
+			"countryName": "United States",
+			"countryCode": "us"
+		}
+	]
+}
+</pre>
 </div>
 
 <hr />
@@ -99,6 +153,44 @@ In the example above, you can see that our user is `john@example.com` and the AP
 		<button class="expand">▶</button> Get session data, events and logs
 	</span>
 	<code>GET /api/1/projects/{project-id}/builds/{build-id}/sessions/{session-id}/</code>
+</div>
+<div class="method-description hidden">
+	Get metadata (and optionally data) for a specific session.<br />
+
+	<table>
+	<tr>
+		<th style="width: 160px;"><b>parameter</b></th>
+		<th style="width: 100px;"><b>type</b></th>
+		<th><b>description</b></th>
+	</tr>
+	<tr>
+		<td>fields</td>
+		<td><em>string</em></td>
+		<td>
+			Possible values: "meta", "logs", "events"<br />
+			Default value: "meta" <br/>
+			Use "events" to load all events, screenshots, touches and other metrices. Use "logs" to fetch
+			only logs. When loading logs, response will be application/text.
+		</td>
+	</tr>
+	</table>
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"session": {
+		"id": 1,
+		"sessionStartTime": "2017-01-22 16:42:40",
+		"duration": "15:01",
+		"testerEmail": "john@testfairy.com",
+		"device": "Samsung - Samsung Galaxy S8",
+		"ipAddress": "23.100.122.175",
+		"crashed": false
+	}
+}
+</pre>
 </div>
 
 <hr />

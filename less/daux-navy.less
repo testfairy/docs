@@ -196,3 +196,113 @@ div.method-description pre {
 div.method-description.hidden {
   display: none;
 }
+
+.getting-started-container {
+  width: 860px;
+  padding: 28px 24px 64px;
+}
+
+.getting-started-title {
+  margin-bottom: 50px;
+  margin-left: 16px;
+  font-family: 'Roboto Slab', sans-serif;
+  color: #383838;
+  font-size: 33px;
+  font-weight: 400;
+}
+
+.getting-started-card-container {
+  display: block;
+  width: 96%;
+  padding: 48px 36px 36px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: flex-start;
+  -ms-flex-line-pack: start;
+  align-content: flex-start;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(54, 54, 54, .05);
+  border-radius: 6px;
+  background-color: #fffaf6;
+}
+
+.getting-started-card {
+  display: inline-block;
+  width: 320px;
+  height: 372px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+  padding: 0px 46px 32px 40px;
+  float: left;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(101, 11, 56, .2);
+  border-radius: 6px;
+  background-color: #fff;
+  color: #383838;
+  font-weight: 400;
+}
+
+.getting-started-question {
+  margin-bottom: 12px;
+  font-family: 'Roboto Slab', sans-serif;
+  color: #1c1c1c;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 300;
+}
+
+.getting-started-img {
+  width: 140px;
+  height: 140px;
+  margin-bottom: 12px;
+}
+
+.getting-started-btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding-right: 20px;
+  border-radius: 6px;
+  background-image: url('../img/getting-started/chevron-pink-01.svg');
+  background-position: 100% 50%;
+  background-size: 12px 12px;
+  background-repeat: no-repeat;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
+  color: #dd1955;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.getting-started-btn:hover {
+  padding-right: 28px;
+}
+
+/* gilm: additional patches */
+img.getting-started-img {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.getting-started-container {
+  padding: 0;
+}
+
+.w-clearfix:before,
+.w-clearfix:after {
+  content: " ";
+  display: table;
+}
+.w-clearfix:after {
+  clear: both;
+}
+

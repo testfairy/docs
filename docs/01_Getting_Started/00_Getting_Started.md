@@ -1,3 +1,6 @@
+<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+<script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900","Playfair Display:regular,italic","Roboto Slab:regular,700"]  }});</script>
+
 <div class="getting-started-container">
 	<div class="getting-started-card-container w-clearfix">
 		<div class="getting-started-title">Welcome to TestFairy! Let's get started...</div>

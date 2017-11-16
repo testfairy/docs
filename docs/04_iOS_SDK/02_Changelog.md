@@ -1,3 +1,9 @@
+### Version 1.11.1
+Released 2017-11-16
+
+* [NEW] Improved bandwidth usage for video recording
+* [BUGFIX] Security fixes in video recording
+
 ### Version 1.11.0
 Released 2017-10-04
 
@@ -109,7 +115,7 @@ Released: 2016-07-20
 ### Version 1.7.8
 Released: 2016-06-28
 
-* [NEW] Added setScreenName 
+* [NEW] Added setScreenName
 * [NEW] Screen name is sent with every user feedback
 * [BUGFIX] Hide keyboard when feedback is sent
 * [BUGFIX] In rare cases, crashes before session started recording, were lost.
@@ -149,7 +155,7 @@ Released: 2016-03-10
 Released: 2016-03-08
 
 * [NEW] Grab HTTP status code from monitored network requests
-* [NEW] Show events in TestFairy when a new UIViewController appears 
+* [NEW] Show events in TestFairy when a new UIViewController appears
 * [NEW] Added option `TFSDKEnableCrashReporterKey` to disable crash handler
 * [BUGFIX] Protect against multiple calls to `[TestFairy begin]`
 * [BUGFIX] Fixed `CLTilesManagerClient` warnings in logs
@@ -192,7 +198,7 @@ Released: 2015-11-05
 
 * [NEW] Added constants for identifying users. Available traits include name, gender, birthday, phone number, signup date and age.
 * [NEW] Custom attributes can also be assigned to sessions. Please visit the relevant reference document.
- 
+
 ### Version 1.5.3
 Released: 2015-10-26
 

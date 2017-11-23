@@ -3,6 +3,8 @@ when and how people are using your app, and provide you with any metric you need
 
 Both Java and Kotlin apps are supported.
 
+List of changes is available in [Changelog](http://docs.testfairy.com/Android/Changelog.html).
+
 ## Installation
 
 <!--

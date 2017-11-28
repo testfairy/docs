@@ -13,7 +13,7 @@ branches:
 script:
   - lessc -x less/daux-navy.less >css/daux-navy.min.css
   - php index.php generate
-  - cp static/API/Upload_API.html static/index.html
+  - cp Getting_Started/Getting_Started.html static/index.html
   - cp 404/* static/
   - cp .htaccess static/
   - curl -s http://checkip.amazonaws.com/

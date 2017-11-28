@@ -5,28 +5,30 @@
 			<img src="../img/getting-started/2-fold-icons-01-05.png" class="getting-started-img">
 			<div class="getting-started-question">I want to distribute my app to testers</div>
 			<div>Invite testers to try out your app, using over-the-air distribution.</div>
-			<a href="#" class="getting-started-btn">Learn More</a>
+			<a href="../Getting_Started/How_To_Invite_Testers.html" class="getting-started-btn">Learn More</a>
 		</div>
 
+<!--
 		<div class="getting-started-card">
 			<img src="../img/getting-started/getting-started-icons-08.png" class="getting-started-img">
 			<div class="getting-started-question">I want to set up a bug system</div>
 			<div>Automatically add crashes and feedbacks to your JIRA and other issue management software.</div>
 			<a href="#" class="getting-started-btn">Learn More</a>
 		</div>
+-->
 
 		<div class="getting-started-card">
 			<img src="../img/getting-started/getting-started-icons-07.png" class="getting-started-img">
 			<div class="getting-started-question">I want to record videos of my apps</div>
 			<div>See how your users are using your apps. See screen touches, follow trends and learn from usage.</div>
-			<a href="#" class="getting-started-btn">Learn More</a>
+			<a href="../TestFairy_SDK/Introduction.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">
 			<img src="../img/getting-started/getting-started-icons-10.png" class="getting-started-img">
 			<div class="getting-started-question">I want to collect crash reports</div>
 			<div>Collect crash reports from your apps, and have them added to bug system or sent by email.</div>
-			<a href="#" class="getting-started-btn">Learn More</a>
+			<a href="../TestFairy_SDK/Introduction.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">
@@ -36,12 +38,15 @@
 			<a href="../Continuous_Integration/Introduction.html" class="getting-started-btn">Learn More</a>
 		</div>
 
+<!--
 		<div class="getting-started-card">
 			<img src="../img/getting-started/getting-started-icons-09.png" class="getting-started-img">
-			<div class="getting-started-question">Learn about the TestFairy SDK's advanced features </div>
+			<div class="getting-started-question">Learn about the TestFairy SDK's advanced features</div>
 			<div>Identify users, connect webhooks, hide sensitive views and much more.</div>
 			<a href="#" class="getting-started-btn">Learn More</a>
 		</div>
+-->
+
 	</div>
 </div>
 

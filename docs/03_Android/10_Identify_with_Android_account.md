@@ -4,7 +4,7 @@ Since Android has built-in user accounts, it might be useful for some developers
 
 The followin example shows how to find the first account, validate it as an email address and push it to TestFairy as a UserID.
 
-```
+```java
 Account[] accounts = AccountManager.get(MainActivity.this).getAccounts();
 for (Account account : accounts) {
 	if (Patterns.EMAIL_ADDRESS.matcher(account.name).matches()) {
@@ -15,7 +15,7 @@ for (Account account : accounts) {
 ```
 
 Remember that you are required to add the `GET_ACCOUNTS` permission to your *AndroidManifest.xml* file:
-```
+```xml
 <uses-permission android:name="android.permission.GET_ACCOUNTS" />
 ```
 

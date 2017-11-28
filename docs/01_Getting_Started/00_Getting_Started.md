@@ -33,7 +33,7 @@
 			<img src="../img/getting-started/getting-started-icons-06.png" class="getting-started-img">
 			<div class="getting-started-question">I want to connect my CI</div>
 			<div>Upload new builds directly from your Jenkins, Travis CI or other tools. Automatically invite the right testers to new versions.</div>
-			<a href="#" class="getting-started-btn">Learn More</a>
+			<a href="../Continuous_Integration/Introduction.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">

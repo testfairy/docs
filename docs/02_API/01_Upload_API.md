@@ -4,8 +4,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 ### Usage
 [Gradle plugin](https://github.com/testfairy/testfairy-gradle-plugin)
 [Jenkins plugin](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
-[Bamboo plugin](http://docs.testfairy.com/Integrations/Bamboo.html)
-[Command line uploader](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh) 
+[Command line uploader](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)
 
 
 ### Method

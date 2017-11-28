@@ -182,7 +182,8 @@
                 </div>
                 <div class="right-column <?php echo ($options['float']?'float-view':''); ?> content-area col-sm-9">
                     <div class="content-page">
-                        <div align="right">
+			<?php /* gilm */ ?>
+                        <div align="right" class="suggest-edit-container">
                             <a href="https://github.com/testfairy/docs/tree/master/docs/<?php echo $page['path']; ?>" rel="nofollow">Suggest an edit</a>
                         </div>
                         <article>
@@ -223,7 +224,10 @@
                                 </div>
                             <?php } ?>
 
-                            <iframe frameborder=0 src="https://app.testfairy.com/docs/did-this-help" style="width: 600px; height: 400px;"></iframe>
+                            <?php /* gilm */ ?>
+                            <div class="was-doc-helpful">
+                                <iframe frameborder=0 src="https://app.testfairy.com/docs/did-this-help" style="width: 600px; height: 400px;"></iframe>
+                            </div>
 
                         </article>
                     </div>

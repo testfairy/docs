@@ -34,11 +34,6 @@ Once on the landing page, choose between **Public** and **Private** versions, fi
  <a href="https://community.testfairy.com/join/jHWsEbrfwF7e7UjUjwDZ7h8xanScHLs0" target="_blank">Here</a>  you can see an example of a live landing page of an exciting new application **Badoo**, a social network where you can meet new people.
 
 
-### The TestFairy Playground
-
-The  <a href="https://playground.testfairy.com/" target="_blank">TestFairy Playground</a> is a great place to get your app exposed to testers that love trying new apps. The TestFairy enterprise package allows companies to run their own playground, like the one used by the [Google Tel Aviv Launchpad](https://launchpadtelaviv.testfairy.com/playground)
-
-
 ### Managing Testers Groups
 
 To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click the **Testers** button on the top menu.  

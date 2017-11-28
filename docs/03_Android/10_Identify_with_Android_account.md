@@ -8,7 +8,7 @@ The followin example shows how to find the first account, validate it as an emai
 Account[] accounts = AccountManager.get(MainActivity.this).getAccounts();
 for (Account account : accounts) {
 	if (Patterns.EMAIL_ADDRESS.matcher(account.name).matches()) {
-    TestFairy.setUserId(account.name);
+		TestFairy.setUserId(account.name);
 		break;
 	}
 }

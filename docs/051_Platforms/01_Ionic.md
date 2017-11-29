@@ -1,4 +1,4 @@
-Adding TestFairy plugin to your Ionic or Ionic 2 project is simple. 
+Adding TestFairy plugin to your Ionic or Ionic 2 project is simple.
 
 ## Install te TestFairy Ionic plugin
 
@@ -22,7 +22,7 @@ ionic plugin add cordova-plugin-console
 
 ## Add TestFairy to your code
 
-Initialize TestFairy with your [App Token](https://app.testfairy.com/settings/#apptoken) by calling `TestFairy.begin`. 
+Initialize TestFairy with your [App Token](https://app.testfairy.com/settings/#apptoken) by calling `TestFairy.begin`.
 Your App Token is available at `https://app.testfairy.com/settings/#apptoken`.
 
 1. Copy your app token from `https://app.testfairy.com/settings/#apptoken`.
@@ -36,7 +36,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
-    TestFairy.begin("APP TOKEN"); //taken from https://app.testfairy.com/settings/#apptoken 
+    TestFairy.begin("APP TOKEN"); //taken from https://app.testfairy.com/settings/#apptoken
   });
 })
 ```
@@ -52,6 +52,27 @@ declare var TestFairy:any;
 Next, in your `src/app/app.component.ts` file, invoke `begin` passing in your **APP TOKEN** which is available at `https://app.testfairy.com/settings/#apptoken`. We recommend invoking the `begin` method once `platform.ready()` is invoked as given in the example below:
 
 ```
+platform.ready().then(() => {
+  TestFairy.begin(APP TOKEN);
+  ...
+});
+```
+
+### Ionic 3
+
+With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaraion file in `tsconfig.json` by adding the line
+
+```
+"files": [
+"plugins/com.testfairy.cordova-plugin/www/testfairy.d.ts"
+],
+```
+
+Next, in your `src/app/app.component.ts` file, invoke `begin` passing in your **APP TOKEN** which is available at `https://app.testfairy.com/settings/#apptoken`. We recommend invoking the `begin` method once `platform.ready()` is invoked as given in the example below:
+
+```
+declare var TestFairy: any; // at the top of the file
+..
 platform.ready().then(() => {
   TestFairy.begin(APP TOKEN);
   ...
@@ -78,4 +99,3 @@ Congratulations! You've successfully integrated TestFairy into your Ionic projec
 * Have a look at the [API documentation](https://github.com/testfairy/testfairy-cordova-plugin/blob/master/www/testfairy.js) for other calls you can make to the TestFairy plugin
 
 * Follow the project on [GitHub](https://github.com/testfairy/testfairy-cordova-plugin) for updates, reporting bugs, or contributing to the project!
- 

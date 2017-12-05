@@ -12,6 +12,7 @@ The following platforms are officially supported. We also offer an [Upload API](
 |![jenkins](../img/continuous-integration/bamboo-logo.png) | [Bamboo](Bamboo.html)|
 |![jenkins](../img/continuous-integration/cloud-icon.png) | [Upload API](../API/Upload_API.html)|
 |![jenkins](../img/continuous-integration/command-line-icon.png) | [Command line interface](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)|
+|![jenkins](../img/continuous-integration/fastlane-logo.png) | [Fastlane](Fastlane.html)|
 
 <style>table thead {display: none;}</style>
 <style>img {max-width: 100px; border: none;}</style>

@@ -1,3 +1,9 @@
+### Version 1.12.0
+Released 2017-12-05
+
+* [BUGFIX] Fixed library detection
+* [BUGFIX] Limit Feedback collection until session starts
+
 ### Version 1.11.1
 Released 2017-11-16
 

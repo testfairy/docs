@@ -96,6 +96,8 @@ Released 2017-01-26
 
 * NOTE: `TestFairy begin` should be called before starting Crashlytics or Fabric
 
+#All SDK versions below are not supported any more by TestFairy
+
 ### Version 1.8.1
 Released 2016-12-13
 

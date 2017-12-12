@@ -1,3 +1,11 @@
+### Version 1.5.7
+Released: 2017-12-12
+
+* [BUGFIX] Capture main stacktrace for ANR detection
+* [BUGFIX] Handle null Views when calling `hideView`
+* [BUGFIX] Add framework detection
+* [BUGFIX] Crashes with Auto Update Activity
+
 ### Version 1.5.5
 Released: 2017-08-28
 

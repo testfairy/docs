@@ -2,74 +2,49 @@
 
 TestFairy for React native is a bridge to the [TestFairy](https://www.testfairy.com) SDK. Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
 
-## iOS installation
+# Automatic Installation
 
-1. `npm install --save react-native-testfairy`
-3. In Finder, Go to `node_modules` ➜ `react-native-testfairy`, and drag the `ios` directory into your project. Be sure to "Copy items if needed" is selected in the dialog box shown.
-4. Add libTestFairy.a from the linked project to your project properties ➜ "Build Phases" ➜ "Link Binary With Libraries"
-5. Next you will have to link a few more SDK framework/libraries which are required by TestFairy (if you do not already have them linked.) Under the same "Link Binary With Libraries", click the + and add the following:  
-   * CoreMedia.framework  
-   * CoreMotion.framework  
-   * AVFoundation.framework  
-   * SystemConfiguration.framework  
-   * OpenGLES.framework  
+If you are using version 0.36 or later of react-native, then this is the recommended approach to adding the TestFairy SDK to your app. From your project root, run the following commands
 
-## Android installation
 ```
 npm install --save react-native-testfairy
+react-native link
 ```
 
-```gradle
-// file: android/settings.gradle
-...
+If the above steps fail, try to use the manual steps described below.
 
-include ':react-native-testfairy'
-project(':react-native-testfairy').projectDir = new File(settingsDir, '../node_modules/react-native-testfairy/android')
-```
+# Manual Installation
 
-```gradle
-// file: android/app/build.gradle
-...
+The manual installation is recommended for those running verions below 0.36 of react-native. The manual steps given below are different based on the platform you're targeting. If you are targetting both Android and iOS, you will need to complete both sections.
 
-dependencies {
-    ...
-    compile project(path: ':react-native-testfairy')
-}
-```
+## iOS
 
-```java
-// file: MainApplication.java
-...
+1. `npm install --save react-native-testfairy`
+1. In XCode, in the project navigator, right click `Libraries` -> `Add Files to [your project's name]`
+1. In the finder window, go to `node_modules` -> `react-native-testfairy` and add `ReactNativeTestFairy.xcodeproj`
+4. Run your project (`Cmd+R`)
 
-import com.testfairy.react.TestFairyPackage; // import package
+## Android
 
-public class MainApplication extends ReactActivity {
+1. `npm install --save react-native-testfairy`
+1. Open up `android/app/src/main/java/[...]/MainApplication.java`
+  - Add `import com.testfairy.react.TestFairyPackage;` to the imports at the top of the file
+  - Add `new TestFairyPackage()` to the list returned by the `getPackages()` method
+1. Append the following lines to `android/settings.gradle`:
+  	```
+    include ':react-native-testfairy'
+    project(':react-native-testfairy').projectDir = new File(settingsDir, '../node_modules/react-native-testfairy/android')
+  	```
+1. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
+  	```
+      compile project(':react-native-testfairy')
+  	```
 
-   /**
-   * A list of packages used by the app. If the app uses additional views
-   * or modules besides the default ones, add more packages here.
-   */
-  private final ReactNativeHost mReactNativeHost = new ReactNativeHost(this) {
-    ....
+# Usage
 
-    @Override
-    protected List<ReactPackage> getPackages() {
-      return Arrays.<ReactPackage>asList(
-          new MainReactPackage(),
-          new TestFairyPackage()
-      );
-    }
-  };
-  
-...
-}
-
-```
-
-## Usage
 Once the native library has been added to your project, you can now enable session recording with TestFairy. You will need an app token, which you can get from your [preferences](http://app.testfairy.com/settings/) page on your TestFairy account.
 
-Next, from your JavaScript file, (index.ios.js or index.android.js for example), import the TestFairy bridge into your project, and invoke `begin` passing in the app token. Best time to invoke `begin` is usually in `componentWillMount` or right before you register your application. 
+Next, from your JavaScript file, (`index.ios.js`, `index.android.js` or `App.js` for example), import the TestFairy bridge into your project, and invoke `begin` passing in the app token. Best time to invoke `begin` is usually in `componentWillMount` or right before you register your application.
 
 ```
 const TestFairy = require('react-native-testfairy');
@@ -135,7 +110,7 @@ In order to hide views from your recorded session, you will need to pass a refer
 <Text ref="instructions">This will be hidden</Text>
 ```
 
-Next, in a component callback, such as `componentDidMount`, pass the reference ID back to TestFairy by invoking `hideView`. 
+Next, in a component callback, such as `componentDidMount`, pass the reference ID back to TestFairy by invoking `hideView`.
 
 ```
 const TestFairy = require('react-native-testfairy');
@@ -159,21 +134,6 @@ var MyComponent = React.createClass({
 Now, your Views will be hidden before any video is uploaded to TestFairy.
 
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
-
-## Migrating from 1.x to 2.x
-
-In order to migrate from 1.x to 2.x, a minor change is required in the way you hide views.
-
-Remove the import of `findNodeHandle`
-```
-- var { findNodeHandle } = React;
-```
-
-Pass the `ref` object directly into `TestFairy.hideView()`
-```
-- TestFairyBridge.hideView(findNodeHandle(this.refs.instructions));
-+ TestFairyBridge.hideView(this.refs.instructions);
-```
 
 ### Where to go from here?
 * Have a look at the [API documentation](https://app.testfairy.com/reference/ios/) for other calls you can make to the TestFairy plugin

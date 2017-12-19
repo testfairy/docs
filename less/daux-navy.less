@@ -4,7 +4,7 @@
 @sidebar-hover: #eee;
 @lines: #e7e7e9;
 @sidebar-background: #ffffff;
-@dark: #13132a;
+@dark: #dd1955;
 @light: #7795b4;
 //@light: #f5f5f5;
 @text: #2d2d2d;
@@ -41,7 +41,10 @@ h2 {
 }
 
 .content-page .page-header h1 {
-  margin-top: 0px;
+  margin-top: 0;
+  font-family: soleil, sans-serif !important;
+  font-weight: 700 !important;
+  text-transform: uppercase;
 }
 
 .content-page ul li {
@@ -77,25 +80,38 @@ code {
 }
 
 div.article-tree {
-  width: 250px;
+  //width: 18%;
 }
 
-img {
-  border: 1px solid #eee;
+.content-page img {
+  border: 1px solid rgba(0, 0, 0, .2);
   padding: 0px;
-  max-width: 800px;
+  max-width: 720px;
+  border-radius: 6px;
+  box-shadow: 1px 1px 16px -3px rgba(0, 0, 0, .2);
+  margin-bottom: 12px;
 }
 
 div.navbar {
-  background-color: #000;
+  background-color: #262626;
+  height: 64px;
 }
 
 a.brand {
   color: white !important;
 }
 
+/* an item in sidebar */
 .nav.nav-list li ul li a {
-  font-size: 13px;
+  font-family: soleil, sans-serif;
+  color: #262626;
+  font-size: 15px;
+  font-weight: 300;
+  text-decoration: none;
+  line-height: 22px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  opacity: 1;
 }
 
 div.article-tree {
@@ -106,8 +122,27 @@ li.open > ul.nav.nav-list {
   margin-bottom: 24px;
 }
 
+.left-column ul.nav.nav-list {
+  padding-top: 25px !important;
+}
+
+/* category */
 a.aj-nav.folder {
   background: transparent;
+  color: #dd1955;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+  font-size: 16px !important;
+  letter-spacing: 0.5px;
+  font-family: soleil, sans-serif !important;
+  line-height: 22px;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+}
+
+body .content-page {
+  padding-left: 100px !important;;
 }
 
 body .content-page pre {
@@ -119,7 +154,7 @@ article table thead tr {
 }
 
 div.row.columns.content {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -128,16 +163,19 @@ div.columns.left-column {
 }
 
 div.container-fluid {
-  width: 1200px;
+  width: 80%;
 }
 
 div.navbar a.go-to-dashboard {
-  font-size: 12px;
   margin-right: -32px;
   text-shadow: none;
-  margin-top: 7px;
-  background-color: #0167ff;
-  border-color: #0167ff;
+  margin-top: 17px;
+  background-color: #dd1955;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Roboto, sans-serif;
+  border: none;
 }
 
 button.expand {

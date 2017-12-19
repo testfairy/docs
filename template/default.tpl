@@ -20,6 +20,10 @@
     <!-- Font -->
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
 
+    <?php //gilm ?>
+    <script src="https://use.typekit.net/xqb6bei.js" type="text/javascript"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <!-- LESS -->
     <?php if ($options['colors']) { ?>
         <style type="text/less">
@@ -134,10 +138,13 @@
         <div class="container-fluid fluid-height wrapper">
             <div class="navbar navbar-fixed-top">
                 <div class="container-fluid">
-                    <a class="brand navbar-brand pull-left" href="<?php echo get_url('index'); ?>"><?php echo $options['title']; ?></a>
+                    <a class="brand navbar-brand pull-left" href="<?php echo get_url('index'); ?>" style="padding-top: 17px;">
+                        <img src="https://app.testfairy.com/images/app/testfairy-logo-white.png" alt style="height: 30px;" />
+                        Documentation
+                    </a>
                     <?php // gilm ?>
                     <p class="pull-right">
-                        <a class="go-to-dashboard btn btn-info" href="https://app.testfairy.com/">GO TO YOUR DASHBOARD</a>
+                        <a class="go-to-dashboard btn btn-info" href="https://app.testfairy.com/">Go To Dashboard</a>
                     </p>
                     <?php /* gilm
                     <p class="navbar-text pull-right">
@@ -148,7 +155,7 @@
             </div>
 
             <div class="row columns content">
-                <div class="left-column article-tree col-sm-3">
+                <div class="left-column article-tree col-sm-4">
                     <!-- For Mobile -->
                     <div class="responsive-collapse">
                         <button type="button" class="btn btn-sidebar" id="menu-spinner-button">
@@ -180,7 +187,7 @@
                         <?php } ?>
                     </div>
                 </div>
-                <div class="right-column <?php echo ($options['float']?'float-view':''); ?> content-area col-sm-9">
+                <div class="right-column <?php echo ($options['float']?'float-view':''); ?> content-area col-sm-8">
                     <div class="content-page">
 			<?php /* gilm */ ?>
                         <div align="right" class="suggest-edit-container">

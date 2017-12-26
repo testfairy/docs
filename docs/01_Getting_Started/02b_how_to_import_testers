@@ -4,7 +4,7 @@ and upload a CSV file in the following format:
 email,groups
 email address, space seperated groups
 
-Example:
+For example:
 email,groups
 mike@gmail.com,friends
 sharon@yahoo.com,friends family

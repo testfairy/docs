@@ -11,33 +11,43 @@ You can choose to invite your testers via email or you can build a community of 
 To invite or notify testers by email, go to the build menu, right next to your app name and version, and select **Invite Testers**.
 You can add testers manually or [import lists of testers](https://app.testfairy.com/testers/import/) in csv format.
 
-iOS only: If you are **not** using an [iOS Enterprise certificate](https://developer.apple.com/programs/ios/enterprise/), you will need to get the UDID's of your testers' devices before sending them your app. When you invite new testers by email, your testers will get an email asking them to register their device. Once they click on the registration link, you will get an email with their UDID and their device details will be added to your [testers page](https://app.testfairy.com/testers).
+**Note for iOS only: If you are **not** using an [iOS Enterprise certificate](https://developer.apple.com/programs/ios/enterprise/), you will need to get the UDID's of your testers' devices before sending them your app. When you invite new testers by email, your testers will get an email asking them to register their device. Once they click on the registration link, you will get an email with their UDID and their device details will be added to your [testers page](https://app.testfairy.com/testers).
 For more information about how to add UDIDs to provisioning profiles please read [this guide](http://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html).
 
 ![ alt upload](../../img/app/invite-testers2.png)
 
-### The TestFairy Beta Community Pages
+### The TestFairy Landing Pages
 
-TestFairy creates a beta community page for each one of your apps. It make it extremely easy to get new testers by allowing testers to  download your app in just one click. The beta community can be configured to work in public mode that allows anyone to get the app direclty or in private mode that allows testers to request to join the beta and be approved manually.
-You can share this page on social meida by using the Facebook, Twitter or Google+ butttons at the top right corner of he page.
+TestFairy automatically creates a landing page for each one of your apps. It make it extremely easy to get new testers, by allowing testers to download your app with just one click or a QR code scan. The landing page can be configured to work in public mode, which allows anyone to get the app direclty, or in private mode, which allows testers to request to join the beta and be approved manually.
+You can share this page on social media by using the Facebook, Twitter or Google+ butttons at the top right corner of the page.
 
-Once on the landing page, choose between **Public** and **Private** versions, fill in the app description and share the page with your audience.
+To see your landing page from any version of your app, click on the **"share"** button on the top right corner of your build menu.
 
-<!-- ![ alt testfairy-beta-community](../../img/app/testfairy-beta-community.png) -->
-<img src="../../img/app/testfairy-beta-community.png" width="800"/>
+![ alt upload](../../img/app/share-btn.png)
+
+To modify the settings of your page, you can either:
  
- <a href="https://community.testfairy.com/join/jHWsEbrfwF7e7UjUjwDZ7h8xanScHLs0" target="_blank">Here</a>  you can see an example of a live landing page of an exciting new application **Badoo**, a social network where you can meet new people.
+  1. Click on **"App Landing Page"** in your app menu (right next to the app name) 
+  
+  ![ alt upload](../../img/app/landing-page-btn.png)
+  
+  2. Go to "settings" in your build menu, and look for "Landing Page" under the "App distribution" section.
+
+![ alt upload](../../img/app/landing-page-settings.png)
+
+Once in the landing page settings, you can choose your privacy setting, fill in the app description, customize your page's stylesheet and share the page with your audience.
 
 
-### Managing Testers Groups
+### Managing Tester Groups
 
-To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click the **Testers** button on the top menu.  
+To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click on **Invite Testers** in the build menu.
+
+![ alt upload](../../img/app/invite-testers2.png)
 
 You can also divide testers to **groups** to add more structure and organise your testing efforts. 
-You can then invite only testers in a specific group to test a new build from the  **Distribution ->Invite Testers By Email** page.
+You can then invite a select number testers in a specific group to test a new build. Simply select your testers and click "Invite selected testers" on the bottom of the page to send them an email invitation.
 
-<!-- ![ alt testers](../../img/app/testers.png) -->
-<img src="../../img/app/testers.png" width="800"/>
+![ alt upload](../../img/app/tester-groups.png)
  
-**What to read next:** [How To Analyze Test Results](How_To_Analyze_Test_Results.html).
+**What you should read next:** [How To Analyze Test Results](How_To_Analyze_Test_Results.html).
 

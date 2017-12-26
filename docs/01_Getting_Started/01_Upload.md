@@ -8,7 +8,7 @@ Once your account is created and verified, you are ready to upload your app.
 
 Uploading is just as simple as it sounds! Just click on the **Upload** button on the top-right side of the upper menu, and follow the on-screen instructions.
 
-![ alt upload](../../img/app/upload.png)
+![ alt upload](../../img/app/upload2.png)
 
 We recommend using our <a href="http://docs.testfairy.com/Upload_API.html">Upload API</a> to enable our <a href="https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin">Jenkins plugin</a>, <a href="#">Gradle plugin</a>, or <a href="https://github.com/testfairy/command-line-uploader" target="_blank">Command line uploader</a>. 
 

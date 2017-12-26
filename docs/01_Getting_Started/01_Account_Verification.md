@@ -2,7 +2,7 @@
  
 If you are new to TestFairy, the first thing you want to do is [sign up](http://www.testfairy.com/signup). Signing up is easy and free. All you have to do is insert your email address and choose a password - and you're in!
 
-After signing up, you will receive a welcome email from us. Don't throw it away! It contains some useful information.
+After signing up, you will receive a welcome email from us. Don't throw it away, It contains some useful information.
 
  1. First, please click on the account verficiation link in order to fully activate your account. 
  

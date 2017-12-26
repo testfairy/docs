@@ -23,7 +23,7 @@ You can define your testing settings right on the upload process.
 
 **Selecting Your Project Settings**
 
-Following are the parameters you can set up directly on the **Upload** process, when you reach the "Build Settings" section. Simply click on the "Advanced Settings" link under the comments, to check or uncheck the parameters you are interested in for this testing round.
+Following are the parameters you can set up directly on the **Upload** process, when you reach the "Build Settings" section. Simply click on the **"Advanced Settings"** link under the comments, to check or uncheck the parameters you are interested in for this testing round.
 
  * CPU 
  * Memory
@@ -42,9 +42,10 @@ In addition, you can set the following parameters:
 
 -- **Custom Comments** - Use this section to add release notes, describe the updated/changes and write about anything else you would like your testers to be aware of.
 
+![ alt testfairy-upload](../../img/app/upload-settings.png)
+
 Additional settings can be configured from the <a href="http://docs.testfairy.com/Getting_Started/Account_Settings.html">Project Settings</a> page.
 
-![ alt testfairy-upload](../../img/app/upload-APK.png)
  
 ## <a id="Uploading"></a> Updating an app
 

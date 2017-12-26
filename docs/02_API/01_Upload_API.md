@@ -19,35 +19,8 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | symbols_file    |             | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
 | testers_groups  |             | Comma-separated list of tester groups to be invited on the new build. Or "all" to invite all testers. |
 | notify          |             | Send emails to the notified tester groups. Default is "on". |
-| metrics         |             | Comma-separated list of metrics to record. View list below. |
-| max-duration    |             | Maximum session recording length, eg 20m or 1h. Default is "10m". Maximum 24h. |
-| video           |             | Video recording settings "on", "off" or "wifi" for recording video only when wifi is available. Default is "on". |
-| video-quality   |             | Video quality settings, "high", "medium" or "low". Default is "high". |
-| video-rate      |             | Video rate recording in frames per second, default is "1.0". |
 | comment         |             | Additional release notes for this upload. This text will be added to email notifications. |
 | auto-update     |             | Allows easy upgrade of all users to current version. Set to "on" to enable. Default is "off". |
-
-### Available Metrics
-
-Below is a list of available metrics for recording in a session. For use with `metrics` parameter (optional.)
-
- - `cpu` - user/kernel usage statistics.
- - `memory` - process private/shared memory statistics.
- - `network` - process network utilization.
- - `network-requests` - process network requests.
- - `phone-signal` - phone signal strength.
- - `logcat` - process logs from logcat (Adds *android.permission.READ_LOGS* permission.)
- - `gps` - raw GPS location data, if used by app.
- - `battery` - battery status and drainage (Adds *android.permission.BATTERY_STATS* permission.)
- - `mic` - keep microphone audio data, if used by app.
- - `wifi` - track WIFI signal strength and connectivity.
-
-### Available Options
-
-Below is a list of available advanced options for recording in a session. For use with `options` parameter (optional.)
-
- - `shake` - Use this option to let the tester to shake their device and fill in a bug report that openes up.
- - `anonymous` - When using this option, sessions are anonymous and account information is not collected from device.
 
 ### Error Codes
 
@@ -71,7 +44,6 @@ curl https://upload.testfairy.com/api/upload \
 	-F api_key='your_api_key' \
 	-F file=@sample.apk \
 	-F symbols_file=@sample_mapping.txt \
-	-F metrics='cpu,network,logcat' \
 	-F testers_groups='friends,beta' \
 	-F notify='on'
 ```
@@ -97,6 +69,6 @@ In order to get your API KEY open your account preferences at https://app.testfa
 
 ### How can I create a new API Key?
 
-In order to create a new API KEY just click on "Regenerate API Key".
+In order to create a new API KEY just click on "Regenerate API Key" in your account preferences page.
 
 

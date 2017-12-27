@@ -64,19 +64,13 @@ Note that visual analysis  is only available for our startup and enterprise cust
 
 All the statistics you need are gathered on one useful page. You can reach it through the **"Reports"** dropdown in your build menu. 
 
-1. **Performance Statistics**
-
-	The **Performance Statistics** report is used to analyse the CPU and memory performance, as well as thread counts across different devices.
+1. **Performance Statistics**: used to analyse the CPU and memory performance, as well as thread counts across different devices.
 
  
-2. **Tester Statistics**
-
-	The **Tester Statistics** report is used to check how many times each of your testers used your app, and for how long.
+2. **Tester Statistics**: used to check how many times each of your testers used your app, and for how long.
 		 
 		 
-3. **Device Statistics**
-
-	The **Device Statistics** report is used to analyse the amount and duration of sessions on different devices.
+3. **Device Statistics**: used to analyse the amount and duration of sessions on different devices.
 
 
  

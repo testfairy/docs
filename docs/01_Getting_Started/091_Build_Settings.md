@@ -4,50 +4,35 @@
 <!-- ![ alt build-settings-button](../../img/app/build-settings-button.png) -->
 <img src="../../img/app/build-settings-button.png" width="800"/>
 
-Note that this documents describes build settings of Android apps. For iOS build settings, please [click here](Build_Settings_for_iOS.html).
-
 In order to configure your build settings, click on the **Settings** button on your build screen.
 Every build (version) has its own settings, however some of the definitions are shared by all the builds of an app.
 
 Note that some recording metrics are configured during the build upload stage and can not be changed for an existing build. On this page you can see their status, but not alter them. If you wish to change these parameters, please upload a new build and configure these on the [Upload](Upload.html) page.
 
-This is how **build settings** look on an Android project:
-
-<img src="../../img/app/build-settings-android.png" width="800"/>
-
- * App information - name, version, file size, Min SDK (the minimum version of Android OS that can run this app)  as well as a link to an instrumented version of your application.
-
-<!-- YAIR: SHA1  -->
-
- * Build status - When a build status is inactive, installed apps will stop working and pending invitations will expire.
+ * App information - name, version, file size
  
- * Recording status - When recording is disabled, installed apps can continue to work, however no test data will be collected.
+ * Recording status - When recording is disabled, no test data will be collected.
  
  * Metrics:
    * CPU
    * Memory
-   * Application logcat
-   * Network
-   * Phone signal
-   * Microphone
-   * GPS
-   * Battery
-   * OpenGL
-   * WIFI
+   * Application logs
+   * Network (Android only)
+   * Phone signal (Android only)
+   * Battery (Android only)
+   * WIFI (Android only)
 
    
  * Feedback module - when enabled, testers can provide feedback by shaking their device and filling a form that pops up. 
-This feature is included in the TestFairy enterprise package.
 
  * Security and privacy 
     * Strict mode - when enabled, users must login for app download. 
-    * Anonymous sessions - when enabled, user device information will not be recorded and sessions will apear as anonymous.
     
  * Auto-Update - when enabled, all the previous installations of this app will be automatically upgraded to this version. Next time a user with an old version opens his app, he will get see a message 'updating' and the app will be installed. No email will be sent regarding this update.
 
  * Session 
    * Max duration - determines the maximum recording time. This feature does not influence app usage, users can still use the app more than max duration, however no recording will be made.
-   * Record on background - if enabled, logs and other metrcis (no screen) will be recorded when the app is on the background. Please note that this option might affect battery consumption.
+   * Record on background (Android only) - if enabled, logs and other metrcis (no screen) will be recorded when the app is on the background. Please note that this option might affect battery consumption.
    * Record data only on wifi - when checked,  data will be recorded and sent back to TestFairy only when wifi is avialable.
   
  * Video settings. Changing video settings can be useful in case you wish to decrease network overload. 

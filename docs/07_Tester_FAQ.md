@@ -5,6 +5,7 @@ TestFairy is a mobile testing platform that enables teams to find, report and so
 
 
 We will help your team with:
+
    * **Distributing apps** to anyone who should be testing the app. This is done either via a direct email with a download link, or through our beautiful automatically generated landing pages, which include both a QR code or download link for either an iOS or Android version.
    
    * **Easily sending visual feedback and bug reports** directly from the app by shaking your device. A video recording, app logs and device metrics will automatically be attached to your report, and sent directly to your dev team. Integrate with your favorite team chat, continuous integration tool, bug tracking system and Single Sign On service to streamline the reporting process and get crucial information right where you need it.

@@ -12,7 +12,7 @@ Plesase note that you don't have to use the API immediately, as you can [upload]
 [gradle](https://github.com/testfairy/testfairy-gradle-plugin) and 
 [Command Line](https://github.com/testfairy/command-line-uploader)
 
-3. The welcome email also contains your **App Token**, to be used when initializing the TestFairy SDK. 
+ 3. The welcome email also contains your **App Token**, to be used when initializing the TestFairy SDK. 
 
 After making sure your account is fully verified - you are ready to roll!
 

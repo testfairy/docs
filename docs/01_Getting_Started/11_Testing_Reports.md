@@ -5,7 +5,7 @@ You can access the reports menu from the build screen. To arrive at the **build 
 
  
 <!-- ![ alt choose-build](../../img/app/choose-build.png) -->
-<img src="../../img/app/choose-build.png" width="800"/>
+<img src="../../img/app/choose-build.png"/>
 
 
 ## Coverage Reports

@@ -3,7 +3,7 @@
 On the **Preferences** page you can do the following: change your password, customize your account timezone and session duration, integrate your bug system and get your **API Key** and **App Token**. You can reach this page via the dropdown menu on the top right corner of your dashboard.
 
 <!-- ![ alt preferences-link](../../img/app/preferences-link.png) -->
-<img src="../../img/app/preferences-link.png" width="600"/>
+<img src="../../img/app/preferences-link.png"/>
 
 
 To use the TestFairy API to directly upload builds and invite testers, use the **Upload API Key**.

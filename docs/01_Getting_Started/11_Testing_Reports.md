@@ -41,9 +41,7 @@ The tables in this page show the coverage of your tests. The columns are your **
 
 	Checkpoints are used to provide insight regarding the way your testers use your apps.
 These can help you monitor when a tester has reached key points in your app, such as or visiting the in-app store.
-A checkpoint is a string written to log with the tag **testfairy-checkpoint**.
-
-Please consult our <a href="http://docs.testfairy.com/Advanced/Checkpoints.html" target="_blank">API documentation</a> for more details on checkpoints.
+A checkpoint is a string written to log with the tag **testfairy-checkpoint**. Please consult our <a href="http://docs.testfairy.com/Advanced/Checkpoints.html" target="_blank">API documentation</a> for more details on checkpoints.
 
 
 

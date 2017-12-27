@@ -33,7 +33,7 @@ To modify the settings of your page, you can either:
   
   2. Go to "settings" in your build menu, and look for "Landing Page" under the "App distribution" section.
 
-![ alt upload](../../img/app/landing-page-settings.png)
+  ![ alt upload](../../img/app/landing-page-settings.png)
 
 Once in the landing page settings, you can choose your privacy setting, fill in the app description, customize your page's stylesheet and share the page with your audience.
 

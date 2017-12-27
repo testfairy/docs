@@ -3,7 +3,7 @@
 On the **Preferences** page you can do the following: change your password, customize your account timezone and session duration, integrate your bug system and get your **API Key** and **App Token**. You can reach this page via the dropdown menu on the top right corner of your dashboard.
 
 <!-- ![ alt preferences-link](../../img/app/preferences-link.png) -->
-<img src="../../img/app/preferences-link.png" width="800"/>
+<img src="../../img/app/preferences-link.png" width="600"/>
 
 
 To use the TestFairy API to directly upload builds and invite testers, use the **Upload API Key**.
@@ -21,7 +21,7 @@ You can add more users to your project in the team page, found right under **"Pr
 Our enterprise accounts allow for multiple administrators as well.
 
 <!-- ![ alt add-admins](../../img/app/add-admins.png) -->
-<img src="../../img/app/add-admins.png" width="800"/>
+<img src="../../img/app/add-admins.png" width="600"/>
 
 **What to read next:**  [How To Connect To Your Bug System](How_To_Connect_To_Your_Bug_System.html)
  

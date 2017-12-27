@@ -23,13 +23,13 @@ To dive into the details of each session, just click on a session row to see the
 
 The **Session Overview** page shows you a full, comprehensive and synchronized view of all the relevant information collected in a single session:
 
- * **video recordings**
+ * **Video recordings**
    
- * **application logs**
+ * **Application logs**
 
  * **Metrics**: Below the video recording and logs, you can see performance graphs of CPU, memory, network and other parameters. All the graphs are synced with the video recording, so you can see exactly what happens to the device in every moment of each session.
   
- * **screen shots**
+ * **Screen shots**
 
 
 

@@ -1,27 +1,27 @@
-<!-- # <a id="account_setup"></a>  Account Settings -->
+<!-- # <a id="account_setup"></a>  Preferences -->
 
-On your **Account Settings** page you can do the following: change your password, customize your account timezone and session duration, integrate your bug system and get your **API Key** and **App Token**.
+On the **Preferences** page you can do the following: change your password, customize your account timezone and session duration, integrate your bug system and get your **API Key** and **App Token**. You can reach this page via the dropdown menu on the top right corner of your dashboard.
 
-<!-- ![ alt account-settings-button](../../img/app/accont-settings-button.png) -->
-<img src="../../img/app/account-settings-button.png" width="800"/>
+<!-- ![ alt preferences-link](../../img/app/preferences-link.png) -->
+<img src="../../img/app/preferences-link.png" width="800"/>
 
 
-To use TestFairy API to directly upload builds and invite testers, use the **Upload API Key**.
+To use the TestFairy API to directly upload builds and invite testers, use the **Upload API Key**.
 
 For more information please read the [Upload API](http://docs.testfairy.com/Upload_API.html) guide.
 
-![ alt settings-api-key](../../img/app/settings-api-key.png)
+![ alt api-key](../../img/app/api-key.png)
 
-You can find your **App Token** here for initializing the TestFairy SDK for iOS.
-![ alt settings-app-token](../../img/app/settings-app-token.png)
+You may also find your **App Token** here for initializing the TestFairy SDK for iOS.
+![ alt app-token](../../img/app/app-token.png)
 
 **Adding and Managing Users**
 
-You can add more users to your project from **Account -> Manage Domain** page.
+You can add more users to your project in the team page, found right under **"Preferences"** in the same dropdown menu.
 Our enterprise accounts allow for multiple administrators as well.
 
-<!-- ![ alt manage-domain](../../img/app/manage-domain.jpg) -->
-<img src="../../img/app/manage-domain.jpg" width="800"/>
+<!-- ![ alt add-admins](../../img/app/add-admins.png) -->
+<img src="../../img/app/add-admins.png" width="800"/>
 
 **What to read next:**  [How To Connect To Your Bug System](How_To_Connect_To_Your_Bug_System.html)
  

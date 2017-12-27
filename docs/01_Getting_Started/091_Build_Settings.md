@@ -1,8 +1,8 @@
 <!-- # Build Settings -->
 
 
-<!-- ![ alt build-settings-button](../../img/app/build-settings-button.png) -->
-<img src="../../img/app/build-settings-button.png" width="800"/>
+<!-- ![ alt build-settings-btn](../../img/app/build-settings-btn.png) -->
+<img src="../../img/app/build-settings-btn.png" width="800"/>
 
 In order to configure your build settings, click on the **Settings** button on your build screen.
 Every build (version) has its own settings, however some of the definitions are shared by all the builds of an app.

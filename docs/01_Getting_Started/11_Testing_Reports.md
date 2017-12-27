@@ -87,7 +87,7 @@ All the statistics you need are gathered on one useful page. You can reach it th
 It is real easy to get instant feedback from your testers without adding any new buttons to your app. All your testers need to do to access the feedback window is shake their device at any given moment. You can see their input instantly and open new relevant issues directly in your bug system from the **"Feedback"** tab in your build overview:  
 
 <!-- ![ alt feedback-report](../../img/app/feedback-report.png) -->
-<img src="../../img/app/feedback-report.png" width="800"/>
+<img src="../../img/app/feedback-report.png"/>
 
 **What to read next:**  [Build Settings](Build_Settings.html)
  

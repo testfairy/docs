@@ -27,10 +27,6 @@ A **Bug Creation** dialogue box opens up. Everything you type in the dialogue wi
 
 ![ alt bug-creation](../../img/app/bug-creation.png)
 
-If your bug system is connected, once you've created an issue in TestFairy, you can immediately see it in your bug system, with a link to the relevant session in TestFairy. All the TestFairy information including video, logs, device information and crash report, are available to the developer right from your bug reporting system. **This feature alone will save your team dozens of hours every month**.
-
-<!-- ![ alt my-new-bug-in-jira](../../img/app/my-new-bug-in-jira.png) -->
-<img src="../../img/app/my-new-bug-in-jira.png" width="800"/>
 
 
 

@@ -33,7 +33,7 @@ The **Session Overview** page shows you a full, comprehensive and synchronized v
 
 
 
-If you want to find a particular session, or filter sessions according to specific criteria, click on **"Insights"** on the top navbar, next to the app selection menu.
+If you'd like to find a particular session, or filter sessions according to specific criteria, click on **"Insights"** on the top navbar, next to the app selection menu.
 
 
   ![ alt insights-btn](../../img/app/insights-btn.png)

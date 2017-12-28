@@ -1,6 +1,6 @@
-TestFairy allows the developer to hide specific HTML elements from the recorded video in any `UIWebView` or `WKWebView` within their application. As the developer, you may choose to hide one or more elements from the video for security and privacy reasons.
+TestFairy enables developers to hide specific HTML elements from a recorded video in any `UIWebView` or `WKWebView` within their application. As the developer, you may choose to hide one or more elements from the video for security and privacy reasons.
 
-For example, you might want to remove all information related to credit card data from appearing in the session.
+For example, you might want to prevent all information related to credit card data from appearing in the session.
 
 ### Syntax
 
@@ -14,7 +14,7 @@ TestFairy will find any `UIWebView` or `WKWebView` in the view hierarchy, and hi
 
 ### Sample video
 
-Below is a sample screen taken from a demo video. On the left, this is how the app looks like normally. On the right is a screenshot taken with the HTML elements hidden.
+Below is a sample screen taken from a demo video. On the left, you can see what an app looks like normally. On the right is a screenshot taken with the HTML elements hidden.
 
 <div>
 <img style="float:left" src="../../img/ios/hidden_views/iphone-with-fields.png" width="400" />

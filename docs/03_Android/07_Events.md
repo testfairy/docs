@@ -1,5 +1,5 @@
 Events are used to provide insights on the how testers use your apps.   
-These can help you keep track of when a tester reaches key points in your app, such as or visiting the in-app store.      
+These can help you keep track of when a tester reaches key points in your app, such as visiting the in-app store.      
 
 ### Usage:
 

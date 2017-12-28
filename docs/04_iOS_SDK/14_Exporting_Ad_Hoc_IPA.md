@@ -1,4 +1,4 @@
-Apple allows for app distribution for testing on registered devices using an ad hoc provisioning profile or team provisioning profile. The output file you create is an iOS App file (a file with an `.ipa` filename extension) that they can then use to install your app on registered devices. These are the steps to export your app for testing:
+Apple allows app distribution for testing on registered devices using an ad hoc provisioning profile or team provisioning profile. The output file you create is an iOS App file (a file with an `.ipa` filename extension) that they can then use to install your app on registered devices. Following are the steps to export your app for testing:
 
 1. Register all test devices.
 1. Archive your app.
@@ -7,7 +7,7 @@ Apple allows for app distribution for testing on registered devices using an ad 
 
 ## About Ad Hoc Provisioning Profiles
 
-An ad hoc provisioning profile is a distribution provisioning profile that allows your app to be installed on designated devices and to use app services without the assistance of Xcode. It’s one of the two types of distribution provisioning profiles that you can create for apps.
+An ad hoc provisioning profile is a distribution provisioning profile that allows your app to be installed on designated devices and to use app services without the assistance of Xcode. It’s one of the two types of distribution provisioning profiles you can create for apps.
 
 Make sure you have created an ad hoc provisioning profile specifying an App ID that matches one or more of your apps, a set of test devices, and a single distribution certificate at the [developer portal](https://idmsa.apple.com/IDMSWebAuth/login?&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2F%2Fmembercenter%2Findex.action).
 
@@ -19,7 +19,7 @@ In the Xcode project editor, choose a generic device—Generic iOS Device—or y
 
 ![alt](../../img/ios/export_ipa/01_device.png)
 
-Choose Product > Archive.The Archives organizer appears and displays the new archive. Xcode runs preliminary validation tests on the archive and may display a validate warning in the project editor. For example, if you are not using asset catalogs and don’t set required app icons, as described in Setting Individual App Icon and Launch Image Files, an Info.plist warning message appears. If you see this warning, fix the issue and create the archive again.
+Choose Product > Archive.The Archives organizer appears and displays the new archive. Xcode runs preliminary validation tests on the archive and may display a **"validate"** warning in the project editor. For example, if you are not using asset catalogs and don’t set required app icons, as described in Setting Individual App Icon and Launch Image Files, an **"Info.plist"** warning message appears. If you see this warning, fix the issue and re-create the archive.
 
 ![alt](../../img/ios/export_ipa/02_archive.png)
 

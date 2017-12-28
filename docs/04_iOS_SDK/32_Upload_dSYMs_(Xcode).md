@@ -20,7 +20,7 @@
 ```sh
 sh "$SRCROOT/TestFairy/upload-dsym.sh" UPLOAD_API_KEY
 ```
-Makue sure the specified path include the upload-dsym.sh file.
+Make sure the specified path includes the upload-dsym.sh file.
 
 Make sure to replace **UPLOAD_API_KEY** with the your secret upload API key, found in the [Settings](https://app.testfairy.com/settings/) page.
 
@@ -28,4 +28,4 @@ Make sure to replace **UPLOAD_API_KEY** with the your secret upload API key, fou
 
 ##### Fatal: Can't find .dSYM folder!
 
-If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could be that your project is not configured to generate debug symbols. [Here is how you setup Xcode to generate dSYMs](setup)
+If, while compiling, you get the error `Fatal: Can't find .dSYM folder!`, your project may not be configured to generate debug symbols. [Here is how you setup Xcode to generate dSYMs](setup)

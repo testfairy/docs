@@ -1,15 +1,13 @@
 
-TestFairy's SDK takes your app to the next level. Our tools help you understand how users really interact with your
-app. We handle problems like crashes and on-screen error messages, and we even integrate with your current development
-workflow.
+TestFairy's SDK takes your app to the next level. Our tools help you understand how users really interact with your app. We handle problems like crashes and on-screen error messages, and we even integrate with your current development workflow.
 
 Some of our features include:
 
-- Record videos and see how your users interact with your apps
-- Handle crashes and exceptions
-- Sends logs to TestFairy for later inspection
-- Identify and tag users, for searching and custom reports
-- Use Auto-Update to get your users on the latest version
+- Recording videos of how users interact with your apps
+- Handling crashes and exceptions
+- Sending logs to the TestFairy dashboard for later inspection
+- Identifying and tagging users, for searching and custom reports
+- Auto-Updates, to make sure your users are on the latest version
 
 To get started, please select your development platform from the following list.
 

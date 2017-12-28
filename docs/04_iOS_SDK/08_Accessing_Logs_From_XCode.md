@@ -8,7 +8,7 @@ Many times, the error displayed on an iOS device screen is too generic, but the 
 * Open menu Window -> Devices.
 * Select the device which you want to inspect.
 * Click on the little arrow toggle button at the bottom of the window.
-* New divider will open up with up-to-date logs from the device. 
+* A new divider will open up with up-to-date logs from the device. 
 
 ![How to access device logs](../../img/ios/accessing-logs/accessing-logs-from-xcode.png)
 

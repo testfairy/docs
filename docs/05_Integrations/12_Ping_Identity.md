@@ -33,12 +33,12 @@ Talk to us! Request a demo at https://testfairy.com/products/solutions/enterpris
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-10.png)
   
 - Now login to TestFairy, and select Preferences.
-  ![](https://docs.testfairy.com/img/sso/onelogin/ping-identity-11.png)
+  ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-11.png)
   
 - Copy and contents of the file you just downloaded, and paste it into the textbox. Click on "Update"
-  ![](https://docs.testfairy.com/img/sso/onelogin/ping-identity-12.png)
+  ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-12.png)
   
 - TestFairy-side configuration is also done
-  ![](https://docs.testfairy.com/img/sso/onelogin/ping-identity-13.png
+  ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-13.png)
 
 Now please logout, and you should see the "Login with SSO" 

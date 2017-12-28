@@ -1,8 +1,8 @@
-TestFairy allows the developer to correlate sessions to specific users.
+TestFairy allows the developer to correlate sessions with specific users.
 
-Since Android has built-in user accounts, it might be useful for some developers to push the Android account ID to the TestFairy API.
+Since Android has built-in user accounts, it might be useful for some developers to push the Android account ID into the TestFairy API.
 
-The following example shows how to find the first account, validate it as an email address and push it to TestFairy as a UserID.
+The following example shows how to find the first account, validate it as an email address and push it into TestFairy as a UserID.
 
 ```java
 Account[] accounts = AccountManager.get(MainActivity.this).getAccounts();

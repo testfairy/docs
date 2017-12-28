@@ -1,7 +1,7 @@
 <a name="top"></a>
 
 * [My app crashes while offline, will I get the report?](#crashes-offline)
-* [Will crashes be caught even after session stopped recording?](#crashes-after-stop)
+* [Will crashes be caught even after a session stopped recording?](#crashes-after-stop)
 * [What is an APK?](#what-is-apk)
 * [Which architectures are supported?](#android-archs)
 * [What is "instrumentation"?](#what-is-instrumentation)
@@ -72,6 +72,6 @@ The TestFairy platform is used for both distribution and for analytics. You can 
 
 [App Distribution](https://docs.testfairy.com/Getting_Started/How_To_Invite_Testers.html) does not require integration of the TestFairy SDK and provides an easy-to-use platform for sending iOS IPA files to testers and colleagues in your enterprise. Simply upload an Ad Hoc or Enterprise signed IPA files and send an e-mail invitation or App Landing Page to the selected testers.
 
-Using analytics requires integration of the SDK. This is a 2-minute task that involves adding just a single line of code to your project. With analytics enabled, you will able to see a video recording of your app being used, as well as receive logs from the device, analyse usage with checkpoints or loading view controllers and much much more. For more information, please follow the [integration manual]https://docs.testfairy.com/Android/Integrating_Android_SDK.html).
+Using analytics requires integration of the SDK. This is a 2-minute task that involves adding just a single line of code to your project. With analytics enabled, you will able to see a video recording of your app being used, as well as receive logs from the device, analyse usage with checkpoints or loading view controllers and much much more. For more information, please follow the [integration manual](https://docs.testfairy.com/Android/Integrating_Android_SDK.html).
 
 [Back to top](#top)

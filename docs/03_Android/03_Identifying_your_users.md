@@ -1,10 +1,10 @@
 
-TestFairy allows the developer to correlate sessions to app specific information such as users, server-sessions or events.   
+TestFairy allows the developer to correlate sessions to app-specific information such as users, server-sessions or events.   
 This is useful in cases where sessions are anonymous and or when sessions are related to server activities that are critical to understanding test behaviour.
 
-Furthermore, TestFairy allows identifying the user with traits such as name, email or phone number. These will later be available for the developer to search upon, or review when looking at a specific session recording.
+Furthermore, TestFairy enables the identification of users with traits such as name, email or phone number. These traits will later be available for the developer to search upon, or review when looking at a specific session recording.
 
-In order to set session level attributes associated with your user, please see the document on [Session Attributes](https://docs.testfairy.com/Android/Session_Attributes.html).
+In order to set session level attributes associated with your user, please see our document on [Session Attributes](https://docs.testfairy.com/Android/Session_Attributes.html).
 
 ### Usage
 

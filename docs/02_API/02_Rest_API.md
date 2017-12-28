@@ -1,11 +1,10 @@
 #### About
 
-This is the reference document for the TestFairy REST API. This API allows the developer to access and interact with TestFairy
-data remotely.
+This is the reference document for the TestFairy REST API. This API allows the developer to access and interact with TestFairy data remotely.
 
 #### Getting Started
 
-Getting started with the REST API is easy, and can be done from command line and with any programming language. Let's begin with a simple example. We will start by listing all our projects.
+Getting started with the REST API is easy, and can be done via command line with any programming language. Let's begin with a simple example. We will start by listing all our projects.
 
 A project is either an iOS app or an Android app (two apps with the same package name but on different platforms are considered two projects.)
 
@@ -15,7 +14,7 @@ curl -u "john@example.com:00001234cafecafe" "https://api.testfairy.com/api/1/pro
 
 In the example above, you can see that our user is `john@example.com` and the API key is `0001234cafecafe`. This user authentication token is required for all requests to the REST server.
 
-**Your API key is private**, please do not share it or post it on public code repositories or forums. To find your API key, please refer to [https://app.testfairy.com/settings](https://app.testfairy.com/settings).
+**Your API key is private**, please do not share it or post it on public code repositories or forums. To find your API key, please refer to [your preferences page](https://app.testfairy.com/settings).
 
 <hr />
 

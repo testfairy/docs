@@ -1,10 +1,10 @@
 Webhooks allow simple integration between TestFairy and your backend. Using these webhooks, you can subscribe for specific events, and receive an HTTP POST request whenever such event occurs.
 
-For example, you would like to receive a notification when a new build has been uploaded, and send it to the development team. Another example, you want to save the feedbacks received in your own database or backend.
+This can be userd when, for example, you'd like to receive a notification when a new build has been uploaded, and send it to the development team. Another example may be that you'd like to save the feedbacks received in your own database or backend.
 
 To configure webhooks, simply open the Webhooks tab in your [User Preferences](https://app.testfairy.com/settings/) page. You can configure more than one webhook, and each webhook applies to selected projects and selected events.
 
-TestFairy will automatically detect Slack endpoints, and will send proper payload. Please follow the instructions in the [Slack integration guide](/Integrations/Slack.html).
+TestFairy will automatically detect Slack endpoints, and send a proper payload. Please follow the instructions in the [Slack integration guide](/Integrations/Slack.html).
 
 ### Supported Events
 
@@ -13,7 +13,7 @@ TestFairy will automatically detect Slack endpoints, and will send proper payloa
 | Upload   | Every time a build is uploaded by one of the team members |
 | Download | Every time a tester downloads a build via invitation link |
 | Crash    | Every time the app crashes |
-| Feedback | Every time a tester fills in a feedback, either via in-app or web |
+| Feedback | Every time a tester fills in a feedback, whether it's in-app or web |
 
 ### Payload
 

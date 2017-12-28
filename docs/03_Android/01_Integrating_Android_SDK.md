@@ -68,7 +68,7 @@ TestFairy can record additional insights that require specific permissions. Belo
 #### Logs - ```android.permission.READ_LOGS``` (Optional)
 
 In order to automatically upload device logs (logcat) to your account, please add the permission ```android.permission.READ_LOGS```.
-Please make sure to check the "Log collection" checkbox found under the **"Insights"** tab in ["Build Settings"](https://docs.testfairy.com/Getting_Started/Version_Settings.html). This can be done after the app was uploaded or the first session performed.
+Please make sure to check the **"Log collection"** checkbox found under the **"Insights"** tab in ["Build Settings"](https://docs.testfairy.com/Getting_Started/Version_Settings.html). This can be done after the app was uploaded or the first session performed.
 
 #### Tracking Battery Usage - ```android.permission.BATTERY_STATS``` (Optional)
 

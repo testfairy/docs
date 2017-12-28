@@ -7,7 +7,7 @@ To add an event, for instance one called "Purchase ok", please add the following
 
 **`TestFairy.addEvent("Purchase OK");`**
 
-By adding the line above, a new column in your build coverage report page will appear, titled according to the event (in this case "Purchase OK").   
+By adding the line above, a new column in your [Build Coverage Report](testing_reports.html) page will appear, titled according to the event (in this case "Purchase OK").   
 
 Please remember that events are rendered in a table, consider using indicative names and keep them short.
 

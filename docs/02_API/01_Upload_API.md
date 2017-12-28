@@ -17,15 +17,15 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | api_key         | Y           | Your API application key. See https://app.testfairy.com/settings for details. |
 | file            | Y           | APK or IPA file data. |
 | symbols_file    |             | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
-| testers_groups  |             | Comma-separated list of tester groups to be invited on the new build. Or "all" to invite all testers. |
-| notify          |             | Send emails to the notified tester groups. Default is "on". |
+| testers_groups  |             | Either a comma-separated list of tester groups to be invited on the new build, or "all" to invite all testers. |
+| notify          |             | Send emails to the notified tester groups. The default is "on". |
 | comment         |             | Additional release notes for this upload. This text will be added to email notifications. |
-| auto-update     |             | Allows easy upgrade of all users to current version. Set to "on" to enable. Default is "off". |
+| auto-update     |             | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
 
 ### Error Codes
 
-In case of an error, TestFairy will return a JSON with `status` => `fail` and `code` with one of the values
-listed below. An additional human-readable error message is supplied, with regards to cause of the specific error.
+In the case of an error, TestFairy will return a JSON with `status` => `fail` and `code` with one of the values
+listed below. An additional human-readable error message is supplied to detail the cause of the specific error.
 
 | Error Code | Reason |
 |-----------:|:-------|
@@ -65,7 +65,7 @@ curl https://upload.testfairy.com/api/upload \
 
 ### Where can I find my API Key?
 
-In order to get your API KEY open your account preferences at https://app.testfairy.com/settings/ and click on "Upload API Key".
+In order to get your API KEY, open your account preferences at https://app.testfairy.com/settings/ and click on "Upload API Key".
 
 ### How can I create a new API Key?
 

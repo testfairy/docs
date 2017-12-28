@@ -7,7 +7,7 @@ Once you have Carthage installed, you can begin adding frameworks to your projec
 1. On your application targets’ “General” settings tab, in the “Linked Frameworks and Libraries” section, drag and drop the TestFairy framework from the [Carthage/Build][] folder on disk.
 
 ![](../../img/ios/carthage/carthage_1.png)
-
+ 
 1. On your application targets’ “Build Phases” settings tab, click the “+” icon and choose “New Run Script Phase”. Create a Run Script in which you specify your shell (ex: `bin/sh`), add the following contents to the script area below the shell:
 
   ```sh

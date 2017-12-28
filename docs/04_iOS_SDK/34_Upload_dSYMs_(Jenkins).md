@@ -1,6 +1,6 @@
 ### The TestFairy Jenkins plugin
 
-If you did not use the TestFairy Jenkins plugin before, see the [installation instructions.](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
+If you have never used the TestFairy Jenkins plugin before, see the [installation instructions.](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
 
 ### <a name="setup">Setup Xcode to create debug symbols</a>
 
@@ -13,7 +13,7 @@ Open Xcode on the machine that runs Jenkins and follow these instructions:
 
 ### Setup Xcode to upload DSYMs for every build
 
-If your Jenkins is configured to build your app, it will pickup that build phases configured on Xcode and run them as well.
+If your Jenkins is configured to build your app, it will pick up those build phases configured on Xcode and run them as well.
 
 Open Xcode on the machine that runs Jenkins and follow these instructions:
 
@@ -21,7 +21,7 @@ Open Xcode on the machine that runs Jenkins and follow these instructions:
 
 ![alt](../../img/ios/dsym-upload/step1.png)
 
-2. Click on ***plus sign*** on the left and select **New Run Script Build Phase**
+2. Click on the ***plus sign*** on the left and select **New Run Script Build Phase**
 
 ![alt](../../img/ios/dsym-upload/step2.png)
 
@@ -30,7 +30,7 @@ Open Xcode on the machine that runs Jenkins and follow these instructions:
 ```sh
 sh "$SRCROOT/TestFairy/upload-dsym.sh" UPLOAD_API_KEY
 ```
-Makue sure the specified path include the upload-dsym.sh file.
+Make sure the specified path includes the upload-dsym.sh file.
 
 Make sure to replace **UPLOAD_API_KEY** with the your secret Upload API key, found in the [Settings](https://app.testfairy.com/settings/) page.
 
@@ -38,4 +38,4 @@ Make sure to replace **UPLOAD_API_KEY** with the your secret Upload API key, fou
 
 ##### Fatal: Can't find .dSYM folder!
 
-If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could be that your project is not configured to generate debug symbols. [Here is how you setup Xcode to generate dSYMs](setup)
+If, while compiling, you get the error `Fatal: Can't find .dSYM folder!`, your project may not be configured to generate debug symbols. [Here is how you setup Xcode to generate dSYMs](setup)

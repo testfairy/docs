@@ -1,6 +1,6 @@
 
 
-### JIRA (using oauth access token)
+### JIRA (using oAuth access token)
 
 Example ```config.json```:
    
@@ -32,22 +32,23 @@ Example ```config.json```:
     }
 ```
 
-Please note that `issueTracker.URL` setting  should have proper schema (https or http), port (if not default), and path to JIRA application included.
+Please note that the `issueTracker.URL` setting should have a proper schema (https or http), port (if not default), and path to JIRA application included.
 
 #### Access token & secret generation:
 
-1. Obtain a keypair
+1. Obtain a keypair:
 	```
 	openssl genrsa -out jira_rsa 2048
 	openssl rsa -in jira_rsa -pubout > jira_rsa.pub
 	```
 	
-2. Configure JIRA Application Link for TestFairy Connect integration
-In your browser, go to jira admin page e.g. http://localhost:2990/jira/plugins/servlet/applinks/listApplicationLinks. Enter 'url' or any string to use for Application Link identification.
+2. Configure JIRA the Application Link for TestFairy Connect integration.
+In your browser, go to your JIRA Admin page, like http://localhost:2990/jira/plugins/servlet/applinks/listApplicationLinks. 
+Enter 'url' or any string to use for Application Link identification.
 
   ![Create an Application Link](https://docs.testfairy.com/img/testfairy-connect/1-create-application-link.png)
 
-  Just click 'Continue' in the next screen.
+  In the next screen, click 'Continue'.
   
   ![Continue](https://docs.testfairy.com/img/testfairy-connect/2-continue.png)
 
@@ -64,7 +65,7 @@ In your browser, go to jira admin page e.g. http://localhost:2990/jira/plugins/s
 
   ![Verify Access Token](https://docs.testfairy.com/img/testfairy-connect/4-verify-access-token.png)
 
-3. Run token generation script found [here](https://docs.testfairy.com/js/download/oauth.js). Right-click to copy js file path. 
+3. Run the token generation script found [here](https://docs.testfairy.com/js/download/oauth.js). Right-click to copy .js file path. 
 	```
 	wget [paste file path here]
 	npm install oauth

@@ -1,4 +1,4 @@
-The TiTestFairy Module extends the Appcelerator Titanium Mobile framework with the TestFairy Android and iOS SDKs. The TestFairy SDK allows integration with TestFairy to give you a better understanding of how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metric you need to optimize for better user experience and better code.
+The TiTestFairy Module extends the Appcelerator Titanium Mobile framework, with the TestFairy Android and iOS SDKs. The TestFairy SDK enables integration with TestFairy to give you a better understanding of how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metric you may need to optimize your user experience and code.
 
 ## Installation
 
@@ -22,15 +22,15 @@ The TiTestFairy Module extends the Appcelerator Titanium Mobile framework with t
 	TiTestFairy.begin("<APP TOKEN>");
 ```
 
-NOTE: Replace 'APP TOKEN' with your token, taken from the [user preferences page](https://app.testfairy.com/settings/#app-token).
+NOTE: Replace 'APP TOKEN' with your token, which can be found in the [user preferences page](https://app.testfairy.com/settings/#app-token).
 
-For more detailed code examples take a look at the [example app](https://github.com/testfairy/ti.testfairy/blob/feat-readme/example/app.js).
+For more detailed code examples take a look at our [example app](https://github.com/testfairy/ti.testfairy/blob/feat-readme/example/app.js).
 
 ## Reference
 
 `TiTestFairy.version;` - Returns the version of the TestFairy SDK.
 
-`TiTestFairy.setCorrelationId(correlationId)` - Set an identifier that can be looked up through dashboard.
+`TiTestFairy.setCorrelationId(correlationId)` - Sets an identifier that can be looked up through dashboard.
 
 `TiTestFairy.pushFeedbackController()` - Present a feedback dialog to the user.
 
@@ -44,6 +44,6 @@ For more detailed code examples take a look at the [example app](https://github.
 
 `TiTestFairy.resume()` - Resumes a paused session.
 
-`TiTestFairy.sessionUrl()` - Returns the address of the recorded session on TestFairy's developer portal. Will return nil if recording not yet started.
+`TiTestFairy.sessionUrl()` - Returns the address of the recorded session on TestFairy's developer portal. Will return nil if recording has not started yet.
 
 `TiTestFairy.takeScreenshot()` - Takes a screenshot.

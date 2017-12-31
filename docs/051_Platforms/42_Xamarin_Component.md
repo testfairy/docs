@@ -1,5 +1,5 @@
 
-Adding TestFairy to your Xamarin project lets you record and understand how people use your app. It also provides a crash handler, 
+Adding TestFairy to your Xamarin project allows you to record and understand how people use your app. It also provides a crash handler, 
 analytics tools and performance benchmarks.
 
 The Xamarin TestFairy component is also available at the [Xamarin components store](https://components.xamarin.com/view/testfairy.xamarin-ios)
@@ -21,7 +21,7 @@ The Xamarin TestFairy component is also available at the [Xamarin components sto
     * Add this line to your *using* section:
     `using TestFairyLib;`
     
-    * Locate ***FinishedLaunching** and add to following line of code. Replace
+    * Locate ***FinishedLaunching** and add to the following line of code. Replace
     ***TESTFAIRY_APP_TOKEN*** with the *App Token* from your [Account Settings page](https://app.testfairy.com/settings#apptoken).
         ```
         TestFairy.Begin ("TESTFAIRY_APP_TOKEN");

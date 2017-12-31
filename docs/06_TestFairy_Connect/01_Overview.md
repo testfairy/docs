@@ -19,7 +19,6 @@ For more articles relating to this subject, check out the following links:
 
 
 ## Prerequisites
-
 * nodejs 4.2+
 * git 1.7+
 
@@ -110,7 +109,6 @@ You'll need an entry under `customFields` for each project requiring custom fiel
 
 
 ### Team Foundation Server (TFS)
-
 #### Additional Requirements
 * In order to connect to a working TFS server, the machine running the TestFairy Connect agent must have Visual Studio installed. For a free version of Visual Studio, please look at [Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
 

@@ -124,10 +124,6 @@ ul.nav.nav-list > li > a {
   opacity: 1;
 }
 
-div.article-tree {
-  width: 300px;
-}
-
 li.open > ul.nav.nav-list {
   margin-bottom: 24px;
 }
@@ -152,7 +148,6 @@ a.aj-nav.folder {
 }
 
 body .content-page {
-  padding-left: 100px !important;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -176,12 +171,7 @@ div.columns.left-column {
   background-color: white !important;
 }
 
-div.container-fluid {
-  width: 80%;
-}
-
 div.navbar a.go-to-dashboard {
-  margin-right: -32px;
   text-shadow: none;
   margin-top: 17px;
   background-color: #dd1955;
@@ -377,5 +367,50 @@ a.getting-started-btn {
 
 .w-clearfix:after {
   clear: both;
+}
+
+.navbar {
+	display: none;
+}
+
+.columns {
+	padding-top: 0px;
+}
+
+.wrapper {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+@media (min-width:768px) {
+
+	.navbar {
+		display: block;
+	}
+
+	.wrapper {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.columns {
+		padding-top: 50px;
+	}
+}
+
+@media (min-width:1200px) {
+
+	div.article-tree {
+		width: 300px;
+	}
+
+	div.container-fluid {
+		width: 80%;
+	}
+
+	body .content-page {
+		padding-left: 100px !important;
+	}
+
 }
 

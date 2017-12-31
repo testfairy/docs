@@ -18,7 +18,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Font -->
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700,300,100' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
+    <script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Oswald:200,300,400,500,600,700","Roboto:100,300,regular,500,700,900","Source Sans Pro:300,300italic,regular,italic,600,700"]  }});</script>
 
     <?php //gilm ?>
     <script src="https://use.typekit.net/xqb6bei.js" type="text/javascript"></script>

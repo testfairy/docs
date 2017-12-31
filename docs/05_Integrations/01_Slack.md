@@ -13,7 +13,6 @@ TestFairy integrates with Slack seamlessly, providing human-readable, real-time 
 ![Alt](http://docs.testfairy.com/img/integrations/slack/slack-1d.png)
 
 * Success! You will now recieve notifications in your Slack channel.
-![Alt](http://docs.testfairy.com/img/integrations/slack/slack_07.png)
 
 ![Alt](http://docs.testfairy.com/img/api/webhooks/slack-preview.png)
 

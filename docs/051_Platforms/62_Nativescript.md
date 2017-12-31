@@ -1,4 +1,4 @@
-TestFairy for Nativescript is a bridge to the [TestFairy](https://www.testfairy.com) SDK. Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
+TestFairy for Nativescript is a bridge to the [TestFairy](https://www.testfairy.com) SDK. Integrating the TestFairy SDK into your app enables you to better understand how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metrics you may need to optimize your user experience and code.
 
 ## Installation
 
@@ -7,11 +7,11 @@ tns plugin add nativescript-testfairy
 ```
 
 ## Usage
-Once the native library has been added to your project, you can now enable session recording with TestFairy. You will need an app token, which you can get from your [preferences](http://app.testfairy.com/settings/) page on your TestFairy account.
+Once the native library is added to your project, you can now enable session recording with TestFairy. You will need an app token, which can be found in your [Preferences](http://app.testfairy.com/settings/) page on your TestFairy account.
 
-Next, from your JavaScript file, (app.js or app.ts for example), import the TestFairy bridge into your project, and invoke `begin` passing in the app token. Best time to invoke `begin` is usually on `launchEvent`. 
+Next, from your JavaScript file, (app.js or app.ts for example), import the TestFairy bridge into your project, and invoke `begin` passing in the app token. The best time to invoke `begin` is usually on `launchEvent`. 
 
-Here's an example of starting your recording in TypeScript
+Here's an example of how to start your recording in TypeScript:
 ```
 import * as application from 'tns-core-modules/application';
 import { TestFairySDK } from 'nativescript-testfairy';
@@ -23,7 +23,7 @@ application.on(application.launchEvent, (args) => {
 application.start({ moduleName: "main-page" });
 ```
 
-Here's the same example of starting your recording in JavaScript
+Here's the same example of starting your recording in JavaScript:
 ```
 
 require("./bundle-config");
@@ -41,11 +41,11 @@ And that's it! You can now log into your [account](http://app.testfairy.com) and
 
 ### User ID and Session Attributes
 
-TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that would help you generate better insights.
+TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that can help you generate better insights.
 
 You have to invoke `setUserId` or `setAttribute`. With `setUserId`, you can pass in a string representing an association to your backend. It may be, for example, the ID of this user in your database or some random GUID. This value may not be null or empty, and is searchable via API and web search.
 
-The second method, `setAttributes` uses predefined key/value attributes. These attributes are available later in the session recording page, is available via API, and is searchable.
+The second method, `setAttributes` uses predefined key/value attributes. These attributes are available later in the session recording page, are available via API, and are searchable.
 
 ```
 // in Nativescript
@@ -69,7 +69,7 @@ For more information on identifying your users, head over [here](http://docs.tes
 
 ### Remote Logging
 
-TestFairy provides a way of viewing your application's log statements along with your session. Note that this api does not also log to the console.
+TestFairy provides you with a way to view your application's log statements along with your session. Note that this API does not log to the console, as well.
 
 ```
 // in Nativescript
@@ -83,7 +83,7 @@ var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
 TestFairySDK.log("Your log message here");
 ```
 
-We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks as follows:
+We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:
 
 ```
 var _testfairyConsoleLog = console.log;
@@ -95,7 +95,7 @@ console.log = function(message) {
 
 ### Hiding views
 
-TestFairy allows the developer to hide specific views from the recorded video. As the developer, you may choose to hide one or more views from video for security and privacy reasons. For example, you might want to remove all information related to credit card data from appearing in the session.
+TestFairy allows developers to hide specific views from the recorded video, for security and privacy reasons. For example, you might want to conceal all information related to credit card data from appearing in the session.
 
 In order to hide views from your recorded session, you will need to pass a reference to a view to TestFairy. 
 
@@ -117,4 +117,4 @@ And that's it! You can now log into your [account](http://app.testfairy.com) and
 
 ### Where to go from here?
 
-* Follow the project on [GitHub](https://github.com/testfairy/nativescript-testfairy) for updates, reporting bugs, or contributing to the project!
+* Follow the project on [GitHub](https://github.com/testfairy/nativescript-testfairy) for updates, bug reports, or to contribute to the project!

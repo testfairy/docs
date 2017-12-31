@@ -111,22 +111,6 @@ var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
 TestFairySDK.hideView(view);
 ```
 
-Note that with nativescript, view objects either have a `ios` or `android` property object. You're free to either pass in the nativescript view object, or the native view object directly.
-
-```
-// in Nativescript
-import { TestFairySDK } from 'nativescript-testfairy';
-
-// in Javascript
-var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
-
-...
-
-TestFairySDK.hideView(view.android);
-// or
-TestFairySDK.hideView(view.ios);
-```
-
 Both approaches are acceptable and the corresponding view will be hidden.
 
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.

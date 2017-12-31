@@ -25,7 +25,7 @@ Get real time notifications in HipChat from TestFairy! Setting up the integratio
 ![Alt](http://docs.testfairy.com/img/integrations/slack/slack-1a.png)
 
 * On the next page, select _Webhooks_ from the menu, and select the _+Add webhooks_ button
-![Alt](http://docs.testfairy.com/img/api/webhooks/hipchat/hipchat_1a.png)
+![Alt](http://docs.testfairy.com/img/api/webhooks/hipchat/hipchat-1a.png)
 
 * Give the integration an awesome name, and paste the URL from HipChat in the _url_ field. Select the _Events_ your team is most interested in, and select _Add webhook_ to add and confirm the new integration.
 ![Alt](http://docs.testfairy.com/img/api/webhooks/hipchat/hipchat-1b.png)

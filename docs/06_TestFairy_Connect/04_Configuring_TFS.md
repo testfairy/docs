@@ -1,23 +1,22 @@
 
 ## Configuration
 
-Configuration file `config.json` is located in `.testfairyconnect` under running user's home directory. 
+The configuration file `config.json` is located in `.testfairyconnect` under the running user's home directory. 
 
 - On Windows: `C:\Users\MyUser\.testfairyconnect\config.json`
 
 ### Team Foundation Server (TFS)
 
 #### Additional Requirements
-* In order to connect to a working TFS server, machine running TestFairy Connect agent must have Visual Studio installed. For a free version of visual studio, please look at [Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
+* In order to connect to a working TFS server, the machine running TestFairy Connect agent must have Visual Studio installed. For a free version of Visual Studio, please look at [Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
 
-* The machine running TFC Agent must have [Microsoft Visual Studio Team Foundation Server 2015 Power Tools](https://visualstudiogallery.msdn.microsoft.com/898a828a-af00-42c6-bbb2-530dc7b8f2e1)
-installed.
+* The machine running TFC Agent must have [Microsoft Visual Studio Team Foundation Server 2015 Power Tools](https://visualstudiogallery.msdn.microsoft.com/898a828a-af00-42c6-bbb2-530dc7b8f2e1) installed.
 
-* In order to successfully integrate with TFS, user running TFC Agent must have write access to TFS project collection.
-It might be a good idea to create a windows user called e.g. testfairyconnect, 
-with permissions to both run the agent and create issues in TFS.
+* In order to successfully integrate with TFS, the user running TFC Agent must have write access to the TFS project collection.
+It might be a good idea to create a Windows user with permissions to both run the agent and create issues in TFS, and name it accordingly, for instance"testfairyconnect".
 
-Example config.json:
+
+An example config.json:
 
 ```json
     {
@@ -39,5 +38,5 @@ Example config.json:
     }
 ```
 
-Please note that `issueTracker.URL` setting should link to team project collection that the projects belong to.
+Please note that the `issueTracker.URL` setting should link to the relevant team project collection.
 

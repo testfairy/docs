@@ -1,27 +1,27 @@
-Single Sign-on allows managing users and testers outside of TestFairy. List of permitted users and testers and their passwords are all stored in Onelogin, so onboarding a new developer in the team is an easy task.
+Single Sign-on enables you to manage users and testers outside of TestFairy. A list of permitted users and testers, as well as their passwords, is stored in OKTA. Therefore onboarding a new developer into the team is an easy task.
 
-When SSO is configured in your account, the login page is replaced with a simple `login with sso` button.
+When SSO is configured into your account, the login page is replaced with a simple `login with sso` button.
 
 Talk to us! Request a demo at https://testfairy.com/products/solutions/enterprise#request-a-demo
 
 #### Setting up Ping Identity in your account
 
-- Login to Ping Identity's admin dashboard, click on the 'Add Application' and select 'Search Application Catalog'
+- Login to Ping Identity's admin dashboard. Click on 'Add Application' and select 'Search Application Catalog':
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-1.png)
  
-- Type in "testfairy" in the search box, and select the application. Click on expand arrow.
+- Type "TestFairy" into the search box, and select the application. Click on the "expand" arrow.
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-2.png)
  
-- Click 'Setup', no need to change configuration
+- Click on 'Setup'. There is no need to change configuration:
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-3.png)
     
 - Click on "Continue to Next Step"
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-4.png)
   
-- Type in ACS URL and Entity ID. For *ACS URL*, please use `https://acme.testfairy.com/login/sso`, replace 'acme' with your own subdomain. For *Entity ID*, please use `https://acme.testfairy.com`. Again, please replace 'acme' with your own subdomain.
+- Type in the ACS URL and Entity ID. For *ACS URL*, please use `https://acme.testfairy.com/login/sso`, and replace 'acme' with your own subdomain. For *Entity ID*, please use `https://acme.testfairy.com`. Again, please replace 'acme' with your own subdomain.
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-5.png)
 
-- Click on "Continue to Next Step", no other configuration needs be changed.
+- Click on "Continue to Next Step", no other configuration need to be changed.
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-6.png)
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-7.png)
   
@@ -29,16 +29,16 @@ Talk to us! Request a demo at https://testfairy.com/products/solutions/enterpris
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-8.png)
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-9.png)
 
-- Once done, download "SAML Metadata".
+- Next, download "SAML Metadata".
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-10.png)
   
 - Now login to TestFairy, and select Preferences.
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-11.png)
   
-- Copy and contents of the file you just downloaded, and paste it into the textbox. Click on "Update"
+- Copy the contents of the file you just downloaded, and paste it into the textbox. Click on "Update":
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-12.png)
   
-- TestFairy-side configuration is also done
+- TestFairy-side configuration is now done!
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-13.png)
 
-Now please logout, and you should see the "Login with SSO" 
+Now please logout, and makre sure you see the "Login with SSO" button.

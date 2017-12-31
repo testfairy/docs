@@ -15,4 +15,4 @@ The following platforms are officially supported. We also offer an [Upload API](
 |![jenkins](../img/continuous-integration/command-line-icon.png) | [Command line interface](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)|
 
 <style>table thead {display: none;}</style>
-<style>img {max-width: 100px; border: none;}</style>
+<style>img {max-width: 100px !important; border: none !important; box-shadow: none !important;}</style>

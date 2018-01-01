@@ -1,7 +1,10 @@
 
-## How does it work?
+## What is TrstFairy Connect?
 
-TestFairy Connect is designed to help developers integrate their bug tracking systems, running behind firewall, with their TestFairy account.
+TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server, RFS), with the TestFairy cloud.
+
+
+## How does it work?
 
 The key part of TestFairy Connect is the agent service (TFC Agent) that runs on a system, also behind that firewall, connecting to TestFairy's web app and to your bug tracking system.
 

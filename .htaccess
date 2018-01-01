@@ -25,6 +25,8 @@ ExpiresByType application/x-font-woff "access plus 2 month"
 RewriteRule ^wp-login.php https://wordpress.com [R=302,L]
 RewriteRule ^ios_sdk/integrating_with_cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^iOS_SDK/Integrating_with_Cordova.html /Platforms/Cordova.html [R=301,L]
+RewriteRule ^platforms/cordova.html /Platforms/Cordova.html [R=301,L]
+
 RewriteRule ^ios_sdk/integrating_with_react_native.html /Platforms/React_Native.html [R=301,L]
 RewriteRule ^iOS_SDK/Using_Xamarin_Component.html /Platforms/Xamarin.html [R=301,L]
 RewriteRule ^ios_sdk/adding_udids_to_ios_development_profile.html /iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html [R=301,L]
@@ -67,5 +69,9 @@ RewriteRule ^upload_api.html /API/Upload_API.html [R=301,L]
 RewriteRule ^getting_started/how_to_invite_testers.html /Getting_Started/How_To_Invite_Testers.html [R=301,L]
 
 RewriteRule ^Rest_API.html /API/Rest_API.html [R=301,L]
+
+RewriteRule ^integrations/okta.html /Single_Sign-On/OKTA.html [R=301,L]
+RewriteRule ^integrations/onelogin.html /Single_Sign-On/OneLogin.html [R=301,L]
+
 
 ErrorDocument 404     /404.php

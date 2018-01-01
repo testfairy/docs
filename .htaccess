@@ -56,6 +56,8 @@ RewriteRule ^/platforms/cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^platforms/react_native.html /Platforms/React_Native.html [R=301,L]
 RewriteRule ^platforms/ionic.html /Platforms/Ionic.html [R=301,L]
 
+RewriteRule ^integrations/bitbucket_pipelines.htm /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
+
 RewriteRule ^ios_sdk/using_xamarin_component.html /Platforms/Xamarin_Component.html [R=301,L]
 
 RewriteRule ^android/integrating_android_sdk.html /Android/Integrating_Android_SDK.html [R=301,L]

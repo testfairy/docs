@@ -56,6 +56,7 @@ RewriteRule ^platforms/react_native.html /Platforms/React_Native.html [R=301,L]
 RewriteRule ^platforms/ionic.html /Platforms/Ionic.html [R=301,L]
 
 RewriteRule ^integrations/bitbucket_pipelines.htm /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
+RewriteRule ^Integrations/Bitbucket_Pipelines.html /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
 
 RewriteRule ^ios_sdk/using_xamarin_component.html /Platforms/Xamarin_Component.html [R=301,L]
 

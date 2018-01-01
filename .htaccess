@@ -52,7 +52,6 @@ RewriteRule ^Integrations/Titanium.html /Platforms/Titanium.html [R=301,L]
 RewriteRule ^integrations/travis_ci.html /Continuous_Integration/Travis_CI.html [R=301,L]
 RewriteRule ^Android/Checkpoints.html /Android/Events.html [R=301,L]
 RewriteRule ^platforms/xamarin_component.html /Platforms/Xamarin_Component.html [R=301,L]
-RewriteRule ^/platforms/cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^platforms/react_native.html /Platforms/React_Native.html [R=301,L]
 RewriteRule ^platforms/ionic.html /Platforms/Ionic.html [R=301,L]
 

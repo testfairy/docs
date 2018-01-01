@@ -72,7 +72,11 @@ RewriteRule ^getting_started/how_to_invite_testers.html /Getting_Started/How_To_
 RewriteRule ^Rest_API.html /API/Rest_API.html [R=301,L]
 
 RewriteRule ^integrations/okta.html /Single_Sign-On/OKTA.html [R=301,L]
-RewriteRule ^integrations/onelogin.html /Single_Sign-On/OneLogin.html [R=301,L]
+RewriteRule ^Integrations/OKTA.html /Single_Sign-On/OKTA.html [R=301,L]
 
+RewriteRule ^integrations/onelogin.html /Single_Sign-On/OneLogin.html [R=301,L]
+RewriteRule ^Integrations/Onelogin.html /Single_Sign-On/OneLogin.html [R=301,L]
+
+RewriteRule ^Integrations/Ping_Identity.html /Single_Sign-On/Ping_Identity.html [R=301,L]
 
 ErrorDocument 404     /404.php

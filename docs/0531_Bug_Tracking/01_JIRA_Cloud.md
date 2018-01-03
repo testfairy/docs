@@ -10,6 +10,10 @@
 
 ## Add The TestFairy JIRA Add-on to your JIRA account
 
+The TEstFairy JIRA Add-on adds TestFairy videos to JIRA issues.
+
+In order to install it please follow these steps:
+
 1. Open JIRA Settings
 
 ![JIRA-setup](/img/bug-tracking//jira0.png)

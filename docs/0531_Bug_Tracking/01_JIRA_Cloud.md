@@ -10,7 +10,7 @@
 
 ## Add The TestFairy JIRA Add-on to your JIRA account
 
-The TEstFairy JIRA Add-on adds TestFairy videos to JIRA issues.
+The TestFairy JIRA Add-on adds TestFairy videos to JIRA issues.
 
 In order to install it please follow these steps:
 

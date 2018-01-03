@@ -1,3 +1,9 @@
+### Version 1.12.1
+Released 2018-01-03
+
+* [NEW] Upload files associated with your session with our new API.
+* [NEW] Capture screenshot on crash.
+
 ### Version 1.12.0
 Released 2017-12-05
 

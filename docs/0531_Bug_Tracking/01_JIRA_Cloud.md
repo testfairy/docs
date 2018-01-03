@@ -29,3 +29,9 @@ In order to install it please follow these steps:
 4. Search for TestFairy and install the Add-on
 
 ![JIRA-setup](/img/bug-tracking//jira4.png)
+
+## This is how JIRA issues look After the installation
+
+![JIRA-setup](/img/bug-tracking//hira6a.png)
+![JIRA-setup](/img/bug-tracking//jira5b.png)
+![JIRA-setup](/img/bug-tracking//jira6c.png)

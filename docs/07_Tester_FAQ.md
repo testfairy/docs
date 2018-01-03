@@ -1,73 +1,92 @@
 <a name="top"></a>
 
 ## What is TestFairy?
-We help teams find and fix problem fast. We will help your team with:
-   * Dsitributing apps to anyone who should be testing the app (thats you!). You'll get emal invitations and notifications when there is a new version to test.
-   * You will be able to send visual feedback and bug reports directly from the app by shaking your device. Videos, app logs and device info will automatically be attached to your report. Feedback will be sent in email to your dev team and to your issue ticketing system.
-   * With your feedback, developers will receive all the information they need to reproduce and fix problems. This includes videos, logs, device metrics, performance graphs and crash information. Solutions are minutes away!
+TestFairy is a mobile testing platform that enables teams to find, report and solve complex problems with their mobile apps, all from one dashboard. The platform includes an enterprise app-distribution solution for iOS and Android apps, and an SDK that collects valuable information such as videos showing user behavior, app logs and crash reports. This information is collected and presented in an organized way, in a single, easy-to-use dashboard helping teams to quickly reproduce and understand problems, allowing for accurate and timely bug fixes.
 
-## Becoming a TestFariy tester (iOS)
-  * [How do I register to TestFairy as a tester?](#invite-tester-ios)
+
+We will help your team with:
+
+   * **Distributing apps** to anyone who should be testing the app. This is done either via a direct email with a download link, or through our beautiful automatically generated landing pages, which include both a QR code or download link for either an iOS or Android version.
+   
+   * **Easily sending visual feedback and bug reports** directly from the app by shaking your device. A video recording, app logs and device metrics will automatically be attached to your report, and sent directly to your dev team. Integrate with your favorite team chat, continuous integration tool, bug tracking system and Single Sign On service to streamline the reporting process and get crucial information right where you need it.
+   
+   * **Priceless insights** Watch how people use your app and fully understand user behavior. View detailed app metrics such as CPU, memory, phone reception, and Wifi, and relive your user's detailed environment conditions to reproduce and fix bugs faster. Understand what happened BEFORE your app crashed or an issue was reported, without talking to your users! 
+
+
+## Becoming a TestFairy tester (iOS)
+  * [How do I register in TestFairy as a tester?](#invite-tester-ios)
+
   * [How do I download and install an application?](#download-tester-ios)
+
   * [Troubleshooting installation](#troubleshooting-tester-ios)
 
-## Becoming a TestFariy tester (Android)
-  * [How do I register to TestFairy as a tester?](#invite-tester-android)
+
+## Becoming a TestFairy tester (Android)
+  * [How do I register in TestFairy as a tester?](#invite-tester-android)
+
   * [How do I download and install an application?](#download-tester-android)
+
   * [Troubleshooting installation](#troubleshooting-tester-android)
 
-## Genral
+
+## General
   * [How do I create a tester account?](#create-tester-account)
+
   * [How do I open a bug?](#open-bug)
+
   * [How do I provide feedback on the application?](#send-feedback)
-  * [How do I see which applications can I test?](#mytestfairy-apps)
-  * [How do I download applications?](#mytestfairy-download)
 
-### <a name="invite-testere-ios"></a>How do I register to TestFairy as a tester? (iOS)
-  In order to start testing with TestFairy, you need to be invited by the application owner/developer.
-  Once you get an email invitation from the developer of the app, follow these steps to register your phone.
-  
-  1. Open the invitation mail and follow the link to register your mobile device in TestFairy.
-  
-    <img src="/img/tester/00-tester-invitation-ios.png" width="300"/> <img src="/img/tester/01-register-device-ios.png" width="300"/>
+  * [How do I see the applications I can test?](#mytestfairy-apps)
 
-  2. Click the Install button to install the TestFairy profile.
+  * [How can I download applications?](#mytestfairy-download)
+
+
+### <a name="invite-testere-ios"></a>How do I register in TestFairy as a tester? (iOS)
+  In order to start testing with TestFairy, you need to be invited by an app developer.
+  Once you receive an invitation via email or landing page, download or register your device, if you are requested to do so.
+  Some apps won't require you to register your device. In this case, simply click on the download link and follow the instructions on screen.
   
-    <img src="/img/tester/02-install-profile-ios.png" width="300"/><img src="/img/tester/03-install-profile2-ios.png" width="300"/>
+  **When asked to register your device:** 
+  1. Open the invitation email and follow the link to register your mobile device in TestFairy.
+    <img src="/img/tester/00-tester-invitation-ios.png" width="300"/> 
+    <img src="/img/tester/01-register-device-ios.png" width="300"/>
     
-  
-  3. Your device is now registered in TestFairy, You should now wait for the developer to send you a link to download the application to be tested.
+  2. Click the Install button to install the TestFairy profile.
+    <img src="/img/tester/02-install-profile-ios.png" width="300"/>
+    <img src="/img/tester/03-install-profile2-ios.png" width="300"/>
+    
+  3. Your device is now registered in TestFairy. Please wait for the developer to send you a download link.
   
     <img src="/img/tester/04-register-done-ios.png" width="300"/> 
 
 [Back to top](#top)
 
-### <a name="download-tester-ios"></a>How do I download and install an application? (iOS)
-  You should receive an email from the application developer that invites you to test an application build:
+### <a name="download-tester-ios"></a>How do I download and install an app? (iOS)
 
-  1. Click the “DOWNLOAD APP” link that appears in the mail:
+  First, make sure you receive an email from the app developer, which invites you to test an application build. Next:
   
-      <img src="/img/tester/11-invite-build.png" width="300"/> 
+  1. Click the “DOWNLOAD APP” link in the email:
+
+     <img src="/img/tester/11-invite-build.png" width="300"/> 
      
-  2. Click the “Download App" link in your Safari:
-  
-      <img src="/img/tester/12-download-safari.png" width="300"/> 
+  2. Click the “Download App" link in your Safari browser:
+
+     <img src="/img/tester/12-download-safari.png" width="300"/> 
       
-  3. You will be prompt to install the application. Click “Install”:
- 
-      <img src="/img/tester/13-install-ios.png" width="300"/> 
+  3. You will be prompted to install the application. Click “Install”:
+
+     <img src="/img/tester/13-install-ios.png" width="300"/> 
         
-  4. The application icon should appear on your device desktop.  
-  
-      <img src="/img/tester/14-install-started-ios.png" width="300"/> 
+  4. The app icon should now appear on your device desktop:
+
+     <img src="/img/tester/14-install-started-ios.png" width="300"/> 
 
 [Back to top](#top)
 
 ### <a name="troubleshooting-tester-ios"></a>Troubleshooting installation (iOS)
-  In case the application does not install on your device, we recommend that you run the troubleshooting tool.
+  If the application does not install on your device, we recommend that you run the troubleshooting tool.
   
-
-  1. Open your TestFairy account (https://my.testfairy.com) link that appears in the mail:
+  1. Open your TestFairy account via the link (https://my.testfairy.com) in the email:
   
     <img src="/img/tester/31-mytestfairy.png" width="300"/> 
      
@@ -83,31 +102,33 @@ We help teams find and fix problem fast. We will help your team with:
   
     <img src="/img/tester/34-profile.png" width="300"/> <img src="/img/tester/35-profile-install.png" width="300"/> 
       
-  5. You should see the troubleshooting resaults with instructions in case there is a problem to be solved by the application developer:
+  5. You should receive the troubleshooting results along with instructions, in the case that there is a problem that should be solved by the application developer:
   
     <img src="/img/tester/35-trble-done-success.png" width="300"/> <img src="/img/tester/36-trble-doe-fail.png" width="300"/> 
+    
+* Please note! If the application is bigger than 100MB it must be downloaded over WiFi.
 
 [Back to top](#top)
 
 
-### <a name="invite-testere-android"></a>How do I register to TestFairy as a tester? (Android)
+### <a name="invite-testere-android"></a>How do I register in TestFairy as a tester? (Android)
   In order to start testing with TestFairy, you need to be invited by the application owner/developer.
-  Once you get an email invitation from the developer of the app, follow these steps to register your phone.
+  Once you get an invitation from the developer of the app, follow these steps to register your device:
   
-  1. Open the invitation mail and follow the link to register your mobile device in TestFairy.
+  1. Open the invitation and follow the link to register your mobile device in TestFairy.
   
     <img src="/img/tester/40-invite-android.png" width="300"/> 
 
-  2. Your device is now registered in TestFairy, You should now wait for the developer to send you a link to download the application to be tested.
+  2. Your device is now registered in TestFairy. Next, wait for the developer to send you a link to download the application for testing.
   
     <img src="/img/tester/41-invite-android.png" width="300"/>
 
 [Back to top](#top)
 
 ### <a name="download-tester-android"></a>How do I download and install an application? (Android)
-  You should receive an email from the application developer that invites you to test an application build:
+  You should receive an email from the application developer, inviting you to test an application build:
 
-  1. Click the “DOWNLOAD APP” link that appears in the mail:
+  1. Click the “DOWNLOAD APP” link in the mail:
   
       <img src="/img/tester/51-invite-build-android.png" width="300"/> 
      
@@ -119,27 +140,27 @@ We help teams find and fix problem fast. We will help your team with:
   
     <img src="/img/tester/53-download-android.png" width="300"/> 
       
-  3. You will be prompt to install the application. Click “INSTALL”:
+  3. You will now be prompted to install the application. Click “INSTALL”:
  
       <img src="/img/tester/54-install-android.png" width="300"/> 
         
-  4. The application icon should appear on your device desktop.  
+  4. The application icon should now appear on your device desktop.  
   
       <img src="/img/tester/55-install-android.png" width="300"/> 
 
 [Back to top](#top)
 
 ### <a name="troubleshooting-tester-android"></a>Troubleshooting installation (Android)
-  * In case the application does not install on your device, please check if you have the same application already installed with the same name and remove it.
+  * If the application does not install on your device, please check if you already have the same application installed with the same name, and remove it.
   
-  * In Case you are getting "Install blocked" message
+  * If you are getting an "Install blocked" message:
   
    <img src="/img/tester/60-unknown-sources-msg.png" width="300"/> 
   
-    * Go to "Settings" of your device
-    * Choose "Security" option
-    * Look for "Unknown sources" option
-    * Activate the "Allow installation of apps from sources other than the Play Store" option
+    * Go to "Settings" on your device
+    * Choose "Security" 
+    * Look for "Unknown sources" 
+    * Activate "Allow installation of apps from sources other than the Play Store" 
     * Install the application again
    
     <img src="/img/tester/61-unknown-sources-android.png" width="300"/> 
@@ -147,45 +168,46 @@ We help teams find and fix problem fast. We will help your team with:
 [Back to top](#top)
 
 ### <a name="create-tester-account"></a>How do I create a tester account?
-  * Once you are invited to test an application via TestFairy, you can create a TestFairy account to see your invitations, open bugs, download applications etc.
-  Open the mail you got to test a new build and click the ["tester account"](https://my.testfairy.com/) link.
+  * Once invited to test an application via TestFairy, you can create a TestFairy account to see your invitations, open bugs, download applications, and more.
+  Open the invitation you received to test a new build, and click the ["tester account"](https://my.testfairy.com/) link.
   
   <img src="/img/tester/11-invite-build.png" width="300"/> 
   
-  Click on the ["I am a tester, I do not know my password"](https://my.testfairy.com/forgot-password) and submit your email.
-  You will recive an email that will instaruct you to set a new password to your tester account at https://my.testfairy.com/.
+  Click on ["I am a tester, I do not know my password"](https://my.testfairy.com/forgot-password) and submit your email address.
+  You will receive an email with instructions to set a new password for your tester account.
   
 [Back to top](#top)
 
 ### <a name="open-bug"></a>How do I open a bug?
 
-When you find a bug is found during your testing session, you can report back in several ways.
+When a bug is found during your testing session, you can report back in several ways:
 
-* Logging into your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com)
-* Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app.
-* Shaking the device and fill in the feedback form that pops up. 
+* Logging into your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com) and creating a new bug report.
+
+* Logging into the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app and reporting a bug.
+
+* Shaking your device and filling in the feedback form that pops up. 
 
 <img src="/img/app/tester.png" width="800"/>
   
 [Back to top](#top)
 
 ### <a name="send-feedback"></a>How do I provide feedback on the application?
-* The best way to provide feedback is to shake the device and fill the pop up form. If this is not available, ask the application developer to enable it. 
+* The best way to provide feedback is to shake your device and fill in the pop up form. If this feature is not available, ask the application developer to enable it. 
   
 [Back to top](#top)
 
-### <a name="mytestfairy-apps"></a>How do I see which applications can I test?
-  * Login to your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com) or [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) and you will be able to see all the applications you have been invited to test, download them and open bugs. 
+### <a name="mytestfairy-apps"></a>How do I see the applications I can test?
+  * Login into your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com) or [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991). Here you can see all the applications you have been invited to test, download them and open new bug reports. 
   
 [Back to top](#top)
 
-
-### <a name="mytestfairy-download"></a>How do I download an applications?
-You have several options to download an application
+### <a name="mytestfairy-download"></a>How do I download an application?
+You have several options for downloading an application:
   
-  * You should receive an email from the application developer that invites you to test and download an application build.
-  * Login to your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com) or [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) and you will be able to see all the applications you have been invited to test, download them and open bugs.
-  * Via the community page of the application that was published by the application developer.
+  * You should receive an email from the application developer, inviting you to test and download an application build.
+  * Login to your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com) or [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) to see all the applications you have been invited to test, download them and open new bug reports.
+  * Open the application landing page, published by the application developer.
   
 [Back to top](#top)
 

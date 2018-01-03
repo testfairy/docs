@@ -1,11 +1,9 @@
 $(function () {
-	/* gilm
     $('.aj-nav').click(function (e) {
         e.preventDefault();
         $(this).parent().siblings().find('ul').slideUp();
         $(this).next().slideToggle();
     });
-	*/
 
     // Bootstrap Table Class
     $('table').addClass('table');
@@ -20,6 +18,37 @@ $(function () {
         // Remove transition inline style on large screens
         if ($(window).width() >= 768)
             $('#sub-nav-collapse').removeAttr('style');
+    });
+});
+
+// gilm (testfairy)
+$(document).ready(function() {
+    $("div.method button.expand").click(function(e) {
+        $(e.currentTarget).blur();
+
+        var description = $(e.currentTarget).closest(".method").next();
+        if (description.hasClass("hidden")) {
+            // currently hidden, show
+            description.removeClass("hidden");
+            $(e.currentTarget).text("▼");
+        } else {
+            // currently visible, hide
+            description.addClass("hidden");
+            $(e.currentTarget).text("▶");
+        }
+
+        e.preventDefault();
+    });
+});
+
+// gilm (testfairy)
+$(document).ready(function() {
+    $(".docs-tabs.w-tabs .w-tab-link").click(function(e) {
+        var tab_name = $(e.currentTarget).data("w-tab");
+        $(".w--current").removeClass("w--current");
+        $(".w--tab-active").removeClass("w--tab-active");
+        $(".w-tab-pane[data-w-tab=" + tab_name + "]").addClass("w--tab-active");
+        $(e.currentTarget).addClass("w--current");
     });
 });
 

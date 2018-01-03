@@ -14,17 +14,17 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 
 ### Choose the right method for you to upload debug symbols
 There are different ways to upload the debug symbols: 
-* [Using our app upload API](#upload-api): upload your ipa with the debug symbols.
-* [Using the TestFairy Jenkins plugin](#jenkins): upload your ipa with the debug symbols.
-* [Straight from Xcode](#upload-dsym-from-xcode): when you don't distribute your ipa with TestFairy.
-* [Use our dsym upload script](#upload-dsym-using-a-script): if you don't use xcode and not distributing the app with TestFairy.
-* [From the build settings menu in TestFairy](#settings): if you upload your app from the dashboard.
+* [Using our app upload API](#upload-api): Upload your IPA with the debug symbols.
+* [Using the TestFairy Jenkins plugin](#jenkins): Upload your IPA with the debug symbols.
+* [Straight from Xcode](#upload-dsym-from-xcode): When you don't distribute your ipa with TestFairy.
+* [Use our dsym upload script](#upload-dsym-using-a-script): If you don't use xcode and not distributing the app with TestFairy.
+* [From the build settings menu in TestFairy](#settings): If you upload your app from the dashboard.
 * [There are also specific instructions for Xamarin](#debug-symbols-for-xamarin-apps)
 
 ### <a name="upload-api"></a>Upload dSYM using the upload API
 
 We recommend uploading dSYM files together with the app build files.
-Use our upload API when the app is ready for distribution and testing, and add the dSYM files as well.
+Use our upload API and add the dSYM files when the app is ready for distribution and testing.
 
 1. Create a zip file from the contents of your symbols directory. This directory is usually found under this location:
      ```
@@ -50,40 +50,17 @@ Use our upload API when the app is ready for distribution and testing, and add t
         -F notify='on'
      ```
      
-You may also use our script that contains this command and use it in your build process. [Click here to download script](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)
+You may also use our script, which contains this command, and use it in your build process. [Click here to download script](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)
 
-If you need further instructions regarding out upload API, [read about it here](https://docs.testfairy.com/)
+If you need further instructions regarding our upload API, [read about it here](https://docs.testfairy.com/)
 
 ### <a name="jenkins"></a>Upload dSYM using the TestFairy Jenkins Plugin
 
-We recommend uploading dSYM files together with the app build files.
-If you are using Jenkins for continuous integration, you can use the Jenkins TestFairy plugin to upload your app and add the dSym along the way.
 
 1. If you did not use the TestFairy Jenkins plugin before, see the [installation instructions.](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
 
-2. Enter your app build configuration in Jenkins.
+2. Set up the Xcode that builds the app on the Jenkis server to upload your debug symbols following the instructions [here](#upload-dsym-from-xcode).
 
-3. Create a build step that executes a shell command to zip the symbols. The symbols directory is usually found under this location:
-
-    ```
-    {XCODE}/DerivedData/{APP_DERIVED_DATA}/Builds/Products/{TARGET}/  
-    ```
-
-	For example, this commands creates a zip file called symbols.zip  from the symbols of my ‘Hi’ app and stores it under the /tmp directory.
-
-	```
-	zip -r /tmp/symbols.zip
-	~/Library/Developer/Xcode/DerivedData/Hi-qqq/Build/Products/Debug-iphoneos/Hi.app.dSYM/*
-	 ```
-    
-4. Open the job configuration post build actions for the TestFairy Plugin.
-
-5. Enter the full dSYM zip file location inside the “Path to dSYM zip” field.
-
-6. Once you run the build, Jenkins will compress the symbols directory, upload your app and the zipped symbols to TestFairy.
-
-
-If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
 ### <a name="upload-dsym-from-xcode"></a>Upload dSYM from Xcode
 
@@ -93,7 +70,7 @@ If you don’t plan to distribute your app build through testfairy, but you adde
 
 ![alt](../../img/ios/dsym-upload/step1.png)
 
-2. Click on ***plus sign*** on the left and select **New Run Script Build Phase**
+2. Click on ***Plus Sign*** on the left and select **New Run Script Build Phase**
 
 ![alt](../../img/ios/dsym-upload/step2.png)
 
@@ -109,7 +86,7 @@ Make sure to reply **UPLOAD_API_KEY** with the your secret upload api key, found
 
 ##### Fatal: Can't find .dSYM folder!
 
-If while compiling you get the error `Fatal: Can't find .dSYM folder!`, it could be that your project is not configured to generate debug symbols. 
+If while compiling you get the error `Fatal: Can't find .dSYM folder!`, your project is not configured to generate debug symbols. 
 Please perform the following actions:
 
 1. Click on your project and select Build-Settings.
@@ -172,14 +149,15 @@ If you upload apps straight from the TestFairy dashboard, upload your debug symb
 4. Enter the build overview page by clicking on the build you wish to upload symbols for
 (If you only have one build, you will not see a list of builds, but rather land directly on the correct build overview page).
 
-5. From the Build Overview menu, click ‘Settings’ and select the ‘More Tab’.
+5. From the Build Overview menu, click ‘Settings’ and select the **"More"** Tab.
+
 6. Upload your zipped symbols file.
 
-If a crash will occur, Testfairy will add the symbols to the crash report so you can understand what is going on.
+If a crash occura, Testfairy will add the symbols to the crash report so you can understand what is going on.
 
 ### <a name="debug-symbols-for-xamarin-apps"></a>Debug Symbols for Xamarin apps
 If you are using Xamarin, please refer to instructions in [this page.](https://docs.testfairy.com/Platforms/Xamarin.html)
 
 ### How to upload multiple dSYMs
-You can upload multiple dSYMs per build. Some developers have frameworks developed in-house, and these frameworks make it to the final .IPA file. In order to upload dSYM in your framework project, just implement Run Script above in your framework's settings.
+You can upload multiple dSYMs per build. Some developers have frameworks developed in-house, and these frameworks make it to the final .IPA file. In order to upload dSYM in your framework project, just implement the Run Script above in your framework's settings.
 

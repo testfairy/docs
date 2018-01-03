@@ -1,5 +1,5 @@
 ## Adding TestFairy to your Podfile
-Add the *TestFairy* pod to your Podfile by inserting the following line where applicable: 
+Add the *TestFairy* pod to your Podfile by inserting the following line where applicable:
 ```
 pod 'TestFairy'
 ```
@@ -22,6 +22,12 @@ Paste the following script into the created space
 
 ```
 sh ${SRCROOT}/Pods/TestFairy/upload-dsym.sh <Upload API Key from https://app.testfairy.com/settings/>
+```
+
+or
+
+```
+sh "${PODS_ROOT}/TestFairy/upload-dsym.sh" <Upload API Key from https://app.testfairy.com/settings/>
 ```
 
 And you're done!

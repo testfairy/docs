@@ -8,7 +8,7 @@ TestFairy has a seamless, bi-directional integration with **Bugzilla**, **JIRA**
 When a bug is found during a testing session, testers can report back in several ways.
 
 * Logging into the testers dashboard at [https://my.testfairy.com](https://my.testfairy.com)
-* Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS] (https://itunes.apple.com/app/testfairy/id977307991) testers app.
+* Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app.
 * Shaking the device and fill in a feedback form that pops up (available only on the enterprise package) 
 
 <img src="../../img/app/tester.png" width="800"/>
@@ -27,17 +27,9 @@ A **Bug Creation** dialogue box opens up. Everything you type in the dialogue wi
 
 ![ alt bug-creation](../../img/app/bug-creation.png)
 
-If your bug system is connected, once you've created an issue in TestFairy, you can immediately see it in your bug system, with a link to the relevant session in TestFairy. All the TestFairy information including video, logs, device information and crash report, are available to the developer right from your bug reporting system. **This feature alone will save your team dozens of hours every month**.
 
-<!-- ![ alt my-new-bug-in-jira](../../img/app/my-new-bug-in-jira.png) -->
-<img src="../../img/app/my-new-bug-in-jira.png" width="800"/>
-
-In the opposite direction, you can access the issue **inside your bug reporting system** by clicking on the **TestFairy** bug in the session overview.
-
-![ alt session-overview](../../img/app/session-overview.png)
 
 
 **What to read next:** 
-[Build Settings for Android](Build_Settings_for_Android.html) or [Build Settings for iOS](Build_Settings_for_iOS.html)
- 
+[Build Settings](Build_Settings.html) 
  

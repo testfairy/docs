@@ -1,11 +1,102 @@
+### Version 1.12.0
+Released 2017-12-05
+
+* [BUGFIX] Fixed library detection
+* [BUGFIX] Limit Feedback collection until session starts
+
+### Version 1.11.1
+Released 2017-11-16
+
+* [NEW] Improved bandwidth usage for video recording
+* [BUGFIX] Security fixes in video recording
+
+### Version 1.11.0
+Released 2017-10-04
+
+* [BUGFIX] Fixed warnings related to Main thread sanitizer
+
+### Version 1.10.2
+Released 2017-09-25
+
+* [NEW] Improved Stability and performance around network capture with `NSURLConnection`
+* [BUGFIX] Avoid over writing endpoint when `setServerEndpoint` is called
+
+### Version 1.10.1
+Released 2017-09-14
+
+* [NEW] Improved Stability and performance
+* [NEW] Improve memory management during video capture
+
+### Version 1.10.0
+Released 2017-08-02
+
+* [BUGFIX] Fixed minor issue identifying simulators and production apps
+
+### Version 1.9.4
+Released 2017-07-17
+
+* [NEW] Add `log` to TestFairy object for remote logging
+
+### Version 1.9.3
+Released 2017-07-09
+
+* [NEW] Allow your testers to capture feedbacks while offline
+* [NEW] Improved stability while capturing network data
+* [NEW] Improved event collection
+* [BUGFIX] Improved hidden views in video capture
+
+### Version 1.9.2
+Released 2017-06-05
+
+* [NEW] Improved screen capture of web views that include hidden elements
+* [BUGFIX] Fixed random crashes in network monitoring
+* [BUGFIX] Fixed warnings about minimum sdk version. Now set to 7.0.
+
+### Version 1.9.1
+Released 2017-04-11
+
+* [NEW] Use `[TestFairy setUserId]` to tell who is the current user, it will help you to find the user in the TestFairy dashboard
+* [NEW] Use `[TestFairy setAttribute]` with key-value to add additional data to the current session
+* [BUGFIX] Stability improvements
+* [DEPRECATED] `identify` and `setCorrelationId`. These have been replaced with `setAttribute` and `setUserId` resepectively.
+
+### Version 1.9.0
+Released 2017-04-04
+
+* [NEW] Updated Feedback View to include screenshot thumbnail
+* [BUGFIX] Stability improvements
+
+### Version 1.8.5
+Released 2017-03-16
+
+* [BUGFIX] Improvide SDK security
+
+### Version 1.8.4
+Released 2017-03-01
+
+* [BUGFIX] Fixed regression allowing `identify` to be called after `begin`
+
+### Version 1.8.3
+Released 2017-02-21
+
+* [NEW] New Relic integration
+* [BUGFIX] Fixed issue where some screenshots attached during feedback were empty
+* [BUGFIX] Reduced the number of network calls made
+* [BUGFIX] Fixed toolbar spacing in feedback view controller
+* [BUGFIX] Show TestFairy events in session timeline
+
 ### Version 1.8.2
 Released 2017-01-26
 
 * [NEW] Sessions can be stopped and restarted by invoking [TestFairy stop] and [TestFairy resume] respectively
-* [NEW] When using Crashlytics and TestFairy together, you can now easily get to your TestFairy session from Crashlytics with an easy to follow link. You will also see a message in TestFairy on how you can find your stack trace in Crashlytics.
+* [NEW] When using Crashlytics and TestFairy together, you can now easily get to your TestFairy session from Crashlytics with an easy to follow link. You will also see a message in TestFairy on how you can find your stack trace in Crashlytics*
 * [NEW] View network connection state on session timeline
 * [NEW] View network request error code in session timeline
 * [BUGFIX] Improved SDK security
+
+* NOTE: `TestFairy begin` should be called before starting Crashlytics or Fabric
+
+# All SDK versions below are not supported any more by TestFairy
 
 ### Version 1.8.1
 Released 2016-12-13
@@ -32,7 +123,7 @@ Released: 2016-07-20
 ### Version 1.7.8
 Released: 2016-06-28
 
-* [NEW] Added setScreenName 
+* [NEW] Added setScreenName
 * [NEW] Screen name is sent with every user feedback
 * [BUGFIX] Hide keyboard when feedback is sent
 * [BUGFIX] In rare cases, crashes before session started recording, were lost.
@@ -72,7 +163,7 @@ Released: 2016-03-10
 Released: 2016-03-08
 
 * [NEW] Grab HTTP status code from monitored network requests
-* [NEW] Show events in TestFairy when a new UIViewController appears 
+* [NEW] Show events in TestFairy when a new UIViewController appears
 * [NEW] Added option `TFSDKEnableCrashReporterKey` to disable crash handler
 * [BUGFIX] Protect against multiple calls to `[TestFairy begin]`
 * [BUGFIX] Fixed `CLTilesManagerClient` warnings in logs
@@ -115,7 +206,7 @@ Released: 2015-11-05
 
 * [NEW] Added constants for identifying users. Available traits include name, gender, birthday, phone number, signup date and age.
 * [NEW] Custom attributes can also be assigned to sessions. Please visit the relevant reference document.
- 
+
 ### Version 1.5.3
 Released: 2015-10-26
 

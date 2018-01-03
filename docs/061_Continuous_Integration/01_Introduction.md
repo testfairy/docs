@@ -1,0 +1,18 @@
+Continuous Integration plays an important role in delivering faster and better apps.
+
+The following platforms are officially supported. We also offer an [Upload API](../API/Upload_API.html), making it easier and available for any platform and build script.
+
+| | |
+|:-:|-|
+|![jenkins](../img/continuous-integration/jenkins-logo.png) | [Jenkins](Jenkins.html)|
+|![jenkins](../img/continuous-integration/travis-ci-logo.png) | [Travis CI](Travis_CI.html)|
+|![jenkins](../img/continuous-integration/bitbucket-pipelines-logo.png) | [Bitbucket Pipelines](Bitbucket_Pipelines.html)|
+|![jenkins](../img/continuous-integration/gradle-logo.png) | [Gradle](Gradle.html)|
+|![jenkins](../img/continuous-integration/circleci-logo.png) | [CircleCI](CircleCI.html)|
+|![jenkins](../img/continuous-integration/bamboo-logo.png) | [Bamboo](Bamboo.html)|
+|![jenkins](../img/continuous-integration/cloud-icon.png) | [Upload API](../API/Upload_API.html)|
+|![jenkins](../img/continuous-integration/fastlane-logo.png) | [Fastlane](Fastlane.html)|
+|![jenkins](../img/continuous-integration/command-line-icon.png) | [Command line interface](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)|
+
+<style>table thead {display: none;}</style>
+<style>img {max-width: 100px !important; border: none !important; box-shadow: none !important;}</style>

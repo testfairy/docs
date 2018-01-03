@@ -1,5 +1,8 @@
-Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you
-when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
+Integrating the TestFairy SDK into your app can help you better understand how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metrics you may need in order to optimize your user experience and code.
+
+Both Java and Kotlin apps are supported.
+
+A list of changes is available in [Changelog](http://docs.testfairy.com/Android/Changelog.html).
 
 ## Installation
 
@@ -7,13 +10,13 @@ when and how people are using your app, and provide you with any metric you need
 [ ![Download](https://api.bintray.com/packages/testfairy/testfairy/testfairy/images/download.svg) ](https://bintray.com/testfairy/testfairy/testfairy/_latestVersion)
 -->
 
-1. Add the SDK to your build.gradle
+1. Add the SDK to your build.gradle app module (eg. `app/build.gradle`)
    ```
       dependencies {
           compile 'testfairy:testfairy-android-sdk:1.+@aar'
       }
    ```
-   make sure you have jcenter() repository included.
+   make sure you have the jcenter() repository included.
 
 
 2. Add Testfairy to your main activity's `onCreate`:
@@ -38,53 +41,53 @@ when and how people are using your app, and provide you with any metric you need
    
 ## Upgrading
 
-TestFairy is constantly improving and updating the Android SDK. It is generally good idea to always use the latest SDK, but it is up the developer.
+TestFairy is constantly improving and updating the Android SDK. Generally, it's a good idea to always use the latest SDK.
 
-If you used the compile dependency: `testfairy:testfairy-android-sdk:1.+@aar`, then you might be using the latest. You can always have Gradle to fetch latest by running the command: `gradlew --refresh-dependencies`
+Using version wildcards like “1.+@aar”, will automatically upgrade your TestFairy to the latest version. To refresh dependency, and force Gradle to download the latest version, please run the command: `gradlew --refresh-dependencies`
 
-Otherwise, if you are using a fixed version, for example: `testfairy:testfairy-android-sdk:1.2.4@aar`, then you will have to update the version manually.
+If you are using a fixed version, for example: `testfairy:testfairy-android-sdk:1.2.4@aar`, you will have to manually update the version.
 
-List of changes is available in the [Android SDK Changelog](http://docs.testfairy.com/Android/Changelog.html).
+A list of changes is available in the [Android SDK Changelog](http://docs.testfairy.com/Android/Changelog.html).
 
 ## How to Identify users (Optional)
 
 Here is a quick example for an easy way to identify users by email address.
 ```
-[TestFairy identify:@"" traits:@{
-    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
-}];
+Map<String, Object> traits = new HashMap<String, Object>();
+traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
+TestFairy.identify("", traits);
 ```
-For more identification options [read here](https://docs.testfairy.com/Android/Identifying_your_users.html)
+For more identification options [read this](https://docs.testfairy.com/Android/Identifying_your_users.html)
 
 
 ## <a name="permissions"></a>Additional Permissions (Optional)
 
-TestFairy can record additional insights that require specific permissions. Below is a list of permissions needed for each metric:
+TestFairy can record additional insights that require specific permissions. Below is a list of permissions required for each metric:
 
 #### Logs - ```android.permission.READ_LOGS``` (Optional)
 
 In order to automatically upload device logs (logcat) to your account, please add the permission ```android.permission.READ_LOGS```.
-Please make sure you check the Log coolection checkbox in project settings under insights. This can be done after the app was uploaded or the first session performed.
+Please make sure to check the **"Log collection"** checkbox found under the **"Insights"** tab in ["Build Settings"](https://docs.testfairy.com/Getting_Started/Version_Settings.html). This can be done after the app was uploaded or the first session performed.
 
 #### Tracking Battery Usage - ```android.permission.BATTERY_STATS``` (Optional)
 
-In order to automatically upload battery status to your account, please add the permission ```android.permission.BATTERY_STATS```. 
-The general battery status will be tracked, as well as the time when phone was connected or disconnected from charger.
+In order to automatically upload the battery status to your account, please add the permission ```android.permission.BATTERY_STATS```. 
+The general battery status will be tracked, as well as the time when the device was connected or disconnected from a charger.
 
 #### Tracking Phone Signal - ```android.permission.READ_PHONE_STATE``` (Optional)
 
 In order to automatically upload phone signal to your account, please add the permission ```android.permission.READ_PHONE_STATE```. 
-The phone signal graph shows the GSM Signal Strength, with valid values (0-31, 99). 0 equals -113 dBm or less and 31 equals -51 dBm or more. For more information, please read GSM standard TS 27.007, section 8.5
+The phone signal graph shows the GSM Signal Strength, with valid values (0-31, 99). 0 equals -113 dBm or less and 31 equals -51 dBm or more. For more information, please read [GSM standard TS 27.007, section 8.5] (http://www.etsi.org/deliver/etsi_ts/127000_127099/127007/08.05.00_60/ts_127007v080500p.pdf)
 
 #### Tracking Wi-Fi Signal - ```android.permission.ACCESS_WIFI_STATE``` (Optional)
 
-In order to automatically upload wifi status to your account, please add the permission ```android.permission.ACCESS_WIFI_STATE```. 
+In order to automatically upload the wifi status to your account, please add the permission ```android.permission.ACCESS_WIFI_STATE```. 
 The wifi signal will be tracked. 
 
 ## File Size
 
-The size of the SDK is less than 250KB.
+The size of the TestFairy SDK is less than 250KB.
 
 <br><br>
-Maybe you want to read also [Manual integration with Eclipse and Ant](http://docs.testfairy.com/Android/Manual_integration_with_Eclipse_and_Ant.html).
+You might also like to read [Manual integration with Eclipse and Ant](http://docs.testfairy.com/Android/Manual_integration_with_Eclipse_and_Ant.html).
 

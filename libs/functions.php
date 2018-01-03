@@ -111,7 +111,7 @@
         foreach ($tree as $key => $node)
             if (is_array($node)) {
                 $return .= "<li";
-                if (true || !(strpos($url, $key) === FALSE)) $return .= " class=\"open\""; /* gilm */
+                if (false || !(strpos($url, $key) === FALSE)) $return .= " class=\"open\""; /* gilm */
                 $return .= ">";
                 $return .= "<a href=\"#\" class=\"aj-nav folder\">";
                 $return .= clean_url($key, "Title");

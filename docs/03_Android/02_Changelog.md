@@ -1,3 +1,84 @@
+### Version 1.5.7
+Released: 2017-12-12
+
+* [BUGFIX] Capture main stacktrace for ANR detection
+* [BUGFIX] Handle null Views when calling `hideView`
+* [BUGFIX] Add framework detection
+* [BUGFIX] Crashes with Auto Update Activity
+
+### Version 1.5.5
+Released: 2017-08-28
+
+* [NEW] Upload files associated with your session with our new API.
+
+### Version 1.5.4
+Released: 2017-08-13
+
+* [IMPROVEMENT] Performance improvements.
+* [IMPROVEMENT] `TestFairy.setServerEndpoint` can get a simple url format (for example "app.testfairy.com").
+
+### Version 1.5.3
+Released: 2017-08-02
+
+* [BUGFIX] Minor bug fix for enterprise users when calling `TestFairy.setServerEndpoint`.
+
+### Version 1.5.2
+Released: 2017-07-04
+
+* [NEW] Support for offline feedbacks, in case of no connectivity the feedbacks will be stored to disk, it will be sent at the beginning of the next session.
+* [NEW] Support for server url redirect (only for private clouds).
+
+### Version 1.5.1
+Released: 2017-06-26
+
+* [IMPROVEMENT] Fix gradle build warning
+
+### Version 1.5.0
+Released: 2017-05-28
+
+* [BUGFIX] Fix getNetworkInfo crash on Android 7.
+
+### Version 1.4.17
+Released: 2017-05-09
+
+* [BUGFIX] Fix video recording for Cordova.
+
+### Version 1.4.16
+Released: 2017-04-25
+
+* [IMPROVEMENT] Touch recorder support for android 7
+* [IMPROVEMENT] Minor security fixes for Veracode approval
+
+### Version 1.4.15
+Released: 2017-04-23
+
+* [NEW] Button clicks will be recorded and visible in session Overview timeline.
+* [IMPROVEMENT] User interactions will be recorded even if the view recorder is disabled.
+* [BUGFIX] Fix wrong app name issue. 
+
+### Version 1.4.14
+Released: 2017-04-09
+
+* [New API] Use `TestFairy.setUserId(String userId)` to tell as who is the current user, it will help you to find the user in the TestFairy dashboard. [More information](https://app.testfairy.com/reference/android/).
+* [New API] Use `TestFairy.setAttribute(String key, String value)` to add additional data to the current session. [More information](https://app.testfairy.com/reference/android/).
+* [BUGFIX] Correlation ID fixes related to session timing and session update.
+
+### Version 1.4.13
+Released: 2017-03-06
+
+* [BUGFIX] Fixed WebView screenshot capturing bug (Android 5 or later).
+
+### Version 1.4.12
+Released: 2017-03-02
+
+* [BUGFIX] Fix missing logs from some Android 5 devices.
+
+### Version 1.4.10
+Released: 2017-02-19
+
+* [NEW] Inspect element will show dialogs and toasts.
+* [IMPROVEMENT] Logs will be recorded only after the session started, timestamp and sorting are improved.
+
 ### Version 1.4.8
 Released: 2017-02-02
 

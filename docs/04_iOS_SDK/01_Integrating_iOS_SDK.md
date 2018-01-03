@@ -1,16 +1,16 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/DhRX5UukvPM" frameborder="0" allowfullscreen></iframe>
 
-Integrating the TestFairy SDK into your app allows better understanding of how your app performs on real devices. It tells you
-when and how people are using your app, and provide you with any metric you need to optimize for better user experience and better code.
+Integrating the TestFairy SDK into your app helps you better understand how your app performs on real devices. It tells you
+when and how people are using your app, and provides you with any metrics you may need to optimize your user experience and code.
 
-You get:
+You get to:
 
 * Track app use.
 * Handle crashes and report to server.
 * Record screen video and other metrics.
-* Understand user flow using checkpoints.
+* Understand user flow, using checkpoints.
 * Grab NSLogs from client and report to server.
-* Automatic update if a new build is available (Ad Hoc only.)
+* Automatically update if a new build is available (Ad Hoc only.)
 
 ### Manual Integration
 1. Download the framework from our [Download page](https://app.testfairy.com/sdk/ios/).
@@ -69,21 +69,10 @@ You get:
 		* Select the "All" filter, in order to find *Swift Compiler - Code Generation*: *Objective-C Bridging Header*
 		* Edit *Swift Compiler - Code Generation*: *Objective-C Bridging Header* (double-click to edit).
 		* Drag "Bridging.h" from the source tree onto the edit box opened
-  
-## Identifying users (optional)
-
-In order to identify users by their email address please use the following example:
-
-```
-[TestFairy identify:@"" traits:@{
-    TFSDKIdentityTraitEmailAddressKey: @"johns@wall.gov",
-}];
-```
-For more identification options [read here](https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html)
 
 ## Sending NSLog to TestFairy (optional)
 
-In order to send  logs to TestFairy,  please do the following:
+In order to send logs to TestFairy, please do the following:
 
 1. Locate and access your Prefix Header (.pch): Click on the Project File > Build Settings > Apple LLVM-Language.
 2. Add these two lines of code to the end of Prefix Header (.pch):

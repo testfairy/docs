@@ -1,11 +1,11 @@
 
-One of the key strength of TestFairy's SDK, is the ease of installation. Our *.aar* archive already updates the *AndroidManifest.xml* file with the minimum required permissions, and the activities needed. However, in some cases, you would more likely to want to include the *.jar* archive, rather than the .aar. Such cases are when you are controlling the permissions manually, when using *Ant*, or when working with *Eclipse*.
+One of the key strengths of TestFairy's SDK, is the ease of installation. Our *.aar* archive updates the *AndroidManifest.xml* file with the minimum required permissions and activities. However, in some cases, you would more likely want to include the *.jar* archive, rather than the .aar. Such cases are when you are controlling the permissions manually, when using *Ant*, or when working with *Eclipse*.
 
 Please follow these steps to integrate TestFairy's Android SDK in your project:
 
 1. Download the latest *.jar* archive from [bintray](https://dl.bintray.com/testfairy/testfairy/testfairy/testfairy-android-sdk/) and download the *.jar* archive from the latest version.
 
-2. Copy this .jar file into your project. Most likely into a directory called `libs`. If you don't have such a directory, please create one in your source root.
+2. Copy this .jar file into your project, most likely into a directory called `libs`. If you don't have such a directory, please create one in your source root.
 
 3. (Eclipse) You will need to add this *.jar* archive to `Referenced Libraries`. Right-click on the *.jar* archive and select `Build Path > Add to Build Path`.
 

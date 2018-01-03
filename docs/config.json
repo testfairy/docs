@@ -8,14 +8,11 @@
 	"float": false,
 	"toggle_code": false,
 	"date_modified": false,
-	"twitter": ["testfairy"],
 	"google_analytics": "UA-40246355-6",
 	"ignore": {
 		"folders": [".svn", ".git"]
 	},
 	"links": {
-		"Blog": "http://blog.testfairy.com",
-		"GitHub Repo": "https://github.com/testfairy",
 		"Help/Support/Bugs": "mailto:support@testfairy.com",
 		"TestFairy.com": "https://www.testfairy.com"
 	}

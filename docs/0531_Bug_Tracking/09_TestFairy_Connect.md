@@ -3,6 +3,10 @@
 
 TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server, RFS), with the TestFairy cloud.
 
+## How to Install TestFairy Connect (video tutorial)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SdEHd8jNsOM" frameborder="0" allowfullscreen></iframe>
+
 
 ## How does it work?
 

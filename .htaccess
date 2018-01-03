@@ -41,7 +41,6 @@ RewriteRule ^Android/Identifying_Your_Users.html /Android/Identifying_your_users
 RewriteRule ^ANDROID_SDK/Changelog.html /Android/Changelog.html [R=301,L]
 
 RewriteRule ^Integrations/Cordova.html /Platforms/Cordova.html [R=301,L]
-RewriteRule ^integrations/cordova.html /Platforms/Cordova.html [R=301,L]
 RewriteRule ^Integrations/React_Native.html /Platforms/React_Native.html [R=301,L]
 RewriteRule ^Integrations/Xamarin.html /Platforms/Xamarin.html [R=301,L]
 RewriteRule ^Integrations/Adobe_Air.html /Platforms/Adobe_Air.html [R=301,L]
@@ -49,11 +48,8 @@ RewriteRule ^Integrations/Unity.html /Platforms/Unity.html [R=301,L]
 RewriteRule ^Integrations/Travis_CI.html /Continuous_Integration/Travis_CI.html [R=301,L]
 RewriteRule ^Integrations/Bamboo.html /Continuous_Integration/Bamboo.html [R=301,L]
 RewriteRule ^Integrations/Titanium.html /Platforms/Titanium.html [R=301,L]
-RewriteRule ^integrations/travis_ci.html /Continuous_Integration/Travis_CI.html [R=301,L]
 RewriteRule ^Android/Checkpoints.html /Android/Events.html [R=301,L]
-RewriteRule ^platforms/xamarin_component.html /Platforms/Xamarin_Component.html [R=301,L]
-RewriteRule ^platforms/react_native.html /Platforms/React_Native.html [R=301,L]
-RewriteRule ^platforms/ionic.html /Platforms/Ionic.html [R=301,L]
+RewriteRule ^Integrations/Slack.html /Slack_and_HipChat/Slack.html [R=301,L]
 
 RewriteRule ^integrations/bitbucket_pipelines.htm /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
 RewriteRule ^Integrations/Bitbucket_Pipelines.html /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
@@ -65,7 +61,6 @@ RewriteRule ^android/integrating_android_sdk.html /Android/Integrating_Android_S
 RewriteRule ^api/webhooks.html /API/Webhooks.html [R=301,L]
 
 RewriteRule ^Upload_API.html$ /API/Upload_API.html [R=301,L]
-RewriteRule ^api/upload_api.html /API/Upload_API.html [R=301,L]
 RewriteRule ^upload_api.html /API/Upload_API.html [R=301,L]
 
 RewriteRule ^getting_started/how_to_invite_testers.html /Getting_Started/How_To_Invite_Testers.html [R=301,L]

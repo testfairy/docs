@@ -1,5 +1,5 @@
 
-## What is TrstFairy Connect?
+## What is TestFairy Connect?
 
 TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server, RFS), with the TestFairy cloud.
 

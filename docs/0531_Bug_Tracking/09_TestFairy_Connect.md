@@ -1,7 +1,7 @@
 
 ## What is TestFairy Connect?
 
-TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server, RFS), with the TestFairy cloud.
+TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server, TFS), with the TestFairy cloud.
 
 ## How to Install TestFairy Connect (video tutorial)
 
@@ -13,7 +13,6 @@ TestFairy Connect is proxy server installed on-premise, designed to help compani
 The key part of TestFairy Connect is the agent service (TFC Agent) that runs on a system, also behind that firewall, connecting to TestFairy's web app and to your bug tracking system.
 
 ![Overview](/img/testfairy-connect/0-overview.png)
-
 
 This article details the requirements and steps to setting up TestFairy Connect. 
 For more articles relating to this subject, check out the following links:
@@ -77,44 +76,6 @@ you can try starting the service from the Services console.
     
 
 ## Supported issue trackers specific stuff
-
-### JIRA Custom Fields
-
-If you have required custom fields in your JIRA setup, you must specify them, so that TestFairy Connect can send 
-some defaults when creating an issue. Please modify your configuration file to include custom fields like this:
-
-Example ```config.json```:
-   
-```json
-    {
-        "testfairy": {
-            ...
-        },
-        "issueTracker": {
-            "type": "jira",
-            ...
-            "customFields": [
-				{
-					"projectKey": "PROJECT-1",
-					"fields": [
-						{
-							"key": "customfield_10001",
-							"defaultValue": "default value"
-						},
-						{
-							"key": "customfield_10002",
-							"defaultValue": "default value"
-						}
-					]
-				}
-            ]
-        }
-    }
-```
-You'll need an entry under `customFields` for each project requiring custom fields.
-
-
-
 ### Team Foundation Server (TFS)
 #### Additional Requirements
 * In order to connect to a working TFS server, the machine running the TestFairy Connect agent must have Visual Studio installed. For a free version of Visual Studio, please look at [Visual Studio Express](https://www.visualstudio.com/en-us/products/visual-studio-express-vs.aspx)
@@ -174,9 +135,3 @@ If all the configuration are correct, you will see a "**TestFairy Connect is rea
 You now have TestFairy Connect installed and configured, behind your firewall, to work with your Team Foundation Server service.
 
 
----------
-
-
-## Tutorials:
-
-- [TestFairy Connect with On-Premise JIRA](https://www.youtube.com/watch?v=SdEHd8jNsOM)

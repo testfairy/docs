@@ -1,3 +1,10 @@
+### Version 1.5.8
+Released: 2018-01-07
+
+* [IMPROVEMENT] Performance improvements.
+* [IMPROVEMENT] @Deprecated IDENTITY_TRAIT_*
+
+
 ### Version 1.5.7
 Released: 2017-12-12
 

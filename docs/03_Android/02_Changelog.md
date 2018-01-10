@@ -1,3 +1,10 @@
+### Version 1.5.9
+Released: 2018-01-10
+
+* [NEW] `TestFairy.logThrowable(Throwable)` added, it will send Throwable to TestFairy. [More information](https://app.testfairy.com/reference/android/)
+* [IMPROVEMENT] We improved the video recording during a crash, now you can see the latest frame of your app during and after the crash.
+* [IMPROVEMENT] We filter out redundant logs, which will not be sent to the server. This will reduce redundant work from your app.
+
 ### Version 1.5.8
 Released: 2018-01-07
 

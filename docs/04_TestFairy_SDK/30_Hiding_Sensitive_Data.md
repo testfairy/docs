@@ -31,9 +31,7 @@ For example, you might want to prevent all information related to credit card da
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
 
-			<p>
-                        	To hide a view from video, all you need to do is this:
-                        </p>
+			<p>To hide a view from video, all you need to do is this:</p>
 
 			<p>
                         	<b>TestFairy.hideView(Integer.valueOf(R.id.my_view));</b><br />
@@ -195,6 +193,3 @@ Below is a sample screen taken from a demo video. On the left, you can see what 
 * Hidden views are removed **before** sending video.
 * You may hide multiple views.
 * You may add the same view multiple times, no checks needed.
-
-
-

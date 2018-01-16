@@ -47,7 +47,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin(context, "<your app token here>");
+			TestFairy.begin(context, "&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -62,7 +62,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			[TestFairy setServerEndpoint:@"https://your-subdomain.testfairy.com/services/"];
-			[TestFairy begin:@"1234567890"];
+			[TestFairy begin:@"&lt;your app token here&gt;"];
       </pre>
 		</div>
 
@@ -77,7 +77,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("<your app token here>");
+			TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -92,7 +92,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("<your app token here>");
+			TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -108,7 +108,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("<your app token here>");
+			TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -123,7 +123,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.SetServerEndpoint ("https://my-subdomain.testfairy.com/services/");
-			TestFairy.Begin ("<your app token here>");
+			TestFairy.Begin ("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -138,7 +138,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("<your app token here>");
+			TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -153,7 +153,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("<your app token here>");
+			TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -168,7 +168,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin(context, "<your app token here>");
+			TestFairy.begin(context, "&lt;your app token here&gt;");
       </pre>
 		</div>
 

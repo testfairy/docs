@@ -39,7 +39,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("<your private cloud url here>");</b><br />
+        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -54,7 +54,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-ios" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>[TestFairy setServerEndpoint:@"<your private cloud url here>"];</b><br />
+        <b>[TestFairy setServerEndpoint:@"&lt;your private cloud url here&gt;"];</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -69,7 +69,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-cordova" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("<your private cloud url here>");</b><br />
+        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -84,7 +84,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("<your private cloud url here>");</b><br />
+        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -100,7 +100,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("<your private cloud url here>");</b><br />
+        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -115,7 +115,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-xamarin" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.SetServerEndpoint ("<your private cloud url here>");</b><br />
+        <b>TestFairy.SetServerEndpoint ("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -130,7 +130,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-unity" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("<your private cloud url here>");</b><br />
+        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -145,7 +145,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-adobe-air" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("<your private cloud url here>");</b><br />
+        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -160,7 +160,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-titanium" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("<your private cloud url here>");</b><br />
+        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
@@ -168,7 +168,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin(context, "&lt;your app token here&gt;");
+			TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 

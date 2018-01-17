@@ -52,17 +52,17 @@ TestFairy.setAttribute("favorite_color","blue");
 		<div data-w-tab="tab-ios" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<b>[TestFairy setAttribute:@"&lt;key&gt;" withValue:@"&lt;value&gt;"];</b><br />
       </p>
 
 			<p>The first value is a string <pre>key</pre> to help you search for the attribute in your session. The second paramter, <pre>value</ore>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
-TestFairy.setAttribute("name","John Snow");
-TestFairy.setAttribute("phone","+672-14-5109");
-TestFairy.setAttribute("age","20");
-TestFairy.setAttribute("favorite_color","blue");
+[TestFairy setAttribute:@"name" withValue:@"John Snow"];
+[TestFairy setAttribute:@"phone" withValue:@"+672-14-5109"];
+[TestFairy setAttribute:@"age" withValue:@"20"];
+[TestFairy setAttribute:@"favorite_color" withValue:@"blue"];
       </pre>
 		</div>
 

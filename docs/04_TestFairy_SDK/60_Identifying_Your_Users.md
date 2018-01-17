@@ -3,10 +3,6 @@ This is useful in cases where sessions are anonymous and or when sessions are re
 
 Furthermore, TestFairy enables the identification of users with traits such as name, email or phone number. These traits will later be available for the developer to search upon, or review when looking at a specific session recording.
 
-# Set your endpoint
-
-Once you've got your private cloud setup, make sure to get the URL endpoint your apps will direct all of its data towards. This URL must be passed into the SDK before the `begin` method is called.
-
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu">
 		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current">

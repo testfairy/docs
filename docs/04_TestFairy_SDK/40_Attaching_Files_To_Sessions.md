@@ -3,11 +3,11 @@ Be sure to check the device logs if there were any problems uploading files.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
-		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
-			<div>iOS</div>
-		</a>
-		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
+		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
 			<div>Android</div>
+		</a>
+		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
+			<div>iOS</div>
 		</a>
 	</div>
 
@@ -23,8 +23,8 @@ Be sure to check the device logs if there were any problems uploading files.
       </p>
       <h3>Code Example</h3>
       <pre>
-      File file = new File("/path/to/file.txt");
-      TestFairy.attachFile(file);
+File file = new File("/path/to/file.txt");
+TestFairy.attachFile(file);
       </pre>
 		</div>
 
@@ -40,8 +40,8 @@ Be sure to check the device logs if there were any problems uploading files.
 
 			<h3>Code Example</h3>
 			<pre>
-			NSURL *file = [NSURL fileURLWithPath:"/path/to/file.txt"];
-			[TestFairy attachFile:file];
+NSURL *file = [NSURL fileURLWithPath:"/path/to/file.txt"];
+[TestFairy attachFile:file];
 			</pre>
 		</div>
 

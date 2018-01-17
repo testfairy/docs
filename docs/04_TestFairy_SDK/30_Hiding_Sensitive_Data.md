@@ -4,11 +4,11 @@ For example, you might want to prevent all information related to credit card da
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
-		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current">
-			<div>iOS</div>
-		</a>
-		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
 			<div>Android</div>
+		</a>
+		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
+			<div>iOS</div>
 		</a>
 		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link">
 			<div>React Native</div>
@@ -50,19 +50,6 @@ public class MyActivity extends Activity {
 			</pre>
 		</div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 		<div data-w-tab="tab-ios" class="w-tab-pane">
 
 			<h3>Syntax</h3>
@@ -94,9 +81,6 @@ public class MyActivity extends Activity {
 }
 			</pre>
 		</div>
-
-
-
 
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
 
@@ -131,9 +115,6 @@ var MyComponent = React.createClass({
 			</pre>
 		</div>
 
-
-
-
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 
 			<h3>Syntax</h3>
@@ -155,18 +136,8 @@ TestFairySDK.hideView(view);
 			</pre>
 		</div>
 
-
-
-
-
-
 	</div>
 </div>
-
-
-
-
-
 
 ### Sample video
 

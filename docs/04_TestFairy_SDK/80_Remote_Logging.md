@@ -2,11 +2,11 @@ TestFairy allows developers to log items with a session, without logging to the 
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
-		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
-			<div>iOS</div>
-		</a>
-		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
+		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
 			<div>Android</div>
+		</a>
+		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
+			<div>iOS</div>
 		</a>
 		<a data-w-tab="tab-cordova" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Cordova</div>
@@ -135,7 +135,7 @@ console.log = function(message) {
 		</div>
 
 		<div data-w-tab="tab-xamarin" class="w-tab-pane">
-			<p>We recommend wrapping all <pre>TFLog</pre> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
+			<p>We recommend wrapping all <b>TFLog</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 
       <h3>Code Example</h3>
 

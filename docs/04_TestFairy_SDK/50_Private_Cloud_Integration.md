@@ -43,7 +43,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
@@ -58,7 +58,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			[TestFairy setServerEndpoint:@"https://your-subdomain.testfairy.com/services/"];
@@ -73,7 +73,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
@@ -88,7 +88,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
@@ -104,7 +104,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
@@ -119,7 +119,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			TestFairy.SetServerEndpoint ("https://my-subdomain.testfairy.com/services/");
@@ -134,7 +134,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
@@ -149,7 +149,7 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
 			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
@@ -160,15 +160,15 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-titanium" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
+        <b>TiTestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
-				Please Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
+				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("&lt;your app token here&gt;");
+			TiTestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+			TiTestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 

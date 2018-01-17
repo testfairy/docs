@@ -1,5 +1,5 @@
-Adding the TestFairy plugin to your Cordova or Phonegap project is simple. 
-Cordova provides two workflows for development, either through the [command line](https://cordova.apache.org/docs/en/latest/guide/cli/index.html), or a [platform-centered workflow](https://cordova.apache.org/docs/en/latest/guide/platforms/index.html). If your current development leverages the platform-centered workflow, please refer to the [iOS integration document](/iOS_SDK/Integrating_iOS_SDK.html) for adding TestFairy to your project. 
+Adding the TestFairy plugin to your Cordova or Phonegap project is simple.
+Cordova provides two workflows for development, either through the [command line](https://cordova.apache.org/docs/en/latest/guide/cli/index.html), or a [platform-centered workflow](https://cordova.apache.org/docs/en/latest/guide/platforms/index.html). If your current development leverages the platform-centered workflow, please refer to the [iOS integration document](/iOS_SDK/Integrating_iOS_SDK.html) for adding TestFairy to your project.
 In this article we'll walk you through adding TestFairy to a new project through the command-line workflow.
 
 For Ionic and Ionic 2 applications, please check out the [Ionic](https://docs.testfairy.com/Platforms/Ionic.html) documentation.
@@ -59,13 +59,13 @@ We recommend wrapping all log statements with a custom method, which will output
 var _testfairyConsoleLog = console.log;
 console.log = function(message) {
     _testfairyConsoleLog(message);
-  TestFairySDK.log(message);
+  TestFairy.log(message);
 }
 ```
 
 ## Identifying Users
 
-TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that can help you generate better insights. 
+TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that can help you generate better insights.
 
 ```
 TestFairy.begin("APP TOKEN");
@@ -91,5 +91,3 @@ Congratulations! You've successfully integrated TestFairy into your Cordova proj
 * Have a look at the [API documentation](https://github.com/testfairy/testfairy-cordova-plugin/blob/master/www/testfairy.js) for other calls you can make to the TestFairy plugin
 
 * Follow the project on [GitHub](https://github.com/testfairy/testfairy-cordova-plugin) for updates, bug reports, or to contribute to the project!
- 
-

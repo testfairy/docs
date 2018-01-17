@@ -46,8 +46,11 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin(context, "&lt;your app token here&gt;");
+// Be sure to import TestFairy
+import com.testfairy.TestFairy;
+
+TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+TestFairy.begin(context, "&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -61,8 +64,11 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			[TestFairy setServerEndpoint:@"https://your-subdomain.testfairy.com/services/"];
-			[TestFairy begin:@"&lt;your app token here&gt;"];
+// Be sure to import TestFairy
+#import "TestFairy.h"
+
+[TestFairy setServerEndpoint:@"https://your-subdomain.testfairy.com/services/"];
+[TestFairy begin:@"&lt;your app token here&gt;"];
       </pre>
 		</div>
 
@@ -76,8 +82,8 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("&lt;your app token here&gt;");
+TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -91,8 +97,11 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("&lt;your app token here&gt;");
+// Be sure to import TestFairy
+const TestFairy = require('react-native-testfairy');
+
+TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -100,15 +109,18 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
+        <b>TestFairySDK.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("&lt;your app token here&gt;");
+// Be sure to import TestFairy
+import { TestFairySDK } from 'nativescript-testfairy';
+
+TestFairySDK.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+TestFairySDK.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -122,8 +134,11 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.SetServerEndpoint ("https://my-subdomain.testfairy.com/services/");
-			TestFairy.Begin ("&lt;your app token here&gt;");
+// Be sure to import TestFairy
+using TestFairyLib;
+
+TestFairy.SetServerEndpoint ("https://my-subdomain.testfairy.com/services/");
+TestFairy.Begin ("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -137,23 +152,29 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("&lt;your app token here&gt;");
+// Be sure to import TestFairy
+using TestFairyUnity;
+
+TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+TestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
 		<div data-w-tab="tab-adobe-air" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-        <b>TestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
+        <b>AirTestFairy.setServerEndpoint("&lt;your private cloud url here&gt;");</b><br />
       </p>
       <h3>Code Example</h3>
 			<p>
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TestFairy.begin("&lt;your app token here&gt;");
+// Be sure to import TestFairy
+import com.testfairy.AirTestFairy;
+
+AirTestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+AirTestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 
@@ -167,8 +188,11 @@ Once you've got your private cloud setup, make sure to get the URL endpoint your
 				Note: It's important that you include a trailing slash `/` in your URL. Following is a concrete example of this:
 			</p>
       <pre>
-			TiTestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
-			TiTestFairy.begin("&lt;your app token here&gt;");
+// Be sure to import TestFairy
+var TiTestFairy = require('com.testfairy.titestfairy');
+
+TiTestFairy.setServerEndpoint("https://my-subdomain.testfairy.com/services/");
+TiTestFairy.begin("&lt;your app token here&gt;");
       </pre>
 		</div>
 

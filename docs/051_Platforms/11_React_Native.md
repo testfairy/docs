@@ -5,7 +5,7 @@ TestFairy for React native is a bridge to the [TestFairy](https://www.testfairy.
 
 # Automatic Installation
 
-If you are using version 0.36 or later of React-Native, this is the recommended approach to adding the TestFairy SDK to your app. 
+If you are using version 0.36 or later of React-Native, this is the recommended approach to adding the TestFairy SDK to your app.
 From your project root, run the following commands:
 
 ```
@@ -75,7 +75,7 @@ We recommend wrapping all log statements with a custom method, which will output
 var _testfairyConsoleLog = console.log;
 console.log = function(message) {
     _testfairyConsoleLog(message);
-  TestFairySDK.log(message);
+  TestFairy.log(message);
 }
 ```
 
@@ -106,7 +106,7 @@ For more information on identifying your users, head over [here](http://docs.tes
 
 TestFairy enables developers to hide specific views from the recorded video, for security and privacy reasons. For example, you might want to conceal any information related to credit card data from appearing in the session recording.
 
-In order to hide views from your recorded session, you will need to pass a reference to a view to TestFairy. 
+In order to hide views from your recorded session, you will need to pass a reference to a view to TestFairy.
 First, give the element to be hidden a `ref` attribute. For example:
 
 ```

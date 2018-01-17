@@ -75,7 +75,7 @@ public class cameraScript : MonoBehaviour {
 ...
 	void OnLevelWasLoaded(int level) {
 		TestFairy.setScreenName(Application.loadedLevelName);
-    }
+	}
 ...
 }
 ```
@@ -85,7 +85,7 @@ public class cameraScript : MonoBehaviour {
 TestFairy allows developers to correlate sessions to app specific information such as users, server-sessions or events.   
 This is useful in cases where sessions are anonymous and or when sessions are related to server activities that are critical to understanding test behaviour.
 
-Furthermore, TestFairy enables you to identify the user with traits such as name, email or phone number. 
+Furthermore, TestFairy enables you to identify the user with traits such as name, email or phone number.
 These will later be available for the developer to search upon, or review when looking at a specific session recordings.
 
 In order to set session level attributes associated with your user, please see the document on [Session Attributes](https://docs.testfairy.com/Android/Session_Attributes.html).
@@ -98,7 +98,7 @@ TestFairy.setUserId("<userId>");
 
 Where `userId` is a string representing an association to your backend. We recommend passing values that your app may use, such as email, phone number, or user ID. This value may not be nil, and is searchable via API and web search.
 
-### Exaple: identify user by email
+### Example: identify user by email
 
 ```
 TestFairy.setUserId("john@example.com");

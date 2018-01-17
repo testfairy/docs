@@ -9,4 +9,4 @@ Some of our features include:
 - Identifying and tagging users, for searching and custom reports
 - Auto-Updates, to make sure your users are on the latest version
 
-Next: [Add the TestFairy SDK to yuor app](/TestFairy_SDK/Adding_The_SDK_To_Your_App.html)
+Next: [Add the TestFairy SDK to your app](/TestFairy_SDK/Adding_The_SDK_To_Your_App.html)

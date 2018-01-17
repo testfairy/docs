@@ -3,7 +3,7 @@ TestFairy allows developers to hide specific views from the recorded video. As a
 For example, you might want to prevent all information related to credit card data from appearing in the session.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
-	<div class="docs-tabs-menu w-tab-menu">
+	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
 		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current">
 			<div>iOS</div>
 		</a>
@@ -17,15 +17,6 @@ For example, you might want to prevent all information related to credit card da
 			<div>Nativescript</div>
 		</a>
 	</div>
-
-
-
-
-
-
-
-
-
 
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">

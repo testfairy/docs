@@ -2,11 +2,11 @@ TestFairy allows developers to attach files to sessions. As a developer, you can
 Be sure to check the device logs if there were any problems uploading files.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
-	<div class="docs-tabs-menu w-tab-menu">
-		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current">
+	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
+		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
 			<div>iOS</div>
 		</a>
-		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Android</div>
 		</a>
 	</div>

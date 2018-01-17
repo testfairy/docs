@@ -1,32 +1,32 @@
 TestFairy allows developers to log items with a session, without logging to the console output. In some cases, there are work arounds that allow you to wrap the TestFairy remote logging method in a way that will both log to the console and to the session.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
-	<div class="docs-tabs-menu w-tab-menu">
-		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current">
+	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
+		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
 			<div>iOS</div>
 		</a>
-		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Android</div>
 		</a>
-		<a data-w-tab="tab-cordova" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-cordova" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Cordova</div>
 		</a>
-		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>React Native</div>
 		</a>
-		<a data-w-tab="tab-nativescript" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-nativescript" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Nativescript</div>
 		</a>
-		<a data-w-tab="tab-xamarin" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-xamarin" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Xamarin</div>
 		</a>
-		<a data-w-tab="tab-unity" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-unity" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Unity</div>
 		</a>
-		<a data-w-tab="tab-adobe-air" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-adobe-air" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Adobe Air</div>
 		</a>
-		<a data-w-tab="tab-titanium" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-titanium" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Titanium</div>
 		</a>
 	</div>
@@ -75,7 +75,7 @@ TFLog(@"Hello, %@", @"TestFairy!");
 TestFairy.log("Hello, TestFairy!");
       </pre>
 
-			<p>We recommend wrapping all <pre>log</pre> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
+			<p>We recommend wrapping all <b>log</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
 var _testfairyConsoleLog = console.log;
 console.log = function(message) {
@@ -99,7 +99,7 @@ const TestFairy = require('react-native-testfairy');
 TestFairy.log("Hello, TestFairy!");
       </pre>
 
-			<p>We recommend wrapping all <pre>log</pre> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
+			<p>We recommend wrapping all <b>log</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
 var _testfairyConsoleLog = console.log;
 console.log = function(message) {
@@ -124,7 +124,7 @@ import { TestFairySDK } from 'nativescript-testfairy';
 TestFairySDK.log("Hello, TestFairy!");
       </pre>
 
-			<p>We recommend wrapping all <pre>log</pre> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
+			<p>We recommend wrapping all <b>log</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
 var _testfairyConsoleLog = console.log;
 console.log = function(message) {

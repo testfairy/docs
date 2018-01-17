@@ -5,32 +5,32 @@ The TestFairy enterprise suite can be installed on a private cloud on any AWS lo
 Once you've got your private cloud setup, make sure to get the URL endpoint your apps will direct all of its data towards. This URL must be passed into the SDK before the `begin` method is called.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
-	<div class="docs-tabs-menu w-tab-menu">
-		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current">
+	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
+		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;">
 			<div>iOS</div>
 		</a>
-		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Android</div>
 		</a>
-		<a data-w-tab="tab-cordova" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-cordova" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Cordova</div>
 		</a>
-		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>React Native</div>
 		</a>
-		<a data-w-tab="tab-nativescript" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-nativescript" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Nativescript</div>
 		</a>
-		<a data-w-tab="tab-xamarin" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-xamarin" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Xamarin</div>
 		</a>
-		<a data-w-tab="tab-unity" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-unity" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Unity</div>
 		</a>
-		<a data-w-tab="tab-adobe-air" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-adobe-air" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Adobe Air</div>
 		</a>
-		<a data-w-tab="tab-titanium" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-titanium" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Titanium</div>
 		</a>
 	</div>

@@ -10,32 +10,33 @@ For example, you might want to prevent all information related to credit card da
 		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>iOS</div>
 		</a>
-		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>React Native</div>
 		</a>
-		<a data-w-tab="tab-nativescript" class="docs-tab w-inline-block w-tab-link">
+		<a data-w-tab="tab-nativescript" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
 			<div>Nativescript</div>
+		</a>
+		<a data-w-tab="tab-xamarin" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;">
+			<div>Xamarin</div>
 		</a>
 	</div>
 
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
-
 			<p>To hide a view from video, all you need to do is this:</p>
+			<p>
+				<b>TestFairy.hideView(Integer.valueOf(R.id.my_view));</b><br />
+				or<br />
+				<b>TestFairy.hideView(View myView);</b>
+			</p>
 
 			<p>
-                        	<b>TestFairy.hideView(Integer.valueOf(R.id.my_view));</b><br />
-                        	or<br />
-                        	<b>TestFairy.hideView(View myView);</b>
-                        </p>
+				Replace <b>R.id.my_view</b> with the identifier of the view you wish to hide. Please review the full example below:
+			</p>
 
-			<p>
-                        	Replace <b>R.id.my_view</b> with the identifier of the view you wish to hide. Please review the full example below:
-                        </p>
-
-                        <h3>Code example</h3>
-                        <pre>
+			<h3>Code example</h3>
+			<pre>
 public class MyActivity extends Activity {
 
     @Override
@@ -51,9 +52,7 @@ public class MyActivity extends Activity {
 		</div>
 
 		<div data-w-tab="tab-ios" class="w-tab-pane">
-
 			<h3>Syntax</h3>
-
 			<p>
 				To hide a view from video, all you need to do is call the static instance method hideView in the TestFairy class:
 			</p>
@@ -83,23 +82,18 @@ public class MyActivity extends Activity {
 		</div>
 
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
-
 			<h3>Syntax</h3>
-
 			<p>
 				In order to hide views from your recorded session, you will need to pass a reference to a view to TestFairy. First, give the element to be hidden a ref attribute. For example:
 			</p>
 
-                	<p>
-                		<b>&lt;Text ref="instructions"&gt;This will be hidden&lt;/Text&gt;</b>
-                	</p>
-
-                	<p>
-                		Next, in a component callback, such as componentDidMount, pass the reference ID back to TestFairy by invoking hideView.
+			<p>
+				<b>&lt;Text ref="instructions"&gt;This will be hidden&lt;/Text&gt;</b>
 			</p>
 
-			<h3>Code Example</h3>
+			<p>Next, in a component callback, such as componentDidMount, pass the reference ID back to TestFairy by invoking hideView.</p>
 
+			<h3>Code Example</h3>
 			<pre>
 const TestFairy = require('react-native-testfairy');
 var MyComponent = React.createClass({
@@ -116,15 +110,10 @@ var MyComponent = React.createClass({
 		</div>
 
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
-
 			<h3>Syntax</h3>
-
-			<p>
-				<b>TestFairySDK.hideView(view);</b>
-			</p>
+			<p><b>TestFairySDK.hideView(view);</b></p>
 
 			<h3>Code Example</h3>
-
 			<pre>
 // in Nativescript
 import { TestFairySDK } from 'nativescript-testfairy';
@@ -133,6 +122,27 @@ import { TestFairySDK } from 'nativescript-testfairy';
 var TestFairySDK = require('nativescript-testfairy').TestFairySDK;
 
 TestFairySDK.hideView(view);
+			</pre>
+		</div>
+
+
+		<div data-w-tab="tab-xamarin" class="w-tab-pane">
+			<h3>Syntax</h3>
+			<p><b>TestFairy.HideView (View view)</b> - on Android</p>
+			<p><b>TestFairy.HideView (UIView view)</b> - on iOS</p>
+
+			<h3>Code Example</h3>
+			<pre>
+// Be sure to import TestFairy
+using TestFairyLib;
+
+// On Android
+View view = ...
+TestFairy.HideView (view);
+
+// On iOS
+UIView view = ...
+TestFairy.HideView (view);
 			</pre>
 		</div>
 

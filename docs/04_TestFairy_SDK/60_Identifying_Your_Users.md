@@ -45,15 +45,11 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 
       <h3>Code Example</h3>
       <pre>
-			TestFairy.setUserId("john@example.com");
-      </pre>
+// Be sure to import TestFairy
+import com.testfairy.TestFairy;
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+TestFairy.setUserId("john@example.com");
+      </pre>
 		</div>
 
 		<div data-w-tab="tab-ios" class="w-tab-pane">
@@ -66,15 +62,11 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 
 			<h3>Code Example</h3>
 			<pre>
-			[TestFairy setUserId:@"john@example.com"];
-			</pre>
+// Be sure to import TestFairy
+#import "TestFairy.h"
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+[TestFairy setUserId:@"john@example.com"];
+			</pre>
 		</div>
 
 		<div data-w-tab="tab-cordova" class="w-tab-pane">
@@ -87,15 +79,8 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 
       <h3>Code Example</h3>
       <pre>
-			TestFairy.setUserId("john@example.com");
+TestFairy.setUserId("john@example.com");
       </pre>
-
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
 		</div>
 
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
@@ -108,37 +93,29 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 
       <h3>Code Example</h3>
       <pre>
-			TestFairy.setUserId("john@example.com");
-      </pre>
+// Be sure to import TestFairy
+const TestFairy = require('react-native-testfairy');
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+TestFairy.setUserId("john@example.com");
+      </pre>
 		</div>
 
 
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<b>TestFairySDK.setUserId("&lt;userId&gt;");</b><br />
       </p>
 
 			<p>Where <pre>userId</pre> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
-			TestFairy.setUserId("john@example.com");
-      </pre>
+// Be sure to import TestFairy
+import { TestFairySDK } from 'nativescript-testfairy';
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+TestFairySDK.setUserId("john@example.com");
+      </pre>
 		</div>
 
 		<div data-w-tab="tab-xamarin" class="w-tab-pane">
@@ -151,15 +128,11 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 
       <h3>Code Example</h3>
       <pre>
-			TestFairy.SetUserId ("john@example.com");
-      </pre>
+// Be sure to import TestFairy
+using TestFairyLib;
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+TestFairy.SetUserId ("john@example.com");
+      </pre>
 		</div>
 
 		<div data-w-tab="tab-unity" class="w-tab-pane">
@@ -172,36 +145,28 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 
       <h3>Code Example</h3>
       <pre>
-			TestFairy.setUserId("john@example.com");
-      </pre>
+// Be sure to import TestFairy
+using TestFairyUnity;
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+TestFairy.setUserId("john@example.com");
+      </pre>
 		</div>
 
 		<div data-w-tab="tab-adobe-air" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<b>AirTestFairy.setUserId("&lt;userId&gt;");</b><br />
       </p>
 
 			<p>Where <pre>userId</pre> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
-			TestFairy.setUserId("john@example.com");
-      </pre>
+// Be sure to import TestFairy
+import com.testfairy.AirTestFairy;
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+AirTestFairy.setUserId("john@example.com");
+      </pre>
 		</div>
 
 		<div data-w-tab="tab-titanium" class="w-tab-pane">
@@ -214,16 +179,17 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 
       <h3>Code Example</h3>
       <pre>
-			TiTestFairy.setUserId("john@example.com");
-      </pre>
+// Be sure to import TestFairy
+var TiTestFairy = require('com.testfairy.titestfairy');
 
-			<p>
-				<ul>
-					<li><pre>setUserId</pre> may be called many times.</li>
-					<li>You may call <pre>setUserId</pre> before or after <pre>begin</pre>.</li>
-				</ul>
-			</p>
+TiTestFairy.setUserId("john@example.com");
+      </pre>
 		</div>
 
 	</div>
 </div>
+
+### Notes
+
+1. `setUserId:` may be called many times.
+2. You may call `setUserId` before or after `begin`.

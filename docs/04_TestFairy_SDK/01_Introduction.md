@@ -9,18 +9,4 @@ Some of our features include:
 - Identifying and tagging users, for searching and custom reports
 - Auto-Updates, to make sure your users are on the latest version
 
-To get started, please select your development platform from the following list.
-
-Supported platforms:
-
-- [Android](../Android/Integrating_Android_SDK.html)
-- [iOS Objective-C](../iOS_SDK/Integrating_iOS_SDK.html)
-- [iOS Swift](../iOS_SDK/Integrating_iOS_SDK.html)
-- [Cordova and PhoneGap](../Platforms/Cordova.html)
-- [Ionic](../Platforms/Ionic.html)
-- [ReactNative](../Platforms/React_Native.html)
-- [Unity](../Platforms/Unity.html)
-- [Xamarin](../Platforms/Xamarin.html)
-- [Titanium](../Platforms/Titanium.html)
-- [Adobe Air](../Platforms/Adobe_Air.html)
-- [Nativescript](../Platforms/Nativescript.html)
+Next: [Add the TestFairy SDK to your app](/TestFairy_SDK/Adding_The_SDK_To_Your_App.html)

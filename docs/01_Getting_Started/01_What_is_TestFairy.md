@@ -10,7 +10,6 @@ TestFairy fits into you workflow perfectly. It integrates with your favorite bug
 
 ![ alt upload](../../img/integrations/tf-structure-02.png)
 
-<img width="100%" src="../../img/integrations/tf-structure-02.png">>
 
 
 

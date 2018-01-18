@@ -5,7 +5,7 @@ A common issue our users discovered while monitoring there apps,
 are **slow** requests or **404** error code, thous problems are usually hard to discover,
 But fixing them can be easy and it will do significant impact for there users.
 
-![see example](https://github.com/testfairy/docs/blob/master/img/app/logHttp.png)
+![see example](https://raw.githubusercontent.com/testfairy/docs/master/img/app/logHttp.png)
 
 
 ### Usage :

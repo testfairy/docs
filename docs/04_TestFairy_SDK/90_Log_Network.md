@@ -1,18 +1,15 @@
-TestFairy will log all your nerwork requst.
-It will gave you an easy way to monitor your request.
+With TestFairy, you can log all your network requests. This gives you an easy way to monitor network access your app is doing.
 
-A common issue our users discovered while monitoring there apps,
-are **slow** requests or **404** error code, thous problems are usually hard to discover,
-But fixing them can be easy and it will do significant impact for there users.
+A common issue our users discovered while monitoring their apps, is **slow** requests or **404** error code. These problems are usually hard to discover manually. TestFairy will list all network requests in the session page. Fixing these issues will greatly improve the experience for your users.
 
 ![see example](https://raw.githubusercontent.com/testfairy/docs/master/img/app/logHttp.png)
 
 
-### Usage :
+### Usage:
 ```TestFairy.addNetworkEvent(URI uri, String method, int code, long startTimeMillis, long endTimeMillis, long requestSize, long responseSize, String errorMessage)```
 
-### Example :
-If you are using **OkHttp** or **Retrofit** all you need to do is adding CustomHttpInterceptor to your OkHttpClient
+### Example:
+If you are using **OkHttp** or **Retrofit** all you need to do is add CustomHttpInterceptor to your client:
 
 ```
 public class CustomHttpInterceptor implements Interceptor {
@@ -41,9 +38,8 @@ public class CustomHttpInterceptor implements Interceptor {
 
 
 OkHttpClient client = new OkHttpClient.Builder()
-				.addInterceptor(new CustomHttpInterceptor())
-				.build();
-        
+	.addInterceptor(new CustomHttpInterceptor())
+	.build();
 ```
         
         

@@ -1,3 +1,8 @@
+### Version 1.5.14
+Released: 2018-01-21
+
+* [NEW] TestFairy Network support added. [Log Network Doc](https://docs.testfairy.com/Android/Log_Network.html)
+
 ### Version 1.5.9
 Released: 2018-01-10
 

@@ -6,6 +6,9 @@ RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 # add header to prevent ssl-stripping
 Header set Strict-Transport-Security "max-age=31536000; includeSubdomains" env=HTTPS
 
+RewriteCond %{REQUEST_METHOD} ^(TRACE|TRACK|PUT|OPTIONS|DELETE|POST)
+RewriteRule .*$ - [R=405,L]
+
 AddType application/x-font-woff         woff
 
 AddOutputFilterByType DEFLATE text/html text/plain text/xml text/javascript text/css

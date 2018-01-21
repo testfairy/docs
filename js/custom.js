@@ -45,11 +45,19 @@ $(document).ready(function() {
 $(document).ready(function() {
     $(".docs-tabs.w-tabs .w-tab-link").click(function(e) {
         var tab_name = $(e.currentTarget).data("w-tab");
-        $(".w--current").removeClass("w--current");
         $(".w--tab-active").removeClass("w--tab-active");
         $(".w-tab-pane[data-w-tab=" + tab_name + "]").addClass("w--tab-active");
         $(e.currentTarget).addClass("w--current");
     });
+
+    if (window.location.hash) {
+      var tab_name = "tab-" + window.location.hash.split('#')[1];
+      $(".w--current").removeClass("w--current");
+      $("a[data-w-tab='" + tab_name + "']").addClass("w--current");
+
+      $(".w--tab-active").removeClass("w--tab-active");
+      $(".w-tab-pane[data-w-tab=" + tab_name + "]").addClass("w--tab-active");
+    }
 });
 
 //Fix GitHub Ribbon overlapping Scrollbar

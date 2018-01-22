@@ -52,11 +52,13 @@ $(document).ready(function() {
 
     if (window.location.hash) {
       var tab_name = "tab-" + window.location.hash.split('#')[1];
-      $(".w--current").removeClass("w--current");
-      $("a[data-w-tab='" + tab_name + "']").addClass("w--current");
+      if ($("a[data-w-tab='" + tab_name + "']").length > 0) {
+        $(".w--current").removeClass("w--current");
+        $("a[data-w-tab='" + tab_name + "']").addClass("w--current");
 
-      $(".w--tab-active").removeClass("w--tab-active");
-      $(".w-tab-pane[data-w-tab=" + tab_name + "]").addClass("w--tab-active");
+        $(".w--tab-active").removeClass("w--tab-active");
+        $(".w-tab-pane[data-w-tab=" + tab_name + "]").addClass("w--tab-active");
+      }
     }
 });
 

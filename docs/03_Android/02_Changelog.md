@@ -1,7 +1,7 @@
 ### Version 1.5.15
 Released: 2018-01-22
 
-* [IMPROVEMENT] TestFairy.log() functions can be used even if logcat is disabled in the build settings.
+* [IMPROVEMENT] TestFairy.log() function can be used even if logcat is disabled in the build settings.
 
 ### Version 1.5.14
 Released: 2018-01-21

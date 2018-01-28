@@ -33,4 +33,4 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 - After configuration has been saved, you will see a success message.
   ![](https://docs.testfairy.com/img/sso/azure/azure-7.png)
   
-Now, please logout and make sure you can see the "Login with Azure" button.
+Now, please log out and make sure you can see the "Login with Azure" button.

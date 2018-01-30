@@ -1,3 +1,8 @@
+### Version 1.12.2
+Released 2018-01-30
+
+* [BUGFIX] Improved stability around network capture
+
 ### Version 1.12.1
 Released 2018-01-03
 

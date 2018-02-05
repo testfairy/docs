@@ -14,7 +14,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [Travis CI](http://docs.testfairy.com/Integrations/Travis_CI.html)
 
-[CircleCI](https://docs.testfairy.com/Continuous_Integration/Travis_CI.html)
+[CircleCI](https://circleci.com/docs/1.0/ios-builds-on-os-x/#testfairy)
 
 [NetBeans](http://plugins.netbeans.org/plugin/52087/)
 

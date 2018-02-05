@@ -2,9 +2,23 @@
 Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 ### Usage
-[Gradle plugin](https://github.com/testfairy/testfairy-gradle-plugin)
-[Jenkins plugin](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
 [Command line uploader](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)
+
+[Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
+
+[Gradle](https://github.com/testfairy/testfairy-gradle-plugin)
+
+[Android Studio](http://docs.testfairy.com/Android/Uploading_with_Android_Studio.html)
+
+[fastlane](https://docs.fastlane.tools/actions/testfairy/)
+
+[Travis CI](http://docs.testfairy.com/Integrations/Travis_CI.html)
+
+[CircleCI](https://docs.testfairy.com/Continuous_Integration/Travis_CI.html)
+
+[NetBeans](http://plugins.netbeans.org/plugin/52087/)
+
+[Bamboo](http://docs.testfairy.com/Integrations/Bamboo.html)
 
 
 ### Method

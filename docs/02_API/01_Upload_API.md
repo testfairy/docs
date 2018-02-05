@@ -85,4 +85,8 @@ In order to get your API KEY, open your account preferences at https://app.testf
 
 In order to create a new API KEY just click on "Regenerate API Key" in your account preferences page.
 
+### Why is my API Key empty?
+
+In cases where we identify that your API KEY was used by mistake to initialize the SDK instead of using your APP TOKEN, we automatically reset the API KEY in order to protect your privacy. In this case, please change the SDK initialization to use the APP TOKEN and create a new API KEY.
+
 

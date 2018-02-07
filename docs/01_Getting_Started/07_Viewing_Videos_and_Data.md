@@ -1,5 +1,9 @@
 <!--# Testing your Application-->
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/DhRX5UukvPM?t=141" frameborder="0" allowfullscreen></iframe>
+
+
+
 One of the great advantages of TestFairy is the ease of use for you and your testers. 
 
 Once you uploaded your app and invited your testers, they can download the app in one click. If you seletced **Auto Update** in the **"Build Settings"** page, the testers won’t even have to worry about updating it any more, as newer versions will be automatically updated. 

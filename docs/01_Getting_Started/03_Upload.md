@@ -2,6 +2,10 @@
 If you don’t have an account yet, please <a href="http://www.testfairy.com/signup" target="_blank">sign up</a>. It's easy, and free!
 If you have a TestFairy account, please <a href="https://app.testfairy.com/login" target="_blank">log in</a>.
 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yf9SEQX8kWY" frameborder="0" allowfullscreen></iframe>
+
+
 ## <a id="Uploading"></a> Uploading Your Application
 
 Once your account is created and verified, you are ready to upload your app.

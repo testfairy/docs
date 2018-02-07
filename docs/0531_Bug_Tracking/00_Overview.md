@@ -1,3 +1,14 @@
+# Connect TestFairy to your Bug Tracking software
+Before we start, make sure to connect TestFairy to your bug tracking account:
+
+- [Connect TestFairy to JIRA Cloud](https://docs.testfairy.com/Bug_Tracking/JIRA_Cloud.html)
+- [Connect TestFairy to JIRA Server](https://docs.testfairy.com/Bug_Tracking/JIRA_Server.html)
+- [Connect TestFairy to TFS](https://docs.testfairy.com/Bug_Tracking/TFS.html)
+- [Connect TestFairy to Github](https://docs.testfairy.com/Bug_Tracking/Github.html)
+- [Connect TestFairy to Trello](https://docs.testfairy.com/Bug_Tracking/Trello.html)
+- [Connect TestFairy to Bugzilla](https://docs.testfairy.com/Bug_Tracking/Bugzilla.html)
+- [Connect TestFairy to Pivotal](https://docs.testfairy.com/Bug_Tracking/Pivotal.html)
+
 # Shake to Feedback
 
 TestFairy makes feedback as easy and effortless as a simple shake of your device. 
@@ -17,6 +28,3 @@ Once they send this email, a feedback message is sent to all the relevant destin
 - Go to the "Bug Tracking" section and make sure to check the box in "In-app feedback"
 
 ![ alt upload](../../img/bug-tracking/bug-report-enabled.png)
-
-
-# Connecting your bug system through "Account Settings"

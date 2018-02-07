@@ -15,7 +15,7 @@ When a bug is found during a testing session, testers can report back in several
 
 * Shaking the device and filling in a feedback form that pops up (available only on the enterprise package) 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/lVlXx01jrU8" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/lVlXx01jrU8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 A link to the tester's account is automatically sent to the testers together with the invitaion to start testing your app.

@@ -1,5 +1,6 @@
 <!-- # Inviting Testers -->
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Y2KpYgi8wLI" frameborder="0" allowfullscreen></iframe>
 
 
 Once the new version of your app is uploaded to your account, you can let your testers know about it and invite them to start testing. There are a couple of ways to let your testers know about your new upload. 

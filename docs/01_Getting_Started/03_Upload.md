@@ -3,7 +3,7 @@ If you don’t have an account yet, please <a href="http://www.testfairy.com/sig
 If you have a TestFairy account, please <a href="https://app.testfairy.com/login" target="_blank">log in</a>.
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yf9SEQX8kWY" frameborder="0" allowfullscreen></iframe>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/yf9SEQX8kWY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ## <a id="Uploading"></a> Uploading Your Application

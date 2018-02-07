@@ -1,6 +1,6 @@
 ###Visual Studio Team Services + TestFairy
 
-This doc will help VSTS users to upload thires apps (*.apk/*.ipa) to TestFairy.
+This doc will help VSTS users to upload apps (*.apk/*.ipa) to TestFairy.
 
 
 Adding UpluadToTestFairy to your exsisting build:

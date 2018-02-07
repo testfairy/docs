@@ -9,9 +9,14 @@ When a bug is found during a testing session, testers can report back in several
 
 * Logging into the testers dashboard at [https://my.testfairy.com](https://my.testfairy.com)
 * Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app.
-* Shaking the device and fill in a feedback form that pops up (available only on the enterprise package) 
 
 <img src="../../img/app/tester.png" width="800"/>
+
+
+* Shaking the device and filling in a feedback form that pops up (available only on the enterprise package) 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lVlXx01jrU8" frameborder="0" allowfullscreen></iframe>
+
 
 A link to the tester's account is automatically sent to the testers together with the invitaion to start testing your app.
 

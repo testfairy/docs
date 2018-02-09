@@ -53,6 +53,8 @@ RewriteRule ^Integrations/Bamboo.html /Continuous_Integration/Bamboo.html [R=301
 RewriteRule ^Integrations/Titanium.html /Platforms/Titanium.html [R=301,L]
 RewriteRule ^Android/Checkpoints.html /Android/Events.html [R=301,L]
 RewriteRule ^Integrations/Slack.html /Slack_and_HipChat/Slack.html [R=301,L]
+RewriteRule ^integrations/slack.html /Slack_and_HipChat/Slack.html [R=301,L]
+RewriteRule ^Integrations/HipChat.html /Slack_and_HipChat/HipChat.html [R=301,L]
 
 RewriteRule ^integrations/bitbucket_pipelines.htm /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
 RewriteRule ^Integrations/Bitbucket_Pipelines.html /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
@@ -65,6 +67,7 @@ RewriteRule ^api/webhooks.html /API/Webhooks.html [R=301,L]
 
 RewriteRule ^Upload_API.html$ /API/Upload_API.html [R=301,L]
 RewriteRule ^upload_api.html /API/Upload_API.html [R=301,L]
+RewriteRule ^Upload_API.html. /API/Upload_API.html [R=301,L]
 
 RewriteRule ^getting_started/how_to_invite_testers.html /Getting_Started/How_To_Invite_Testers.html [R=301,L]
 

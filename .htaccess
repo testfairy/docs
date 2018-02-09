@@ -83,5 +83,6 @@ RewriteRule ^Integrations/Ping_Identity.html /Single_Sign-On/Ping_Identity.html 
 
 RewriteRule ^/Android/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]
 RewriteRule ^/iOS_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]
+RewriteRule ^TestFairy_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]
 
 ErrorDocument 404     /404.php

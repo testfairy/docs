@@ -88,7 +88,6 @@ RewriteRule ^/iOS_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integrat
 RewriteRule ^TestFairy_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]
 
 RewriteRule ^TestFairy_SDK/(.*) /SDK/$1 [R=301,L]
-RewriteRule ^(.*)//(.*) $2 [R=301,L]
 
 RewriteRule wp-includes /password.html
 

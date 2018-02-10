@@ -81,6 +81,8 @@ RewriteRule ^Integrations/Onelogin.html /Single_Sign-On/OneLogin.html [R=301,L]
 
 RewriteRule ^Integrations/Ping_Identity.html /Single_Sign-On/Ping_Identity.html [R=301,L]
 
+RewriteRule ^Integrations/JIRA.html /Bug_Tracking/JIRA_Cloud.html [R=301,L]
+
 RewriteRule ^/Android/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]
 RewriteRule ^/iOS_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]
 RewriteRule ^TestFairy_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]

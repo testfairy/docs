@@ -64,6 +64,7 @@ RewriteRule ^ios_sdk/using_xamarin_component.html /Platforms/Xamarin_Component.h
 RewriteRule ^android/integrating_android_sdk.html /Android/Integrating_Android_SDK.html [R=301,L]
 
 RewriteRule ^api/webhooks.html /API/Webhooks.html [R=301,L]
+RewriteRule ^API/Rest_API.html /API/Rest_API.html [R=301,L]
 
 RewriteRule ^Upload_API.html$ /API/Upload_API.html [R=301,L]
 RewriteRule ^upload_api.html /API/Upload_API.html [R=301,L]
@@ -88,6 +89,8 @@ RewriteRule ^/iOS_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integrat
 RewriteRule ^TestFairy_SDK/Private_Cloud_Integration.html /SDK/Private_Cloud_Integration.html [R=301,L]
 
 RewriteRule ^TestFairy_SDK/(.*) /SDK/$1 [R=301,L]
+
+RewriteRule ^login/ https://app.testfairy.com/login/ [R=301,L]
 
 RewriteRule wp-includes /password.html
 

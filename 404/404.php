@@ -12,6 +12,10 @@
 
 	function sendSlackMessage($url, $username, $text)
 	{
+		if (isset($_SERVER['REMOTE_ADDR'])) {
+			$text .= " " . $_SERVER['REMOTE_ADDR'];
+		}
+			
 		$args = array(
 			"username" => $username,
 			"text" => $text,

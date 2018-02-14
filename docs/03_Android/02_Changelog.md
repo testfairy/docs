@@ -1,7 +1,7 @@
 ### Version 1.6.1
 Released: 2018-02-14
 
-* [BUGFIX] Hidden buttons do not appear in timeline
+* [BUGFIX] Hidden buttons do not appear in timeline.
 
 ### Version 1.6
 Released: 2018-02-02

@@ -1,3 +1,13 @@
+### Version 1.6.1
+Released: 2018-02-14
+
+* [BUGFIX] Hidden buttons do not appear in timeline
+
+### Version 1.6
+Released: 2018-02-02
+
+* [BUGFIX] In rare cases, feedback with no screenshot crashed.
+
 ### Version 1.5.15
 Released: 2018-01-22
 

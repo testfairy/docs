@@ -55,6 +55,7 @@ RewriteRule ^Android/Checkpoints.html /Android/Events.html [R=301,L]
 RewriteRule ^Integrations/Slack.html /Slack_and_HipChat/Slack.html [R=301,L]
 RewriteRule ^integrations/slack.html /Slack_and_HipChat/Slack.html [R=301,L]
 RewriteRule ^Integrations/HipChat.html /Slack_and_HipChat/HipChat.html [R=301,L]
+RewriteRule ^Integrations/TestFairy_Connect.html /Bug_Tracking/TestFairy_Connect.html [R=301,L]
 
 RewriteRule ^integrations/bitbucket_pipelines.htm /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]
 RewriteRule ^Integrations/Bitbucket_Pipelines.html /Continuous_Integration/Bitbucket_Pipelines.html [R=301,L]

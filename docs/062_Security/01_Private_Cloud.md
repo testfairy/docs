@@ -14,6 +14,6 @@ It includes the following:
 
 
 
-![ alt upload](../../img/getting-started/security-img.png)
+![ alt upload](../../img/integrations/tf-structure-02.png)
 
 

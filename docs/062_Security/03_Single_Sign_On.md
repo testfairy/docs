@@ -3,6 +3,8 @@ A list of permitted users and testers, as well as their passwords, is stored in 
 
 When SSO is configured into your account, the login page is replaced with a simple login with sso button.
 
+![ alt upload](../../img/getting-started/security-img.png)
+
 ### Setting up SSO with TestFairy
 Following are pages with directions for setting up SSO with TestFairy, according to your chosen solution:
 

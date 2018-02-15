@@ -8,7 +8,7 @@ Following are pages with directions for setting up SSO with TestFairy, according
   * [OKTA](https://docs.testfairy.com/Single_Sign-On/OKTA.html)
   * [OneLogin](https://docs.testfairy.com/Single_Sign-On/OneLogin.html)
   * [PingIdentity](https://docs.testfairy.com/Single_Sign-On/Ping_Identity.html)
-  * [Azure Active Directory]https://docs.testfairy.com/Single_Sign-On/Azure_Active_Directory.html)
+  * [Azure Active Directory](https://docs.testfairy.com/Single_Sign-On/Azure_Active_Directory.html)
 
 Talk to us! Request a demo at https://testfairy.com/products/solutions/enterprise#request-a-demo
 

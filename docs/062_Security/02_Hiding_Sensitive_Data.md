@@ -19,4 +19,5 @@ Below is a sample screen taken from a demo video. On the left, you can see what 
 * You may hide multiple views.
 * You may add the same view multiple times, no checks needed.
 
-#### Learn more: to review code examples for implementing this feature go to [this page](https://docs.testfairy.com/SDK/Hiding_Sensitive_Data.html)
+### Learn more: 
+To review code examples for implementing this feature go to [this page](https://docs.testfairy.com/SDK/Hiding_Sensitive_Data.html)

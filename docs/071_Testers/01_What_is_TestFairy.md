@@ -12,6 +12,6 @@ We will help your team with:
 
 **What you should read next:** Depending on the type of device you use for testing, either go to:
 
-[iOS Testing](https://docs.testfairy.com/Testers/iOS%20Testing.html)
+[How to test iOS apps](https://docs.testfairy.com/Testers/iOS%20Testing.html)
 
-[Android Testing](https://docs.testfairy.com/Testers/Android_Testing.html)
+[How to test Android apps](https://docs.testfairy.com/Testers/Android_Testing.html)

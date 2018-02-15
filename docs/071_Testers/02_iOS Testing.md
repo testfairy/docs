@@ -21,8 +21,11 @@ Some apps won't require you to register your device. In this case, simply click 
 First, make sure you receive an email from the app developer, which invites you to test an application build.
 
 1. Click the “DOWNLOAD APP” link in the email.
+
 2. Click the “Download App" button in your Safari browser.
+
 3. You will be prompted to install the application. Click “Install”.
+
 4. The app icon should now appear on your device desktop. 
 
 ##Troubleshooting installation

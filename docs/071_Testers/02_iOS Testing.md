@@ -36,23 +36,23 @@ If the application does not install on your device, we recommend that you run th
 
 1. Open your TestFairy account via the link (https://my.testfairy.com) in the email.
 
-<img src="/img/tester/31-mytestfairy.png" width="300"/>
+  <img src="/img/tester/31-mytestfairy.png" width="300"/>
 
 2. Open the upper left menu and choose "Troubleshooting".
 
-<img src="/img/tester/32-mytestfairy-menu.png" width="300"/>
+  <img src="/img/tester/32-mytestfairy-menu.png" width="300"/>
 
 3. Click the "START" button to start the troubleshooting process.
 
-<img src="/img/tester/33-mytestfairy-trbl-start.png" width="300"/> 
+  <img src="/img/tester/33-mytestfairy-trbl-start.png" width="300"/> 
 
 4. Click the "Install" button to install the TestFairy profile.
 
-<img src="/img/tester/34-profile.png" width="300"/> <img src="/img/tester/35-profile-install.png" width="300"/> 
+  <img src="/img/tester/34-profile.png" width="300"/> <img src="/img/tester/35-profile-install.png" width="300"/> 
 
 5. You should receive the troubleshooting results along with instructions, in the case that there is a problem that should be solved by the application developer.
 
-<img src="/img/tester/35-trble-done-success.png" width="300"/> <img src="/img/tester/36-trble-doe-fail.png" width="300"/>
+  <img src="/img/tester/35-trble-done-success.png" width="300"/> <img src="/img/tester/36-trble-doe-fail.png" width="300"/>
 
 * Please note! If the application is bigger than 100MB it must be downloaded over WiFi.
 

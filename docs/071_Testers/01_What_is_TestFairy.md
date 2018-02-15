@@ -11,3 +11,7 @@ We will help your team with:
    * **Priceless insights** Watch how people use your app and fully understand user behavior. View detailed app metrics such as CPU, memory, phone reception, and Wifi, and relive your user's detailed environment conditions to reproduce and fix bugs faster. Understand what happened BEFORE your app crashed or an issue was reported, without talking to your users! 
 
 **What you should read next:** Depending on the type of device you use for testing, either go to:
+
+[iOS Testing](https://docs.testfairy.com/Testers/iOS%20Testing.html)
+
+[Android Testing](https://docs.testfairy.com/Testers/iOS%20Testing.html)

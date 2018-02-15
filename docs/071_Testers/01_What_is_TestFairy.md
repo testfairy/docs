@@ -14,4 +14,4 @@ We will help your team with:
 
 [iOS Testing](https://docs.testfairy.com/Testers/iOS%20Testing.html)
 
-[Android Testing](https://docs.testfairy.com/Testers/Android%20Testing.html)
+[Android Testing](https://docs.testfairy.com/Testers/Android_Testing.html)

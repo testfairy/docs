@@ -1,6 +1,4 @@
 
-### Submitting feedback and reporting bugs
-
 When a bug is found during your testing session, you can report back in several ways, which are similiar in both iOS and Android.
 
 * Logging into your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com)and creating a new bug report, either through the appropriate app or through the "Bug Report" link on the menu.

@@ -5,13 +5,13 @@
 
 You should receive an email from the application developer, inviting you to test an application build.
 
-  1. Click the “DOWNLOAD APP” link in the email.
+  1. Click the “Download App” link in the email.
      
   2. Save the application.
       
   3. Open the application.
       
-  4. You will now be prompted to install the application. Click “INSTALL”.
+  4. You will now be prompted to install the application. Click “Install”.
         
   5. The application icon should now appear on your device desktop.  
   
@@ -39,17 +39,6 @@ You should receive an email from the application developer, inviting you to test
     * Re-install the application 
    
     <img src="/img/tester/61-unknown-sources-android.png" width="300"/> 
-    
-### How to submit feedback or report bugs
 
-When a bug is found during your testing session, you can report back in several ways:
-
-* Logging into your tester dashboard at [https://my.testfairy.com](https://my.testfairy.com)and creating a new bug report, either through the appropriate app or through the "Bug Report" link on the menu.
-
-* Logging into the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app and reporting a bug.
-
-* During use of an app, shaking your device and filling in the feedback form that pops up. If this option doesn't work, ask your developer to enable in-app feedback.
-
-<img src="/img/app/tester.png" width="800"/>
     
     

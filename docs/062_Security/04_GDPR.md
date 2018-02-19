@@ -4,7 +4,7 @@ Following the new regulation, we have added new capabilities that help our custo
 
 # Users can see their sessions
 
-On a Private cloud, it is possible for end users to see their recorded sessions. This requires the developer to identify the sessions, by using the SDK function [https://docs.testfairy.com/SDK/Identifying_Your_Users.html](setUserId).
+On a Private cloud, it is possible for end users to see their recorded sessions. This requires the developer to identify the sessions, by using the SDK function [setUserId](https://docs.testfairy.com/SDK/Identifying_Your_Users.html).
 Users will only be able see their sessions by logging in to TestFairy via their desktop browser. At the moment mobile view is not supportd.
 
 # User can request to delete their sessions

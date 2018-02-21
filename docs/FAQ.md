@@ -1,6 +1,5 @@
 <a name="top"></a>
 
-* General
   * [How do I re-invite a tester?](#reinvite-tester)
   * [How do I disable video recording?](#disable-video)
   * [How do I add some text to the e-mail sent to testers?](#add-comment)

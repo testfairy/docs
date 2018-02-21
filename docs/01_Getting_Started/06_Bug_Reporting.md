@@ -25,7 +25,7 @@ A link to the tester's account is automatically sent to the testers together wit
 
 ### Issue Reporting by Developers
 
-After the session is finished, developers can also add their bug reports directly from the session page, by by clicking on the **Create Bug** right from the top right side of the **Session Overview** page.
+After the session is finished, developers can also add their bug reports directly from the session page, by by clicking on the **Create Bug** button on the top right side of your **Session Overview** page.
 
 ![ alt create-bug](../../img/app/report-bug-btn.png)
  

@@ -19,7 +19,7 @@ You should receive an email from the application developer, inviting you to test
 
 1. Once you've been invited to test an application via TestFairy, you can create a TestFairy account to see your invitations, open bugs, download applications, and more. Open the invitation you've received for testing a new build, and click the ["tester account"](https://my.testfairy.com/) link.
   
-  <img src="/img/tester/11-invite-build.png" width="300"/> 
+  <img src="/img/tester/invitation-email.png" width="300"/> 
   
 2. Click on ["I am a tester, I do not know my password"](https://my.testfairy.com/forgot-password) and submit your email address.
   You will receive an email with instructions for setting a new password for your tester account.

@@ -8,6 +8,7 @@ TestFairy has a seamless, bi-directional integration with **Bugzilla**, **JIRA**
 When a bug is found during a testing session, testers can report back in several ways.
 
 * Logging into the testers dashboard at [https://my.testfairy.com](https://my.testfairy.com)
+
 * Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app.
 
 <img src="../../img/app/report-bug.png" width="800"/>
@@ -24,7 +25,7 @@ A link to the tester's account is automatically sent to the testers together wit
 
 ### Issue Reporting by Developers
 
-After the session is finished, developers can also add their bug reports, directly from the session page, by by clicking on **CREATE BUG** right from the **session** page.
+After the session is finished, developers can also add their bug reports directly from the session page, by by clicking on the **Create Bug** right from the top right side of the **Session Overview** page.
 
 ![ alt create-bug](../../img/app/report-bug-btn.png)
  

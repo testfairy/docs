@@ -26,11 +26,11 @@ A link to the tester's account is automatically sent to the testers together wit
 
 After the session is finished, developers can also add their bug reports, directly from the session page, by by clicking on **CREATE BUG** right from the **session** page.
 
-![ alt create-bug](../../img/app/create-bug.png)
+![ alt create-bug](../../img/app/report-bug-btn.png)
  
 A **Bug Creation** dialogue box opens up. Everything you type in the dialogue will be inserted directly into a new issue in your bug reporting system.
 
-![ alt bug-creation](../../img/app/bug-creation.png)
+![ alt bug-creation](../../img/app/report-issue-window.png)
 
 
 

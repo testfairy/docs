@@ -13,7 +13,7 @@ A list of changes is available in [Changelog](http://docs.testfairy.com/Android/
 1. Add the SDK to your build.gradle app module (eg. `app/build.gradle`)
    ```
       dependencies {
-          compile 'testfairy:testfairy-android-sdk:1.+@aar'
+          implementation 'testfairy:testfairy-android-sdk:1.+@aar'
       }
    ```
    make sure you have the jcenter() repository included.

@@ -1,3 +1,8 @@
+### Version 1.6.2
+Released: 2018-02-22
+
+* [BUGFIX] Fix hide WebView.
+
 ### Version 1.6.1
 Released: 2018-02-14
 

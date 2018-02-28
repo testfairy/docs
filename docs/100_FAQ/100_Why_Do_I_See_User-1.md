@@ -1,4 +1,4 @@
-When seeing "User-1" as the session username, it manes that this session was not identified.
+When seeing "User-1" as the session User ID, it manes that this session was not identified.
 
 In order to identify sessions, please call the function `setUserId`. 
 

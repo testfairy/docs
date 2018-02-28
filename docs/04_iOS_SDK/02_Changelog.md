@@ -20,7 +20,7 @@ Released 2017-11-16
 
 * [NEW] Improved bandwidth usage for video recording
 * [BUGFIX] Security fixes in video recording
-* [BUGFIX] Removed the use of private APIs including `SCRCException` and `CLTilesManagerClient`
+* [BUGFIX] Removed the use of `SCRCException` and `CLTilesManagerClient`
 
 ### Version 1.11.0
 Released 2017-10-04

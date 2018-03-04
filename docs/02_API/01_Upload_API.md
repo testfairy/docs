@@ -20,6 +20,8 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [Bamboo](http://docs.testfairy.com/Integrations/Bamboo.html)
 
+[Bitrise](http://devcenter.bitrise.io/tutorials/deploy/deploy-to-testfairy-with-bitrise/)
+
 
 ### Method
 `POST https://upload.testfairy.com/api/upload/`

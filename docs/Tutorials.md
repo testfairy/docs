@@ -1,5 +1,7 @@
 # TestFairy Platform
 
+* [Full demo (6:40 mins)](https://youtu.be/f3Sh3zACU7s)
+
 * [Getting to know your Dashboard](https://youtu.be/INsKsWAV8mo)
 
 * [How to upload a new app or version](https://youtu.be/yf9SEQX8kWY)

@@ -2,7 +2,7 @@ When seeing "User-1" as the session User ID, it means that the user for this ses
 
 In order to identify sessions, please call the method `setUserId`. 
 
-[See examples for using setUserId](https://docs.testfairy.com/SDK/Identifying_Your_Users.html])
+[See examples for using setUserId](https://docs.testfairy.com/SDK/Identifying_Your_Users.html)
 
 __Before__ calling `setUserId` it looks like this:
 

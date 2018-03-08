@@ -35,7 +35,7 @@ For example, you might want to prevent all information related to credit card da
 				Replace <b>R.id.my_view</b> with the identifier of the view you wish to hide. Please review the full example below:
 			</p>
 
-			<h3>Code example</h3>
+			<h3>Code Example</h3>
 			<pre>
 public class MyActivity extends Activity {
 

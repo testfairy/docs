@@ -21,7 +21,7 @@ These can help you keep track of when a tester reaches key points in your app, s
 				<b>TestFairy.addEvent("<event name>");</b>
 			</p>
 
-			<h3>Code example</h3>
+			<h3>Code Example</h3>
 			<pre>
 public class MyActivity extends Activity {
 	private void onPurchaseComplete() {

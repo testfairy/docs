@@ -6,11 +6,9 @@ TestFairy is available for both Android and iOS. You can install the bindings by
 
 1. Install the bindings through NuGet.
 
-1. Install the bindings trhough the Xamarin Component Store.
-
 You will need an app token (TESTFAIRY_APP_TOKEN), which can be found in your [settings page](http://app.testfairy.com/settings/)
 
-## iOS
+## Using the Xamarin SDK
 
 Open `AppDelegate.cs` in your solution, and override or add the following code to `FinishedLaunching`.
 
@@ -27,30 +25,19 @@ public override bool FinishedLaunching (UIApplication app, NSDictionary options)
 }
 ```
 
+## Usage
+
+### Identifying your users
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#xamarin) for more information.
+
+### Session Attributes
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Session_Attributes.html#xamarin) for more information.
+
 ### Remote Logging
 
-Prior to iOS 10, TestFairy would automatically capture any device logs. However, with the introduction of a new logging system by Apple in iOS 10, some extra steps are required in order to capture logging information along with your session. We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:
-
-```
-using TestFairyLib;
-...
-public static void Log(string format, params object[] arg)
-{
-    using (var nsFormat = new NSString(string.Format(format, arg)))
-    {
-        CFunctions.TFLog(nsFormat.Handle, "");
-        Console.WriteLine(string.Format(format, arg));
-    }
-}
-```
-
-Now, you can log statements using this call:
-
-```
-Log("Hello {0}", "World");
-```
-
-Note: This requires Xamarin plugin version 2.1.0 and above.
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Remote_Logging.html#xamarin) for more information.
 
 ### Upload dSYM
 
@@ -101,7 +88,7 @@ In the left sidebar of **Insights**, you will now see a link to the session reco
 
 ## Integration
 
-By simply adding the following code, the session recorded by TestFairy will be associated in Xamarin Insights as well (as seen in the screenshot above.) Place this snippet right after initializing Xamarin.Insights and TestFairy. 
+By simply adding the following code, the session recorded by TestFairy will be associated in Xamarin Insights as well (as seen in the screenshot above.) Place this snippet right after initializing Xamarin.Insights and TestFairy.
 
 ```csharp
 NSNotificationCenter.DefaultCenter.AddObserver (TestFairy.SessionStartedNotification, delegate (NSNotification n) {
@@ -133,12 +120,11 @@ public class MainActivity : Activity {
 ## Telling TestFairy what to record
 
 TestFairy can record screens cast directly from the device, as well as monitor CPU consumption and memory allocations. It grabs
-logs and even enables your users to provide feedback upon shaking their device. 
+logs and even enables your users to provide feedback upon shaking their device.
 
 To configure how and what TestFairy records, visit your **Build Settings**. You will see the build after calling Begin () at
 least once.
 
 ## Mixing with other crash handlers
 
-TestFairy plays nice. There is no problem using the crash handler with another reporter. 
-
+TestFairy plays nice. There is no problem using the crash handler with another reporter.

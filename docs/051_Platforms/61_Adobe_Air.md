@@ -45,7 +45,19 @@ Android requires some extra permissions and activities to be added to the final 
 </android>
 ```
 
-### You are ready to build and run your project
+## usage
+
+### Identifying your users
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#adobe-air) for more information.
+
+### Session Attributes
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Session_Attributes.html#adobe-air) for more information.
+
+### Remote Logging
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Remote_Logging.html#adobe-air) for more information.
 
 ## Troubleshooting
 

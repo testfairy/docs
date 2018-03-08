@@ -38,7 +38,7 @@ TestFairy can collect additional information from your session, which can help y
 				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -58,7 +58,7 @@ TestFairy.setAttribute("favorite_color","blue");
 				<b>[TestFairy setAttribute:@"&lt;key&gt;" withValue:@"&lt;value&gt;"];</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -78,7 +78,7 @@ TestFairy.setAttribute("favorite_color","blue");
 				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -95,7 +95,7 @@ TestFairy.setAttribute("favorite_color","blue");
 				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -116,7 +116,7 @@ TestFairy.setAttribute("favorite_color","blue");
 				<b>TestFairySDK.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -136,7 +136,7 @@ TestFairySDK.setAttribute("favorite_color","blue");
 				<b>TestFairy.SetAttribute ("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -156,7 +156,7 @@ TestFairy.SetAttribute ("favorite_color","blue");
 				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -176,7 +176,7 @@ TestFairy.setAttribute("favorite_color","blue");
 				<b>AirTestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -196,7 +196,7 @@ AirTestFairy.setAttribute("favorite_color","blue");
 				<b>TiTestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second paramter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>

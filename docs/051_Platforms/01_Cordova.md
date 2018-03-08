@@ -45,44 +45,17 @@ It's recommended to invoke `TestFairy.begin` from `onDeviceReady`. For example, 
   }
 ```
 
-## Remote Logging
+### Identifying your users
 
-TestFairy provides a way to view your application's log statements along with your session. Please note that this API does not log to the console, as well.
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#cordova) for more information.
 
-```
-TestFairy.log("Your log message here");
-```
+### Session Attributes
 
-We recommend wrapping all log statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Session_Attributes.html#cordova) for more information.
 
-```
-var _testfairyConsoleLog = console.log;
-console.log = function(message) {
-    _testfairyConsoleLog(message);
-  TestFairy.log(message);
-}
-```
+### Remote Logging
 
-## Identifying Users
-
-TestFairy can automatically detect sessions recorded by the same user, however, in many cases there is some additional information that can help you generate better insights.
-
-```
-TestFairy.begin("APP TOKEN");
-TestFairy.setUserId("USER ID");
-```
-
-Where `USER ID` is a string representing an association to your backend. It may be, for example, the ID of this user in your database or some random GUID. This value may not be null, and is searchable via API and web search.
-
-# Session Attributes
-
-TestFairy can collect additional information from your session, which can help you generate better insights.
-
-```
-TestFairy.setAttribute("key", "value");
-```
-
-The first value is a string `key` to help you search for the attribute in your session. The second paramter `value` is any string value for the attribute associated with the session. Neither value can be null. These attributes are available later in the session recording page, are available via API, and are searchable.
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Remote_Logging.html#cordova) for more information.
 
 ## Where to go from here?
 

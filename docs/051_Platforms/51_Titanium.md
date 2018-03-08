@@ -5,14 +5,14 @@ The TiTestFairy Module extends the Appcelerator Titanium Mobile framework, with 
 * Simply add the following lines to your `tiapp.xml` file:
 ```xml
 <modules>
-	<module platform="iphone">com.testfairy.titestfairy</module> 
+	<module platform="iphone">com.testfairy.titestfairy</module>
 </modules>
 ```
 
 * Download the [latest release.](https://github.com/testfairy/ti.testfairy/releases/latest/)
 
 * Add the module to your Titanium Mobiles
-  - “Help” -> "Install Mobile Module..." 
+  - “Help” -> "Install Mobile Module..."
   - or by unzipping the contents of the module zip file into your `Titanium/modules/iphone` or `Titanium/modules/android` folders.
 
 * Include the module in your code and use it:
@@ -25,6 +25,20 @@ The TiTestFairy Module extends the Appcelerator Titanium Mobile framework, with 
 NOTE: Replace 'APP TOKEN' with your token, which can be found in the [user preferences page](https://app.testfairy.com/settings/#app-token).
 
 For more detailed code examples take a look at our [example app](https://github.com/testfairy/ti.testfairy/blob/feat-readme/example/app.js).
+
+## Usage
+
+### Identifying your users
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#titanium) for more information.
+
+### Session Attributes
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Session_Attributes.html#titanium) for more information.
+
+### Remote Logging
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Remote_Logging.html#titanium) for more information.
 
 ## Reference
 

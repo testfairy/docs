@@ -1,6 +1,6 @@
 Adding the TestFairy plugin to your Ionic or Ionic 2 project is simple.
 
-## Install te TestFairy Ionic plugin
+## Install the TestFairy Ionic plugin
 
 Run the following commands from your application root folder:
 
@@ -45,7 +45,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
 
 ### Ionic 2
 
-With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaraion file in `src/declarations.d.ts` by adding the line
+With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaration file in `src/declarations.d.ts` by adding the line
 
 ```
 declare var TestFairy:any;
@@ -62,7 +62,7 @@ platform.ready().then(() => {
 
 ### Ionic 3
 
-With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaraion file in `tsconfig.json` by adding the line
+With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaration file in `tsconfig.json` by adding the line
 
 ```
 "files": [
@@ -82,6 +82,7 @@ platform.ready().then(() => {
 ```
 
 ## Validate the TestFairy integration
+
 1. Run your app to create a new TestFairy session.
 
 2. Visit your [dashboard](http://app.testfairy.com/), where should see your app listed. Click on your app to see the builds and sessions of your app.
@@ -95,6 +96,20 @@ To upgrade your plugin, please run:
 ```
 ionic plugin update com.testfairy.cordova-plugin
 ```
+
+## Usage
+
+### Identifying your users
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#cordova) for more information.
+
+### Session Attributes
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Session_Attributes.html#cordova) for more information.
+
+### Remote Logging
+
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Remote_Logging.html#cordova) for more information.
 
 ## Where to go from here?
 

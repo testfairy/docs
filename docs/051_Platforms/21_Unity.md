@@ -82,63 +82,12 @@ public class cameraScript : MonoBehaviour {
 
 ### Identifying your users
 
-TestFairy allows developers to correlate sessions to app specific information such as users, server-sessions or events.   
-This is useful in cases where sessions are anonymous and or when sessions are related to server activities that are critical to understanding test behaviour.
-
-Furthermore, TestFairy enables you to identify the user with traits such as name, email or phone number.
-These will later be available for the developer to search upon, or review when looking at a specific session recordings.
-
-In order to set session level attributes associated with your user, please see the document on [Session Attributes](https://docs.testfairy.com/Android/Session_Attributes.html).
-
-Identifying a session means setting a unique identifier for your user.
-
-```
-TestFairy.setUserId("<userId>");
-```
-
-Where `userId` is a string representing an association to your backend. We recommend passing values that your app may use, such as email, phone number, or user ID. This value may not be nil, and is searchable via API and web search.
-
-### Example: identify user by email
-
-```
-TestFairy.setUserId("john@example.com");
-```
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#unity) for more information.
 
 ### Session Attributes
 
-TestFairy can collect additional information fom your session, which can help you generate better insights.
-
-```
-TestFairy.setAttribute("<key>", "value");
-```
-
-The first value is a string `key` to help you search for the attribute in your session. The second paramter, `value`, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are later available in the session recording page, are available via API, and are searchable.
-
-#### Example
-
-```
-TestFairy.setAttribute("first-session","True");
-TestFairy.setAttribute("visits-in-checkout-during-session","3");
-TestFairy.setAttribute("max-score-this-session","200");
-```
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Session_Attributes.html#unity) for more information.
 
 ### Remote Logging
 
-In order to collect logs from your Unity app's session, there are a couple of options:
-
-1. Make use of the `TestFairy.log` method.
-
-2. For iOS, you can edit your project's `pch` according to the steps given [here](https://docs.testfairy.com/iOS_SDK/Logs_on_iOS_10.html). For some apps written in Unity, this may not be possible since your build may overwrite the pch file on each build. One workaround is to use a post-process step that will allow you to append to a created pch file. The post-process snippet can be found below:
-
-```
-[PostProcessBuildAttribute()]
-public static void OnPostprocessBuild(BuildTarget buildTarget, string path) {   
-  string pchPath = path + "/Classes/Prefix.pch";   
-  string testfairySnippet =
-  "#ifdef __OBJC__\n" + 
-  "  #import \"TestFairy.h\"\n" + 
-  "#endif\n" + 
-  "#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)\n";  
-  File.AppendAllText(pchPath, testfairySnippet);
-}
-```
+See the [SDK Documentation](https://docs.testfairy.com/SDK/Remote_Logging.html#unity) for more information.

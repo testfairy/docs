@@ -1,7 +1,15 @@
+### Version 1.6.3
+Released: 2018-03-18
+
+* [NEW] Can now disable crash handler by using option `enableCrashReporter`.
+* [NEW] Views that are out of screen do not make it to Inspect View Tree to save bandwidth.
+* [BUGFIX] Decendents of hidden views do not make it to Inspect View Tree.
+* [BUGFIX] In rare cases, hidden views disappeared from device if OS threw exception during onDraw().
+
 ### Version 1.6.2
 Released: 2018-02-22
 
-* [BUGFIX] Fix hide WebView.
+* [BUGFIX] Some webviews were not hidden when called with hideView.
 
 ### Version 1.6.1
 Released: 2018-02-14
@@ -11,7 +19,7 @@ Released: 2018-02-14
 ### Version 1.6
 Released: 2018-02-02
 
-* [BUGFIX] In rare cases, feedback with no screenshot crashed.
+* [BUGFIX] In rare cases, feedback with no screenshot would crash.
 
 ### Version 1.5.15
 Released: 2018-01-22

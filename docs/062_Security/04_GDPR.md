@@ -28,11 +28,11 @@ It is important to mention that the deletion of data is done by the account owne
 TestFairy requires customers to notify users that they are recorded. This can be done in the app TOS that must be easily accesible and easy to read and understand, and also possible to display a visual dialong (pop up) when the app starts, explaining the user that they are recorded for quality assurance purposes and how they can request to delete their data.
 In case of a showing a visual disclaimer, this should be done before calling the function TestFairy.begin.
 
-### Can TestFairy data can be automatically deleted after 30 days (configurable)
+### Can TestFairy data can be automatically deleted after 30 days?
 
 Yes. TestFairy can automatically delete sessions older than 30 days or any other time perioud required by your company. Deletion is permanent and can not be undone.
 
-### Can the service be hosted in Europe.
+### Can the service be hosted in Europe?
 
 Yes. Private Clouds can be hosted in Europe.
 

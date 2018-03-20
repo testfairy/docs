@@ -2,6 +2,10 @@ The EU General Data Protection Regulation (GDPR) was designed to harmonize data 
 
 Following the new regulations, we have added new capabilities that help our customers keep their users' privacy.
 
+### Can TestFairy provide a GDPR Compliant service?
+
+Yes. Testfairy can provide a GDPR compliant service to customers using a Private Cloud or On Premise platforms. Please contact us for more details.
+
 ### TestFairy Users can see their sessions
 
 On a Private cloud or on an on-prem installation, it is possible for companies to allow their end users to see their recorded sessions. This requires the developer to identify the sessions, by using the SDK function [setUserId](https://docs.testfairy.com/SDK/Identifying_Your_Users.html).

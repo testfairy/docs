@@ -32,7 +32,7 @@ In case of a showing a visual disclaimer, this should be done before calling the
 
 Yes. TestFairy can automatically delete sessions older than 30 days or any other time perioud required by your company. Deletion is permanent and can not be undone.
 
-## Can the service be hosted in Europe.
+### Can the service be hosted in Europe.
 
 Yes. Private Clouds can be hosted in Europe.
 

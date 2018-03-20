@@ -1,3 +1,11 @@
+### Version 1.13.0
+Released 2018-03-20
+
+* [NEW] See Battery statistics
+* [NEW] See testers that dismiss app updates
+* [BUGFIX] Remove hidden views from screenshot tree hierarchy
+* [BUGFIX] Hide subviews from screenshots that are outside of parent frame
+
 ### Version 1.12.2
 Released 2018-01-30
 

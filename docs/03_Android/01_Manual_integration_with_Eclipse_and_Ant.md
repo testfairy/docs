@@ -14,31 +14,28 @@ Please follow these steps to integrate TestFairy's Android SDK in your project:
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
   ```
-  
+
   Additional permissions are required for specific features in the SDK:
   ```
-  // for auto-update feature 
-  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> 
-  
+  // for auto-update feature
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
   // for sending logs to testfairy
-  <uses-permission android:name="android.permission.READ_LOGS" /> 
-  
+  <uses-permission android:name="android.permission.READ_LOGS" />
+
   // for tracking wifi signal
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> 
-  
-  // for tracking phone signal
-  <uses-permission android:name="android.permission.READ_PHONE_STATE" /> 
-  
+
   // for battery status
   <uses-permission android:name="android.permission.BATTERY_STATS" />  
   ```
-  
+
 5. Add these two activities in your `<application>` section in *AndroidManifest.xml*:
   ```
   <activity android:name="com.testfairy.activities.ProvideFeedbackActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Holo.Light" />
   <activity android:name="com.testfairy.activities.AutoUpdateActivity" android:configChanges="orientation|screenSize" />
   ```
-  
+
 6. Add Testfairy to your main applications's `onCreate`:
    ```
    import com.testfairy.TestFairy;
@@ -62,4 +59,3 @@ Please follow these steps to integrate TestFairy's Android SDK in your project:
 ## Class Reference
 
 [TestFairy Class Reference](https://app.testfairy.com/reference/android/)
-  

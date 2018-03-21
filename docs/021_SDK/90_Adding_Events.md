@@ -7,7 +7,7 @@ These can help you keep track of when a tester reaches key points in your app, s
 		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;"  href="#android">
 			<div>Android</div>
 		</a>
-		<a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;"  href="#ios-objc">
+		<a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;"  href="#ios-objc">
 			<div>iOS</div>
 		</a>
 		<a data-w-tab="tab-react-native" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;"  href="#react-native">
@@ -34,16 +34,15 @@ public class MyActivity extends Activity {
 			</pre>
 		</div>
 
-		<div class="docs-tabs-content w-tab-content">
-			<div data-w-tab="tab-ios-objc" class="w-tab-pane w--tab-active">
-				<h3>Syntax</h3>
-				<p>To add an event to your timeline, all you need to do is this:</p>
-				<p>
-					<b>[TestFairy addEvent:@"&lt;event name&gt;"];</b>
-				</p>
+		<div data-w-tab="tab-ios-objc" class="w-tab-pane w--tab-active">
+			<h3>Syntax</h3>
+			<p>To add an event to your timeline, all you need to do is this:</p>
+			<p>
+				<b>[TestFairy addEvent:@"&lt;event name&gt;"];</b>
+			</p>
 
-				<h3>Code Example</h3>
-				<pre>
+			<h3>Code Example</h3>
+			<pre>
 @implementation ViewController
 - (void)viewDidLoad {
 	[super viewDidLoad];
@@ -52,8 +51,8 @@ public class MyActivity extends Activity {
 }
 // ...
 @nd
-				</pre>
-			</div>
+			</pre>
+		</div>
 
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
 			<h3>Syntax</h3>

@@ -1,3 +1,8 @@
+### Version 1.13.1
+Released 2018-03-22
+
+* [NEW] Prompt users for feedback after taking a screenshot!
+
 ### Version 1.13.0
 Released 2018-03-20
 

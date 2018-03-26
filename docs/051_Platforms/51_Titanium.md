@@ -10,6 +10,7 @@ The TiTestFairy Module extends the Appcelerator Titanium Mobile framework, with 
 ```
 
 * Download the [latest release.](https://github.com/testfairy/ti.testfairy/releases/latest/)
+  * Be sure to either download either the Android (com.testfairy.titestfairy-android-2.1.3.zip) or the iOS (com.testfairy.titestfairy-iphone-2.1.3.zip) depending on the platform you're targeting.
 
 * Add the module to your Titanium Mobiles
   - “Help” -> "Install Mobile Module..."

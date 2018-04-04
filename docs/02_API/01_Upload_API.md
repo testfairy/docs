@@ -4,7 +4,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 ### Usage
 [Command line uploader](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)
 
-[Jenkins](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
+[Jenkins](https://plugins.jenkins.io/TestFairy)
 
 [Gradle](https://github.com/testfairy/testfairy-gradle-plugin)
 

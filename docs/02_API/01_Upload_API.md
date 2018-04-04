@@ -16,12 +16,11 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [CircleCI](https://circleci.com/docs/2.0/testing-ios/#testfairy)
 
+[Bitrise](http://devcenter.bitrise.io/tutorials/deploy/deploy-to-testfairy-with-bitrise/)
+
 [NetBeans](http://plugins.netbeans.org/plugin/52087/)
 
 [Bamboo](http://docs.testfairy.com/Integrations/Bamboo.html)
-
-[Bitrise](http://devcenter.bitrise.io/tutorials/deploy/deploy-to-testfairy-with-bitrise/)
-
 
 ### Method
 `POST https://upload.testfairy.com/api/upload/`

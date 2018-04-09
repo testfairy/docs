@@ -1,10 +1,15 @@
+### Version 1.6.4
+Released: 2018-04-09
+
+* [NEW] Developers can programmatically display feedback form using `showFeedbackForm`
+
 ### Version 1.6.3
 Released: 2018-03-18
 
 * [NEW] Developer can now disable crash handler by using option `enableCrashReporter`.
 * [NEW] Views that are out of screen do not make it to Inspect View Tree to improve performance.
-* [BUGFIX] Decendents of hidden views do not make it to Inspect View Tree.
-* [BUGFIX] improved hideView.
+* [BUGFIX] Descendants of hidden views do not make it to Inspect View Tree.
+* [BUGFIX] Improved `hideView` performance.
 
 ### Version 1.6.2
 Released: 2018-02-22
@@ -101,7 +106,7 @@ Released: 2017-04-23
 
 * [NEW] Button clicks will be recorded and visible in session Overview timeline.
 * [IMPROVEMENT] User interactions will be recorded even if the view recorder is disabled.
-* [BUGFIX] Fix wrong app name issue. 
+* [BUGFIX] Fix wrong app name issue.
 
 ### Version 1.4.14
 Released: 2017-04-09
@@ -230,16 +235,16 @@ Released: 2016-07-17
 * [NEW] Added an option to draw on screenshot.
 * [NEW] Feedback now contains screen name (actvity name).
 * [NEW] Screen Name (activity name) is now sent to JIRA automatically via API.
-* [IMPROVE] Improved Logcat reader performance. 
+* [IMPROVE] Improved Logcat reader performance.
 
-### Version 1.2.10 
+### Version 1.2.10
 Released: 2016-06-21
 
 * [NEW] Added confirmation dialog before auto update.
 * [BUGFIX] Support for >2GB apk auto-update downloads.
 * [BUGFIX] Cancel download during auto update.
 
-### Version 1.2.9 
+### Version 1.2.9
 Released: 2016-06-09
 
 * [NEW] Added log() method, to send logs to TestFairy without passing logcat.
@@ -247,7 +252,7 @@ Released: 2016-06-09
 * [BUGFIX] Changing orientation during 'Would you like to provide feedback' dialog disabled it.
 * [BUGFIX] Fixed hints in feedback form under certain Android themes.
 
-### Version 1.2.8 
+### Version 1.2.8
 Released: 2016-06-01
 
 * [BUGFIX] Feedback dialog fixed.

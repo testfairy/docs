@@ -28,10 +28,10 @@ deploy:
       -A "GitLab CI" \
       -F api_key="${TESTFAIRY_API_KEY}" \
       -F comment="GitLab Pipeline build ${CI_COMMIT_SHA}" \
-      -F file=@resume-android.apk \
+      -F file=@android.apk \
       https://upload.testfairy.com/api/upload/
 ```
 
-**Note** Be sure to replace the `-F file=@resume-android.apk` argument with a path to your own APK or IPA.
+**Note** Be sure to replace the `-F file=@android.apk` argument with a path to your own APK or IPA.
 
 For a complete list of available options, please visit the [TestFairy Upload API documentation](https://docs.testfairy.com/API/Upload_API.html)

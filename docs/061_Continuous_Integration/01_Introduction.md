@@ -15,6 +15,7 @@ The following platforms are officially supported. We also offer an [Upload API](
 |![jenkins](../img/continuous-integration/command-line-icon.png) | [Command line interface](https://github.com/testfairy/command-line-uploader/blob/master/testfairy-uploader.sh)|
 |![VSTS](https://github.com/testfairy/docs/blob/master/img/integrations/vsts/VSTS-icon.png?raw=true) | [VSTS](https://docs.testfairy.com/Continuous_Integration/Visual_Studio_Team_Services.html)|
 |![GitLab](../img/continuous-integration/gitlab.jpg) | [GitLab](GitLab.html)|
+|![TeamCity](../img/continuous-integration/teamcity.png) | [TeamCity](TeamCity.html)|
 
 <style>table thead {display: none;}</style>
 <style>img {max-width: 100px !important; border: none !important; box-shadow: none !important;}</style>

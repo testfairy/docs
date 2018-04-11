@@ -1,103 +1,70 @@
-Adding the TestFairy plugin to your Ionic or Ionic 2 project is simple.
+Adding the TestFairy plugin to your Ionic project is simple. The following instructions are for Ionic 3.
 
-## Install the TestFairy Ionic plugin
+## Installation
 
 Run the following commands from your application root folder:
 
 ```
-ionic plugin add com.testfairy.cordova-plugin
+ionic cordova plugin add com.testfairy.cordova-plugin
 ```
 
 Alternatively, you can install it directly from GitHub:
 
 ```
-ionic plugin add https://github.com/testfairy/testfairy-cordova-plugin
+ionic cordova plugin add https://github.com/testfairy/testfairy-cordova-plugin
 ```
-
-In order to support [remote logging](https://docs.testfairy.com/iOS_SDK/Remote_Logging.html) for iOS 10 devices, you'll have to install the console plugin
-
-```
-ionic plugin add cordova-plugin-console
-```
-
-## Add TestFairy to your code
-
-Initialize TestFairy with your [App Token](https://app.testfairy.com/settings/#apptoken) by calling `TestFairy.begin`.
-Your App Token is available at `https://app.testfairy.com/settings/#apptoken`.
-
-1. Copy your app token from `https://app.testfairy.com/settings/#apptoken`.
-
-2. Open your app.js file (located in your-project/www/js).
-
-3. Initialize the TestFairy plugin in the `ready` method
-
-### Ionic 1.x
-
-```
-angular.module('starter', ['ionic', 'starter.controllers', 'starter.services'])
-
-.run(function($ionicPlatform) {
-  $ionicPlatform.ready(function() {
-    TestFairy.begin("APP TOKEN"); //taken from https://app.testfairy.com/settings/#apptoken
-  });
-})
-```
-
-### Ionic 2
-
-With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaration file in `src/declarations.d.ts` by adding the line
-
-```
-declare var TestFairy:any;
-```
-
-Next, in your `src/app/app.component.ts` file, invoke `begin` passing in your **APP TOKEN**, available at `https://app.testfairy.com/settings/#apptoken`. We recommend invoking the `begin` method once `platform.ready()` is invoked as given in the example below:
-
-```
-platform.ready().then(() => {
-  TestFairy.begin(APP TOKEN);
-  ...
-});
-```
-
-### Ionic 3
-
-With Ionic 2, after adding the plugin to your project, you must first declare the TestFairy SDK in your declaration file in `tsconfig.json` by adding the line
-
-```
-"files": [
-"plugins/com.testfairy.cordova-plugin/www/testfairy.d.ts"
-],
-```
-
-Next, in your `src/app/app.component.ts` file, invoke `begin` passing in your **APP TOKEN**, available at `https://app.testfairy.com/settings/#apptoken`. We recommend invoking the `begin` method once `platform.ready()` is invoked as given in the example below:
-
-```
-declare var TestFairy: any; // at the top of the file
-..
-platform.ready().then(() => {
-  TestFairy.begin(APP TOKEN);
-  ...
-});
-```
-
-## Validate the TestFairy integration
-
-1. Run your app to create a new TestFairy session.
-
-2. Visit your [dashboard](http://app.testfairy.com/), where should see your app listed. Click on your app to see the builds and sessions of your app.
-
-3. Click on a build, and then click on a session to see the session video, logs and the metrics.
 
 ## Upgrading
 
 To upgrade your plugin, please run:
 
 ```
-ionic plugin update com.testfairy.cordova-plugin
+ionic cordova plugin update com.testfairy.cordova-plugin
 ```
 
 ## Usage
+
+Initialize TestFairy with your [App Token](https://app.testfairy.com/settings/#apptoken) by calling `TestFairy.begin`. Your **APP TOKEN** is available at `https://app.testfairy.com/settings/#apptoken`.
+
+We recommend to invoking `TestFairy.begin` from `platform.ready()` in `src/app/app.component.ts`. Also, be sure to declare `TestFairy` at the top of the file.
+
+```
+import { Component } from '@angular/core';
+import { Platform } from 'ionic-angular';
+import { StatusBar } from '@ionic-native/status-bar';
+import { SplashScreen } from '@ionic-native/splash-screen';
+
+import { HomePage } from '../pages/home/home';
+
+// Declare the TestFairy instance
+declare var TestFairy: any;
+
+@Component({
+  templateUrl: 'app.html'
+})
+export class MyApp {
+  rootPage:any = HomePage;
+
+  constructor(platform: Platform, statusBar: StatusBar, splashScreen: SplashScreen) {
+    platform.ready().then(() => {
+			TestFairy.begin(APP TOKEN);
+      // Okay, so the platform is ready and our plugins are available.
+      // Here you can do any higher level native things you might need.
+      statusBar.styleDefault();
+      splashScreen.hide();
+    });
+  }
+}
+```
+
+**Note**: We currently do not support plugin mocking or browser development. During your development phase, we recommend checking for the existence of `TestFairy` on the `window` object before invoking any methods on the TestFairy object, e.g.
+
+```
+// Check if TestFairy is available (will be undefined in browser)
+if ((<any>window).TestFairy) {
+	TestFairy.begin(APP TOKEN);
+}
+```
 
 ### Identifying your users
 

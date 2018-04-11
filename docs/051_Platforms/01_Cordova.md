@@ -1,18 +1,10 @@
 Adding the TestFairy plugin to your Cordova or Phonegap project is simple.
-Cordova provides two workflows for development, either through the [command line](https://cordova.apache.org/docs/en/latest/guide/cli/index.html), or a [platform-centered workflow](https://cordova.apache.org/docs/en/latest/guide/platforms/index.html). If your current development leverages the platform-centered workflow, please refer to the [iOS integration document](/iOS_SDK/Integrating_iOS_SDK.html) for adding TestFairy to your project.
-In this article we'll walk you through adding TestFairy to a new project through the command-line workflow.
 
-For Ionic and Ionic 2 applications, please check out the [Ionic](https://docs.testfairy.com/Platforms/Ionic.html) documentation.
+For Ionic applications, please check out the [Ionic](https://docs.testfairy.com/Platforms/Ionic.html) documentation.
 
 ## Installation
 
-### Cordova
-
-First, make sure you have `cordova` installed on your machine. To do so you can follow the [instructions](https://cordova.apache.org/docs/en/latest/guide/overview/index.html) on getting started.
-
-Once installed, we'll start with creating a new project. If you already have an existing project, please skip to the next step.
-
-To add the plugin to your project via [npm](https://www.npmjs.com/package/com.testfairy.cordova-plugin), simply run the following command from Terminal:
+Add the plugin to your project via [npm](https://www.npmjs.com/package/com.testfairy.cordova-plugin). Run the following command from a terminal:
 
 ```
 cordova plugin add com.testfairy.cordova-plugin
@@ -36,7 +28,7 @@ cordova plugin update com.testfairy.cordova-plugin
 
 Initialize TestFairy with your [App Token](https://app.testfairy.com/settings/#apptoken) by calling `TestFairy.begin`. Your **APP TOKEN** is available at `https://app.testfairy.com/settings/#apptoken`.
 
-It's recommended to invoke `TestFairy.begin` from `onDeviceReady`. For example, here's *onDeviceReady* from `index.js`:
+We recommend to invoking `TestFairy.begin` from `onDeviceReady` in `index.js`:
 
 ```
   onDeviceReady: function() {

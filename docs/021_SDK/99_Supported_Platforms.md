@@ -45,14 +45,12 @@ Along with native Android and iOS development, TestFairy supports a number of ot
  * [Session Attributes](Session_Attributes.html#xamarin)
  * [Remote Logging](Remote_Logging.html#xamarin)
 
-
 ## Adobe Air
  * [Adding the SDK to your App](../Platforms/Adobe_Air.html)
  * [Private Cloud Integration](Private_Cloud_Integration.html#adobe-air)
  * [Identifying your Users](Identifying_Your_Users.html#adobe-air)
  * [Session Attributes](Session_Attributes.html#adobe-air)
  * [Remote Logging](Remote_Logging.html#adobe-air)
-
 
 ## Titanium
  * [Adding the SDK to your App](../Platforms/Titanium.html)

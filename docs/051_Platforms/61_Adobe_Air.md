@@ -45,7 +45,7 @@ Android requires some extra permissions and activities to be added to the final 
 </android>
 ```
 
-## usage
+## Usage
 
 ### Identifying your users
 

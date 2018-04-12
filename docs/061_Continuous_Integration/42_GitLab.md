@@ -10,8 +10,7 @@ GitLab can automatically deploy your Android and iOS Apps to [TestFairy](https:/
   ![](https://docs.testfairy.com/img/continuous-integration/gitlab_secret_keys.png)
 
 * To deploy, add a job to your `.gitlab-ci.yml` configuration using [fastlane](https://docs.fastlane.tools/getting-started/ios/beta-deployment/) or `curl` (example below).
-
-``` yaml
+  ``` yaml
 stages:
   - deploy
 

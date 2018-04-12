@@ -24,6 +24,10 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [Bamboo](http://docs.testfairy.com/Integrations/Bamboo.html)
 
+[TeamCity](https://docs.testfairy.com/Continuous_Integration/TeamCity.html)
+
+[GitLab](https://docs.testfairy.com/Continuous_Integration/GitLab.html)
+
 ### Method
 `POST https://upload.testfairy.com/api/upload/`
 

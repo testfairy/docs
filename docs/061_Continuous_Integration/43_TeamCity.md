@@ -21,7 +21,7 @@ TeamCity can automatically deploy your Android and iOS Apps to [TestFairy](https
 Copy the following command into **Custom script** text field
 
 ```
-curl https://upload.testfairy.com/api/upload -F api_key=${env.TESTFAIRY_API_KEY} -F file=@android.apk
+curl https://upload.testfairy.com/api/upload -F api_key=${env.TESTFAIRY_API_KEY} -F comment="TeamCity build" -F file=@android.apk
 ```
 
 **Note** Be sure to replace the `-F file=@android.apk` argument with a path to your own APK or IPA.

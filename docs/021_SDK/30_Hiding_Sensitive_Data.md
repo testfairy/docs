@@ -99,7 +99,7 @@ const TestFairy = require('react-native-testfairy');
 var MyComponent = React.createClass({
 
     componentDidMount: function() {
-        TestFairyBridge.hideView(this.refs.instructions);
+        TestFairy.hideView(this.refs.instructions);
     },
 
     render: function() {

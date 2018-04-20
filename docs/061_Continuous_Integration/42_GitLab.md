@@ -1,19 +1,15 @@
 GitLab can automatically deploy your Android and iOS Apps to [TestFairy](https://www.testfairy.com/).
 
 * On the TestFairy dashboard, navigate to the Preferences page.
-
-![alt](../img/continuous-integration/testfairy-open-preferences.png)
+  ![](https://docs.testfairy.com/img/continuous-integration/testfairy-open-preferences.png)
 
 * On the Preferences page, go to the API Key section.
-
-![alt](../img/continuous-integration/testfairy_upload_key.png)
+  ![](https://docs.testfairy.com/img/continuous-integration/testfairy_upload_key.png)
 
 * Copy your API key and go to your application's project settings within the CircleCI application.
-
-![alt](../img/continuous-integration/gitlab_secret_keys.png)
+  ![](https://docs.testfairy.com/img/continuous-integration/gitlab_secret_keys.png)
 
 * To deploy, add a job to your `.gitlab-ci.yml` configuration using [fastlane](https://docs.fastlane.tools/getting-started/ios/beta-deployment/) or `curl` (example below).
-
 ``` yaml
 stages:
   - deploy

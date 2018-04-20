@@ -1,3 +1,11 @@
+### Version 1.13.2
+Released 2018-04-20
+
+* [NEW] Allow for shortened url in `setServerEndpoint`
+* [BUGFIX] Fix hidden views with secure entry
+* [BUGFIX] Improved startup time
+* [BUGFIX] Exception when non-string type passed into `setUserId`
+
 ### Version 1.13.1
 Released 2018-03-22
 

@@ -44,17 +44,15 @@
  ```xml
  <uses-permission android:name="android.permission.INTERNET" />
  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
- ```
-
- Additional features may require the extra persmissions given below:
-
- ```xml
- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
- <uses-permission android:name="android.permission.BATTERY_STATS"/>
- <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
- <uses-permission android:name="android.permission.GET_TASKS"/>
- <uses-permission android:name="android.permission.READ_LOGS"/>
+ <application>
+	<activity
+			 android:name="com.testfairy.activities.ProvideFeedbackActivity"
+			 android:configChanges="orientation|screenSize"
+			 android:theme="@android:style/Theme.Holo.Light"/>
+	<activity
+			 android:name="com.testfairy.activities.AutoUpdateActivity"
+			 android:configChanges="orientation|screenSize"/>
+</application>
  ```
 
 8. Save, build and run.

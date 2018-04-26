@@ -1,3 +1,9 @@
+### Version 1.13.3
+Released 2018-04-26
+
+* [BUGFIX] Fixed integration problems in projects with Firebase/Performance kit
+* [BUGFIX] Fixed detection of exceptions caught under latest Crashlytics version
+
 ### Version 1.13.2
 Released 2018-04-20
 

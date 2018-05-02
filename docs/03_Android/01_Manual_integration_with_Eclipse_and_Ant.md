@@ -19,6 +19,7 @@ Please follow these steps to integrate TestFairy's Android SDK in your project:
   ```
   // for auto-update feature
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
 
   // for sending logs to testfairy
   <uses-permission android:name="android.permission.READ_LOGS" />

@@ -1,7 +1,7 @@
 ### Version 1.7.0
 Released: 2018-05-02
 
-* [IMPROVEMENT] AutoUpdate will support "Android O"  
+* [IMPROVEMENT] AutoUpdate support for "Android O"  
 
 ### Version 1.6.4
 Released: 2018-04-09

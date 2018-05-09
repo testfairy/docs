@@ -1,3 +1,9 @@
+### Version 1.13.4
+Released 2018-05-09
+
+* [NEW] Programmatically enabled/disable feedback form
+* [BUGFIX] Warnings related to UI thread-only method calls
+
 ### Version 1.13.3
 Released 2018-04-26
 

@@ -1,5 +1,7 @@
 The TestFairy enterprise suite can be installed on a private cloud on any AWS location in the US, Europe, Asia or South America. Servers can be protected by custom firewall rules allowing access only from your offices, according to your security policy.
 
+With this installation, all the data is stored privately using your own resources.
+
 # Set your endpoint
 
 Once you've got your private cloud setup, make sure to get the URL endpoint your apps will direct all of its data towards. This URL must be passed into the SDK before the `begin` method is called.

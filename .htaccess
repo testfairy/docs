@@ -94,6 +94,7 @@ RewriteRule ^TestFairy_SDK/(.*) /SDK/$1 [R=301,L]
 RewriteRule ^login/ https://app.testfairy.com/login/ [R=301,L]
 RewriteRule ^iOS_SDK/Class_Reference.html https://app.testfairy.com/reference/ios/Classes/TestFairy.html [R=301,L]
 RewriteRule ^Android/Class_Reference.html https://app.testfairy.com/reference/android/index.html [R=301,L]
+RewriteRule ^Android/Working_with_On_Premise_installations.html /SDK/Private_Cloud_Integration.html [R=301,L]
 
 RewriteRule wp-includes /password.html
 

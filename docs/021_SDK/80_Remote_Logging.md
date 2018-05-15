@@ -83,7 +83,7 @@ TFLog(@"Hello, %@", @"TestFairy!");
 				<li>Create a new file under iOS &gt; Other &gt; PCH File.</li>
 				<li>Name your file “PCH file”.</li>
 				<li>Add these two lines of code to the file:<br>
-				<code>#import "TestFairy.h"
+				<code>#import "TestFairy.h"<br/>
 				#define NSLog(s, ...) do { NSLog(s, ##__VA_ARGS__); TFLog(s, ##__VA_ARGS__); } while (0)</code></li>
 				<li><p>From the Project Navigator, select your project and the corresponding target.</p></li>
 				<li><p>Project &gt; Build Settings &gt; Search: "Prefix Header".</p></li>

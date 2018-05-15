@@ -156,4 +156,4 @@ For more information about common problems when integrating the iOS SDK, please 
 
 ### Related documentation
 
-* [Automatically upload dSYM files in post compilation](/iOS_SDK/Automatic_Upload_of_dSYM.html)
+* [Upload iOS dSYM files to TestFairy](/iOS_SDK/Uploading_dSyms_to_TestFairy.html)

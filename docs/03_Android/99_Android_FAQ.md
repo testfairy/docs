@@ -3,10 +3,11 @@
 * [My app crashes while offline, will I get the report?](#crashes-offline)
 * [Will crashes be caught even after a session stopped recording?](#crashes-after-stop)
 * [What is an APK?](#what-is-apk)
-* [Which architectures are supported?](#android-archs)
 * [What is "instrumentation"?](#what-is-instrumentation)
+* [Which architectures are supported?](#android-archs)
 * [Where is the keyboard in the captured video?](#android-keyboard)
 * [Why isn't TestFairy recording any videos?](#android-no-videos)
+* [Am I required to use the TestFairy SDK?](#android-sdk-required)
 
 ### <a name="crashes-offline"></a>My app crashes while offline, will I get the report?
 
@@ -66,7 +67,7 @@ When uploading an APK via the web interface, TestFairy can automatically use ins
 
 [Back to top](#top)
 
-### <a name="ios-sdk-required"></a>Am I required to use the TestFairy SDK?
+### <a name="android-sdk-required"></a>Am I required to use the TestFairy SDK?
 
 The TestFairy platform is used for both distribution and for analytics. You can use either both, or just one of them.
 

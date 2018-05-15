@@ -37,7 +37,7 @@ In the dialog that appears, choose a team from the pop-up menu and click Choose.
 
 ![alt](../../img/ios/export_ipa/05_export_choose_team.png)
 
-In the Device Support dialog, choose whether to export the universal app or a variant for a specific device, and click Next. 
+In the Device Support dialog, choose whether to export the universal app or a variant for a specific device, and click Next.
 * If you want to run the app on any supported device, select “Export one app for all compatible devices.”  
 * If you want to test all device variances, select “Export for specific devices” and choose “All compatible device variants” from the pop-up menu.  
 * If you want to test a specific device variant, select “Export a thinned app for a specific device” and choose the device family from the pop-up menu.  
@@ -58,5 +58,20 @@ To install an app on a device using Xcode
 1. In the Installed Apps table, click the Add button (+) below the table.
 1. In the dialog that appears, choose the iOS App file and click Open
 
+##  <a name="xcode-system-logs"></a>Accessing Logs from Xcode
+
+Accessing raw logs on an iOS device requires hooking up that device via a USB cable to a computer. System logs often help a lot in debugging vague problems around app installation.
+
+Many times, the error displayed on an iOS device screen is too generic, but the system logs explain more thoroughly the reason for the problem. In order to get the logs, complete the following:
+
+* Open Xcode.
+* Open menu Window -> Devices.
+* Select the device which you want to inspect.
+* Click on the little arrow toggle button at the bottom of the window.
+* A new divider will open up with up-to-date logs from the device.
+
+![How to access device logs](../../img/ios/accessing-logs/accessing-logs-from-xcode.png)
+
 # References
+
 1. [Apple developer site](https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/TestingYouriOSApp/TestingYouriOSApp.html)

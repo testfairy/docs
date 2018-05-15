@@ -44,12 +44,16 @@ $(document).ready(function() {
 // gilm (testfairy)
 $(document).ready(function() {
     $(".docs-tabs.w-tabs .w-tab-link").click(function(e) {
-        var tab_name = $(e.currentTarget).data("w-tab");
-        $(".w--current").removeClass("w--current");
-        $(e.currentTarget).addClass("w--current");
+        var currentTarget = $(e.currentTarget);
+        var parent = currentTarget.parent();
+        var tabContent = parent.siblings(".w-tab-content");
+        var tab_name = currentTarget.data("w-tab");
 
-        $(".w--tab-active").removeClass("w--tab-active");
-        $(".w-tab-pane[data-w-tab=" + tab_name + "]").addClass("w--tab-active");
+        parent.children(".w--current").removeClass("w--current");
+        currentTarget.addClass("w--current");
+
+        tabContent.children(".w--tab-active").removeClass("w--tab-active");
+        tabContent.children(".w-tab-pane[data-w-tab=" + tab_name + "]").addClass("w--tab-active");
     });
 
     if (window.location.hash) {

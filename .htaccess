@@ -96,6 +96,8 @@ RewriteRule ^iOS_SDK/Class_Reference.html https://app.testfairy.com/reference/io
 RewriteRule ^Android/Class_Reference.html https://app.testfairy.com/reference/android/index.html [R=301,L]
 RewriteRule ^Android/Working_with_On_Premise_installations.html /SDK/Private_Cloud_Integration.html [R=301,L]
 RewriteRule ^Android/Events.html /SDK/Adding_Events.html#android [R=301,L]
+RewriteRule ^Android/Using_map_locations.html /SDK/Using_map_locations.html#android
+RewriteRule ^iOS_SDK/Using_map_location.html /SDK/Using_map_locations.html#ios
 
 RewriteRule wp-includes /password.html
 

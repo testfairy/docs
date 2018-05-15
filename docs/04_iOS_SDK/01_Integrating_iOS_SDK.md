@@ -138,7 +138,7 @@ You get to:
 			<li><p>Open your <strong>AppDelegate.swift</strong> file.</p></li>
 			<li>
 				<p>Add this code to your app:</p>
-				<iframe frameborder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/ios/iframe"></iframe>
+				<iframe frameborder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/ios-swift/iframe"></iframe>
 			</li>
 		</ol>
 		</div>

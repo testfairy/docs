@@ -85,7 +85,7 @@ public class MainActivity extends Activity {
 		super.onCreate();
 
 		Map&lt;String, String&gt; options = new HashMap&lt;String, String&gt;();
-		options.put("enableCrashReporter", "false");
+		options.put("metrics", "cpu,memory,network,phone-signal,logcat");
 		TestFairy.begin(this, "1234567890", options);
 		// ..
 	}
@@ -105,7 +105,7 @@ public class MainActivity extends Activity {
 @implementation AppDelegate
 
 - (BOOL)appeeelication:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	[TestFairy begin:@"1234567890" withOptions:@{@"enableCrashReporter": @NO}];
+	[TestFairy begin: @“app_token” options:@{@“metrics”: @“cpu,memory,session-length=10m”}];
 	// ...
 }
 			</pre>

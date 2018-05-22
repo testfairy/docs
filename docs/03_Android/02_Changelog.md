@@ -1,3 +1,8 @@
+### Version 1.7.1
+Released: 2018-05-22
+* [NEW] Added new API method `didLastSessionCrash`
+* [NEW] Programmatically enabled/disable feedback form
+
 ### Version 1.7.0
 Released: 2018-05-02
 

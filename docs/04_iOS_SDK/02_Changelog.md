@@ -1,3 +1,9 @@
+### Version 1.14.0
+Released 2018-05-22
+
+* [NEW] Added new API method `didLastSessionCrash`
+* [BUGFIX] Fixed auto update dialog loop
+
 ### Version 1.13.4
 Released 2018-05-09
 

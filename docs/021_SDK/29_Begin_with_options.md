@@ -2,6 +2,9 @@ TestFairy requires that you call `begin` in order to start recording your sessio
 
 Here are some commonly used options:
 
+* [Disable Crash Reporting](#disable-crash-reporting)
+* [Disable Video Recording](#disable-video-recording)
+
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
 		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;"  href="#android">
@@ -12,7 +15,10 @@ Here are some commonly used options:
 		</a>
 	</div>
 
-	<h2>Disable Crash Reporting</h2>
+	<h2>
+		<a name="disable-crash-reporting"></a>
+		Disable Crash Reporting
+	</h2>
 	<p>TestFairy provides a means of capturing and recording stack traces if your application crashes. Stack traces can be vital to understanding any underlying bugs in your app. However, some apps may want to disable TestFairy's crash handling. Invoke <b>begin</b> with the following option to disable crash reporting with TestFairy.
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
@@ -63,7 +69,11 @@ public class MainActivity extends Activity {
 	</div>
 
 
-	<h2>Disable Video Recording</h2>
+	<h2>
+	<a name="disable-video-recording"></a>
+	Disable Video Recording
+	</h2>
+
 	<p>TestFairy provides an option to disable video recording, and only use the service for crash reporting, logging and app distribution with auto update. Invoke <b>begin</b> with the following option to disable crash reporting with TestFairy.
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">

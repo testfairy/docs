@@ -64,13 +64,13 @@ public class MainActivity extends Activity {
 
 
 	<h2>Disable Video Recording</h2>
-	<p>TestFairy provides a means of capturing and recording stack traces if your application crashes. Stack traces can be vital to understanding any underlying bugs in your app. However, some apps may want to disable TestFairy's crash handling. Invoke <b>begin</b> with the following option to disable crash reporting with TestFairy.
+	<p>TestFairy provides an option to disable video recording, and only use the service for crash reporting, logging and app distribution with auto update. Invoke <b>begin</b> with the following option to disable crash reporting with TestFairy.
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
 			<p>
 				<b>Map&lt;String, String&gt; options = new HashMap&lt;String, String&gt;();</b><br/>
-				<b>options.put("enableCrashReporter", "true");</b><br/>
+				<b>options.put("metrics", "cpu,memory,network,phone-signal,logcat");</b><br/>
 				<b>TestFairy.begin(context, "&lt;app token&gt;", options);</b>
 			</p>
 			<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
@@ -96,7 +96,7 @@ public class MainActivity extends Activity {
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>[TestFairy begin:@"&lt;app token&gt;" withOptions:@{@"enableCrashReporter": @NO}];</b>
+				<b>[TestFairy begin: @“app_token” options:@{@“metrics”: @“cpu,memory,session-length=10m”}];</b>
 			</p>
 			<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
 

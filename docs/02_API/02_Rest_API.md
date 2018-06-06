@@ -211,12 +211,10 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	"status": "ok",
 	"testers": [
 		{
-			"email": "john@testfairy.com",
-			"deviceCount": 3
+			"email": "john@testfairy.com"
 		},
 		{
-			"email": "alice@testfairy.com",
-			"deviceCount": 1
+			"email": "alice@testfairy.com"
 		}
 	]
 }</pre>

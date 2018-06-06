@@ -72,6 +72,7 @@ RewriteRule ^upload_api.html /API/Upload_API.html [R=301,L]
 RewriteRule ^Upload_API.html. /API/Upload_API.html [R=301,L]
 
 RewriteRule ^getting_started/how_to_invite_testers.html /Getting_Started/How_To_Invite_Testers.html [R=301,L]
+RewriteRule ^Getting_Started/Build_Settings_for_Android.html /Getting_Started/Version_Settings.html [R=301,L]
 
 RewriteRule ^Rest_API.html /API/Rest_API.html [R=301,L]
 

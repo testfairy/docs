@@ -6,7 +6,7 @@ Following the new regulations, we have added new capabilities that help our cust
 
 Yes. TestFairy can provide a GDPR compliant service to customers on a Private Cloud or On Premise instalaltions. Please contact us for more details.
 
-### Cam TestFairy Provide full Transparency?
+### Can TestFairy Provide full Transparency?
 
 Yes. TestFairy end-users are ensured that their personal data is only used by TestFairy for legitimate purposes, meaning for the purpose intended by the developers who use our platform. We do not and will never sell, transfer or otherwise harm your personal data, and make sure it is only used via our services.
 
@@ -34,6 +34,6 @@ Yes. TestFairy can automatically delete sessions older than 30 days or any other
 
 ### Can the service be hosted in Europe?
 
-Yes. Private Clouds can be hosted on AWS in the UK, Germany and France.
+Yes. In addition to the US, Private Clouds can be also hosted on AWS in the UK, Germany and France.
 
 

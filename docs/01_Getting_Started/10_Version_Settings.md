@@ -7,6 +7,17 @@
 In order to configure your build (version) settings, click on the **Settings** button on your build menu, right next to the app name and version.
 Every build has its own settings, however, some of the definitions are shared by all builds of an app.
 
+The first section is the Insights section.
+<img src="../../img/build-settings-1.png" width="800"/>
+
+
+
+<img src="../../img/build-settings-2.png" width="800"/>
+
+<img src="../../img/build-settings-3.png" width="800"/>
+
+
+
 Following are the settings you can modify in **"Build Settings"**:
 
  * **App information** - name, version, file size

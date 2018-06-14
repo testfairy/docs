@@ -1,3 +1,8 @@
+### Version 1.15.0
+Released 2018-06-14
+
+* [NEW] Programmatically control recorded parameters with new methods `enableCrashHandler`/`disableCrashHandler`, `enableMetric`/`disableMetric`, `enableVideo`/`disableVideo`, `enableFeedbackForm`/`disableFeedbackForm`, `setMaxSessionLength`. See [Class Reference](/iOS_SDK/Class_Reference.html) for more information.
+
 ### Version 1.14.0
 Released 2018-05-22
 

@@ -1,3 +1,12 @@
+### Version 1.7.3
+Released: 2018-06-14
+* [NEW] Programmatically enable / disable [Crash Reporting](https://docs.testfairy.com/SDK/Begin_with_options.html#crash-reporting).
+* [NEW] Programmatically controll [Video Recording](https://docs.testfairy.com/SDK/Begin_with_options.html#video-recording).
+* [NEW] Programmatically controll [Recorded metrics](https://docs.testfairy.com/SDK/Begin_with_options.html#recorded-metrics).
+* [NEW] Programmatically controll [Session length](https://docs.testfairy.com/SDK/Begin_with_options.html#max-session-length).
+* [IMPROVEMENT] Session attributes will be attached into a crash & feedback even if there is no TestFairy session.
+
+
 ### Version 1.7.1
 Released: 2018-05-22
 * [NEW] Added new API method `didLastSessionCrash`

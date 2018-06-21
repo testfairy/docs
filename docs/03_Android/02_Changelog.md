@@ -1,7 +1,7 @@
 ### Version 1.7.4
 Released: 2018-06-21
-* [NEW] remove tests layouts files from the SDK
-* [BUGFIX] fix session attributes in case of crash and no active TestFairy session.
+* [NEW] Remove tests layouts files from the SDK.
+* [BUGFIX] Fix session attributes in case of crash and no active TestFairy session.
 
 ### Version 1.7.3
 Released: 2018-06-14

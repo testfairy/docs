@@ -1,6 +1,6 @@
 Webhooks allow simple integration between TestFairy and your backend. Using these webhooks, you can subscribe for specific events, and receive an HTTP POST request whenever such event occurs.
 
-This can be userd when, for example, you'd like to receive a notification when a new build has been uploaded, and send it to the development team. Another example may be that you'd like to save the feedbacks received in your own database or backend.
+This can be used when, for example, you'd like to receive a notification when a new build has been uploaded, and send it to the development team. Another example may be that you'd like to save the feedbacks received in your own database or backend.
 
 To configure webhooks, simply open the Webhooks tab in your [User Preferences](https://app.testfairy.com/settings/) page. You can configure more than one webhook, and each webhook applies to selected projects and selected events.
 

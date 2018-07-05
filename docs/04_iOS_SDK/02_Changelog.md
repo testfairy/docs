@@ -1,3 +1,8 @@
+### Version 1.15.1
+Released 2018-07-05
+
+* [BUGFIX] Remove logging of hidden views to console.
+
 ### Version 1.15.0
 Released 2018-06-14
 

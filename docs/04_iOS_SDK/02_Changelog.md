@@ -2,6 +2,7 @@
 Released 2018-07-05
 
 * [BUGFIX] Remove logging of hidden views to console.
+* [BUGFIX] Fix session attributes in case of crash or feedback with no active session.
 
 ### Version 1.15.0
 Released 2018-06-14

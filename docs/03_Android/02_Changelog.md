@@ -1,3 +1,11 @@
+### Version 1.7.6
+Released: 2018-07-19
+* [NEW] Support adaptive icons for Android O.
+
+### Version 1.7.5
+Released: 2018-07-18
+* [BUGFIX] Fix a rare crash that was happening on Android O during an auto update if the app has no REQUEST_INSTALL_PACKAGES permission.   
+
 ### Version 1.7.4
 Released: 2018-06-21
 * [NEW] Remove tests layouts files from the SDK.

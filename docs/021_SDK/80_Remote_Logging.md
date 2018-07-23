@@ -105,7 +105,7 @@ TFLog(@"Hello, %@", @"TestFairy!");
 TestFairy.log("Hello, TestFairy!")
       </pre>
 
-			<p>We recommend wrapping all <b>print</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a create a new file named <code>TestFairyLog.swift</code> in your classpath, and add the following to the contents of the file:</p>
+			<p>We recommend wrapping all <b>print</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a create a new file named <code>TestFairyLog.swift</code> in your source path, and add the following to the contents of the file:</p>
 <pre><code class=" hljs cs"><span class="hljs-comment">//</span>
 <span class="hljs-comment">//  TestFairyLog.swift</span>
 <span class="hljs-comment">//</span>

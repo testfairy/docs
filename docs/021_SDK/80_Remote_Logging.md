@@ -120,7 +120,7 @@ import Foundation
     TFLogv(message, getVaList([]))
 }
 </code></pre>
-			<p>This will print any output to <code>NSLog</code> to both the console, and to the active session on TestFairy.</p>
+			<p>This will print any output to both the Xcode console, and to the active session on TestFairy.</p>
 		</div>
 
 		<div data-w-tab="tab-cordova" class="w-tab-pane">

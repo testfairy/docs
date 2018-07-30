@@ -1,3 +1,8 @@
+### Version 1.16.0
+Released 2018-07-30
+
+* [BUGFIX] setServerEndpoint stopped working under certain conditions. Now fixed.
+
 ### Version 1.15.1
 Released 2018-07-05
 

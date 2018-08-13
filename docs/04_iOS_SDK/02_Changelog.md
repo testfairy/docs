@@ -1,3 +1,8 @@
+### Version 1.16.2
+Released 2018-08-13
+
+* [BUGFIX] Include missing metadata when starting new session
+
 ### Version 1.16.1
 Released 2018-08-12
 

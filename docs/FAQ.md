@@ -28,6 +28,6 @@ There are two types of invitations in TestFairy. The first is, *inviting tester 
 
 To re-invite a tester into your account, and ask them to register an iOS device, simply click on the "Testers" tab at the top, then click on "Add Testers", fill the details and submit. Make sure "Send email" checkbox is checked.
 
-To re-invite a tester to a specific build, and tell the system to send another email, open the project and the specific build you want to invite testers to, then click "Distribution" and select "Invite testers by email". In the list below you will see the tester you want to re-invite. Just check the checkmark next to their name, and click "Invite selected testers". Again, please make sure you have "Send email" checkbox checked.
+To re-invite a tester to a specific app version, open the app, open the specific build and click on "Invite testers by email". In the list below you will see the tester you want to re-invite. Just check the checkmark next to their name, and click "Invite selected testers". Make sure you have "Send email" checkbox checked.
 
 [Back to top](#top)

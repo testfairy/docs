@@ -1,3 +1,9 @@
+### Version 1.8.0
+Released: 2018-08-19
+* [NEW] `TestFairy.getDistributionStatus(...)` added, It will uery about the distribution status of this build, [More information](https://app.testfairy.com/reference/android/).
+* [NEW] Support `org.apache.http.legacy` Android P.
+* [IMPROVEMENT] AutoUpdate web page will be promp in case of missing permissions to install a new version from the running app.
+
 ### Version 1.7.6
 Released: 2018-07-19
 * [NEW] Support adaptive icons for Android O.

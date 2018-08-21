@@ -86,7 +86,7 @@ public class MainActivity extends Activity {
 			<p>Refer to the <a href="https://docs.testfairy.com/Android/Class_Reference.html">Class Reference</a> for more information on values for <b>policy</b> and <b>quality</b>.</p>
 
 			<h3>Code Example</h3>
-			<p>In the following example, video will only be recorded when wifi is available. A high quality video will be recorded every half second.</p>
+			<p>In the following example, video will only be recorded when wifi is available. A high quality video will be recorded every 2 seconds.</p>
 			<pre>
 import com.testfairy.TestFairy;
 
@@ -111,7 +111,6 @@ public class MainActivity extends Activity {
 			<p>Refer to the <a href="https://docs.testfairy.com/iOS/Class_Reference.html">Class Reference</a> for more information on values for <b>policy</b> and <b>quality</b>.</p>
 
 			<h3>Code Example</h3>
-			<p>In the following example, video will only be recorded when wifi is available. A high quality video will be recorded every half second.</p>
 			<pre>
 @implementation AppDelegate
 
@@ -233,5 +232,59 @@ public class MainActivity extends Activity {
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
 	</div>
 
+
+	<h2>
+	<a name="video-recording"></a>
+	Feedback Form
+	</h2>
+	<p>TestFairy provides an option to enable or disable feedback collection. Invoke <b>disableFeedbackForm</b>, or <b>enableFeedbackForm</b> before <b>begin</b>.</p>
+	<div class="docs-tabs-content w-tab-content">
+		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
+			<h3>Syntax</h3>
+			<p>
+				<b>TestFairy.disableFeedbackForm();</b><br/>
+				<b>TestFairy.enableFeedbackForm("&lt;method&gt;");</b>
+			</p>
+			<p>Refer to the <a href="https://docs.testfairy.com/Android/Class_Reference.html">Class Reference</a> for more information on values for <b>method</b>.</p>
+
+			<h3>Code Example</h3>
+			<p>In the following example, feedback will be enabled when the device is shook.</p>
+			<pre>
+import com.testfairy.TestFairy;
+
+public class MainActivity extends Activity {
+	@Override
+	public void onCreate() {
+		super.onCreate();
+
+		TestFairy.enableFeedbackForm("shake");
+		TestFairy.begin(this, "&lt;app token&gt;");
+	}
+}
+			</pre>
+		</div>
+
+		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
+			<h3>Syntax</h3>
+			<p>
+				<b>[TestFairy disableFeedbackForm];</b><br/>
+				<b>[TestFairy enableFeedbackForm:@"&lt;method&gt;"];</b>
+			</p>
+			<p>Refer to the <a href="https://docs.testfairy.com/iOS/Class_Reference.html">Class Reference</a> for more information on values for <b>method</b>.</p>
+
+			<h3>Code Example</h3>
+			<p>In the following example, feedback will be enabled when the user either shakes or takes a screenshot on the device.</p>
+			<pre>
+@implementation AppDelegate
+
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+	[TestFairy enableFeedbackForm:@"shake|screenshot"];
+	[TestFairy begin: @"&lt;app token&gt;"];
+}
+			</pre>
+		</div>
+
+		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
+	</div>
 
 </div>

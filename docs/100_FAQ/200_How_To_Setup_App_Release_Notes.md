@@ -30,3 +30,11 @@ curl https://upload.testfairy.com/api/upload \
   -F comment='Put Release Notes Here'
 ```
 
+### 4. Jenkins
+
+By default, The TestFairy Jenkins plugin will use the comments that were included in every commit, in a pretty standard way.
+In order to add your own release notes, create a text file in the following location: 
+```
+$JENKINS_HOME/jobs/$JOB_NAME/builds/$BUILD_ID/testfairy_change_log
+```
+The content of this file will override the default changelog.

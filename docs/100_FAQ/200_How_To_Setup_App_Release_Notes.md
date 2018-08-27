@@ -38,3 +38,5 @@ In order to add your own release notes, create a text file in the following loca
 $JENKINS_HOME/jobs/$JOB_NAME/builds/$BUILD_ID/testfairy_change_log
 ```
 The content of this file will override the default changelog.
+
+Read more about the [TestFairy Jenkins plugin](https://wiki.jenkins.io/display/JENKINS/TestFairy+Plugin)

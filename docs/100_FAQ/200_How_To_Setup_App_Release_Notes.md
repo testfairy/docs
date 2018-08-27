@@ -1,6 +1,6 @@
-Every TestFairy build can include release notes that will be sent in the email.
+TestFairy builds can include release notes that will show up in email invitations, landing pages and in the testers dashboard.
 
-There are 3 ways to update your app release notes.
+There are several ways to update a build release notes.
 
 ### 1. Upload
 

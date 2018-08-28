@@ -63,7 +63,7 @@ TestFairy.begin(context, "&lt;your app token here&gt;");
 // Be sure to import TestFairy
 #import "TestFairy.h"
 
-[TestFairy setServerEndpoint:@"https://your-subdomain.testfairy.com/services/"];
+[TestFairy setServerEndpoint:@"my-subdomain.testfairy.com"];
 [TestFairy begin:@"&lt;your app token here&gt;"];
       </pre>
 		</div>

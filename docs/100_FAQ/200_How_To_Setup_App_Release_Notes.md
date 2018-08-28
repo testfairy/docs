@@ -12,7 +12,7 @@ On Upload, after the app is uploaded, enter the release notes in the last dialog
 
 After the app was uploaded, open build settings, and under App Distribution change the release notes.
 
-![TestFairy Release Notes](/img/upload-release-notes.png)
+![TestFairy Release Notes](/img/settings-release-notes.png)
 
 ### 3. Upload API
 

@@ -12,6 +12,7 @@
 * [What's the error "You must rebuild it with bitcode enabled (Xcode setting ENABLE_BITCODE)"?](#ios-bitcode-error)
 * [Push notifications work when installed from Xcode, but not with TestFairy. Why?](#ios-push-notificatios-xcode)
 * [What is the difference between in-house and enterprise certificates?](#ios-in-house-or-enterprise)
+* [Main Thread Checker: UI API called on a background thread: -\[UIView drawViewHierarchyInRect:afterScreenUpdates:\]](#main-thread-checker)
 
 ### <a name="crashes-offline"></a>My app crashes while offline, will I get the report?
 
@@ -83,7 +84,7 @@ Using analytics requires integration of the SDK. This is a 2-minute task that in
 
 TestFairy has a **Troubleshooting** tool to guide the tester or developer through the debugging of such problems. Simply visit https://my.testfairy.com/my/troubleshooting using Safari on your iOS device and follow the instructions.
 
-If all this fails, please contact support by click on the **Support** button in your account page. Try to get the [system logs](/iOS_SDK/Exporting_Ad_Hoc_IPA.html#xcode-system-logs) from the device if possible as this makes debugging this sorts of problems a lot easier. We do our best to help debug causes and improve our one-of-a-kind Troubleshooting tool. 
+If all this fails, please contact support by click on the **Support** button in your account page. Try to get the [system logs](/iOS_SDK/Exporting_Ad_Hoc_IPA.html#xcode-system-logs) from the device if possible as this makes debugging this sorts of problems a lot easier. We do our best to help debug causes and improve our one-of-a-kind Troubleshooting tool.
 
 [Back to top](#top)
 
@@ -140,5 +141,29 @@ TestFairy's SDK does not make any changes to your executable or IPA. A very comm
 ### <a name="ios-in-house-or-enterprise"></a>What is the difference between in-house and enterprise certificates?
 
 These two are the same. When exporting an IPA from within Xcode, you export for Enterprise Development, but in some cases on iTunes Connect, this is refered as In-House.
+
+[Back to top](#top)
+
+### <a name="main-thread-checker"></a>Main Thread Checker: UI API called on a background thread: -[UIView drawViewHierarchyInRect:afterScreenUpdates:]
+
+Xcode introduced a runtime checker to catch calls to UI method that are only meant to be called from the main thread. Our iOS SDK currently heavily leverages some APIs that fall under this category. If this checker is enabled, you will see a warning in the Console not unlike the one you can see below.
+
+```
+Main Thread Checker: UI API called on a background thread: -[UIView drawViewHierarchyInRect:afterScreenUpdates:]
+PID: 7067, TID: 6554424, Thread name: (none), Queue name: com.apple.root.utility-qos, QoS: 17
+Backtrace:
+4   TestApp                             0x0000000104aa70bf -[TFScreenRecorder render:] + 3727
+5   TestApp                             0x0000000104aa5a28 __65-[TFScreenRecorder performCreateSavableImageSingleTime:callback:]_block_invoke + 168
+6   libdispatch.dylib                   0x000000010c21e7ab _dispatch_call_block_and_release + 12
+7   libdispatch.dylib                   0x000000010c21f7ec _dispatch_client_callout + 8
+8   libdispatch.dylib                   0x000000010c22b61d _dispatch_root_queue_drain + 1353
+9   libdispatch.dylib                   0x000000010c22b076 _dispatch_worker_thread3 + 132
+10  libsystem_pthread.dylib             0x000000010c743169 _pthread_wqthread + 1387
+11  libsystem_pthread.dylib             0x000000010c742be9 start_wqthread + 13
+```
+
+In some cases, developers have enabled the `Pause on issues` option which causes either tests to fail, or Xcode to breakpoint on the line in question. Currently the only workaround is to turn off the `Pause on issues` option in Xcode under the scheme's Run configuration on the Diagnostics tab. You can see the option below.
+
+![alt](/img/ios/sdk/disable-pause-on-issue.png)
 
 [Back to top](#top)

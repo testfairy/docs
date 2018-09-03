@@ -1,3 +1,8 @@
+### Version 1.16.3
+Released 2018-09-03
+
+* [BUGFIX] Minor security patch
+
 ### Version 1.16.2
 Released 2018-08-13
 

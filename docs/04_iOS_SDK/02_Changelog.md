@@ -1,3 +1,8 @@
+### Version 1.17.0
+Released 2018-09-10
+
+* [BUGFIX] Display Feedback form when an Action Sheet is on screen
+
 ### Version 1.16.3
 Released 2018-09-03
 

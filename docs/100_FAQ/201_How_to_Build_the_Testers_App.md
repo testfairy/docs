@@ -1,4 +1,4 @@
-TestFairy provides [private cloud](https://docs.testfairy.com/SDK/Private_Cloud_Integration.html) users to create their own copy of the TestFairy Testers App for either [Android](https://play.google.com/store/apps/details?id=com.testfairy.app&hl=en_US) or [iOS](https://itunes.apple.com/ca/app/testfairy/id977307991?mt=8).
+TestFairy provides [private cloud](https://docs.testfairy.com/SDK/Private_Cloud_Integration.html) users the ability to build their own copy of the TestFairy Testers App for either [Android](https://play.google.com/store/apps/details?id=com.testfairy.app&hl=en_US) or [iOS](https://itunes.apple.com/ca/app/testfairy/id977307991?mt=8).
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">

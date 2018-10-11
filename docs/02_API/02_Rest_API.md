@@ -271,4 +271,38 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+#### [api/1/feedbacks/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get latest recorded feedbacks
+	</span>
+	<code>GET /api/1/feedbacks/</code>
+</div>
+<div class="method-description hidden">
+	Get metadata for 100 of the latest feedbacks recorded. <br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"feedbacks": [
+		{
+			"recorded_at": "2018-08-01 14:14:46",
+			"text": "Feedback working",
+			"feedback_id": "54321",
+			"screenshot_url": "https://s3.amazonaws.com/feedback.jpg",
+			"build_id": "1234",
+			"project_id": "23456",
+			"source": "shake",
+			"reported_by": "john@testfairy.com",
+			"session_id": "8765432"
+		}
+	]
+}
+	</pre>
+</div>
+
+<hr />
+
 <style>h4 {margin-bottom: 30px;}</style>

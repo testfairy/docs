@@ -39,7 +39,7 @@ You get to:
 					<p>Make sure <strong>Copy items if needed</strong> is checked when dragging files to your project.</p>
 
 					<blockquote>
-					  <p><img src="http://docs.testfairy.com/img/ios/sdk/copy-items-if-needed.png" alt="alt"></p>
+					  <p><img src="https://docs.testfairy.com/img/ios/sdk/copy-items-if-needed.png" alt="alt"></p>
 					</blockquote>
 				</li>
 				<li><p>Add the following frameworks:<br>
@@ -152,7 +152,7 @@ You get to:
 
 ### Troubleshooting
 
-For more information about common problems when integrating the iOS SDK, please visit our [FAQ page](http://docs.testfairy.com/FAQ.html)
+For more information about common problems when integrating the iOS SDK, please visit our [FAQ page](https://docs.testfairy.com/FAQ.html)
 
 ### Related documentation
 

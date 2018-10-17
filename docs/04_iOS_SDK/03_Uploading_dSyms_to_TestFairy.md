@@ -21,7 +21,7 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 
 #  <a name="upload-symbols"></a>Uploading Symbols to TestFairy
 
-<p>In order to upload symbols to TestFairy, you'll need to have your <strong>UPLOAD_API_KEY</strong> ready, which can be found from your <a href="https://app.testfairy.com/settings/#apikey" target="_blank">user preferences page</a>.</p>
+<p>In order to upload symbols to TestFairy, you'll need to have your <strong>UPLOAD_API_KEY</strong> ready, which can be found from your <a href="https://app.testfairy.com/settings/api-key/" target="_blank">user preferences page</a>.</p>
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">

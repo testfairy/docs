@@ -1,7 +1,14 @@
 language: php
 
 before_install:
-  - openssl aes-256-cbc -K $encrypted_968efea6ce8c_key -iv $encrypted_968efea6ce8c_iv -in id_docs.key.enc -out id_docs.key -d
+  - pip install --user awscli
+  - export PATH=$PATH:$HOME/.local/bin
+  -
+  - mkdir -p ~/.aws
+  - touch ~/.aws/credentials
+  - echo "[default"] >> ~/.aws/credentials
+  - echo "aws_access_key_id = ${AWS_ACCESS_KEY_ID}" >> ~/.aws/credentials
+  - echo "aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}" >> ~/.aws/credentials
 
 before_script:
   - npm install -g less
@@ -13,11 +20,11 @@ branches:
 script:
   - lessc -x less/daux-navy.less >css/daux-navy.min.css
   - php index.php generate
+  - # front page is Getting_Started.html
   - cp static/Getting_Started/Getting_Started.html static/index.html
-  - cp 404/* static/
-  - cp .htaccess static/
-  - curl -s http://checkip.amazonaws.com/
-  - chmod 0600 id_docs.key
-  - chmod 0644 static/.htaccess
-  - scp -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -i id_docs.key -r static/* static/.htaccess $REMOTE_DOCS_LOCATION
+  - # copy additional files
+  - cp add-ons/* static/
+  - aws --profile docs s3 sync --acl public-read . s3://docs.testfairy.com/
+  - aws --profile docs cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths '/*'
+
 

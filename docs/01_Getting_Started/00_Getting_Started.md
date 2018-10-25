@@ -21,14 +21,14 @@
 			<img src="../img/getting-started/getting-started-icons-07.png" class="getting-started-img">
 			<div class="getting-started-question">I want to record videos of my apps</div>
 			<div>See how your users are using your apps. See screen touches, follow trends and learn from usage.</div>
-			<a href="../TestFairy_SDK/Introduction.html" class="getting-started-btn">Learn More</a>
+			<a href="../SDK/Introduction.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">
 			<img src="../img/getting-started/getting-started-icons-10.png" class="getting-started-img">
 			<div class="getting-started-question">I want to collect crash reports</div>
 			<div>Collect crash reports from your apps, and have them added to bug system or sent by email.</div>
-			<a href="../TestFairy_SDK/Introduction.html" class="getting-started-btn">Learn More</a>
+			<a href="../SDK/Introduction.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">

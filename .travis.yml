@@ -24,7 +24,7 @@ script:
   - cp static/Getting_Started/Getting_Started.html static/index.html
   - # copy additional files
   - cp add-ons/* static/
-  - aws --profile docs s3 sync --acl public-read . s3://docs.testfairy.com/
-  - aws --profile docs cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths '/*'
+  - aws s3 sync --acl public-read . s3://docs.testfairy.com/
+  - aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths '/*'
 
 

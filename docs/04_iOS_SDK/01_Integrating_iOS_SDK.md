@@ -22,7 +22,7 @@ You get to:
 		<a data-w-tab="tab-cocoapods" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#cocoapods">
 			<div>Cocoapods</div>
 		</a>
-		<a data-w-tab="tab-carthage" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#cathage">
+		<a data-w-tab="tab-carthage" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#carthage">
 			<div>Carthage</div>
 		</a>
 	</div>

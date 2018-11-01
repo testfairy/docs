@@ -1,6 +1,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/omYf_-KjPE0" frameborder="0" allowfullscreen></iframe>
 
-There are two ways to sign iOS apps. 
+There are two ways to sign iOS apps.
 
 There is the enterprise certificate that technically allows you to send your app to any iOS device, and there is the Ad-Hoc certificate that requires you to get the user's device ID before sending them an ipa file.
 
@@ -17,11 +17,11 @@ Your testers will get an email asking them to register their device. Once they r
 
 3. Log into the Apple Developer Portal and go to the [Devices area](https://developer.apple.com/account/ios/device/deviceList.action).
 
-4. Click on the + icon 
-![alt](/img/apple-dev-plus.png)
+4. Click on the + icon
+![alt](/img/app/apple-dev-plus.png)
 
 5. Click on 'Register multiple devices', choose your file and continue.
-![alt](/img/apple-dev-import.png)
+![alt](/img/app/apple-dev-import.png)
 
 6. Review the new UDIDs and click done.
 
@@ -34,10 +34,3 @@ Your testers will get an email asking them to register their device. Once they r
 10. Generate the new profile and download the file.
 
 11. Make sure to delete the previous profile files.
-
-
-
-
-
-
-

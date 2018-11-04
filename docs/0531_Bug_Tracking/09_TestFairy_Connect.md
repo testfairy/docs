@@ -25,8 +25,8 @@ For more articles relating to this subject, check out the following links:
 
 
 ## Prerequisites
-* nodejs 4.2+
-* git 1.7+
+* Node.js 6
+* Git 1.7+
 
 For Team Foundation Server (TFS) integration, please refer to [that documentation](https://docs.testfairy.com/TestFairy_Connect/Configuring_TFS.html) for additional requirements. 
 

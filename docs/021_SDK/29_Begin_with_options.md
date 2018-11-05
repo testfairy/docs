@@ -83,7 +83,7 @@ public class MainActivity extends Activity {
 				<b>TestFairy.disableVideo();</b><br/>
 				<b>TestFairy.enableVideo("&lt;policy&gt;", "&lt;quality&gt;", &lt;frames per second&gt;);</b>
 			</p>
-			<p>Refer to the <a href="https://docs.testfairy.com/Android/Class_Reference.html">Class Reference</a> for more information on values for <b>policy</b> and <b>quality</b>.</p>
+			<p>Refer to the <a href="https://app.testfairy.com/reference/android/index.html">Class Reference</a> for more information on values for <b>policy</b> and <b>quality</b>.</p>
 
 			<h3>Code Example</h3>
 			<p>In the following example, video will only be recorded when wifi is available. A high quality video will be recorded every 2 seconds.</p>
@@ -108,7 +108,7 @@ public class MainActivity extends Activity {
 				<b>[TestFairy disableVideo];</b><br/>
 				<b>[TestFairy enableVideo:@"&lt;policy&gt;" quality:@"&lt;quality&gt;"  framesPerSecond:&lt;frames per second&gt;];</b>
 			</p>
-			<p>Refer to the <a href="https://docs.testfairy.com/iOS/Class_Reference.html">Class Reference</a> for more information on values for <b>policy</b> and <b>quality</b>.</p>
+			<p>Refer to the <a href="https://app.testfairy.com/reference/ios/Classes/TestFairy.html">Class Reference</a> for more information on values for <b>policy</b> and <b>quality</b>.</p>
 
 			<h3>Code Example</h3>
 			<pre>
@@ -139,7 +139,7 @@ public class MainActivity extends Activity {
 				<b>TestFairy.enableMetric("&lt;metric&gt;");</b><br/>
 				<b>TestFairy.disableMetric("&lt;metric&gt;");</b><br/>
 			</p>
-			<p>Refer to the <a href="https://docs.testfairy.com/Android/Class_Reference.html">Class Reference</a> for more information on which metric can be passed.</p>
+			<p>Refer to the <a href="https://app.testfairy.com/reference/android/index.html">Class Reference</a> for more information on which metric can be passed.</p>
 
 			<h3>Code Example</h3>
 			<p>In the following snippet, the CPU metric will be recorded, and the Memory metric wil not be recorded, regarless of what's set in the build settings.</p>
@@ -165,7 +165,7 @@ public class MainActivity extends Activity {
 				<b>[TestFairy enableMetric:@"&lt;metric&gt;"];</b><br/>
 				<b>[TestFairy disableMetric:@"&lt;metric&gt;"];</b>
 			</p>
-			<p>Refer to the <a href="https://docs.testfairy.com/iOS/Class_Reference.html">Class Reference</a> for more information on which metric can be passed.</p>
+			<p>Refer to the <a href="https://app.testfairy.com/reference/ios/Classes/TestFairy.html">Class Reference</a> for more information on which metric can be passed.</p>
 
 			<h3>Code Example</h3>
 			<p>In the following snippet, the CPU metric will be recorded, and the Memory metric wil not be recorded, regardless of what's set in the build settings.</p>
@@ -245,7 +245,7 @@ public class MainActivity extends Activity {
 				<b>TestFairy.disableFeedbackForm();</b><br/>
 				<b>TestFairy.enableFeedbackForm("&lt;method&gt;");</b>
 			</p>
-			<p>Refer to the <a href="https://docs.testfairy.com/Android/Class_Reference.html">Class Reference</a> for more information on values for <b>method</b>.</p>
+			<p>Refer to the <a href="https://app.testfairy.com/reference/android/index.html">Class Reference</a> for more information on values for <b>method</b>.</p>
 
 			<h3>Code Example</h3>
 			<p>In the following example, feedback will be enabled when the device is shook.</p>
@@ -270,7 +270,7 @@ public class MainActivity extends Activity {
 				<b>[TestFairy disableFeedbackForm];</b><br/>
 				<b>[TestFairy enableFeedbackForm:@"&lt;method&gt;"];</b>
 			</p>
-			<p>Refer to the <a href="https://docs.testfairy.com/iOS/Class_Reference.html">Class Reference</a> for more information on values for <b>method</b>.</p>
+			<p>Refer to the <a href="https://app.testfairy.com/reference/ios/Classes/TestFairy.html">Class Reference</a> for more information on values for <b>method</b>.</p>
 
 			<h3>Code Example</h3>
 			<p>In the following example, feedback will be enabled when the user either shakes or takes a screenshot on the device.</p>

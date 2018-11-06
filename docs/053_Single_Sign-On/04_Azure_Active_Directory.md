@@ -19,7 +19,7 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 - Now click on `Endpoints`, and select the newly created `TestFairy` app
   ![](https://docs.testfairy.com/img/sso/azure/azure-3.png)
   
-- Open "FEDERATION METADATA DOCOUMENT" URL and save the file to disk
+- Open "FEDERATION METADATA DOCUMENT" URL and save the file to disk
   ![](https://docs.testfairy.com/img/sso/azure/azure-4.png)
   
 - Open `Settings` and select `Properties`. Update the following items. Change `acme` with your own subdomain.

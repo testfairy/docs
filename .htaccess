@@ -35,7 +35,8 @@ RewriteRule ^iOS_SDK/Using_Xamarin_Component.html /Platforms/Xamarin.html [R=301
 RewriteRule ^ios_sdk/adding_udids_to_ios_development_profile.html /iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html [R=301,L]
 RewriteRule ^ios_sdk/integrating_ios_sdk.html /iOS_SDK/Integrating_iOS_SDK.html [R=301,L]
 RewriteRule ^iOS_SDK/setup /iOS_SDK/Integrating_iOS_SDK.html [R=301,L]
-RewriteRule ^04_iOS_SDK/About_dSYMs.html /iOS_SDK/How_To_Upload_dSYM.html [R=301,L]
+RewriteRule ^04_iOS_SDK/About_dSYMs.html /iOS_SDK/Uploading_dSyms_to_TestFairy.html [R=301,L]
+RewriteRule ^iOS_SDK/How_To_Upload_dSYM.html /iOS_SDK/Uploading_dSyms_to_TestFairy.html [R=301,L]
 
 RewriteRule ^ios_sdk/exporting_ad_hoc_ipa.html /iOS_SDK/Exporting_Ad_Hoc_IPA.html [R=301,L]
 RewriteRule ^ios_sdk/identifying_your_users.html /iOS_SDK/Identifying_Your_Users.html [R=301,L]

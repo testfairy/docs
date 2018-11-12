@@ -1,3 +1,11 @@
+### Version 1.18.0
+Released 2018-11-12
+
+* [NEW] New Feedback View
+* [NEW] Support for Hebrew, Portuguese and Spanish
+* [NEW] Support for `getDistributionStatus`
+* [BUGFIX] Feedback timestamp in session dashboard
+
 ### Version 1.17.0
 Released 2018-09-10
 

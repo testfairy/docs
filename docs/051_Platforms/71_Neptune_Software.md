@@ -1,22 +1,20 @@
 In order to add the TestFairy plugin to a Neptune project, you need to do the following procedure.
 
-## Enable the Datawedge plugin
-Add the following to the config.xml file - In Neptune Application Management custom config.XML 
+## Enable the TestFairy plugin
+Add the following to the config.xml file. In *Neptune Application Management* this is available under `Header` section.
 
 ```
-TODO: put the config.cml code here
+<plugin name="com.testfairy.cordova-plugin" source="npm"/>
 ```
 
 ## Initialize the TestFairy SDK:
 
-Add the following code to your init script:
+Add the following code to your `init` script:
 
 ```
-TODO: put the config.cml code here
+document.addEventListener("deviceready", function() {
+    TestFairy.begin("APP TOKEN");
+}
 ```
 
-
-Related info:  TODO - add here link to relevant page in neptune website
-
-reference (delete this line when done)
-https://community.neptune-software.com/documentation/how-to-use-native-motorola-zebra
+Remember to replace **APP TOKEN** with your own app token as displayed in User Preferences page.

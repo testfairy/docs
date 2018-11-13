@@ -17,4 +17,4 @@ document.addEventListener("deviceready", function() {
 });
 ```
 
-Remember to replace **APP TOKEN** with your own app token as displayed in [User Preferences page](https://app.testfairy.com/settings/)
+Remember to replace **APP TOKEN** with your own app token as displayed in [User Preferences](https://app.testfairy.com/settings/)

@@ -14,7 +14,7 @@ Add the following code to your `init` script:
 ```
 document.addEventListener("deviceready", function() {
     TestFairy.begin("APP TOKEN");
-}
+});
 ```
 
 Remember to replace **APP TOKEN** with your own app token as displayed in User Preferences page.

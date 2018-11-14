@@ -1,15 +1,14 @@
 In order to add the TestFairy plugin to a Neptune project, you need to do the following procedure.
 
 ## Enable the TestFairy plugin
-Add the following to the config.xml file. In *Neptune Application Management* this is available under `Header` section.
-
+Add the following to the config.xml file in the Neptune Cockpit under Run/Mobile Client/Device.
 ```
 <plugin name="com.testfairy.cordova-plugin" source="npm"/>
 ```
 
 ## Initialize the TestFairy SDK:
 
-Add the following code to your `init` script:
+Add the following code to your `init` script the App Designer:
 
 ```
 document.addEventListener("deviceready", function() {

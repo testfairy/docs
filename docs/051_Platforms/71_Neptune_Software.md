@@ -8,7 +8,7 @@ Add the following to the config.xml file in the Neptune Cockpit under Run / Mobi
 
 ## Initialize the TestFairy SDK:
 
-Add the following code to your `init` script the App Designer:
+Add the following code to your `init` script in the App Designer:
 
 ```
 document.addEventListener("deviceready", function() {

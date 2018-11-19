@@ -17,11 +17,12 @@ Please note that this first step is optional, if you choose to use username and 
 
 2. Configure JIRA in your TestFairy settings: 
 
-2.1. Open your TestFairy account Preferences
+2.1. Open your TestFairy account Preferences and choose "Bug Systems"
 
 ![Menu](/img/bug-tracking/jira-cloud-1.png)
 
-2. Click on "Bug Systems", choose "JIRA", and enter your JIRA username, password and JIRA URL.
+2.2 Choose "JIRA", and enter your JIRA Username, API Token and JIRA URL. 
+Instead of API Token you can use your JIRA password.
 
 ![JIRA-setup](/img/bug-tracking/jira-cloud-2.png)
 

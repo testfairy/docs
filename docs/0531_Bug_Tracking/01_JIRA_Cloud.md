@@ -17,12 +17,12 @@ Please note that this first step is optional, if you choose to use username and 
 
 2. Configure JIRA in your TestFairy settings: 
 
-2.1. Open your TestFairy account Preferences and choose "Bug Systems"
+2.1. Open your TestFairy account Preferences 
 
 ![Menu](/img/bug-tracking/jira-cloud-1.png)
 
-2.2 Choose "JIRA", and enter your JIRA Username, API Token and JIRA URL. 
-Instead of API Token you can use your JIRA password.
+2.2 Choose "Bug Systems" -> "JIRA", and enter your JIRA Username, API Token and JIRA URL. 
+If you don't have an API Token you can use your JIRA password.
 
 ![JIRA-setup](/img/bug-tracking/jira-cloud-2.png)
 
@@ -34,11 +34,11 @@ In order to install it please follow these steps:
 
 1. Open JIRA Settings
 
-![JIRA-setup](/img/bug-tracking/jira0.png)
+![JIRA-setup](/img/bug-tracking/jira-settings.png)
 
-2. Click on Add-Ons
+2. Click on Find New Apps
 
-![JIRA-setup](/img/bug-tracking/jira2.png)
+![JIRA-setup](/img/bug-tracking/jira-find-apps.png.png)
 
 3. Find new Add-ons
 

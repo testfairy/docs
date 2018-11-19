@@ -36,12 +36,12 @@ In order to install it please follow these steps:
 
 ![JIRA-setup](/img/bug-tracking/jira-settings.png)
 
-![JIRA-setup](/img/bug-tracking/jira-apps.png)
+![JIRA-setup](/img/bug-tracking/jira-find-apps.png)
 ![JIRA-setup](/img/bug-tracking/jira-discover.png)
 
 3.2. Click on Find New Apps
 
-![JIRA-setup](/img/bug-tracking/jira-find-apps.png)
+
 
 3.3. Find new Add-ons
 

@@ -2,7 +2,7 @@
 Released 2018-11-12
 
 * [NEW] New Feedback View
-* [NEW] Support for Hebrew, Portuguese and Spanish
+* [NEW] Support for Portuguese and Spanish
 * [NEW] Support for `getDistributionStatus`
 * [BUGFIX] Feedback timestamp in session dashboard
 

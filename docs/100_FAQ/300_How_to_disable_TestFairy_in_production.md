@@ -28,7 +28,12 @@ This solution still requires use of `#ifdef` as before, but can also completely 
 
 ##### Option 1: Calling [TestFairy begin] only in Debug mode.
 
-    
+Your Gradle variants can alter the code path of your app. Use debug flavor to call TestFairy.begin, and release flavor to emit this call. 
 
+Without any calls to any of the TestFairy SDK, Proguard will eventually remove the entire compiled code from the result classes.dex and the final APK.
+
+##### Option 2: Use a class loader
+
+Android allows loading classes into memory on-the-fly. This is for advanced developers. You can use Android's ClassLoader to load TestFairy class into memory only on a Debug build. 
 
 

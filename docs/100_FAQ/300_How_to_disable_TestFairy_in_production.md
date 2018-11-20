@@ -6,7 +6,7 @@ This document talks about how to exclude the TestFairy SDK from production build
 
 ### Excluding from iOS production releases
 
-##### Option 1: Calling [TestFairy begin] only in DEBUG
+#### Option 1: Calling [TestFairy begin] only in DEBUG
 
 Without a call to [TestFairy begin], the SDK is not initialized. It's not consuming any memory, doesn't open sockets, and doesn't catch uncaught exceptions. Even though it does not impact your app in any way, the SDK is still linked with your app. This is the easiest option.
 
@@ -16,7 +16,7 @@ Without a call to [TestFairy begin], the SDK is not initialized. It's not consum
 #endif
 ```
 
-##### Option 2: Configure link options in an scheme for App Store
+#### Option 2: Configure link options in an scheme for App Store
 
 A common pattern we see from our customers is having a dedicated scheme for App Store. Meaning there's a Debug, Release and App Store (and maybe others.)
 
@@ -26,13 +26,13 @@ This solution still requires use of `#ifdef` as before, but can also completely 
 
 ### Excluding from Android production releases
 
-##### Option 1: Calling [TestFairy begin] only in Debug mode.
+#### Option 1: Calling [TestFairy begin] only in Debug mode.
 
 Your Gradle variants can alter the code path of your app. Use debug flavor to call TestFairy.begin, and release flavor to emit this call. 
 
 Without any calls to any of the TestFairy SDK, Proguard will eventually remove the entire compiled code from the result classes.dex and the final APK.
 
-##### Option 2: Use a class loader
+#### Option 2: Use a class loader
 
 Android allows loading classes into memory on-the-fly. This is for advanced developers. You can use Android's ClassLoader to load TestFairy class into memory only on a Debug build. 
 

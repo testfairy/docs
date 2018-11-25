@@ -4,7 +4,8 @@ TestFairy provides enterprise companies with a mobile testing platform for distr
 
 
 
-TestFairy fits into your workflow perfectly. It integrates with your favorite bug-tracking platforms, single sign-on solutions, team communication platforms and continuous integration tools. This is how it works:
+TestFairy fits into your workflow perfectly. It integrates with your favorite bug-tracking platforms, single sign-on solutions, team communication platforms and continuous integration tools. 
+This is how it works:
 
 
 

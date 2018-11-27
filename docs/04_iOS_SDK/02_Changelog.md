@@ -1,3 +1,8 @@
+### Version 1.18.1
+Released 2018-11-27
+
+* [BUGFIX] Handle language changes
+
 ### Version 1.18.0
 Released 2018-11-12
 

@@ -57,7 +57,7 @@ Map<String, Object> traits = new HashMap<String, Object>();
 traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
 TestFairy.identify("", traits);
 ```
-For more identification options [read this](https://docs.testfairy.com/Android/Identifying_your_users.html)
+For more identification options [read this](https://docs.testfairy.com/SDK/Identifying_Your_Users.html)
 
 
 ## <a name="permissions"></a>Additional Permissions (Optional)

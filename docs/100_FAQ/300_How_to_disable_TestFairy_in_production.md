@@ -62,7 +62,7 @@ A common pattern we see from our customers is having a dedicated scheme for App 
 
 The link phases that are explained in the integration document only apply to Debug and Release schemes, and can be excluded from the App Store scheme.
 
-This solution still requires use of `#ifdef` of `#if` as before, but can also completely omit the library from being linked with the app.
+This solution still requires use of `#ifdef` or `#if` as before, but can also completely omit the library from being linked with the app.
 
 Navigate to project build settings and locate **Excluded Source File Name** option. Expand the list and find the build scheme you want to exclude TestFairy from. Double click the row add two entries to the excluded file list, one for **TestFairy.h**, one for **libTestFairy.a** files. 
 

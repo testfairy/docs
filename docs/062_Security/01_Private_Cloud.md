@@ -14,6 +14,6 @@ It includes the following:
 
 
 
-![ alt upload](../../img/integrations/tf-structure-02.png)
+![ alt upload](/img/testfairy_cloud.png)
 
 

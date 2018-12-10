@@ -4,8 +4,8 @@ The TestFairy plugin for *Android Studio* and *IntelliJ IDEA* provides a single-
 
 1. Open *Android Studio* or *IntelliJ IDEA*.
 
-2. Select `Android Studio` menu, and then `Preferences`
-3. In the Preferences dialog, select `Plugins` from the left tab, and then click `Browse Repositories...`
+2. Select `File --> Settings` menu.
+3. In the Settings window, select `Plugins` from the left tab, and then click `Browse Repositories...`
 > ![Alt](http://docs.testfairy.com/img/android/android-studio-plugin/open-plugins.png)
 
 4. In the search bar, type `TestFairy` and install the `TestFairy Integration` plugin:

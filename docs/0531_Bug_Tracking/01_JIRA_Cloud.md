@@ -40,7 +40,7 @@ In order to install it please follow these steps:
 
 ![JIRA-settings](/img/bug-tracking/jira-settings1.png)
 
-3.3 Find new apps
+3.3 In the Apps manu press 'Find new apps'
 
 ![JIRA-apps](/img/bug-tracking/jira-find-apps.png)
 

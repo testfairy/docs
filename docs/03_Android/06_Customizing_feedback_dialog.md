@@ -7,7 +7,7 @@ TestFairy's Android SDK enables customization of how the in-app feedback module 
 
 #### setBrowserUrl(String url)
 
-You can setBrowserUrl, so Testfairy will open the yours url for the user feedback.
+You can setBrowserUrl, so Testfairy will open your own url for user feedback (or a questionnaire etc. ).
 
 ```java
 FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()

@@ -36,11 +36,15 @@ In order to install it please follow these steps:
 
 ![JIRA-settings](/img/bug-tracking/jira-settings.png)
 
-3.2 Find new apps
+3.2 Open Apps
+
+![JIRA-settings](/img/bug-tracking/jira-settings1.png)
+
+3.3 Find new apps
 
 ![JIRA-apps](/img/bug-tracking/jira-find-apps.png)
 
-3.3 Add "TestFairy for Jira" to your account.
+3.4 Add "TestFairy for Jira" to your account.
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-discover.png)
 

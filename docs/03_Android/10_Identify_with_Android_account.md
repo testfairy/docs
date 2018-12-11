@@ -20,4 +20,4 @@ Remember that you are required to add the `GET_ACCOUNTS` permission to your *And
 ```
 
 ### Related Articles
-[Identifying your users: ](https://docs.testfairy.com/SDK/Identifying_Your_Users.html)
+[Identifying your users](https://docs.testfairy.com/SDK/Identifying_Your_Users.html)

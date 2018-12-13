@@ -9,7 +9,7 @@
 
   ![Step 1](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step1.png)
 
-4. Open `mainCamera` in Inspector by clicking on it, and then click on `Add Component`. Note: you can add the TestFairy script to any game object. TestFairy is a singleton so no harm is done.
+4. Press `mainCamera` in Hierarchy and in the Inspector click  `Add Component`. Note: you can add the TestFairy script to any game object. TestFairy is a singleton so no harm is done.
 
   ![Step 2](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step2.png)
 

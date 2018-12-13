@@ -32,7 +32,7 @@
 
      // Use this for initialization
      void Start () {
-         TestFairy.begin(PUT YOUR SDK APP TOKEN HERE SEE COMMENT ABOVE);
+         TestFairy.begin("PUT YOUR SDK APP TOKEN HERE SEE COMMENT ABOVE");
      }
 
      ...

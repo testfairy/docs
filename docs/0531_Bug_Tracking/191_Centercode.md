@@ -6,42 +6,42 @@ Open the Centercode Community Homepage, and go to Community Tools > Configuratio
 
 ![Create API KEY](/img/bug-tracking/centercode1.png)
 
-Name the new API KEY "TestFairy" and generate the new API Key.
+## 2. Name the new API KEY "TestFairy" and generate the new API Key.
 
 ![Set Generate Key](/img/bug-tracking/centercode2.png)
 
-## 2. Configure a Centercode externnal feedback source:
+## 3. Configure a Centercode externnal feedback source:
 
 ![Centercode extenrnal feedback source](/img/bug-tracking/centercode3a.png)
 
-2.1 Click Project Tools
+3.1 Click Project Tools
 
-2.2 Click Feedback Types
+3.2 Click Feedback Types
 
-2.3 Hover over your desired Feedback Type (Bug Reports) & click Modify
+3.3 Hover over your desired Feedback Type (Bug Reports) & click Modify
 
-2.4 Click External Sources
+3.4 Click External Sources
 
-2.5 Click "Create an External Source" 
+3.5 Click "Create an External Source" 
 
-2.6 From the External Sources creation page Create an (internally-facing) Name
+3.6 From the External Sources creation page Create an (internally-facing) Name
 
-2.7 Provide a simple Key to help identify this External Source  (ex: “appcrashlog” - detailed below)
+3.7 Provide a simple Key to help identify this External Source  (ex: “appcrashlog” - detailed below)
 
-2.8 Select the appropriate Workflow state (typically “New”)
+3.8 Select the appropriate Workflow state (typically “New”)
 
-2.9 Configure your Incoming Fields
+3.9 Configure your Incoming Fields
 
-2.10 Copy / Save your API Endpoint URL and click Submit
+3.10 Copy / Save your API Endpoint URL and click Submit
 
 
-## 3. Configure a new webhook in your TestFairy settings: 
+## 4. Configure a new webhook in your TestFairy settings: 
 
-2.1. Open your TestFairy account Preferences and create a new webhook
+4.1. Open your TestFairy account Preferences and create a new webhook
 
 ![Create webhook](/img/bug-tracking/webhook1.png)
 
-2.2 Name the webhook "Centercode", enter the Centercode endpoint URL, check the "feedback"checkbox and submit.
+4.2 Name the webhook "Centercode", enter the Centercode endpoint URL, check the "feedback"checkbox and submit.
 
 ![Configure webhook](/img/bug-tracking/webhook2.png)
 

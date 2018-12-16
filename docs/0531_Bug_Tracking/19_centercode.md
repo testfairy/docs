@@ -10,7 +10,7 @@ Name the new API KEY "TestFairy" and generate the new API Key.
 
 ![Set Generate Key](/img/bug-tracking/centercode2.png)
 
-## 2. Configure a Centercode extenrnal feedback source:
+## 2. Configure a Centercode externnal feedback source:
 
 ![Centercode extenrnal feedback source](/img/bug-tracking/centercode3a.png)
 

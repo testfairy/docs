@@ -4,15 +4,15 @@
 
 Open the Centercode Community Homepage, and go to Community Tools > Configuration > API Keys (under Advanced Configuration) > Create an API Key. Name the new API KEY "TestFairy".
 
-![Create JIRA API](/img/bug-tracking/centercode1.png)
+![Create API KEY](/img/bug-tracking/centercode1.png)
 
 Name the new API KEY "TestFairy" and generate the new API Key.
 
-![Set TEstFairy JIRA Key](/img/bug-tracking/centercode2.png)
+![Set Generate Key](/img/bug-tracking/centercode2.png)
 
 ## 2. Configure a Centercode extenrnal feedback source:
 
-![Set TEstFairy JIRA Key](/img/bug-tracking/centercode3.png)
+![Centercode extenrnal feedback source](/img/bug-tracking/centercode3.png)
 
 2.1 Click Project Tools
 

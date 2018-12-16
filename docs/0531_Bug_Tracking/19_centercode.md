@@ -4,7 +4,7 @@
 
 Open the Centercode Community Homepage, and go to Community Tools > Configuration > API Keys (under Advanced Configuration) > Create an API Key. Name the new API KEY "TestFairy".
 
-![Create JIRA API](/img/bug-tracking/cenercode1.png)
+![Create JIRA API](/img/bug-tracking/centercode1.png)
 
 ![Set TEstFairy JIRA Key](/img/bug-tracking/centercode2.png)
 
@@ -23,5 +23,11 @@ Open the Centercode Community Homepage, and go to Community Tools > Configuratio
 
 ## 3. Configure a new webhook in your TestFairy settings: 
 
-2.1. Open your TestFairy account Preferences 
+2.1. Open your TestFairy account Preferences and create a new webhook
+
+![Create JIRA API](/img/bug-tracking/webhook1.png)
+
+2.2 Name the webhook "Centercode", enter the Centercode endpoint URL, and check the "feedback"checkbox.
+
+![Create JIRA API](/img/bug-tracking/webhook2.png)
 

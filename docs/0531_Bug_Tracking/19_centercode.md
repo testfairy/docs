@@ -39,7 +39,7 @@ Name the new API KEY "TestFairy" and generate the new API Key.
 
 2.1. Open your TestFairy account Preferences and create a new webhook
 
-![Create JIRA API](/img/bug-tracking/webhook3.png)
+![Create JIRA API](/img/bug-tracking/webhook1.png)
 
 2.2 Name the webhook "Centercode", enter the Centercode endpoint URL, and check the "feedback"checkbox.
 

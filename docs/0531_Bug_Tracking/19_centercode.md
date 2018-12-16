@@ -12,6 +12,8 @@ Name the new API KEY "TestFairy" and generate the new API Key.
 
 ## 2. Configure a Centercode extenrnal feedback source:
 
+![Set TEstFairy JIRA Key](/img/bug-tracking/centercode3.png)
+
 2.1 Click Project Tools
 
 2.2 Click Feedback Types

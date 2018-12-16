@@ -12,7 +12,7 @@ Name the new API KEY "TestFairy" and generate the new API Key.
 
 ## 2. Configure a Centercode extenrnal feedback source:
 
-![Centercode extenrnal feedback source](/img/bug-tracking/centercode3.png)
+![Centercode extenrnal feedback source](/img/bug-tracking/centercode3a.png)
 
 2.1 Click Project Tools
 

@@ -1,4 +1,3 @@
-@@ -1,10 +0,0 @@
 In order to disable Play protest do the following stages:
 In your device Play Store open the menu and press Play protect:
 

@@ -6,4 +6,4 @@ In order to disable Play protest do the following stages:
 
 2. In the play protect screen disable the play protect option like so:
 
-![alt](../../img/android/playstore/PlayStore2.png)   ⇒   ![alt](../../img/android/playstore/PlayStore3.png)
+![alt](../../img/android/playstore/PlayStore2.png)   **⇒**  ![alt](../../img/android/playstore/PlayStore3.png)

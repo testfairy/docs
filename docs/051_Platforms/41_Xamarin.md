@@ -4,7 +4,7 @@ TestFairy is available for both Android and iOS. You can install the bindings by
 
 1. Download the latest binding DLL directly from [GitHub](https://github.com/testfairy/testfairy-xamarin/releases) for your specific platform.
 
-1. Install the bindings through NuGet.
+1. Install the bindings through [NuGet](https://www.nuget.org/packages/TestFairy.Xamarin/).
 
 You will need an app token (TESTFAIRY_APP_TOKEN), which can be found in your [settings page](http://app.testfairy.com/settings/)
 

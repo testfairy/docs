@@ -20,5 +20,4 @@ Remember that you are required to add the `GET_ACCOUNTS` permission to your *And
 ```
 
 ### Related Articles
-[Identifying users on iOS](https://docs.testfairy.com/iOS_SDK/Identifying_Your_Users.html)
-[Identifying users on Android](https://docs.testfairy.com/Android/Identifying_your_users.html)
+[Identifying your users](https://docs.testfairy.com/SDK/Identifying_Your_Users.html)

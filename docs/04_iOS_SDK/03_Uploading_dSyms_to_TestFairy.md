@@ -98,7 +98,7 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 
 						<div>
 							<p>Make sure the specified path includes the upload-dsym.sh file.</p>
-							<p>Make sure to replace <strong>UPLOAD_API_KEY</strong> with the your secret upload API key, found in the <a href="https://app.testfairy.com/settings/#apikey">Settings</a> page.</p>
+							<p>Make sure to replace <strong>UPLOAD_API_KEY</strong> with the your secret upload API key, found in the <a href="https://app.testfairy.com/settings/api-key/">Settings</a> page.</p>
 							<p><img src="../../img/ios/dsym-upload/step3.png" alt="alt"></p>
 						</div>
 					</div>

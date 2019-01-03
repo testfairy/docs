@@ -107,7 +107,7 @@ You get to:
 				</li>
 			</ol>
 		</div>
-</div>
+
 
 <div class="docs-tabs-content w-tab-content">
 <div class="w-tab-pane" data-w-tab="tab-ios-swift">

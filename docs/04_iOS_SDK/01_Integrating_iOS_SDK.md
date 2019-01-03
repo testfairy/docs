@@ -57,7 +57,8 @@ You get to:
 					<li><code>AVFoundation.framework</code></li>
 					<li><code>SystemConfiguration.framework</code></li>
 					<li><code>OpenGLES.framework</code></li>
-					</ul><p></p>
+					</ul><p>
+					<img class="instruction-gif" src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/xcode-demo-1.gif"></p>
 				</li>
 			</ol>
 		</div>

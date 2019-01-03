@@ -107,8 +107,11 @@ You get to:
 			</ol>
 		</div>
 
-#### Add Frameworks
+
 <div class="w-tab-pane" data-w-tab="tab-ios-swift">
+
+#### Add Frameworks
+
 <ol>
 <li>In Xcode, select the project file from the project navigator, on the left side of the project window.</li>
 <li>Show Projects and Target List.</li>
@@ -124,7 +127,6 @@ You get to:
 <li>OpenGLES.framework</li>
 </ul>
 <div><img src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/swift-add-frameworks.gif" /></div>
-</div>
 </div>
 <div class="docs-tabs-content w-tab-content">&nbsp;</div>
 <div class="docs-tabs-content w-tab-content">

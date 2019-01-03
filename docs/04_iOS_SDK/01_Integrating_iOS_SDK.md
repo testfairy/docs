@@ -109,6 +109,7 @@ You get to:
 		</div>
 </div>
 
+<div class="docs-tabs-content w-tab-content">
 <div class="w-tab-pane" data-w-tab="tab-ios-swift">
 
 #### Add Frameworks
@@ -128,9 +129,6 @@ You get to:
 <li>OpenGLES.framework</li>
 </ul>
 <div><img src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/swift-add-frameworks.gif" /></div>
-</div>
-<div class="docs-tabs-content w-tab-content">&nbsp;</div>
-<div class="docs-tabs-content w-tab-content">
 	
 #### Create an Objective-C bridging header
 

@@ -87,6 +87,7 @@ You get to:
 </div>
 
 ### Initialize the SDK
+
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
 		<a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;" href="#ios-objc">
@@ -95,7 +96,7 @@ You get to:
 		<a data-w-tab="tab-ios-swift" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-swift">
 			<div>Swift</div>
 		</a>
-	</div>
+	</div></div>
 	
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane w--tab-active">

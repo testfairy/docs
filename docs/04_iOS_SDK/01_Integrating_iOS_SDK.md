@@ -110,9 +110,30 @@ You get to:
 		</div>
 
 		<div data-w-tab="tab-ios-swift" class="w-tab-pane">
+			
+####	Add Frameworks
+<ol>
+<li>In Xcode, select the project file from the project navigator, on the left side of the project window.</li>
+<li>Show Projects and Target List.</li>
+<li>In the project settings editor, select the target to which you would like to add frameworks.</li>
+<li>Select the &ldquo;Build Phases&rdquo; tab, and click the small triangle next to &ldquo;Link Binary With Libraries&rdquo; to view all of the frameworks in your application.</li>
+<li>Click &ldquo;+&rdquo; to add the following frameworks:</li>
+</ol>
+  <ul>
+<li>CoreMedia.framework</li>
+<li>CoreMotion.framework</li>
+<li>AVFoundation.framework</li>
+<li>SystemConfiguration.framework</li>
+<li>OpenGLES.framework</li>
+</ul>
+
+<div>
+<img src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/swift-add-frameworks.gif" />
+</div>
+<div data-w-tab="tab-ios-swift" class="w-tab-pane">
+####	Create an Objective-C bridging header
 			<ol>
 			<li>
-				<p>Create an Objective-C bridging header</p>
 				<p>Since this process only needs to be done once per project, if you have already done so, just update your bridging header file.</p>
 
 				<ul>

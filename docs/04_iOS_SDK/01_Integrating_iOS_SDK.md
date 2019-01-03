@@ -58,7 +58,7 @@ You get to:
 					<li><code>SystemConfiguration.framework</code></li>
 					<li><code>OpenGLES.framework</code></li>
 					</ul><p>
-					<img class="instruction-gif" width="500" src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/xcode-demo-1.gif"></p>
+					<img class="instruction-gif" width="700" src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/xcode-demo-1.gif"></p>
 				</li>
 			</ol>
 		</div>

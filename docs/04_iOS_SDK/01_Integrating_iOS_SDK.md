@@ -44,10 +44,13 @@ You get to:
 				</li>
 				<li><p>Add the following frameworks:<br>
 					</p>
-					<ol>
-					<li>n Xcode, select the project file from the project navigator, 
+					<p><ol>
+					<li>In Xcode, select the project file from the project navigator, 
 						on the left side of the project window.</li>
-					</ol>
+					<li>Show Projects and Target List.</li>
+					<li>In the project settings editor, select the target to which you would like to add 						frameworks.</li>
+					<li>Select the “Build Phases” tab, and click the small triangle next to “Link Binary 						With Libraries” to view all of the frameworks in your application.</li>
+					</ol></p>
 					<ul>
 					<li><code>CoreMedia.framework</code></li>
 					<li><code>CoreMotion.framework</code></li>

@@ -87,31 +87,25 @@ You get to:
 </div>
 
 ### Initialize the SDK
+<div class="docs-tabs w-tabs" data-duration-in="300" data-duration-out="100">
+<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
+<div>Objective-C</div>
+<div>Swift</div>
+</div>
+<div class="docs-tabs-content w-tab-content">
+<div class="w-tab-pane w--tab-active" data-w-tab="tab-ios-objc">
+<ol>
+<li>
+<p>Open your <strong>AppDelegate.m</strong> file.</p>
+</li>
+<li>
+<p>Add this code to your app:</p>
+<iframe src="https://app.testfairy.com/sdk/ios/iframe" width="100%" height="200" frameborder="0"></iframe></li>
+</ol>
+</div>
 
-<div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
-	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
-		<a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;" href="#ios-objc">
-			<div>Objective-C</div>
-		</a>
-		<a data-w-tab="tab-ios-swift" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-swift">
-			<div>Swift</div>
-		</a>
-	</div>
-
-	<div class="docs-tabs-content w-tab-content">
-		<div data-w-tab="tab-ios-objc" class="w-tab-pane w--tab-active">
-			<ol>
-				<li><p>Open your <strong>AppDelegate.m</strong> file.</p></li>
-				<li>
-					<p>Add this code to your app:</p>
-					<iframe frameborder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/ios/iframe"></iframe>
-				</li>
-			</ol>
-		</div>
-
-		<div data-w-tab="tab-ios-swift" class="w-tab-pane">
-			
-####	Add Frameworks
+#### Add Frameworks
+<div class="w-tab-pane" data-w-tab="tab-ios-swift">
 <ol>
 <li>In Xcode, select the project file from the project navigator, on the left side of the project window.</li>
 <li>Show Projects and Target List.</li>
@@ -119,52 +113,49 @@ You get to:
 <li>Select the &ldquo;Build Phases&rdquo; tab, and click the small triangle next to &ldquo;Link Binary With Libraries&rdquo; to view all of the frameworks in your application.</li>
 <li>Click &ldquo;+&rdquo; to add the following frameworks:</li>
 </ol>
-  <ul>
+<ul>
 <li>CoreMedia.framework</li>
 <li>CoreMotion.framework</li>
 <li>AVFoundation.framework</li>
 <li>SystemConfiguration.framework</li>
 <li>OpenGLES.framework</li>
 </ul>
-
-<div>
-<img src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/swift-add-frameworks.gif" />
+<div><img src="https://doa2yz3uy4ty4.cloudfront.net/images/app/header/swift-add-frameworks.gif" /></div>
 </div>
-<div data-w-tab="tab-ios-swift" class="w-tab-pane">
-####	Create an Objective-C bridging header
-			<ol>
-			<li>
-				<p>Since this process only needs to be done once per project, if you have already done so, just update your bridging header file.</p>
+</div>
+<div class="docs-tabs-content w-tab-content">&nbsp;</div>
+<div class="docs-tabs-content w-tab-content">
+	
+#### Create an Objective-C bridging header
 
-				<ul>
-					<li>Right-click on your project, select <code>New File...</code></li>
-					<li>Select <code>Header File.h</code></li>
-					<li>Save as <code>Bridging.h</code> in your project</li>
-					<li>Click on <code>Bridging.h</code> to open it in editor</li>
-					<li>Add the following line to the code: </li>
-				</ul>
-
-				<pre><code class=" hljs java">#<span class="hljs-keyword">import</span> <span class="hljs-string">"TestFairy.h"</span></code></pre>
-
-				<p>Update Build Settings with the new bridging header:</p>
-
-				<ul>
-					<li>Click on your project</li>
-					<li>Select <em>Build Settings</em> tab</li>
-					<li>Select the "All" filter, in order to find <em>Swift Compiler - Code Generation</em>: <em>Objective-C Bridging Header</em></li>
-					<li>Edit <em>Swift Compiler - Code Generation</em>: <em>Objective-C Bridging Header</em> (double-click to edit).</li>
-					<li>Drag "Bridging.h" from the source tree onto the edit box opened</li>
-				</ul>
-			</li>
-			<li><p>Open your <strong>AppDelegate.swift</strong> file.</p></li>
-			<li>
-				<p>Add this code to your app:</p>
-				<iframe frameborder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/ios-swift/iframe"></iframe>
-			</li>
-		</ol>
-		</div>
-
-	</div>
+<ol>
+<li>
+<p>Since this process only needs to be done once per project, if you have already done so, just update your bridging header file.</p>
+<ul>
+<li>Right-click on your project, select <code>New File...</code></li>
+<li>Select <code>Header File.h</code></li>
+<li>Save as <code>Bridging.h</code> in your project</li>
+<li>Click on <code>Bridging.h</code> to open it in editor</li>
+<li>Add the following line to the code:</li>
+</ul>
+<pre><code class=" hljs java">#<span class="hljs-keyword">import</span> <span class="hljs-string">"TestFairy.h"</span></code></pre>
+<p>Update Build Settings with the new bridging header:</p>
+<ul>
+<li>Click on your project</li>
+<li>Select <em>Build Settings</em> tab</li>
+<li>Select the "All" filter, in order to find <em>Swift Compiler - Code Generation</em>: <em>Objective-C Bridging Header</em></li>
+<li>Edit <em>Swift Compiler - Code Generation</em>: <em>Objective-C Bridging Header</em> (double-click to edit).</li>
+<li>Drag "Bridging.h" from the source tree onto the edit box opened</li>
+</ul>
+</li>
+<li>
+<p>Open your <strong>AppDelegate.swift</strong> file.</p>
+</li>
+<li>
+<p>Add this code to your app:</p>
+<iframe src="https://app.testfairy.com/sdk/ios-swift/iframe" width="100%" height="200" frameborder="0"></iframe></li>
+</ol>
+</div>
 </div>
 
 ### Class Reference

@@ -109,7 +109,6 @@ You get to:
 		</div>
 
 
-<div class="docs-tabs-content w-tab-content">
 <div class="w-tab-pane" data-w-tab="tab-ios-swift">
 
 #### Add Frameworks

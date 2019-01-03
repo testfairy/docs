@@ -43,7 +43,12 @@ You get to:
 					</blockquote>
 				</li>
 				<li><p>Add the following frameworks:<br>
-					</p><ul>
+					</p>
+					<ol>
+					<li>n Xcode, select the project file from the project navigator, 
+						on the left side of the project window.</li>
+					</ol>
+					<ul>
 					<li><code>CoreMedia.framework</code></li>
 					<li><code>CoreMotion.framework</code></li>
 					<li><code>AVFoundation.framework</code></li>

@@ -96,6 +96,7 @@ You get to:
 			<div>Swift</div>
 		</a>
 	</div>
+	</div>
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane w--tab-active">
 			<ol>

@@ -87,22 +87,25 @@ You get to:
 </div>
 
 ### Initialize the SDK
-<div class="docs-tabs w-tabs" data-duration-in="300" data-duration-out="100">
-<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
-<div>Objective-C</div>
-<div>Swift</div>
-</div>
-<div class="docs-tabs-content w-tab-content">
-<div class="w-tab-pane w--tab-active" data-w-tab="tab-ios-objc">
-<ol>
-<li>
-<p>Open your <strong>AppDelegate.m</strong> file.</p>
-</li>
-<li>
-<p>Add this code to your app:</p>
-<iframe src="https://app.testfairy.com/sdk/ios/iframe" width="100%" height="200" frameborder="0"></iframe></li>
-</ol>
-</div>
+<div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
+	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
+		<a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;" href="#ios-objc">
+			<div>Objective-C</div>
+		</a>
+		<a data-w-tab="tab-ios-swift" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-swift">
+			<div>Swift</div>
+		</a>
+	</div>
+	<div class="docs-tabs-content w-tab-content">
+		<div data-w-tab="tab-ios-objc" class="w-tab-pane w--tab-active">
+			<ol>
+				<li><p>Open your <strong>AppDelegate.m</strong> file.</p></li>
+				<li>
+					<p>Add this code to your app:</p>
+					<iframe frameborder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/ios/iframe"></iframe>
+				</li>
+			</ol>
+		</div>
 
 #### Add Frameworks
 <div class="w-tab-pane" data-w-tab="tab-ios-swift">

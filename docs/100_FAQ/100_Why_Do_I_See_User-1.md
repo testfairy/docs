@@ -1,6 +1,8 @@
-When seeing "User-1" as the session User ID, it means that the user for this session was not identified.
+When seeing "User-1gf8d8ga" as the session User ID, it means that the user for this session was not identified.
 
-In order to identify sessions, please call the method `setUserId`. 
+In such cases, we generate a random username, in order to help you aggregate sessions by user.
+
+In order to identify sessions and know which user used your app, please call the method `setUserId`. 
 
 [See examples for using setUserId](https://docs.testfairy.com/SDK/Identifying_Your_Users.html)
 

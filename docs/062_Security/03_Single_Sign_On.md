@@ -3,7 +3,7 @@ TestFairy supports SAML and is fully compatible with Okta, OneLogin, Ping, Oracl
 
 When SSO is configured into your account, the login page is replaced with a simple login with sso button.
 
-![ alt upload](../../img/getting-started/security-img.png)
+![ alt upload](../../img/testfairy_cloud.png)
 
 ### Setting up SSO with TestFairy
 Following are pages with directions for setting up SSO with TestFairy, according to your chosen solution:

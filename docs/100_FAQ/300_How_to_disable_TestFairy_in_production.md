@@ -11,7 +11,7 @@ This document talks about how to exclude the TestFairy SDK from production build
 Without a call to [TestFairy begin], the SDK is not initialized. An uninitialized SDK won't consume any memory, won't open sockets, and won't catch uncaught exceptions. Even though it does not impact your app in any way, the SDK is still linked with your app. This is the easiest option.
 
 ##### Objective-C
-```Objective-C
+```
 #ifdef DEBUG
 [TestFairy begin:@"APP_TOKEN"];
 #endif
@@ -29,7 +29,7 @@ If your publishing workflow has multiple build schemes or you plan to implement 
 We suggest defining a compiler flag for each scheme you have to enable the SDK for schemes relevant to testing like below.
 
 ##### Objective-C
-```Objective-C
+```
 #if defined(DEBUG)
 [TestFairy begin:@"APP_TOKEN"];
 #elif defined(SCHEME1)

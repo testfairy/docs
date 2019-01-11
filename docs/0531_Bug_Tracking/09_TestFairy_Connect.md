@@ -46,7 +46,7 @@ To configure TestFairy Connect, run the following line and follow the on-screen 
 
 You'll need the following data:
 
-* TestFairy API key (found at [https://app.testfairy.com/settings/api-key/](https://app.testfairy.com/settings/api-key/).
+* TestFairy API key (found at [https://app.testfairy.com/settings/api-key/](https://app.testfairy.com/settings/api-key/)
 * The URL to your bug system.
 * Name of ticket type (JIRA issue or TFS workitem) to be created by TestFairy Connect.
 * In the case of a JIRA basic authentication - valid credentials for a bug system user.

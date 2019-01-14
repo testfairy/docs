@@ -18,7 +18,7 @@ Without a call to [TestFairy begin], the SDK is not initialized. An uninitialize
 ```
 
 ##### Swift
-```Swift
+```
 #if DEBUG
 TestFairy.begin("APP_TOKEN")
 #endif
@@ -42,7 +42,7 @@ We suggest defining a compiler flag for each scheme you have to enable the SDK f
 ```
 
 ##### Swift
-```Swift
+```
 #if DEBUG
 TestFairy.begin("APP_TOKEN")
 #elseif SCHEME1
@@ -72,7 +72,9 @@ Try building your project. If the compilation fails, locate the lines where Test
 
 #### Option 1: Calling [TestFairy begin] only in Debug mode.
 
-Your Gradle variants can alter the code path of your app. Use debug flavor to call TestFairy.begin, and release flavor to emit this call. 
+Your Gradle variants can alter the code path of your app. Use debug flavor to call TestFairy.begin, and release flavor to emit this call.
+
+If you are not used to working with build variants, refer to [this post](https://blog.testfairy.com/create-a-custom-build-in-android/) the learn how.
 
 Without any calls to any of the TestFairy SDK, Proguard will eventually remove the entire compiled code from the result classes.dex and the final APK.
 

@@ -18,7 +18,16 @@ openssl rsa -in private.pem -outform PEM -pubout | base64 -
 
 This command will output the base64 representation of the public key. Paste this value into the first parameter of `TestFairy.setPublicKey` method.
 
-#### iOS
+#### Using in Android 
+
+Enable end-t-end encryption for your Android apps by calling `setPublicKey` before calling the `begin` method.
+
+```
+TestFairy.setPublicKey("<BASE64 OF PUBLIC KEY>");
+TestFairy.begin("<APP TOKEN>");
+```
+
+#### Using in iOS
 
 Enable end-to-end encryption for your iOS apps by calling `setPublicKey` before calling the `begin` method.
 

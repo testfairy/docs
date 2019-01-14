@@ -18,7 +18,16 @@ openssl rsa -in private.pem -outform PEM -pubout | base64 -
 
 This command will output the base64 representation of the public key. Paste this value into the first parameter of `TestFairy.setPublicKey` method.
 
-#### iOS
+#### Using in Android 
+
+Enable end-t-end encryption for your Android apps by calling `setPublicKey` before calling the `begin` method.
+
+```
+TestFairy.setPublicKey("<BASE64 OF PUBLIC KEY>");
+TestFairy.begin("<APP TOKEN>");
+```
+
+#### Using in iOS
 
 Enable end-to-end encryption for your iOS apps by calling `setPublicKey` before calling the `begin` method.
 
@@ -31,4 +40,4 @@ Enable end-to-end encryption for your iOS apps by calling `setPublicKey` before 
 
 Since the data is encrypted using RSA, viewing a session requires the private key. Simply visiting a recorded session will prompt a dialog for entry of the RSA Private Key. Just paste the private key text and click "OK". Your private keys are never sent to the server and are only kept within the browser session. 
 
-Important note: it's cruical that you keep the private key safe. If lost, these sessions cannot be recovered and the recorded that will become useless.
+**Important note:** it's cruical that you keep the private key safe. If lost, these sessions cannot be recovered and the recorded data will become useless.

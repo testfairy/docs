@@ -1,3 +1,16 @@
+### Version 1.9.0
+Released: 2019-01-16
+* [NEW] UTC timestamp reports
+* [IMPROVEMENT] New HTTP client without external dependencies (reduced SDK size and method count)
+* [IMPROVEMENT] Fixes for background thread crash and lock issues
+* [IMPROVEMENT] Fully shuffled, 100% working test suite
+
+
+### Version 1.8.3
+Released: 2018-09-16
+* [NEW] SessionStateListener callbacks to notify developers of changes in SDK states (auto update, feedback and so on.)
+* [IMPROVEMENT] Various performance and stability improvements.
+
 ### Version 1.8.1
 Released: 2018-08-30
 * [NEW] New and improved network code.

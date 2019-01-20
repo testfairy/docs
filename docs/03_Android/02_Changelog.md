@@ -1,3 +1,9 @@
+### Version 1.9.0
+Released: 2019-01-20
+
+* [NEW] New network layer, resulting in a much smaller SDK footprint.
+* [BUGFIX] Timestamp for feedbacks sent while offline has been corrected.
+
 ### Version 1.8.1
 Released: 2018-08-30
 * [NEW] New and improved network code.

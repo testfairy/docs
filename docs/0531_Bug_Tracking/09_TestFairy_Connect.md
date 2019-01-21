@@ -68,6 +68,7 @@ If the optional `-f` parameter is omitted, TestFairy Connect will use the defaul
 
 ## Congratulations!
 
-You now have TestFairy Connect installed and configured.
+You now have TestFairy Connect installed,
+Please go to [Bug System Settings](https://app.testfairy.com/settings/bug-system/) and select "TestFairy Connect".
 
 

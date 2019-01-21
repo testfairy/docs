@@ -4,9 +4,11 @@ The auto update ( ![](/img/auto-update-icon.png) )feature in testfairy is design
 First of all, in order for the auto update feature to work, you must have the [TestFairy SDK installed](https://docs.testfairy.com/SDK/Adding_The_SDK_To_Your_App.html) in your application.
 
 There are 3 ways of defining auto update for a specific build:
+
 1. On the build settings screen (for a loaded build):
 
 ![TestFairy build settings ](/img/auto-update-img1.png)
+
 
 2. When you upload a new build via our online upload button ( ![](/img/new-upload-icon.png) ):
 

@@ -19,7 +19,6 @@ The key part of TestFairy Connect is the agent service (TFC Agent) that runs on 
 * Node.js 6
 * Git 1.7+
 
-For Team Foundation Server (TFS) integration, please refer to [that documentation](https://docs.testfairy.com/TestFairy_Connect/Configuring_TFS.html) for additional requirements. 
 
 ## Installation
 

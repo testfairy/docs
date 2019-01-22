@@ -18,12 +18,10 @@ When you upload a new build via our online upload button ( ![](/img/new-upload-i
 
 ### How to configure auto-update in API?
 
-When you upload a new build via our [upload api](https://docs.testfairy.com/API/Upload_API.html):
-
-   When you load via API set the `auto-update` parameter to `yes` when loading the build.
+When uploading a new build via our [upload api](https://docs.testfairy.com/API/Upload_API.html) set the `auto-update` parameter to `on` .
 
 
-
+![](/img/auto-update-dashboard-place.png)
 
 **Please note:** Auto-Update will upgrade all the previous installations of this app to the current version. 
 When your app starts, the SDK will check if a new version is available and is marked for auto update.

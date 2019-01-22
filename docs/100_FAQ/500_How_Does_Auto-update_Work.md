@@ -1,9 +1,10 @@
 ## How does auto-update work?
-The auto update ( ![](/img/auto-update-icon.png) )feature in testfairy is designed to make it easy for your team to receive builds and ensure they are testing on the latest build of your app.
-### How to enable auto-update?
-First of all, in order for the auto update feature to work, you must have the [TestFairy SDK installed](https://docs.testfairy.com/SDK/Adding_The_SDK_To_Your_App.html) in your application.
+TestFairy Auto-Update allows developers to push new app versions automatically, in order to make sure that all users use the latest version of their app. When a new version is set to auto-update, all users using older versions will see a notification next time they use the app, suggesting to update.
 
-There are 3 ways of defining auto update for a specific build:
+### 1. How to configure auto-update?
+In order for the auto-update to work, Your app must include the [TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_SDK_To_Your_App.html) in your application.
+
+There are 3 ways of configure auto-update for a specific build:
 
 
 

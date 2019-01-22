@@ -39,7 +39,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | file            | Y           | APK or IPA file data. |
 | symbols_file    |             | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
 | testers_groups  |             | Either a comma-separated list of tester groups to be invited on the new build, or "all" to invite all testers. |
-| notify          |             | Send emails to the notified tester groups. The default is "on". |
+| notify          |             | Send שמ email to all users in tester_groups. The default is "on". |
 | comment         |             | Additional release notes for this upload. This text will be added to email notifications. |
 | auto-update     |             | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
 

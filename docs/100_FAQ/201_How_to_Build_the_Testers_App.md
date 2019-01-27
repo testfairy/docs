@@ -18,7 +18,7 @@ private static final String BASE_URL = "https://<YOUR_SUBDOMAIN_HERE>.testfairy.
 
 1. Fork this project: https://github.com/testfairy/testers-app-ios
 
-2 Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
+2. Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
 
 ```
 <content src="https://<YOUR_SUBDOMAIN_HERE>.testfairy.com" />

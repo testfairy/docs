@@ -4,34 +4,25 @@ This way, you can cusomtize and brand it as you wish.
 
 In order to get do that please do the following:
 
-# 1. Android
+# Android
 
-## 1.1 Get the code
-Fork this project: https://github.com/testfairy/testers-app-android
+1. Fork this project: https://github.com/testfairy/testers-app-android
 
-## 1.2 Make the following changes
-
-Change [Base_URL](https://github.com/testfairy/testers-app-android/blob/master/TestFairyApp/src/main/java/com/testfairy/app/MainActivity.java#L49)
+2. Change [Base_URL](https://github.com/testfairy/testers-app-android/blob/master/TestFairyApp/src/main/java/com/testfairy/app/MainActivity.java#L49)
 
 ```
 private static final String BASE_URL = "https://<YOUR_SUBDOMAIN_HERE>.testfairy.com";
 ```
 
-# 2. iOS
+# iOS
 
-## 2.1 Get the code
-Fork this project: https://github.com/testfairy/testers-app-ios
+1. Fork this project: https://github.com/testfairy/testers-app-ios
 
-## 2.2 Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
-
-```
-<content src="https://<YOUR_SUBDOMAIN_HERE>.testfairy.com" />
-```
-
-## 2.2 Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
+2 Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
 
 ```
 <content src="https://<YOUR_SUBDOMAIN_HERE>.testfairy.com" />
 ```
+
 
 

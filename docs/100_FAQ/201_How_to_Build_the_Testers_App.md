@@ -1,47 +1,37 @@
-TestFairy provides [private cloud](https://docs.testfairy.com/SDK/Private_Cloud_Integration.html) users the ability to build their own copy of the TestFairy Testers App for either [Android](https://play.google.com/store/apps/details?id=com.testfairy.app&hl=en_US) or [iOS](https://itunes.apple.com/ca/app/testfairy/id977307991?mt=8).
+TestFairy provides customers who run the service on a [private cloud](https://docs.testfairy.com/SDK/Private_Cloud_Integration.html) to build their own TestFairy Testers App.
 
-<div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
-	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
-		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;"  href="#android">
-			<div>Android</div>
-		</a>
-		<a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;"  href="#ios-objc">
-			<div>iOS</div>
-		</a>
-	</div>
+This way, you can cusomtize and brand it as you wish.
 
-	<div class="docs-tabs-content w-tab-content">
-		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
-			<p>
-			In order to build the app for Android, you should first checkout the project from <a target="_blank" href="https://github.com/testfairy/testers-app-android">GitHub</a>. Once checked out, you must simply update the following line
-			<pre>private static final String BASE_URL = "&ltprivate cloud url&gt";</pre> found in the <a target="_blank" href="https://github.com/testfairy/testers-app-android/blob/master/TestFairyApp/src/main/java/com/testfairy/app/MainActivity.java#L54">MainActivity.java</a> to match the URL of your private cloud.
-			</p>
-		</div>
+In order to get do that please do the following:
 
-		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
-			<p>
-			In order to build the app for iOS, you should first checkout the project from <a target="_blank" href="https://github.com/testfairy/testers-app-ios">GitHub</a>. Once checked out, you must simply update three files to match the URL of your private cloud.
-				<ul>
-					<li>
-						<a target="_blank" href="https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10">App config</a>
-						<pre>
-&ltcontent src="&ltprivate cloud url&gt" /&gt
-						</pre>
-					</li>
-					<li>
-						<a target="_blank" href="https://github.com/testfairy/testers-app-ios/blob/master/platforms/ios/TestFairy/config.xml#L29">Deployed config</a>
-						<pre>
-&ltcontent src="&ltprivate cloud url&gt" /&gt
-						</pre>
-					</li>
-					<li>
-						<a target="_blank" href="https://github.com/testfairy/testers-app-ios/blob/master/src/platforms/ios/TestFairy/Classes/MainViewController.m#L32">MainViewController</a>
-						<pre>
-#define kCookieURL @"&ltprivate cloud url&gt/register-notification-cookie/?token="
-						</pre>
-					</li>
-				</ul>
-			</p>
-		</div>
-	</div>
-</div>
+# 1. Android
+
+## 1.1 Get the code
+Fork this project: https://github.com/testfairy/testers-app-android
+
+## 1.2 Make the following changes
+
+Change [Base_URL](https://github.com/testfairy/testers-app-android/blob/master/TestFairyApp/src/main/java/com/testfairy/app/MainActivity.java#L49)
+
+```
+private static final String BASE_URL = "https://<YOUR_SUBDOMAIN_HERE>.testfairy.com";
+```
+
+# 2. iOS
+
+## 2.1 Get the code
+Fork this project: https://github.com/testfairy/testers-app-ios
+
+## 2.2 Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
+
+```
+<content src="https://<YOUR_SUBDOMAIN_HERE>.testfairy.com" />
+```
+
+## 2.2 Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
+
+```
+<content src="https://<YOUR_SUBDOMAIN_HERE>.testfairy.com" />
+```
+
+

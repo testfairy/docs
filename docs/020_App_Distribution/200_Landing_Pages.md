@@ -4,11 +4,16 @@ Landing pages are the most common way to distribute apps to your testers.
 Every app in testfairy, by default, has a landing page that is automatically generated once you upload an app to testfairy via the various app loading ways.
 
 If you do not want a landing page you can disable it on the landing page settings page for that specific app:
+
+
 ![dissable landing page](/img/landing-pages-on-off.png)
+
 
 The Settings of a landing page are defined in the Landing Page Settings page inside your app page in the app dashboard: 
 
+
 ![landing page settings](/img/landing-page-fields.png)
+
 
 * **Landing page URL:** the URL that is automatically generated for each landing page. It is possible to change the last part after the / - slash, to a different string if available.
 

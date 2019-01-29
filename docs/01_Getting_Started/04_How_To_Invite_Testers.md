@@ -19,7 +19,6 @@ For more information about how to add UDIDs to provisioning profiles please read
 ### The TestFairy Landing Pages
 
 TestFairy automatically creates a landing page for each one of your apps. It make it extremely easy to get new testers, by allowing testers to download your app with just one click or a QR code scan. The landing page can be configured to work in public mode, which allows anyone to get the app direclty, or in private mode, which allows testers to request to join the beta and be approved manually.
-You can share this page on social media by using the Facebook, Twitter or Google+ butttons at the top right corner of the page.
 
 To see your landing page from any version of your app, click on the **"share"** button on the top right corner of your build menu.
 
@@ -35,7 +34,7 @@ To modify the settings of your page, you can either:
 
   ![ alt upload](../../img/app/landing-page-settings.png)
 
-Once in the landing page settings, you can choose your privacy setting, fill in the app description, customize your page's stylesheet and share the page with your audience.
+Once in the [landing page settings](https://docs.testfairy.com/App_Distribution/Landing_Pages.html), you can choose your privacy setting, fill in the app description, customize your page's stylesheet and share the page with your audience.
 
 
 ### Managing Tester Groups

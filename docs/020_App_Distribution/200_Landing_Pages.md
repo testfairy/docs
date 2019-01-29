@@ -20,9 +20,9 @@ The Settings of a landing page are defined in the Landing Page Settings page ins
 * **App version:** indicates which version of the app will be downloaded from the landing page.
 
 * **Permission:**  there are 3 ways to allow access to the app download: 
-  * **Open Beta (Anyone can download)** - download is possible to anybody who  can see the page.
-  * **Closed Beta (Testers required to login)** - you must have a TesfFairy account (as a tester or admin) in order to see the page (and download the app).
-  * **Opt-In (Testers can ask you to join)** - in this option the page is open but if testers want to download your app they need to ask permission using the ![sing me up](/img/sign-me-up-button.png)
+  * _Open Beta (Anyone can download)_ - download is possible to anybody who  can see the page.
+  * _Closed Beta (Testers required to login)_ - you must have a TesfFairy account (as a tester or admin) in order to see the page (and download the app).
+  * _Opt-In (Testers can ask you to join)_ - in this option the page is open but if testers want to download your app they need to ask permission using the ![sing me up](/img/sign-me-up-button.png)
 Button. This will trigger a sign-up process details here .
 
 * **App description:** A description you can add to the landing page to give =your testers instructions of other information.

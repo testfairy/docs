@@ -21,8 +21,7 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 - In step 3, enter "TestFairy" as the name of the application, and click next
   ![](https://docs.testfairy.com/img/sso/google/google-6.png)
   
-- In step 4, we will add service provider details. Please change `acme` to your enterprise subdomain name on TestFairy. 
-  ACS URL: `https://acme.testfairy.com/login/sso`
+- In step 4, we will add the service provider details. Please change `acme` to your enterprise subdomain name on TestFairy.com in the ACS URL: `https://acme.testfairy.com/login/sso`
   Entity ID: `https://acme.testfairy.com`
   ![](https://docs.testfairy.com/img/sso/google/google-7.png)
   

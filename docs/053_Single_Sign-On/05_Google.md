@@ -34,7 +34,8 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 - To finish the setup please make sure the service is on:
 ![](/img/sso/google/google-100-1.png)
 
-- If not then go to EDIT SERVICE and change it to On for everyonw  
+- If not then go to EDIT SERVICE and change it to ON for everyonw :
+![](/img/sso/google/google-101.png)
   
 - Now, go to your TestFairy account, click on "Account Preferences" in the topright menu, and select `security` from the left menu. Paste the contents of the file you saved previosuly in the ID Provider metadata field. Click on `Update SAML ID Provider metadata` button when done.
 

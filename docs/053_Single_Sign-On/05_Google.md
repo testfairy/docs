@@ -7,7 +7,7 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 
 #### Setting up Login With Google in your account
 
-- Login to Google Apps as admin, select `Apps`, click on `SAML apps`, and click on bottom-right "Add" button.
+- Login to Google Apps as admin, go to the admin console and select `Apps`, click on `SAML apps`, and click on bottom-right "Add" button.
   ![](https://docs.testfairy.com/img/sso/google/google-1.png)
   ![](https://docs.testfairy.com/img/sso/google/google-2.png)
   ![](https://docs.testfairy.com/img/sso/google/google-3.png)

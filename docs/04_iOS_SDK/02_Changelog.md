@@ -2,7 +2,7 @@
 Released 2019-01-31
 
 * Observe session state with `setSessionStateDelegate`
-* Multiple bugfixes to support App store relases with TestFairy SDK
+* Removed calls to `__NSCFURLLocalSessionConnection` and `__NSCFURLSessionConnection`.
 
 ### Version 1.18.1
 Released 2018-11-27

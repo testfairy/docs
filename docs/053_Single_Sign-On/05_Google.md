@@ -28,6 +28,9 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 - Please review and then click `next` and in the next screen click `Finish` when done.
   ![](https://docs.testfairy.com/img/sso/google/google-8.png)
   
+  - you will see a message confirming the setup.
+  ![](/img/sso/google/google41.png)
+  
 - Now, please go to your TestFairy account, click on "Account Preferences" in the topright menu, select `SAML/Single Sign-on` from the left menu, and paste the contents of the file you saved previosuly here. Click on `Update SAML metadata` when done.
   ![](https://docs.testfairy.com/img/sso/google/google-9.png)
     

@@ -10,7 +10,7 @@ There are 3 levels of users in the system:
 2. **Admin**
    - Admin - a developer that can upload builds, delete builds, view and delete sessions and so on. 
    - Super Admin - on top of admin abilities can add other admins to the account.
-3. **Tester** - see here: (https://docs.testfairy.com/Getting_Started/How_To_Invite_Testers.html)
+3. **Tester** - see [here](https://docs.testfairy.com/Getting_Started/How_To_Invite_Testers.html).
 
 You can add more admins to your projects by adding their email address and specifying the access level in the Permissions field below. 
 

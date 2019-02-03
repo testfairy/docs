@@ -33,7 +33,7 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
   ![](https://docs.testfairy.com/img/sso/okta/okta-9.png)
   
 - In the "SAML/Single Sign-on" menu, paste your clipboard into the text area:
-  ![](https://docs.testfairy.com/img/sso/google/google-9.png)
+  ![](/img/sso/okta/security-saml-okta-xml.png)
   
 - TestFairy-side configuration is also done:
   ![](https://docs.testfairy.com/img/sso/okta/okta-11.png)

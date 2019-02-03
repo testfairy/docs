@@ -32,7 +32,7 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 - Now login to https://app.testfairy.com, and open the "Preferences" page:
   ![](https://docs.testfairy.com/img/sso/okta/okta-9.png)
   
-- In the "SAML/Single Sign-on" menu, paste your clipboard into the text area:
+- In the 'Security' manu item "SAML/Single Sign-on" section, paste the copied 'ID Provided Metadata' into the text area:
   ![](/img/sso/okta/security-saml-okta-xml.png)
   
 - TestFairy-side configuration is also done:

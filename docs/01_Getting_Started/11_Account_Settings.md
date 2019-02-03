@@ -28,7 +28,7 @@ There are 3 levels of users in the system:
  - Admin level - a developer that can upload builds, delete builds, view and delete sessions and so on. 
     * by default an admin has `rw` access (read, write) on All projects. This can be changed to read only level (r),  and can be specific to each application.
  - Super admin level - on top of admin abilities can add other admins to the account.
-3. **Tester** - see https://docs.testfairy.com/Getting_Started/How_To_Invite_Testers.html
+3. **Tester** - see here: @https://docs.testfairy.com/Getting_Started/How_To_Invite_Testers.html
 
 You can add more admins to your projects by adding their email address and specifying the access level in the Permissions field below. 
 

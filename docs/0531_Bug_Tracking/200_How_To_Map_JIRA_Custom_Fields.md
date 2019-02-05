@@ -41,7 +41,7 @@ When defining fields in the Configure Fields window follow the below conventions
 ![values drop down](/img/bug-tracking/jira-values-drop-down.png)
 
 2. You can also choose from the fixed predefined values in the list below:
-* `{user.id}` = the UserId of the session running.
+* `{user.id}` - the UserId of the session running.
 * `{session.timestamp}` - the timestamp of the session.
 * `{session.url}` - the url of the session on the TestFairy dashboard.
 * `{device.os}` - the running device OS

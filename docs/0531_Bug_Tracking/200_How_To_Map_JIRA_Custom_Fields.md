@@ -49,7 +49,8 @@ When defining fields in the Configure Fields window follow the below conventions
 * `{app.name}` - the app name.
 * `{app.version}`  - the _versionName_ of the build. example: 1.7.0
 * `{app.fullVersion}` - the _versionName_ + _versionCode_ of the build. example: 1.7.0 (1700)
-For using these values add them to the -Dynamic value- field that opens when you select the -Dynamic value- option like so:
+
+In order to use these values add them to the -Dynamic value- field that opens when you select the -Dynamic value- option like so:
 
 ![fixed values](/img/bug-tracking/jira-fixed-attr-popup.png)
 

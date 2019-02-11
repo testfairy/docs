@@ -4,3 +4,8 @@ In order to increase deliverability and open rates please connect your TestFairy
 This option is recommended for all users and is included in all packages.
 
 ![SMTP screen](/img/integrations/SMTP-1.png)
+
+
+### Gmail Integration
+
+![gmail integration](/img/integrations/Gmail-1.png)

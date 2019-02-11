@@ -1,3 +1,9 @@
+### Version 1.9.2
+
+* [NEW] Support for sending diagnostic audio recordings using addAudioRecording().
+* [IMPROVEMENT] Persistentcy of session attributes.
+* [IMPROVEMENT] Handled out of rare memory allocation errors.
+
 ### Version 1.9.0
 Released: 2019-01-20
 

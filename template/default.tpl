@@ -239,7 +239,8 @@
 
                             <?php /* gilm */ ?>
                             <p>
-                                Last updated <?php echo gmstrftime("on %Y-%m-%d at %H:%M:%S", $page['modified']); ?>
+                                Last updated on
+				<?php $last_change = system("git log -1 --date=short \"docs/" . $page['path'] . "\" |grep Date | awk {'print $2'}"); ?>
                             </p>
 
                         </article>

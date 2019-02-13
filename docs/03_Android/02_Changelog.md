@@ -1,7 +1,11 @@
+### Version 1.9.4
+Released: 2019-02-13
+
+* [NEW] Support for sending diagnostic audio recordings using addAudioRecording().
+
 ### Version 1.9.3
 Released: 2019-02-12
 
-* [NEW] Support for sending diagnostic audio recordings using addAudioRecording().
 * [IMPROVEMENT] Persistentcy of session attributes.
 * [IMPROVEMENT] Handled out of rare memory allocation errors.
 

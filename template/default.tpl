@@ -237,6 +237,11 @@
                                 <iframe frameborder=0 src="https://app.testfairy.com/docs/did-this-help" style="width: 600px; height: 400px;"></iframe>
                             </div>
 
+                            <?php /* gilm */ ?>
+                            <p>
+                                Last updated <?php echo gmstrftime("on %Y-%m-%d at %H:%M:%S", $page['modified']); ?>
+                            </p>
+
                         </article>
                     </div>
                 </div>

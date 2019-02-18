@@ -6,7 +6,7 @@ Once the new version of your app is uploaded to your account, you can let your t
 
 There are a couple of ways to let your testers know about your new upload: 
 
-You can choose to invite your testers via email or you can build a community of testers by using our pre-designed landing page.
+You can choose to invite your testers via email or you can build a community of testers by using our pre-designed [landing page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html).
 
 ### Managing Testers
 
@@ -32,13 +32,6 @@ ______
 ______
 
 ![ alt upload](../../img/app/invite-testers2.png)
-
-### The TestFairy Landing Pages
-
-TestFairy automatically creates a landing page for distributing your apps. 
-Go to [landing pages](https://docs.testfairy.com/App_Distribution/Landing_Pages.html) to learn how to manage them.
-
-
 
 You can also divide testers to **groups** to add more structure and organise your testing efforts. 
 In order to create a group click in the GROUPS text-box and then on `Create new group...`

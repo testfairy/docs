@@ -25,30 +25,14 @@ ______
 
 ### The TestFairy Landing Pages
 
-TestFairy automatically creates a landing page for each one of your apps. It make it extremely easy to get new testers, by allowing testers to download your app with just one click or a QR code scan. The landing page can be configured to work in public mode, which allows anyone to get the app direclty, or in private mode, which allows testers to request to join the beta and be approved manually.
-
-To see your landing page from any version of your app, click on the **"share"** button on the top right corner of your build menu.
-
-![ alt upload](../../img/app/share-btn.png)
-
-To modify the settings of your page, you can either:
- 
-  1. Click on **"App Landing Page"** in your app menu (right next to the app name) 
-  
-  ![ alt upload](../../img/app/landing-page-btn.png)
-  
-  2. Go to "settings" in your build menu, and look for "Landing Page" under the "App distribution" section.
-
-  ![ alt upload](../../img/app/landing-page-settings.png)
-
-Once in the [landing page settings](https://docs.testfairy.com/App_Distribution/Landing_Pages.html), you can choose your privacy setting, fill in the app description, customize your page's stylesheet and share the page with your audience.
-
+TestFairy automatically creates a landing page for distributing your apps. 
+Go to [landing pages](https://docs.testfairy.com/App_Distribution/Landing_Pages.html) to learn how to manage them.
 
 ### Managing Tester Groups
 
-To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click on **Invite Testers** in the build menu.
+To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click on **TESTERS** tab.
 
-![ alt upload](../../img/app/invite-testers2.png)
+![ alt upload](../../img/app/invite-testers.png)
 
 You can also divide testers to **groups** to add more structure and organise your testing efforts. 
 You can then invite a select number testers in a specific group to test a new build. Simply select your testers and click "Invite selected testers" on the bottom of the page to send them an email invitation.

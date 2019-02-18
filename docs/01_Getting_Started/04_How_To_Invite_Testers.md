@@ -28,13 +28,22 @@ ______
 TestFairy automatically creates a landing page for distributing your apps. 
 Go to [landing pages](https://docs.testfairy.com/App_Distribution/Landing_Pages.html) to learn how to manage them.
 
-### Managing Tester Groups
+### Managing Testers
 
-To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click on **TESTERS** tab.
+To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click on the **TESTERS** tab.
 
 ![ alt upload](../../img/app/invite-testers.png)
 
 You can also divide testers to **groups** to add more structure and organise your testing efforts. 
+In order to create a group click in the GROUPS text-box and then on `Create new group...`
+Choose a group name and pree OK. The tester you clicked in his group will be assigned the group you just created.
+
+![alt tester group](../../img/app/tester-groups-1.png)
+
+Tester groups help you manage the invitation process to your apps. If you want to invite a number of testers that are all under same group simply filter the list of testers according to that group and then select all and invite them.
+
+![alt invite group](/img/app/tester-group-2.png)
+
 You can then invite a select number testers in a specific group to test a new build. Simply select your testers and click "Invite selected testers" on the bottom of the page to send them an email invitation.
 
 ![ alt upload](../../img/app/tester-groups.png)

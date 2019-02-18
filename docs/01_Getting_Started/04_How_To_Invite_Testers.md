@@ -2,7 +2,9 @@
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/Y2KpYgi8wLI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-Once the new version of your app is uploaded to your account, you can let your testers know about it and invite them to start testing. There are a couple of ways to let your testers know about your new upload. 
+Once the new version of your app is uploaded to your account, you can let your testers know about it and invite them to start testing. 
+
+There are a couple of ways to let your testers know about your new upload: 
 
 You can choose to invite your testers via email or you can build a community of testers by using our pre-designed landing page.
 
@@ -17,7 +19,7 @@ To see all the testers you have for your app, invite new individual testers or i
 To invite testers by email click on the `Add Testers` Button. 
 In the list box add tester emails  - one for each row.
 
-You can also select a Group for the testers in the list or just leav it blank (see managing tester groupd below).
+You can also select a Group for the testers in the list or just leave it blank (see managing tester groupd below).
 After you finished press the `Add Testers` button below the list to complete the process.
 
 You can add testers manually or [import lists of testers](https://app.testfairy.com/testers/import/) in csv format.

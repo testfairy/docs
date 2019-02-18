@@ -43,7 +43,7 @@ Tester groups help you manage the invitation process to your apps. If you want t
 
 ![alt invite group](/img/app/tester-group-2.png)
 
-In order to delete a group you will first have to delete all its mentions in the GROUPS field. Delete the group by pressing the `x` next to it sname. Once you delete all its occurances it will de deleted. Refresh the apage to make sure it was deleted.
+In order to delete a group you will first have to delete all its mentions in the GROUPS field. Delete the group by pressing the `x` next to its name. Once you have delete all its occurances it will de deleted. Refresh the apage to make sure it was deleted.
 
 
 ![ alt delete group](../../img/app/delete-group.png)

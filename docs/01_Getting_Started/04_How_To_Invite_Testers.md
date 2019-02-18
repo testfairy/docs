@@ -10,7 +10,7 @@ You can choose to invite your testers via email or you can build a community of 
 
 ### Managing Testers
 
-To see all the testers you have for your app, invite new individual testers or import/export a list of testers, click on the **TESTERS** tab.
+To see all the testers you have for your app, invite new testers or import/export a list of testers, click on the **TESTERS** tab.
 
 ![ alt upload](../../img/app/invite-testers.png)
 

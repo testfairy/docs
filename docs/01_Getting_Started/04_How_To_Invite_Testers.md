@@ -43,9 +43,12 @@ Tester groups help you manage the invitation process to your apps. If you want t
 
 ![alt invite group](/img/app/tester-group-2.png)
 
-A group will be available as long as it has a test in it. if you want to delete a groul you will need to deket all its testers.
+In order to delete a group you will first have to delete all its mentions in the GROUPS field. Delete the group by pressing the `x` next to it sname. Once you delete all its occurances it will de deleted. Refresh the apage to make sure it was deleted.
 
-![ alt upload](../../img/app/tester-groups.png)
+
+![ alt delete group](../../img/app/delete-group.png)
+
+
  
 **What you should read next:** [How To Analyze Test Results](How_To_Analyze_Test_Results.html).
 

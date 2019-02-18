@@ -11,8 +11,12 @@ You can choose to invite your testers via email or you can build a community of 
 To invite or notify testers by email, go to the build menu, right next to your app name and version, and select **Invite Testers**.
 You can add testers manually or [import lists of testers](https://app.testfairy.com/testers/import/) in csv format.
 
-**Note for iOS only: If you are **not** using an [iOS Enterprise certificate](https://developer.apple.com/programs/ios/enterprise/), you will need to get the UDID's of your testers' devices before sending them your app. When you invite new testers by email, your testers will get an email asking them to register their device. Once they click on the registration link, you will get an email with their UDID and their device details will be added to your [testers page](https://app.testfairy.com/testers).
-For more information about how to add UDIDs to provisioning profiles please read [this guide](http://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html).
+______
+##### Note for iOS only
+   If you are **not** using an [iOS Enterprise certificate](https://developer.apple.com/programs/ios/enterprise/), you will need to get the UDID's of your testers' devices before sending them your app.   
+   When you invite new testers by email, your testers will get an email asking them to register their device. Once they click on the registration link, you will get an email with their UDID and their device details will be added to your [testers page](https://app.testfairy.com/testers).  
+   For more information about how to add UDIDs to provisioning profiles please read [this guide](http://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html).
+______
 
 ![ alt upload](../../img/app/invite-testers2.png)
 

@@ -7,22 +7,7 @@ The issue will appear with an automatically generated screenshot of the app whic
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/lVlXx01jrU8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-
-A link to the tester's account is automatically sent to the testers together with the invitaion to start testing your app.
-
-*It is possible to configure your account to automatically post feedbacks into your JIRA, Bugzilla or Github account. In order to enable this feature, please contact our [support team](https://app.testfairy.com/contact).
-
-### Issue Reporting by Developers
-
-After the session is finished, developers can also add their bug reports directly from the session page, by by clicking on the **Create Bug** button on the top right side of your **Session Overview** page.
-
-![ alt create-bug](../../img/app/report-bug-btn.png)
- 
-A **Bug Creation** dialogue box opens up. Everything you type in the dialogue will be inserted directly into a new issue in your bug reporting system.
-
-![ alt bug-creation](../../img/app/report-issue-window.png)
-
-
+It is also possible to automatically integrate [Bug Tracking](https://docs.testfairy.com/Bug_Tracking/Overview.html) systems to your issues so when they are created the issues are passed automatically.  
 
 
 **What to read next:** 

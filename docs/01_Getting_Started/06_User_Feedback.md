@@ -1,20 +1,9 @@
 <!-- ## Reporting Bugs -->
-
-TestFairy has a seamless, bi-directional integration with **Bugzilla**, **JIRA** and **GitHub**. In order to connect to a bug reporting system, all you need to do is provide the credentials on your <a href="http://docs.testfairy.com/Getting_Started/Account_Settings.html">Account Settings</a> page. Once the connection is set up, you can choose to report bugs **manually** or **automatically, via API**.
-
  
-### Manual Issue Reporting by Testers
+### Shake to create Feedback
 
-When a bug is found during a testing session, testers can report back in several ways.
-
-* Logging into the testers dashboard at [https://my.testfairy.com](https://my.testfairy.com)
-
-* Logging to the [Android](https://play.google.com/store/apps/details?id=com.testfairy.app) or [iOS](https://itunes.apple.com/app/testfairy/id977307991) testers app.
-
-<img src="../../img/app/report-bug.png" width="800"/>
-
-
-* Shaking the device and filling in a feedback form that pops up (available only on the enterprise package) 
+When the [TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_SDK_To_Your_App.html) is defined in your app shaking the device will prompt the user to create a feedback issue from within the app.
+The issue will appear with an automatically generated screenshot of the app which can be annotated and a feedback form where details like email and description can be added. 
 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/lVlXx01jrU8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 

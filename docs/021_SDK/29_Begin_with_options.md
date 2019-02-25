@@ -70,12 +70,14 @@ public class MainActivity extends Activity {
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
 	</div>
 
-	<p name="video-recording"></p>
+	<div> 
+	<a name="video-recording"></a> 
+	</div>
+	<br>
+	<br>
+	<br>
 	<h2>
-	<br>
-	<br>
-	<br>
-	<a></a>
+	
 	Video Recording
 	</h2>
 	<p>TestFairy provides an option to enable or disable video recording, and to control the parameters of the recording. Invoke <b>disableVideo</b>, or <b>enableVideo</b> before <b>begin</b>.</p>

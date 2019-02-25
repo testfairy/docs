@@ -73,11 +73,7 @@ public class MainActivity extends Activity {
 	<div> 
 	<a name="video-recording"></a> 
 	</div>
-	<br>
-	<br>
-	<br>
 	<h2>
-	
 	Video Recording
 	</h2>
 	<p>TestFairy provides an option to enable or disable video recording, and to control the parameters of the recording. Invoke <b>disableVideo</b>, or <b>enableVideo</b> before <b>begin</b>.</p>

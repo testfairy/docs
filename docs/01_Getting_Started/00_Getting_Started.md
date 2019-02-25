@@ -21,7 +21,7 @@
 			<img src="../img/getting-started/getting-started-icons-07.png" class="getting-started-img">
 			<div class="getting-started-question">I want to record videos of my apps</div>
 			<div>See how your users are using your apps. See screen touches, follow trends and learn from usage.</div>
-			<a href="../SDK/Introduction.html" class="getting-started-btn">Learn More</a>
+			<a href="../SDK/Begin_with_options.html#video-recording" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">

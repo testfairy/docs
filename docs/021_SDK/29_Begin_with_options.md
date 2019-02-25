@@ -70,10 +70,11 @@ public class MainActivity extends Activity {
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
 	</div>
 
-<br>
-<br>
-<br>
+
 	<h2>
+	<br>
+	<br>
+	<br>
 	<a name="video-recording"></a>
 	Video Recording
 	</h2>

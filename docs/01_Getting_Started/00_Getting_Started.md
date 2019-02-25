@@ -26,9 +26,9 @@
 
 		<div class="getting-started-card">
 			<img src="../img/getting-started/getting-started-icons-10.png" class="getting-started-img">
-			<div class="getting-started-question">I want to collect crash reports</div>
-			<div>Collect crash reports from your apps, and have them added to bug system or sent by email.</div>
-			<a href="../SDK/Introduction.html" class="getting-started-btn">Learn More</a>
+			<div class="getting-started-question">I want to know more about TestFairy for enterprise</div>
+			<div>TestFairy for enterprise includes many security and managment features.</div>
+			<a href="../Security/Private_Cloud.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">

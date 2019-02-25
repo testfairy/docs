@@ -45,6 +45,8 @@ When defining fields in the Configure Fields window follow the below conventions
 * `{session.timestamp}` - the timestamp of the session.
 * `{session.url}` - the url of the session on the TestFairy dashboard.
 * `{device.os}` - the running device OS
+* `{device.model}` - the device model of the handset
+* `{device.osVersion}` - the OS version on the device (if the iPhone is running versio IOS 12 value=12) 
 * `{session.ipAddress}` - the IP address of the device running the session.
 * `{app.name}` - the app name.
 * `{app.version}`  - the _versionName_ or _CFBundleShortVersionString_ of the build. example: 1.7.0

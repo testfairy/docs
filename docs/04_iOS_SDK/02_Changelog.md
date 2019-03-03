@@ -1,8 +1,13 @@
+### Version 1.19.1
+Released 2019-03-03
+
+* [NEW] Display Feedback on new window instead of on the current hierarchy.
+
 ### Version 1.19.0
 Released 2019-01-31
 
-* Observe session state with `setSessionStateDelegate`
-* Removed calls to `__NSCFURLLocalSessionConnection` and `__NSCFURLSessionConnection`.
+* [NEW] Observe session state with `setSessionStateDelegate`
+* [BUGFIX] Removed calls to `__NSCFURLLocalSessionConnection` and `__NSCFURLSessionConnection`.
 
 ### Version 1.18.1
 Released 2018-11-27

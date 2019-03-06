@@ -19,7 +19,7 @@ To see all the testers you have for your app, invite new testers or import/expor
 To invite testers by email click on the `Add Testers` Button. 
 In the list box add tester emails  - one for each row.
 
-You can also select a Group for the testers in the list or just leave it blank (see managing tester groupd below).
+You can also select a Group for the testers in the list or just leave it blank (see **Managing tester groups** below).
 After you finished press the `Add Testers` button below the list to complete the process.
 
 You can add testers manually or [import lists of testers](https://app.testfairy.com/testers/import/) in csv format.
@@ -32,6 +32,9 @@ ______
 ______
 
 ![ alt upload](../../img/app/invite-testers2.png)
+
+
+### Managing tester groups
 
 You can also divide testers to **groups** to add more structure and organise your testing efforts. 
 In order to create a group click in the GROUPS text-box and then on `Create new group...`

@@ -1,3 +1,9 @@
+### Version 1.19.2
+Released 2019-03-07
+
+* [BUGFIX] CPU peaking at 100% with video recording
+* [BUGFIX] Hide keyboard from video recording under certain circumstances
+
 ### Version 1.19.1
 Released 2019-03-03
 

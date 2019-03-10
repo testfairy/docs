@@ -1,7 +1,7 @@
 <div class="getting-started-container">
 	<div class="getting-started-card-container w-clearfix">
 		<div class="getting-started-title">Welcome to TestFairy! Let's get started...</div>
-		<div class="getting-started-card">
+		<div class="getting-started-card" <a href="../Getting_Started/Distributing_Your_Apps.html"></a>
 			<img src="../img/getting-started/2-fold-icons-01-05.png" class="getting-started-img">
 			<div class="getting-started-question">I want to distribute my app to testers</div>
 			<div>Invite testers to try out your app, using over-the-air distribution.</div>

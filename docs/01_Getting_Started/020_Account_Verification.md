@@ -5,6 +5,12 @@ If you are new to TestFairy, the first thing you want to do is [sign up](http://
 Signing up is easy and free. 
 All you have to do is insert your email address and choose a password - and you're in!
 
+![sign up](/img/getting-started/sign-up-1.png)
+
+You can use your work email (preferred ) or just use gmail to create your account.
+Select a domain name for your TestFairy [DASHBOARD](https://rafim.testfairy.com/) link - make it your own. 
+
+
 After signing up, you will receive a welcome email from us. 
 
 Don't throw it away, It contains some useful information:

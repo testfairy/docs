@@ -15,7 +15,7 @@ After signing up, you will receive a welcome email from us.
 
 Don't throw it away, It contains some useful information:
 
- 1. First, please click on the account verficiation link in order to **fully activate** your account. 
+ 1. First, please click on the account verificiation link in order to **fully activate** your account. 
  
  2. In this email you will also find your **API Key**. 
     Use this key to upload builds and invite testers directly via command line, Gradle, Jenkins and all the other [plugins](https://docs.testfairy.com/Continuous_Integration/Introduction.html). 

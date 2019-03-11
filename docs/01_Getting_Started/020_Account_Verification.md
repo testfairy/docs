@@ -15,19 +15,19 @@ After signing up, you will receive a welcome email from us.
 
 Don't throw it away, It contains some useful information:
 
- 1. First, please click on the account verificiation link in order to **fully activate** your account. 
+ 1. First, please click on the account verification link in order to **fully activate** your account. 
  
  2. In this email you will also find your **API Key**. 
     Use this key to upload builds and invite testers directly via command line, Gradle, Jenkins and all the other [plugins](https://docs.testfairy.com/Continuous_Integration/Introduction.html). 
     * **This key is PRIVATE to you and should not be shared with others.**
 
-    Plesase note that you don't have to use the API immediately, as you can [upload](Upload.html) your apps to TestFairy     manually, easily and instantly. 
+    Please note that you don't have to use the API immediately, as you can [upload](Upload.html) your apps to TestFairy     manually, easily and instantly. 
 
-    However, in order to connect your continious integration server the [Upload API](/Upload_API.html) will be required. 
+    However, in order to connect your continuous integration server the [Upload API](/Upload_API.html) will be required. 
 
     Please read the [Upload API](https://docs.testfairy.com/API/Upload_API.html) documentation for more details. 
 
-    There are many plusing availablr and we are allways working on new ones. Look at our [plugins](https://docs.testfairy.com/Continuous_Integration/Introduction.html) page for all the available CI plugins.
+    There are many plugins available and we are always working on new ones. Look at our [plugins](https://docs.testfairy.com/Continuous_Integration/Introduction.html) page for all the available CI plugins.
 
 
  3. The welcome email also contains your **App Token**, to be used when initializing the TestFairy SDK. You can also see it in your [App Token](https://app.testfairy.com/settings/) page 

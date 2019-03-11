@@ -2,6 +2,8 @@
  
 If you are new to TestFairy, the first thing you want to do is [sign up](http://www.testfairy.com/signup). 
 
+<iframe width="400" height="300" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w"></iframe>
+
 Signing up is easy and free. 
 All you have to do is insert your email address and choose a password - and you're in!
 

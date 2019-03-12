@@ -78,6 +78,31 @@ public class cameraScript : MonoBehaviour {
 }
 ```
 
+### Log your exceptions
+If you would like to capture exception logs and send them to the TestFairy dashbord use this code example:
+
+```
+public string output = "";
+public string stack = "";
+private void OnEnable()
+{
+Application.logMessageReceived += HandleLog;
+}
+private void OnDisable()
+{
+Application.logMessageReceived -= HandleLog;
+}
+private void HandleLog(string logString, string stackTrace, LogType type)
+{
+output = logString;
+stack = stackTrace;
+TestFairy.log(output);
+TestFairy.log(stack);
+}
+```
+
+
+
 ### Identifying your users
 
 See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#unity) for more information.

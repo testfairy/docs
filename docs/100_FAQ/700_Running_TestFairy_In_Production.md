@@ -9,7 +9,7 @@ Therefore it is important to follow these guidelines:
 1. On iOS, you must request explicit user consent before recording start. 
 Please read carefully the [Apple guidelines](https://developer.apple.com/app-store/review/guidelines/) and pay special attention to section 2.5.14
 
-2. When recording sensitive data you **must** use TestFairy's end-to-end encryption with your own private keys, so that only your team will be able to see your sessions.
+2. When recording sensitive data you **must** use TestFairy's [end-to-end encryption](/Security/End_to_End_Data_Encryption.html) with your own private keys, so that only your team will be able to see your sessions.
 
 3. It is strongly recommended to [hide sensitive data](/SDK/Hiding_Sensitive_Data.html) so that data will not be uploaded to the server.
 

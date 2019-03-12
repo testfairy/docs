@@ -1,4 +1,4 @@
-# Does TestFairy work in production with live traffic?
+### Does TestFairy work in production with live traffic?
 
 Yes. TestFairy works both in testing and in production. However, before doing that, please read this document carefully.
 

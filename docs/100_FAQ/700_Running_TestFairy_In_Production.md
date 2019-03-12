@@ -15,12 +15,12 @@ Please read carefully the [Apple guidelines](https://developer.apple.com/app-sto
 
 4. It is strongly recomended to use a [private cloud](/Security/Private_Cloud.html) .
 
-5. In case you are using TestFairy for customer support, to better understand your users in case of a technical issue, 
+5. In case you are using TestFairy for customer support to better understand your users in case of a technical issue, 
 it is recomended to add a button to your app menu (call it "advanecd support"?) and have that button call TestFairy.begin(). 
 Before calling begin() ask the user if this is ok to record their screen for quality assurance purposes. 
 When doing that, make sure that session duration is set to 2-3 minutes, just enough to identify the cause of a problem.
 
 6. You MUST include a proper disclaimer in your app terms of service document. 
 You must explain exactly what data you collect, and how to request deletion of that data.
-For more information about GDPT, please [contact support](https://testfairy.com/contact)
+For more information about [GDPR](/Security/GDPR.html), please [contact the TestFairy team](https://testfairy.com/contact)
 

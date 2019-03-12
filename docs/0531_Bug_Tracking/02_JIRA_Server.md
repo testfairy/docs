@@ -54,7 +54,7 @@ $ node node_modules/testfairy-connect/service.js configure
 
 When done, the configuration wizard will display the success message: **Successfully connected to issue tracker.**
 
-Congratulations, you have successfully configured TestFairy Connect with JIRA using basic authentication. Next, [start the agent from command line](https://docs.testfairy.com/TestFairy_Connect/Installing_on_Linux_or_Mac.html)
+Congratulations, you have successfully configured TestFairy Connect with JIRA using basic authentication. Next, [start the agent from command line](https://docs.testfairy.com/Bug_Tracking/TestFairy_Connect.html)
 
 
 ---------------------------------

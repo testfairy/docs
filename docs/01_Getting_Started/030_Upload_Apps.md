@@ -3,7 +3,7 @@ If you don’t have an account yet, please <a href="http://www.testfairy.com/sig
 If you have a TestFairy account, please <a href="https://app.testfairy.com/login" target="_blank">log in</a>.
 
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/yf9SEQX8kWY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="600" height="450" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/wdtj0svxnh-xftb9kmde0"></iframe>
 
 
 ## <a id="Uploading"></a> Uploading Your Application

@@ -23,22 +23,7 @@ This guide will describe the manual upload process.
 
 ## Selecting Your Project Settings
 
-You can define your testing settings right on the upload process.
-
-**Selecting Your Project Settings**
-
-Following are the parameters you can set up directly on the **Upload** process, when you reach the "Build Settings" section. Simply click on the **"Advanced Settings"** link under the comments, to check or uncheck the parameters you are interested in for this testing round.
-
- * CPU 
- * Memory
- * Network
- * Application logcat
- * Phone signal (Android only)
- * Battery (Android only)
- * WIFI (Android only)
- * Network HTTP request (iOS only)
-
-In addition, you can set the following parameters:
+You can define your testing settings right in the upload process:
 
 -- **Auto-Update** - When auto update is enabled, users using previous versions of this app will get a notification about the new version next time they open up the app. The new version will be downloaded automatically, so the user doesn't have to actively download it. Please note that in this case no email notification will be sent to the testers.
 

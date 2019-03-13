@@ -10,7 +10,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 
 The first section is the Insights section.
-<img src="../../img/build-settings-1.png" width="800"/>
+<img src="../../img/getting-started/build-settings-1.png" width="800"/>
 
 * Recording: Choose wether Insights is enabled, disabled or eabled only when WIFI is enabled. This is global and overrides all other settings.
 

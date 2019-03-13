@@ -5,6 +5,12 @@ When SSO is configured into your account, the login page is replaced with a simp
 
 Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterprise#request-a-demo](https://testfairy.com/products/solutions/enterprise#request-a-demo)
 
+Sections:
+- [Installation](#installation)
+- [Troubleshooting](#troubleshooting)
+
+<a name="installation"></a>
+
 #### Setting up Login With Google in your account
 
 - Login to Google Apps as admin, go to the admin console and select `Apps`, click on `SAML apps`, and click on bottom-right "Add" button.
@@ -42,3 +48,12 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
   ![](https://docs.testfairy.com/img/sso/google/google-9.png)
     
 Now, please log out and make sure you can see the "Login with Google" button.
+
+<a name="troubleshooting"></a>
+
+#### Troubleshooting
+
+- `Error: app_not_configured_for_user`. If you are seeing this error message on Google, then it means that you:
+  - Didn't enable this app for the current user or for all users. Please see in installation section above, how to enable the newly created app for all users.
+  - Accidentally provided wrong **ACS URL** or **Entity ID**. Please see installation section above for the correct values. Notice that every single character matters as values *MUST* be identical for verification.
+  

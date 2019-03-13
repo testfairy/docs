@@ -3,6 +3,8 @@
 In order to configure your build (version) settings, click on the **Settings** button on your build menu, right next to the app name and version.
 Every build has its own settings, however, some of the definitions are shared by all builds of an app.
 
+<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/aftiqrzoh4-b55x03f9fv"></iframe>
+
 <!-- ![ alt build-settings-btn](../../img/app/build-settings-btn.png) -->
 <img src="../../img/app/build-settings-btn.png" width="800"/>
 
@@ -17,10 +19,7 @@ The first section is the Insights section.
 * Collect Logs in background: Please note that this option will cause some battery consumption. Use it only if logs are needed.
 
 * **Video settings** - Changing video settings can be useful if you wish to decrease network overload: 
-    * Enable video recording 
-    * Screenshot interval - increase the interval to decrease network overload.
-    * Video quality - decrease the video quality to decrease network overload.
-    
+    * Enable video recording     
 * **Metrics**:
    * CPU
    * Memory

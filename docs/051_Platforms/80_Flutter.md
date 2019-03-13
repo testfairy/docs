@@ -12,7 +12,7 @@ Use this package as a library
 
 Add this to your package's pubspec.yaml file:
 
-```javascript
+```
 
 dependencies:
   testfairy_flutter: ^1.0.1
@@ -22,23 +22,23 @@ dependencies:
 
 You can install packages from the command line:
 with Flutter:
-```javascript
+```
 $ flutter packages get
 ```
 Alternatively, your editor might support flutter packages get. Check the docs for your editor to learn more.
 ### 3. Import it
 
 Now in your Dart code, you can use:
-```javascript
+```
 import 'package:testfairy_flutter/testfairy_flutter.dart';
 ```
 ### Quick Start
 Include the library and run your main app like this.
-```javascript
+```
 import 'package:testfairy_flutter/testfairy_flutter.dart';
 ```
 
-```javascript
+```
 void main() {
   runZoned(
     () async {

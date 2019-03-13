@@ -1,44 +1,37 @@
-
 ### Adding TestFairy to your flutter project
 
-
-If you are developing your app in flutter here are the instructions to add the TestFairy sdk:
-(here is a link to the document)
+If you are developing your app in flutter here are the instructions to add the TestFairy sdk.
 
 #### Installing
 Use this package as a library
 
 ### 1. Depend on it
-
 Add this to your package's pubspec.yaml file:
 
 ```
-
 dependencies:
-  testfairy_flutter: ^1.0.1
-
+  testfairy: any
 ```
-### 2. Install it
 
+### 2. Install it
 You can install packages from the command line:
 with Flutter:
 ```
 $ flutter packages get
 ```
 Alternatively, your editor might support flutter packages get. Check the docs for your editor to learn more.
-### 3. Import it
 
+### 3. Import it
 Now in your Dart code, you can use:
 ```
-import 'package:testfairy_flutter/testfairy_flutter.dart';
+import 'package:testfairy/testfairy.dart';
 ```
+
 ### Quick Start
 Include the library and run your main app like this.
 ```
-import 'package:testfairy_flutter/testfairy_flutter.dart';
-```
+import 'package:testfairy/testfairy.dart';
 
-```
 void main() {
   runZoned(
     () async {
@@ -46,9 +39,9 @@ void main() {
         FlutterError.onError = (details) => TestFairy.logError(details.exception);
 
         // Do any other SDK setup here
-        TestFairy.begin('TOKEN');
+        await TestFairy.begin('TOKEN');
 
-        await runApp(TestfairyExampleApp());
+        runApp(TestfairyExampleApp());
       } catch (error) {
         TestFairy.logError(error);
       }
@@ -60,3 +53,6 @@ void main() {
   );
 }
 ```
+
+### API Reference
+You can find a detailed documentation to latest Dart interface [here](https://pub.dartlang.org/documentation/testfairy/latest/).

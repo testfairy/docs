@@ -69,4 +69,4 @@ In android you will see build details and the hah of the signing certificate at 
 
 ![android more](../../img/getting-started/build-settings-more-android.png)
 
-**What to read next:** [Account Settings](Account_Settings.html)
+**What to read next:** [Distributing apps](Distributing_Your_Apps.html)

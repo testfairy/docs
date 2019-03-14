@@ -51,7 +51,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 <img src="../../img/getting-started/build-settings-3.png" width="800"/>
    
- * **In-App Bug Reporting** - when enabled, testers can provide feedback simply by shaking their device and filling a form that pops up. On iOS, screenshot will trigger the same mechanism. 
+* **In-App Bug Reporting** - when enabled, testers can provide feedback simply by shaking their device and filling a form that pops up. On iOS, screenshot will trigger the same mechanism. 
 
 * **Bug System** - indicated which JIRA project is configured for this app. the general configuration of bug tracking systems is doen via the [Bug systems](https://app.testfairy.com/settings/bug-system/) menu item in the account preferences.
 

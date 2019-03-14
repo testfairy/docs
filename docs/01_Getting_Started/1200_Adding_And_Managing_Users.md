@@ -4,7 +4,7 @@ Use the Team screen to manage your teams members:
 
 ![team menu](/img/app/team-menu.png)
 
-There are 3 levels of users in the system:
+There are 4 types of users in the system:
 1. **Account Owner** - the owner of the account. This user cannot be changed and has full control on the account and can add admins and testers.
 2. **Account Manager** - can do all actions the account owner can do except adding account manages and removing the account owner.
 3. **Admin** - a developer that can upload builds, delete builds, view and delete sessions and so on. 

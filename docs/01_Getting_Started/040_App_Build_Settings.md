@@ -57,7 +57,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 ### Symbolication
 
-See https://docs.testfairy.com/iOS_SDK/Uploading_dSyms_to_TestFairy.html
+See [here](https://docs.testfairy.com/iOS_SDK/Uploading_dSyms_to_TestFairy.html).
 
 ### More
 

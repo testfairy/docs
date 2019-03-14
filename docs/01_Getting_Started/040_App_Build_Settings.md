@@ -1,50 +1,59 @@
 <!-- # Build Settings -->
 
-In order to configure your build (version) settings, click on the **Settings** button on your build menu, right next to the app name and version.
-Every build has its own settings, however, some of the definitions are shared by all builds of an app.
+
 
 <iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/aftiqrzoh4-b55x03f9fv"></iframe>
 
 <!-- ![ alt build-settings-btn](../../img/app/build-settings-btn.png) -->
+
+In order to configure your build (version) settings, click on the **Settings** button of the build menu, right next to the app name and version.
+
+Every build has its own settings, however, some of the definitions are shared by all builds of an app.
+
+
 <img src="../../img/app/build-settings-btn.png" width="800"/>
 
 
-The first section is the Insights section.
+### Insights
+
+
 <img src="../../img/getting-started/build-settings-1.png" width="800"/>
 
-* Recording: Choose wether Insights is enabled, disabled or eabled only when WIFI is enabled. This is global and overrides all other settings.
+* __Recording:__ Choose whether Insights is enabled, disabled or enabled only when WiFi is on. This is global and overrides all other settings.
 
-* Max Duration: Choose recording max duration. When going to background, session will automatically end after 5 minutes in background.
+* __Max Duration:__ you can choose a maximum recording duration of 10 min, 1 or 5 hour. When going to background, session will automatically end after 5 minutes the app is in background.
 
-* Collect Logs in background: Please note that this option will cause some battery consumption. Use it only if logs are needed.
+* __Collect Logs in background (only in android)__: this option will enable collecting logs also when the app is in the background.  Please note that this option may cause additional battery consumption.
 
 * **Video settings** - Changing video settings can be useful if you wish to decrease network overload: 
-    * Enable video recording     
+    * Enable / Disable video recording     
 * **Metrics**:
-   * CPU
-   * Memory
    * Application logs
    * Network (Android only)
    * Phone signal (Android only)
-   * Battery (Android only)
    * WIFI (Android only)
+
+
+### App distribution
 
 <img src="../../img/build-settings-2.png" width="800"/>
 
-* App Distribution Enabled: When a build status is disabled, app cannot be installed. Pending invitations will expire.
+* **App Distribution:** Enabled or Disabled. When didabled the app cannot be installed and pending invitations will expire.
 
-* Auto-Update - when enabled, all the previous installations of this app will be automatically upgraded to this version. The next time a user with an old version opens his app, he will get an 'updating' message and the app will be installed automatically. No email will be sent regarding this update.
+* **Auto-Update** - when enabled, all the previous installations of this app will be automatically upgraded to this version. The next time a user with an old version opens his app, he will get an 'updating' message and the app will be installed automatically. No email will be sent regarding this update.
 
-* Landing Page - click to configure.
+* **Landing Page** - click the button to configure the landing page for this build.
 
-* Release Notes: These release notes will appear in email invitations, in landing pages and in tester dashboard (my.testfairy.com). Release Notes can be set via upload api, or manually on upload or in this page.
+* **Release Notes:** These release notes will appear in email invitations, landing pages and in the tester dashboard at my.testfairy.com. Release Notes can be set via upload api, manually on upload or in this page.
 
-<img src="../../img/build-settings-3.png" width="800"/>
+
+### Bug reporting
+
+<img src="../../img/getting-started/build-settings-3.png" width="800"/>
    
  * **In-App Bug Reporting** - when enabled, testers can provide feedback simply by shaking their device and filling a form that pops up. On iOS, screenshot will trigger the same mechanism. 
 
-* **Bug System** - Configure which JIRA project will get all issues created by this project. Crashes and Feedbacks.
-  
+* **Bug System** - indicated which JIRA project is configured for this app. the general configuration of bug tracking systems is doen via the [Bug systems](https://app.testfairy.com/settings/bug-system/) menu item in the account preferences.
+
 
 **What to read next:** [Account Settings](Account_Settings.html)
-

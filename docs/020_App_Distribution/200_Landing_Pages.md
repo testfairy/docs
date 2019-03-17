@@ -27,8 +27,8 @@ Button. This will trigger a sign-up process details here .
 
 * **App description:** A description you can add to the landing page to give =your testers instructions of other information.
 
-- Add release notes: do you want to include the release notes detailed when you loaded the app on the landing page?
-- Add custom CSS:  see here for customizing the appearance of the landing page.
+* **Add release notes:** do you want to include the release notes detailed when you loaded the app on the landing page?
+* **Add custom CSS:**  see [here](https://docs.testfairy.com/FAQ/Landing_Page_Customization.html) for customizing the appearance of the landing page.
 
 
 Once you make changes to the settings you need to save them for them to take effect. You can preview the changes using the **Preview landing page** button.

@@ -1,7 +1,7 @@
 ## Distributing your apps
-The distribution process starts with loading your apps to Testfairy.
+The distribution process starts with [loading your apps](https://docs.testfairy.com/Getting_Started/Upload_Apps.html) to Testfairy.
 * If you have an Android app simply go to your dashboard and follow the instructions in the [Upload](https://docs.testfairy.com/Getting_Started/Upload.html) section.
-* If you are distributing an iOS app with an [enterprise certificate](https://developer.apple.com/programs/ios/enterprise/) the process is identical to the the android distribution. __Ad-hoc__ certificate iOS apps require some preparations described [here](https://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html).
+* If you are distributing an iOS app with an [enterprise certificate](https://developer.apple.com/programs/ios/enterprise/) the process is identical to the android distribution. __Ad-hoc__ certificate iOS apps require some preparations described [here](https://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html).
 
 
 After you have an app loaded you can start distributing it to your testers. Distributing your app is a simple process:

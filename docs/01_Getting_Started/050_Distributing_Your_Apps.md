@@ -31,13 +31,13 @@ Adding their email to a specific build at the empty email box at the bottom of t
 
 This will send them an email with a download link and can be done with Android and iOS apps that are signed with an [enterprise certificate](https://developer.apple.com/programs/ios/enterprise/). It is also commonly used when you have an in house testing team and want to add them to several builds and different apps. 
 
-This action will send them an email with a download link and can be done with Android and iOS apps that are signed with an enterprise certificate. It is commonly used when you have a one time tester of a specific app. 
-
 
 ### Landing pages
+
 You can also build a community of testers or distribute you app by using our pre-designed [landing page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html). The landing pages link can be sent to testers for downloading you apps. The download link in the landing page can also be secured by login (opt-in) requiring the testers to log in before downloading your app.
 
 
 ### Testers dashboard
+
 The [tester dashboard](https://my.testfairy.com/) is the place where tester see all the apps they were invited to test.
 This view is available to all testers in the system. Developer can switch from this view to the full dashboard view with the `view as developer` menu item.

@@ -46,4 +46,4 @@ If you wish to upload a new version of the same app, all you have to do is uploa
 
 
 
-**What you should read next:** [How To Invite Testers](How_To_Invite_Testers.html).
+**What you should read next:** [Build Settings](https://docs.testfairy.com/Getting_Started/App_Build_Settings.html).

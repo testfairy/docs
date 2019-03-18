@@ -13,7 +13,7 @@ openssl genrsa -out private.pem 2048
 This will create a file called `private.pem` with the private key. Now we will get the public key from this private key:
 
 ```
-openssl rsa -in private.pem -outform PEM -pubout | base64 -
+openssl rsa -in private.pem -outform DER -pubout | base64 -
 ```
 
 This command will output the base64 representation of the public key. Paste this value into the first parameter of `TestFairy.setPublicKey` method.
@@ -23,7 +23,7 @@ This command will output the base64 representation of the public key. Paste this
 Enable end-t-end encryption for your Android apps by calling `setPublicKey` before calling the `begin` method.
 
 ```
-TestFairy.setPublicKey("<BASE64 OF PUBLIC KEY>");
+TestFairy.setEncryptionKey("<BASE64 OF PUBLIC KEY>");
 TestFairy.begin("<APP TOKEN>");
 ```
 
@@ -32,7 +32,7 @@ TestFairy.begin("<APP TOKEN>");
 Enable end-to-end encryption for your iOS apps by calling `setPublicKey` before calling the `begin` method.
 
 ```
-[TestFairy setPublicKey:@"<BASE64 OF PUBLIC KEY>"]; 
+[TestFairy setEncryptionKey:@"<BASE64 OF PUBLIC KEY>"]; 
 [TestFairy begin:@"<APP TOKEN>"];
 ```
 

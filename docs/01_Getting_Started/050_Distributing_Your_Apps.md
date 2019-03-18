@@ -4,7 +4,9 @@ The distribution process starts with [loading your apps](https://docs.testfairy.
 * If you are distributing an iOS app with an [enterprise certificate](https://developer.apple.com/programs/ios/enterprise/) the process is identical to the android distribution. __Ad-hoc__ certificate iOS apps require some preparations described [here](https://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html).
 
 
-After you have an app loaded you can start distributing it to your testers. Distributing your app is a simple process:
+After you have an app loaded you can start distributing it to your testers. 
+
+Distributing your app is a simple process:
 
 ![upload process](/img/upload-process-1.png)
  
@@ -27,7 +29,7 @@ Pre-inviting them by adding them to your testers list in the [TESTERS](https://a
 
 
 #### Adding to a specific build
-Adding their email to a specific build at the empty email box at the bottom of the testers list ![add tester email](/img/getting-started/distribute-single-tester-1.png). 
+Adding their email to a specific build at the empty email box at the bottom of the testers list ![add tester email](/img/getting-started/invite-testers-from-build-2.png). 
 
 This will send them an email with a download link and can be done with Android and iOS apps that are signed with an [enterprise certificate](https://developer.apple.com/programs/ios/enterprise/). It is also commonly used when you have an in house testing team and want to add them to several builds and different apps. 
 

@@ -14,7 +14,7 @@ Uploading is just as simple as it sounds! Just click on the **Upload** button on
 
 ![ alt upload](../../img/app/upload2.png)
 
-We recommend using our <a href="http://docs.testfairy.com/Upload_API.html">Upload API</a> to enable our <a href="https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin">Jenkins plugin</a>, <a href="#">Gradle plugin</a>, or <a href="https://github.com/testfairy/command-line-uploader" target="_blank">Command line uploader</a>. 
+We recommend using our <a href="https://docs.testfairy.com/API/Upload_API.html">Upload API</a> to enable our <a href="https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin">Jenkins plugin</a>, <a href="#">Gradle plugin</a>, or <a href="https://github.com/testfairy/command-line-uploader" target="_blank">Command line uploader</a>. 
 
 The code of our command line uploader, Jenkins and Gradle plugins is open source, so you can feel free to change and improve on it.
 

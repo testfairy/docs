@@ -16,21 +16,22 @@ The distribution process described above can be done with a pre-registered list 
 
 ### Email invitations
 Inviting your testers via email is done in two ways: 
-1. Pre-inviting them by adding them to your testers list in the [TESTERS](https://app.testfairy.com/testers/) tab of the dashboard in advance, and then inviting them to the build in the invite testers menu of a specific build.
+#### Pre invitation
+Pre-inviting them by adding them to your testers list in the [TESTERS](https://app.testfairy.com/testers/) tab of the dashboard in advance, and then inviting them to the build in the invite testers menu of a specific build.
 
 
-![inviting testers to a build](/img/getting-started/invite-testers-from-build-1.png)
+  ![inviting testers to a build](/img/getting-started/invite-testers-from-build-1.png)
 
 
-The pre invitation is used when iOS apps are distributed to specific devices when you don't use an enterprise certificate. It is also commonly used when you have an in house testing team.
+  The pre invitation is used when iOS apps are distributed to specific devices when you don't use an enterprise certificate.   It is also commonly used when you have an in house testing team.
 
 
-2. Adding their email to a specific build at the empty email box at the bottom of the testers list ![add tester email](/img/getting-started/distribute-single-tester-1.png). 
+#### Adding to a specific build
+Adding their email to a specific build at the empty email box at the bottom of the testers list ![add tester email](/img/getting-started/distribute-single-tester-1.png). 
 
 This will send them an email with a download link and can be done with Android and iOS apps that are signed with an [enterprise certificate](https://developer.apple.com/programs/ios/enterprise/). It is also commonly used when you have an in house testing team and want to add them to several builds and different apps. 
 
 This action will send them an email with a download link and can be done with Android and iOS apps that are signed with an enterprise certificate. It is commonly used when you have a one time tester of a specific app. 
-
 
 
 ### Landing pages

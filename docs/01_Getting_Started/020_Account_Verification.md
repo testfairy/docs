@@ -36,4 +36,4 @@ Don't throw it away, It contains some useful information:
 
 After making sure your account is fully verified - you are ready to roll!
 
-**What you should read next:** [How to Upload Your App](Upload.html).
+**What you should read next:** [How to Upload Your App](https://docs.testfairy.com/Getting_Started/Upload_Apps.html).

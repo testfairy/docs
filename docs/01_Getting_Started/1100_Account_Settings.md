@@ -51,7 +51,7 @@ The email is HTML based and can use custom tags.
 * **Require [Google] Sign on for all users:** all users will have to sign on using a google email address. This is the case when you use google email integration.
 * _Optional_ ``[after adding SAML/Single Sign-on]`` - Grant access to all apps to testers who sign-on with SSO - testers who sign in using your sso will have access to all apps..
 #### SAML/Single Sign-on
-Here you add the SSO metadata definitions file. When you add SAML/Single Sign-on it will contain your _ID_, _URL_ and _x509 certificate_.
+Here you add the [SSO](https://docs.testfairy.com/Single_Sign-On/SSO.html) metadata definitions file. When you add SAML/Single Sign-on it will contain your _ID_, _URL_ and _x509 certificate_.
  
 
 

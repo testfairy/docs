@@ -19,7 +19,7 @@ TestFairy integrates with Microsoft Teams seamlessly, providing human-readable, 
 ![Alt](/img/integrations/teams/05-go-to-preferences.png)
 
 * From the preferences page, select **Webhooks** and choose **+ Add Webhook**
-![Alt](/img/integrations/teams/06-add-webhook.png)
+![Alt](/img/app/preferences/account-settings-4.png)
 
 * Paste the endpoint into the URL field. Give the webhook a name, and select the notifications you wish to receive.
 ![Alt](/img/integrations/teams/07-edit-webhook.png)

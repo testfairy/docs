@@ -47,7 +47,7 @@ Sections:
 
   ![](https://docs.testfairy.com/img/sso/google/google-9.png)
   
- - You will get a sucsess message and a checkbox saying `Grant access to all apps to testers who sign-on with SSO` will    appear.
+ - You will get a success message and a checkbox saying `Grant access to all apps to testers who sign-on with SSO` will    appear.
  
  ![](/img/sso/google/google-200.png)
     

@@ -1,10 +1,13 @@
 TestFairy integrates with Slack seamlessly, providing human-readable, real-time notifications for your selected events. 
 
 * Head over to your [TestFairy Dashboard](https://app.testfairy.com), and select **"Account Preferences"** from the top-right menu. 
-![Alt](http://docs.testfairy.com/img/integrations/slack/slack-1a.png)
+![preferences](/img/app/preferences-link.png)
 
-* Select _Webhooks_ from the menu, then click the _Add to Slack_ button.
-![Alt](http://docs.testfairy.com/img/integrations/slack/slack-1b.png)
+* Select _Integrations_ from the menu, then click the _Add integration_ button.
+![Slak Integration](/img/app/preferences/account-settings-4.png)
+
+* enter the domain of your slack accout:
+![slack domain](/img/integrations/slack/slack-domain-1.png)
 
 * This determines where your notifications will appear. You may select an existing channel, or create a new channel. Choose your channel and select **"Authorize"**.
 ![Alt](http://docs.testfairy.com/img/integrations/slack/slack-1c.png)

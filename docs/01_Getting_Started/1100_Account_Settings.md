@@ -53,6 +53,7 @@ The email is HTML based and can use custom tags.
 #### SAML/Single Sign-on
 Here you add the SSO metadata definitions file. When you add SAML/Single Sign-on it will contain your _ID_, _URL_ and _x509 certificate_.
  
- 
-What to read next: How To Connect To Your Bug System
+
+
+What to read next: [Adding_And_Managing_Users](Adding_And_Managing_Users.html)
 

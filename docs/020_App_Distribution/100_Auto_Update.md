@@ -32,3 +32,11 @@ Open your app and look at the list of builds. The right column has an icon for t
 When your app starts, the SDK will check if a new version is available and is marked for auto update.
 If so, the user will see a message telling him that a new version is ready and if asking him if he wants to updated.
 If the user agrees, the new version will download and install on his device. 
+
+---------
+#### Reasons auto update may not work
+Here are some reasons when auto-update of an app will not work:
+* The version of the new build is the same as the old one. Auto-update will only work when versions are different.
+* Both versions must have the TestFairy SDK integrated into them.
+* (in Android) The certificates of each version must be the same.
+----------

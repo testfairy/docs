@@ -24,3 +24,5 @@ When doing that, make sure that session duration is set to 2-3 minutes, just eno
 You must explain exactly what data you collect, and how to request deletion of that data.
 For more information about [GDPR](/Security/GDPR.html), please [contact the TestFairy team](https://testfairy.com/contact)
 
+7. Please make sure never to use TestFairy Auto-update with apps that are shipped to production. This is a clear violation of both Apple and Google's terms.
+

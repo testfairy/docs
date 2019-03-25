@@ -1,4 +1,7 @@
 ## Distributing your apps
+
+<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/9162234x94-qc3qn71j97"></iframe>
+
 The distribution process starts with [loading your apps](https://docs.testfairy.com/Getting_Started/Upload_Apps.html) to Testfairy.
 * If you have an Android app simply go to your dashboard and follow the instructions in the [Upload](https://docs.testfairy.com/Getting_Started/Upload.html) section.
 * If you are distributing an iOS app with an [enterprise certificate](https://developer.apple.com/programs/ios/enterprise/) the process is identical to the android distribution. __Ad-hoc__ certificate iOS apps require some preparations described [here](https://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html).

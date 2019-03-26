@@ -1,3 +1,8 @@
+### Version 1.19.3
+Released 2019-03-26
+
+* [NEW] Added `addNetwork` network monitoring interface. See [Class reference](https://app.testfairy.com/reference/ios/Classes/TestFairy.html) for more information.
+
 ### Version 1.19.2
 Released 2019-03-07
 

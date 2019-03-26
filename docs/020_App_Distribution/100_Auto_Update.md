@@ -28,10 +28,6 @@ Open your app and look at the list of builds. The right column has an icon for t
 
 ![](/img/auto-update-dashboard-place.png)
 
-### How to downgrade?
-
-Auto-update works only in cases where version is unique and the new version was uploaded *after* the old version. The version number is not important, only the upload date.
-Therefore, in order to downgrade users from version 1.5 to 1.4, please re-upload version 1.4 with a new name (1.41?) and mark it as an auto-update version.
 
 ### What will be the user experience on auto-update
 
@@ -46,5 +42,19 @@ Here are some reasons when auto-update of an app will not work:
 * The version of the new build is the same as the old one. Auto-update will only work when versions are different.
 * Both versions must have the TestFairy SDK integrated into them.
 * (in Android) The certificates of each version must be the same.
+
+
+### How to downgrade you app?
+
+Auto-update works only in cases where version **is unique** and the new version was uploaded to TestFairy **after** the old version. The version number or code of the app is not important, only the __upload date__.
+
+Therefore, in order to downgrade an app you will need to do the following work around process:
+   (Assuming you want to downgrade from version 1.5 to 1.4)
+
+   * **Re-upload** version 1.4 to TestFairy using a new version name (1.41 for instance).
+   * Mark it as an **auto-update** version.
+
+This will cause the system to perform an auto-update of version 1.5 to version 1.41 thus in effect **downgrading** your app to version 1.4.
+
 
 ----------

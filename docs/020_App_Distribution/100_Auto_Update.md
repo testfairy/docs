@@ -28,18 +28,20 @@ Open your app and look at the list of builds. The right column has an icon for t
 
 ![](/img/auto-update-dashboard-place.png)
 
-## How to downgrade?
+### How to downgrade?
 
 Auto-update works only in cases where version is unique and the new version was uploaded *after* the old version. The version number is not important, only the upload date.
 Therefore, in order to downgrade users from version 1.5 to 1.4, please re-upload version 1.4 with a new name (1.41?) and mark it as an auto-update version.
 
-**Please note:** Auto-Update will upgrade all the previous installations of this app to the current version. 
+### What will be the user experience on auto-update
+
+Auto-Update will upgrade all the previous installations of this app to the current version. 
 When your app starts, the SDK will check if a new version is available and is marked for auto update.
 If so, the user will see a message telling him that a new version is ready and if asking him if he wants to updated.
 If the user agrees, the new version will download and install on his device. 
 
----------
-#### Reasons auto update may not work
+### In what cases auto update may not work?
+
 Here are some reasons when auto-update of an app will not work:
 * The version of the new build is the same as the old one. Auto-update will only work when versions are different.
 * Both versions must have the TestFairy SDK integrated into them.

@@ -26,7 +26,7 @@ You can integrate your TestFairy account with different services in order to cus
 
 * __SMTP and Gmail__: look [here](https://docs.testfairy.com/Integrations/SMTP_and_Gmail.html) how to connect your SMTP email server or your gmail account (including enterprise G suite) so the emails you send from your TestFairy account will be sent from your business email and you will be able to see the sent items in your email account.
 
-* __Slack:__ see [here](https://docs.testfairy.com/Integrations/Slack.html) for how to integrate your slack account with testfairy.
+* __Slack:__ see [here](https://docs.testfairy.com/Integrations/Slack.html) for how to integrate your slack account with TestFairy.
 
 * __Webhooks:__ you can also connect various services using our webhooks. Here is an example how to connect [MSFT Teams](https://docs.testfairy.com/Integrations/Microfost_Teams.html)
 
@@ -60,9 +60,10 @@ Here you add the [SSO](https://docs.testfairy.com/Single_Sign-On/SSO.html) metad
 ### Account
 
 In the account menu you can change the following settings:
+
 * First and last name of the account owner.
 * Your company name.
-* Your subdomain - the part that will come before your domain URL: **subdomain**.testfairy.com 
+* Your subdomain - the part that will come before your TestFairy domain URL: **subdomain**.testfairy.com 
 * Update your account password
 * Change your account user name.
 * Update your timezone

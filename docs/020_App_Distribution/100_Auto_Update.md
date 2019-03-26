@@ -28,6 +28,11 @@ Open your app and look at the list of builds. The right column has an icon for t
 
 ![](/img/auto-update-dashboard-place.png)
 
+## How to downgrade?
+
+Auto-update works only in cases where version is unique and the new version was uploaded *after* the old version. The version number is not important, only the upload date.
+Therefore, in order to downgrade users from version 1.5 to 1.4, please re-upload version 1.4 with a new name (1.41?) and mark it as an auto-update version.
+
 **Please note:** Auto-Update will upgrade all the previous installations of this app to the current version. 
 When your app starts, the SDK will check if a new version is available and is marked for auto update.
 If so, the user will see a message telling him that a new version is ready and if asking him if he wants to updated.

@@ -29,6 +29,8 @@ You can integrate your TestFairy account with different services in order to cus
 * __Slack:__ see [here](https://docs.testfairy.com/Integrations/Slack.html) for how to integrate your slack account with testfairy.
 
 * __Webhooks:__ you can also connect various services using our webhooks. Here is an example how to connect [MSFT Teams](https://docs.testfairy.com/Integrations/Microfost_Teams.html)
+
+
 ![integrations](/img/app/preferences/account-settings-4.png)
 
 
@@ -52,8 +54,34 @@ The email is HTML based and can use custom tags.
 * _Optional_ ``[after adding SAML/Single Sign-on]`` - Grant access to all apps to testers who sign-on with SSO - testers who sign in using your sso will have access to all apps..
 #### SAML/Single Sign-on
 Here you add the [SSO](https://docs.testfairy.com/Single_Sign-On/SSO.html) metadata definitions file. When you add SAML/Single Sign-on it will contain your _ID_, _URL_ and _x509 certificate_.
- 
 
+![security](/img/app/preferences/account-settings-7.png)
+
+### Account
+
+In the account menu you can change the following settings:
+* First and last name of the account owner.
+* Your company name.
+* Your subdomain - the part that will come before your domain URL: **subdomain**.testfairy.com 
+* Update your account password
+* Change your account user name.
+* Update your timezone
+
+
+![account](/img/app/preferences/account-settings-8.png)
+ 
+### Billing
+
+Here you will see your account invoices.
+
+![billing menu](/img/app/preferences/account-settings-9.png)
+
+### Users whitelist
+
+Allows recording of specific users, instead of recording all user sessions.
+This is useful in cases where customer support teams wish to enable recording for a specific user that has a problem.
+
+![whitelist](/img/app/preferences/account-settings-10.png)
 
 What to read next: [Adding_And_Managing_Users](Adding_And_Managing_Users.html)
 

@@ -15,13 +15,14 @@ You can define an admin as a manager by selecting the account from the list and 
 ![make manager](/img/app/team/make-manager-1.png)
 
 
-To add more admins to your projects add their email address to the **Add new admins** field and specify the access level in the **Permissions** field. You can add more than one at a tile by adding several emails to the list, one in each line. 
+To add more admins to your projects add their email address to the **Add new admins** field and specify the access level in the **Permissions** field. You can add more than one at a time by adding several emails to the list, one for each line. 
 
 
 ![ alt add-admins](/img/app/add-admins.png)
 
 - The default access level is `All Projects (rw)` . **rw** mean full access - **read** and **write** to the project. **r** mean **read only** access.
 
-     * Permissions are created automatically for each application that is loaded to the system in addition to the `All projects` permission that is for **all applications** that are loaded to the system.
+     * Permissions are created automatically for each application that is loaded to the system.
+     * In addition, there is the `All projects` permission which is for **all applications** that are loaded to the system.
      
 - If you want a different set of permissions select them from the combinations in the permission windows by clicking on the desired set for each project.

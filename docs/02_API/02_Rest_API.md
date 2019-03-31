@@ -227,7 +227,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	<code>POST /api/1/testers/</code>
 </div>
 <div class="method-description hidden">
-	Add a new tester to account. Optionally can add them to a group, and optionally send an invitation email.<br />
+	Add a new tester to account. Optionally can add them to a group.<br />
 
 	<table>
 	<tr>
@@ -250,14 +250,6 @@ In the example above, you can see that our user is `john@example.com` and the AP
 			Default value: none<br />
 		</td>
 	</tr>
-	<tr>
-        	<td>allow-all</td>
-        	<td><em>string</em></td>
-        	<td>
-        		Allow these testers to see all apps, including apps that will be uploaded in the future?
-        		Default value: false<br />
-        	</td>
-        </tr>
 	</table>
 
 	<span class="responses">Responses</span><br />

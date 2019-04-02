@@ -10,7 +10,7 @@ You get to:
 * Record screen video and other metrics.
 * Understand user flow, using checkpoints.
 * Grab NSLogs from client and report to server.
-* Automatically update if a new build is available (Ad Hoc only.)
+* Automatically update if a new build is available.
 
 ## Add the SDK
 

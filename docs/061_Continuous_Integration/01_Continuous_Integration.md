@@ -18,4 +18,4 @@ The following platforms are officially supported. We also offer an [Upload API](
 |![TeamCity](../img/continuous-integration/teamcity.png) | [TeamCity](TeamCity.html)|
 
 <style>table thead {display: none;}</style>
-<style>img {max-height: 100px !important; border: none !important; box-shadow: none !important;}</style>
+<style>img {max-height: 70px !important; border: none !important; box-shadow: none !important;}</style>

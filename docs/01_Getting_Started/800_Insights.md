@@ -34,4 +34,22 @@ In addition to the general filters you can add filters of **session attributes**
 
 ![](/img/getting-started/insights/attribute-filter.png)
 
+  - The basic attributes types (User, Session, Location, Device) are default for any session in testfairy.
 
+### Custom attributes filters
+If you add [custom attributes](https://docs.testfairy.com/SDK/Session_Attributes.html) to your apps session you will see them here and be able to filter according to their values:
+
+![](/img/getting-started/insights/custome-attributes.png)
+
+  - This is an **extremely powerful** tool that can help you identify specific sessions and filter them in the multitude of sessions in your app, especially if you are running testfairy in a large scale internal app or in production.
+
+
+After you select an attribute you add a logical expression and type a value in the text field:
+
+![](/img/getting-started/insights/atribute-filter-logical.png)
+
+The result is shown in the table.
+
+You can add another line of attribute filter with the `+` sign or save this filter by pressing the `Save Segment` button. After giving it a name it will appear in the list of **Custom Segments** in the left column.
+
+![](/img/getting-started/insights/filter-name.png)

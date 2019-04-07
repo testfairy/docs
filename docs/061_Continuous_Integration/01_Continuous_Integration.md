@@ -17,5 +17,5 @@ The following platforms are officially supported. We also offer an [Upload API](
 |![GitLab](../img/continuous-integration/gitlab.jpg) | [GitLab](GitLab.html)|
 |![TeamCity](../img/continuous-integration/teamcity.png) | [TeamCity](TeamCity.html)|
 
-<style>table thead {display: none;}</style>
+<style>table thead {display: none; text-align: center;}</style>
 <style>img {max-height: 70px !important; border: none !important; box-shadow: none !important;}</style>

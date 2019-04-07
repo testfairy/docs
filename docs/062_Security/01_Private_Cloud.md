@@ -2,7 +2,7 @@
 
 TestFairy for enterprise is available in a Private Cloud architecture.
 
-It includes the following:
+It includes the following features:
 
 - Single Tenant database
 
@@ -10,7 +10,7 @@ It includes the following:
 
 - VPN access.
 
-- SAML Single Sign On.
+- [SAML Single Sign On](https://docs.testfairy.com/Single_Sign_On/SSO.html).
 
 
 

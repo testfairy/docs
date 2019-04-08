@@ -8,22 +8,21 @@ Generating a pair is done using openssl tool:
 
 ```
 openssl genrsa -out private.pem 2048
+openssl rsa -in private.pem -outform DER -pubout | base64 - > public.pem
 ```
 
-This will create a file called `private.pem` with the private key. Now we will get the public key from this private key:
+This will create two files called `private.pem` and `public.pem` containing your private and public keys. 
 
-```
-openssl rsa -in private.pem -outform DER -pubout | base64 -
-```
+The content of `private.pem` is sensitive and should not be shared with anyone that is not part of your team.
 
-This command will output the base64 representation of the public key. Paste this value into the first parameter of `TestFairy.setEncryptionKey` method.
+The content of `public.pem` will be used to initialize the SDK. Please paste this value into the first parameter of `TestFairy.setEncryptionKey` method.
 
 #### Using in Android 
 
-Enable end-t-end encryption for your Android apps by calling `setEncryptionKey` before calling the `begin` method.
+Enable end-to-end encryption for your Android apps by calling `setEncryptionKey` before calling the `begin` method.
 
 ```
-TestFairy.setEncryptionKey("<BASE64 OF PUBLIC KEY>");
+TestFairy.setEncryptionKey("<PUBLIC KEY>");
 TestFairy.begin("<APP TOKEN>");
 ```
 
@@ -32,7 +31,7 @@ TestFairy.begin("<APP TOKEN>");
 Enable end-to-end encryption for your iOS apps by calling `setEncryptionKey` before calling the `begin` method.
 
 ```
-[TestFairy setEncryptionKey:@"<BASE64 OF PUBLIC KEY>"]; 
+[TestFairy setEncryptionKey:@"<PUBLIC KEY>"]; 
 [TestFairy begin:@"<APP TOKEN>"];
 ```
 

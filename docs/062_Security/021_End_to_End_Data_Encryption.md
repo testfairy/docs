@@ -7,15 +7,15 @@ This information is encrypted using a randomly generated 256-bit AES key. This A
 Generating a pair is done using openssl tool:
 
 ```
-openssl genrsa -out private.pem 2048
-openssl rsa -in private.pem -outform DER -pubout | base64 - > public.pem
+openssl genrsa -out testfairy-private-key.pem 2048
+openssl rsa -in private.pem -outform DER -pubout | base64 - > testfairy-public-key.txt
 ```
 
-This will create two files called `private.pem` and `public.pem` containing your private and public keys. 
+This will create two files called `testfairy-private-key.pem` and `testfairy-public-key.txt` containing your private and public keys. 
 
-The content of `private.pem` is sensitive and should not be shared with anyone that is not part of your team.
+The content of `testfairy-private-key.pem` is sensitive and should not be shared with anyone that is not part of your team.
 
-The content of `public.pem` will be used to initialize the SDK. Please paste this value into the first parameter of `TestFairy.setEncryptionKey` method.
+The content of `testfairy-public-key.txt` will be used to initialize the SDK. Please paste this value into the first parameter of `TestFairy.setEncryptionKey` method.
 
 #### Using in Android 
 

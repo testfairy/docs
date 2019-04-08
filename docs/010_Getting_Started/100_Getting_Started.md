@@ -5,7 +5,7 @@
 			<img src="../img/getting-started/2-fold-icons-01-05.png" class="getting-started-img">
 			<div class="getting-started-question">I want to distribute my app to testers</div>
 			<div>Invite testers to try out your app, using over-the-air distribution.</div>
-			<a href="../Getting_Started/Distributing_Your_Apps.html" class="getting-started-btn">Learn More</a>
+			<a href="../App_Distribution/Distributing_Your_Apps.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 <!--

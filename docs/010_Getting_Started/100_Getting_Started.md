@@ -32,10 +32,10 @@
 		</div>
 
 		<div class="getting-started-card">
-			<img src="../img/getting-started/getting-started-icons-06.png" class="getting-started-img">
+			<img src="../img/getting-started/icon-security.png" class="getting-started-img">
 			<div class="getting-started-question">Security</div>
 			<div>TestFairy is available as a private cloud or an on-premise installation and can integrate with any SAML Single Sign-on service. TestFairy is the only platform that provides end-to-end data encryption using your private/public keys, so that nobody but you can see your data.</div>
-			<a href="../Continuous_Integration/Introduction.html" class="getting-started-btn">Learn More</a>
+			<a href="../Security/Private_Cloud.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 <!--
@@ -53,6 +53,6 @@
 <style>.page-header, .suggest-edit-container, .was-doc-helpful {display: none !important;}</style>
 <style>.getting-started-card {width: 450px; !important background-color: rgba(255,236,229,1);}</style>
 <style>.getting-started-container {width: auto; !important}</style>
-<style>.getting-started-img {margin-left: 225px;}</style>
+<style>.getting-started-img {margin-left: 225px !important}</style>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
 <script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900","Playfair Display:regular,italic","Roboto Slab:regular,700"]  }});</script>

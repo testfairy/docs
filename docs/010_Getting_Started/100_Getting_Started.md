@@ -18,23 +18,23 @@
 -->
 
 		<div class="getting-started-card">
-			<img src="../img/getting-started/getting-started-icons-07.png" class="getting-started-img">
-			<div class="getting-started-question">I want to record videos of my apps</div>
-			<div>See how your users are using your apps. See screen touches, follow trends and learn from usage.</div>
+			<img src="../img/getting-started/icon-video.png" class="getting-started-img">
+			<div class="getting-started-question">Video Recording</div>
+			<div>TestFairy provides mobile teams with videos showing exactly what happened on a mobile device during testing, before a crash, or before something went wrong and by that helps teams fix bugs faster than ever and significantly improve their mobile apps’ quality.</div>
 			<a href="../SDK/Begin_with_options.html#video-recording" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">
-			<img src="../img/getting-started/getting-started-icons-10.png" class="getting-started-img">
-			<div class="getting-started-question">I want to know more about TestFairy cloud for enterprise</div>
-			<div>TestFairy for enterprise includes many security and automation features on our private cloud environment.</div>
-			<a href="../Security/Private_Cloud.html" class="getting-started-btn">Learn More</a>
+			<img src="../img/getting-started/icon-in-app-feedback.png" class="getting-started-img">
+			<div class="getting-started-question">In App Feedback</div>
+			<div>TestFairy helps users provide feedback by simply shaking their device or taking a screenshot. Their report can automatically get posted to JIRA along with the session video recording, logs, metrics and crash reports.</div>
+			<a href="../Bug_Tracking/Overview.html" class="getting-started-btn">Learn More</a>
 		</div>
 
 		<div class="getting-started-card">
 			<img src="../img/getting-started/getting-started-icons-06.png" class="getting-started-img">
-			<div class="getting-started-question">I want to connect my CI</div>
-			<div>Upload new builds directly from your Jenkins, Travis CI or other tools. Automatically invite the right testers to new versions.</div>
+			<div class="getting-started-question">Security</div>
+			<div>TestFairy is available as a private cloud or an on-premise installation and can integrate with any SAML Single Sign-on service. TestFairy is the only platform that provides end-to-end data encryption using your private/public keys, so that nobody but you can see your data.</div>
 			<a href="../Continuous_Integration/Introduction.html" class="getting-started-btn">Learn More</a>
 		</div>
 

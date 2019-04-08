@@ -6,9 +6,9 @@ When you first navigate to it you will see a list of the latest crashes in the s
 ### Preset filters
 The **Preset Segments** column on the left contains three preset filters:
 
-  - ![](https://app.testfairy.com/images/app/header/ic_report_black_24dp_1x.png) Crashes - list of all crashes in the last month.
-  - ![](https://8640586.testfairy.com/images/app/header/status-icon-anr.png) Slow Session - all slow sessions
-  - ![](https://8640586.testfairy.com/images/app/header/status-icon-comment.png) Received Feedback - all session with feedback
+  - ![](https://app.testfairy.com/images/app/header/ic_report_black_24dp_1x.png) Crashes - list of all crashes in the last month
+  - ![](https://8640586.testfairy.com/images/app/header/status-icon-anr.png) Slow Session - all slow sessions in the last month
+  - ![](https://8640586.testfairy.com/images/app/header/status-icon-comment.png) Received Feedback - all session with feedback in the last month
 
 ### General Filters
 For filtering the items in the list use the filters located at the top:

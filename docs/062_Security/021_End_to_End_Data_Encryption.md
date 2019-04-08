@@ -13,7 +13,7 @@ openssl rsa -in testfairy-private-key.pem -outform DER -pubout | base64 - > test
 
 This will create two files called `testfairy-private-key.pem` and `testfairy-public-key.txt` containing your private and public keys. 
 
-The content of `testfairy-private-key.pem` is sensitive and should not be shared with anyone that is not part of your team.
+The file `testfairy-private-key.pem` is sensitive and should not be shared with anyone that is not part of your team.
 
 The content of `testfairy-public-key.txt` will be used to initialize the SDK. Please paste this value into the first parameter of `TestFairy.setEncryptionKey` method.
 

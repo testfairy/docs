@@ -8,7 +8,7 @@ Generating a pair is done using openssl tool:
 
 ```
 openssl genrsa -out testfairy-private-key.pem 2048
-openssl rsa -in private.pem -outform DER -pubout | base64 - > testfairy-public-key.txt
+openssl rsa -in testfairy-private-key.pem -outform DER -pubout | base64 - > testfairy-public-key.txt
 ```
 
 This will create two files called `testfairy-private-key.pem` and `testfairy-public-key.txt` containing your private and public keys. 

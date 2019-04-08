@@ -3,8 +3,8 @@
 		<div class="getting-started-title">Welcome to TestFairy! Let's get started...</div>
 		<div class="getting-started-card" <a href="../Getting_Started/Distributing_Your_Apps.html"></a>
 			<img src="../img/getting-started/2-fold-icons-01-05.png" class="getting-started-img">
-			<div class="getting-started-question">I want to distribute my app to testers</div>
-			<div>Invite testers to try out your app, using over-the-air distribution.</div>
+			<div class="getting-started-question">App Distribution</div>
+			<div>TestFairy offers enterprise-grade app distribution capabilities, allowing companies to easily and securely distribute the right apps to the right users. The platform allows admins to easily enforce corporate security policies during testing and has the capability to automatically update apps to new versions or revoke access to installed apps or users.</div>
 			<a href="../App_Distribution/Distributing_Your_Apps.html" class="getting-started-btn">Learn More</a>
 		</div>
 

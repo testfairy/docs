@@ -27,4 +27,4 @@ You can find the id of the project (app) you want to download by examining the u
 
 TestFairy Fetch Sessions tool is incremental in downloads - this means that you can run the tool multiple times, and it will only download new sessions that were recorded.
 
-For Support we're available at support@testfairy.com.
+For Support we're available at [support@testfairy.com](mailto:support@testfairy.com).

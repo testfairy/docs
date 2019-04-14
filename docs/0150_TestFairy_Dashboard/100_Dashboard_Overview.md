@@ -13,6 +13,8 @@ You can also [load apps](https://docs.testfairy.com/Getting_Started/Upload_Apps.
 
 ### `DASHBOARD` tab 
 
+![](/img/dashboard/dashboard-general.png)
+
 The top bar has the general statistics of your account - number of sessions, crashes, apps, testers and users.
 
 
@@ -30,13 +32,22 @@ A list of the recent sessions logged in the system.
 
 
 ### `TESTERS` tab
+
+![](/img/dashboard/dashboard-testers.png)
+
 Contains the list of your testers and assigned apps. See the [managing testers](https://docs.testfairy.com/Testers/Managing_Testers.html) page for a details.
 
 ### `CRASHES` (Beta) tab
+
+![](/img/dashboard/dashboard-crashes.png)
+
 Contains a list of all crashes aggregated buy stack trace. You can filter the list by app, version and timeframe.
 Each crash is aggregated after symbolication (if possible) and appears in a separate line. It is possible that unsymbolicated crashes will appear in separate lines, one for each crash.
 
 ### `USER FEEDBACK` tab
+
+![](/img/dashboard/dashboard-feedbacks.png)
+
 Contains all user feedback submitted using the [shake to report](https://docs.testfairy.com/SDK/Getting_Feedback.html) functionality. The feedback is linked to the session in which it was created and contains the screenshot, text the user entered  and the reporter email (which can be different from the user identified in the session).
 Each issue can be linked to a bug tracking system by pressing the CREATE BUG button in the ISSUE column. Apps that are already connected to a bug tracking system will display the issue link/number inside the button. Pressing the button will open the issue in the bug tracking system. 
 

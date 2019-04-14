@@ -1,6 +1,6 @@
 ## TestFairy Fetch Sessions tool
 
-Download link: [](https://github.com/testfairy/testfairy-fetch-sessions/)
+Download link: [TestFairy Fetch Sessions](https://github.com/testfairy/testfairy-fetch-sessions/)
 
 
 ### About

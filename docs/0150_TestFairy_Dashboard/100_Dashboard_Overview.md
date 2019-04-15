@@ -1,4 +1,6 @@
-![testfairy dashboard](/img/dashboard/testfairy-dashboard.gif)
+<!---![testfairy dashboard](/img/dashboard/testfairy-dashboard.gif)--->
+
+<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/1tvmj34u5q-r1ck6l9wd6"></iframe>
 
 
 ## TestFairy dashboard

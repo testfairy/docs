@@ -37,6 +37,25 @@ application.on(application.launchEvent, (args) => {
 application.start({ moduleName: "main-page" });
 ```
 
+Here's a final sample of starting your recording using Angular
+
+```
+import { Component } from "@angular/core";
+import { TestFairySDK } from 'nativescript-testfairy';
+
+@Component({
+    moduleId: module.id,
+    selector: "ns-app",
+    templateUrl: "app.component.html"
+})
+export class AppComponent {
+	constructor() {
+		TestFairySDK.begin(<insert ios app token here>);
+	}
+}
+
+```
+
 And that's it! You can now log into your [account](http://app.testfairy.com) and view your sessions. Also, feel free to refer to the [documentation](https://github.com/testfairy/react-native-testfairy/blob/master/index.js) for other available APIs.
 
 ### User ID and Session Attributes

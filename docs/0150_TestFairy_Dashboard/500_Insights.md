@@ -1,6 +1,8 @@
 
 <!---<iframe width="854" height="480" src="https://www.youtube.com/embed/i8crsqfJAFA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>)--->
 
+<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/4vaf26t35u-pd0iztdypt"></iframe>
+
 
 The **INSIGHTS** tab has information on all the crashes and sessions that were recorded in your apps.
 When you first navigate to it you will see a list of the latest crashes in the system.

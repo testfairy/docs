@@ -1,4 +1,4 @@
-### Landing pages
+### Managing Landing pages
 
 Landing pages are the most common way to distribute apps to your testers.
 Every app in testfairy, by default, has a landing page that is automatically generated once you upload an app to testfairy via the various app loading ways.

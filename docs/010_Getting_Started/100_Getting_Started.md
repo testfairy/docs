@@ -51,7 +51,7 @@
 </div>
 
 <style>.page-header, .suggest-edit-container, .was-doc-helpful {display: none !important;}</style>
-<style>.getting-started-card {width: 450px; background-color: rgba(250, 236, 229, 1);}</style>
+<style>.getting-started-card {width: 100%; background-color: rgba(250, 236, 229, 1);}</style>
 <style>.getting-started-container {width: auto; !important}</style>
 <style>img.getting-started-img {margin-left: 225px !important}</style>
 <style>.getting-started-body {text-align: justify;}</style>

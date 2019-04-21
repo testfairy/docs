@@ -67,9 +67,9 @@ This example shows how to use getDistributionStatus method in the TestFairy SDK.
  this app uploaded to TestFairy, and it is set to "Distribution" => "Enabled", then the code will open a url to
  the new version, offloading to the operating system to install the app.
 */
+```
 
-
-`[TestFairy getDistributionStatus:appToken callback:^(NSDictionary<NSString *,NSString *> *response, NSError *error) {
+```[TestFairy getDistributionStatus:appToken callback:^(NSDictionary<NSString *,NSString *> *response, NSError *error) {
  if (error != nil) {
    if ([@"enabled" isEqualToString:[response objectForKey:@"status"]]) {
      NSString *urlString = [response objectForKey:@"autoUpdateDownloadUrl"];
@@ -84,16 +84,15 @@ This example shows how to use getDistributionStatus method in the TestFairy SDK.
 
 [Android](https://gist.github.com/gmegidish/a0268805dc9fd74759454e1013145a80)
 
-```javascript
+```
 /*
 This example shows how to use getDistributionStatus() method in the TestFairy SDK.
 getDistributionStatus queries the server about the app version currently running on device, and checks
 to see if "Distribution" is set to "Enabled" in Build Settings page.
-
-
 The example below will close the app if the distribution was disabled. If there is a newer version of
 this app uploaded to TestFairy, and it is set to "Distribution" => "Enabled", then the code will open
 a browser and start downloading the APK of the new version, before quitting the process.
+*/
 
 TestFairy.getDistributionStatus(this, APP_TOKEN, new DistributionStatusListener() {
 	@Override

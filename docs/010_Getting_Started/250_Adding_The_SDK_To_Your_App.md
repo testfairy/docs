@@ -1,6 +1,10 @@
 ### The TestFairy SDK
 
-TestFairy's SDK takes your app to the next level. Our tools help you understand how users really interact with your app. We handle problems like crashes and on-screen error messages, and we even integrate with your current development workflow.
+TestFairy's SDK takes your app to the next level. 
+
+Our tools help you understand how users really interact with your app. 
+
+We handle problems like crashes and on-screen error messages, and we even integrate with your current development workflow.
 
 Some of our features include:
 
@@ -10,13 +14,12 @@ Some of our features include:
 - Identifying and tagging users, for searching and custom reports
 - Auto-Updates, to make sure your users are on the latest version
 
-In order to add the TestFairy SDK to your app, please select your development platform from the following list.
+### Supported platforms
 
-### Supported platforms:
+In order to add the TestFairy SDK to your app, please select your development platform from the following list:
 
 - [Android](../Android/Integrating_Android_SDK.html)
-- [iOS Objective-C](../iOS_SDK/Integrating_iOS_SDK.html)
-- [iOS Swift](../iOS_SDK/Integrating_iOS_SDK.html)
+- [iOS](../iOS_SDK/Integrating_iOS_SDK.html)
 - [Cordova and PhoneGap](../Platforms/Cordova.html)
 - [Ionic](../Platforms/Ionic.html)
 - [ReactNative](../Platforms/React_Native.html)

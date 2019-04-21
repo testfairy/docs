@@ -25,3 +25,5 @@ In order to add the TestFairy SDK to your app, please select your development pl
 - [Titanium](../Platforms/Titanium.html)
 - [Adobe Air](../Platforms/Adobe_Air.html)
 - [Nativescript](../Platforms/Nativescript.html)
+- [Neptune Software](../Platforms/Neptune_Software.html)
+- [Flutter](../Platforms/Flutter.html)

@@ -33,7 +33,7 @@ Open your app and look at the list of builds. The right column has an icon for t
 
 Auto-Update will upgrade all the previous installations of this app to the current version. 
 When your app starts, the SDK will check if a new version is available and is marked for auto update.
-If so, the user will see a message telling him that a new version is ready and if asking him if he wants to updated.
+If so, the user will see a message telling him that a new version is ready and if asking him if he wants to update.
 If the user agrees, the new version will download and install on his device. 
 
 ### In what cases auto update may not work?
@@ -43,6 +43,85 @@ Here are some reasons when auto-update of an app will not work:
 * Both versions must have the TestFairy SDK integrated into them.
 * (in Android) The certificates of each version must be the same.
 
+
+### How to force auto update?
+Sometimes you will want to make sure all testers of an app are only testing on the latest version released. In this case you can use the following method to make sure users and testers cant run older versions of the app and must upgrade to the version marked as auto-update.
+
+The classes used are named sessionStateListener → onAutoUpdateDismissed in android and testFairySessionStaeteDelagate → autoUpdateDismissed in iOS.
+These methods get the result of the pop up message displayed to the user asking to update. You can then write code to perform the action of your choice.
+
+
+#### Code examples
+
+Below  are 2 code examples:
+
+[iOS](https://gist.github.com/vijaysharm/a220a3474622176b06a88f65fbb4d34f)
+
+```
+/*
+This example shows how to use getDistributionStatus method in the TestFairy SDK.
+ getDistributionStatus queries the server about the app version currently running on device, and checks
+ to see if "Distribution" is set to "Enabled" in Build Settings page.
+ The example below will close the app if the distribution was disabled. If there is a newer version of
+ this app uploaded to TestFairy, and it is set to "Distribution" => "Enabled", then the code will open a url to
+ the new version, offloading to the operating system to install the app.
+*/
+
+
+`[TestFairy getDistributionStatus:appToken callback:^(NSDictionary<NSString *,NSString *> *response, NSError *error) {
+ if (error != nil) {
+   if ([@"enabled" isEqualToString:[response objectForKey:@"status"]]) {
+     NSString *urlString = [response objectForKey:@"autoUpdateDownloadUrl"];
+     NSURL *url = [NSURL URLWithString:urlString];
+     if (url != nil) {
+       [[UIApplication sharedApplication] openURL:url];
+     }
+   }
+ }
+}];
+```
+
+[Android](https://gist.github.com/gmegidish/a0268805dc9fd74759454e1013145a80)
+
+```javascript
+/*
+This example shows how to use getDistributionStatus() method in the TestFairy SDK.
+getDistributionStatus queries the server about the app version currently running on device, and checks
+to see if "Distribution" is set to "Enabled" in Build Settings page.
+
+
+The example below will close the app if the distribution was disabled. If there is a newer version of
+this app uploaded to TestFairy, and it is set to "Distribution" => "Enabled", then the code will open
+a browser and start downloading the APK of the new version, before quitting the process.
+
+TestFairy.getDistributionStatus(this, APP_TOKEN, new DistributionStatusListener() {
+	@Override
+	public void onResponse(DistributionStatus status) {
+	
+		Log.v("Sample", "Got distribution status response:");
+		Log.v("Sample", "   isEnabled: " + status.isEnabled());
+		Log.v("Sample", "   isAutoUpdateAvailable: " + status.isAutoUpdateAvailable());
+		Log.v("Sample", "   getAutoUpdateDownloadUrl: " + status.getAutoUpdateDownloadUrl());
+
+
+
+		if (status.isAutoUpdateAvailable()) {
+			// there is an auto update available, launch browser
+			String url = status.getAutoUpdateDownloadUrl();
+			Intent intent = new Intent(Intent.ACTION_VIEW);
+			intent.setData(Uri.parse(url));
+			startActivity(intent);
+			// close this activity, and leave app
+			finishAffinity();
+		}
+		// there is no auto-update available
+		if (!status.isEnabled()) {
+			// distribution is not allowed, and there's no auto update available either
+			finishAffinity();
+		}
+	}
+});
+```
 
 ### How to downgrade you app?
 
@@ -58,3 +137,6 @@ This will cause the system to perform an auto-update of version 1.5 to version 1
 
 
 ----------
+
+
+

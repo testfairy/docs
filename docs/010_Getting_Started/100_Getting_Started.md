@@ -1,14 +1,14 @@
 <div class="getting-started-container container">
     <div class="getting-started-title">Welcome to TestFairy! Let's get started...</div>
     <div class="row">
-      <div class="col">
+      <div class="getting-started-card col">
         <div class="getting-started-question float-left">App Distribution</div>
         <img class="getting-started-img float-right" src="https://docs.testfairy.com/img/getting-started/icon-app-distribution.png" />
         <div class="getting-started-body float-left">TestFairy offers enterprise-grade app distribution capabilities, allowing companies to easily and securely distribute the right apps to the right users. The platform allows admins to easily enforce corporate security policies during testing and
           has the capability to automatically update apps to new versions or revoke access to installed apps or users.</div>
         <a class="getting-started-btn float-left" href="../App_Distribution/Distributing_Your_Apps.html">Learn More</a>
       </div>
-      <div class="col">
+      <div class="getting-started-card col">
         <div class="getting-started-question float-left">Video Recording</div>
         <img class="getting-started-img float-right" src="https://docs.testfairy.com/img/getting-started/icon-video.png" />
         <div class="getting-started-body float-left">TestFairy provides mobile teams with videos showing exactly what happened on a mobile device during testing, before a crash, or before something went wrong and by that helps teams fix bugs faster than ever and significantly improve their mobile
@@ -17,13 +17,13 @@
       </div>
     </div>
     <div class="row">
-      <div class="col">
+      <div class="getting-started-card col">
         <div class="getting-started-question float-left">In App Feedback</div>
         <img class="getting-started-img float-right" src="https://docs.testfairy.com/img/getting-started/icon-in-app-feedback.png" />
         <div class="getting-started-body float-left">TestFairy helps users provide feedback by simply shaking their device or taking a screenshot. Their report can automatically get posted to JIRA along with the session video recording, logs, metrics and crash reports.</div>
         <a class="getting-started-btn float-left" href="../App_Distribution/Distributing_Your_Apps.html">Learn More</a>
       </div>
-      <div class="col">
+      <div class="getting-started-card col">
         <div class="getting-started-question float-left">Security</div>
         <img class="getting-started-img float-right" src="https://docs.testfairy.com/img/getting-started/icon-security.png" />
         <div class="getting-started-body float-left">TestFairy is available as a private cloud or an on-premise installation and can integrate with any SAML Single Sign-on service. TestFairy is the only platform that provides end-to-end data encryption using your private/public keys, so that nobody

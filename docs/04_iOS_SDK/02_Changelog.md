@@ -1,6 +1,7 @@
 ### Version 1.19.4
 Released 2019-04-18
 
+* [NEW] Initialize the TestFairy SDK with only crash handling with `[TestFairy installCrashHandler:]`
 * [NEW] Allow for logging errors and stacktraces with `[TestFairy logError:stacktrace:]`
 * [BUGFIX] Move UI calls for rendering keyboard off the render thread and onto main thread
 

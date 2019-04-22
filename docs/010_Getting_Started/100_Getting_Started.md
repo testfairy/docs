@@ -51,7 +51,8 @@
 </div>
 
 <style>.page-header, .suggest-edit-container, .was-doc-helpful {display: none !important;}</style>
-<style>.getting-started-card {width: 100%; background-color: rgba(250, 236, 229, 1);}</style>
+<style>.getting-started-card {width: 100%; background-color: rgba(250, 236, 229, 1);padding: inherit;
+}</style>
 <style>.getting-started-container {width: auto; !important}</style>
 <style>.getting-started-body {text-align: justify;}</style>
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>

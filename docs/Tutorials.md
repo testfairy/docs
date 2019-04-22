@@ -2,7 +2,9 @@
 
 <!---  * [Full demo (6:40 mins)](https://youtu.be/K5Ctsh65BCY)--->
 
-* [Signing up to TestFairy](https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w)
+<!---* [Signing up to TestFairy](https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w){target="_blank"}--->
+
+* <a href="https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w" target="_blank">Signing up to TestFairy</a>
 
 * [How to upload a new app or version](https://testfairy.fleeq.io/l/wdtj0svxnh-xftb9kmde0)
 

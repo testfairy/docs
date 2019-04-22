@@ -6,17 +6,17 @@
 
 * <a href="https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w" target="_blank">Signing up to TestFairy</a>
 
-* [How to upload a new app or version](https://testfairy.fleeq.io/l/wdtj0svxnh-xftb9kmde0)
+* <a href="https://testfairy.fleeq.io/l/wdtj0svxnh-xftb9kmde0" target="_blank">How to upload a new app or version</a>
 
-* [Insights Tab and session filtering](https://testfairy.fleeq.io/l/4vaf26t35u-pd0iztdypt)
+* <a href="https://testfairy.fleeq.io/l/4vaf26t35u-pd0iztdypt" target="_blank">Insights Tab and session filtering</a>
 
-* [Getting to know your Dashboard](https://testfairy.fleeq.io/l/1tvmj34u5q-r1ck6l9wd6)
+* <a href="https://testfairy.fleeq.io/l/1tvmj34u5q-r1ck6l9wd6" target="_blank">Getting to know your Dashboard</a>
 
-* [Application build settings](https://testfairy.fleeq.io/l/aftiqrzoh4-b55x03f9fv)
+* <a href="https://testfairy.fleeq.io/l/aftiqrzoh4-b55x03f9fv" target="_blank">Application build settings</a>
 
-* [How to distribute your app to testers](https://testfairy.fleeq.io/l/9162234x94-qc3qn71j97)
+* <a href="https://testfairy.fleeq.io/l/9162234x94-qc3qn71j97" target="_blank">How to distribute your app to testers</a>
 
-* [How to submit feedback](https://youtu.be/INsKsWAV8mo?t=101)
+* <a href="https://youtu.be/INsKsWAV8mo?t=101" target="_blank">How to submit feedback</a>
 
 * [How to review your received feedback](https://youtu.be/INsKsWAV8mo?t=141)
 

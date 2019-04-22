@@ -18,7 +18,7 @@
 
 * <a href="https://youtu.be/INsKsWAV8mo?t=101" target="_blank">How to submit feedback</a>
 
-* [How to review your received feedback](https://youtu.be/INsKsWAV8mo?t=141)
+* <a href="https://youtu.be/INsKsWAV8mo?t=141" target="_blank">How to review your received feedback</a>
 
 
 # TestFairy for iOS

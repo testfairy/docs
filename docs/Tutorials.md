@@ -2,13 +2,17 @@
 
 <!---  * [Full demo (6:40 mins)](https://youtu.be/K5Ctsh65BCY)--->
 
+* [Signing up to TestFairy](https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w)
+
+* [How to upload a new app or version](https://testfairy.fleeq.io/l/wdtj0svxnh-xftb9kmde0)
+
 * [Insights Tab and session filtering](https://testfairy.fleeq.io/l/4vaf26t35u-pd0iztdypt)
 
-* [Getting to know your Dashboard](https://youtu.be/INsKsWAV8mo)
+* [Getting to know your Dashboard](https://testfairy.fleeq.io/l/1tvmj34u5q-r1ck6l9wd6)
 
-* [How to upload a new app or version](https://youtu.be/yf9SEQX8kWY)
+* [Application build settings](https://testfairy.fleeq.io/l/aftiqrzoh4-b55x03f9fv)
 
-* [How to distribute your app to testers](https://youtu.be/Y2KpYgi8wLI)
+* [How to distribute your app to testers](https://testfairy.fleeq.io/l/9162234x94-qc3qn71j97)
 
 * [How to submit feedback](https://youtu.be/INsKsWAV8mo?t=101)
 

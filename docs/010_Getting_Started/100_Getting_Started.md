@@ -26,7 +26,7 @@
   
 <style>.page-header, .suggest-edit-container, .was-doc-helpful {display: none !important;}</style>
 <style>.getting-started-row {width: auto !important}</style>
-<style>.getting-started-card {width: 100%; background-color: #FAECE5 ;padding: inherit;
+<style>.getting-started-card {width: 100%; background-color: #FAECE5 ;padding: 16px;
 }</style>
 <style>.getting-started-container {width: auto !important}</style>
 <style>.getting-started-body {text-align: justify;}</style>

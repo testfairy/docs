@@ -22,47 +22,27 @@ Some apps won't require you to register your device. In this case, simply click 
 7. Your device is now registered in TestFairy. Please wait for the developer to send you a download link.
 
 
-
 ### Downloading apps
 
 First, make sure you receive an email from the app developer, which invites you to test an application build.
 
 1. Click the “DOWNLOAD APP” link in the email.
-
 2. Click the “Download App" button in your Safari browser.
-
 3. You will be prompted to install the application. Click “Install”.
-
 4. The app icon should now appear on your device desktop. 
-
 
 
 ### Troubleshooting installation
 
+<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/8kblwik5sc-d1udj9q6hh"></iframe>
+
 If the application does not install on your device, we recommend that you run the troubleshooting tool:
 
-1. Open your TestFairy account via the link (https://my.testfairy.com) in the email.
-
-  <img src="/img/tester/31-mytestfairy.png" width="300"/>
-
-2. Open the upper left menu and choose "Troubleshooting".
-
-  <img src="/img/tester/32-mytestfairy-menu.png" width="300"/>
-
-3. Click the "START" button to start the troubleshooting process.
-
-  <img src="/img/tester/33-mytestfairy-trbl-start.png" width="300"/> 
-
-4. Click the "Install" button to install the TestFairy profile.
-
-  <img src="/img/tester/34-profile.png" width="300"/> <img src="/img/tester/35-profile-install.png" width="300"/> 
-
-5. You should receive the troubleshooting results along with instructions, in the case that there is a problem that should be solved by the application developer.
-
-  <img src="/img/tester/35-trble-done-success.png" width="300"/> <img src="/img/tester/36-trble-doe-fail.png" width="300"/>
-
-* Please note! If the application is bigger than 100MB it must be downloaded over WiFi.
-
-
-
+1. Open your TestFairy account via the link [my.testfairy.com](https://my.testfairy.com) on the device you want to test.
+2. Click the Tester icon ![](/img/tester/tester-icon-1.png) menu and choose **Troubleshooting**.
+3. Click the `START` button to start the troubleshooting process.
+4. Click **allow** to let the configuration profile download.
+5. Close and go to the **settings app**. Click on the **profile downloaded** menu.
+6. Install the configuration profile.
+5. After install is complete, you will be directed to review the the troubleshooting results.
 

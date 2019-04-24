@@ -34,10 +34,10 @@
   </div>
  
  
-<style>.getting-started-question , .getting-started-body , .getting-started-btn {float: right;}</style>
-<style>.getting-started-card {float: left; width: 45%; background-color: #FAECE5}</style>
-
+<style>.getting-started-body , .getting-started-btn {float: left;}</style>
+<style>.getting-started-card {float: left; width: 50%; background-color: #FAECE5}</style>
 <style>.page-header, .suggest-edit-container, .was-doc-helpful {display: none !important;}</style>
+
 <!---<style>.getting-started-row {width: auto !important}</style>
 <style>.getting-started-card {width: 100%; background-color: #FAECE5 ;padding: 16px;
 }</style>

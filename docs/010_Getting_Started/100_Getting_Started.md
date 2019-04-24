@@ -35,6 +35,7 @@
  
  
 <style>.getting-started-question , .getting-started-body , .getting-started-btn {float: right;}</style>
+<style>.getting-started-card {float: left; width: 45%;}</style>
 
 <!---<style>.page-header, .suggest-edit-container, .was-doc-helpful {display: none !important;}</style>
 <style>.getting-started-row {width: auto !important}</style>

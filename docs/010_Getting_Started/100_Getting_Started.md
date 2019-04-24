@@ -39,9 +39,9 @@
 }</style>
 <style>.getting-started-container {width: auto !important}</style>
 <style>.getting-started-body {text-align: justify;}</style>
+<style>.row {display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; margin-right: -15px; margin-left: -15px;}</style>
 
 <style><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"></style>
-
 
 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js" type="text/javascript"></script>
 <script type="text/javascript">WebFont.load({  google: {    families: ["Inconsolata:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic","Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900","Playfair Display:regular,italic","Roboto Slab:regular,700"]  }});</script>

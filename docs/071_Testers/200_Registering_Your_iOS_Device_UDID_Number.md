@@ -1,5 +1,7 @@
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/YqhiGrh7vjc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<!---iframe width="854" height="480" src="https://www.youtube.com/embed/YqhiGrh7vjc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe--->
+
+<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/0drh0k8ux8-f0t37mznbz"></iframe>
 
 
 ### Registering your device
@@ -11,9 +13,14 @@ Some apps won't require you to register your device. In this case, simply click 
 
 ### When asked to register your device
 
-1. Open the invitation email and follow the link to register your mobile device in TestFairy.
-2. Click the Install button to install the TestFairy profile.
-3. Your device is now registered in TestFairy. Please wait for the developer to send you a download link.
+1. Open the invitation email and follow the link to //**register your mobile device in TestFairy**//.
+2. Make sure you open the link with the **Safari** browser.
+3. The link will open your tester dashboard at [my.testfairy.com](https://my.testfairy.com) and display the `Register device` button. Click it to initiate the download.
+4. You will be prompted to download the TestFairy configuration profile. Click the **Allow** button to download it.
+5. Once the profile was downloaded go to the **settings app** and click on the **profile downloaded** menu. 
+6. The profile installer will open. Click on **Install**.
+7. Your device is now registered in TestFairy. Please wait for the developer to send you a download link.
+
 
 
 ### Downloading apps

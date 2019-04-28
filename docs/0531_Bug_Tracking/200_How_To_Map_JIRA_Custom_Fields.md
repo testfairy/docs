@@ -25,17 +25,16 @@ In case you get a **PENDING** response check the connection configuration.
 
 ![test sucsess](/img/bug-tracking/jira-connect-test-ok.png)
 
-Each **Issue type** has different fileds fields associated with it:
+Each **Issue type** has different fields associated with it:
 
 * **Name** - the field name.
 * **Type** - the type of filed as defined in the JIRA system. 
 * **Value** - the values from the JIRA system (* in addition to predefined fixed values and  -Dynamic value-, see below)
-
-![jira values](/img/bug-tracking/jira-values-drop-down1.png)
-
 * **Required?** - is the field required or optional.
 
-[](/img/bug-tracking/jira-requiered-fildes-mark.png)
+<!---[jira values](/img/bug-tracking/jira-values-drop-down1.png)--->
+
+![](/img/bug-tracking/jira-requiered-fildes-mark.png)
 
 When defining fields in the Configure Fields window follow the below conventions:
 1. When you choose a field from a drop down this field as is (text) will be populated in the corresponding JIRA field in the issue opened.

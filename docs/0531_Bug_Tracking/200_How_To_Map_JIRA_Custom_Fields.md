@@ -2,11 +2,9 @@
 
 First you will need to connect a JIRA account. Follow the [instructions here](https://docs.testfairy.com/Bug_Tracking/JIRA_Cloud.html)
 
+Choose one of your apps you want to connect and press the `ACTIVATE` button.
+
 ![jira projects](/img/bug-tracking/jira-connect-proj-map.png)
-
-![jira test](/img/bug-tracking/jira-connect-project-map.png)
-
-Choose one of your apps to connect to a project and choose the project from the drop down. (this will be filled with your available projects in JIRA automatically)
 
 Press the Test button to validate the JIRA issue creation.
 

@@ -2,11 +2,15 @@
 
 First you will need to connect a JIRA account. Follow the [instructions here](https://docs.testfairy.com/Bug_Tracking/JIRA_Cloud.html)
 
-Choose one of your apps you want to connect and press the `ACTIVATE` button.
+Choose one of your apps you want to connect and press the `Activate` button.
 
 ![jira projects](/img/bug-tracking/jira-connect-proj-map.png)
 
-In the JIRA configuration screen choose a project you want to connect:
+Here you can configure the JIRA fields:
+
+![fileds configuration](/img/bug-tracking/jira-proj-fileds-config.png)
+
+In the JIRA configuration screen choose the project (**Project Key**) you want to connect:
 
 ![jira project](/img/bug-tracking/jira-project-select.png)
 
@@ -16,24 +20,12 @@ Once the project is selected, select the issue type you want to configure:
 
 If you want to first test the connection to the JIRA project you can Press the `TEST` button to validate the JIRA issue creation.
 
-You will get a pop=up window with the response. Make sure you get a valid JIRA link.
+You will get a pop-up window with the response. Make sure you get a valid JIRA link.
 In case you get a **PENDING** response check the connection configuration.
 
 ![test sucsess](/img/bug-tracking/jira-connect-test-ok.png)
 
-Once its ok you can start configuring the JIRA fields:
-
-![fileds configuration](/img/bug-tracking/jira-proj-fileds-config.png)
-
-Once you have the connection all set press the **Configure** button:
-The fields that are displayed reflect the fields from the different JIRA issue types as defined in your JIRA system. 
-For example:
-
-![confuguration window](/img/bug-tracking/jira-fileds-example.png)
-
-The **Issue Type** field is drop down list of the different issue types define in the JIRA project you selected. (each project may have different issue types).
-
-Choose one of the issue types and below you will see the fields associated with it:
+Each **Issue type** has different fileds fields associated with it:
 
 * **Name** - the field name.
 * **Type** - the type of filed as defined in the JIRA system. 

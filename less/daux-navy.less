@@ -278,33 +278,24 @@ div.method-description.hidden {
 }
 
 .getting-started-card {
-  display: inline-block;
-  width: 320px;
-  height: 372px;
-  margin-right: 16px;
-  margin-bottom: 32px;
-  margin-left: 16px;
-  padding: 0px 46px 32px 40px;
-  float: left;
+	height: 436px;
+	padding: 36px;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	margin-bottom: 30px;
   border-style: solid;
   border-width: 1px;
   border-color: rgba(101, 11, 56, .2);
   border-radius: 6px;
-  background-color: #fff;
-  color: #383838;
-  font-weight: 300;
-  font-family: soleil, sans-serif;
-  font-size: 14px;
-  cursor: pointer;
+  background-color: #FAECE5;
 }
 
 .getting-started-question {
-  margin-bottom: 12px;
   font-family: soleil, sans-serif;
   color: #1c1c1c;
   font-size: 21px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 700 !important;
 }
 
 .getting-started-img {
@@ -325,6 +316,7 @@ div.method-description.hidden {
   -webkit-transition: all 250ms ease;
   transition: all 250ms ease;
   color: #dd1955;
+	font-family: soleil, sans-serif;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
@@ -347,12 +339,16 @@ a.getting-started-btn {
   color: #dd1955 !important;
 }
 
-.getting-started-question {
-  font-weight: 700 !important; /* why buggy? */
-}
-
 .getting-started-container {
   padding: 0;
+}
+
+.getting-started-body {
+	text-align: justify;
+	color: #383838;
+	font-weight: 300;
+	font-family: soleil, sans-serif;
+	font-size: 14px;
 }
 
 .columns .left-column {
@@ -492,7 +488,6 @@ a.getting-started-btn {
 
 
 @media (min-width:768px) {
-
 	.navbar {
 		display: block;
 	}
@@ -522,4 +517,3 @@ a.getting-started-btn {
 	}
 
 }
-

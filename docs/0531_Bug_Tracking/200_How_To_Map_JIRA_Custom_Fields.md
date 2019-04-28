@@ -6,12 +6,24 @@ Choose one of your apps you want to connect and press the `ACTIVATE` button.
 
 ![jira projects](/img/bug-tracking/jira-connect-proj-map.png)
 
-Press the Test button to validate the JIRA issue creation.
+In the JIRA configuration screen choose a project you want to connect:
+
+![jira project](/img/bug-tracking/jira-project-select.png)
+
+Once the project is selected, select the issue type you want to configure:
+
+![jiras issue](/img/bug-tracking/issue-type-select.png)
+
+If you want to first test the connection to the JIRA project you can Press the `TEST` button to validate the JIRA issue creation.
 
 You will get a pop=up window with the response. Make sure you get a valid JIRA link.
 In case you get a **PENDING** response check the connection configuration.
 
 ![test sucsess](/img/bug-tracking/jira-connect-test-ok.png)
+
+Once its ok you can start configuring the JIRA fields:
+
+![fileds configuration](/img/bug-tracking/jira-proj-fileds-config.png)
 
 Once you have the connection all set press the **Configure** button:
 The fields that are displayed reflect the fields from the different JIRA issue types as defined in your JIRA system. 

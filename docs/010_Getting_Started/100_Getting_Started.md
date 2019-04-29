@@ -93,7 +93,7 @@
 					</div>
 				</div>
 				<div class="row">
-					<a class="col-md-5 getting-started-btn" href="../App_Distribution/Distributing_Your_Apps.html">Learn More</a>
+					<a class="col-md-5 getting-started-btn" href="../Security/Private_Cloud.html">Learn More</a>
 				</div>
 			</div>
 		</div>

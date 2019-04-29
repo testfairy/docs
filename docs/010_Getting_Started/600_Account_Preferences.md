@@ -60,7 +60,7 @@ Here you add the [SSO](https://docs.testfairy.com/Single_Sign-On/SSO.html) metad
 
 ![security](/img/app/preferences/account-settings-7.png)
 
-### Account
+### <a name="account"></a>Account
 
 In the account menu you can change the following settings:
 

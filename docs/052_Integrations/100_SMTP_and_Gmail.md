@@ -22,20 +22,24 @@ Add the details in the fields and press `SaveSMTP Settings`
 
 ### Gmail Integration
 Follow these steps:
-1. Press the `Add integration` button next to the **Gmail** option.
-2. Press the `Authorize Google Apps (Gmail API)` Button:
+- Press the `Add integration` button next to the **Gmail** option.
+- Press the `Authorize Google Apps (Gmail API)` Button:
 
 ![gmail integration](/img/integrations/gmail-1.png)
 
-3. Select the account you want to use:
+- Select the account you want to use:
 
 ![gmail integration](/img/integrations/gmail-2.png)
 
-4. **Allow** TestFairy access to the account:
+- **Allow** TestFairy access to the account:
 
 ![gmail integration](/img/integrations/gmail-3.png)
 
 
-You will get a confirmation messages for the successful integration:
+You will get a **confirmation messages** where the `Authorize Google Apps (Gmail API)` was for the successful integration. Pressing **revoke** will dissconnect the integration.
 
 ![gmail integration](/img/integrations/gmail-4.png)
+
+In the main screen you will see the new Gmail integration in the Active Integrations table:
+
+![gmail integration](/img/integrations/gmail-5.png)

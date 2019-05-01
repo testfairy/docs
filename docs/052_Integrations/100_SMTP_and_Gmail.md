@@ -25,12 +25,15 @@ Follow these steps:
 1. Press the `Add integration` button next to the **Gmail** option.
 
 2. Press the `Authorize Google Apps (Gmail API)` Button:
+
 ![gmail integration](/img/integrations/gmail-1.png)
 
 3. Select the account you want to use:
+
 ![gmail integration](/img/integrations/gmail-2.png)
 
 4. Allow TestFairy access to the account:
+
 ![gmail integration](/img/integrations/gmail-3.png)
 
 

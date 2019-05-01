@@ -23,7 +23,6 @@ Add the details in the fields and press `SaveSMTP Settings`
 ### Gmail Integration
 Follow these steps:
 1. Press the `Add integration` button next to the **Gmail** option.
-
 2. Press the `Authorize Google Apps (Gmail API)` Button:
 
 ![gmail integration](/img/integrations/gmail-1.png)
@@ -32,7 +31,7 @@ Follow these steps:
 
 ![gmail integration](/img/integrations/gmail-2.png)
 
-4. Allow TestFairy access to the account:
+4. **Allow** TestFairy access to the account:
 
 ![gmail integration](/img/integrations/gmail-3.png)
 

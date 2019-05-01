@@ -15,14 +15,14 @@ In order to integrate your Gmail or SMTP Email account follow these steps:
 ### SMTP Integration
 
 Press the `Add integration` button next to the **SMTP Email** option.
-Add the details in the fields and press `SaveSMTP Settings`
+Add the details in the fields and press `Save SMTP Settings`
 
 ![SMTP screen](/img/integrations/SMTP-1.png)
 
 
 ### Gmail Integration
 Follow these steps:
-- Press the `Add integration` button next to the **Gmail** option.
+- Press the `Add Integration` button next to the **Gmail** option.
 - Press the `Authorize Google Apps (Gmail API)` Button:
 
 ![gmail integration](/img/integrations/gmail-1.png)
@@ -36,7 +36,8 @@ Follow these steps:
 ![gmail integration](/img/integrations/gmail-3.png)
 
 
-You will get a **confirmation messages** where the `Authorize Google Apps (Gmail API)` was for the successful integration. Pressing **revoke** will dissconnect the integration.
+You will get a **confirmation messages** instead of the `Authorize Google Apps (Gmail API)` button for a successful integration. 
+Pressing **revoke** will dissconnect the integration.
 
 ![gmail integration](/img/integrations/gmail-4.png)
 

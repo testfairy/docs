@@ -23,7 +23,9 @@ And If you go to the build overview you will see another message that the build 
 
 ![](/img/app_distribution/build-invalid.png)
 
-Once the build is disabled the app will not appear in the testers dashboard but Testers who already installed the app will be able to continue using it.
+_______
+**PLEASE NOTE:** Once the build is disabled the app **will not appear** in the testers dashboard but Testers who already installed the app will be able to continue using it.
+_______
 
 ### Deleting the build from the dashboard
 

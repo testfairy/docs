@@ -7,7 +7,7 @@ If you do not want a landing page you can disable it on the landing page setting
 Disabling the page will not stop the distribution of the app since it still appears in the **testers dashboard** and is still alive in the system.
 
 
-If you want to **`stop`** distribution of your app will need to do one of 2 actions:
+If you want to **`stop`** distribution of your app you will need to do one of 2 actions:
 
 ### Disable distribution
 

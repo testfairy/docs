@@ -27,7 +27,7 @@ Once the build is disabled the app will not appear in the testers dashboard but 
 
 ### Deleting the build from the dashboard
 
-If you want to delete a build from the system go to the build settings page inside the App Overview menu:
+If you want to delete a build from the system go to the builds **App Overview** menu:
 
 ![](/img/app_distribution/select-builds.png)
 

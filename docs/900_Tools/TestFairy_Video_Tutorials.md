@@ -1,6 +1,6 @@
 # The TestFairy Platform
 
-<!---  * [Full demo (6:40 mins)](https://youtu.be/K5Ctsh65BCY)--->
+[Full demo (6:40 mins)](https://youtu.be/K5Ctsh65BCY)
 
 <!---* [Signing up to TestFairy](https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w){target="_blank"}--->
 

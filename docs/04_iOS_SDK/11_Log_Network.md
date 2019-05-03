@@ -8,6 +8,10 @@ A common issue our users discovered while monitoring their apps, is **slow** req
 ### Usage:
 ```[TestFairy addNetwork:(NSURLSessionTask *)task error:(NSError *)error]```
 
+**Note**: You must enable recording of network requests in your build settings
+
+![see example](/img/enable_network_recording.png)
+
 ### Example:
 If you are using **NSURLConnection**, **AFNetworking** or **Alamofire** all you need to do is add callback to your request at the beginning of the request and at the end:
 

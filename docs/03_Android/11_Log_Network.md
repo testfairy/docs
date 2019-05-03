@@ -8,6 +8,10 @@ A common issue our users discovered while monitoring their apps, is **slow** req
 ### Usage:
 ```TestFairy.addNetworkEvent(URI uri, String method, int code, long startTimeMillis, long endTimeMillis, long requestSize, long responseSize, String errorMessage)```
 
+**Note**: You must enable recording of network requests in your build settings
+
+![see example](/img/enable_network_recording.png)
+
 ### Example:
 If you are using **OkHttp** or **Retrofit** all you need to do is add CustomHttpInterceptor to your client:
 
@@ -41,5 +45,3 @@ OkHttpClient client = new OkHttpClient.Builder()
 	.addInterceptor(new CustomHttpInterceptor())
 	.build();
 ```
-        
-        

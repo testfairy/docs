@@ -2,7 +2,8 @@ Integrating the TestFairy SDK into your app can help you better understand how y
 
 Both Java and Kotlin apps are supported.
 
-A list of changes is available in [Changelog](http://docs.testfairy.com/Android/Changelog.html).
+- Changelog: View [changelog](http://docs.testfairy.com/Android/Changelog.html).
+- Class reference: [https://docs.testfairy.com/reference/android/index.html](https://docs.testfairy.com/reference/android/index.html)
 
 ## Installation
 
@@ -32,12 +33,6 @@ A list of changes is available in [Changelog](http://docs.testfairy.com/Android/
    -dontwarn com.testfairy.**
    -keepattributes Exceptions, Signature, LineNumberTable
    ```
-
-
-
-## Class Reference
-
-[https://app.testfairy.com/reference/android/](https://app.testfairy.com/reference/android/)
    
 ## Upgrading
 

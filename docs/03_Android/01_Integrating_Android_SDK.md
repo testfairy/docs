@@ -53,9 +53,7 @@ A list of changes is available in the [Android SDK Changelog](http://docs.testfa
 
 Here is a quick example for an easy way to identify users by email address.
 ```
-Map<String, Object> traits = new HashMap<String, Object>();
-traits.put(TestFairy.IDENTITY_TRAIT_EMAIL_ADDRESS, "john@example.com");
-TestFairy.identify("", traits);
+TestFairy.setUserId("john@example.com");
 ```
 For more identification options [read this](https://docs.testfairy.com/SDK/Identifying_Your_Users.html)
 

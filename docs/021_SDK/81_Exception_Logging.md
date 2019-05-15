@@ -1,4 +1,4 @@
-TestFairy allows developers to log up to 5 exceptions or errors to a given session.
+TestFairy allows developers to log up to 5 exceptions or errors to a given session. **Note**: This does not mark the sessions as crashed, it will only log the exception or error to the session.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">

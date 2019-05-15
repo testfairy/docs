@@ -136,9 +136,9 @@ TestFairy.log("Hello, TestFairy!");
 
 			<p>We recommend wrapping all <b>log</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
-var _testfairyConsoleLog = console.log;
+var testfairyConsoleLog = console.log;
 console.log = function(message) {
-	_testfairyConsoleLog(message);
+	testfairyConsoleLog(message);
 	TestFairy.log(message);
 }
 			</pre>
@@ -160,10 +160,10 @@ TestFairy.log("Hello, TestFairy!");
 
 			<p>We recommend wrapping all <b>log</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
-var _testfairyConsoleLog = console.log;
+var testfairyConsoleLog = console.log;
 console.log = function(message) {
-	_testfairyConsoleLog(message);
-	TestFairySDK.log(message);
+	testfairyConsoleLog(message);
+	TestFairy.log(message);
 }
 			</pre>
 		</div>
@@ -185,9 +185,9 @@ TestFairySDK.log("Hello, TestFairy!");
 
 			<p>We recommend wrapping all <b>log</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
-var _testfairyConsoleLog = console.log;
+var testfairyConsoleLog = console.log;
 console.log = function(message) {
-	_testfairyConsoleLog(message);
+	testfairyConsoleLog(message);
 	TestFairySDK.log(message);
 }
 			</pre>

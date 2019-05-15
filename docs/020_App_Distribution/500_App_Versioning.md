@@ -17,6 +17,8 @@ These fields will be translated and displayed in the following fields on the Tes
 - Version = **versionName**
 - Version code = **versionCode** - displayed in (brackets) after the version field.
 
+![](/img/app_distribution/android-version-numbering.png)
+
 
 ### iOS:
 
@@ -29,8 +31,9 @@ These are 2 fields for identifying the app:
 
 These fields will be translated and displayed in the following fields on the TestFairy Dashboard:
 
-- Version code = **Bundle version**
 - Version = **Bundle versions string, short** 
+- Version code = **Bundle version** - displayed in (brackets) after the version field.
 
+![](/img/app_distribution/ios-version-numbering.png)
 
 For more information on app versioning see documentation for android versioning [here](https://developer.android.com/studio/publish/versioning#appversioning), and for iOS versioning [here](https://developer.apple.com/library/archive/technotes/tn2420/_index.html).

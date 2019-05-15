@@ -36,4 +36,4 @@ These fields will be translated and displayed in the following fields on the Tes
 
 ![](/img/app_distribution/ios-version-numbering.png)
 
-For more information on app versioning see documentation for android versioning [here](https://developer.android.com/studio/publish/versioning#appversioning), and for iOS versioning [here](https://developer.apple.com/library/archive/technotes/tn2420/_index.html).
+For more information on app versioning see documentation for android versioning <a href="https://developer.android.com/studio/publish/versioning#appversioning" target="_blank">here</a>, and for iOS versioning <a href="https://developer.apple.com/library/archive/technotes/tn2420/_index.html" target="_blank">here</a>.

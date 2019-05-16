@@ -1,4 +1,4 @@
-TestFairy builds can include release notes that will show up in email invitations, landing pages and in the testers dashboard.
+TestFairy builds can include [Markdown](https://guides.github.com/features/mastering-markdown/) release notes that will show up in email invitations, landing pages and in the testers dashboard.
 
 There are several ways to update a build release notes.
 

@@ -36,7 +36,7 @@ Here are some commonly used options:
 			<pre>
 import com.testfairy.TestFairy;
 
-public class MainActivity extends Activity {
+public class MyApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -93,7 +93,7 @@ public class MainActivity extends Activity {
 			<pre>
 import com.testfairy.TestFairy;
 
-public class MainActivity extends Activity {
+public class MyApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -149,7 +149,7 @@ public class MainActivity extends Activity {
 			<pre>
 import com.testfairy.TestFairy;
 
-public class MainActivity extends Activity {
+public class MyApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -204,7 +204,7 @@ public class MainActivity extends Activity {
 			<pre>
 import com.testfairy.TestFairy;
 
-public class MainActivity extends Activity {
+public class MyApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -255,7 +255,7 @@ public class MainActivity extends Activity {
 			<pre>
 import com.testfairy.TestFairy;
 
-public class MainActivity extends Activity {
+public class MyApplication extends Application {
 	@Override
 	public void onCreate() {
 		super.onCreate();

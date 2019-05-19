@@ -21,10 +21,7 @@ Both Java and Kotlin apps are supported.
 
 
 2. Add Testfairy to your main activity's `onCreate`:
-
-
-<iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
-
+   <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
 3. (Optional) If you have *Proguard* enabled, please add this snippet to your proguard rules file (eg `proguard-rules.pro`, `proguard.cfg` or others):
 

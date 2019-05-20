@@ -18,33 +18,34 @@ After build is uploaded, open [build settings](https://docs.testfairy.com/Gettin
 
 ![TestFairy build settings ](/img/auto-update-img1.png)
 
-#### Option 3. Configure auto-update via upload API?
+#### Option 3. Configure auto-update via upload API
 
 When uploading a new build via our [upload api](https://docs.testfairy.com/API/Upload_API.html) set the `auto-update` parameter to `on` .
 
 ### How to Verify which app is set to auto-update ?
 
-Open your app and look at the list of builds. The right column has an icon for the auto-update version.
+Open your app and look at the list of builds. The right column has an icon of a rownded arrow indicating this is the auto-update version.
 
 ![](/img/auto-update-dashboard-place.png)
 
 
-### What will be the user experience on auto-update?
+### What will be the user experience on auto-update ?
 
 - Auto-Update will upgrade all the previous installations of an app to the selected version. 
 - When your app starts, the SDK will check if a new version is available and is marked for auto update.
-- If so, the user will see a message telling him that a new version is ready and if asking him if he wants to update:
+- If so, the user will see a message telling him that a new version is ready and asking him to update:
 ![auto update message](/img/app_distribution/auto-update-msg.png)
 
 
 - If the user agrees, the new version will download and install on his device. 
+- If the user declines the old bersion of the app will load. The message will again display when the app is loaded again.
 
 ### Reasons that auto update may fail
 
 Here are some reasons when auto-update of an app may fail:
-* The version number and name of the new build is the same as the old one. Auto-update will only work when versions are different.
-* You must have the TestFairy SDK integrated into Both versions for auto-update to work.
-* (in Android) The sign certificates of each version must be the same certificate. If app is not signed with the same certificate TestFairy cant perform the auto-update action.
+* The version number and name of the new build are **the same** as the old one. Auto-update will only work when versions are **different**.
+* The TestFairy SDK must be integrated into Both versions for auto-update to work.
+* (in Android) The sign certificate of each version must be the same. If an app is not signed with the same certificate TestFairy cant perform the auto-update action.
 
 
 ### A method to force auto update

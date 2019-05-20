@@ -39,17 +39,17 @@ Open your app and look at the list of builds. The right column has an icon for t
 
 - If the user agrees, the new version will download and install on his device. 
 
-### In what cases auto update may not work?
+### Reasons that auto update may fail
 
-Here are some reasons when auto-update of an app will not work:
-* The version of the new build is the same as the old one. Auto-update will only work when versions are different.
-* Both versions must have the TestFairy SDK integrated into them.
-* (in Android) The certificates of each version must be the same.
+Here are some reasons when auto-update of an app may fail:
+* The version number and name of the new build is the same as the old one. Auto-update will only work when versions are different.
+* You must have the TestFairy SDK integrated into Both versions for auto-update to work.
+* (in Android) The sign certificates of each version must be the same certificate. If app is not signed with the same certificate TestFairy cant perform the auto-update action.
 
 
-### How to force auto update?
+### A method to force auto update
 
-Sometimes you will want to make sure all testers of an app are only testing on the latest version released. In this case you can use the following method to make sure users and testers **can not** run older versions of the app and must upgrade to the version marked as auto-update.
+Occasionally you will want all testers of an app to only test the latest version released. In this case you can use the following method to make sure users and testers **can not** run older versions of the app and must upgrade to the version marked as auto-update.
 
 The classes used are named [`sessionStateListener`](https://docs.testfairy.com/reference/android/com/testfairy/SessionStateListener.html#SessionStateListener--) → `onAutoUpdateDismissed` in **Android** and [`testFairySessionStaeteDelagate`](https://app.testfairy.com/reference/ios/Protocols/TestFairySessionStateDelegate.html) → `autoUpdateDismissed` in **iOS**.
 These methods get the result of the pop up message displayed to the user asking to update. You can then write code to perform the action of your choice.
@@ -69,6 +69,8 @@ This will cause the system to perform an auto-update of version 1.5 to version 1
 
 
 ----------
+
+
 
 
 

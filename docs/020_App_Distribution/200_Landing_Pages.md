@@ -25,7 +25,7 @@ The Settings of a landing page are defined in the Landing Page Settings page ins
   * _Opt-In (Testers can ask you to join)_ - in this option the page is open but if testers want to download your app they need to ask permission using the ![sing me up](/img/sign-me-up-button.png)
 Button. This will trigger a sign-up process details here .
 
-* **App description:** A description you can add to the landing page to give =your testers instructions of other information.
+* **App description:** A description you can add to the landing page to give your testers instructions or other information. Can be formatted in <a href=https://guides.github.com/features/mastering-markdown/ target=_blank >Markdown</a>.
 
 * **Add release notes:** do you want to include the release notes detailed when you loaded the app on the landing page?
 * **Add custom CSS:**  see [here](https://docs.testfairy.com/FAQ/Landing_Page_Customization.html) for customizing the appearance of the landing page.

@@ -46,6 +46,6 @@ Read more about the [TestFairy Jenkins plugin](https://wiki.jenkins.io/display/J
 
 ### How to stylize the release notes
 
-TestFairy builds can include the use of <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Markdown</a> in the release notes and app description that will appear in [email invitations](), [landing pages](https://docs.testfairy.com/App_Distribution/Landing_Pages.html) and in the testers dashboard tooltips.
+TestFairy builds can include the use of <a href="https://guides.github.com/features/mastering-markdown/" target="_blank">Markdown</a> in the release notes and app description that will appear in [email invitations](), [landing pages](https://docs.testfairy.com/App_Distribution/Landing_Pages.html) and in the [testers dashboard]() tooltips.
 
 

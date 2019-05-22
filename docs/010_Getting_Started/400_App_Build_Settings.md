@@ -19,7 +19,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 <img src="../../img/getting-started/build-settings-1.png" width="800"/>
 
-* __Recording:__ Choose whether Insights is enabled, disabled or enabled only when WiFi is on. This is global and overrides all other settings.
+* __Recording:__ Choose whether recording of sessions is `enabled`, `disabled` or `enabled only when WiFi is on`. This is global and overrides all other settings.
 
 * __Max Duration:__ you can choose a maximum recording duration of 10 min, 1 or 5 hour. When going to background, session will automatically end after 5 minutes the app is in background.
 
@@ -40,20 +40,20 @@ Every build has its own settings, however, some of the definitions are shared by
 
 * **App Distribution:** Enabled or Disabled. When didabled the app cannot be installed and pending invitations will expire.
 
-* **Auto-Update** - when enabled, all the previous installations of this app will be automatically upgraded to this version. The next time a user with an old version opens his app, he will get an 'updating' message and the app will be installed automatically. No email will be sent regarding this update.
+* **[Auto-Update](https://docs.testfairy.com/App_Distribution/Auto_Update.html)** - when auto-update is enabled, all the previous installations of this app will be automatically upgraded to this version. The next time a user with an old version opens his app, he will get an 'updating' message and the app will be installed automatically. No email will be sent regarding this update.
 
-* **Landing Page** - click the button to configure the landing page for this build.
+* **[Landing Page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html)** - click the button to configure the [landing page] for this build.
 
-* **Release Notes:** These release notes will appear in email invitations, landing pages and in the tester dashboard at my.testfairy.com. Release Notes can be set via upload api, manually on upload or in this page.
+* **[Release Notes](https://docs.testfairy.com/App_Distribution/Releas_Notes.html)** These release notes will appear in email invitations, landing pages and in the tester dashboard at my.testfairy.com. Release Notes can be set via upload api, manually on upload or in this page.
 
 
 ### Bug reporting
 
 <img src="../../img/getting-started/build-settings-3.png" width="800"/>
    
-* **In-App Bug Reporting** - when enabled, testers can provide feedback simply by shaking their device and filling a form that pops up. On iOS, screenshot will trigger the same mechanism. 
+* **[In-App Bug Reporting](https://docs.testfairy.com/Testers/Submitting_User_Feedback.html)** - when enabled, testers can provide feedback simply by shaking their device and filling a form that pops up. On iOS, screenshot will trigger the same mechanism. 
 
-* **Bug System** - indicated which JIRA project is configured for this app. the general configuration of bug tracking systems is doen via the [Bug systems](https://app.testfairy.com/settings/bug-system/) menu item in the account preferences.
+* **[Bug System](https://docs.testfairy.com/Bug_Tracking/Overview.html)** - indicated which JIRA project is configured for this app. the general configuration of bug tracking systems is doen via the [Bug systems](https://app.testfairy.com/settings/bug-system/) menu item in the account preferences.
 
 ### Symbolication
 

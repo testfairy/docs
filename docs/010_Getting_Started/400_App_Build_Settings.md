@@ -38,7 +38,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 <img src="../../img/build-settings-2.png" width="800"/>
 
-* **App Distribution:** Enabled or Disabled. When didabled the app cannot be installed and pending invitations will expire.
+* **App Distribution:** Enabled or Disabled. When disabled the app cannot be installed and pending invitations will expire.
 
 * **[Auto-Update](https://docs.testfairy.com/App_Distribution/Auto_Update.html)** - when auto-update is enabled, all the previous installations of this app will be automatically upgraded to this version. The next time a user with an old version opens his app, he will get an 'updating' message and the app will be installed automatically. No email will be sent regarding this update.
 

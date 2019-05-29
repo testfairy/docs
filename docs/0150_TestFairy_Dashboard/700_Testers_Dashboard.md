@@ -37,11 +37,23 @@ In the menu there is an option to see **My Apps** in the account, see **My Devic
 If an iOS application does not install on your device, we recommend that you run the `troubleshooting` tool:
 
 1. Open your TestFairy account via the link [my.testfairy.com](https://my.testfairy.com) on the device you want to test.
+
+
 2. Click the Tester icon ![](/img/tester/tester-icon-1.png) menu and choose **Troubleshooting**.
+
+
 3. Click the `START` button to start the troubleshooting process.
+
+
 4. Click **allow** to let the configuration profile download.
+
+
 5. Close and go to the **settings app**. Click on the **profile downloaded** menu.
+
+
 6. Install the configuration profile previously downloaded.
+
+
 7. After install is complete, you will be directed to review the troubleshooting results.
 
 

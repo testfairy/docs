@@ -23,7 +23,7 @@ Here is an example of CSS code you can use:
 
 ```
 
-.lp-background.conservative.testfairy-background {background-image: url("https://www.testfairy.com/images/castle-cloud.jpg");}
+.testfairy-background {background-image: url("https://www.testfairy.com/images/castle-cloud.jpg") !important;}
 .testfairy-app-name {color: green;}
 .testfairy-description {color: red;}
 .community-sub-title.dev {color: blue;}

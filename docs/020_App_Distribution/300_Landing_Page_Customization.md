@@ -10,13 +10,13 @@ The basic landing page that is automatically generated looks like this:
 The following elements can be changed via the Add custom CSS option in the landing page settings:
 
 
- * **Page title** - class `.community-title`
+ * **Page title** - class `.testfairy-app-name`
  
- * **Release notes** - class `.community-sub-title`
+ * **Release notes** - class `.testfairy-description`
  
  * **Feedback Instructions** - class `.community-sub-title.dev`
  
- * **Background** - class `.lp-background.conservative`
+ * **Background** - class `.testfairy-background`
  
 
 Here is an example for a CSS code you can use in order to customize your landing page:

@@ -19,7 +19,7 @@ The following elements can be changed via the Add custom CSS option in the landi
  * **Background** - class `.lp-background.conservative`
  
 
-Here is an example of CSS code you can use:
+Here is an example for a CSS code you can use in order to customize your landing page:
 
 ```
 

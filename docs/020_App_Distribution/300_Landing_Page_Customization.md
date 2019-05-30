@@ -20,18 +20,15 @@ The following elements can be changed via the Add custom CSS option in the landi
  
 
 Here is an example of CSS code you can use:
- 
- ```
+
+```
 
 .lp-background.conservative {background-image: url("https://www.testfairy.com/images/castle-cloud.jpg");}
-
 .community-title {color: green;}
-
 .community-sub-title {color: red; font-family: cursive;}
-
 .community-sub-title.dev {font-size: 30px;}
- 
- ```
+
+```
  
  
 ![css editing](/img/landing-page-customization-css-place.png)

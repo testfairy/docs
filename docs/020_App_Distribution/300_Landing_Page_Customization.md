@@ -23,10 +23,10 @@ Here is an example of CSS code you can use:
 
 ```
 
-.lp-background.conservative {background-image: url("https://www.testfairy.com/images/castle-cloud.jpg");}
+.lp-background.conservative.testfairy-background {background-image: url("https://www.testfairy.com/images/castle-cloud.jpg");}
 .testfairy-app-name {color: green;}
 .testfairy-description {color: red;}
-.community-sub-title.dev {font-size: 30px;}
+.community-sub-title.dev {color: blue;}
 
 ```
  

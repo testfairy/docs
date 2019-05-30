@@ -24,8 +24,8 @@ Here is an example of CSS code you can use:
 ```
 
 .lp-background.conservative {background-image: url("https://www.testfairy.com/images/castle-cloud.jpg");}
-.community-title {color: green;}
-.community-sub-title {color: red; font-family: cursive;}
+.testfairy-app-name {color: green;}
+.testfairy-description {color: red;}
 .community-sub-title.dev {font-size: 30px;}
 
 ```

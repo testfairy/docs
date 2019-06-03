@@ -1,8 +1,13 @@
+### Version 1.9.8
+Released: 2019-05-29
+
+* [BUGFIX] Support for AppBar in screenshots.
+
 ### Version 1.9.7
 Released: 2019-04-08
 
 * [NEW] Support for end-to-end encryption using RSA public key. Please see docs.
-* [BUGFIX] Added support for Android Q
+* [BUGFIX] Added support for Android Q.
 
 ### Version 1.9.4
 Released: 2019-02-13

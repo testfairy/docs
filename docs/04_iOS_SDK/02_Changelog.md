@@ -1,3 +1,10 @@
+### Version 1.19.5
+Released 2019-06-06
+
+* [NEW] Support for end-to-end encryption using RSA public key. Please see [docs](https://docs.testfairy.com/Security/End_to_End_Data_Encryption.html).
+* [NEW] TestFairy Network support added see [Log Network](https://docs.testfairy.com/iOS_SDK/Log_Network.html).
+* [BUGFIX] Calling `setUserId` after `stop` will send user ID to new session.
+
 ### Version 1.19.4
 Released 2019-04-18
 

@@ -65,24 +65,24 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	"builds": [
 		{
 			"id":8830728,
-         		"self":"/projects/6806100-myapplication/builds/8830728",
-         		"projectId":"6806100",
-		        "appName":"My Application",
-		        "appVersion":"DemoApp",
-		        "appVersionCode":"20",
-		        "appDisplayName":"My Application - DemoApp (20)",
-			"iconUrl":"https://s3.amazonaws.com/testfairy/icons/553308/5f3bfb13dc7f33fccff19ad7cfcc4b13022e7dba.png",
-		        "appUrl":"https://s3.amazonaws.com/testfairy/releases/553308/cb34261bc327384cd7c720476cd735283e243a4a/app-debug.apk",
-         		"sessions":6,
-         		"crashes":0,
-		        "testers":0,
-		        "feedbacks":0,
+			"self":"/projects/6806100-myapplication/builds/8830728",
+			"projectId":"6806100",
+			"appName":"My Application",
+			"appVersion":"DemoApp",
+			"appVersionCode":"20",
+			"appDisplayName":"My Application - DemoApp (20)",
+			"iconUrl":"[APP ICON URL]",
+			"appUrl":"[URL TO APK OR IA FILE]",
+			"sessions":6,
+			"crashes":0,
+			"testers":0,
+			"feedbacks":0,
 			"downloads":1,
 			"uploadedAt":"2019-04-04 16:03:15",
-         		"uploadedVia":"web-uploader (Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36)",
-	 		"hasTestFairySdk":true,
-         		"insightsEnabled":true,
-         		"videoEnabled":true
+			"uploadedVia":"[UPLOAD DETAILS]",
+			"hasTestFairySdk":true,
+			"insightsEnabled":true,
+			"videoEnabled":true
 		}
 	]
 }

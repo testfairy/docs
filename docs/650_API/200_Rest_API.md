@@ -329,12 +329,13 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	"status": "ok",
 	"feedbacks": [
 		{
-			"recorded_at": "2018-08-01 14:14:46",
+			"recorded_at": "2018-08-01 04:14:46",
 			"text": "Feedback working",
-			"feedback_id": "54321",
-			"screenshot_url": "https://s3.amazonaws.com/feedback.jpg",
-			"build_id": "1234",
-			"project_id": "23456",
+			"feedbackId": "54321",
+			"screenshotUrl": "https://s3.amazonaws.com/feedback.jpg",
+			"buildId": "1234",
+			"projectId": "23456",
+			"recordedAt":"2018-08-01 14:14:46",
 			"source": "shake",
 			"reported_by": "john@testfairy.com",
 			"session_id": "8765432"

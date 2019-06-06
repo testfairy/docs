@@ -231,13 +231,42 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	"status": "ok",
 	"testers": [
 		{
-			"email": "john@testfairy.com"
-		},
-		{
+		"email":"rafael@testfairy.com",
+		"invitationStatus":"1",
+		"hasUdidAccess":true,
+		"isBlocked":false,
+		"allowAll":false,
+		"hasPushToken":false,
+		"emailBounce":null,
+		"groups":[ 
+			],
+			"allDevices":[
+			{
+			"id":"29651071",
+			"manufacturer":"Android-8.1.0",
+			"name":null,
+			"raw":null
+			}
+			],
+			"appleDevices":[			
+			{  
+			"id":"178760",
+			"manufacturer":"Apple",
+			"name":"iPhone 5s",
+			"udid":"f26c9479ad8c5275422d05c59fcd0b266c3731b5"
+			},
+			{  
+			"id":"182637",
+			"manufacturer":"Apple",
+			"name":"iPad Mini 4",
+			"udid":"42c5e7c45aa3df85ee4cd9e0c6a5d01bf202ed01"
+			},
+			{
 			"email": "alice@testfairy.com"
-		}
-	]
-}</pre>
+			}
+		]
+	}
+</pre>
 </div>
 
 <div class="method">

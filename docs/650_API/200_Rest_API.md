@@ -39,7 +39,8 @@ In the example above, you can see that our user is `john@example.com` and the AP
 			"self": "/projects/19-groupshot",
 			"name":"GroupShot",
 			"packageName":"com.groupshot",
-			"platform":"Android"
+			"platform":"Android",
+			"icon":"[URL TO APP ICON]"
 		}
 	]
 }</pre>
@@ -108,10 +109,10 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	"status": "ok",
 	"crashes": [
 		{
-			"sessionId": 50571690,
-			"testerEmail": "john@testfairy.com",
-			"message": "android.content.ActivityNotFoundException: Unable to find explicit activity class {com.testfairy.apps.sample/com.testfairy.apps.sample.MemoryTest}; have you declared this activity in your AndroidManifest.xml?",
-			"stackTrace": "android.content.ActivityNotFoundException: Unable to find explicit activity class {com.testfairy.apps.sample/com.testfairy.apps.sample.MemoryTest}; have you declared this activity in your AndroidManifest.xml? at android.app.Instrumentation.checkStartActivityResult(Instrumentation.java:1794) at android.app.Instrumentation.execStartActivity(Instrumentation.java:1512) at android.app.Activity.startActivityForResult(Activity.java:3917) at android.app.Activity.startActivityForResult(Activity.java:3877) at android.app.Activity.startActivity(Activity.java:4200) at android.app.Activity.startActivity(Activity.java:4168) at com.testfairy.apps.sample.MainActivity$14.onClick(MainActivity.java:187) at android.view.View.performClick(View.java:5198) at android.view.View$PerformClick.run(View.java:21147) at android.os.Handler.handleCallback(Handler.java:739) at android.os.Handler.dispatchMessage(Handler.java:95) at android.os.Looper.loop(Looper.java:148) at android.app.ActivityThread.main(ActivityThread.java:5417) at java.lang.reflect.Method.invoke(Native Method) at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:726) at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:616) "
+			"id":"5310d26524a58cca5ecff143c956529b",
+			"self":"/projects/6804250-drawmeafairy/builds/8674596/crashes/5310d26524a58cca5ecff143c956529b",
+			"message":"com.testfairy.samples.drawmefairy.CrashActivity$MyCountDownTimer.onFinish (CrashActivity.java:41)",
+			"occurrences":4
 		}
 	]
 }
@@ -150,6 +151,8 @@ In the example above, you can see that our user is `john@example.com` and the AP
 		}
 	]
 }
+
+
 </pre>
 </div>
 
@@ -190,13 +193,20 @@ In the example above, you can see that our user is `john@example.com` and the AP
 {
 	"status": "ok",
 	"session": {
-		"id": 1,
-		"sessionStartTime": "2017-01-22 16:42:40",
-		"duration": "15:01",
-		"testerEmail": "john@testfairy.com",
-		"device": "Samsung - Samsung Galaxy S8",
-		"ipAddress": "23.100.122.175",
-		"crashed": false
+		"id":4426273741,
+		"sessionStartTime":"2019-05-20 09:05:30",
+		"duration":"00:27",
+		"testerEmail":"blabla@ex.com",
+		"device":"Xiaomi - Redmi S2",
+		"ipAddress":"84.94.200.136",
+		"crashed":false,
+		"identity":{
+			"correlationId":"blabla@ex.com",
+			"attr3":"three",
+			"attr4":"four",
+			"attr1":"High",
+			"attr2":"1.0",
+			"attr5":"Version 1.0"
 	}
 }
 </pre>

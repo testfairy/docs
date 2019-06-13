@@ -45,6 +45,9 @@ $ node node_modules/testfairy-connect/service.js configure
 - **JIRA password:**
   
   And your JIRA login password
+  
+  	- Somtimes, depending on your user definitions in JIRA, you may need to use an API token as your password. You can creat on here: https://id.atlassian.com/manage/api-tokens
+	
 
 - **Please enter HTTP proxy server address, leave empty if none: **
   

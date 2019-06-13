@@ -46,7 +46,7 @@ $ node node_modules/testfairy-connect/service.js configure
   
   And your JIRA login password
   
-  	- Somtimes, depending on your user definitions in JIRA, you may need to use an API token as your password. You can creat on here: https://id.atlassian.com/manage/api-tokens
+  	- Somtimes, depending on your user definitions in JIRA, you may need to use an API token as your password. You can creat on here: <a hfer="https://id.atlassian.com/manage/api-tokens" target="_blank">https://id.atlassian.com/manage/api-tokens<a/> )
 	
 
 - **Please enter HTTP proxy server address, leave empty if none: **
@@ -165,6 +165,7 @@ Please note that the `issueTracker.URL` setting should have a proper schema (htt
 #### Access token & secret generation:
 
 1. Obtain a keypair:
+	
 	```
 	openssl genrsa -out jira_rsa 2048
 	openssl rsa -in jira_rsa -pubout > jira_rsa.pub
@@ -194,6 +195,7 @@ Enter 'url' or any string to use for Application Link identification.
   ![Verify Access Token](https://docs.testfairy.com/img/testfairy-connect/4-verify-access-token.png)
 
 3. Run the token generation script found [here](https://docs.testfairy.com/js/download/oauth.js). Right-click to copy .js file path. 
+	
 	```
 	wget [paste file path here]
 	npm install oauth

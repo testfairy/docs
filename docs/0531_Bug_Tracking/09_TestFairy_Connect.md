@@ -31,6 +31,8 @@ Installation is done via npm. Please run the following command in a folder for y
 ## Configuration
 
 To configure TestFairy Connect, run the following line and follow the on-screen instructions:
+
+
 ```
  node node_modules/testfairy-connect/service.js configure [-f /path/to/config.json]
 ```
@@ -51,9 +53,11 @@ If the optional `-f` parameter is omitted, TestFairy Connect will use the defaul
 
 To start the TestFairy Connect agent, use the following command:
 
- ```
- node node_modules/testfairy-connect/service.js run [-f /path/to/config.json]
- ```
+
+```
+node node_modules/testfairy-connect/service.js run [-f /path/to/config.json]
+```
+
 If the optional `-f` parameter is omitted, TestFairy Connect will use the default location: /path/to/user/home/.testfairy-connect/config.json
     
 

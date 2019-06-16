@@ -13,9 +13,13 @@ An ad hoc provisioning profile is a distribution provisioning profile that allow
 
 There are 4 types of distribution provisioning profiles you can create for apps:
   - iOS App Store - for distributing through the apple app store.
+  
   - Ad Hoc - for installing on **designated devices**.
+  
   - [Enterprise](https://developer.apple.com/programs/enterprise/) - for distributing an app within your organization.
+  
   - [Development](https://developer.apple.com/support/certificates/) - For distributing within members of your team.
+  
 
 Make sure you have created an Ad Hoc provisioning profile specifying an `App ID` that matches one or more of your apps, a set of **test devices**, and a single **distribution certificate** at the [developer portal](https://idmsa.apple.com/IDMSWebAuth/login?&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2F%2Fmembercenter%2Findex.action).
 

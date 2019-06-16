@@ -12,9 +12,10 @@ The output file you create is an iOS App file (a file with an `.ipa` filename ex
 An ad hoc provisioning profile is a distribution provisioning profile that allows your app to be installed on designated devices and to use app services without the assistance of Xcode. 
 
 There are 4 types of distribution provisioning profiles you can create for apps:
+  
   - iOS App Store - for distributing through the apple app store.
   
-  - Ad Hoc - for installing on **designated devices**.
+  - Ad Hoc - for installing on **[designated devices](/Adding_UDIDs_to_iOS_development_profile.html)**.
   
   - [Enterprise](https://developer.apple.com/programs/enterprise/) - for distributing an app within your organization.
   

@@ -1,3 +1,8 @@
+### Version 1.19.6
+Released 2019-06-17
+
+* [BUGFIX] Removed legacy code
+
 ### Version 1.19.5
 Released 2019-06-06
 

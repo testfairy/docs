@@ -106,10 +106,10 @@ Many times, the error displayed on an iOS device screen is too generic, but the 
 * Open Xcode.
 * Open menu Window -> Devices.
 * Select the device which you want to inspect.
-* Click on the little arrow toggle button at the bottom of the window.
-* A new divider will open up with up-to-date logs from the device.
+* Click on the `View Device Logs` button.
+* A new window will open up with up-to-date logs from the device.
 
-![How to access device logs](../../img/ios/accessing-logs/accessing-logs-from-xcode.png)
+![How to access device logs](/img/ios/export_ipa/view-device-logs.png)
 
 # References
 

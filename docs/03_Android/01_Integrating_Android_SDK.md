@@ -12,24 +12,27 @@ Both Java and Kotlin apps are supported.
 -->
 
 1. Add the SDK to your build.gradle app module (eg. `app/build.gradle`)
-   ```
-      dependencies {
-          implementation 'testfairy:testfairy-android-sdk:1.+@aar'
+
+
+```
+   dependencies {
+       implementation 'testfairy:testfairy-android-sdk:1.+@aar'
       }
-   ```
-   make sure you have the jcenter() repository included.
+```
 
-
+Make sure you have the jcenter() repository included.
+   
 2. Add Testfairy to your main activity's `onCreate`:
-   <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
-3. (Optional) If you have *Proguard* enabled, please add this snippet to your proguard rules file (eg `proguard-rules.pro`, `proguard.cfg` or others):
+<iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
-   ```
-   -keep class com.testfairy.** { *; }
-   -dontwarn com.testfairy.**
-   -keepattributes Exceptions, Signature, LineNumberTable
-   ```
+3. **(Optional)** If you have *Proguard* enabled, please add this snippet to your proguard rules file (eg `proguard-rules.pro`,   `proguard.cfg` or others):
+
+```
+ -keep class com.testfairy.** { *; }
+ -dontwarn com.testfairy.**
+ -keepattributes Exceptions, Signature, LineNumberTable
+```
    
 ## Upgrading
 

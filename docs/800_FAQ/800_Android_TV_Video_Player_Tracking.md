@@ -4,13 +4,14 @@ You can take a look at [this blog post](https://blog.testfairy.com/tracking-vide
 
 Once you import the extension, you can initialize the tracker with these one liners.
 
+#### with MediaPlayer
 ```java
 // Initialize
 TestFairyMediaPlayerGlue.PlayerWrapper wrapper = TestFairyMediaPlayerGlue.createByWrapping(myMediaPlayer);
 // use wrapper to configure further listeners and behavior
 ```
 
-or
+#### or with MediaPlayerAdapter
 
 ```java
 // Initialize

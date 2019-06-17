@@ -86,15 +86,15 @@ To install an app on a device using Xcode
 
 3. In the Installed Apps table, click the Add button (+) below the table.
 
-![install_an_app](/img/ios/export_ipa/device-and-install.png)
+ ![install_an_app](/img/ios/export_ipa/device-and-install.png)
 
 4. In the dialog that appears, choose the iOS App file and click Open.
 
-![](/img/ios/export_ipa/choose-ipa-file.png
+ ![chose file](/img/ios/export_ipa/choose-ipa-file.png)
 
 5. The app is now added to the list of installed app end is installed n the device.
 
-![](/img/ios/export_ipa/app-is-installed.png)
+ ![](/img/ios/export_ipa/app-is-installed.png)
 
 ##  <a name="xcode-system-logs"></a>Accessing Logs from Xcode
 

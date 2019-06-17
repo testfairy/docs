@@ -82,18 +82,17 @@ To install an app on a device using Xcode
 
 1. Connect the device to your Mac.
 
+2. In Xcode, choose Window > Devices and select the device under Devices.
 
-1. In Xcode, choose Window > Devices and select the device under Devices.
-
-1. In the Installed Apps table, click the Add button (+) below the table.
+3. In the Installed Apps table, click the Add button (+) below the table.
 
 ![install_an_app](/img/ios/export_ipa/device-and-install.png)
 
-1. In the dialog that appears, choose the iOS App file and click Open.
+4. In the dialog that appears, choose the iOS App file and click Open.
 
-![](/img/ios/export_ipa/choose-ipa-file.png)
+![](/img/ios/export_ipa/choose-ipa-file.png
 
-1. The app is now added to the list of installed app end is installed n the device.
+5. The app is now added to the list of installed app end is installed n the device.
 
 ![](/img/ios/export_ipa/app-is-installed.png)
 

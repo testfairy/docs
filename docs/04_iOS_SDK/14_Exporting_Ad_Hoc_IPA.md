@@ -1,10 +1,12 @@
-Apple allows app distribution for testing on registered devices using an Ad-Hoc or Enterprise provisioning profile. 
+Apple allows app distribution for testing on registered devices using an **Ad-Hoc** or **Enterprise** provisioning profile. 
 
-The output file you create is an iOS App file (a file with an `.ipa` filename extension) that they can then use to install your app on registered devices. Following are the steps to export your app for testing:
+The output file you create is an iOS App file (a file with an `.ipa` filename extension) that is then used to install your app on registered devices.
 
-1. Register all test devices.
-2. Archive your app.
-3. Export the archive to an IPA file using either an ad hoc provisioning profile or team provisioning profile to code sign your app.
+Following are the steps to export your app for testing:
+
+1. Register all test devices using the instructions <a href="https://docs.testfairy.com/Testers/Registering_Your_iOS_Device_UDID_Number.html" target="_blank">here</a>.
+2. Archive your app (see instructions below).
+3. Export the archive to an IPA file using either an Ad Hoc or Enterprise provisioning profile to code sign your app.
 4. Install the app on test devices.
 
 ## About Ad Hoc Provisioning Profiles
@@ -18,9 +20,9 @@ There are 4 types of distribution provisioning profiles you can create for apps:
   
   - Ad Hoc - for installing on **[designated devices](https://docs.testfairy.com/iOS_SDK/Adding_UDIDs_to_iOS_development_profile.html)**.
   
-  - [Enterprise](https://developer.apple.com/programs/enterprise/) - for distributing an app within your organization.
+  - <a href="https://developer.apple.com/programs/enterprise/" target="_blank">Enterprise</a> - for distributing an app within your organization.
   
-  - [Development](https://developer.apple.com/support/certificates/) - For distributing within members of your team.
+  - <a href="https://developer.apple.com/support/certificates/" target="_blank">Development</a> - For distributing within members of your team.
   
 
 Make sure you have created an Ad Hoc provisioning profile specifying an `App ID` that matches one or more of your apps, a set of **test devices**, and a single **distribution certificate** at the [developer portal](https://idmsa.apple.com/IDMSWebAuth/login?&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&path=%2F%2Fmembercenter%2Findex.action).

@@ -1,7 +1,6 @@
 # Connect TestFairy to JIRA Cloud
 
 ## 1. Create a JIRA API token
-Please note that this first step is optional, if you choose to use username and password instead of API Token, continue to step 2.
 
 1.1 log in to [https://id.atlassian.com/manage/api-tokens#](https://id.atlassian.com/manage/api-tokens#) and click on "Create API token"
 

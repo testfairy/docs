@@ -4,7 +4,7 @@ First you will need to connect a JIRA account. Follow the [instructions here](ht
 
 Choose one of your apps you want to connect and press the `Activate` button.
 
-![jira projects](/img/bug-tracking/jira-connect-proj-map.png)
+![jira projects](/img/bug-tracking/jira-connect-proj-map1.png)
 
 Here you can configure the JIRA fields:
 

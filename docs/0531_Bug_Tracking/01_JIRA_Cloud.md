@@ -46,6 +46,10 @@ In order to install it please follow these steps:
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-discover.png)
 
+4. On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
+
+![JIRA-testfairy app](/img/bug-tracking/jira-3-dots.png)
+
 
 ## This is how JIRA issues look After the installation
 

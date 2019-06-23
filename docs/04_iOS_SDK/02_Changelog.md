@@ -1,3 +1,9 @@
+### Version 1.19.7
+Released 2019-06-23
+
+* [BUGFIX] Set fullscreen presentation mode for iOS 13 on Feedback Views
+* [BUGFIX] Disable rendering screenshots on view controller animations
+
 ### Version 1.19.6
 Released 2019-06-17
 

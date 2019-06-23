@@ -1,17 +1,22 @@
-TestFairy can integrate with Splunk to provide better insights into your mobile apps.
+TestFairy can integrate with Splunk to provide better insights into your mobile apps. This document explains how to export the app logs from TestFairy and import them into your Splunk installation.
 
-* Use the TestFairy [fetch-session](https://github.com/testfairy/testfairy-fetch-sessions) tool to download log files for a specific project.
+#### Exporting logs
+
+* Use the [TestFairy Fetch Session Tool](https://github.com/testfairy/testfairy-fetch-sessions) tool to download log files for a specific project.
 
 ```
 npm install -g --link git+https://github.com/testfairy/testfairy-fetch-sessions.git
+
 testfairy-fetch-sessions --endpoint "acme.testfairy.com" --user "john@example.com" --api-key "0123456789abcdef" --project-id=1000 --logs
 ```
 
-The logs should be downloaded to a folder named `testfairy-sessions` with a directory structure as follows:
+The logs are downloaded to a folder named `testfairy-sessions` with a directory structure as follows:
 
 ![Alt](/img/integrations/splunk/splunk-1.png)
 
 Note that the directory which contains the `session.log` file is also the session identifier. You can use this value to set the _Host_ value later on.
+
+#### Importing logs into Splunk
 
 * In your Splunk forwarder, under the settings menu, select _Add Data_:
 

@@ -73,7 +73,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 			"appVersionCode":"20",
 			"appDisplayName":"My Application - DemoApp (20)",
 			"iconUrl":"[APP ICON URL]",
-			"appUrl":"[URL TO APK OR IA FILE]",
+			"appUrl":"[URL TO APK OR IPA FILE]",
 			"sessions":6,
 			"crashes":0,
 			"testers":0,

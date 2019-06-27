@@ -15,23 +15,23 @@ This will create two files called `testfairy-private-key.pem` and `testfairy-pub
 
 The file `testfairy-private-key.pem` is sensitive and should not be shared with anyone that is not part of your team.
 
-The content of `testfairy-public-key.txt` will be used to initialize the SDK. Please paste this value into the first parameter of `TestFairy.setEncryptionKey` method.
+The content of `testfairy-public-key.txt` will be used to initialize the SDK. Please paste this value into the first parameter of `TestFairy.setPublicKey` method.
 
 #### Using in Android 
 
-Enable end-to-end encryption for your Android apps by calling `setEncryptionKey` before calling the `begin` method.
+Enable end-to-end encryption for your Android apps by calling `setPublicKey` before calling the `begin` method.
 
 ```
-TestFairy.setEncryptionKey("<PUBLIC KEY>");
+TestFairy.setPublicKey("<PUBLIC KEY>");
 TestFairy.begin("<APP TOKEN>");
 ```
 
 #### Using in iOS
 
-Enable end-to-end encryption for your iOS apps by calling `setEncryptionKey` before calling the `begin` method.
+Enable end-to-end encryption for your iOS apps by calling `setPublicKey` before calling the `begin` method.
 
 ```
-[TestFairy setEncryptionKey:@"<PUBLIC KEY>"]; 
+[TestFairy setPublicKey:@"<PUBLIC KEY>"]; 
 [TestFairy begin:@"<APP TOKEN>"];
 ```
 

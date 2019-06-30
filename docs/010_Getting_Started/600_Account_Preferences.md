@@ -52,7 +52,7 @@ The email is HTML based and can use custom tags.
 
 
 ### Security
-* **Require user login before app download:** if you want your testers to first create a tester account prior to downloading your app. This is the flow the tester will go through.
+* **Require user login before app download:** if you want your testers to first login to their tester account prior to downloading your app. This will prevent unregistered/unauthorized testers downloading apps.
 * **Require [Google] Sign on for all users:** all users will have to sign on using a google email address. This is the case when you use google email integration.
 * _Optional_ ``[after adding SAML/Single Sign-on]`` - Grant access to all apps to testers who sign-on with SSO - testers who sign in using your sso will have access to all apps..
 #### SAML/Single Sign-on

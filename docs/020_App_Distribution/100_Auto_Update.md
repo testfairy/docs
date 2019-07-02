@@ -38,7 +38,7 @@ Open your app and look at the list of builds. The right column has an icon of a 
 
 
 - If the user agrees, the new version will download and install on his device. 
-- If the user declines the old bersion of the app will load. The message will again display when the app is loaded again.
+- If the user declines the old version of the app will load. The message will again display when the app is loaded again.
 
 ### Reasons that auto update may fail
 

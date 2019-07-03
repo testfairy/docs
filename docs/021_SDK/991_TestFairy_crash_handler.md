@@ -11,10 +11,10 @@ Below are the install instructions and code samples.
         <div>Android</div>
       </a>
       <a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-objc">
-        <div>iOS</div>
+        <div>iOS-Objc-C</div>
       </a>
       <a data-w-tab="tab-ios-swift" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-swift">
-        <div>iOS</div>
+        <div>iOS-Swift</div>
       </a>
     </div>
 

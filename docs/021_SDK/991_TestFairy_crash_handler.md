@@ -1,4 +1,4 @@
-## The testFairy crash handler
+## The TestFairy crash handler
 
 The TestFairy crash handler is used in case you do not need the full functionality of the TestFairt=y platform but want to install a simple and effective crash handler to log crashes from your app.
 

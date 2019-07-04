@@ -31,7 +31,7 @@ Below are the install instructions and code samples.
         </p>
 
         <h3>Code Example</h3>
-        <p>In the following example, the TestFairy crash handler will be disabled.</p>
+        <p>In the following example, the TestFairy crash handler will be enabled.</p>
         <pre>
 import com.testfairy.TestFairy;
 
@@ -52,7 +52,7 @@ public class MyApplication extends Application {
         </p>
 
         <h3>Code Example</h3>
-        <p>In the following example, the TestFairy crash handler will be disabled.</p>
+        <p>In the following example, the TestFairy crash handler will be enabled.</p>
         <pre>
 @implementation AppDelegate
 
@@ -68,10 +68,15 @@ public class MyApplication extends Application {
         </p>
 
         <h3>Code Example</h3>
-        <p>In the following example, the TestFairy crash handler will be disabled.</p>
+        <p>In the following example, the TestFairy crash handler will be enabled.</p>
         <pre>
-func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-	TestFairy.installCrashHandler("APP_TOKEN");
+@UIApplicationMain
+class AppDelegate: UIResponder, UIApplicationDelegate {
+
+	func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+		TestFairy.installCrashHandler("APP_TOKEN");
+	}
+
 }
 	</pre>
       </div>

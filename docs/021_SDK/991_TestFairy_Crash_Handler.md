@@ -16,10 +16,6 @@ In order to use the TestFairy SDK as a crash handler without any other TestFairy
       </a>
     </div>
 
-    <h2>
-		<a name="crash-handler"></a>
-		Crash Handler
-	  </h2>
     
     <div class="docs-tabs-content w-tab-content">
       <div data-w-tab="tab-android" class="w-tab-pane w--tab-active">

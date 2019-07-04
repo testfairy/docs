@@ -1,3 +1,8 @@
+### Version 1.9.9
+Released: 2019-07-03
+
+* [NEW] Added installCrashHandler() to enable TestFairy as a crash handler, without Insights or Feedback.
+
 ### Version 1.9.8
 Released: 2019-05-29
 

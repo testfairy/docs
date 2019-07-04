@@ -1,6 +1,6 @@
 ## The TestFairy crash handler
 
-The TestFairy crash handler is used in case you do not need the full functionality of the TestFairt=y platform but want to install a simple and effective crash handler to log crashes from your app.
+The TestFairy crash handler is used in case you do not need the full functionality of the TestFairy platform but want to install a simple and effective crash handler to log crashes from your app.
 
 Below are the install instructions and code samples.
 
@@ -28,8 +28,6 @@ Below are the install instructions and code samples.
         <h3>Syntax</h3>
         <p>
           <b>TestFairy.installCrashHandler(context, "APP_TOKEN");</b>
-          <br/>
-          <b>TestFairy.installCrashHandler(context, "APP_TOKEN");</b>
         </p>
 
         <h3>Code Example</h3>
@@ -45,13 +43,11 @@ public class MyApplication extends Application {
 		TestFairy.installCrashHandler(context, "APP_TOKEN");
 	}
 }
-			</pre>
+	</pre>
       </div>
       <div data-w-tab="tab-ios-objc" class="w-tab-pane">
         <h3>Syntax</h3>
         <p>
-          <b>[TestFairy installCrashHandler:@"APP_TOKEN"];</b>
-          <br/>
           <b>[TestFairy installCrashHandler:@"APP_TOKEN"];</b>
         </p>
 
@@ -63,25 +59,21 @@ public class MyApplication extends Application {
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[TestFairy installCrashHandler:@"APP_TOKEN"];
 }
-			</pre>
+	</pre>
       </div>
       <div data-w-tab="tab-ios-swift" class="w-tab-pane">
         <h3>Syntax</h3>
         <p>
-          <b>TestFairy.installCrashHandler("APP_TOKEN")</b>
-          <br/>
           <b>TestFairy.installCrashHandler("APP_TOKEN")</b>
         </p>
 
         <h3>Code Example</h3>
         <p>In the following example, the TestFairy crash handler will be disabled.</p>
         <pre>
-@implementation AppDelegate
-
 func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
 	TestFairy.installCrashHandler("APP_TOKEN");
 }
-			</pre>
+	</pre>
       </div>
 
       <p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.

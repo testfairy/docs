@@ -1,8 +1,6 @@
 ## The TestFairy crash handler
 
-The TestFairy crash handler is used in case you do not need the full functionality of the TestFairy platform but want to install a simple and effective crash handler to log crashes from your app.
-
-Below are the install instructions and code samples.
+In order to use the TestFairy crash handler without any other feature, please use code samples below.
 
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">

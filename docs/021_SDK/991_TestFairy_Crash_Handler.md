@@ -20,7 +20,7 @@ In order to use the TestFairy crash handler without any other feature, please us
 		<a name="crash-handler"></a>
 		Crash Handler
 	  </h2>
-    <p>TestFairy provides a means of capturing and recording stack traces if your application crashes. The crash Handler collects crashes and displays them as sessions in the TestFairy Dashboard</p>
+    
     <div class="docs-tabs-content w-tab-content">
       <div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
         <h3>Syntax</h3>
@@ -29,7 +29,7 @@ In order to use the TestFairy crash handler without any other feature, please us
         </p>
 
         <h3>Code Example</h3>
-        <p>In the following example, the TestFairy crash handler will be enabled.</p>
+        
         <pre>
 import com.testfairy.TestFairy;
 
@@ -50,7 +50,7 @@ public class MyApplication extends Application {
         </p>
 
         <h3>Code Example</h3>
-        <p>In the following example, the TestFairy crash handler will be enabled.</p>
+        
         <pre>
 @implementation AppDelegate
 
@@ -66,7 +66,7 @@ public class MyApplication extends Application {
         </p>
 
         <h3>Code Example</h3>
-        <p>In the following example, the TestFairy crash handler will be enabled.</p>
+        
         <pre>
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -79,6 +79,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 	</pre>
       </div>
 
-      <p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
+      
     </div>
   </div>

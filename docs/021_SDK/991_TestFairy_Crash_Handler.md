@@ -1,6 +1,6 @@
 ## The TestFairy crash handler
 
-In order to use the TestFairy crash handler without any other feature, please use code samples below.
+In order to use the TestFairy SDK as a crash handler without any other TestFairy feature, please use the code samples below.
 
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">

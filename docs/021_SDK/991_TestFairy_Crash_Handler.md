@@ -34,7 +34,7 @@ public class MyApplication extends Application {
 	public void onCreate() {
 		super.onCreate();
 
-		TestFairy.installCrashHandler(context, "APP_TOKEN");
+		TestFairy.installCrashHandler(this, "APP_TOKEN");
 	}
 }
 	</pre>

@@ -25,7 +25,7 @@ The key part of TestFairy Connect is the agent service (TFC Agent) that runs on 
 Installation is done via npm. Please run the following command in a folder for your TestFairy Connect installation:
 
 ```
-npm install -g git+https://github.com/testfairy/testfairy-connect.git
+sudo npm install -g git+https://github.com/testfairy/testfairy-connect.git
 ```
 
 ## Configuration

@@ -16,7 +16,7 @@ The key part of TestFairy Connect is the agent service (TFC Agent) that runs on 
 
 
 ## Prerequisites
-* Node.js 6
+* Node.js 8
 * Git 1.7+
 
 

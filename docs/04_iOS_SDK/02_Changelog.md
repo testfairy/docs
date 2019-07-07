@@ -1,7 +1,7 @@
 ### Version 1.19.8
 Released 2019-07-07
 
-* [NEW] Added [TestFairy crash] for testing purposes.
+* [NEW] Added `[TestFairy crash]` for testing purposes.
 * [BUGFIX] Handle empty status codes during network capturing
 
 ### Version 1.19.7

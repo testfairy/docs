@@ -21,7 +21,7 @@ In order to use the TestFairy SDK as a crash handler without any other TestFairy
       <div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
         <h3>Syntax</h3>
         <p>
-          <b>TestFairy.installCrashHandler(context, "APP_TOKEN");</b>
+          <b>TestFairy.installCrashHandler(this, "APP_TOKEN");</b>
         </p>
 
         <h3>Code Example</h3>

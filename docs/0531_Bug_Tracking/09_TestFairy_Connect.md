@@ -25,7 +25,7 @@ The key part of TestFairy Connect is the agent service (TFC Agent) that runs on 
 Installation is done via npm. Please run the following command in a folder for your TestFairy Connect installation:
 
 ```
-npm install git+https://github.com/testfairy/testfairy-connect.git
+npm install -g git+https://github.com/testfairy/testfairy-connect.git
 ```
 
 ## Configuration
@@ -34,7 +34,7 @@ To configure TestFairy Connect, run the following line and follow the on-screen 
 
 
 ```
- node node_modules/testfairy-connect/service.js configure [-f /path/to/config.json]
+ testfairy-connect configure [-f /path/to/config.json]
 ```
 
 You'll need the following data:
@@ -55,11 +55,17 @@ To start the TestFairy Connect agent, use the following command:
 
 
 ```
-node node_modules/testfairy-connect/service.js run [-f /path/to/config.json]
+testfairy-connect start [-f /path/to/config.json]
 ```
 
 If the optional `-f` parameter is omitted, TestFairy Connect will use the default location: /path/to/user/home/.testfairy-connect/config.json
     
+    
+## Stop TestFairy Connect
+To stop the TestFairy Connect agent, use the following command:
+```
+testfairy-connect stop
+```
 
 ## Congratulations!
 

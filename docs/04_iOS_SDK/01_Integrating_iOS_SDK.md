@@ -45,7 +45,7 @@ You get to:
 				<li><p>Add the following frameworks:<br>
 					</p>
 					<p><ul>
-					<li>In Xcode, select the project file from the project navigator, 
+					<li>In Xcode, select the project file from the project navigator,
 						on the left side of the project window.</li>
 					<li>Show Projects and Target List.</li>
 					<li>In the project settings editor, select the target to which you would like to add 						frameworks.</li>
@@ -139,7 +139,7 @@ You get to:
 				<ul>
 					<li>Click on your project</li>
 					<li>Select <em>Build Settings</em> tab</li>
-					<li>Select the "All" filter, in order to find <em>Swift Compiler - Code Generation</em>: <em>Objective-C Bridging Header</em></li>
+					<li>Select the "All" filter, in order to find <em>Swift Compiler - General</em>: <em>Objective-C Bridging Header</em></li>
 					<li>Edit <em>Swift Compiler - Code Generation</em>: <em>Objective-C Bridging Header</em> (double-click to edit).</li>
 					<li>Drag "Bridging.h" from the source tree onto the edit box opened</li>
 				</ul>

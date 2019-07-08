@@ -52,7 +52,7 @@ Here are some reasons when auto-update of an app may fail:
 
 Occasionally you will want all testers of an app to only test the latest version released. In this case you can use the following method to make sure users and testers **can not** run older versions of the app and must upgrade to the version marked as auto-update.
 
-The classes used are named [`sessionStateListener`](https://docs.testfairy.com/reference/android/com/testfairy/SessionStateListener.html#SessionStateListener--) → `onAutoUpdateDismissed` in **Android** and [`testFairySessionStaeteDelagate`](https://app.testfairy.com/reference/ios/Protocols/TestFairySessionStateDelegate.html) → `autoUpdateDismissed` in **iOS**.
+The classes used are named [`sessionStateListener`](https://docs.testfairy.com/reference/android/com/testfairy/SessionStateListener.html#SessionStateListener--) → `onAutoUpdateDismissed` in **Android** and [`testFairySessionStateDelagate`](https://app.testfairy.com/reference/ios/Protocols/TestFairySessionStateDelegate.html) → `autoUpdateDismissed` in **iOS**.
 These methods get the result of the pop up message displayed to the user asking to update. You can then write code to perform the action of your choice.
 
 

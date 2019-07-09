@@ -13,9 +13,9 @@ Both Java and Kotlin apps are supported.
 
 1. Add the SDK to your build.gradle app module (eg. `app/build.gradle`)
 ```
-   dependencies {
-       implementation 'testfairy:testfairy-android-sdk:1.+@aar'
-      }
+    dependencies {
+        implementation 'testfairy:testfairy-android-sdk:1.+@aar'
+    }
 ```
    Make sure you have the jcenter() repository included.
 
@@ -75,7 +75,7 @@ The wifi signal will be tracked.
 
 ## File Size
 
-The size of the TestFairy SDK is less than 250KB.
+The size of the TestFairy SDK is less than 300KB.
 
 <br><br>
 You might also like to read [Manual integration with Eclipse and Ant](http://docs.testfairy.com/Android/Manual_integration_with_Eclipse_and_Ant.html).

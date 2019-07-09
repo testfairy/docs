@@ -33,7 +33,7 @@ Here are some commonly used options:
 
 			<h3>Code Example</h3>
 			<p>In the following example, the TestFairy crash handler will be disabled.</p>
-			<pre>
+			<pre><code class="java">
 import com.testfairy.TestFairy;
 
 public class MyApplication extends Application {
@@ -45,7 +45,7 @@ public class MyApplication extends Application {
 		TestFairy.begin(this, "&lt;app token&gt;");
 	}
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
@@ -57,14 +57,14 @@ public class MyApplication extends Application {
 
 			<h3>Code Example</h3>
 			<p>In the following example, the TestFairy crash handler will be disabled.</p>
-			<pre>
+			<pre><code class="objectivec">
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[TestFairy disableCrashHandler];
 	[TestFairy begin:@"&lt;app token&gt;"];
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
@@ -90,7 +90,7 @@ public class MyApplication extends Application {
 
 			<h3>Code Example</h3>
 			<p>In the following example, video will only be recorded when wifi is available. A high quality video will be recorded every 2 seconds.</p>
-			<pre>
+			<pre><code class="java">
 import com.testfairy.TestFairy;
 
 public class MyApplication extends Application {
@@ -102,7 +102,7 @@ public class MyApplication extends Application {
 		TestFairy.begin(this, "&lt;app token&gt;");
 	}
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
@@ -114,14 +114,14 @@ public class MyApplication extends Application {
 			<p>Refer to the <a href="https://app.testfairy.com/reference/ios/Classes/TestFairy.html">Class Reference</a> for more information on values for <b>policy</b> and <b>quality</b>.</p>
 
 			<h3>Code Example</h3>
-			<pre>
+			<pre><code class="objectivec">
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[TestFairy enableVideo:@"wifi" quality:@"high" framesPerSecond:2.0];
 	[TestFairy begin: @"&lt;app token&gt;"];
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
@@ -146,7 +146,7 @@ public class MyApplication extends Application {
 
 			<h3>Code Example</h3>
 			<p>In the following snippet, the CPU metric will be recorded, and the Memory metric wil not be recorded, regarless of what's set in the build settings.</p>
-			<pre>
+			<pre><code class="java">
 import com.testfairy.TestFairy;
 
 public class MyApplication extends Application {
@@ -159,7 +159,7 @@ public class MyApplication extends Application {
 		TestFairy.begin(this, "&lt;app token&gt");
 	}
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
@@ -172,7 +172,7 @@ public class MyApplication extends Application {
 
 			<h3>Code Example</h3>
 			<p>In the following snippet, the CPU metric will be recorded, and the Memory metric wil not be recorded, regardless of what's set in the build settings.</p>
-			<pre>
+			<pre><code class="objectivec">
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
@@ -181,7 +181,7 @@ public class MyApplication extends Application {
 	[TestFairy begin: @"&lt;app token&gt"];
 	// ...
 }
-			</pre>
+</code></pre>
 		</div>
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
 	</div>
@@ -201,7 +201,7 @@ public class MyApplication extends Application {
 			</p>
 
 			<h3>Code Example</h3>
-			<pre>
+			<pre><code class="java">
 import com.testfairy.TestFairy;
 
 public class MyApplication extends Application {
@@ -213,7 +213,7 @@ public class MyApplication extends Application {
 		TestFairy.begin(this, "&lt;app token&gt;");
 	}
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
@@ -223,14 +223,14 @@ public class MyApplication extends Application {
 			</p>
 
 			<h3>Code Example</h3>
-			<pre>
+			<pre><code class="objectivec">
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[TestFairy setMaxSessionLength:(10 * 60)]; // Record for 10 minutes
 	[TestFairy begin:@"&lt;app token&gt;"];
 }
-			</pre>
+</code></pre>
 		</div>
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.
 	</div>
@@ -252,7 +252,7 @@ public class MyApplication extends Application {
 
 			<h3>Code Example</h3>
 			<p>In the following example, feedback will be enabled when the device is shook.</p>
-			<pre>
+			<pre><code class="java">
 import com.testfairy.TestFairy;
 
 public class MyApplication extends Application {
@@ -264,7 +264,7 @@ public class MyApplication extends Application {
 		TestFairy.begin(this, "&lt;app token&gt;");
 	}
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
@@ -277,14 +277,14 @@ public class MyApplication extends Application {
 
 			<h3>Code Example</h3>
 			<p>In the following example, feedback will be enabled when the user either shakes or takes a screenshot on the device.</p>
-			<pre>
+			<pre><code class="objectivec">
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 	[TestFairy enableFeedbackForm:@"shake|screenshot"];
 	[TestFairy begin: @"&lt;app token&gt;"];
 }
-			</pre>
+</code></pre>
 		</div>
 
 		<p>Your <b>app token</b> is available from your <a href="https://app.testfairy.com/settings#apptoken" target="_blank">account preferences</a> once logged in.

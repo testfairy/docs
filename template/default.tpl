@@ -37,6 +37,7 @@
     <?php } else { ?>
         <link rel="stylesheet" href="<?php echo $relative_base; ?>css/daux-<?php echo $options['theme'];?>.min.css">
     <?php } ?>
+		<link rel="stylesheet" href="<?php echo $relative_base; ?>css/highlight.css">
 </head>
 <body>
     <?php if ($homepage) { ?>

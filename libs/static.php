@@ -74,6 +74,7 @@
             @copy('./css/daux-'.$options['theme'].'.min.css', $path.'/css/daux-'.$options['theme'].'.min.css');
             $unnecessaryImgs = array_diff($unnecessaryImgs, array('./img/favicon-'.$options['theme'].'.png'));
         }
+				@copy('./css/highlight.css', $path.'/css/highlight.css');
         copy_recursive('./img', $path.'/', $unnecessaryImgs);
         copy_recursive('./js', $path.'/', $unnecessaryJs);
     }

@@ -76,8 +76,8 @@ curl https://upload.testfairy.com/api/upload \
 	"status": "ok",
 	"app_name": "Jigsaw Puzzlers",
 	"app_version": "0.9.5",
-	"app_url": "https:\/\/app.testfairy.com\/download\/6CWKJCHD60PPVWYJHGM4AADJQYA4SDR0\/filename.apk",
-	"download_page_url": "https:\/\/tsfr.io\/3tajti",
+	"app_url": "https://app.testfairy.com/download/6CWKJCHD60PPVWYJHGM4AADJQYA4SDR0/filename.apk",
+	"download_page_url": "https://tsfr.io/3tajti",
 }
 ```
 

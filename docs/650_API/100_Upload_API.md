@@ -35,13 +35,13 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 | Name            |  Required?  | Description  |
 |:----------------|:-----------:|:-------------|
-| api_key         | Y           | Your API application key. See https://app.testfairy.com/settings for details. |
-| file            | Y           | APK or IPA file data. |
-| symbols_file    |             | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
-| testers_groups  |             | Either a comma-separated list of tester groups to be invited on the new build, or "all" to invite all testers. |
-| notify          |             | Send email to all users in tester_groups. The default is "on". |
-| comment         |             | Additional release notes for this upload. This text will be added to email notifications. |
-| auto-update     |             | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
+| api_key         | Required    | Your API application key. See https://app.testfairy.com/settings for details. |
+| file            | Required    | APK or IPA file data. |
+| symbols_file    | Optional    | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
+| testers_groups  | Optional    | Either a comma-separated list of tester groups to be invited on the new build, or "all" to invite all testers. |
+| notify          | Optional    | Send email to all users in tester_groups. The default is "on". |
+| release_notes   | Optional    | Release notes for this upload. This text will be added to emails and landing pages. |
+| auto-update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
 
 ### Error Codes
 
@@ -67,6 +67,7 @@ curl https://upload.testfairy.com/api/upload \
 	-F symbols_file=@sample_mapping.txt \
 	-F testers_groups='friends,beta' \
 	-F notify='on'
+	-F release_notes='stabilitty fixes, improvedment in ui'
 ```
 
 ### Example Response:
@@ -75,12 +76,9 @@ curl https://upload.testfairy.com/api/upload \
 	"status": "ok",
 	"app_name": "Jigsaw Puzzlers",
 	"app_version": "0.9.5",
-	"file_size": 9585610,
 	"build_url": "https:\/\/app.testfairy.com\/projects\/100-jigsawpuzzlers\/builds\/1",
-	"invite_testers_url": "https:\/\/app.testfairy.com\/projects\/100-jigsawpuzzlers\/builds\/1\/invite\/",
-	"app_url": "https:\/\/app.testfairy.com\/download\/6CWKJCHD60PPVWYJHGM4AADJ26QWY63BTHAKQYA4SDR0\/filename_v1.1-testfairy.apk",
+	"app_url": "https:\/\/app.testfairy.com\/download\/6CWKJCHD60PPVWYJHGM4AADJQYA4SDR0\/filename.apk",
 	"download_page_url": "https:\/\/tsfr.io\/3tajti",
-	"icon_url": "https:\/\/s3.amazonaws.com\/testfairy\/icons\/4\/30040977a9f83070ac983cfb4f706d61472caf5c.png"
 }
 ```
 

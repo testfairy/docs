@@ -41,7 +41,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | testers_groups  | Optional    | Either a comma-separated list of tester groups to be invited on the new build, or "all" to invite all testers. |
 | notify          | Optional    | Send email to all users in tester_groups. The default is "on". |
 | release_notes   | Optional    | Release notes for this upload. This text will be added to emails and landing pages. |
-| auto-update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
+| auto_update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
 
 ### Error Codes
 

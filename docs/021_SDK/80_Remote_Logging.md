@@ -106,18 +106,18 @@ TestFairy.log("Hello, TestFairy!")
       </pre>
 
 			<p>We recommend wrapping all <b>print</b> statements with a custom method, which will output to both the console and to TestFairy sessions. One suggestion we have is to create a new file named <code>TestFairyLog.swift</code> in your source path, and add the following to the contents of the file:</p>
-<pre><code class=" hljs cs"><span class="hljs-comment">//</span>
-<span class="hljs-comment">//  TestFairyLog.swift</span>
-<span class="hljs-comment">//</span>
-<span class="hljs-comment">//  Copyright © TestFairy. All rights reserved.</span>
-<span class="hljs-comment">//</span>
+<pre><code class="swift">//
+//  TestFairyLog.swift
+//
+//  Copyright © TestFairy. All rights reserved.
+//
 
 import Foundation
 
-<span class="hljs-keyword">public</span> func <span class="hljs-title">print</span>(_ format: String, _ args: CVarArg...) {
-    <span class="hljs-keyword">let</span> message = String(format: format, arguments:args)
-    print(message);
-    TFLogv(message, getVaList([]))
+public func print(_ items: Any..., separator: String = " ", terminator: String = "\n") {
+	let output = items.map { "\($0)" }.joined(separator: separator)
+	TestFairy.log(output)
+	Swift.print(output, terminator: terminator)
 }
 </code></pre>
 			<p>This will print any output to both the Xcode console, and to the active session on TestFairy.</p>

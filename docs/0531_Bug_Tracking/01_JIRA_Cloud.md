@@ -24,7 +24,7 @@
 
 ![Configure JIRA cloud](/img/bug-tracking/jira-cloud-2.png)
 
-## 3. Add The TestFairy JIRA Add-on to your JIRA account
+## 3. (optional, highly recommended) Add The TestFairy JIRA Add-on to your JIRA account
 
 The TestFairy JIRA Add-on adds TestFairy videos to JIRA issues.
 
@@ -46,7 +46,7 @@ In order to install it please follow these steps:
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-discover.png)
 
-## 4. On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
+## 4. (optional ,highly recommended) On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-3-dots.png)
 
@@ -56,3 +56,9 @@ In order to install it please follow these steps:
 ![JIRA-setup](/img/bug-tracking/hira6a.png)
 ![JIRA-setup](/img/bug-tracking/jira5b.png)
 ![JIRA-setup](/img/bug-tracking/jira6c.png)
+
+## 5. (optional ,highly recommended) Map JIRA Custom Fields.
+
+The TEstFairy JIRA integration allows you to automatically populate any field in JIRA when creating a new issue.
+You can do that with standard TestFairy data like app name, version, user, device etc. or with your own seesion attributes, any key and value you push to our SDK in real time.
+In order to map (https://docs.testfairy.com/Bug_Tracking/How_To_Map_JIRA_Custom_Fields.html)[follow these steps]

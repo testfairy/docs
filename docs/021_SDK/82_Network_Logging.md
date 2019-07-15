@@ -13,7 +13,7 @@ A common issue our users discovered while monitoring their apps, is **slow** req
 		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;" href="#android">
 			<div>Android</div>
 		</a>
-		<a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios">
+		<a data-w-tab="tab-ios-objc" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios">
 			<div>iOS - Objective C</div>
 		</a>
 		<a data-w-tab="tab-ios-swift" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-swift">
@@ -64,7 +64,7 @@ OkHttpClient client = new OkHttpClient.Builder()
 			</pre>
 		</div>
 
-		<div data-w-tab="tab-ios" class="w-tab-pane">
+		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
 				<b>[TestFairy addNetwork:(NSURLSessionTask *)task error:(NSError *)error]</b><br />

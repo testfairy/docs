@@ -1,8 +1,8 @@
-## TestFairy Connect
+## Before you start
 
 In order to connect TestFairy to JIRA Server that is installed on-prem, start by [installing TestFairy Connect](/Bug_Tracking/TestFairy_Connect.html)
 
-## Configure TestFairy Connect to work with JIRA Server
+## Configuring TestFairy Connect with JIRA Server
 
 This guide explains how to configure the TestFairy Connect agent to work with an on-premise JIRA using basic-authentication (user/password-token) or OAuth.
 
@@ -58,15 +58,6 @@ Congratulations, you have successfully configured TestFairy Connect with JIRA us
 
 
 ---------------------------------
-
-## Configure JIRA Custom Fields
-
-
-
-In this document we will address how to configure custom fields and set default values when creating new JIRA issues.
-
-When creating issues, TestFairy automatically fills the `summary` and `description` fields with information about the crash or feedback. But sometimes, you will want to assign default values to other fields, or pre-populate custom fields. For example, you would like to always set `Environment` to `Production app` and a custom field `Source` to `Tester feedback`.
-
 
 ## Configure JIRA with OAuth
 

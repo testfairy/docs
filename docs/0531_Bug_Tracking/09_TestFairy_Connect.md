@@ -1,7 +1,7 @@
 
 ## What is TestFairy Connect?
 
-TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server, TFS), with the TestFairy cloud.
+TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server), with the TestFairy cloud.
 
 ## How does it work?
 
@@ -41,7 +41,6 @@ You'll need the following data:
 
 * TestFairy API key (found at [https://[your-subdomain].testfairy.com/settings/api-key/](https://[your-subdomain].testfairy.com/settings/api-key/)
 * The URL to your bug system.
-* Name of ticket type (JIRA issue or TFS workitem) to be created by TestFairy Connect.
 * In the case of a JIRA basic authentication - valid credentials for a bug system user.
 * In the case of a JIRA oauth authentication - admin access to JIRA/the ability to manage Application Links (as described in the configuration wizard script).
 

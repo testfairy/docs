@@ -20,7 +20,7 @@ The key part of TestFairy Connect is the agent service that runs on a system, wi
 
 ## Installation
 
-Installation is done via npm. Please run the following command in a folder for your TestFairy Connect installation:
+Installation is done via npm. Please run the following command in any folder for your TestFairy Connect installation:
 
 ```
 sudo npm install -g git+https://github.com/testfairy/testfairy-connect.git

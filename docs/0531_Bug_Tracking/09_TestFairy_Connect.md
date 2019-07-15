@@ -5,10 +5,9 @@ TestFairy Connect is proxy server installed on-premise, designed to help compani
 
 ## How does it work?
 
-The key part of TestFairy Connect is the agent service (TFC Agent) that runs on a system, also behind that firewall, connecting to TestFairy's web app and to your bug tracking system.
+The key part of TestFairy Connect is the agent service that runs on a system, within your firewall, connecting to TestFairy's web app and to your bug tracking system.
 
 ![Overview](/img/testfairy-connect/0-overview.png)
-
 
 ## How to Install TestFairy Connect (video tutorial)
 
@@ -18,7 +17,6 @@ The key part of TestFairy Connect is the agent service (TFC Agent) that runs on 
 ## Prerequisites
 * Node.js 8
 * Git 1.7+
-
 
 ## Installation
 
@@ -34,7 +32,7 @@ To configure TestFairy Connect, run the following line and follow the on-screen 
 
 
 ```
- testfairy-connect configure [-f /path/to/config.json]
+testfairy-connect configure [-f /path/to/config.json]
 ```
 
 You'll need the following data:
@@ -52,23 +50,25 @@ If the optional `-f` parameter is omitted, TestFairy Connect will use the defaul
 
 To start the TestFairy Connect agent, use the following command:
 
-
 ```
 testfairy-connect start [-f /path/to/config.json]
 ```
 
 If the optional `-f` parameter is omitted, TestFairy Connect will use the default location: /path/to/user/home/.testfairy-connect/config.json
-    
-    
+
+The agent is now running in the background, and will keep running even when the terminal connection closes.
+
 ## Stop TestFairy Connect
+
 To stop the TestFairy Connect agent, use the following command:
+
 ```
 testfairy-connect stop
 ```
 
 ## Congratulations!
 
-You now have TestFairy Connect installed,
-Please go to [Bug System Settings](https://app.testfairy.com/settings/bug-system/) and select "TestFairy Connect".
+You now have TestFairy Connect installed.
+Please visit [Bug System Settings](https://app.testfairy.com/settings/bug-system/) and select "TestFairy Connect".
 
 

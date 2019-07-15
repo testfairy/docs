@@ -61,4 +61,4 @@ In order to install it please follow these steps:
 
 The TEstFairy JIRA integration allows you to automatically populate any field in JIRA when creating a new issue.
 You can do that with standard TestFairy data like app name, version, user, device etc. or with your own seesion attributes, any key and value you push to our SDK in real time.
-In order to map [https://docs.testfairy.com/Bug_Tracking/How_To_Map_JIRA_Custom_Fields.html](follow these steps)
+In order to map [follow these steps](How_To_Map_JIRA_Custom_Fields.html)

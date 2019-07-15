@@ -1,19 +1,17 @@
 ## TestFairy Connect
+
 In order to connect TestFairy to JIRA Server that is installed on-prem, start by [installing TestFairy Connect](/Bug_Tracking/TestFairy_Connect.html)
 
 ## Configure TestFairy Connect to work with JIRA Server
 
-
-This guide explains how to configure the TestFairy Connect agent to work with an on-premise JIRA using basic-authentication (user/password.)
-
-If your organization is using OAuth or SSO services, you might need to use TestFairy Connect with OAuth authentication.
+This guide explains how to configure the TestFairy Connect agent to work with an on-premise JIRA using basic-authentication (user/password-token) or OAuth.
 
 #### Using the wizard
 
 Start the wizard by typing the following command in your terminal or command prompt:
 
 ```sh
-$ node node_modules/testfairy-connect/service.js configure
+$ testfairy-connect configure
 ```
 
 **Welcome to TestFairy Connect configuration wizard.**
@@ -48,8 +46,7 @@ $ node node_modules/testfairy-connect/service.js configure
   
   	- Somtimes, depending on your user definitions in JIRA, you may need to use an API token as your password. You can creat one here: <a hfer="https://id.atlassian.com/manage/api-tokens" target="_blank">https://id.atlassian.com/manage/api-tokens</a>
 	
-
-- **Please enter HTTP proxy server address, leave empty if none: **
+- **Please enter HTTP proxy server address, leave empty if none:**
   
   If you require HTTP proxy to access this JIRA server, please send it here. For example, http://user@10.0.0.1:8080.
   
@@ -70,97 +67,8 @@ In this document we will address how to configure custom fields and set default 
 
 When creating issues, TestFairy automatically fills the `summary` and `description` fields with information about the crash or feedback. But sometimes, you will want to assign default values to other fields, or pre-populate custom fields. For example, you would like to always set `Environment` to `Production app` and a custom field `Source` to `Tester feedback`.
 
-#### Updating testfairy-connect.json
-
-TestFairy Connect uses a json configuration file called `config.json`. Unless the path value is overriden, the default path is `$HOME/.testfairy-connect/config.json`. To set default values to built-in fields and custom fields, add a `customFields` section inside `issueTracker`. Please review the screenshot below:
-
-![Screenshot](https://docs.testfairy.com/img/testfairy-connect/jira-custom-fields.png)
-
-Here is the full `config.json` sample file, for easy copy-pasting. This sample configuration will set `Affected Versions` (versions) to `Version 1.0` (id 10601), and `Environment` to the string `Lab testing`.
-
-```json
-{
-	"testfairy": {
-		"timeout": 1000,
-		"apiKey": "0000000000000000000000000000000000000000",
-		"URL": "https://app.testfairy.com/connect"
-	},
-	"issueTracker": {
-		"type": "jira",
-		"issueType": "Bug",
-		"strictSSL": false,
-		"username": "myusername",
-		"password": "mypassword",
-		"customFields": [
-			{
-				"projectKey": "DEMOAPP",
-				"fields": [
-					{
-						"key": "versions",
-						"defaultValue": [
-							{"id": "10601"}
-						]
-					},
-					{
-						"key": "environment",
-						"defaultValue": "Lab testing"
-					}
-				]
-			}
-		],
-		"URL": "https://example.atlassian.net"
-	}
-}
-```
-
-
-#### Fetching custom fields IDs
-
-When working with custom fields, JIRA requires you to send the key of the custom field, for example `customfield_10320`. The values of these custom fields may also have IDs of their own; for example, multiple selection fields. You can access the full raw scheme of your JIRA installation by reviewing the url below. Remember to replace the server address and `projectkeys` with your JIRA server address and JIRA project:
-
-```
-https://example.atlassian.net/rest/api/2/issue/createmeta?expand=projects.issuetypes.fields&projectKeys=DEMOAPP
-```
-
 
 ## Configure JIRA with OAuth
-
-
-
-
-### JIRA (using oAuth access token)
-
-Example ```config.json```:
-   
-```json
-    {
-        "testfairy": {
-            "timeout": 5000,
-            "apiKey": "[as found under Upload API Key @ https://app.testfairy.com/settings]",
-            "URL": "https://app.testfairy.com/connect"
-        },
-        "issueTracker": {
-            "type": "jira",
-            "issueType": "Bug",
-            "URL": "http://localhost:2990/jira",
-            "strictSSL": false,
-            "oauth": {
-				"consumer_key": "testfairy-connect",
-				"private_key_path": "~/.ssh/jira_rsa", //path to your private key
-				"access_token": "0000000000000000000000000000", //obtained from script in section below
-				"access_token_secret": "0000000000000000000000000000000" //obtained from script in section below
-			},
-            "projects": ["PROJECT1", "PROJECT2"],
-            "fieldMapping": {
-                "status": "status",
-                "summary": "summary",
-                "description": "description"
-            }
-        }
-    }
-```
-
-Please note that the `issueTracker.URL` setting should have a proper schema (https or http), port (if not default), and path to JIRA application included.
 
 #### Access token & secret generation:
 

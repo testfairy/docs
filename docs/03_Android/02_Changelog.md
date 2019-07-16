@@ -1,3 +1,12 @@
+### Version 1.9.10
+Released: 2019-07-15
+
+[NEW] New method logThrowable(String stacktrace).
+[BUGFIX] Auto-update dialog is now deferred if app is in background.
+[BUGFIX] Fixed missing sessions after consecutive stop/start calls.
+[BUGFIX] Fixed a crash due to accessibility enabled TextViews.
+[BUGFIX] Shorten long stack traces caused by stack-overflow exception prior to sending.
+
 ### Version 1.9.9
 Released: 2019-07-03
 

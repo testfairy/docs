@@ -1,2 +1,2 @@
 
-Jenkins documentation is available [here](https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin)
+Jenkins documentation is available [here](https://plugins.jenkins.io/TestFairy)

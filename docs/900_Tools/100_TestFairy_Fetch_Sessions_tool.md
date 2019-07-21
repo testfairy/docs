@@ -19,9 +19,11 @@ If you receive the error: "Could not create leading directories", then you shoul
 `testfairy-fetch-sessions --endpoint "acme.testfairy.com" --user "john@example.com" --api-key "0123456789abcdef" --project-id=1000 --logs --screenshots`
 
 
-The example above would connect to endpoint acme.testfairy.com (which be a private cloud installation, a public cloud installation, or an on-premise installation.) It will use the credentials of user and api-key.
+The example above would connect to endpoint `acme.testfairy.com` (which can be a private cloud installation, a public cloud installation, or an on-premise installation.) It will use the credentials of `user` and `api-key`.
 
 Since both `--logs` and `--screenshots` are possibble, the tool can download all **screenshots** and all **logs** from app's project 1000. 
+
+You can create an **MP4 video** using all the downloaded screenshots by passing `--video` along with `--screenshots`.
 
 You can find the id of the project (app) you want to download by examining the url (for example: https://app.testfairy.com/projects/1000/).
 

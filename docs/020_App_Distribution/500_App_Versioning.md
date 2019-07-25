@@ -50,8 +50,6 @@ Here are 2 common way of doing that:
     - TestFairy will still group all the build under the same app since the **package name** is still the same.
     
     
-- If you want to separate the build to **different** apps in the dashboard then you will need to change the **package name** (in Android) or the **Bundle ID** (in iOS) and add the desired env suffix.
-    - (For example: if your package name was _com.myappname.mycompany_ then it would be _com.myappname.mycompany.dev_ for example). 
-    - In this case your apps will be separately displayed in our dashboard as we do the separation based on the package name.
-        
-
+- If you want to separate the build to **different** apps in the dashboard then you will need to change the **package name** (in Android) or **Bundle ID** (in iOS) and add the desired suffix.
+    - For example: if your package name was **_com.myappname.mycompany_** then it would now change to **_com.myappname.mycompany.dev_** . 
+    - In this case your apps will be displayed separately in the TestFairy dashboard since the separation is based on the package name.

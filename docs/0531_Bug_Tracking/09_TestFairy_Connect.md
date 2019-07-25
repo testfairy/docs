@@ -15,7 +15,7 @@ The key part of TestFairy Connect is the agent service that runs on a system, wi
 
 
 ## Prerequisites
-* Node.js 10
+* Node.js 10+
 * Git 1.7+
 
 ## Installation

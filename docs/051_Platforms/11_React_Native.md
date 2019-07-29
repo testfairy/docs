@@ -10,7 +10,7 @@ From your project root, run the following commands:
 
 ```
 npm install --save react-native-testfairy
-react-native link
+react-native link react-native-testfairy
 ```
 
 If the above steps don't seem to work out, try to use the manual steps described below:

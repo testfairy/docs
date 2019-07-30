@@ -83,12 +83,12 @@ You must use frameworks and specify a platform version of at least `9.0` in your
 
 ```
 target 'Runner' do
-  platform :ios, '9.0'   ####################################### <--- add this and specify at least 9.0
+  platform :ios, '9.0'   ####### <--- add this and specify at least 9.0
 
-  use_frameworks!        ####################################### <--- add this, and try building if there is 
-                         #######################################      no Swift code or plugin in the project.
-                         #######################################      If there is Swift code, please also add 
-                         #######################################      the marked line below
+  use_frameworks!        ####### <--- add this, and try building if there is 
+                         #######      no Swift code or plugin in the project.
+                         #######      If there is Swift code, please also add 
+                         #######      the marked line below
 
   ...
 end
@@ -97,8 +97,8 @@ post_install do |installer|
   installer.pods_project.targets.each do |target|
     target.build_configurations.each do |config|
       config.build_settings['ENABLE_BITCODE'] = 'NO'
-      config.build_settings['SWIFT_VERSION'] = '3.2'  ########## <--- add this, change the version to what's being
-                                                      ##########      used in the project, remove if there is none
+      config.build_settings['SWIFT_VERSION'] = '3.2'  ### <--- add this, change the version to what's being
+                                                      ###      used in the project, remove if there is none
     end
   end
 end

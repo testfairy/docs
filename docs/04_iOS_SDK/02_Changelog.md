@@ -1,3 +1,8 @@
+### Version 1.20.0
+Released 2019-07-31
+
+* [NEW] Added `disableAutoUpdate`
+
 ### Version 1.19.9
 Released 2019-07-22
 * [BUGFIX] Better crash reports for ARM64e architectures

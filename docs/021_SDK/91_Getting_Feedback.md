@@ -68,6 +68,7 @@ import com.testfairy.TestFairy;
 // or after your app passes a given page
 TestFairy.showFeedbackForm();
       </pre>
+      <p> Note: For advanced customization look [here](https://docs.testfairy.com/reference/android/com/testfairy/FeedbackOptions.Builder.html). </p>
 		</div>
 
 		<div data-w-tab="tab-ios" class="w-tab-pane">

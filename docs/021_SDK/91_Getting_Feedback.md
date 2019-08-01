@@ -68,7 +68,7 @@ import com.testfairy.TestFairy;
 // or after your app passes a given page
 TestFairy.showFeedbackForm();
       </pre>
-     **Note:** For advanced customization look [here](https://docs.testfairy.com/reference/android/com/testfairy/FeedbackOptions.Builder.html).
+     <h4>Note:</h4> For advanced customization look <a href="https://docs.testfairy.com/reference/android/com/testfairy/FeedbackOptions.Builder.html">here </a>.
      
      
 		</div>

@@ -18,11 +18,10 @@ This feedback will be added to the existing session of the app they are currentl
 All feedback includes a screenshot, device information, submitter email, and text comments added. the feedback is added to the event timeline so you can easily find it.
 
 ### Customizing In-app feedback 
-If you want to have control over how your testers provide feedback (maybe your app is already using shake for other purposes), you can programmaitcally display the feedback form in a way that best suits your app's experience. 
 
-A typical use case may be to call the method when your tester taps a button in your app settings, or after a tester passes a given page in your app.
+In case you wish to use the TestFairy feedback form without having the user shake their device, you can invoke the feedback form programmatically and call the method at your choice. You can do it on any gesture, button click in your app, if the user opened the help menu, or even got an error message theyr didn't expect. 
 
-Note that if you choose to programmaitcally display the feedback form, you _do not_ need to have **In-App Bug Reporting** enabled.
+Please note that if you choose to programmaitcally display the feedback form, this will override the in-app feedback settings in your TestFairy dashboard.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">

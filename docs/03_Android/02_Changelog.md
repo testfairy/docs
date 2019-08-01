@@ -1,8 +1,13 @@
+### Version 1.9.12
+Released: 2019-08-01
+
+* [BUGFIX] Fixed cases of missing screenshots upon feedback.
+
 ### Version 1.9.11
 Released: 2019-07-29
 
-* [IMPROVEMENT] Support for hidden views in Flutter
-* [BUGFIX] Fix for a rare concurrent modification exception in sensors
+* [NEW] Support for hidden views in Flutter.
+* [BUGFIX] Fix for a rare concurrent modification exception in sensors.
 
 ### Version 1.9.10
 Released: 2019-07-15
@@ -75,7 +80,7 @@ Released: 2018-06-14
 * [NEW] Programmatically controll [Video Recording](https://docs.testfairy.com/SDK/Begin_with_options.html#video-recording).
 * [NEW] Programmatically controll [Recorded metrics](https://docs.testfairy.com/SDK/Begin_with_options.html#recorded-metrics).
 * [NEW] Programmatically controll [Session length](https://docs.testfairy.com/SDK/Begin_with_options.html#max-session-length).
-* [IMPROVEMENT] Session attributes will be attached into a crash & feedback even if there is no TestFairy session.
+* [NEW] Session attributes will be attached into a crash & feedback even if there is no TestFairy session.
 
 
 ### Version 1.7.1

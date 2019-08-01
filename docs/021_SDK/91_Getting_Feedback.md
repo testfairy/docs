@@ -93,7 +93,8 @@ TestFairy.showFeedbackForm();
 			<h4>Note</h4>
 			<p>On iOS, if the <b>In-App Bug Reporting</b> feature is enabled, the feedback form will also be shown when the tester takes a screenshot.</p>
 			
-			You may also choose to hide the user email filed using the [setFeedbackEmailVisible](https://docs.testfairy.com/reference/ios/Classes/TestFairy.html#//api/name/setFeedbackEmailVisible:) class.
+			You may also choose to hide the user email filed using the 
+			<a href="https://docs.testfairy.com/reference/ios/Classes/TestFairy.html#//api/name/setFeedbackEmailVisible:">setFeedbackEmailVisible </a> class.
 		</div>
 
 		<div data-w-tab="tab-cordova" class="w-tab-pane">

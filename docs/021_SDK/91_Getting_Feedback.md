@@ -1,12 +1,26 @@
-User feedback can be vital and contain highly relevant information when it comes to improving your app experience. Make it easier for your testers to communicate with you and send you their thoughts on how to make your app better.
+## Feedback
 
-TestFairy provides an easy way to collect this feedback. If you've [added the TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_SDK_To_Your_App.html) to your app, then all you need to do is enable the **In-App Bug Reporting** feature in your build settings.
+User/Testers feedback can contain vital and highly relevant information when testing an app.
+
+It can improve your app user experience and make it easier for your testers to communicate with you their thoughts on how to make your app better.
+
+### Using in-app feedback as is
+TestFairy provides an easy way to collect this feedback.
+
+If you [added the TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_SDK_To_Your_App.html) to your app, then all you need to do is enable the **In-App Bug Reporting** feature in your build settings in the TestFairy dashboard and you can start collection feedbacks from your users with `"shake to report"`:
 
 ![alt](../../img/sdk/enable_feedback.png)
 
-When you beta testers shake their device, they will be prompted to report a feedback, which will be added to the existing session. All feedback include videos, device informations, app logs and an event timeline so you can easily reproduce each problem.
+When your users or testers shake their device, they will be prompted to report a feedback.
 
-If you'd rather have control over how your testers provide feedback (maybe your app is already using shake for other purposes), you can programmaitcally display the feedback form in a way that best suits your app's experience. A typical use case may be to call the method when your tester taps a button in your app settings, or after a tester passes a given page in your app.
+This feedback will be added to the existing session of the app they are currently running.
+
+All feedback includes a screenshot, device information, submitter email, and text comments added. the feedback is added to the event timeline so you can easily find it.
+
+### Customizing In-app feedback 
+If you want to have control over how your testers provide feedback (maybe your app is already using shake for other purposes), you can programmaitcally display the feedback form in a way that best suits your app's experience. 
+
+A typical use case may be to call the method when your tester taps a button in your app settings, or after a tester passes a given page in your app.
 
 Note that if you choose to programmaitcally display the feedback form, you _do not_ need to have **In-App Bug Reporting** enabled.
 

@@ -1,7 +1,15 @@
-### Version 1.9.12
+### Version 1.9.13
 Released: 2019-08-01
 
 * [BUGFIX] Fixed cases of missing screenshots upon feedback.
+
+### Version 1.9.12
+Released: 2019-07-31
+
+* [NEW] Added `TestFairy.disableAutoUpdate()` to be able to ignore new version prompts.
+* [IMPROVEMENT] Trying to add audio before begin() now properly shows a warning.
+* [BUGFIX] Fixed a bug where dismissing the auto update dialog sometimes caused a crash.
+* [BUGFIX] Fixed a crash that occurs when the screen size changes in Unity.
 
 ### Version 1.9.11
 Released: 2019-07-29

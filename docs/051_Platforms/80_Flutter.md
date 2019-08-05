@@ -74,7 +74,7 @@ void main() {
 ### How to update native SDKs?
 This is done automatically for Android. 
 
-If you need to update the native iOS SDK used by your current integration, run `pod install` in your *ios* directory.
+If you need to update the native iOS SDK used by your current integration, run `pod repo update; pod install` in your *ios* directory.
 
 ### Troubleshoot
 * **I see `Undefined symbols for architecture` error during compilation.**
@@ -110,17 +110,17 @@ end
 
 This is an old bug in the plugin pubspec file. First, run `flutter clean` in your root directory. 
 
-Please move *ios/Podfile.lock* into a temporary place before running `pod install` in your *ios* directory. 
+Please move *ios/Podfile.lock* into a temporary place before running `pod repo update; pod install` in your *ios* directory. 
 
 If some of the libraries you use need to be at specific versions, copy the necessary lines from your backed up *Podfile.lock* into the newly created one. Please keep the lines related to TestFairy (note the title case in the name) untouched.
 
-Finally, run `pod install` again to re-download libraries from the replaced lines.
+Finally, run `pod repo update; pod install` again to re-download libraries from the replaced lines.
 
 If everything went smoothly, this issue should never happen again.
 
 * **There are syntax errors in TestFairyFlutterPlugin.java or TestFairyFlutterPlugin.m file.**
 
-In your project root, run `flutter clean; cd ios; pod install; cd ..` and test again.
+In your project root, run `flutter clean; cd ios; pod repo update; pod install; cd ..` and test again.
 
 * **My widget's are not hidden in screenshots.**
 
@@ -159,6 +159,7 @@ This is currently not supported in iOS and will be fixed in the next release.
 * `enableVideo`
 * `disableVideo`
 * `takeScreenshot`
+* `disableAutoUpdate`
 
 ### Features supported by only Android
 

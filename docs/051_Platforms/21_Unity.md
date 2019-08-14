@@ -52,10 +52,15 @@
 	<activity
 			 android:name="com.testfairy.activities.AutoUpdateActivity"
 			 android:configChanges="orientation|screenSize"/>
+	 
+	 <!-- Add the line below if you are targetting API level 23 or less -->
+	 <uses-library android:name="org.apache.http.legacy" android:required="false"/>
 </application>
  ```
 
-8. Save, build and run.
+8. Please don't forget to add the line `<uses-library android:name="org.apache.http.legacy" android:required="false"/>` to your manifest if your target API level is 23 or less.
+
+9. Save, build and run.
 
 ## Usage
 

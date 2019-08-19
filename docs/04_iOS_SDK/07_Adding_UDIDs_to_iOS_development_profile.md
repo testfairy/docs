@@ -22,10 +22,10 @@ Your testers will get an email asking them to register their device. Once they r
 
 5. You may register one or multiple devices. 
 
-5.1 For adding one device add the device details in the **Register a Device** form.
+    5.1 For adding one device add the device details in the **Register a Device** form.
 
-5.2 Use **Register multiple devices** for registering devices from a file, choose your file and continue.
-![alt](/img/app/apple-dev-import.png)
+    5.2 Use **Register multiple devices** for registering devices from a file, choose your file and continue.
+  ![alt](/img/app/apple-dev-import.png)
 
 6. Follow the on screen instructions.
 

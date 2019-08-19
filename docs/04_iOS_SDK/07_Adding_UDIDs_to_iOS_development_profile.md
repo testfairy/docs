@@ -15,22 +15,25 @@ Your testers will get an email asking them to register their device. Once they r
 
 2. Once you have all your testers' UDIDs [export their details](https://app.testfairy.com/testers/export/).
 
-3. Log into the Apple Developer Portal and go to the [Devices area](https://developer.apple.com/account/ios/device/deviceList.action).
+3. Log into the Apple Developer Portal and go to the [Devices area](https://developer.apple.com/account/resources/devices/list).
 
 4. Click on the + icon
 ![alt](/img/app/apple-dev-plus.png)
 
-5. Click on 'Register multiple devices', choose your file and continue.
+5. You may register one or multiple devices. 
+
+5.1 For adding one device add the device details in the **Register a Device** form.
+
+5.2 Use **Register multiple devices** for registering devices from a file, choose your file and continue.
 ![alt](/img/app/apple-dev-import.png)
 
-6. Review the new UDIDs and click done.
+6. Follow the on screen instructions.
 
-7. Open the provisioning profile [distribution section](https://developer.apple.com/account/ios/profile/profileList.action?type=production)
+7. Click on **profiles** [distribution section](https://developer.apple.com/account/resources/profiles/list)
+![alt](/img/app/apple-dev-profile-create.png)
 
-8. Choose your ad-hoc profile and click 'edit'
+8. Follow the on screen process to generate the profile.
 
-9. Scroll down to devices, and choose the new devices that should be added to the profile.
-
-10. Generate the new profile and download the file.
+9. Generate the new profile and download the file.
 
 11. Make sure to delete the previous profile files.

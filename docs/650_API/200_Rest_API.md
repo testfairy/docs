@@ -231,41 +231,15 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	"status": "ok",
 	"testers": [
 		{
-		"email":"rafael@testfairy.com",
-		"invitationStatus":"1",
-		"hasUdidAccess":true,
-		"isBlocked":false,
-		"allowAll":false,
-		"hasPushToken":false,
-		"emailBounce":null,
-		"groups":[ 
-			],
-			"allDevices":[
-			{
-			"id":"29651071",
-			"manufacturer":"Android-8.1.0",
-			"name":null,
-			"raw":null
-			}
-			],
-			"appleDevices":[			
-			{  
-			"id":"178760",
-			"manufacturer":"Apple",
-			"name":"iPhone 5s",
-			"udid":"f26c9479ad8c5275422d05c59fcd0b266c3731b5"
-			},
-			{  
-			"id":"182637",
-			"manufacturer":"Apple",
-			"name":"iPad Mini 4",
-			"udid":"42c5e7c45aa3df85ee4cd9e0c6a5d01bf202ed01"
-			},
-			{
-			"email": "alice@testfairy.com"
-			}
-		]
-	}
+			"email":"james@example.com",
+			"groups":[100]
+		},
+		{
+			"email":"alice@testfairy.com",
+			"groups":[100,200]
+		}
+	]
+}
 </pre>
 </div>
 
@@ -299,6 +273,40 @@ In the example above, you can see that our user is `john@example.com` and the AP
 			Default value: none<br />
 		</td>
 	</tr>
+	</table>
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Delete a tester
+	</span>
+	<code>DELETE /api/1/testers/</code>
+</div>
+<div class="method-description hidden">
+	Delete a single tester, remove them from any tester-groups they might be in, and invalidate
+	all invitations that were sent.<br />
+
+	<table>
+	<tr>
+		<th style="width: 160px;"><b>parameter</b></th>
+		<th style="width: 100px;"><b>type</b></th>
+		<th><b>description</b></th>
+	</tr>
+	<tr>
+		<td>email</td>
+		<td><em>string</em></td>
+		<td>
+			An email address of a tester to be removed.
+		</td>
+        </tr>
 	</table>
 
 	<span class="responses">Responses</span><br />

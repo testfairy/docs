@@ -18,3 +18,14 @@ TestFairyMediaPlayerGlue.PlayerWrapper wrapper = TestFairyMediaPlayerGlue.create
 TestFairyMediaPlayerGlue.PlayerAdapterWrapper wrapper = TestFairyMediaPlayerGlue.createByWrapping(myPlayerAdapter);
 // use wrapper to configure further listeners and behavior
 ```
+
+#### or with ExoPlayer
+
+Copy [this](https://github.com/testfairy-blog/TestFairyMediaPlayerGlue/blob/master/TestFairyExoPlayerAnalyticsListener.java) listener in your project and initialize it with the following line.
+
+```java
+// Initialize
+exoPlayer.addAnalyticsListener(new TestFairyExoPlayerAnalyticsListener(exoPlayer));
+```
+
+The internals of `TestFairyExoPlayerAnalyticsListener` is explained [here](https://blog.testfairy.com/exoplayer-analytics-for-android-tv/) for curious hackers.

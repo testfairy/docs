@@ -23,6 +23,18 @@ ______
 
 ![ alt upload](../../img/app/invite-testers2.png)
 
+### [Managing tester invitations from landing pages](#managing-tester-invitations)
+
+In case a landing page is defined as **Opt-In** testers are required to register before they get download access to the build.
+
+_The registration process is as follows:_
+  - The tester enters his/her email address in a pop up box when she tries to download the app from the landing page.
+  - The account manager/owner then gets an email saying there is a new tester asking for permissions. He also sees the new tester in the invite testers table of the build that is defined in the landing page and there she can approve the tester.
+  - Once the tester is approved she gets an email with a download link to the app.
+
+In **closed beta** the manager/owner defines testers that can download the app in the build settings. Any other tester that is not predefined in the build settings can't download the app.
+
+
 
 ### Managing tester groups
 

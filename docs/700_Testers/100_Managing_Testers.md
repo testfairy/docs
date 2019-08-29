@@ -23,7 +23,7 @@ ______
 
 ![ alt upload](../../img/app/invite-testers2.png)
 
-### Managing tester invitations from landing pages
+### <a id="managing-testers"></a> Managing tester invitations from landing pages 
 
 In case a landing page is defined as **Opt-In** testers are required to register before they get download access to the build.
 

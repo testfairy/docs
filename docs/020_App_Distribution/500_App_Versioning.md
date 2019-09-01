@@ -1,6 +1,18 @@
-## Versioning your app builds
+## App naming and versioning
 
-When loading an app to Testfairy the service decodes the version number and name of the build and displays it in the dashboard.
+When loading an app to Testfairy the service decodes the app name, version number and version name of the build and displays it in the dashboard.
+
+
+### Displayed name in the dashboard
+
+The app name used in the dashboard is the **Display Name** in your iOS xcode project or the Value of the `string name=”app_name”` in the **strings.xml** file in the `res` directory of your android app in android studio.
+
+**In Android Studio:**
+![](/img/app_distribution/android-studio-app-name.png)
+
+
+**In Xcode:**
+![](/img/app_distribution/xcode-ios-app-display-name.png)
 
 
 ### Android

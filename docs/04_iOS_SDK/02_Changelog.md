@@ -1,3 +1,8 @@
+### Version 1.20.1
+Released 2019-09-04
+
+* [NEW] Removed support for hiding HTML elements from UIWebView. Only WKWebView is supported
+
 ### Version 1.20.0
 Released 2019-07-31
 

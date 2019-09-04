@@ -45,10 +45,10 @@ When defining fields in the Configure Fields window follow the below conventions
   * `{user.id}` - the UserId of the session running.
   * `{session.timestamp}` - the timestamp of the session.
   * `{session.url}` - the url of the session on the TestFairy dashboard.
+  * `{session.ipAddress}` - the IP address of the device running the session.
   * `{device.os}` - the running device OS
   * `{device.model}` - the device model of the handset
   * `{device.osVersion}` - the OS version on the device (if the iPhone is running versio IOS 12 value=12) 
-  * `{session.ipAddress}` - the IP address of the device running the session.
   * `{app.name}` - the app name.
   * `{app.version}`  - the _versionName_ or _CFBundleShortVersionString_ of the build. example: 1.7.0
   * `{app.fullVersion}` - the _versionName_ + (_versionCode_ or _CFBundleVersion_) of the build. example: 1.7.0 (1700)
@@ -57,7 +57,7 @@ In order to use these values add them to the `-Dynamic value-` field that opens 
 
 ![fixed values](/img/bug-tracking/jira-fixed-attr-popup.png)
 
-- You can also add attributes that are defined in your apps code to the `-Dynamic value-` field. The structure of a dynamic filed if as follows: `{attr.[attribite_name]||[default_value]}`
+- You can also add attributes that are defined in your apps code to the `-Dynamic value-` field. The structure of a dynamic filed if as follows: `{attr.[attribute_name]||[default_value]}`
   * `attribite_name` - is the name of the Teasfairy attribute set in the code by the `TestFairy.setAttribute` function. What passes to the JIRA is the value of this attribute.
   * `default_value` -  for each attribute you can set a default value so if you receive a null or wrong attribute value from the code (not possible in this field in JIRA) the default value will instead be passed to JIRA.
 

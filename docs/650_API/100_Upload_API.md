@@ -42,6 +42,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | notify          | Optional    | Send email to all users in tester_groups. The default is "on". |
 | release_notes   | Optional    | Release notes for this upload. This text will be added to emails and landing pages. |
 | auto_update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
+| tags            | Optional    | Set of comma-separated tags to be displayed and search upon. |
 
 ### Error Codes
 
@@ -68,6 +69,7 @@ curl https://upload.testfairy.com/api/upload \
 	-F testers_groups='friends,beta' \
 	-F notify='on'
 	-F release_notes='stabilitty fixes, improvedment in ui'
+	-F tags='production, english'
 ```
 
 ### Example Response:
@@ -92,5 +94,19 @@ In order to create a new API KEY just click on "Regenerate API Key" in your acco
 ### Why is my API Key empty?
 
 In cases where we identify that your API KEY was used by mistake to initialize the SDK instead of using your APP TOKEN, we automatically reset the API KEY in order to protect your privacy. In this case, please change the SDK initialization to use the APP TOKEN and create a new API KEY.
+
+### Can I add custom metadata?
+
+Yes. Any POST parameter that its name is prefixed with "metadata." will be considered custom data and stored along with the upload. For example, consider this command:
+
+```
+curl https://upload.testfairy.com/api/upload \
+	-F api_key='your_api_key' \
+	-F file=@sample.apk \
+	-F metadata.branch=master \
+	-F metadata.locale=us-en
+```
+
+Metadata is displayed and can be searched upon in App Versions page, by clicking on an app from the Dashboard. They can also be viewed in a single version's settings page.
 
 

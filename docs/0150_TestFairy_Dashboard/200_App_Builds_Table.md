@@ -16,7 +16,7 @@ Each app **Builds table** contains a list of all the apps builds and thier detai
 
 - **UPLOADED** - when was this build loaded to the system.
 
-- **TAGS** - short words describing the build - can be edited in the build settings menu and are searchable in the **Search** field at the top of the table. See below for more info.
+- **TAGS** - short words describing the build - can be edited in the build settings menu and are searchable in the `Search` field at the top of the table. See below for more info.
 
 - **BUILD STATUS** - Contains indicators for the build status 
   - Build not loaded to the system - ![](/img/dashboard/status-icon-app-not-uploaded.png)  
@@ -35,4 +35,4 @@ The text may contain spaces and more than one word. One can add tags to a build 
 
 ### Metadata
 
-Metadata is information specificly related to this build. It is defined once when the build is added to testfairy via [Upload API](https://docs.testfairy.com/API/Upload_API.html) and can not be changed once the build is loaded. The format of defining it is **matadata.key=value** for example `metadata.branch=master`. Only the **value** can be searched with the `Search` box at the top of the Builds table.
+Metadata is information specificly related to this build. It is defined once when the build is added to testfairy via [Upload API](https://docs.testfairy.com/API/Upload_API.html) and can not be changed after the build is loaded. The format of defining it is **matadata.key=value** for example `metadata.branch=master`. Only the **value** can be searched with the `Search` box at the top of the Builds table.

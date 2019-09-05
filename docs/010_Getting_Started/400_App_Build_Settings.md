@@ -31,7 +31,7 @@ Every build has its own settings, however, some of the definitions are shared by
 ### Insights
 
 
-<img src="../../img/getting-started/build-settings-1.png" width="800"/>
+<img src="../../img/getting-started/build-settings/build-settings-insights.png" width="800"/>
 
 * __Recording:__ Choose whether recording of sessions is `enabled`, `disabled` or `enabled only when WiFi is on`. This is global and overrides all other settings.
 
@@ -50,7 +50,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 ### Bug reporting
 
-<img src="../../img/getting-started/build-settings-3.png" width="800"/>
+<img src="../../img/getting-started/build-settings/build-settings-bugs.png" width="800"/>
    
 * **[In-App Bug Reporting](https://docs.testfairy.com/Testers/Submitting_User_Feedback.html)** - when enabled, testers can provide feedback simply by shaking their device and filling a form that pops up. On iOS, screenshot will trigger the same mechanism. 
 
@@ -68,6 +68,6 @@ In iOS you will see the details of the build as detected by our service. You can
 
 In android you will see build details and the hah of the signing certificate at the bottom.
 
-![android more](../../img/getting-started/build-settings-more-android.png)
+![android more](../../img/getting-started/build-settings/build-settings-more.png)
 
 **What to read next:** [Distributing apps](Distributing_Your_Apps.html)

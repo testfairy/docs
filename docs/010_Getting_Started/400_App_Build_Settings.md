@@ -24,7 +24,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 * **[Release Notes](https://docs.testfairy.com/App_Distribution/Releas_Notes.html)** These release notes will appear in email invitations, landing pages and in the tester dashboard at my.testfairy.com. Release Notes can be set via upload api, manually on upload or in this page.
 
-* **[Tags]()** Tags can be added to each build. They ar comma seperated text and can conatin spaces.
+* **[Tags]()** Tags can be added to each build. They are comma separated text and can contain spaces.
 
 * **[Landing Page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html)** - click the button to configure the [landing page] for this build.
 
@@ -35,7 +35,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 * __Recording:__ Choose whether recording of sessions is `enabled`, `disabled` or `enabled only when WiFi is on`. This is global and overrides all other settings.
 
-* __Max Duration:__ you can choose a maximum recording duration of 10 min, 1 or 5 hour. When going to background, session will automatically end after 5 minutes the app is in background.
+* __Max Duration:__ you can choose a maximum recording duration of 10 min, 1 or 5 hour. When going to background, session will automatically end after 5 minutes the app is in the background.
 
 * __Collect Logs in background (only in android)__: this option will enable collecting logs also when the app is in the background.  Please note that this option may cause additional battery consumption.
 
@@ -71,3 +71,6 @@ In android you will see build details and the hah of the signing certificate at 
 ![android more](../../img/getting-started/build-settings/build-settings-more.png)
 
 **What to read next:** [Distributing apps](Distributing_Your_Apps.html)
+
+
+

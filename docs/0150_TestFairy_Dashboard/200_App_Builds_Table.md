@@ -29,7 +29,7 @@ Each app **Builds table** contains a list of all the apps builds and thier detai
 
 ### Tags
 
-Tags are labels attached to a build for identification or to give additional searchable informatio abount them.
+Tags are labels attached to builds for identification or to give additional searchable information about them.
 The text may contain spaces and more than one word. One can add tags to a build by adding them on upload using the  [Upload API](https://docs.testfairy.com/API/Upload_API.html) or edit them in the [Build Settings](https://docs.testfairy.com/Getting_Started/App_Build_Settings.html) menu. They can be searched with the `Search` box at the top of the Builds page.
 
 

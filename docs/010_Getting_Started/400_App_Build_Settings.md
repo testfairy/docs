@@ -11,12 +11,12 @@ In order to configure your build (version) settings, click on the **Settings** b
 Every build has its own settings, however, some of the definitions are shared by all builds of an app.
 
 
-<img src="../../img/app/build-settings-btn.png" width="800"/>
+<img src="../../img/getting-started/build-settings/build-settings-btn.png" width="800"/>
 
 
 ### App distribution
 
-<img src="../../img/build-settings-2.png" width="800"/>
+<img src="../../img/getting-started/build-settings/build-settings-2.png" width="800"/>
 
 * **App Distribution:** Enabled or Disabled. When disabled the app cannot be installed and pending invitations will expire.
 

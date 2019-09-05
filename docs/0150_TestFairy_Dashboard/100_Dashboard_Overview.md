@@ -24,8 +24,9 @@ The top bar has the general statistics of your account - number of sessions, cra
 Contains the list all the apps loaded to the system. 
 The app in display is the last version loaded.
 
-It details the app name and bundle ID, is it snd iOS or android app, latest version name & number, and some details about how many sessions, builds, crashes and issues were logged for the app. it 
-You also see the date the last build was loaded to the system and the date the latest session was logged. 
+It details the app name and bundle ID, is it an iOS or Android app, latest version name & number, and some details about how many sessions, builds, crashes and issues were logged for the app.
+You also see the date the last build was loaded to the system and the date the latest session was logged.
+Pressing the apps line will lead you to the [Builds table](https://docs.testfairy.com/TestFairy_Dashboard/App_Builds_Table.html). 
 
 The last column holds a link to the apps landing page if the app was loaded to the system.
 

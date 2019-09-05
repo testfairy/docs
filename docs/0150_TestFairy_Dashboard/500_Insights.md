@@ -49,7 +49,9 @@ If you add [custom attributes](https://docs.testfairy.com/SDK/Session_Attributes
 
 
 --------------------------
-- **Please note** - when you define values for this field do not use characters other than text or numbers (a-z A-Z 0-9) like `/` `"` `-` as they can not be searched on in this field. Alternatively, if you **do** have these characters you can search only for seperate parts of the text without them. (for example: {attr1="dada-1270"} the `-` is not searchable so you can search for `dada` **or** `1270`.
+
+**Please note** - when you define values for this field do not use characters other than text or numbers (a-z A-Z 0-9) like `/` `"` `-` as they can not be searched on in this field. Alternatively, if you **do** have these characters you can search only for seperate parts of the text without them. (for example: {attr1="dada-1270"} the `-` is not searchable so you can search for `dada` **or** `1270`.
+
 ----------------------------
 
 

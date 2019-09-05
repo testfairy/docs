@@ -14,6 +14,20 @@ Every build has its own settings, however, some of the definitions are shared by
 <img src="../../img/app/build-settings-btn.png" width="800"/>
 
 
+### App distribution
+
+<img src="../../img/build-settings-2.png" width="800"/>
+
+* **App Distribution:** Enabled or Disabled. When disabled the app cannot be installed and pending invitations will expire.
+
+* **[Auto-Update](https://docs.testfairy.com/App_Distribution/Auto_Update.html)** - when auto-update is enabled, all the previous installations of this app will be automatically upgraded to this version. The next time a user with an old version opens his app, he will get an 'updating' message and the app will be installed automatically. No email will be sent regarding this update.
+
+* **[Release Notes](https://docs.testfairy.com/App_Distribution/Releas_Notes.html)** These release notes will appear in email invitations, landing pages and in the tester dashboard at my.testfairy.com. Release Notes can be set via upload api, manually on upload or in this page.
+
+* **[Tags]()** Tags can be added to each build. They ar comma seperated text and can conatin spaces.
+
+* **[Landing Page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html)** - click the button to configure the [landing page] for this build.
+
 ### Insights
 
 
@@ -32,19 +46,6 @@ Every build has its own settings, however, some of the definitions are shared by
    * Network (Android only)
    * Phone signal (Android only)
    * WIFI (Android only)
-
-
-### App distribution
-
-<img src="../../img/build-settings-2.png" width="800"/>
-
-* **App Distribution:** Enabled or Disabled. When disabled the app cannot be installed and pending invitations will expire.
-
-* **[Auto-Update](https://docs.testfairy.com/App_Distribution/Auto_Update.html)** - when auto-update is enabled, all the previous installations of this app will be automatically upgraded to this version. The next time a user with an old version opens his app, he will get an 'updating' message and the app will be installed automatically. No email will be sent regarding this update.
-
-* **[Landing Page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html)** - click the button to configure the [landing page] for this build.
-
-* **[Release Notes](https://docs.testfairy.com/App_Distribution/Releas_Notes.html)** These release notes will appear in email invitations, landing pages and in the tester dashboard at my.testfairy.com. Release Notes can be set via upload api, manually on upload or in this page.
 
 
 ### Bug reporting

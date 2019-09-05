@@ -26,7 +26,7 @@ Every build has its own settings, however, some of the definitions are shared by
 
 * **[Tags]()** Tags can be added to each build. They are comma separated text and can contain spaces.
 
-* **[Landing Page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html)** - click the button to configure the [landing page] for this build.
+* **[Landing Page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html)** - link to the landing page. Click the  `Configure` button to change the landing page for this build.
 
 ### Insights
 

@@ -45,10 +45,11 @@ TestFairy can collect additional information from your session, which can help y
 // Be sure to import TestFairy
 import com.testfairy.TestFairy;
 
-TestFairy.setAttribute("name","John Snow");
-TestFairy.setAttribute("phone","+672-14-5109");
-TestFairy.setAttribute("age","20");
-TestFairy.setAttribute("favorite_color","blue");
+TestFairy.setAttribute("payment-method","free");
+TestFairy.setAttribute("account-type","driver");
+TestFairy.setAttribute("phone","+1-672-154-5109");
+TestFairy.setAttribute("level","20");
+
       </pre>
 		</div>
 

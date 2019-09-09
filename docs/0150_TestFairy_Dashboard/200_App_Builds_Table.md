@@ -45,3 +45,11 @@ It is defined once when the build is added to testfairy via [Upload API](https:/
 
 The format of defining it is **matadata.key=value** for example `metadata.branch=master`. 
 Only the **value** can be searched with the `Search` box at the top of the Builds table.
+
+
+### Deleting builds and apps
+
+In case you want to delete a build from the system select the checkbox next to it and at the bottom dropdown menu (**More Actions…**) choose `Delete Build`.
+
+To delete the whole app you need to select all its builds in the top checkbox and then in the **More Actions…** choose `Delete Build`.
+

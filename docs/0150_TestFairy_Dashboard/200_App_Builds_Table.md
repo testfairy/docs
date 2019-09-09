@@ -30,9 +30,18 @@ Each app **Builds table** contains a list of all the apps builds and thier detai
 ### Tags
 
 Tags are labels attached to builds for identification or to give additional searchable information about them.
-The text may contain spaces and more than one word. One can add tags to a build by adding them on upload using the  [Upload API](https://docs.testfairy.com/API/Upload_API.html) or edit them in the [Build Settings](https://docs.testfairy.com/Getting_Started/App_Build_Settings.html) menu. They can be searched with the `Search` box at the top of the Builds page.
+
+The text may contain spaces and more than one word. 
+
+One can add tags to a build by adding them on upload using the [Upload API](https://docs.testfairy.com/API/Upload_API.html) or edit them in the [Build Settings](https://docs.testfairy.com/Getting_Started/App_Build_Settings.html) menu.
+They can be searched with the `Search` box at the top of the Builds page.
 
 
 ### Metadata
 
-Metadata is information specificly related to this build. It is defined once when the build is added to testfairy via [Upload API](https://docs.testfairy.com/API/Upload_API.html) and can not be changed after the build is loaded. The format of defining it is **matadata.key=value** for example `metadata.branch=master`. Only the **value** can be searched with the `Search` box at the top of the Builds table.
+Metadata is information specificly related to this build. 
+
+It is defined once when the build is added to testfairy via [Upload API](https://docs.testfairy.com/API/Upload_API.html) and can not be changed after the build is loaded. 
+
+The format of defining it is **matadata.key=value** for example `metadata.branch=master`. 
+Only the **value** can be searched with the `Search` box at the top of the Builds table.

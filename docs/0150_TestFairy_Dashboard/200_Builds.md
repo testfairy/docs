@@ -4,10 +4,11 @@
 <iframe src="https://embed.fleeq.io/l/0v2ir0nl2c-r169sigcks" frameborder="0" allowfullscreen="true" style="width:800px; height: 600px;"></iframe>
 
 
-## App Builds table
+## Builds
 
+The **Builds** page contains a list if all the builds for this app.
 
-Each app **Builds table** contains a list of all the apps builds and thier details:
+For each build you can see the following details:
 
 ![Builds Table](/img/dashboard/builds-table.png)
 
@@ -36,7 +37,7 @@ Each app **Builds table** contains a list of all the apps builds and thier detai
 
 ### Tags
 
-Tags are labels attached to builds for identification or to give additional searchable information about them.
+Tags are labels attached to builds for identification and to give additional searchable information about them.
 
 The text may contain spaces and more than one word. 
 

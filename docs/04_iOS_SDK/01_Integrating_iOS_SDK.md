@@ -161,5 +161,15 @@ You get to: * Track app use. * Handle crashes and report to server. * Record scr
   </div>
 </div>
 
-### Class Reference [https://app.testfairy.com/reference/ios/Classes/TestFairy.html](https://app.testfairy.com/reference/ios/Classes/TestFairy.html) ### Troubleshooting For more information about common problems when integrating the iOS SDK, please visit
-our [FAQ page](https://docs.testfairy.com/FAQ.html) ### Related documentation * [Upload iOS dSYM files to TestFairy](/iOS_SDK/Uploading_dSyms_to_TestFairy.html)
+### Class Reference 
+
+[https://app.testfairy.com/reference/ios/Classes/TestFairy.html](https://app.testfairy.com/reference/ios/Classes/TestFairy.html) 
+
+### Troubleshooting 
+
+For more information about common problems when integrating the iOS SDK, please visit
+our [FAQ page](https://docs.testfairy.com/FAQ.html) 
+
+### Related documentation 
+
+* [Upload iOS dSYM files to TestFairy](/iOS_SDK/Uploading_dSyms_to_TestFairy.html)

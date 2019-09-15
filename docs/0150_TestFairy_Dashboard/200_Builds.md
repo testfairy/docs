@@ -26,12 +26,12 @@ For each build you can see the following details:
 
 - **TAGS** - short words describing the build - can be edited in the build settings menu and are searchable in the `Search` field at the top of the table. See below for more info.
 
-- **BUILD STATUS** - Contains indicators for the build status 
+- **BUILD STATUS** - Contains indicators for the build status: 
   - Build not loaded to the system - ![](/img/dashboard/status-icon-app-not-uploaded.png)  
   - Video is dissabled - ![](/img/dashboard/status-icon-no-video.png) 
   - Build has metadata - ![](/img/dashboard/status-icon-metadata.png)
-  - Build has release notes - ![](/img/dashboard/status-icon-comment.png).
-  - Build distribution is dissabled - ![](/img/dashboard/ic_close_black_36.png).
+  - Build has release notes - ![](/img/dashboard/status-icon-comment.png)
+  - Build distribution is dissabled - ![](/img/dashboard/ic_close_black_36.png)
 
 - Settings button ![](/img/dashboard/ic_settings_black.png) - Pressing it opens the build settings menu.
 

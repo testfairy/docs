@@ -71,7 +71,7 @@ You get to: * Track app use. * Handle crashes and report to server. * Record scr
         <br>
       </p>
       <ol>
-        <li>Add <code>github "testfairy/testfairy-carthage"</code> to your Cartfile.</li>
+        <li>Add <code>binary "https://app.testfairy.com/sdk/ios/carthage.json"</code> to your Cartfile.</li>
         <li>Run <code>carthage update</code>. </li>
         <li>On your application targets’ “General” settings tab, in the “Linked Frameworks and Libraries” section, drag and drop the TestFairy framework from the [Carthage/Build][] folder on disk.</li>
       </ol>

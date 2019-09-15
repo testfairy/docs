@@ -31,6 +31,7 @@ For each build you can see the following details:
   - Video is dissabled - ![](/img/dashboard/status-icon-no-video.png) 
   - Build has metadata - ![](/img/dashboard/status-icon-metadata.png)
   - Build has release notes - ![](/img/dashboard/status-icon-comment.png).
+  - Build distribution is dissabled - ![](/img/dashboard/ic_close_black_36.png).
 
 - Settings button ![](/img/dashboard/ic_settings_black.png) - Pressing it opens the build settings menu.
 

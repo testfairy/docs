@@ -53,12 +53,12 @@ Permissions (Group Permissions) are used in order to manage app distribution to 
 
 The permissions are defined for each app (and all its builds) so all testers that are part of the group can download all the apps builds. 
 
-The permissions are based on defining groups of testers as described in [managing testers](https://docs.testfairy.com/Testers/Managing_Testers.html). 
+The permissions are based on defining groups of testers as described in [Managing tester groups](https://docs.testfairy.com/Testers/Managing_Testers.html). 
 
-Once you have defined the groups of some or all of the testers the groups defined appear in the permissions screen.
+Once you have defined the groups of some or all of the testers the groups appear in the permissions screen.
 
 ![permissions](/img/app_distribution/permissions-screen-1.png)
 
 Ticking the checkbox of a group makes the app (and all its builds) available for that group (and hence all its testers).
-The app is then displayed in the [testers dashboard](https://docs.testfairy.com/TestFairy_Dashboard/Testers_Dashboard.html) and can be downloaded by the testers.
+The app is then displayed in the [testers dashboard](https://docs.testfairy.com/TestFairy_Dashboard/Testers_Dashboard.html) and can be downloaded by the testers. Unchecking a group checkbox will remove the app from the testers dashboard that are part of that group.
 

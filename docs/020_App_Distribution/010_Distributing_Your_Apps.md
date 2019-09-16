@@ -46,3 +46,19 @@ You can also build a community of testers or distribute you app by using our pre
 
 The [tester dashboard](https://my.testfairy.com/) is the place where tester see all the apps they were invited to test.
 This view is available to all testers in the system. Developer can switch from this view to the full dashboard view with the `view as developer` menu item.
+
+### Permissions
+ 
+Permissions (Group Permissions) are used in order to manage app distribution to groups of testers/users. 
+
+The permissions are defined for each app (and all its builds) so all testers that are part of the group can download all the apps builds. 
+
+The permissions are based on defining groups of testers as described in [managing testers](https://docs.testfairy.com/Testers/Managing_Testers.html). 
+
+Once you have defined the groups of some or all of the testers the groups defined appear in the permissions screen.
+
+![permissions](/img/app_distribution/permissions-screen-1.png)
+
+Ticking the checkbox of a group makes the app (and all its builds) available for that group (and hence all its testers).
+The app is then displayed in the [testers dashboard](https://docs.testfairy.com/TestFairy_Dashboard/Testers_Dashboard.html) and can be downloaded by the testers.
+

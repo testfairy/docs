@@ -52,7 +52,7 @@ In **closed beta** the manager/owner defines testers that can download the app i
 
 
 
-### Managing tester groups
+### <a name="managing-tester-groups"></a> Managing tester groups
 
 You can also divide testers to **groups** to add more structure and organise your testing efforts. 
 In order to create a group click in the GROUPS text-box and then on `Create new group...`

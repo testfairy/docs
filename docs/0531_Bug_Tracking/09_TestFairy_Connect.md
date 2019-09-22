@@ -1,74 +1,42 @@
+# TestFairy Connect (Docker)
 
-## What is TestFairy Connect?
+#### Installation
 
-TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server), with the TestFairy cloud.
+Let's configure TestFairy Connect. This is needed only once. Docker will automatically download the latest version.
 
-## How does it work?
-
-The key part of TestFairy Connect is the agent service that runs on a system, within your firewall, connecting to TestFairy's web app and to your bug tracking system.
-
-![Overview](/img/testfairy-connect/0-overview.png)
-
-## How to Install TestFairy Connect (video tutorial)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/SdEHd8jNsOM" frameborder="0" allowfullscreen></iframe>
-
-
-## Prerequisites
-* Node.js 10+
-* Git 1.7+
-
-## Installation
-
-Installation is done via npm. Please run the following command in any folder for your TestFairy Connect installation:
-
-```
-sudo npm install -g git+https://github.com/testfairy/testfairy-connect.git
+```sh
+docker run -i -t -v $PWD:/etc/testfairy-connect testfairy/testfairy-connect:latest configure
 ```
 
-## Configuration
+Note: you can replace `$PWD` with a directory of your choice to store your TestFairy Connect configuration.
 
-To configure TestFairy Connect, run the following line and follow the on-screen instructions:
+If there are no issues, you can now follow the interactive wizard that is displayed on screen. Documentation for this process is available at https://docs.testfairy.com/Bug_Tracking/TestFairy_Connect.html
 
+#### Running
 
-```
-testfairy-connect configure [-f /path/to/config.json]
-```
+Now that you have TestFairy Connect configured, run it with:
 
-You'll need the following data:
-
-* TestFairy API key (found at [https://[your-subdomain].testfairy.com/settings/api-key/](https://[your-subdomain].testfairy.com/settings/api-key/)
-* The URL to your bug system.
-* In the case of a JIRA basic authentication - valid credentials for a bug system user.
-* In the case of a JIRA oauth authentication - admin access to JIRA/the ability to manage Application Links (as described in the configuration wizard script).
-
-By default, your configuration file `config.json` is located in `.testfairy-connect` under the running user's home directory: `~/.testfairy-connect/config.json`
-
-If the optional `-f` parameter is omitted, TestFairy Connect will use the default location.
-
-## Running TestFairy Connect
-
-To start the TestFairy Connect agent, use the following command:
-
-```
-testfairy-connect start [-f /path/to/config.json]
+```sh
+docker run -d -v $PWD:/etc/testfairy-connect --restart=always testfairy/testfairy-connect:latest start
 ```
 
-If the optional `-f` parameter is omitted, TestFairy Connect will use the default location: /path/to/user/home/.testfairy-connect/config.json
+Note: you can replace `$PWD` with a directory of your choice to store your TestFairy Connect configuration.
 
-The agent is now running in the background, and will keep running even when the terminal connection closes.
+TestFairy Connect will be running in the background, and it is safe to close the ssh connection. Please remember that stopping docker or rebooting the server, will require you to run the 'start' command again.
 
-## Stop TestFairy Connect
+#### Troubleshooting
 
-To stop the TestFairy Connect agent, use the following command:
-
-```
-testfairy-connect stop
-```
-
-## Congratulations!
-
-You now have TestFairy Connect installed.
-Please visit [Bug System Settings](https://app.testfairy.com/settings/bug-system/) and select "TestFairy Connect".
+- SELinux: If you are having permission errors related to your docker volume, you can either try attaching volume in relaxed SELinux mode or disable SELinux enforcement entirely.
+  - Use these commands to attach volume in relaxed SELinux mode:
+  ```sh
+  docker run -i -t -v $PWD:/etc/testfairy-connect:z testfairy/testfairy-connect:latest configure
+  docker run -d -v $PWD:/etc/testfairy-connect:z --restart=always testfairy/testfairy-connect:latest start
+  ```
+  
+  - Alternatively, you can disable SELinux altogether by running:
+  ```sh
+  sudo setenforce 0
+  ```
+  
 
 

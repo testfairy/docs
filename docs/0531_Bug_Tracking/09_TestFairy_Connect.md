@@ -1,6 +1,20 @@
 # TestFairy Connect (Docker)
 
-#### Installation
+## What is TestFairy Connect?
+
+TestFairy Connect is proxy server installed on-premise, designed to help companies connect their bug tracking systems running behind firewall (JIRA Server), with the TestFairy cloud.
+
+## How does it work?
+
+The key part of TestFairy Connect is the agent service that runs on a system, within your firewall, connecting to TestFairy's web app and to your bug tracking system.
+
+![Overview](/img/testfairy-connect/0-overview.png)
+
+## How to Install TestFairy Connect (video tutorial)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SdEHd8jNsOM" frameborder="0" allowfullscreen></iframe>
+
+## Installation
 
 Let's configure TestFairy Connect. This is needed only once. Docker will automatically download the latest version.
 
@@ -12,7 +26,7 @@ Note: you can replace `$PWD` with a directory of your choice to store your TestF
 
 If there are no issues, you can now follow the interactive wizard that is displayed on screen. Documentation for this process is available at https://docs.testfairy.com/Bug_Tracking/TestFairy_Connect.html
 
-#### Running
+## Running
 
 Now that you have TestFairy Connect configured, run it with:
 
@@ -24,7 +38,7 @@ Note: you can replace `$PWD` with a directory of your choice to store your TestF
 
 TestFairy Connect will be running in the background, and it is safe to close the ssh connection. Please remember that stopping docker or rebooting the server, will require you to run the 'start' command again.
 
-#### Troubleshooting
+## Troubleshooting
 
 - SELinux: If you are having permission errors related to your docker volume, you can either try attaching volume in relaxed SELinux mode or disable SELinux enforcement entirely.
   - Use these commands to attach volume in relaxed SELinux mode:

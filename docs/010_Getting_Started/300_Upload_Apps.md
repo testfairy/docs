@@ -45,7 +45,7 @@ If you wish to update an app, all you have to do is simply upload it again, the 
 
 ### <a id="Uploading"></a> Uploading a new version
 
-If you wish to upload a new version of the same app, all you have to do is upload the new version the exact same way you've uploaded the old version. Our service will identify that both apps have the same package name (budle id) and group them together in the same project.
+If you wish to upload a new version of the same app, all you have to do is upload the new version the exact same way you've uploaded the old version. Our service will identify that both apps have the same package name (bundle id) and group them together in the same project.
 
 
 

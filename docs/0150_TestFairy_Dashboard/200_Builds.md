@@ -28,7 +28,8 @@ For each build you can see the following details:
 
 - **BUILD STATUS** - Contains indicators for the build status: 
   - Build not loaded to the system - ![](/img/dashboard/status-icon-app-not-uploaded.png)  
-  - Video is dissabled - ![](/img/dashboard/status-icon-no-video.png) 
+  - Video is dissabled - ![](/img/dashboard/status-icon-no-video.png)
+  - Build is defined as Auto-update - ![](/img/dashboard/status-icon-auto-update.png)
   - Build has metadata - ![](/img/dashboard/status-icon-metadata.png)
   - Build has release notes - ![](/img/dashboard/status-icon-comment.png)
   - Build distribution is dissabled - ![](/img/dashboard/ic_close_black_36.png)

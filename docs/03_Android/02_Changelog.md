@@ -1,3 +1,11 @@
+### Version 1.9.14
+Released: 2019-09-24
+
+* [IMPROVEMENT] Android 10 support
+* [IMPROVEMENT] TestFairy SDK no longer requires external storage permissions for auto-update
+* [BUGFIX] Flutter now shows screenshots in feedback form
+* [BUGFIX] Automatic disabling of screenshots during low memory conditions
+
 ### Version 1.9.13
 Released: 2019-08-01
 

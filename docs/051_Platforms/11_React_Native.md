@@ -13,6 +13,13 @@ npm install --save react-native-testfairy
 react-native link react-native-testfairy
 ```
 
+If you're using React Native > 0.60.0, you will need to run the following command in your `ios` directory
+
+```
+cd ios
+pod install
+```
+
 If the above steps don't seem to work out, try to use the manual steps described below:
 
 # Manual Installation

@@ -1,7 +1,15 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/DhRX5UukvPM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Integrating the TestFairy SDK into your app helps you better understand how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metrics you may need to optimize your user experience and code.
-You get to: * Track app use. * Handle crashes and report to server. * Record screen video and other metrics. * Understand user flow, using checkpoints. * Grab NSLogs from client and report to server. * Automatically update if a new build is available.
+You get to: 
+
+* Track app use. 
+* Handle crashes and report to server. 
+* Record screen video and other metrics. 
+* Understand user flow, using checkpoints. 
+* Grab NSLogs from client and report to server. 
+* Automatically update if a new build is available.
+
 ## Add the SDK
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">

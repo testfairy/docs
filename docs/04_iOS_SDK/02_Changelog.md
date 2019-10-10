@@ -1,3 +1,8 @@
+### Version 1.20.2
+Released 2019-10-10
+
+* [BUGFIX] Fix associating session attributes with crash report
+
 ### Version 1.20.1
 Released 2019-09-04
 

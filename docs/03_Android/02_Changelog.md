@@ -1,10 +1,20 @@
+### Version 1.9.16
+Released 2019-10-15
+
+* [IMPROVEMENT] Removed legacy http client dependency.
+
+### Version 1.9.15
+Released 2019-10-07
+
+* [BUGFIX] Feedback form would freeze under rare conditions.
+
 ### Version 1.9.14
 Released: 2019-09-24
 
-* [IMPROVEMENT] Android 10 support
-* [IMPROVEMENT] TestFairy SDK no longer requires external storage permissions for auto-update
-* [BUGFIX] Flutter now shows screenshots in feedback form
-* [BUGFIX] Automatic disabling of screenshots during low memory conditions
+* [IMPROVEMENT] Android 10 support.
+* [IMPROVEMENT] TestFairy SDK no longer requires external storage permissions for auto-update.
+* [BUGFIX] Flutter now shows screenshots in feedback form.
+* [BUGFIX] Automatic disabling of screenshots during low memory conditions.
 
 ### Version 1.9.13
 Released: 2019-08-01

@@ -15,6 +15,7 @@ Released 2019-07-31
 
 ### Version 1.19.9
 Released 2019-07-22
+
 * [BUGFIX] Better crash reports for ARM64e architectures
 
 ### Version 1.19.8

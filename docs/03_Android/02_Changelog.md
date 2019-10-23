@@ -1,9 +1,9 @@
 ### Version 1.9.18
 Released: 2019-10-23
 
-* [NEW] Translations for Portuguese, Hebrew and Turkish
+* [NEW] Translations for Portuguese
 * [NEW] Native crashes are now reported in human readable form
-* [IMPROVEMENT] Auto update forces TLS 1.2 on all api levels
+* [IMPROVEMENT] Auto update forces TLS 1.2 on all API levels
 * [BUGFIX] Timed out sessions now report crashes properly
 
 ### Version 1.9.16

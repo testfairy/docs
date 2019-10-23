@@ -2,6 +2,7 @@
 Released: 2019-10-23
 
 * [NEW] Translations for Portuguese
+* [NEW] Feedbacks can now be verified prior to submission with custom verification rules
 * [NEW] Native crashes are now reported in human readable form
 * [IMPROVEMENT] Auto update forces TLS 1.2 on all API levels
 * [BUGFIX] Timed out sessions now report crashes properly

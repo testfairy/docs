@@ -1,3 +1,8 @@
+### Version 1.20.3
+Released 2019-10-23
+
+* [NEW] Added `unhideView` API
+
 ### Version 1.20.2
 Released 2019-10-10
 

@@ -1,10 +1,18 @@
+### Version 1.9.18
+Released: 2019-10-23
+
+* [NEW] Translations for Portuguese, Hebrew and Turkish
+* [NEW] Native crashes are now reported in human readable form
+* [IMPROVEMENT] Auto update forces TLS 1.2 on all api levels
+* [BUGFIX] Timed out sessions now report crashes properly
+
 ### Version 1.9.16
-Released 2019-10-15
+Released: 2019-10-15
 
 * [IMPROVEMENT] Removed legacy http client dependency.
 
 ### Version 1.9.15
-Released 2019-10-07
+Released: 2019-10-07
 
 * [BUGFIX] Feedback form would freeze under rare conditions.
 

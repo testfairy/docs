@@ -66,7 +66,7 @@ In iOS you will see the details of the build as detected by our service. You can
 
 ![ios more](../../img/getting-started/app-build-settings-6.png)
 
-In android you will see build details and the hah of the signing certificate at the bottom.
+In android you will see build details and the hash of the signing certificate at the bottom.
 
 ![android more](../../img/getting-started/build-settings/build-settings-more.png)
 

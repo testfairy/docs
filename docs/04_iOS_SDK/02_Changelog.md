@@ -1,3 +1,8 @@
+### Version 1.20.4
+Release 2019-10-28
+
+* [BUGFIX] Fixed order of events and screenshots in session timeline
+
 ### Version 1.20.3
 Released 2019-10-23
 

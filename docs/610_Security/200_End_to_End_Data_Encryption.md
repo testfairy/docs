@@ -1,6 +1,7 @@
-TestFairy provides mechanism to encrypt the logs and the screenshots that are recorded from the mobile device.
+TestFairy provides mechanism to encrypt the logs and the screenshots that are recorded from the mobile device. This way, the data that is kept on the cloud is encrypt and nobody can read it other than the people in your team who have the private key.
+In order to use this capability, you will need to  create a public key and a private key. The public key will be used to initialize the TestFairy SDK in your app. The private key, which should not be shared with anybody, will be used by you, when you log in to your TestFairy dashabord.
 
-This information is encrypted using a randomly generated 256-bit AES key. This AES key is random and is only used in a single session recording. The AES key is then protected with an RSA key, where the public key is provided when constructing the SDK.
+This encryption is done with a randomly generated 256-bit AES key. This AES key is random and is only used in a single session recording. The AES key is then protected with an RSA key, where the public key is provided when constructing the SDK.
 
 #### Generating public/private key pair
 

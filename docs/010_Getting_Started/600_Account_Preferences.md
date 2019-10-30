@@ -31,7 +31,7 @@ You can integrate your TestFairy account with different services in order to cus
 
 * __Slack:__ see [here](https://docs.testfairy.com/Integrations/Slack.html) for how to integrate your slack account with TestFairy.
 
-* __Webhooks:__ you can also connect various services using our webhooks. Here is an example how to connect [MSFT Teams](https://docs.testfairy.com/Integrations/Microfost_Teams.html)
+* __Webhooks:__ you can also connect various services using our webhooks. Here is an example how to connect [MSFT Teams](https://docs.testfairy.com/Integrations/Microsoft_Teams.html)
 
 
 ![integrations](/img/app/preferences/account-settings-4.png)
@@ -54,9 +54,9 @@ The email is HTML based and can use custom tags.
 ### Security
 * **Require user login before app download:** if you want your testers to first login to their tester account prior to downloading your app. This will prevent unregistered/unauthorized testers downloading apps.
 * **Require [Google] Sign on for all users:** all users will have to sign on using a google email address. This is the case when you use google email integration.
-* _Optional_ ``[after adding SAML/Single Sign-on]`` - Grant access to all apps to testers who sign-on with SSO - testers who sign in using your sso will have access to all apps..
+* _Optional_ ``[after adding SAML/Single Sign-on]`` - Grant access to all apps to testers who sign-on with SSO. Testers who sign in using your SSO will have access to all apps.
 #### SAML/Single Sign-on
-Here you add the [SSO](https://docs.testfairy.com/Single_Sign-On/SSO.html) metadata definitions file. When you add SAML/Single Sign-on it will contain your _ID_, _URL_ and _x509 certificate_.
+Here you can add the [SSO](https://docs.testfairy.com/Single_Sign-On/SSO.html) metadata definitions file. When you add SAML/Single Sign-on it will contain your _ID_, _URL_ and _x509 certificate_.
 
 ![security](/img/app/preferences/account-settings-7.png)
 

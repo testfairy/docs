@@ -1,3 +1,9 @@
+### Version 1.9.19
+Released: 2019-10-29
+
+* [NEW] TestFairy now recognizes long and double clicks
+* [BUGFIX] Very long sessions in the background are properly recognized on Android 8+
+
 ### Version 1.9.18
 Released: 2019-10-23
 

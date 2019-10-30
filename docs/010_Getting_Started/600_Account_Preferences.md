@@ -10,7 +10,7 @@ The first 2 menu items are your SDK and API app tokens.
 ### SDK token
 ![ alt app-token](../../img/app/app-token.png)
  
-Your App Token is used to initializing the [TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_SDK_To_Your_App.html). 
+Your App Token is used to initializing the [TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_Testfairy_SDK_To_Your_App.html). 
  
 
 ### API key

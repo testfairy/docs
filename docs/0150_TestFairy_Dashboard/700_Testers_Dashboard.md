@@ -1,6 +1,6 @@
 ### Testers Dashboard
 
-The [tester dashboard](https://my.testfairy.com/) is the place where tester see all the apps they were invited to test.
+The [Testers Dashboard](https://my.testfairy.com/) is the place where testers see all the apps they were invited to test.
 This view is available to all testers in the system. 
 
 Developers can switch from this view to the full dashboard view with the `view as developer` menu item.
@@ -26,7 +26,7 @@ Each app has all its details including:
 
 The green button is for downloading the app to your device.
 
-If you press the `+` sign you will see the apps **release notes** and a link to view all **previous versions** of the app that are also available for download.
+If you press the `+` sign you will see the app's **release notes** and a link to view all **previous versions** of the app that are also available for download.
 
 In the menu there is an option to see **My Apps** in the account, see **My Devices** (you will see only registered iOS devices) and **Log Out** of the account.
 
@@ -54,6 +54,6 @@ If an iOS application does not install on your device, we recommend that you run
 6. Install the configuration profile previously downloaded.
 
 
-7. After install is complete, you will be directed to review the troubleshooting results.
+7. After the installation is complete, you will be directed to review the troubleshooting results.
 
 

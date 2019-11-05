@@ -12,7 +12,7 @@ The **Preset Segments** column on the left contains three preset filters:
 
   - ![](https://app.testfairy.com/images/app/header/ic_report_black_24dp_1x.png) Crashes - list of all crashes in the last month
   - ![](https://8640586.testfairy.com/images/app/header/status-icon-anr.png) Slow Session - all slow sessions in the last month
-  - ![](https://8640586.testfairy.com/images/app/header/status-icon-comment.png) Received Feedback - all session with feedback in the last month
+  - ![](https://8640586.testfairy.com/images/app/header/status-icon-comment.png) Received Feedback - all sessions with a feedback in the last month
 
 ### General Filters
 For filtering the items in the list use the filters located at the top:
@@ -50,7 +50,7 @@ If you add [custom attributes](https://docs.testfairy.com/SDK/Session_Attributes
 
 --------------------------
 
-**Please note** - when you define values for this field do not use characters other than text or numbers (a-z A-Z 0-9) like `/` `"` `-` as they can not be searched on in this field. Alternatively, if you **do** have these characters you can search only for seperate parts of the text without them. (for example: {attr1="dada-1270"} the `-` is not searchable so you can search for `dada` **or** `1270`.
+**Please note** - when you define values for this field, do not use characters other than text or numbers (a-z A-Z 0-9) like `/` `"` `-` as they can not be searched on in this field. Alternatively, if you **do** have these characters you can search only for separate parts of the text without them. (for example: {attr1="dada-1270"} the `-` is not searchable so you can search for `dada` **or** `1270`.
 
 ----------------------------
 

@@ -53,7 +53,7 @@ Metadata is information specificly related to this build.
 
 It is defined once when the build is added to testfairy via [Upload API](https://docs.testfairy.com/API/Upload_API.html) and can not be changed after the build is loaded. 
 
-The format of defining it is **metadata.key=value** for example `metadata.branch=master`. 
+The format of defining it is **metadata.key=value** For example, `metadata.branch=master`. 
 Only the **value** can be searched with the `Search` box at the top of the Builds table.
 
 

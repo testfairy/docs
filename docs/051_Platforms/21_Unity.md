@@ -120,7 +120,7 @@ done
 
 > **Note**: It's important that you only run this script during **only when installing**. The image below shows the necessary checkbox to prevent this script from running during regular development builds
 
-![only-when-archiving](img/only-when-installing.png)
+![only-when-archiving](/img/only-when-installing.png)
 
 ### Identifying your users
 

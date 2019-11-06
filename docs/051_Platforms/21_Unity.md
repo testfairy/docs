@@ -39,28 +39,7 @@
  }
  ```
 
-7. As minimum, TestFairy requires the `INTERNET` and `ACCESS_NETWORK_STATE` permission for your Android build. You can copy a version of your AndroidManifest.xml from `<root>/Temp/StagingArea/AndroidManifest.xml` into the `<root>/Assets/Plugin/Android` directory. From here, edit `AndroidManifest.xml` with the following line:
-
- ```xml
- <uses-permission android:name="android.permission.INTERNET" />
- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
- <application>
-	<activity
-			 android:name="com.testfairy.activities.ProvideFeedbackActivity"
-			 android:configChanges="orientation|screenSize"
-			 android:theme="@android:style/Theme.Holo.Light"/>
-	<activity
-			 android:name="com.testfairy.activities.AutoUpdateActivity"
-			 android:configChanges="orientation|screenSize"/>
-	 
-	 <!-- Add the line below if you are targetting API level 23 or less -->
-	 <uses-library android:name="org.apache.http.legacy" android:required="false"/>
-</application>
- ```
-
-8. Please don't forget to add the line `<uses-library android:name="org.apache.http.legacy" android:required="false"/>` to your manifest if your target API level is 23 or less.
-
-9. Save, build and run.
+7. Save, build and run.
 
 ## Usage
 

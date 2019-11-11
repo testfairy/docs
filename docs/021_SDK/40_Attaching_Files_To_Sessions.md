@@ -1,5 +1,5 @@
 TestFairy allows developers to attach files to sessions. As a developer, you can upload up to 5 files to a given session, with a maximum size of 15MB per file. Files must be local to the device.
-Be sure to check the device logs if there were any problems uploading files.
+Be sure to check the device logs if there were any problems uploading files. Only file extensions [.jpeg, .jpg, .png, .txt and .sqlite] are supported, others uploads will be ignored.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">

@@ -1,7 +1,7 @@
 ### Version 1.20.5
 Release 2019-11-11
 
-* [NEW] Include new strip-architectures.sh script
+* [NEW] Include new `strip-architectures.sh` script
 
 ### Version 1.20.4
 Release 2019-10-28

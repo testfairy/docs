@@ -1,10 +1,16 @@
+### Version 1.20.6
+Released 2019-11-18
+
+* [NEW] Replace usage of `UIAlertView` with `UIAlertController`
+* [BUGFIX] Show window based Feedback on iOS 13+
+
 ### Version 1.20.5
-Release 2019-11-11
+Released 2019-11-11
 
 * [NEW] Include new `strip-architectures.sh` script
 
 ### Version 1.20.4
-Release 2019-10-28
+Released 2019-10-28
 
 * [BUGFIX] Fixed order of events and screenshots in session timeline
 

@@ -1,3 +1,8 @@
+### Version 1.20.7
+Released 2019-11-19
+
+* [BUGFIX] Allow users creating app-store releases to include `upload-dsym.sh` without `ITMS-90035` error.
+
 ### Version 1.20.6
 Released 2019-11-18
 

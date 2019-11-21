@@ -20,8 +20,8 @@ The Settings of a landing page are defined in the Landing Page Settings page ins
 * **App version:** indicates which version of the app will be downloaded from the landing page.
 
 * **Permission:**  there are 3 ways to allow access to the app download: 
-  * _Open Beta (Anyone can download)_ - download is possible to anybody who can see the page. needed when **Recruit Page** is being used.
-  * <s>_Opt-In (Testers can ask you to join)_</s> - this option is now called **Recruit Page** (see below).
+  * _Open Beta (Anyone can download)_ - download is possible to anybody who can see the page. Needed when **Recruit Page** is being used.
+  * <s>Opt-In (Testers can ask you to join)</s> - this option is now called **Recruit Page** (see below).
   * _Closed Beta (Testers required to login)_ - you must have a TesfFairy account (as a tester or admin) in order to see the page (and download the app).
 
 * **App description:** A description you can add to the landing page to give your testers instructions or other information. Can be formatted in <a href=https://guides.github.com/features/mastering-markdown/ target=_blank >Markdown</a>.

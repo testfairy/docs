@@ -12,7 +12,7 @@ If you do not want a landing page you can disable it on the landing page setting
 The Settings of a landing page are defined in the Landing Page Settings page inside your app page in the app dashboard: 
 
 
-![landing page settings](/img/landing-page-fields.png)
+![landing page settings](/img/app_distribution/landing_pages/landing-page-fields.png)
 
 
 * **Landing page URL:** the URL that is automatically generated for each landing page. It is possible to change the last part after the / - slash, to a different string if available.
@@ -20,10 +20,9 @@ The Settings of a landing page are defined in the Landing Page Settings page ins
 * **App version:** indicates which version of the app will be downloaded from the landing page.
 
 * **Permission:**  there are 3 ways to allow access to the app download: 
-  * _Open Beta (Anyone can download)_ - download is possible to anybody who  can see the page.
+  * _Open Beta (Anyone can download)_ - download is possible to anybody who can see the page. needed when **Recruit Page** is being used.
+  * ~~_Opt-In (Testers can ask you to join)_~~ - this option is now called **Recruit Page** (see below).
   * _Closed Beta (Testers required to login)_ - you must have a TesfFairy account (as a tester or admin) in order to see the page (and download the app).
-  * _Opt-In (Testers can ask you to join)_ - in this option the page is open but if testers want to download your app they need to ask permission using the ![sing me up](/img/sign-me-up-button.png)
-Button. This will trigger a sign-up process details [here](https://docs.testfairy.com/Testers/Managing_Testers.html#managing-testers) .
 
 * **App description:** A description you can add to the landing page to give your testers instructions or other information. Can be formatted in <a href=https://guides.github.com/features/mastering-markdown/ target=_blank >Markdown</a>.
 
@@ -31,4 +30,7 @@ Button. This will trigger a sign-up process details [here](https://docs.testfair
 * **Add custom CSS:**  see [here](https://docs.testfairy.com/FAQ/Landing_Page_Customization.html) for customizing the appearance of the landing page.
 
 
-Once you make changes to the settings you need to save them for them to take effect. You can preview the changes using the **Preview landing page** button.
+Once you make changes to the settings you need to save them for them to take effect. You can preview the changes using the `Preview landing page` button.
+
+
+In case you want to use a recruitment process (formally called __opt-in__) press the `Open Recruit Page` Button - it is the landing page with an email field where testers can add thier email. You can send out the page URL. Make sure to change the permissions to _Open Beta_ so the page will be visable to all.  

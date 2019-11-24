@@ -1,3 +1,8 @@
+### Version 1.20.8
+Released 2019-11-24
+
+* [BUGFIX] Fix delayed feedback view presentation
+
 ### Version 1.20.7
 Released 2019-11-19
 

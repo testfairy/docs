@@ -1,3 +1,8 @@
+### Version 1.9.20
+Released: 2019-11-27
+
+* [BUGFIX] Timed out sessions due to long inactivity are handled correctly
+
 ### Version 1.9.19
 Released: 2019-10-29
 

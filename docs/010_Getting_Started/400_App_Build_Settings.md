@@ -6,7 +6,7 @@
 
 <!-- ![ alt build-settings-btn](../../img/app/build-settings-btn.png) -->
 
-In order to configure your build (version) settings, click on the **Settings** button of the build menu, right next to the app name and version.
+In order to configure your build settings, click on the **Settings** button of the build menu, right next to the app name and version.
 
 Every build has its own settings, however, some of the definitions are shared by all builds of an app.
 
@@ -71,6 +71,4 @@ In android you will see build details and the hash of the signing certificate at
 ![android more](../../img/getting-started/build-settings/build-settings-more.png)
 
 **What to read next:** [Distributing apps](Distributing_Your_Apps.html)
-
-
 

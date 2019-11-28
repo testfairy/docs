@@ -1,4 +1,3 @@
-
 If you don’t have an account yet, please <a href="http://www.testfairy.com/signup" target="_blank">sign up</a>. It's easy, and free!
 If you have a TestFairy account, please <a href="https://app.testfairy.com/login" target="_blank">log in</a>.
 
@@ -21,12 +20,12 @@ The code of our command line uploader, Jenkins and Gradle plugins is open source
 ## Manual upload process.
 
 ### Choose your build file
-In the first stage you need to chhose the file you want to upload. it can be an **.ipa** or **.apk** file)
+In the first stage you need to choose the file you want to upload. it can be an **.ipa** or **.apk** file)
 ![choose file](/img/getting-started/upload/upload-app-android-1.png)
 
 ### Selecting Your Project Settings
 
-You can define your testing settings right in the upload process:
+You can define your build settings right in the upload process:
 
 -- **In-app reporting** - Check this box to enable/disable the "shake to report" feature in your app. When enabled, users can simply shake their device to send out a feedback report, along with a video recording, screenshots, logs and metrics of their testing session.
 
@@ -34,19 +33,22 @@ You can define your testing settings right in the upload process:
 
 -- **Custom Comments** - Use this section to add release notes, describe the updated/changes and write about anything else you would like your testers to be aware of.
 
+Please note: these settings are relevant only if you added our SDK to your app.
+
 ![ alt testfairy-upload](../../img/app/upload-settings.png)
 
-More settings can be configured from the [Account_Settings](Account_Settings.html) page.
+More build settings available in the [Account_Settings](Account_Settings.html) page.
 
  
 ### <a id="Uploading"></a> Updating an app
 
-If you wish to update an app, all you have to do is simply upload it again, the same app with the same version. The new file will override the old file.
+If you wish to update a build you already loaded, all you have to do is simply upload the same file again - the same build with the same version. 
+
+The new build file will override the old build **without** creating a new app version.
 
 ### <a id="Uploading"></a> Uploading a new version
 
-If you wish to upload a new version of the same app, all you have to do is upload the new version the exact same way you've uploaded the old version. Our service will identify that both apps have the same package name (bundle id) and group them together in the same project.
-
+If you wish to upload a new build - which is a new version of the same app, all you have to do is upload the new version in the exact same way you've uploaded the old version. Our service will identify that both apps have the same package name (bundle identifier) and group them together in the same project (app).
 
 
 **What you should read next:** [Build Settings](https://docs.testfairy.com/Getting_Started/App_Build_Settings.html).

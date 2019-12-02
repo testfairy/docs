@@ -1,3 +1,8 @@
+### Version 1.20.9
+Released 2019-12-02
+
+* [BUGFIX] Fixed showing feedback view on iOS 12+
+
 ### Version 1.20.8
 Released 2019-11-24
 

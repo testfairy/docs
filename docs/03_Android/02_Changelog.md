@@ -1,3 +1,9 @@
+### Version 1.9.21
+Released: 2019-12-04
+
+* [BUGFIX] Fixed an unchecked null condition for sessions with unlimited caps
+* [BUGFIX] Fixed a case where already timed out sessions mistakenly timed out again
+
 ### Version 1.9.20
 Released: 2019-11-27
 

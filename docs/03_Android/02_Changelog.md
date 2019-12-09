@@ -1,4 +1,4 @@
-### Version 1.9.21
+### Version 1.9.22
 Released: 2019-12-09
 
 * [BUGFIX] Fixed background session timeout delays.

@@ -1,4 +1,9 @@
 ### Version 1.9.21
+Released: 2019-12-09
+
+* [BUGFIX] Fixed background session timeout delays.
+
+### Version 1.9.21
 Released: 2019-12-04
 
 * [BUGFIX] Fixed an unchecked null condition for sessions with unlimited caps

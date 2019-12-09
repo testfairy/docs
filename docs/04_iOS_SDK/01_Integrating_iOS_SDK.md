@@ -171,7 +171,7 @@ You get to:
 
 ### Class Reference 
 
-[https://app.testfairy.com/reference/ios/Classes/TestFairy.html](https://app.testfairy.com/reference/ios/Classes/TestFairy.html) 
+[https://docs.testfairy.com/reference/ios/Classes/TestFairy.html](https://docs.testfairy.com/reference/ios/Classes/TestFairy.html) 
 
 ### Troubleshooting 
 

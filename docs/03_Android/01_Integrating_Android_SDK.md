@@ -1,3 +1,6 @@
+<iframe src="https://embed.fleeq.io/l/k84b88ljvv-6tgpx1w80o" frameborder="0" allowfullscreen="true" style="width:800px; height: 600px;"></iframe>
+
+
 Integrating the TestFairy SDK into your app can help you better understand how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metrics you may need in order to optimize your user experience and code.
 
 Both Java and Kotlin apps are supported.

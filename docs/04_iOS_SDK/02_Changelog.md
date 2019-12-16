@@ -1,3 +1,8 @@
+### Version 1.21.0
+Released 2019-12-16
+
+* [NEW] `showFeedbackForm` with SDK token, optionally adding screenshot
+
 ### Version 1.20.9
 Released 2019-12-02
 

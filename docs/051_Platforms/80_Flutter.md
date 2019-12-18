@@ -28,7 +28,8 @@ import 'package:testfairy/testfairy.dart';
 ```
 
 ### Quick Start
-Include the library and run your main app like this.
+Include the library and run your main app like this. Make sure your project is [AndroidX](https://flutter.dev/docs/development/androidx-migration) compatible.
+
 ```dart
 // inside your main.dart
 
@@ -77,6 +78,10 @@ This is done automatically for Android.
 If you need to update the native iOS SDK used by your current integration, run `pod repo update; pod install` in your *ios* directory.
 
 ### Troubleshoot
+* **I see `Looks like TestFairy has an upgrade to do... 1.X.Y+hotfixZ is the latest stable branch` or errors related to Jetifier in the logs when I call an SDK method.**
+
+Migrate your Android project to AndroidX by following [this](https://flutter.dev/docs/development/androidx-migration) guide.
+
 * **I see `Undefined symbols for architecture` error during compilation.**
 
 You must use frameworks and specify a platform version of at least `9.0` in your generated iOS project's Podfile. Please make the following changes in *ios/Podfile* and rebuild.

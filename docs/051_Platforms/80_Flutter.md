@@ -77,59 +77,60 @@ This is done automatically for Android.
 
 If you need to update the native iOS SDK used by your current integration, run `pod repo update; pod install` in your *ios* directory.
 
-### Troubleshoot
-* **I see `Looks like TestFairy has an upgrade to do... 1.X.Y+hotfixZ is the latest stable branch` or errors related to Jetifier in the logs when I call an SDK method.**
+### Troubleshooting
 
-Migrate your Android project to AndroidX by following [this](https://flutter.dev/docs/development/androidx-migration) guide.
+* I see `Looks like TestFairy has an upgrade to do... 1.X.Y+hotfixZ is the latest stable branch` or errors related to Jetifier in the logs when I call an SDK method.
 
-* **I see `Undefined symbols for architecture` error during compilation.**
+  Migrate your Android project to AndroidX by following [this](https://flutter.dev/docs/development/androidx-migration) guide.
 
-You must use frameworks and specify a platform version of at least `9.0` in your generated iOS project's Podfile. Please make the following changes in *ios/Podfile* and rebuild.
+* I see `Undefined symbols for architecture` error during compilation.
 
-```
-target 'Runner' do
-  platform :ios, '9.0'   ####### <--- add this and specify at least 9.0
+  You must use frameworks and specify a platform version of at least `9.0` in your generated iOS project's Podfile. Please    make the following changes in *ios/Podfile* and rebuild.
 
-  use_frameworks!        ####### <--- add this, and try building if there is 
-                         #######      no Swift code or plugin in the project.
-                         #######      If there is Swift code, please also add 
-                         #######      the marked line below
+  ```
+  target 'Runner' do
+   platform :ios, '9.0'   ####### <--- add this and specify at least 9.0
 
-  ...
-end
-
-post_install do |installer|
-  installer.pods_project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['ENABLE_BITCODE'] = 'NO'
-      config.build_settings['SWIFT_VERSION'] = '3.2'  ### <--- add this, change the 
-                                                      ### version to what's being
-                                                      ### used in the project, 
-                                                      ### remove if there is none
-    end
+    use_frameworks!        ####### <--- add this, and try building if there is 
+                           #######      no Swift code or plugin in the project.
+                           #######      If there is Swift code, please also add 
+                           #######      the marked line below
+  
+    ...
   end
-end
-```
 
-* **CocoaPods could not find compatible versions for pod "TestFairy".**
+  post_install do |installer|
+   installer.pods_project.targets.each do |target|
+      target.build_configurations.each do |config|
+       config.build_settings['ENABLE_BITCODE'] = 'NO'
+        config.build_settings['SWIFT_VERSION'] = '3.2'  ### <--- add this, change the 
+                                                        ### version to what's being
+                                                         ### used in the project, 
+                                                         ### remove if there is none
+     end
+     end
+  end
+  ```
 
-This is an old bug in the plugin pubspec file. First, run `flutter clean` in your root directory. 
+* CocoaPods could not find compatible versions for pod "TestFairy".
 
-Please move *ios/Podfile.lock* into a temporary place before running `pod repo update; pod install` in your *ios* directory. 
+  This is an old bug in the plugin pubspec file. First, run `flutter clean` in your root directory. 
 
-If some of the libraries you use need to be at specific versions, copy the necessary lines from your backed up *Podfile.lock* into the newly created one. Please keep the lines related to TestFairy (note the title case in the name) untouched.
+  Please move *ios/Podfile.lock* into a temporary place before running `pod repo update; pod install` in your *ios* directory. 
 
-Finally, run `pod repo update; pod install` again to re-download libraries from the replaced lines.
+  If some of the libraries you use need to be at specific versions, copy the necessary lines from your backed up *Podfile.lock* into the newly created one. Please keep the lines related to TestFairy (note the title case in the name) untouched.
 
-If everything went smoothly, this issue should never happen again.
+  Finally, run `pod repo update; pod install` again to re-download libraries from the replaced lines.
 
-* **There are syntax errors in TestFairyFlutterPlugin.java or TestFairyFlutterPlugin.m file.**
+  If everything went smoothly, this issue should never happen again.
 
-In your project root, run `flutter clean; cd ios; pod repo update; pod install; cd ..` and test again.
+* There are syntax errors in TestFairyFlutterPlugin.java or TestFairyFlutterPlugin.m file.
 
-* **My widget's are not hidden in screenshots.**
+  In your project root, run `flutter clean; cd ios; pod repo update; pod install; cd ..` and test again.
 
-This is currently not supported in iOS and will be fixed in the next release.
+* My widget's are not hidden in screenshots.
+
+  This is currently not supported in iOS and will be fixed in the next release.
 
 ### Features supported by both Android and iOS
 

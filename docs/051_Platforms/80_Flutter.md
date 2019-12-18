@@ -105,10 +105,10 @@ If you need to update the native iOS SDK used by your current integration, run `
        config.build_settings['ENABLE_BITCODE'] = 'NO'
         config.build_settings['SWIFT_VERSION'] = '3.2'  ### <--- add this, change the 
                                                         ### version to what's being
-                                                         ### used in the project, 
-                                                         ### remove if there is none
+                                                        ### used in the project, 
+                                                        ### remove if there is none
      end
-     end
+    end
   end
   ```
 

@@ -79,13 +79,9 @@ If you need to update the native iOS SDK used by your current integration, run `
 
 ### Troubleshooting
 
-* I see `Looks like TestFairy has an upgrade to do... 1.X.Y+hotfixZ is the latest stable branch` or errors related to Jetifier in the logs when I call an SDK method.
+* I see `Looks like TestFairy has an upgrade to do... 1.X.Y+hotfixZ is the latest stable branch` or errors related to Jetifier in the logs when I call an SDK method. --> Migrate your Android project to AndroidX by following [this](https://flutter.dev/docs/development/androidx-migration) guide.
 
-  Migrate your Android project to AndroidX by following [this](https://flutter.dev/docs/development/androidx-migration) guide.
-
-* I see `Undefined symbols for architecture` error during compilation.
-
-  You must use frameworks and specify a platform version of at least `9.0` in your generated iOS project's Podfile. Please    make the following changes in *ios/Podfile* and rebuild.
+* I see `Undefined symbols for architecture` error during compilation. --> You must use frameworks and specify a platform version of at least `9.0` in your generated iOS project's Podfile. Please make the following changes in *ios/Podfile* and rebuild:
 
   ```
   target 'Runner' do
@@ -114,15 +110,17 @@ If you need to update the native iOS SDK used by your current integration, run `
 
 * CocoaPods could not find compatible versions for pod "TestFairy".
 
-  This is an old bug in the plugin pubspec file. First, run `flutter clean` in your root directory. 
+  This is an old bug in the plugin pubspec file. 
+  
+  - First, run `flutter clean` in your root directory. 
 
-  Please move *ios/Podfile.lock* into a temporary place before running `pod repo update; pod install` in your *ios* directory. 
+  - Please move *ios/Podfile.lock* into a temporary place before running `pod repo update; pod install` in your *ios* directory. 
 
-  If some of the libraries you use need to be at specific versions, copy the necessary lines from your backed up *Podfile.lock* into the newly created one. Please keep the lines related to TestFairy (note the title case in the name) untouched.
+  - If some of the libraries you use need to be at specific versions, copy the necessary lines from your backed up *Podfile.lock* into the newly created one. Please keep the lines related to TestFairy (note the title case in the name) untouched.
 
-  Finally, run `pod repo update; pod install` again to re-download libraries from the replaced lines.
-
-  If everything went smoothly, this issue should never happen again.
+  - Finally, run `pod repo update; pod install` again to re-download libraries from the replaced lines.
+   
+   If everything went smoothly, this issue should never happen again.
 
 * There are syntax errors in TestFairyFlutterPlugin.java or TestFairyFlutterPlugin.m file.
 

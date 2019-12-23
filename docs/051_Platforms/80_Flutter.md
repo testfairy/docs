@@ -32,7 +32,8 @@ Include the library and run your main app like this. Make sure your project is [
 
 ```dart
 // inside your main.dart
-
+import 'dart:async';
+import 'dart:io';
 import 'package:testfairy/testfairy.dart';
 
 void main() {

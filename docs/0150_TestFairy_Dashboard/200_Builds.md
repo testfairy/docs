@@ -33,7 +33,7 @@ For each build you can see the following details:
   - Build has metadata - ![](/img/dashboard/status-icon-metadata.png)
   - Build has release notes - ![](/img/dashboard/status-icon-comment.png)
   - Build distribution is disabled - ![](/img/dashboard/ic_close_black_36.png)
-  - Build was signed with a different certificate than the previous build - ![]()
+  - Build was signed with a different certificate than the previous build - ![](/img/dashboard/ic_error_red_48dp.png)
 
 - Settings button ![](/img/dashboard/ic_settings_black.png) - Pressing it opens the build settings menu.
 

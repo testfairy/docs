@@ -86,7 +86,7 @@ lmbr_waf.bat -p all build_android_armv8_clang_release --package-projects-automat
 
 Once your APK is built, you can choose your favourite upload method to finalize distribution. Make sure the correct CPU architecture is set for the project binaries path.
 
-To upload with **curl**, run the following command in *lumberyard_version\dev\BinAndroid<CPU_ARCH>Clang* folder. Make sure your APK file name is set correctly.
+To upload with **curl**, run the following command in *lumberyard_version\dev\BinAndroidCPU_ARCHClang* folder. Make sure your APK file name is set correctly.
 
 ```
 curl https://upload.testfairy.com/api/upload -F api_key='your_api_key' -F file=@ProjectName.apk

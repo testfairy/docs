@@ -22,10 +22,10 @@ If you haven't installed Lumberyard core, click *Custom Install* and verify the 
 
 On the *Getting Started* page, enable the following items.
 
-* Google Play APK Expansion Library
-* Google Play Licensing Library
-* Android SDK Platform-Tools
-* Android SDK Tools
+* Compile the game code
+* Compile the engine and asset pipeline
+* Compile the Lumberyard Editor and tools
+* Compile for Android devices
 
 On the *Required Software* section, install and configure paths for the following items.
 

@@ -1,11 +1,11 @@
 ### Distributing Lumberyard Apps
 
-#### Android
+### Android
 
 Requirements:
 * Lumberyard and Android SDK installed on Windows
 
-##### Step 1 - Download Android SDK Components
+#### Step 1 - Download Android SDK Components
 
 Use Android's **SDK Manager** to download following components:
 
@@ -14,7 +14,7 @@ Use Android's **SDK Manager** to download following components:
 * Android SDK Platform-Tools
 * Android SDK Tools
 
-##### Step 2 - Download and Setup Lumberyard Components
+#### Step 2 - Download and Setup Lumberyard Components
 
 Run Lumberyard's **Setup Assistant**.
 
@@ -33,7 +33,7 @@ On the *Required Software* section, install and configure paths for the followin
 * Android Software Development Kit (SDK) Tools
 * Java SE Development Kit (JDK) - Make sure you use the official Java SE 8 from Oracle or Java SE 8 OpenJDK reference implementation. Other JDK releases won't work and you will have WAF errors during clean builds.
 
-##### Step 3 - Enable OpenGL ES 3.X for Lumberyard
+#### Step 3 - Enable OpenGL ES 3.X for Lumberyard
 
 Close the editor and all of its componenets. Then, open *lumberyard_version\dev\AssetProcessorPlatformConfig.ini* in a text to make the following changes.
 
@@ -47,7 +47,7 @@ es3=enabled
 ;osx_gl=enabled
 ```
 
-##### Step 4 - Generate Android Studio Project
+#### Step 4 - Generate Android Studio Project
 
 * Run **Project Configurator** to activate your current project.
 
@@ -55,7 +55,7 @@ es3=enabled
 
 * Run `lmbr_waf.bat configure` to generate your Android Studio project if you haven't already.
 
-##### Step 5 - Generate Shaders for Release
+#### Step 5 - Generate Shaders for Release
 
 * Build, deploy, and run your app on an Android device by using Lumberyard Editor's Deployment Tool Plugin.
 
@@ -66,7 +66,7 @@ es3=enabled
 * Embed the shader pak files into your app or put them in a remotely accessible location for your app. Pak files are located in *lumberyard_version\dev\Build\es3\game_project_name\*. For more details, please refer to [this](https://docs.aws.amazon.com/lumberyard/latest/userguide/android-shaders-building.html).
 
 
-##### Step 6 - Build
+#### Step 6 - Build
 
 * Using a command line app or terminal, navigate to *lumberyard_version\dev` folder.
 
@@ -80,7 +80,7 @@ es3=enabled
 lmbr_waf.bat -p all build_android_armv8_clang_release --package-projects-automatically=True
 ```
 
-##### Step 7 - Upload to TestFairy
+#### Step 7 - Upload to TestFairy
 
 Once your APK is built, you can choose your following upload method to finalize distribution. Make sure the correct CPU architecture is set for the project binaries path.
 

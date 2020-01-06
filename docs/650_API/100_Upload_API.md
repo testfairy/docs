@@ -28,6 +28,8 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [GitLab](https://docs.testfairy.com/Continuous_Integration/GitLab.html)
 
+[Lumberyard](https://docs.testfairy.com/Platforms/Lumberyard.html)
+
 ### Method
 `POST https://upload.testfairy.com/api/upload/`
 
@@ -57,7 +59,7 @@ listed below. An additional human-readable error message is supplied to detail t
 
 ### Example 1: (CURL)
 ```
-curl https://upload.testfairy.com/api/upload -F api_key='your_api_key' -F file=@sample.apk 
+curl https://upload.testfairy.com/api/upload -F api_key='your_api_key' -F file=@sample.apk
 ```
 
 ### Example 2:
@@ -108,5 +110,3 @@ curl https://upload.testfairy.com/api/upload \
 ```
 
 Metadata is displayed and can be searched upon in App Versions page, by clicking on an app from the Dashboard. They can also be viewed in a single version's settings page.
-
-

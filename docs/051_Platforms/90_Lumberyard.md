@@ -51,7 +51,7 @@ es3=enabled
 
 * Run **Project Configurator** to activate your current project.
 
-* Using a command line app or terminal, navigate to *lumberyard_version\dev` folder.
+* Using a command line app or terminal, navigate to *lumberyard_version\dev* folder.
 
 * Run `lmbr_waf.bat configure` to generate your Android Studio project if you haven't already.
 
@@ -63,12 +63,12 @@ es3=enabled
 
 * Once you complete exploring all included levels, close the app.
 
-* Embed the shader pak files into your app or put them in a remotely accessible location for your app. Pak files are located in *lumberyard_version\dev\Build\es3\game_project_name\*. For more details, please refer to [this](https://docs.aws.amazon.com/lumberyard/latest/userguide/android-shaders-building.html).
+* Embed the shader pak files into your app or put them in a remotely accessible location for your app. Pak files are located in *lumberyard_version\dev\Build\es3\game_project_name* folder. For more details, please refer to [this](https://docs.aws.amazon.com/lumberyard/latest/userguide/android-shaders-building.html).
 
 
 #### Step 6 - Build
 
-* Using a command line app or terminal, navigate to *lumberyard_version\dev` folder.
+* Using a command line app or terminal, navigate to *lumberyard_version\dev* folder.
 
 * Determine your build's target CPU architecture. (i.e armv8)
 

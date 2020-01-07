@@ -1,7 +1,20 @@
+### Version 1.9.24
+Released: 2020-01-02
+
+* [NEW] It is now possible to hide DOM elements inside a WebView by using CSS selectors on API level 23+ (experimental)
+* [NEW] Incorrect app manifest configurations now yield a helpful warning log
+* [BUGFIX] Feedbacks no longer have missing screenshots on slow devices
+* [BUGFIX] Logs reported to SDK are now properly prepended to next session
+
+### Version 1.9.23
+Released: 2019-12-16
+
+* [NEW] `showFeedbackForm` without sessions
+
 ### Version 1.9.22
 Released: 2019-12-09
 
-* [BUGFIX] Fixed background session timeout delays.
+* [BUGFIX] Fixed background session timeout delays
 
 ### Version 1.9.21
 Released: 2019-12-04

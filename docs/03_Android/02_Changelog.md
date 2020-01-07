@@ -1,5 +1,5 @@
 ### Version 1.9.24
-Released: 2020-01-02
+Released: 2020-01-07
 
 * [NEW] It is now possible to hide DOM elements inside a WebView by using CSS selectors on API level 23+ (experimental)
 * [NEW] Incorrect app manifest configurations now yield a helpful warning log

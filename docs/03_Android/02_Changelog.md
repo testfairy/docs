@@ -1,3 +1,8 @@
+### Version 1.9.25
+Released: 2020-01-09
+
+* [BUGFIX] Crashes report backups are now sent correctly after restart if they fail on first attempt
+
 ### Version 1.9.24
 Released: 2020-01-07
 

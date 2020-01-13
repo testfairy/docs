@@ -55,6 +55,7 @@ Please follow these steps to integrate TestFairy's Android SDK in your project:
    -dontwarn com.testfairy.**
    -keepattributes Exceptions, Signature, LineNumberTable
    ```
+8. (Optional) If you need NDK crashes enabled, please follow steps #2 and #3 with [this library](https://dl.bintray.com/testfairy/testfairy/com/testfairy/ndk/testfairy-android-ndk/) as well.
 
 ## Class Reference
 

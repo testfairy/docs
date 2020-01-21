@@ -1,51 +1,58 @@
+### Version 1.9.26
+Released: 2020-01-21
+
+* [BUGFIX] Native crash reports properly formats CPU register values.
+* [BUGFIX] Fixed `disableAutoUpdate()`.
+* [BUGFIX] Session cap in background is now handled properly.
+
 ### Version 1.9.25
 Released: 2020-01-09
 
-* [BUGFIX] Crashes report backups are now sent correctly after restart if they fail on first attempt
+* [BUGFIX] Crashes report backups are now sent correctly after restart if they fail on first attempt.
 
 ### Version 1.9.24
 Released: 2020-01-07
 
-* [NEW] It is now possible to hide DOM elements inside a WebView by using CSS selectors on API level 23+ (experimental)
-* [NEW] Incorrect app manifest configurations now yield a helpful warning log
-* [BUGFIX] Feedbacks no longer have missing screenshots on slow devices
-* [BUGFIX] Logs reported to SDK are now properly prepended to next session
+* [NEW] It is now possible to hide DOM elements inside a WebView by using CSS selectors on API level 23+ (experimental).
+* [NEW] Incorrect app manifest configurations now yield a helpful warning log.
+* [BUGFIX] Feedbacks no longer have missing screenshots on slow devices.
+* [BUGFIX] Logs reported to SDK are now properly prepended to next session.
 
 ### Version 1.9.23
 Released: 2019-12-16
 
-* [NEW] `showFeedbackForm` without sessions
+* [NEW] `showFeedbackForm` without sessions.
 
 ### Version 1.9.22
 Released: 2019-12-09
 
-* [BUGFIX] Fixed background session timeout delays
+* [BUGFIX] Fixed background session timeout delays.
 
 ### Version 1.9.21
 Released: 2019-12-04
 
-* [BUGFIX] Fixed an unchecked null condition for sessions with unlimited caps
-* [BUGFIX] Fixed a case where already timed out sessions mistakenly timed out again
+* [BUGFIX] Fixed an unchecked null condition for sessions with unlimited caps.
+* [BUGFIX] Fixed a case where already timed out sessions mistakenly timed out again.
 
 ### Version 1.9.20
 Released: 2019-11-27
 
-* [BUGFIX] Timed out sessions due to long inactivity are handled correctly
+* [BUGFIX] Timed out sessions due to long inactivity are handled correctly.
 
 ### Version 1.9.19
 Released: 2019-10-29
 
-* [NEW] TestFairy now recognizes long and double clicks
-* [BUGFIX] Very long sessions in the background are properly recognized on Android 8+
+* [NEW] TestFairy now recognizes long and double clicks.
+* [BUGFIX] Very long sessions in the background are properly recognized on Android 8+.
 
 ### Version 1.9.18
 Released: 2019-10-23
 
 * [NEW] Translations for Portuguese
 * [NEW] Feedbacks can now be verified prior to submission with custom verification rules
-* [NEW] Native crashes are now reported in human readable form
-* [IMPROVEMENT] Auto update forces TLS 1.2 on all API levels
-* [BUGFIX] Timed out sessions now report crashes properly
+* [NEW] Native crashes are now reported in human readable form.
+* [IMPROVEMENT] Auto update forces TLS 1.2 on all API levels.
+* [BUGFIX] Timed out sessions now report crashes properly.
 
 ### Version 1.9.16
 Released: 2019-10-15
@@ -176,20 +183,20 @@ Released: 2018-04-09
 ### Version 1.6.3
 Released: 2018-03-18
 
-* [NEW] Developer can now disable crash handler by using option `enableCrashReporter`.
-* [NEW] Views that are out of screen do not make it to Inspect View Tree to improve performance.
-* [BUGFIX] Descendants of hidden views do not make it to Inspect View Tree.
-* [BUGFIX] Improved `hideView` performance.
+* [NEW] Developer can now disable crash handler by using option `enableCrashReporter`
+* [NEW] Views that are out of screen do not make it to Inspect View Tree to improve performance
+* [BUGFIX] Descendants of hidden views do not make it to Inspect View Tree
+* [BUGFIX] Improved `hideView` performance
 
 ### Version 1.6.2
 Released: 2018-02-22
 
-* [BUGFIX] hideView performance.
+* [BUGFIX] hideView performance
 
 ### Version 1.6.1
 Released: 2018-02-14
 
-* [BUGFIX] Hidden buttons do not appear in timeline.
+* [BUGFIX] Hidden buttons do not appear in timeline
 
 ### Version 1.6
 Released: 2018-02-02

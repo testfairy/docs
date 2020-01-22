@@ -1,3 +1,8 @@
+### Version 1.21.1
+Released 2020-01-21
+
+* [BUGFIX] Fixed sending events when app is in background
+
 ### Version 1.21.0
 Released 2019-12-16
 

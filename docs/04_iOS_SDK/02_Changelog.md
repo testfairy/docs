@@ -1,3 +1,8 @@
+### Version 1.21.2
+Released 2020-01-29
+
+* [NEW] Added new API `addScreenshot`
+
 ### Version 1.21.1
 Released 2020-01-21
 

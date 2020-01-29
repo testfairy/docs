@@ -1,3 +1,11 @@
+### Version 1.9.27
+Released: 2020-01-29
+
+* [NEW] Added a blinking red dot during session. Reach us at <a href="mailto:support@testfairy.com">support@testfairy.com</a> if you are interested.
+* [NEW] Added consumer proguard rules.
+* [BUGFIX] Sensor events are now muted properly after session stops.
+* [BUGFIX] Unsent feedbacks are now attempted for a retry.
+
 ### Version 1.9.26
 Released: 2020-01-21
 

@@ -31,6 +31,8 @@ You can integrate your TestFairy account with different services in order to cus
 
 * __Slack:__ see [here](https://docs.testfairy.com/Integrations/Slack.html) for how to integrate your slack account with TestFairy.
 
+* __Zendesk:__ see [here]() for how to integrate your account to Zendesk. 
+
 * __Webhooks:__ you can also connect various services using our webhooks. Here is an example how to connect [MSFT Teams](https://docs.testfairy.com/Integrations/Microsoft_Teams.html)
 
 

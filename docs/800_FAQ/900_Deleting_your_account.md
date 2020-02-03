@@ -3,7 +3,7 @@ At TestFairy we understand that at some point you may want to delete your data. 
 
 First, this document is for __developers__, users who uploaded apps to TestFairy, added the TestFairy SDK to their app, and invited testers to their project. If you are a __tester__, please contact the developer who invited you their project and ask to be removed. If you are a developer, please continue reading.
 
-### How to delete your account
+### How to delete your account:
 
 In order to delete your TestFairy account please follow these steps:
 
@@ -19,7 +19,7 @@ In order to delete your TestFairy account please follow these steps:
   
 Your account is now deleted.
 
-### How to delete the data of one of your testers.
+### How to delete the data of one of your testers:
 
 TestFairy helps developers record videos showing how users used their apps. In order to be able to track the sessions of a specific user, you must call __setUserId()__ with a unique identifier that can help you locate your sessions. 
 If one of your testers asked you to delete their data please do the following.

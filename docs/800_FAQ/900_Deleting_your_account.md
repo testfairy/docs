@@ -14,13 +14,13 @@ If you are a __teters__ you should contact your account owner/administrator.
 
 To delete your **TestFairy** account please follow these steps:
 
-  1. Log into your account and go to the __Team__ menu option under your account email(top right corner of ther Dashboard): https://app.testfairy.com/settings/cpanel/
+  1. Log into your account and go to the __Team__ menu option under your account email(top right corner of ther Dashboard): [https://app.testfairy.com/settings/cpanel/]()
 
   2. Select all admins in the account and remove them:
   
   ![](/img/FAQ/delete-account-01.png)
 
-  3. Once all admins are removed go to the __Preferences → Account__ menu: https://app.testfairy.com/settings/account/
+  3. Once all admins are removed go to the __Preferences → Account__ menu: [https://app.testfairy.com/settings/account/](https://app.testfairy.com/settings/account/)
   
   4.  At the bottom of the screen you will see an option to delete your account:
   

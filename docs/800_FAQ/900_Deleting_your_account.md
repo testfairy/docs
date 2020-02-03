@@ -19,7 +19,7 @@ In order to delete your TestFairy account please follow these steps:
   
 Your account is now deleted.
 
-### How to delete teh data of one of your testers.
+### How to delete the data of one of your testers.
 
 TestFairy helps developers record videos showing how users used their apps. In order to be able to track the sessions of a specific user, you must call __setUserId()__ with a unique identifier that can help you locate your sessions. 
 If one of your testers asked you to delete their data please do the following.

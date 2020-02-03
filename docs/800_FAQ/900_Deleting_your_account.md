@@ -3,7 +3,7 @@ At TestFairy we understand that at some point you may want to delete your data. 
 
 First, this document is for __developers__, users who uploaded apps to TestFairy, added the TestFairy SDK to their app, and invited testers to their project. If you are a __tester__, please contact the developer who invited you their project and ask to be removed. If you are a developer, please continue reading.
 
-### How to delete your account:
+### How to delete your developer account:
 
 In order to delete your TestFairy account please follow these steps:
 

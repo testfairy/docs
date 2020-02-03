@@ -24,7 +24,7 @@ Your account is now deleted.
 TestFairy helps developers record videos showing how users used their apps. In order to be able to track the sessions of a specific user, you must call __setUserId()__ with a unique identifier that can help you locate your sessions. 
 If one of your testers asked you to delete their data please do the following.
 
-1. Remove the testers of your [testers list](https://app.testfairy.com/testers)
+1. Remove the tester from your [testers list](https://app.testfairy.com/testers)
 
 2. Search for the [sessions](https://app.testfairy.com/search) of this user and delete them one by one.
 

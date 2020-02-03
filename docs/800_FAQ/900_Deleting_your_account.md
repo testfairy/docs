@@ -11,7 +11,7 @@ If you are a developer, please continue reading.
 
 In order to delete your TestFairy account please follow these steps:
 
-  1. __Remove other admins for your account:__ Log into your account, go to the [Team](https://app.testfairy.com/settings/cpanel/) menu at the top right, select all admins in the account and remove them:
+  1. Styart by removing all the other admins from your account. Log in, go to the [Team](https://app.testfairy.com/settings/cpanel/) menu at the top right, select all admins in the account and remove them:
   
   ![](/img/FAQ/delete-account-01.png)
 

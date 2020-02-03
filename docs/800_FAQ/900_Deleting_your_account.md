@@ -1,36 +1,24 @@
-## Deleting your account
 
-At __Testfairy__ we understand the importance of your data/privacy and therefore enable you to delete your account at any time.
+At TestFairy we understand that at some point you may want to delete your data. As much as we are sad to see you leaving us, we will help you make it happen.
 
-In order to delete your account you will need to first make sure your account is a __developer account__ as deleting an account is only available to developers.
-If you are a __teters__ you should contact your account owner/administrator.
+First, this document is for __developers__, users who uploaded apps to TestFairy, added the TestFairy SDK to their app, and invited testers to their project. 
 
-#### Please note:
+If you are a __tester__, please contact the developer who invited you their project and ask to be removed.
 
-- You can only delete a **free account**. 
-- If you have a **paying account** please contact us via email at support@testfairy.com.
+If you are a developer, please continue reading.
 
 ### Deletion steps
 
+In order to delete your TestFairy account please follow these steps:
 
-To delete your **TestFairy** account please follow these steps:
-
-  1. Log into your account and go to the __Team__ menu option under your account email (top right corner of the [Dashboard](https://docs.testfairy.com/TestFairy_Dashboard/Dashboard_Overview.html)): [https://app.testfairy.com/settings/cpanel/]()
-
-  2. Select all admins in the account and remove them:
+  1. __Remove other admins for your account:__ Log into your account, go to the [Team](https://app.testfairy.com/settings/cpanel/) menu at the top right, select all admins in the account and remove them:
   
   ![](/img/FAQ/delete-account-01.png)
 
-  3. Once all admins are removed go to the __Preferences → Account__ menu: [https://app.testfairy.com/settings/account/](https://app.testfairy.com/settings/account/)
-  
-  4.  At the bottom of the screen you will see an option to delete your account:
+  2. Once all admins are removed go to your [Account Preferences](https://app.testfairy.com/settings/account/) → Account section and at the bottom of the screen press the `Delete my account` button
   
   ![](/img/FAQ/delete-account-02.png)
-
-  5. Press the `Delete my account` button. 
-  
-  6. Press `Continue` to verify the deletion:
   
   ![](/img/FAQ/delete-account-03.png)
   
-  7. Your account is now deleted and you will be redirected to the [TestFairy](https://www.testfairy.com/) website.
+Your account is now deleted.

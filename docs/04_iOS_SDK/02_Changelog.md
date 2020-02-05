@@ -1,3 +1,9 @@
+### Version 1.22.0
+Released 2020-02-05
+
+* [NEW] Fixed Feedback View Interaction
+* [BUFIX] Target Xcode 10.2
+
 ### Version 1.21.2
 Released 2020-01-29
 

@@ -1,4 +1,4 @@
-## One click integration
+## 1. One click integration
 
 TestFairy integrates with Slack seamlessly, providing human-readable, real-time notifications for your selected events. 
 
@@ -31,7 +31,7 @@ Select _Save webhook_ to add and confirm the slack integration.
 
 **Note** Integrations require a paid account, click [here](https://www.testfairy.com/pricing) for more information.
 
-## Manual Integration
+## 2. Manual Integration
 
 
 In case you need to create a manual integration with slack follow these steps:

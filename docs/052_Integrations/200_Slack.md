@@ -37,7 +37,7 @@ Select _Save webhook_ to add and confirm the slack integration.
 In case you need to create a manual integration with slack follow these steps:
 
 
-* Follow this link to the slack __Incoming WebHooks__ app: https://slack.com/apps/A0F7XDUAZ-incoming-webhooks
+* Open the Slack [Incoming WebHooks](https://slack.com/apps/A0F7XDUAZ-incoming-webhooks) app
 
 
 * If you do not have the app installed in your workspace then press `Add to Slack` to add it.

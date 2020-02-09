@@ -1,19 +1,20 @@
 
 ## Installation
 
-The steps in this section are an example of how to the TestFairy Unity SDK your Unity project.
+The steps in this section are an example of how to add the TestFairy Unity SDK to your Unity project.
 
 1. From the TestFairy Unity SDK GitHub page, download the [latest](https://github.com/testfairy/testfairy-unity-plugin/releases) version of the `unitypackage`.
    ![download-latest](/img/unity/unity-latest.png)
 
-2. In your open Unity project, navigate to **Assets** > **Import Package** > **Custom Package**
+2. In your open Unity project, navigate to **Assets** --> **Import Package** --> **Custom Package**
 
   ![custom-import](/img/unity/custom-import.png)
 
-3. the Import Unity Package window, first click **All** to include the TestFairy SDK in your app. Then click Import.
+3. In the Import Unity Package window, first click **All** to include the TestFairy SDK in your app. Then click **Import**.
    ![select-files](/img/unity/file-select.png)
 
-4. To use the TestFairy Unity SDK, click `mainCamera` in Hierarchy and in the Inspector click  `Add Component`. Note: you can add the TestFairy script to any game object. TestFairy is a singleton so no harm is done.
+4. To use the TestFairy Unity SDK, click `mainCamera` in Hierarchy and in the Inspector click `Add Component`. 
+	> **Note:** you can add the TestFairy script to any game object. TestFairy is a singleton so no harm is done.
 
   ![Step 2](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step2.png)
 
@@ -92,7 +93,9 @@ private void HandleLog(string logString, string stackTrace, LogType type)
 
 ## Exporting Ad-hoc or Production Builds for iOS
 
-When building your Unity project for iOS, a few extra steps are required. The TestFairy SDK for Unity includes architectures for both Simulator and Device. However, Apple does not allow you to package an App for device that includes a library with Simulator architectures.
+When building your Unity project for iOS, a few extra steps are required. 
+
+The TestFairy SDK for Unity includes architectures for both Simulator and Device. However, Apple does not allow you to package an App for a device that includes a library with Simulator architectures.
 
 In order to remove those architectures from your project during your iOS build, add a new file named `TestFairyBuildPostProcessor.cs` in your `Editor` directory with the following contents.
 
@@ -127,6 +130,8 @@ public class TestFairyBuildPostProcessor {
 }
 
 ```
+
+### Possible errors and solutions
 
 If you omit adding the above script, you may encounter the following errors:
 

@@ -43,15 +43,15 @@ Now, please logout and if SSO is configured into your account, the login page is
 ![login screenshot](https://docs.testfairy.com/img/sso/sso-login-screenshot.png)
 
 
-#### Automatically importing groups from OKTA
+#### [Optional:] Automatically importing groups from OKTA
 
-When managing large teams on OKTA, it is most likely that people are already associated with groups. 
+When managing large teams with OKTA, it is most likely that people are already associated with groups. 
 
-For example, say Alice is associated with groups ["QA", "Home Town"]. With auto-import of groups, she will be associated with the groups: "okta", "okta-qa", and "okta-home-town", when she signs in into TestFairy. If she was removed from group "QA", she will be removed from "okta-qa" group the next time she signs in.
+For example, say Alice is associated with the following groups in OKTA: ["QA", "QA-San-Francisco"]. With auto-import of groups, she will be automatically be associated with the following groups in TestFairy next time she signs in: "okta", "okta-qa", and "okta-qa-san-francisco". If she was removed from group "QA", she will be automatically be removed from "okta-qa" group in TestFairy, the next time she signs in.
 
 To import groups each time a user signs into TestFairy, please follow these instructions. 
 
-- Open the TestFairy app in your account, select `General` tab, and click `Edit`. In `SAML Settings` section, under `Group Attribute Statements`, add a rule with name: "groups", and filter "Matches regex" with value `.*`. See screenshot: 
+- Open the TestFairy app in your OKTA account, select `General` tab, and click `Edit`. In `SAML Settings` section, under `Group Attribute Statements`, add a rule with name: "groups", and filter "Matches regex" with value `.*`. See screenshot: 
   ![](/img/sso/okta/okta-groups-2.png)
   
 - When done, please click on `Update Now` so OKTA updates caches. See screenshot:

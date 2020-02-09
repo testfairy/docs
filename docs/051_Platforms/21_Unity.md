@@ -1,15 +1,19 @@
 
 ## Installation
 
-1. Download the latest [TestFairy plugin for Unity](https://github.com/testfairy/testfairy-unity-plugin/releases).
+The steps in this section are an example of how to the TestFairy Unity SDK your Unity project.
 
-2. Unpack the zip on your disk.
+1. From the TestFairy Unity SDK GitHub page, download the [latest](https://github.com/testfairy/testfairy-unity-plugin/releases) version of the `unitypackage`.
+   ![download-latest](/img/unity/unity-latest.png)
 
-3. Drag **TestFairy.cs**, **iOS** and **Android** into your Project under `Assets/Plugins`. If you don't have Plugins, you can drag the entire folder onto your project.
+2. In your open Unity project, navigate to **Assets** > **Import Package** > **Custom Package**
 
-  ![Step 1](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step1.png)
+  ![custom-import](/img/unity/custom-import.png)
 
-4. Press `mainCamera` in Hierarchy and in the Inspector click  `Add Component`. Note: you can add the TestFairy script to any game object. TestFairy is a singleton so no harm is done.
+3. the Import Unity Package window, first click **All** to include the TestFairy SDK in your app. Then click Import.
+   ![select-files](/img/unity/file-select.png)
+
+4. To use the TestFairy Unity SDK, click `mainCamera` in Hierarchy and in the Inspector click  `Add Component`. Note: you can add the TestFairy script to any game object. TestFairy is a singleton so no harm is done.
 
   ![Step 2](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step2.png)
 
@@ -63,6 +67,7 @@ public class cameraScript : MonoBehaviour {
 ```
 
 ### Log your exceptions
+
 If you would like to capture exception logs and send them to the TestFairy dashbord use this code example:
 
 ```
@@ -85,42 +90,54 @@ private void HandleLog(string logString, string stackTrace, LogType type)
 }
 ```
 
-## ERROR ITMS-90087: "Unsupported Architectures. The executable TestFairy.framework contains unsupported architectures '[x86_64, i386]'
+## Exporting Ad-hoc or Production Builds for iOS
+
+When building your Unity project for iOS, a few extra steps are required. The TestFairy SDK for Unity includes architectures for both Simulator and Device. However, Apple does not allow you to package an App for device that includes a library with Simulator architectures.
+
+In order to remove those architectures from your project during your iOS build, add a new file named `TestFairyBuildPostProcessor.cs` in your `Editor` directory with the following contents.
+
+> **Note**: This script can also be used when building your iOS project using Unity Build.
+
+![post-build-script](/img/unity/post-build-script.png)
+
+```
+using UnityEngine;
+using UnityEditor;
+using System.Collections;
+using System.IO;
+
+using UnityEditor.Callbacks;
+using UnityEditor.iOS.Xcode;
+
+public class TestFairyBuildPostProcessor {
+  [PostProcessBuildAttribute(1)]
+  public static void OnPostprocessBuild(BuildTarget buildTarget, string path) {
+    if (buildTarget == BuildTarget.iOS) {
+      string projPath = path + "/Unity-iPhone.xcodeproj/project.pbxproj";
+
+      PBXProject proj = new PBXProject();
+      proj.ReadFromString(File.ReadAllText(projPath));
+      var mainTarget = proj.GetUnityMainTargetGuid();
+
+      proj.AddShellScriptBuildPhase(mainTarget, "Strip unused architectures", "", "sh Frameworks/Plugins/iOS/TestFairy.framework/strip-architectures.sh");
+
+      File.WriteAllText(projPath, proj.WriteToString());
+    }
+  }
+}
+
+```
+
+If you omit adding the above script, you may encounter the following errors:
+
+> ERROR ITMS-90087: "Unsupported Architectures. The executable TestFairy.framework contains unsupported architectures '[x86_64, i386]'
+
 This happens when you export your iOS app for the App store. The App Store only supports apps built for the ARM architecture, however to allow developers to also test in the iOS Simulator, we include the architectures for 64-bit (x86_64) and 32-bit (i386) Intel architectures.
 
-The quickest solution is to strip these architectures from `TestFairy.framework` when archiving. You must add the following run script to your Xcode build phases.
+> Error: exportArchive: IPA processing failed
+> Error Domain=IDEFoundationErrorDomain Code=1 "IPA processing failed" UserInfo={NSLocalizedDescription=IPA processing failed}
 
-```
-APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
-
-find "$APP_PATH" -name 'TestFairy.framework' -type d | while read -r FRAMEWORK
-do
-    FRAMEWORK_EXECUTABLE_NAME=$(defaults read "$FRAMEWORK/Info.plist" CFBundleExecutable)
-    FRAMEWORK_EXECUTABLE_PATH="$FRAMEWORK/$FRAMEWORK_EXECUTABLE_NAME"
-    echo "Executable is $FRAMEWORK_EXECUTABLE_PATH"
-    echo $(lipo -info "$FRAMEWORK_EXECUTABLE_PATH")
-
-    FRAMEWORK_TMP_PATH="$FRAMEWORK_EXECUTABLE_PATH-tmp"
-
-    if $(lipo "$FRAMEWORK_EXECUTABLE_PATH" -verify_arch "i386") ; then
-        lipo -output "$FRAMEWORK_TMP_PATH" -remove "i386" "$FRAMEWORK_EXECUTABLE_PATH"
-        echo "    i386 architecture removed"
-        rm "$FRAMEWORK_EXECUTABLE_PATH"
-        mv "$FRAMEWORK_TMP_PATH" "$FRAMEWORK_EXECUTABLE_PATH"
-    fi
-
-    if $(lipo "$FRAMEWORK_EXECUTABLE_PATH" -verify_arch "x86_64") ; then
-        lipo -output "$FRAMEWORK_TMP_PATH" -remove "x86_64" "$FRAMEWORK_EXECUTABLE_PATH"
-        echo "    x86_64 architecture removed"
-        rm "$FRAMEWORK_EXECUTABLE_PATH"
-        mv "$FRAMEWORK_TMP_PATH" "$FRAMEWORK_EXECUTABLE_PATH"
-    fi
-done
-```
-
-> **Note**: It's important that you only run this script during **only when installing**. The image below shows the necessary checkbox to prevent this script from running during regular development builds
-
-![only-when-archiving](/img/only-when-installing.png)
+This happens when you export an Ad hoc version of your iOS app. Most often seen in Unity Cloud build.
 
 ### Identifying your users
 

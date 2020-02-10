@@ -47,7 +47,7 @@ Now, please logout and if SSO is configured into your account, the login page is
 
 When managing large teams with OKTA, it is most likely that people are already associated with groups. 
 
-For example, say Alice is associated with the following groups in OKTA: ["QA", "QA-San-Francisco"]. With auto-import of groups, she will be automatically be associated with the following groups in TestFairy next time she signs in: "okta", "okta-qa", and "okta-qa-san-francisco". If she was removed from group "QA", she will be automatically be removed from "okta-qa" group in TestFairy, the next time she signs in.
+For example, say Alice is associated with the following groups in OKTA: ["QA", "QA San Francisco"]. With auto-import of groups, she will be automatically be associated with the following groups in TestFairy next time she signs in: "okta", "okta-qa", and "okta-qa-san-francisco". If she was removed from group "QA", she will be automatically be removed from "okta-qa" group in TestFairy, the next time she signs in.
 
 To import groups each time a user signs into TestFairy, please follow these instructions. 
 

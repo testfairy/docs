@@ -1,3 +1,10 @@
+### Version 1.9.28
+Released: 2020-02-10
+
+* [BUGFIX] Blinking-dot now works online, offline and on auto update skip.
+* [BUGFIX] External screenshots are now attached properly to the feedbacks.
+* [BUGFIX] Screenshots with hidden `WebView` content are now captured as often as regular screenshots (api level 23+).
+
 ### Version 1.9.27
 Released: 2020-01-29
 

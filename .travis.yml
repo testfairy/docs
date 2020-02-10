@@ -1,5 +1,8 @@
 language: php
 
+matrix:
+  fast_finish: true
+
 before_install:
   - pip install --user awscli
   - export PATH=$PATH:$HOME/.local/bin
@@ -11,7 +14,7 @@ before_install:
   - echo "aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}" >> ~/.aws/credentials
 
 before_script:
-  - npm install -g less
+  - npm install -g less tslib
 
 branches:
   only:

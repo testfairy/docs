@@ -1,3 +1,8 @@
+### Version 1.9.29
+Released: 2020-02-11
+
+* [BUGFIX] Fixed a crash on resume when sessions don't listen for metrics.
+
 ### Version 1.9.28
 Released: 2020-02-10
 

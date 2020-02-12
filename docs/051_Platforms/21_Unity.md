@@ -22,7 +22,7 @@ The steps in this section are an example of how to add the TestFairy Unity SDK t
 
   ![Step 3](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step3.png)
 
-6. Edit the newly created CSharp script, add `using TestFairyUnity;` to the import section, and a call to `TestFairy.begin()` with your app token. You can find your app token in the [Account Settings](https://app.testfairy.com/settings/#apptoken) page.
+6. Edit the newly created CSharp script, add `using TestFairyUnity;` to the import section, and a call to `TestFairy.begin();` with your app token. You can find your app token in the [Account Settings](https://app.testfairy.com/settings/#apptoken) page.
 
   ![Step 4](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step4.png)
 

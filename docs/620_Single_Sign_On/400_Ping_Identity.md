@@ -19,6 +19,7 @@ Talk to us! Request a demo at https://testfairy.com/products/solutions/enterpris
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-4.png)
   
 - Type in the ACS URL and Entity ID. For *ACS URL*, please use the following format `https://acme.testfairy.com/login/sso`, and replace 'acme' with your own subdomain. 
+
 For *Entity ID*, please use the same format `https://acme.testfairy.com`. and again, replace 'acme' with your own subdomain.
   ![](https://docs.testfairy.com/img/sso/pingidentity/ping-identity-5.png)
 

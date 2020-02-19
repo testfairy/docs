@@ -36,7 +36,7 @@ Open the Centercode Community Homepage, and go to Community Tools > Configuratio
 
 ### 4. Configure a new Cetercode in your TestFairy settings: 
 
-  4.1. Open your TestFairy account **Preferences** --> **Integrations** menu.
+  4.1. Open your TestFairy account **Preferences** --> **Integrations** menu. Press the `Add Integration` button.
 
   ![Create webhook](/img/integrations/centercode/centercode-int-1.png)
 

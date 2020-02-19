@@ -34,7 +34,7 @@ Open the Centercode Community Homepage, and go to Community Tools > Configuratio
   
   3.10 Copy / Save your API Endpoint URL and click Submit
 
-### 4. Configure a new Cetercode in your TestFairy settings: 
+### 4. Configure a new Cetercode integration in your TestFairy dashboard: 
 
   4.1. Open your TestFairy account **Preferences** --> **Integrations** menu. Press the `Add Integration` button.
 
@@ -43,4 +43,5 @@ Open the Centercode Community Homepage, and go to Community Tools > Configuratio
   4.2 Name the integration `Centercode`, enter the Centercode endpoint URL, check the `User feedback` checkbox and submit.
 
   ![Create webhook](/img/integrations/centercode/centercode-int-2.png)
-
+  
+> For more information abount the Centercode side of the integration look [here](https://centercode.help/en/articles/2577104-send-testfairy-feedback-to-centercode).

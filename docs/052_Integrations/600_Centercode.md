@@ -42,7 +42,7 @@ Open the Centercode Community Homepage, and go to Community Tools > Configuratio
 
   ![Create webhook](/img/integrations/centercode/centercode-int-1.png)
 
-  4.2 Name the integration `Centercode`, enter the Centercode endpoint URL, check the `User feedback` checkbox and submit.
+  4.2 Name the integration `Centercode`, enter the Centercode endpoint URL, check the `User feedback` checkbox and press `Add webhook`.
 
   ![Create webhook](/img/integrations/centercode/centercode-int-2.png)
   

@@ -2,6 +2,8 @@
 
 ### 1. Create a Centercode API Key
 
+(Centercode docs available [here](https://centercode.help/en/articles/2577104-send-testfairy-feedback-to-centercode))
+
 Open the Centercode Community Homepage, and go to Community Tools > Configuration > API Keys (under Advanced Configuration)   > Create an API Key. Name the new API KEY "TestFairy".
   
   ![Create API KEY](/img/bug-tracking/centercode1.png)
@@ -44,4 +46,4 @@ Open the Centercode Community Homepage, and go to Community Tools > Configuratio
 
   ![Create webhook](/img/integrations/centercode/centercode-int-2.png)
   
-> For more information abount the Centercode side of the integration look [here](https://centercode.help/en/articles/2577104-send-testfairy-feedback-to-centercode).
+

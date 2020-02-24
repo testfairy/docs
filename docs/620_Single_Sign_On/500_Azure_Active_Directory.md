@@ -54,7 +54,7 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 
 Now add an Azure AD user to your application.
 
-- Go to `**Users and Groups**` and press the `+Add User` button.
+- Go to **`Users and Groups`** and press the `+Add User` button.
 
   ![](/img/sso/azure/azure-ad-8.png)
 
@@ -77,7 +77,7 @@ Now add an Azure AD user to your application.
 - Now, please go to your TestFairy account preferences, and select the Security menu item.
 Open the XML file previously saved and copy its content to the **ID Provider metadata** field. 
 
-Click on `Update SAML ID Provider Metadata` when done.
+  Click on `Update SAML ID Provider Metadata` when done.
 
   ![](/img/sso/azure/azure-tf-1.png)
   

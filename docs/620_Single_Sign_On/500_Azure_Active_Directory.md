@@ -13,19 +13,23 @@ In your Home screen press the **Azure Active Directory** icon to open the **Dire
 
   ![](/img/sso/azure/azure-ad-1.png)
   
-
+From the menu options select the **`Enterprise Application`** option.
 
   ![](/img/sso/azure/azure-ad-2.png)
-
+  
+Press the **`+Add application`** button.
 
   ![](/img/sso/azure/azure-ad-3.png)
 
+Select the Non-gallery application, add an app name (TestFairy) and press the **`Add`** button.
 
   ![](/img/sso/azure/azure-ad-4.png)
 
+Go back to the menu and select the Single sign-on menu option.
 
   ![](/img/sso/azure/azure-ad-5.png)
 
+select the **`SAML`** option.
 
   ![](/img/sso/azure/azure-ad-6.png)
 

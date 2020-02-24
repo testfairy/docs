@@ -55,23 +55,23 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 #### Adding users to the application
 
 
-Now add an Azure AD user to your application.
+Now lets add an Azure AD user to your application.
 
 - Go to **`Users and Groups`** and press the `+Add User` button.
 
   ![](/img/sso/azure/azure-ad-8.png)
 
-- In the **`Add assigment`** column press the `Users and groups` line and select the user/users you want to add from the **`Users and groups`** column.
+- In the **`Add assignment`** column press the `Users and groups` line and select the user/users you want to add from the **`Users and groups`** column.
 
   Once all users are added to the **`Selected items`** press the `Select` Button.
 
   ![](/img/sso/azure/azure-ad-9.png)
 
-- To finsh the action press the **`Assign`** button.
+- To finish the action press the **`Assign`** button.
 
   ![](/img/sso/azure/azure-ad-10-.png)
 
-- The usewrs aare all now part of application.
+- The users are all now part of the application.
 
   ![](/img/sso/azure/azure-ad-11.png)
 
@@ -89,5 +89,3 @@ Open the XML file previously saved and copy its content to the **ID Provider met
  ![](/img/sso/azure/azure-tf-2.png)
   
 Now, please log out and make sure you can see the `Login with Azure` button when trying to log in to the [TestFairy Dashboard](https://app.testfairy.com)
-
-

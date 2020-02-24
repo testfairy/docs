@@ -46,10 +46,6 @@ Sections:
 - Now, go to your TestFairy account, click on "Account Preferences" in the topright menu, and select `security` from the left menu. Paste the contents of the file you saved previosuly in the ID Provider metadata field. Click on `Update SAML ID Provider metadata` button when done.
 
   ![](https://docs.testfairy.com/img/sso/google/google-9.png)
-  
- - You will get a success message and a checkbox saying `Grant access to all apps to testers who sign-on with SSO` will    appear.
- 
- ![](/img/sso/google/google-200.png)
     
 Now, please log out and make sure you can see the "Login with Google" button.
 

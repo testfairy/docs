@@ -9,39 +9,52 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 
 #### Adding an enterprise app
 
-In your Home screen press the **Azure Active Directory** icon to open the **Directory overview**.
+- In your Home screen press the **Azure Active Directory** icon to open the **Directory overview**.
 
   ![](/img/sso/azure/azure-ad-1.png)
   
-From the menu options select the **`Enterprise Application`** option.
+- From the menu options select the **`Enterprise Application`** option.
 
   ![](/img/sso/azure/azure-ad-2.png)
   
-Press the **`+Add application`** button.
+- Press the **`+Add application`** button.
 
   ![](/img/sso/azure/azure-ad-3.png)
 
-Select the Non-gallery application, add an app name (TestFairy) and press the **`Add`** button.
+- Select the **Non-gallery application**, add an app name (TestFairy) and press the **`Add`** button.
 
   ![](/img/sso/azure/azure-ad-4.png)
 
-Go back to the menu and select the Single sign-on menu option.
+- Go back to the menu and select the Single sign-on menu option.
 
   ![](/img/sso/azure/azure-ad-5.png)
 
-select the **`SAML`** option.
+- Select the **`SAML`** option.
 
   ![](/img/sso/azure/azure-ad-6.png)
 
+- Press the pencil icon to edit the __`Basic SAML Configuration`__ `Identifier (Entity ID)` and `Reply URL` fields.
+  Add https://acme.testfairy.com/ to the `Identifier` field and https://acme.testfairy.com/login/sso 
+ to the `Reply URL`.
+ 
+ Change `acme` to your own __TestFairy__ subdomain. 
+ 
+ Now download the XML file in the `Federation Data`. You will need it later for uploading to your [TestFairy Dashboard Security settings](https://app.testfairy.com/settings/security/).
 
   ![](/img/sso/azure/azure-ad-17.png)  
 
+Now add an Azure AD user to your application.
+Go to `**Users and Groups**` and press the `+Add User` button.
 
   ![](/img/sso/azure/azure-ad-8.png)
 
+In the **`Add assigment`** column press the `Users and groups` line and select the user/users you want to add from the **`Users and groups`** column.
+
+Once all users are added to the **`Selected items`** press the `Select` Button to finish the action.
 
   ![](/img/sso/azure/azure-ad-9.png)
 
+The usewrs will now appear in the list.
 
   ![](/img/sso/azure/azure-ad-10-.png)
 

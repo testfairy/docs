@@ -2,7 +2,10 @@
 ### Setting up Azure Active Directory in your account
 
 
-Single Sign-on enables you to manage users and testers outside of TestFairy. A list of permitted users and testers, as well as their passwords, is stored in Azure Active Directory. Therefore onboarding a new developer into the team is an easy task.
+Single Sign-on enables you to manage users and testers outside of TestFairy. 
+A list of permitted users and testers, as well as their passwords, is stored in Azure Active Directory. 
+
+Therefore onboarding a new developer into the team is an easy task.
 
 When SSO is configured into your account, the login page is replaced with a simple `login with sso` button.
 
@@ -31,7 +34,7 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 #### Adding an SSO login option
 
 
-- Go back to the menu and select the Single sign-on menu option.
+- Go back to the menu and select the **`Single sign-on`** menu option.
 
   ![](/img/sso/azure/azure-ad-5.png)
 
@@ -39,8 +42,8 @@ Talk to us! Request a demo at [https://testfairy.com/products/solutions/enterpri
 
   ![](/img/sso/azure/azure-ad-6.png)
 
-- Press the pencil icon to edit the __`Basic SAML Configuration`__ `Identifier (Entity ID)` and `Reply URL` fields.
-  Add https://acme.testfairy.com/ to the `Identifier` field and https://acme.testfairy.com/login/sso to the `Reply URL`.
+- Press the pencil icon to edit the __`Basic SAML Configuration`__  - `Identifier` and `Reply URL` fields.
+  Add `https://acme.testfairy.com/` to the `Identifier` field and `https://acme.testfairy.com/login/sso` to the `Reply URL`.
  
   Change `acme` to your own __TestFairy__ subdomain. 
  

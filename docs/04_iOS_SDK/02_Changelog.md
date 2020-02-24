@@ -1,3 +1,9 @@
+### Version 1.22.1
+Released 2020-02-24
+
+* [BUGFIX] Layout in Feedback view
+* [BUGFIX] Screenshot interval
+
 ### Version 1.22.0
 Released 2020-02-05
 

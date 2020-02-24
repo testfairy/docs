@@ -69,7 +69,7 @@ Now lets add an Azure AD user to your application.
 
 - To finish the action press the **`Assign`** button.
 
-  ![](/img/sso/azure/azure-ad-10-.png)
+  ![](/img/sso/azure/azure-ad-10.png)
 
 - The users are all now part of the application.
 

@@ -42,6 +42,7 @@ The manual installation is recommended for running React Native verions 0.36 and
 1. Append the following lines to `android/settings.gradle`:
   	```
     include ':react-native-testfairy'
+    
     project(':react-native-testfairy').projectDir = new File(settingsDir, '../node_modules/react-native-testfairy/android')
   	```
 1. Insert the following lines inside the dependencies block in `android/app/build.gradle`:

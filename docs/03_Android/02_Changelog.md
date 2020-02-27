@@ -1,3 +1,10 @@
+### Version 1.9.30
+Released: 2020-02-27
+
+* [IMPROVEMENT] Non-button click events are now reported in the timeline with human friendly view names
+* [BUGFIX] Unsent feedbacks are now attached to the correct session and sent once
+* [BUGFIX] Apps with heavy UI thread use no longer block screenshots
+
 ### Version 1.9.29
 Released: 2020-02-11
 

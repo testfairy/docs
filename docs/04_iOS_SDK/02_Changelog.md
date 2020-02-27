@@ -1,3 +1,9 @@
+### Version 1.23.0
+Released 2020-02-27
+
+* [NEW] Added `sendUserFeedback` with App token to send feedback without recording a session
+* [BUGFIX] Fixed adaptive screen recording feature
+
 ### Version 1.22.1
 Released 2020-02-24
 

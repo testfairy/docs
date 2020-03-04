@@ -1,3 +1,8 @@
+### Version 1.23.1
+Released 2020-03-03
+
+* [BUGFIX] Improved logging in SDK for debugging
+
 ### Version 1.23.0
 Released 2020-02-27
 

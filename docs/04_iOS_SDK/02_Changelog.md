@@ -2,7 +2,7 @@
 Released 2020-03-08
 
 * [NEW] Updated Feedback form
-* [NEW] Introduced new API for requesting feedback with `startFeedback:intent`. 
+* [NEW] Introduced new API for requesting feedback with `startFeedback:intent:`. 
 
 ### Version 1.23.1
 Released 2020-03-03

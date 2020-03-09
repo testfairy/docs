@@ -160,7 +160,7 @@ Example:
 putString(
     myActivity, 
     "com.testfairy.feedback.thankYouText", 
-    "Thank you for the feedback. We'll take a look at your feedback and notify you shortly."
+    "Thank you for the feedback. We'll take a look at it and notify you shortly."
 );
 ```
 

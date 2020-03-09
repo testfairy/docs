@@ -1,12 +1,17 @@
 In-app feedback works out of the box, allowing users to report bugs by shaking their device.
-This feature is customizable, allow you to launch the feedback from from a button in your UI or any other gesture, or change the wy the feature works.
 
-Here are a few functions that can help you customize the feedback behviour:
+This feature is customizable and allows you to launch the feedback from from a button inside your UI or any other gesture, or change the way the feature works.
 
-- `setBrowserUrl`: Open a web browser instead of a built-in dialog (eg, a questionnaire). 
-- `setEmailFieldVisible`: Whether or not email input text should be displayed.
-- `setEmailMandatory`: Whether or not people have to identify themselves when submitting feedback.
-- `setCallback`: Get notified when a feedback has been sent.
+If you already called `TestFairy.begin()` and have a session, you can simply use `TestFairy.showFeedbackForm()` to launch the form yourself. 
+
+Otherwise, you can utilize `TestFairy.showFeedbackForm(Context context, String appToken, boolean captureScreenshot)` anywhere in your app to launch the form without a session. The user will be presented with possible actions to take such as capturing a new screenshot or screen recording.
+
+Here are a few methods that can help you customize the feedback behaviour:
+
+- `setBrowserUrl()`: Open a web browser instead of a built-in dialog (eg, a questionnaire). 
+- `setEmailFieldVisible()`: Whether or not email input text should be displayed.
+- `setEmailMandatory()`: Whether or not people have to identify themselves when submitting feedback.
+- `setCallback()`: Get notified when a feedback has been sent.
 
 #### setBrowserUrl(String url)
 

@@ -30,7 +30,7 @@ TestFairy.setFeedbackOptions(feedbackOptions);
 
 #### setCallback(FeedbackOptions.Callback)
 
-You can get callback to your application if feedback was sent, cancelled or failed.
+You can get a callback to your application if a feedback was sent, cancelled or failed.
 
 ```java
 FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
@@ -56,6 +56,114 @@ FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
 	
 	TestFairy.setFeedbackOptions(feedbackOptions);
 ```
+
+### setFeedbackVerifier(FeedbackVerifier)
+
+It is also possible to define custom feedback verification logic by providing a verifier implementation.
+
+First, implement the following interface with your custom logic. We provide an example but you can choose your own rules for the allowed feedbacks.
+
+```java
+public class MyFeedbackVerifier implements FeedbackVerifier {
+	private String lastError = null;
+
+	@Override
+	public boolean verifyFeedback(FeedbackContent content) {
+		lastError = null;
+
+		if (content.getEmail() == null || content.getEmail().equals("")) {
+			lastError = "Missing email address";
+			return false;
+		}
+
+		if (content.getEmail().endsWith("@example.com") || content.getEmail().endsWith("@gmail.com")) {
+			lastError = "Email address cannot end with @example.com or @gmail.com";
+			return false;
+		}
+
+		if (content.getText().trim().length() < 10) {
+			lastError = "Feedback body must be at least 10 characters long, please write something..";
+			return false;
+		}
+
+		return true;
+	}
+
+	@Override
+	public String getVerificationFailedMessage() {
+		return lastError;
+	}
+}
+```
+
+Then call provide the SDK your verifier with the following line.
+
+```java
+TestFairy.setFeedbackVerifier(new MyFeedbackVerifier());
+```
+
+### Automatic Email Detection
+
+The feedback form uses following heuristics to determine how to fill its email field.
+
+* If you provide an email address to `TestFairy.setUserId(String)`, it will be automatically detected by the form.
+* If you set an attribute via `TestFairy.setAttribute("email", "jane@example.com")`, the form will make use of it.
+* If the app user sends a feedback and provides a new email address, it will also be saved for later use in case rules above cannot detect any email address.
+
+### Feedback Form UI Customization
+
+TestFairy SDK takes a look at a bunch of special fields in `SharedPreferences` to paint the feedback form. You can use the following utility method to override these values.
+
+```java
+public static void putString(Activity activity, String key, String value) {
+	SharedPreferences prefs = activity.getPreferences(Activity.MODE_PRIVATE);
+	SharedPreferences.Editor editor = prefs.edit();
+	editor.putString(key, value);
+	editor.apply();
+}
+```
+
+Here is a list of fields you can override in your app.
+
+These keys will be used to override text contents of the form.
+* `"com.testfairy.feedback.description"`
+* `"com.testfairy.feedback.title"`
+* `"com.testfairy.feedback.thankYouText"`
+* `"com.testfairy.feedback.verifyErrorText"`
+* `"com.testfairy.feedback.sendingProgressText"`
+* `"com.testfairy.feedback.poweredByText"`
+* `"com.testfairy.feedback.emailPlaceholder"`
+* `"com.testfairy.feedback.feedbackDescriptionPlaceholder"`
+* `"com.testfairy.feedback.editScreenshot"`
+* `"com.testfairy.feedback.takeScreenshot"`
+* `"com.testfairy.feedback.removeScreenshot"`
+* `"com.testfairy.feedback.takeScreenRecord`"
+* `"com.testfairy.feedback.screenRecorded"`
+
+These keys will be used to override content description of icon buttons. We strongly suggest make use of these keys for better accessiblity in your apps.
+* `"com.testfairy.feedback.sendButtonContent"`
+* `"com.testfairy.feedback.cancelButtonContent"`
+* `"com.testfairy.feedback.screenshotThumbnail"`
+
+These keys will be used to override the consent dialog users are shown when a screen recording is going to be captured.
+* `"com.testfairy.feedback.consentDialogTitle"`
+* `"com.testfairy.feedback.consentDialogMessage"`
+* `"com.testfairy.feedback.consentDialogOkButton"`
+* `"com.testfairy.feedback.consentDialogCancelButton"`
+
+In Europe, GDPR mandates that you must clearly explain why you are collecting user data and how you are utilizing this data for your business needs. It is strongly suggested that these reasons should be stated in the consent dialog in a clear way. This kind of practice is being adopted by many countries/states and is really important to protect the privacy of your users.
+
+Example:
+
+```java
+putString(
+    myActivity, 
+    "com.testfairy.feedback.thankYouText", 
+    "Thank you for the feedback. We'll take a look at your feedback and notify you shortly."
+);
+```
+
+### Class Reference
 
 For more information, please refer to the Android SDK [class reference](https://app.testfairy.com/reference/android/).
 

@@ -1,4 +1,5 @@
-TestFairy's Android SDK enables customization of how the in-app feedback module works. You can change behavior and modify requirements.
+By default, in-app feedback works out of the box, allowing users to report bugs by shaking their device.
+If you wish to use this feature and connect it to a button in your UI, or any other gesture, you can change behavior and modify requirements.
 
 - `setBrowserUrl`: Open a web browser instead of a built-in dialog (eg, a questionnaire). 
 - `setEmailFieldVisible`: Whether or not email input text should be displayed.

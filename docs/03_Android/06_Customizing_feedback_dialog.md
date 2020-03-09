@@ -57,7 +57,7 @@ FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
 	TestFairy.setFeedbackOptions(feedbackOptions);
 ```
 
-### setFeedbackVerifier(FeedbackVerifier)
+#### setFeedbackVerifier(FeedbackVerifier)
 
 It is also possible to define custom feedback verification logic by providing a verifier implementation.
 

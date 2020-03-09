@@ -1,3 +1,9 @@
+### Version 1.9.31
+Released: 2020-03-09
+
+* [NEW] Feedback form redesign and ability to decide where to take a screenshot
+* [BUGFIX] Fixed a few cases where blinking dot didn't appear
+
 ### Version 1.9.30
 Released: 2020-02-27
 

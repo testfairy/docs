@@ -355,4 +355,51 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+
+
+#### [api/1/cpanel/permissions/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get the list of admins and their permissions
+	</span>
+	<code>GET /api/1/cpanel/permissions/</code>
+</div>
+<div class="method-description hidden">
+	Get the list of admins in the account and their permissions. <br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	admins: 
+	[
+		{
+			email: "joe@example.com",
+			role: "account-owner",
+			permissions: [
+				"*:rw"
+			]
+		},
+		{
+			email: "bob@example.com",
+			role: "account-manager",
+			permissions: [
+				"*:rw"
+			]
+		},
+		{
+			email: "alice@example.com",
+			role: "admin",
+			permissions: [
+				"*:rw"
+			]
+		},	
+	]
+}
+	</pre>
+</div>
+
+<hr />
+
 <style>h4 {margin-bottom: 30px;}</style>

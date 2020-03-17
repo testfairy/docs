@@ -16,6 +16,10 @@ Once tags are added they appear in a the build details:
   
 `Tags` are searchable in the `Search...` field at the top of the table.
 
-They also appear in the details of the build in the [my.testfairy.com](my.testfairy.com) (for the Tester view):
+Tags also appear in the details of the build in the [my.testfairy.com](my.testfairy.com) (for the Tester view):
 
 ![](/img/app_distribution/builds-my-view.png)  
+
+Tags are diplayed in the landing page under the main headline (when the build diplayed has tags):
+
+![](/img/app_distribution/landing-page-tags.png)  

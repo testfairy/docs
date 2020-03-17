@@ -1,6 +1,6 @@
 ## Tags
 
-Tags are labels attached to builds for identification and give additional searchable information about them.
+Tags are text labels that are attached to builds and used for identification and in order to give additional searchable information about them.
 
 The text may contain spaces and more than one word.
 

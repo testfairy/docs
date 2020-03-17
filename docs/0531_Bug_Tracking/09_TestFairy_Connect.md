@@ -46,7 +46,7 @@ By default, your configuration file `config.json` is saved to `.testfairy-connec
 Now that you have TestFairy Connect configured, run it with:
 
 ```sh
-docker run -d -v $PWD:/etc/testfairy-connect --restart=always testfairy/testfairy-connect:latest start
+docker run -d -v $PWD:/etc/testfairy-connect --restart=always testfairy/testfairy-connect:latest run
 ```
 
 Note: you can replace `$PWD` with a directory of your choice to store your TestFairy Connect configuration.
@@ -63,7 +63,7 @@ If you are having permission errors related to your docker volume, you can eithe
 
 ```sh
 docker run -i -t -v $PWD:/etc/testfairy-connect:z testfairy/testfairy-connect:latest configure
-docker run -d -v $PWD:/etc/testfairy-connect:z --restart=always testfairy/testfairy-connect:latest start
+docker run -d -v $PWD:/etc/testfairy-connect:z --restart=always testfairy/testfairy-connect:latest run
 ```
   
   - Alternatively, you can disable SELinux altogether by running:

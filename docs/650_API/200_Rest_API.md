@@ -395,6 +395,15 @@ In the example above, you can see that our user is `john@example.com` and the AP
 				"*:rw"
 			]
 		},	
+		{
+			email: "michael@example.com",
+			role: "admin",
+			permissions: [
+				"16527:rw",
+				"16517:rw",
+				"69237:r"
+			]
+		},	
 	]
 }
 	</pre>

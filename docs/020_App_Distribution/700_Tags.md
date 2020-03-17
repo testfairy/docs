@@ -2,8 +2,6 @@
 
 Tags are text labels that are attached to builds and used for identification and in order to give additional searchable information about them.
 
-The text may contain spaces and more than one word.
-
 #### Ways to edit tags
 
 - They are first added when uploading the build via the [upload API](https://docs.testfairy.com/API/Upload_API.html) using the `tags` parameter.

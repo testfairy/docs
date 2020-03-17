@@ -1,3 +1,8 @@
+### Version 1.24.1
+Released 2020-03-17
+
+* [BUGFIX] Hide hidden views from Timeline
+
 ### Version 1.24.0
 Released 2020-03-08
 

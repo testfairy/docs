@@ -1,6 +1,6 @@
 ## Tags
 
-Tags are text labels that can be attached to builds and used for identification and in order to give additional searchable information about them. Every build (app version) can have different tags.
+Tags are text labels that can be attached to builds and used for identification and search. Every build (app version) can have different tags.
 
 #### How to add/edit tags
 

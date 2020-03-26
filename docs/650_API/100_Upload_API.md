@@ -12,7 +12,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [fastlane](https://docs.fastlane.tools/actions/testfairy/)
 
-[Travis CI](http://docs.testfairy.com/Integrations/Travis_CI.html)
+[Travis CI](https://docs.testfairy.com/Continuous_Integration/Travis_CI.html)
 
 [CircleCI](https://circleci.com/docs/2.0/testing-ios/#testfairy)
 
@@ -22,7 +22,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [NetBeans](http://plugins.netbeans.org/plugin/52087/)
 
-[Bamboo](http://docs.testfairy.com/Integrations/Bamboo.html)
+[Bamboo](https://docs.testfairy.com/Continuous_Integration/Bamboo.html)
 
 [TeamCity](https://docs.testfairy.com/Continuous_Integration/TeamCity.html)
 

@@ -12,6 +12,7 @@ For each build you can see the following details:
 
 ![Builds Table](/img/dashboard/builds-table.png)
 
+
 - **VERSION** - the build's name and version - see App versioning for more details.
 
 - **SESSIONS** - the number of sessions logged for this build - number is linked to the Insights tab
@@ -38,6 +39,7 @@ For each build you can see the following details:
 
 - Settings button ![](/img/dashboard/ic_settings_black.png) - Pressing it opens the build settings menu.
 
+Builds that are stared ( ![](/img/dashboard/star-yellow.png) ) are listed at the top of the table regardless of the upload order.
 
 ### Tags
 

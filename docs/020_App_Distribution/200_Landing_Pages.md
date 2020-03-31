@@ -12,7 +12,7 @@ Landing page can be disabled at the top of the landing page settings page.
 
 * **Landing page URL:** The URL that is automatically generated for each landing page. Teh last string of the url is configurable.
 
-* **App version:** Indicates which version of the app will be downloaded from the landing page. You can choose to always show the latest version, always show the auto-update version, or freeze on a specific version.
+* **App version:** Indicates which version of the app will be shown. You can choose to always show the latest version, always show the auto-update version, or freeze on a specific version.
 
 * **Visability:**  
   * _Open Beta (Anyone can download)_ - Landing page is visible to anybody.

@@ -28,7 +28,7 @@ In case you get a **PENDING** response check the connection configuration.
 Each **Issue type** has different fields associated with it:
 
 * **Name** - the field name.
-* **Type** - the type of filed as defined in the JIRA system. 
+* **Type** - the type of field as defined in the JIRA system. 
 * **Value** - the values from the JIRA system (* in addition to predefined fixed values and  -Dynamic value-, see below)
 * **Required?** - is the field required or optional.
 

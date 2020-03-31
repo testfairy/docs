@@ -1,31 +1,28 @@
 ### Managing Landing pages
 
-Landing pages are the most common way to distribute apps to your testers.
+TestFairy Landing pages allow you to easily distribute apps to testers.
 Every TestFairy app has a landing page that is created automatically.
-
-If you do not want a landing page you can disable it on the landing page settings page for that specific app:
+Landing page can be disabled at the top of the landing page settings page.
 
 ![disable landing page](/img/landing-pages-on-off.png)
-
-
-The visibility of a landing page is defined in the **Landing Page Settings** page inside your app page, in the **dashboard**: 
 
 
 ![landing page settings](/img/app_distribution/landing_pages/landing-page-fields.png)
 
 
-* **Landing page URL:** the URL that is automatically generated for each landing page. It is possible to change the last part after the / - slash, to a different string if available.
+* **Landing page URL:** The URL that is automatically generated for each landing page. It is possible to change the last part after the / - slash, to a different string if available.
 
-* **App version:** indicates which version of the app will be downloaded from the landing page.
+* **App version:** Indicates which version of the app will be downloaded from the landing page.
 
-* **Visability:**  there are 3 ways to allow access to the download page: 
-  * _Open Beta (Anyone can download)_ - download is possible to anybody who can see the page. Needed when **Recruit Page** is being used.
-  * _Closed Beta (Testers required to login)_ - you must have a TestFairy account (as a tester or admin) in order to see the page (and download the app).
+* **Visability:**  
+  * _Open Beta (Anyone can download)_ - Landing page is visible to anybody.
+  * _Closed Beta (Testers required to login)_ - Users must log in in order to see the page.
 
 * **App description:** A description you add to the landing page for testers instructions or other information. Can be formatted in <a href=https://guides.github.com/features/mastering-markdown/ target=_blank >Markdown</a>.
 
-* **Add release notes:** Do you want to include the release notes detailed when you loaded the app on the landing page?
-* **Add custom CSS:**  see [here](https://docs.testfairy.com/FAQ/Landing_Page_Customization.html) for customizing the appearance of the landing page.
+* **Add release notes:** Check in order to automatically include [release notes](/App_Distribution/Release_Notes.html) in landing page
+
+* **Add custom CSS:**  Check in order to add custom CSS, for [landing page customization](https://docs.testfairy.com/FAQ/Landing_Page_Customization.html)
 
 
 Once you make changes to the settings you need to save them so they take effect. You can preview the changes using the `Preview landing page` button.

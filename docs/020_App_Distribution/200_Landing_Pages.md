@@ -27,12 +27,18 @@ Landing page can be disabled at the top of the landing page settings page.
 
 Once you make changes to the settings you need to save them so they take effect. You can preview the changes using the `Preview landing page` button.
 
-#### Recruiting testers - Recruit Page  
+#### Recruitment Pages
 
-In case you want to use a recruitment process for testers press the `Open Recruit Page` Button - it will open a landing page with an email field where testers can add their email. 
+Recruitment pages allow you to easily let users request to join your testing project. 
 
-The email address testers add will be added to your testers tab and a signup request email will be sent to the admin of the account asking him to approve the download.
+When users signup, they will show up in your account in "Pending Apprvoal" status and you will get an email allowing you to approve or reject these users. Once approved they will get an email inviting them to download the app.
 
-Once she approves the download (via her testers dashboard) the tester receives a **New build** email which invites him to download the app's new build.
+* In order for recruitment pages to work, visibility must be in "open beta" mode.
+
+* Users who sign up and approved will atuamatically be added to a testers group called "recruit".
+
+* in case your app is an iOS app signed with a ad-hoc certificate, users will first get an email asking them to register their device and only after they register, you will get an email with their UDID.
+
+* It is possible to automatically approve all users who signup, please contact us to enable this option for your account.
+
  
-One can send out the page URL, but make sure to change the permissions to _Open Beta_ so the page will be visible to all recipients of the URL.

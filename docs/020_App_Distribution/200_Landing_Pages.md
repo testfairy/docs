@@ -10,9 +10,9 @@ Landing page can be disabled at the top of the landing page settings page.
 ![landing page settings](/img/app_distribution/landing_pages/landing-page-fields.png)
 
 
-* **Landing page URL:** The URL that is automatically generated for each landing page. It is possible to change the last part after the / - slash, to a different string if available.
+* **Landing page URL:** The URL that is automatically generated for each landing page. Teh last string of the url is configurable.
 
-* **App version:** Indicates which version of the app will be downloaded from the landing page.
+* **App version:** Indicates which version of the app will be downloaded from the landing page. You can choose to always show the latest version, always show the auto-update version, or freeze on a specific version.
 
 * **Visability:**  
   * _Open Beta (Anyone can download)_ - Landing page is visible to anybody.

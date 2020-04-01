@@ -10,7 +10,7 @@ Landing page can be disabled at the top of the landing page settings page.
 ![landing page settings](/img/app_distribution/landing_pages/landing-page-fields.png)
 
 
-* **Landing page URL:** The URL that is automatically generated for each landing page. Teh last string of the url is configurable.
+* **Landing page URL:** The URL that is automatically generated for each landing page. The last token of the url is configurable.
 
 * **App version:** Indicates which version of the app will be shown. You can choose to always show the latest version, always show the auto-update version, or freeze on a specific version.
 
@@ -37,7 +37,7 @@ When users signup, they will show up in your account in "Pending Apprvoal" statu
 
 * Users who sign up and approved will atuamatically be added to a testers group called "recruit".
 
-* in case your app is an iOS app signed with a ad-hoc certificate, users will first get an email asking them to register their device and only after they register, you will get an email with their UDID.
+* in case your app is an iOS app signed with an ad-hoc certificate, users will first get an email asking them to register their device and only after they register, you will get an email with their UDID.
 
 * It is possible to automatically approve all users who signup, please contact us to enable this option for your account.
 

@@ -1,3 +1,8 @@
+### Version 1.24.2
+Released 2020-04-01
+
+* [BUGFIX] Ignore permissions when stripping architectures
+
 ### Version 1.24.1
 Released 2020-03-17
 

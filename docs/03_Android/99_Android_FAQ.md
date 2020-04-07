@@ -95,3 +95,14 @@ findViewById(R.id.imageView2).setOnClickListener(new View.OnClickListener() {
 ```
 
 [Back to top](#top)
+
+### <a name="android-class-not-in-apk"></a>Why my application cannot find some TestFairy classes in runtime?
+
+Some compile-time dependencies may preprocess existing binaries in your project to perform tasks such as performance profiling, multidexing and dependency injection. When used alongside Proguard or R8, this may cause incorrect removal of TestFairy classes during a build. If such issue occurs, your app will crash with a `ClassNotFoundException` or a similar exception. In order to circumvent that, make sure you append the rules below to your existing proguard rule set and add necessary exclusion statements to your gradle plugin configurations if necessary.
+
+```
+ -keep class com.testfairy.** { *; }
+ -dontwarn com.testfairy.**
+ -keepattributes Exceptions, Signature, LineNumberTable
+ -dontusemixedcaseclassnames
+```

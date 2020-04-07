@@ -42,7 +42,7 @@ Every build has its own settings, however, some of the definitions are shared by
 * **Video settings** - Changing video settings can be useful if you wish to decrease network overload: 
     * Enable / Disable video recording     
 * **Metrics**:
-   * Application logcat - collect the logcat logs.
+   * Application logcat/logs - collect the app logs from device.
 
 
 ### Bug reporting

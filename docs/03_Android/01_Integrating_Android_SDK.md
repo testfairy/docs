@@ -32,6 +32,7 @@ If you have *Proguard* enabled, please add this snippet to your proguard rules f
  -keep class com.testfairy.** { *; }
  -dontwarn com.testfairy.**
  -keepattributes Exceptions, Signature, LineNumberTable
+ -dontusemixedcaseclassnames
 ```
 
 

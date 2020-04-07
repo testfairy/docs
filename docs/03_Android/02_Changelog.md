@@ -1,3 +1,10 @@
+### Version 1.9.32
+Released: 2020-04-07
+
+* [NEW] Fullscreen `SurfaceView` screenshots and support for latest Unity releases for API level 26+
+* [IMPROVEMENT] Performance update for existing screen recordings
+* [BUGFIX] Complaint class names in SDK binary to support case insensitive file systems during builds
+
 ### Version 1.9.31
 Released: 2020-03-09
 

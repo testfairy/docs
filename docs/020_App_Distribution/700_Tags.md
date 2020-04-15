@@ -2,11 +2,14 @@
 
 Tags are text labels that can be attached to builds and used for identification and search. Every build (app version) can have different tags.
 
-#### How to add/edit tags
+#### How to add tags to builds that are uploaded via API
 
 - Tags can be added programmatically when uploading the build via the [TestFairy Upload API](https://docs.testfairy.com/API/Upload_API.html) using the `tags` parameter.
 
-- Once the build is loaded, Tags can be added, edited or deleted under [build settings](https://docs.testfairy.com/TestFairy_Dashboard/Builds.html) menu under __App Distribution__ --> __Tags__.
+
+#### How to add/edit tags to existing builds
+
+- Once the build is already available in your dashboard, Tags can be added, edited or deleted in [build settings](https://docs.testfairy.com/TestFairy_Dashboard/Builds.html) menu under __App Distribution__ --> __Tags__.
 
 #### Displaying tags to admins
 

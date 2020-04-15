@@ -4,7 +4,7 @@ Are are having problem instalaing an app on Android 10, and getting an error mes
 
 Here are a few possible reasons:
 
-# Does ths app alredy exist on your device?
+# Is ths app already installed on your device?
 
 It might be that an app with the same package name that has a different signature is already be installed on your device. Android does not allow different signatures for the same package name. In order to solve that, please delete the app from your device and try again.
 

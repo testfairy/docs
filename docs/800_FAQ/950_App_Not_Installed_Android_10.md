@@ -1,34 +1,32 @@
-An Android application package (APK) consists of compiled classes, app resources and the APK signature. When you install an APK to your device, all these files will be copied to their designated places and will be verified for their integrity.
-
-If anything goes wrong during this process, you will be shown the following error:
+Are are having problem instalaing an app on Android 10, and getting an error message "App not installed"?
 
 ![](/img/android/sdk/app_not_installed.png)
 
-There are a few possible reasons for this.
+Here are a few possible reasons:
 
-* __An app with the same package name with a different signature may already be installed.__
+# Does ths app alredy exist on your device?
 
-  * Delete the app from your device and try again.
+It might be that an app with the same package name that has a different signature is already be installed on your device. Android does not allow different signatures for the same package name. In order to solve that, please delete the app from your device and try again.
 
-In order to prevent this error in the future, make sure you always sign your consecutive builds with the same signature. If changing the signature was intentional, it is recommended to communicate the change with your testers so that they can uninstall the app with deprecated signatures before proceeding with the installation.
+In order to prevent this error in the future, please make sure you always sign your consecutive builds with the same signature. If changing the signature was intentional, you can go ahead and change the package name as well, or just communicate the change with your testers and ask them to uninstall the app with deprecated signatures before proceeding with the installation.
 
-* __Device is running out of storage.__
+# Is the device out of storage?
 
-  * Free up some space and try again.
+ This is easy to solve. Free up some space and try again.
 
 Installing an app requires at least twice the space consumed by the APK package plus total uncompressed space consumed by the app files.
 
-* __Device does not allow installation from unknown sources.__
+# Does the device allow installation from unknown sources?
 
-  * Go to the __Settings__ app and locate "Install Unknown Apps" under __Privacy/Security__ settings. Enable the permission for the app which you use to install your APK. In most cases, this is the app being updated, a file manager or the browser.
+By default Android allows installation only from the Play Store. In order to allow installation of apps from other sources, open the __Settings__ app and locate "Install Unknown Apps" under __Privacy/Security__ settings. Enable the permission for the app which you use to install your APK. In most cases, this is the app being updated, a file manager or the browser. Old Android devices expose this setting under a single toggle named "Install App from Unknown Sources".
 
-Old Android devices expose this setting under a single toggle named "Install App from Unknown Sources".
+# Are you having pronblems installing the app only on Android 10?
 
-* __Android 7+ may not install apps signed only with the v1 signature scheme.__
+If you can install your app on old Andrdoids without a problem, and only Android 10 gives you a hard time, it might be related to your signature. 
 
-Although this is not a globally defined default, some Android configurations do not allow installation of APKs that doesn't contain a v2 signature.
+Although this is not a globally defined default, some Android manufactures (Google and others) require signing apps with a v2 signature and may not allow installing apps signed only with the v1 signature scheme.
 
-  * If you build your app via Android Studio's __Generate Signed Bundle / Apk__ command, make sure you tick the v2 signature checkbox as well as v1 to include both signatures in the final APK.
+If you build your app via Android Studio's __Generate Signed Bundle / Apk__ command, make sure you tick the v2 signature checkbox as well as v1 to include both signatures in the final APK.
 
 ![](/img/android/sdk/generate_v1_v2_sign.png)
 
@@ -58,7 +56,9 @@ android {
 }
 ```
 
-Once the build is complete, you can verify that both signatures are included in the APK by running the following command inside your build tools folder (*$ANDROID_HOME/build-tools/x.y.z*).
+## How to verify if an app is signed with v1 or v2?
+
+In order to verify that both signatures are included in the APK by running the following command inside your build tools folder (*$ANDROID_HOME/build-tools/x.y.z*).
 
 `./apksigner verify --print-certs -v path/to/app.apk`
 

@@ -10,13 +10,13 @@ There are a few possible reasons for this.
 
 * Delete the app from your device and try again.
 
-In order to prevent this error in the future, make sure you always sign your consecutive builds with the same signature. If changing the signature was intentional, it is recommended the communicate the change with your testers so that they can uninstall the app with deprecated signature before proceeding with the installation.
+In order to prevent this error in the future, make sure you always sign your consecutive builds with the same signature. If changing the signature was intentional, it is recommended to communicate the change with your testers so that they can uninstall the app with deprecated signatures before proceeding with the installation.
 
 2. __Device is running out of storage.__
 
 * Free up some space and try again.
 
-Installing an APK requires at least twice the space consumed by the package plus total uncompressed space consumed by the app files.
+Installing an app requires at least twice the space consumed by the APK package plus total uncompressed space consumed by the app files.
 
 3. __Device does not allow installation from unknown sources.__
 
@@ -26,13 +26,13 @@ Old Android devices expose this setting under a single toggle named "Install App
 
 4. __Android 7+ may not install apps signed only with the v1 signature scheme.__
 
-Allthough this is not a globally defined default, some Android configurations do not allow installation of APKs that doesn't contain a v2 signature.
+Although this is not a globally defined default, some Android configurations do not allow installation of APKs that doesn't contain a v2 signature.
 
 * If you build your app via Android Studio's __Generate Signed Bundle / Apk__ command, make sure you tick the v2 signature checkbox as well as v1 to include both signatures in the final APK.
 
 ![](/img/android/sdk/generate_v1_v2_sign.png)
 
-* If you sign your app via gradle CLI, make sure you include the following settings in your *app/build.gradle* script.
+* If you prefer signing your app during a build automatically, make sure you include the following settings in your *app/build.gradle* script.
 
 ```
 android {
@@ -58,7 +58,7 @@ android {
 }
 ```
 
-Once you sign the app, you can verify that both signatures are included by running the following command in your build tools folder (*$ANDROID_HOME/build-tools/x.y.z*).
+Once the build is complete, you can verify that both signatures are included in the APK by running the following command inside your build tools folder (*$ANDROID_HOME/build-tools/x.y.z*).
 
 `./apksigner verify --print-certs -v path/to/app.apk`
 

@@ -6,33 +6,33 @@ If anything goes wrong during this process, you will be shown the following erro
 
 There are a few possible reasons for this.
 
-1. __An app with the same package name with a different signature may already be installed.__
+* __An app with the same package name with a different signature may already be installed.__
 
-* Delete the app from your device and try again.
+  * Delete the app from your device and try again.
 
 In order to prevent this error in the future, make sure you always sign your consecutive builds with the same signature. If changing the signature was intentional, it is recommended to communicate the change with your testers so that they can uninstall the app with deprecated signatures before proceeding with the installation.
 
-2. __Device is running out of storage.__
+* __Device is running out of storage.__
 
-* Free up some space and try again.
+  * Free up some space and try again.
 
 Installing an app requires at least twice the space consumed by the APK package plus total uncompressed space consumed by the app files.
 
-3. __Device does not allow installation from unknown sources.__
+* __Device does not allow installation from unknown sources.__
 
-* Go to the __Settings__ app and locate "Install Unknown Apps" under __Privacy/Security__ settings. Enable the permission for the app which you use to install your APK. In most cases, this is the app being updated, a file manager or the browser.
+  * Go to the __Settings__ app and locate "Install Unknown Apps" under __Privacy/Security__ settings. Enable the permission for the app which you use to install your APK. In most cases, this is the app being updated, a file manager or the browser.
 
 Old Android devices expose this setting under a single toggle named "Install App from Unknown Sources".
 
-4. __Android 7+ may not install apps signed only with the v1 signature scheme.__
+* __Android 7+ may not install apps signed only with the v1 signature scheme.__
 
 Although this is not a globally defined default, some Android configurations do not allow installation of APKs that doesn't contain a v2 signature.
 
-* If you build your app via Android Studio's __Generate Signed Bundle / Apk__ command, make sure you tick the v2 signature checkbox as well as v1 to include both signatures in the final APK.
+  * If you build your app via Android Studio's __Generate Signed Bundle / Apk__ command, make sure you tick the v2 signature checkbox as well as v1 to include both signatures in the final APK.
 
 ![](/img/android/sdk/generate_v1_v2_sign.png)
 
-* If you prefer signing your app during a build automatically, make sure you include the following settings in your *app/build.gradle* script.
+  * If you prefer signing your app during a build automatically, make sure you include the following settings in your *app/build.gradle* script.
 
 ```
 android {

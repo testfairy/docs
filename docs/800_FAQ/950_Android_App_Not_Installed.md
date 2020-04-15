@@ -1,1 +1,13 @@
+This is how the error looks:
+
+There are a few possible reasons...
+
+1. An app with the same package name with a different signature may already be installed.
+
+Delete the app from your device.
+
+2. Device limitations - storage, os,....
+
+3. Android 10 can not install apps signed v1...
+
 How to fix...

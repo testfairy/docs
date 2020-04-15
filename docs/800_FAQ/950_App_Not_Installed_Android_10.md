@@ -20,9 +20,9 @@ Installing an app requires at least twice the space consumed by the APK package 
 
 By default Android allows installation only from the Play Store. In order to allow installation of apps from other sources, open the __Settings__ app and locate "Install Unknown Apps" under __Privacy/Security__ settings. Enable the permission for the app which you use to install your APK. In most cases, this is the app being updated, a file manager or the browser. Old Android devices expose this setting under a single toggle named "Install App from Unknown Sources".
 
-# Are you having pronblems installing the app only on Android 10?
+# Does the problem happen only on Android 10?
 
-If you can install your app on old Andrdoids without a problem, and only Android 10 gives you a hard time, it might be related to your signature. 
+If you can install your app on old Andrdoids without a problem, and only new versions (Android 10?) gives you a hard time, it might be related to your signature. 
 
 Although this is not a globally defined default, some Android manufactures (Google and others) require signing apps with a v2 signature and may not allow installing apps signed only with the v1 signature scheme.
 

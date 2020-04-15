@@ -22,9 +22,9 @@ By default Android allows installation only from the Play Store. In order to all
 
 # Does the problem happen only on Android 10?
 
-If you can install your app on old Andrdoids without a problem, and only new versions (Android 10?) gives you a hard time, it might be related to your signature. 
+If you can install your app on old Android versions without a problem, and only new versions (Android 10?) give you a hard time, it might be related to your signature. 
 
-Although this is not a globally defined default, some Android manufactures (Google and others) require signing apps with a v2 signature and may not allow installing apps signed only with the v1 signature scheme.
+Although this is not a globally defined default, some Android manufactures (Google and others)require signing apps with a v2 signature on their latest versions and may not allow installing apps signed only with the v1 signature scheme.
 
 If you build your app via Android Studio's __Generate Signed Bundle / Apk__ command, make sure you tick the v2 signature checkbox as well as v1 to include both signatures in the final APK.
 

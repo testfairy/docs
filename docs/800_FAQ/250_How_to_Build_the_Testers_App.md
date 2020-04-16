@@ -6,9 +6,11 @@ In order to get do that please do the following:
 
 # Android
 
-1. Fork this project: https://github.com/testfairy/testers-app-android
+### Source Code
+Fork this project: [https://github.com/testfairy/testers-app-android](https://github.com/testfairy/testers-app-android)
 
-2. Change [Base_URL](https://github.com/testfairy/testers-app-android/blob/master/TestFairyApp/src/main/java/com/testfairy/app/MainActivity.java#L49)
+### Code Changes
+Change [Base_URL](https://github.com/testfairy/testers-app-android/blob/master/TestFairyApp/src/main/java/com/testfairy/app/MainActivity.java#L49)
 
 ```
 private static final String BASE_URL = "https://<YOUR_SUBDOMAIN_HERE>.testfairy.com";
@@ -16,9 +18,13 @@ private static final String BASE_URL = "https://<YOUR_SUBDOMAIN_HERE>.testfairy.
 
 # iOS
 
-1. Fork this project: https://github.com/testfairy/testers-app-ios
+### Source Code
 
-2. Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
+Fork this project: [https://github.com/testfairy/testers-app-ios](https://github.com/testfairy/testers-app-ios)
+
+### Code Changes
+
+Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
 
 ```
 <content src="https://<YOUR_SUBDOMAIN_HERE>.testfairy.com" />

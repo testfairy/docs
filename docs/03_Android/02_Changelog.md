@@ -1,8 +1,8 @@
 ### Version 1.9.33
 Released: 2020-04-17
 
-* [IMPROVEMENT] `logThrowable()` now warns when its argument is null.
-* [BUGFIX] Fragments and app bar no longer disappear during screen recordings.
+* [BUGFIX] `logThrowable()` now warns when its argument is null.
+* [BUGFIX] Fragments and app bar visibility.
 * [BUGFIX] Fixed a null pointer exception due to missing manifest entry for `ProvideFeedbackActivity`.
 
 ### Version 1.9.32

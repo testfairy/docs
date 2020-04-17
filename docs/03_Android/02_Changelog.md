@@ -1,22 +1,29 @@
+### Version 1.9.33
+Released: 2020-04-17
+
+* [IMPROVEMENT] `logThrowable()` now warns when its argument is null.
+* [BUGFIX] Fragments and app bar no longer disappear during screen recordings.
+* [BUGFIX] Fixed a null pointer exception due to missing manifest entry for `ProvideFeedbackActivity`.
+
 ### Version 1.9.32
 Released: 2020-04-07
 
-* [NEW] Fullscreen `SurfaceView` screenshots and support for latest Unity releases for API level 26+
-* [IMPROVEMENT] Performance update for existing screen recordings
-* [BUGFIX] Complaint class names in SDK binary to support case insensitive file systems during builds
+* [NEW] Fullscreen `SurfaceView` screenshots and support for latest Unity releases for API level 26+.
+* [IMPROVEMENT] Performance update for existing screen recordings.
+* [BUGFIX] Complaint class names in SDK binary to support case insensitive file systems during builds.
 
 ### Version 1.9.31
 Released: 2020-03-09
 
-* [NEW] Feedback form redesign and ability to decide where to take a screenshot
-* [BUGFIX] Fixed a few cases where blinking dot didn't appear
+* [NEW] Feedback form redesign and ability to decide where to take a screenshot.
+* [BUGFIX] Fixed a few cases where blinking dot didn't appear.
 
 ### Version 1.9.30
 Released: 2020-02-27
 
-* [IMPROVEMENT] Non-button click events are now reported in the timeline with human friendly view names
-* [BUGFIX] Unsent feedbacks are now attached to the correct session and sent once
-* [BUGFIX] Apps with heavy UI thread use no longer block screenshots
+* [IMPROVEMENT] Non-button click events are now reported in the timeline with human friendly view names.
+* [BUGFIX] Unsent feedbacks are now attached to the correct session and sent once.
+* [BUGFIX] Apps with heavy UI thread use no longer block screenshots.
 
 ### Version 1.9.29
 Released: 2020-02-11

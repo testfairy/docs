@@ -14,7 +14,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 
 [Travis CI](https://docs.testfairy.com/Continuous_Integration/Travis_CI.html)
 
-[CircleCI](https://circleci.com/docs/2.0/testing-ios/#testfairy)
+[CircleCI](https://circleci.com/docs/2.0/deploying-ios/#uploading-to-testfairy)
 
 [Bitrise](http://devcenter.bitrise.io/tutorials/deploy/deploy-to-testfairy-with-bitrise/)
 

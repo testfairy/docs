@@ -1,3 +1,8 @@
+### Version 1.9.34
+Released: 2020-04-22
+
+* [BUGFIX] Fixed a crash due to a race condition during multiple lifecycle changes in a short amount of time.
+
 ### Version 1.9.33
 Released: 2020-04-17
 

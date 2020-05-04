@@ -1,12 +1,9 @@
 ## Zendesk
-If you are using Zendesk as your support and ticketing system it is very easy to integrate it with your testfairy account to collect feedback you receive from customers.
 
+1. Login to Zendesk, go to [SUBDOMAIN]zendesk.com/agent/admin/api/settings/tokens and create an API KEY.
 
-From the __Integration__ menu choose `Zendesk` and press the `Add Integration` button - It will open the __Zendesk Integration__ Dialogue.
+2. Login to TestFairy -> Preferences -> Integrations -> Zendesk and enter your Zendesk info.
 
 ![](/img/integrations/zendesk/zendest-integration-01.png)
 
-
-Add your `Zendesk Subdomain` , `Email` address of your account and the `API Key` you created in your [SUBDOMAIN]zendesk.com/agent/admin/api/settings/tokens.
-
-Once you `Save Settings` your integration is ready.
+3. (optional) Install the [TestFairy Chrome Extension](https://chrome.google.com/webstore/detail/testfairy-for-jira/joaafaemekbkgekhjbaldlllcnjifcee)

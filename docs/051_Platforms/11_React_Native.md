@@ -5,12 +5,10 @@ TestFairy for React native is a bridge to the [TestFairy](https://www.testfairy.
 
 # Automatic Installation
 
-If you are using version 0.36 or later of React-Native, this is the recommended approach to adding the TestFairy SDK to your app.
 From your project root, run the following commands:
 
 ```
 npm install --save react-native-testfairy
-react-native link react-native-testfairy
 ```
 
 If you're using React Native > 0.60.0, you will need to run the following command in your `ios` directory
@@ -19,36 +17,6 @@ If you're using React Native > 0.60.0, you will need to run the following comman
 cd ios
 pod install
 ```
-
-If the above steps don't seem to work out, try to use the manual steps described below:
-
-# Manual Installation
-
-The manual installation is recommended for running React Native verions 0.36 and below. The manual steps below are vary, based on the platform you're targeting. If you are targetting both Android and iOS, you will need to complete both sections.
-
-## iOS
-
-1. `npm install --save react-native-testfairy`
-1. In XCode, in the project navigator, right click `Libraries` -> `Add Files to [your project's name]`
-1. In the finder window, go to `node_modules` -> `react-native-testfairy` and add `ReactNativeTestFairy.xcodeproj`
-4. Run your project (`Cmd+R`)
-
-## Android
-
-1. `npm install --save react-native-testfairy`
-1. Open up `android/app/src/main/java/[...]/MainApplication.java`
-  - Add `import com.testfairy.react.TestFairyPackage;` to the imports at the top of the file
-  - Add `new TestFairyPackage()` to the list returned by the `getPackages()` method
-1. Append the following lines to `android/settings.gradle`:
-  	```
-    include ':react-native-testfairy'
-    
-    project(':react-native-testfairy').projectDir = new File(settingsDir, '../node_modules/react-native-testfairy/android')
-  	```
-1. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
-  	```
-      compile project(':react-native-testfairy')
-  	```
 
 # Usage
 

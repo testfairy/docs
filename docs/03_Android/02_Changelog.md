@@ -1,3 +1,9 @@
+### Version 1.9.35
+Released: 2020-05-05
+
+* [IMPROVEMENTS] `pause()`/`resume()` calls are now reported in the session dashboard.
+* [BUGFIX] Hidden `WebView` instances no longer obstruct full screen game screenshots.
+
 ### Version 1.9.34
 Released: 2020-04-22
 

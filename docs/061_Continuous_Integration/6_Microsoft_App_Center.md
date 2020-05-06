@@ -1,36 +1,25 @@
 ### Microsoft App Center Integration
 
 
-If you use the Microsoft App center to build you application it is possible to upload your .apk/.ipa file directly to  TeatFairy using a post build script.
+In order to upload apps from Microsoft App Center to TestFairy, please do the following:
 
-#### How to add the script
+1. Create an upload script, call it `testfairy-upload.sh` and add it next to the project file in your repository.
 
-
-The post build script will be named `appcenter-post-build.sh`.
-
-In order to run it, add the file next to the project file in the repository.
-
-You will need your ##API Key## in order to upload the file.
-
-
-Here is an example of an `appcenter-post-build.sh` file:
 
 ```
 #!/usr/bin/env bash
-if [[ "$APPCENTER_XCODE_PROJECT" ]]; then
-  curl https://upload.testfairy.com/api/upload \
-    -F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
-    -F "file=@$APPCENTER_OUTPUT_DIRECTORY/Example.ipa" 
-fi
 
-if [[ -z "$APPCENTER_XCODE_PROJECT" ]]; then
-  curl https://upload.testfairy.com/api/upload \
-    -F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
-    -F "file=@$APPCENTER_OUTPUT_DIRECTORY/example.apk"
-fi
+TESTFAIRY_API_KEY=1234356
+
+FILE_NAME=file.apk
+
+curl https://upload.testfairy.com/api/upload \
+-F "api_key=$TESTFAIRY_API_KEY" \
+-F "file=@$APPCENTER_OUTPUT_DIRECTORY/$FILE_NAME" 
+
 ```
 
-After placing the `appcenter-post-build.sh` file in your repository make sure its located and connected by App center as a post build script (this should happen automatically):
+2. Use this file as a `post build script` for your project, so your app gets uploaded aytomatically.
 
 
 ![](/img/continuous-integration/appcntr-1.png)
@@ -39,10 +28,3 @@ After placing the `appcenter-post-build.sh` file in your repository make sure it
 Add an environment variable named `$TESTFAIRY_UPLOAD_API_KEY` to the __Environment variables__ section of the __Build configuration__ of the app.
 
 
-After adding the variable add your [API KEY](https://app.testfairy.com/settings/api-key) to the field. Make sure to "lock" the API KEY you entered using the lock icon next to the variable.
-
-
-![](/img/continuous-integration/appcntr-2.png)
-
-
-Now you can run the build.

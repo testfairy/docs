@@ -36,12 +36,13 @@ After placing the `appcenter-post-build.sh` file in your repository make sure it
 ![](/img/continuous-integration/appcntr-1.png)
 
 
-You will need to add your API KEY to the __Environment variables__ In the __Build configuration__ of the app:
+Add an environment variable named `$TESTFAIRY_UPLOAD_API_KEY` to the __Environment variables__ section of the __Build configuration__ of the app.
+
+
+After adding the variable add your API KEY to the field. Make sure to "lock" the API KEY you entered using the lock icon next to the variable.
 
 
 ![](/img/continuous-integration/appcntr-2.png)
-
-- Make sure to "lock" the API KEY you entered using the lock icon next to the variable.
 
 
 Now you can run the build.

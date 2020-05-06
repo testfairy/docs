@@ -25,6 +25,4 @@ curl https://upload.testfairy.com/api/upload \
 ![](/img/continuous-integration/appcntr-1.png)
 
 
-Add an environment variable named `$TESTFAIRY_UPLOAD_API_KEY` to the __Environment variables__ section of the __Build configuration__ of the app.
-
 

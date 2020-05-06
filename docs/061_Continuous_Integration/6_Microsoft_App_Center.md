@@ -26,9 +26,11 @@ fi
 
 ```
 
-## 2. Configure a Post Build Step. 
 
-Use this file as a `post build script` for your project, so your app gets uploaded aytomatically.
+## 2. Verify a Post Build Step exists. 
+
+
+App-center will use this file as a `post build script` for your project, so your app gets uploaded aytomatically.
 
 
 ![](/img/continuous-integration/appcntr-1.png)

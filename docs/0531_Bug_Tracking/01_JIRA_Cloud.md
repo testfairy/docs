@@ -24,29 +24,34 @@
 
 ![Configure JIRA cloud](/img/bug-tracking/jira-cloud-2.png)
 
-## 3. (optional, highly recommended) Add The TestFairy JIRA Add-on to your JIRA account
+
+## 3. (optional, highly recommended!!!) Install the [TestFairy Chrome Extension](https://chrome.google.com/webstore/detail/testfairy-for-jira/joaafaemekbkgekhjbaldlllcnjifcee)
+
+With this Chrome extension, every JIRA issue will show the right TestFairy session, timeline and logs, enbedded in JIRA.
+
+## 4. (optional, if you can't install a Chrome extension) Add The TestFairy JIRA Add-on to your JIRA account
 
 The TestFairy JIRA Add-on adds TestFairy videos to JIRA issues.
 
 In order to install it please follow these steps:
 
-3.1. Open JIRA Settings
+4.1. Open JIRA Settings
 
 ![JIRA-settings](/img/bug-tracking/jira-settings.png)
 
-3.2 Open Apps
+4.2 Open Apps
 
 ![JIRA-settings](/img/bug-tracking/jira-settings1.png)
 
-3.3 In the Apps manu press 'Find new apps'
+4.3 In the Apps manu press 'Find new apps'
 
 ![JIRA-apps](/img/bug-tracking/jira-find-apps.png)
 
-3.4 Add "TestFairy for Jira" to your account.
+4.4 Add "TestFairy for Jira" to your account.
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-discover.png)
 
-## 4. (optional ,highly recommended) On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
+4.5 On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-3-dots.png)
 

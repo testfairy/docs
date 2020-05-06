@@ -13,7 +13,7 @@ In order to run it, add the file next to the project file in the repository.
 You will need your ##API Key## in order to upload the file.
 
 
-Here is an example of a `appcenter-post-build.sh` file:
+Here is an example of an `appcenter-post-build.sh` file:
 
 ```
 #!/usr/bin/env bash
@@ -30,19 +30,18 @@ if [[ -z "$APPCENTER_XCODE_PROJECT" ]]; then
 fi
 ```
 
-After placing the `appcenter-post-build.sh` file in your repository connect it to your App center app.
-
-
-You should see the post build script:
+After placing the `appcenter-post-build.sh` file in your repository make sure its located and connected by App center as a post build script (this should happen automatically):
 
 
 ![](/img/continuous-integration/appcntr-1.png)
 
 
-You will need to add your API KEY to the __Environment variables__ In the __Build configuration__ of the app.
+You will need to add your API KEY to the __Environment variables__ In the __Build configuration__ of the app:
 
 
 ![](/img/continuous-integration/appcntr-2.png)
+
+- Make sure to "lock" the API KEY you entered using the lock icon next to the variable.
 
 
 Now you can run the build.

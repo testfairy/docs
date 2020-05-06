@@ -18,21 +18,15 @@ Here is an example of a `appcenter-post-build.sh` file:
 ```
 #!/usr/bin/env bash
 if [[ "$APPCENTER_XCODE_PROJECT" ]]; then
-$APPCENTER_OUTPUT_DIRECTORY/symbols/
-if [ "$APPCENTER_BRANCH" == "ios/staging" ]; then
--F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
--F "file=@$APPCENTER_OUTPUT_DIRECTORY/your_app_name.ipa" \
--F "symbols_file=@$APPCENTER_OUTPUT_DIRECTORY/symbols/draw-me-a-fairy.dsym" \
--F tags='appcntr, ios'
+  curl https://upload.testfairy.com/api/upload \
+    -F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
+    -F "file=@$APPCENTER_OUTPUT_DIRECTORY/Example.ipa" 
 fi
-fi
+
 if [[ -z "$APPCENTER_XCODE_PROJECT" ]]; then
-if [ "$APPCENTER_BRANCH" == "android/staging" ]; then
-curl https://upload.testfairy.com/api/upload \
--F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
--F "file=@$APPCENTER_OUTPUT_DIRECTORY/app-staging.apk" \
--F tags='appcntr, android'
-fi
+  curl https://upload.testfairy.com/api/upload \
+    -F "api_key=$TESTFAIRY_UPLOAD_API_KEY" \
+    -F "file=@$APPCENTER_OUTPUT_DIRECTORY/example.apk"
 fi
 ```
 

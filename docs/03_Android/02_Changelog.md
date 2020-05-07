@@ -1,3 +1,8 @@
+### Version 1.9.36
+Released: 2020-05-07
+
+* [BUGFIX] Notch padding is now correctly recognized by the feedback form.
+
 ### Version 1.9.35
 Released: 2020-05-05
 

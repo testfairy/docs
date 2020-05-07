@@ -25,11 +25,11 @@
 ![Configure JIRA cloud](/img/bug-tracking/jira-cloud-2.png)
 
 
-## 3. (optional, highly recommended!!!) Install the [TestFairy Chrome Extension](https://chrome.google.com/webstore/detail/testfairy-for-jira/joaafaemekbkgekhjbaldlllcnjifcee)
+## 3. (optional) Install the TestFairy Chrome Extension
 
-With this Chrome extension, every JIRA issue will show the right TestFairy session, timeline and logs, enbedded in JIRA.
+The TestFairy Chrome Extension is available [here](https://chrome.google.com/webstore/detail/testfairy-for-jira/joaafaemekbkgekhjbaldlllcnjifcee). With this Chrome extension, every JIRA issue that has a link to a TestFairy session will contain the right TestFairy session, timeline, logs, and crash reports enbedded in the JIRA issue.
 
-## 4. (optional, if you can't install a Chrome extension) Add The TestFairy JIRA Add-on to your JIRA account
+## 4. (optional, if you didn't install the Chrome extension) Add The TestFairy JIRA Add-on to your JIRA account
 
 The TestFairy JIRA Add-on adds TestFairy videos to JIRA issues.
 

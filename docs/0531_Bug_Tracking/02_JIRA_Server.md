@@ -103,6 +103,10 @@ Enter 'url' or any string to use for Application Link identification.
 	
 4. Update your config.json with `access_token` and `access_token_secret`.
 
+
+5. (optional) Install the TestFairy Chrome Extension
+
+The TestFairy Chrome Extension is available [here](https://chrome.google.com/webstore/detail/testfairy-for-jira/joaafaemekbkgekhjbaldlllcnjifcee). With this Chrome extension, every JIRA issue that has a link to a TestFairy session will contain the right TestFairy session, timeline, logs, and crash reports enbedded in the JIRA issue.
  
 
 

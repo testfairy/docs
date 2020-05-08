@@ -69,8 +69,8 @@ curl https://upload.testfairy.com/api/upload \
 	-F file=@sample.apk \
 	-F symbols_file=@sample_mapping.txt \
 	-F testers_groups='friends,beta' \
-	-F notify='on'
-	-F release_notes='stabilitty fixes, improvedment in ui'
+	-F notify='on' \
+	-F release_notes='stabilitty fixes, improvedment in ui' \
 	-F tags='production, english'
 ```
 

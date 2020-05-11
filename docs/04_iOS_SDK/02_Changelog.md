@@ -1,3 +1,8 @@
+### Version 1.24.3
+Released 2020-05-11
+
+* [NEW] Support PencilKit if PencilKit.framework is included in app
+
 ### Version 1.24.2
 Released 2020-04-01
 

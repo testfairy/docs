@@ -5,7 +5,7 @@ When loading an app to Testfairy the service decodes the app name, version numbe
 
 ### Displayed name in the dashboard
 
-The app name used in the dashboard is the **Display Name** in your iOS xcode project or the Value of the `string name=”app_name”` in the **strings.xml** file in the `res/values` directory of your android app in android studio.
+The app name used in the dashboard is the **Display Name** in your iOS xcode project or the Value of the `string name=”app_name”` in the **strings.xml** file in the `res/values` directory of your Android app in Android studio.
 
 **In Android Studio:**
 ![](/img/app_distribution/android-studio-app-name.png)
@@ -48,20 +48,17 @@ These fields will be translated and displayed in the following fields on the Tes
 
 ![](/img/app_distribution/ios-version-numbering.png)
 
-For more information on app versioning see documentation for android versioning <a href="https://developer.android.com/studio/publish/versioning#appversioning" target="_blank">here</a>, and for iOS versioning <a href="https://developer.apple.com/library/archive/technotes/tn2420/_index.html" target="_blank">here</a>.
+Read more about app versioning for <a href="https://developer.android.com/studio/publish/versioning#appversioning" target="_blank">Android</a>, or <a href="https://developer.apple.com/library/archive/technotes/tn2420/_index.html" target="_blank">iOS</a>.
 
 ## Separating your apps and builds in the TestFairy dashboard
 
-Sometimes you may want to separate builds of apps according to stages of work in your release funnel.
+In case you upload an app with the same version and package name (or Bundle Identifier), and this app already exists in your account, the new app will override the old app.
 
+If you want to keep the old app you can do one of the following:
 
-Here are 2 common way of doing that:
+1. Change the app version. Either increment the app version name or number, or add a numeric/textual suffix.
 
-- Change the **versionName** (in android) or the **Bundle versions string, short** (in iOS) to include a suffix to distinguish between builds (for example DEV, TEST and PROD). 
-    - In this case the **versionName** will look something like 1.2.34-DEV (34). 
-    - TestFairy will still group all the build under the same app since the **package name** is still the same.
-    
-    
-- If you want to separate the build to **different** apps in the dashboard then you will need to change the **package name** (in Android) or **Bundle ID** (in iOS) and add the desired suffix.
-    - For example: if your package name was **_com.myappname.mycompany_** then it would now change to **_com.myappname.mycompany.dev_** . 
-    - In this case your apps will be displayed separately in the TestFairy dashboard since the separation is based on the package name.
+2. Change the app package name (or Bundle Identifier)
+
+Please note that since TestFairy apps are grouped by package name, uploading an app with a new package name will create a new TestFairy project, so that apps with package name com.company.app will be grouped seperately than apps with package name com.company.app.debug
+

@@ -39,7 +39,7 @@ TestFairy.setFeedbackOptions(feedbackOptions);
 
 #### setDefaultText(String)
 
-You can provide a submission guideline to you users so that all reported feedbacks will have the minimum required info you need to troubleshoot reported issues easily.
+You can provide a submission guideline to your users so that all reported feedbacks will have the minimum required info needed to troubleshoot reported issues easily.
 
 ```java
 FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()

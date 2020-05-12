@@ -12,6 +12,7 @@ Here are a few methods that can help you customize the feedback behaviour:
 - `setEmailFieldVisible()`: Whether or not email input text should be displayed.
 - `setEmailMandatory()`: Whether or not people have to identify themselves when submitting feedback.
 - `setCallback()`: Get notified when a feedback has been sent.
+- `setDefaultText()`: Set the initial text content of the feedback form to standardize reported feedbacks with submission guidelines.
 
 #### setBrowserUrl(String url)
 
@@ -32,6 +33,24 @@ You can decide whether the email field is visible or not, and whether the email 
 FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
 	.setEmailFieldVisible(true)
 	.setEmailMandatory(true)
+	.build();
+TestFairy.setFeedbackOptions(feedbackOptions);
+```
+
+#### setDefaultText(String)
+
+You can provide a submission guideline to you users so that all reported feedbacks will have the minimum required info you need to troubleshoot reported issues easily.
+
+```java
+FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
+	.setDefaultText("Tested on the following device:\n" +
+                        *\n\n" +
+                        "Steps to reproduce:\n" +
+                        "1.\n\n" +
+                        "2.\n\n" +
+                        "3.\n\n" +
+                        "Actual Result:\n" +
+                        "Expected Result:\n")
 	.build();
 TestFairy.setFeedbackOptions(feedbackOptions);
 ```

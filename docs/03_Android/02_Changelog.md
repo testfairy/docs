@@ -1,3 +1,8 @@
+### Version 1.9.37
+Released: 2020-05-13
+
+* [NEW] Added a way to provide a default text as feedback description.
+
 ### Version 1.9.36
 Released: 2020-05-07
 

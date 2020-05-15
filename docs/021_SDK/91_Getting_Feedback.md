@@ -21,7 +21,7 @@ All feedback includes a screenshot, device information, submitter email, and tex
 
 In case you wish to use the TestFairy feedback form without having the user shake their device, you can invoke the feedback form programmatically and call the method at your choice. You can do it on any gesture, button click in your app, if the user opened the help menu, or even got an error message theyr didn't expect. 
 
-Please note that if you choose to programmaitcally invoke the feedback form, it will be shown, regardless if the in-app feedback is disabled in your build settings.
+Please note that if you choose to programmatically invoke the feedback form, it will be shown, regardless if the in-app feedback is disabled in your build settings.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">

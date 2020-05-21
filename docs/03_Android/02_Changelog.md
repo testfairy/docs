@@ -1,3 +1,11 @@
+### Version 1.9.38
+Released: 2020-05-21
+
+* [NEW] `takeScreenshot()` now works even when video is disabled.
+* [IMPROVEMENT] Added more video network optimizations for 4K phones.
+* [BUGFIX] Feedback screenshot editor supports translucent status bars.
+
+
 ### Version 1.9.37
 Released: 2020-05-13
 

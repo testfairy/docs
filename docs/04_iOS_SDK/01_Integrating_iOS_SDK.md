@@ -1,13 +1,13 @@
 <iframe width="854" height="480" src="https://www.youtube.com/embed/DhRX5UukvPM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Integrating the TestFairy SDK into your app helps you better understand how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metrics you may need to optimize your user experience and code.
-You get to: 
+You get to:
 
-* Track app use. 
-* Handle crashes and report to server. 
-* Record screen video and other metrics. 
-* Understand user flow, using checkpoints. 
-* Grab NSLogs from client and report to server. 
+* Track app use.
+* Handle crashes and report to server.
+* Record screen video and other metrics.
+* Understand user flow, using checkpoints.
+* Grab NSLogs from client and report to server.
 * Automatically update if a new build is available.
 
 ## Add the SDK
@@ -169,15 +169,27 @@ You get to:
   </div>
 </div>
 
-### Class Reference 
+### Using PencilKit for Better Feedback
 
-[https://docs.testfairy.com/reference/ios/Classes/TestFairy.html](https://docs.testfairy.com/reference/ios/Classes/TestFairy.html) 
+You can give your users a better set of tools to markup any screenshots provided during feedback by adding PencilKit to your project. Simply add the PencilKit.framework to your project.
 
-### Troubleshooting 
+> **Note**: This requires iOS 13 and Xcode 11 and up in order to add
+
+![alt](/img/ios/sdk/pencilkit.png)
+
+Now, if a screenshot is attached to the feedback, your users can edit the screenshot by tapping on it and using PencilKit to mark it up.
+
+![alt](/img/ios/sdk/pencilkit-feedback.png)
+
+### Class Reference
+
+[https://docs.testfairy.com/reference/ios/Classes/TestFairy.html](https://docs.testfairy.com/reference/ios/Classes/TestFairy.html)
+
+### Troubleshooting
 
 For more information about common problems when integrating the iOS SDK, please visit
-our [FAQ page](https://docs.testfairy.com/FAQ.html) 
+our [FAQ page](https://docs.testfairy.com/FAQ.html)
 
-### Related documentation 
+### Related documentation
 
 * [Upload iOS dSYM files to TestFairy](/iOS_SDK/Uploading_dSyms_to_TestFairy.html)

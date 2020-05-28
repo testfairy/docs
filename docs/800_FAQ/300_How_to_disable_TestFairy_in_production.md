@@ -116,3 +116,7 @@ try {
 ```
 
 Then, in your `build.gradle` file, change the SDK dependency with `debugImplementation 'testfairy:testfairy-android-sdk:1.+@aar'` or any other version of your choosing.
+
+#### Option 3: Use TestFairy Production SDK
+
+If the reason why you need to exclude the SDK is to be able comply with app store terms, then you can integrate TestFairy Production SDK and enjoy the same capabilities as before. Production SDK is stripped from all automatic update and app distribution bytecode as advised by [Play Store Developer Distribution Agreement Article 4.5](https://play.google.com/about/developer-distribution-agreement.html).

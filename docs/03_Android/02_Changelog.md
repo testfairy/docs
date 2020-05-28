@@ -1,3 +1,8 @@
+### Version 1.10.0
+Released: 2020-05-28
+
+* [NEW] Extracted auto update and app distribution modules for a brand new release of TestFairy Production SDK. See [Production SDK docs]() to learn how to opt in.
+
 ### Version 1.9.38
 Released: 2020-05-21
 

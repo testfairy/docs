@@ -64,4 +64,4 @@ The app is then displayed in the [testers dashboard](https://docs.testfairy.com/
 
 ### Production SDK
 
-App distribution must not be used in production. [See here]() to learn how to opt out.
+App distribution must not be used in production. [See here](https://docs.testfairy.com/Android/Production_SDK.html) to learn how to opt out.

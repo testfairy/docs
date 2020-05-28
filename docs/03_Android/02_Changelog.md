@@ -1,7 +1,7 @@
 ### Version 1.10.0
 Released: 2020-05-28
 
-* [NEW] Extracted auto update and app distribution modules for a brand new release of TestFairy Production SDK. See [Production SDK docs]() to learn how to opt in.
+* [NEW] Extracted auto update and app distribution modules for a brand new release of TestFairy Production SDK. See [Production SDK docs](https://docs.testfairy.com/Android/Production_SDK.html) to learn how to comply with Play Store policies.
 
 ### Version 1.9.38
 Released: 2020-05-21
@@ -230,7 +230,7 @@ Released: 2018-07-19
 
 ### Version 1.7.5
 Released: 2018-07-18
-* [BUGFIX] Fix a rare crash that was happening on Android O during an auto update if the app has no REQUEST_INSTALL_PACKAGES permission.   
+* [BUGFIX] Fix a rare crash that was happening on Android O during an auto update if the app has no REQUEST_INSTALL_PACKAGES permission.
 
 ### Version 1.7.4
 Released: 2018-06-21

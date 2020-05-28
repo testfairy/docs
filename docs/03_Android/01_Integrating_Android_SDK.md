@@ -27,7 +27,7 @@ Both Java and Kotlin apps are supported.
 
 ## Production Use
 
-TestFairy SDK also ships a sister Production SDK which excludes app distribution capabilities to be able to comply with app store publishing policies. It is strongly advised to use TestFairy Production SDK if you are going to release your app on Google Play.
+TestFairy SDK also ships a sister Production SDK which excludes app distribution capabilities to be able to comply with app store publishing policies. It is strongly advised to use [TestFairy Production SDK](https://docs.testfairy.com/Android/Production_SDK.html) if you are going to release your app on Google Play.
 
 ```
    dependencies {

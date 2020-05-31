@@ -10,7 +10,7 @@ Install the [TestFairy fetch sessions](https://github.com/testfairy/testfairy-fe
 npm install -g --link git+https://github.com/testfairy/testfairy-fetch-sessions.git
 ```
 
-## 2. Configure a chron job that will run the TestFairy client 
+## 2. Configure a cron job that will run the TestFairy client 
 
 Create a cron job that will run the TestFairy Logs client every 15 minutes.
 

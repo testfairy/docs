@@ -35,10 +35,12 @@ Please make sure to replace the following params:
 * Optional: add --all-time to get logs from all time. If not used, tool will fetch logs from the last 24 hours.
 
 
-## 3. Install [FluentD v1.0+](https://docs.fluentd.org/installation)
+## 3. Install FluentD
+
+Install FluentD v1.0+ from [here](https://docs.fluentd.org/installation)
 
 
-## 4. Install the following fluentd plugins:
+## 4. Install Fluentd plugins:
 
 4.1. [fluent-plugin-coralogix](https://github.com/coralogix/fluentd-coralogix-image)
 
@@ -46,13 +48,11 @@ Please make sure to replace the following params:
 
 4.3. [fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat)
 
-## 5. Configure fluentd
+## 5. Configure Fluentd
 
-5.1. Download [fluentd.conf](/img/coralogix/fluentd.conf) fluentd.conf file, and change the following parameters:
-
-5.2. <source> type tail --> path (point to the testfairy-sessions folder)
-
+5.1. Download [fluentd.conf](/img/coralogix/fluentd.conf) 
 
 ![coralogix](/img/coralogix/image.png)
 
+5.2. Under label Coralogix => match ** change privatekey, appname and subsystemname 
 ![coralogix](/img/coralogix/image2.png)

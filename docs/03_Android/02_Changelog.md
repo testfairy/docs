@@ -1,7 +1,7 @@
 ### Version 1.10.0
 Released: 2020-05-28
 
-* [NEW] Extracted auto update and app distribution modules for a brand new release of TestFairy Production SDK. See [Production SDK docs](https://docs.testfairy.com/Android/Production_SDK.html) to learn how to comply with Play Store policies.
+* [IMPROVEMENT] Refactored auto update module to comply with Play Store guidelines.
 
 ### Version 1.9.38
 Released: 2020-05-21

@@ -47,8 +47,8 @@ Please make sure to replace the following params:
 
 3.5. Download [fluentd.conf](/img/coralogix/fluentd.conf) and save it TODO Where to save TODO
 
-3.6. Under source => type tail update *path* to point to the testfairy sessions folder.
+3.6. Under &lt;source&gt; => *@type tail* update **path** to point to the testfairy sessions folder.
 ![coralogix](/img/coralogix/image.png)
 
-3.7. Under label Coralogix => match ** change *privatekey*, *appname* and *subsystemname*
+3.7. Under &lt;label @CORALOGIX&gt; => &lt;match * *&gt; change **privatekey**, **appname** and **subsystemname**
 ![coralogix](/img/coralogix/image2.png)

@@ -1,7 +1,5 @@
 [Coralogix](https://coralogix.com/) is a Log Analytics platform that helps companies get real time insights from their logs.
 
-CORAOGIX TEAM PLEASE SUGGEST BETTER LANGUAGE
-
 In order to integrate TestFairy with Coralogix, and automatically push all the logs collected from 
 your mobile devices to the Coralogix platform, please do the following:
 

@@ -34,3 +34,16 @@ Please make sure to replace the following params:
 
 * Optional: add --all-time to get logs from all time. If not used, tool will fetch logs from the last 24 hours.
 
+
+2. Install [FluentD v1.0+](https://docs.fluentd.org/installation)
+3. Install the following fluentd plugins:
+3.1. [fluent-plugin-coralogix](https://github.com/coralogix/fluentd-coralogix-image)
+3.2. [fluent-plugin-detect-exceptions](https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions)
+3.3. [fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat)
+4. Download [fluentd.conf](/img/coralogix/fluentd.conf) fluentd.conf file, and change the following parameters:
+4.1. <source> type tail --> path (point to the testfairy-sessions folder)
+
+
+![coralogix](/img/coralogix/image.png)
+
+![coralogix](/img/coralogix/image2.png)

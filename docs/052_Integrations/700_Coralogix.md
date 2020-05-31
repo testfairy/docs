@@ -1,5 +1,7 @@
 [Coralogix](https://coralogix.com/) is a Log Analytics platform that helps companies get real time insights from their logs.
 
+CORAOGIX TEAM PLEASE SUGGEST BETTER LANGUAGE
+
 In order to integrate TestFairy with Coralogix, and automatically push all the logs collected from 
 your mobile devices to the Coralogix platform, please do the following:
 
@@ -47,7 +49,7 @@ Please make sure to replace the following params:
 
 3.5. Download [fluentd.conf](/img/coralogix/fluentd.conf) and save it TODO Where to save TODO
 
-3.6. Under &lt;source&gt; => *@type tail* update **path** to point to the testfairy sessions folder.
+3.6. Edit fluentd.conf and under &lt;source&gt; => *@type tail* update **path** to point to the testfairy sessions folder.
 ![coralogix](/img/coralogix/image.png)
 
 3.7. Under &lt;label @CORALOGIX&gt; => &lt;match * *&gt; change **privatekey**, **appname** and **subsystemname**

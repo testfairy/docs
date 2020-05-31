@@ -39,21 +39,16 @@ Please make sure to replace the following params:
 
 3.1. Install FluentD v1.0+ from [here](https://docs.fluentd.org/installation)
 
+3.2 Install plugin [fluent-plugin-coralogix](https://github.com/coralogix/fluentd-coralogix-image)
 
-3.2. Install Fluentd plugins:
+3.3. Install plugin [fluent-plugin-detect-exceptions](https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions)
 
-3.2.1. [fluent-plugin-coralogix](https://github.com/coralogix/fluentd-coralogix-image)
+3.4. Install plugin [fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat)
 
-3.2.2. [fluent-plugin-detect-exceptions](https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions)
+3.5. Download [fluentd.conf](/img/coralogix/fluentd.conf) and save it TODO Where to save TODO
 
-3.2.3. [fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat)
-
-3.3. Configure Fluentd
-
-3.3.1. Download [fluentd.conf](/img/coralogix/fluentd.conf) 
-
-3.3.2. Under source => type tail update *path* to point to the testfairy sessions folder.
+3.6. Under source => type tail update *path* to point to the testfairy sessions folder.
 ![coralogix](/img/coralogix/image.png)
 
-3.3.3. Under label Coralogix => match ** change *privatekey*, *appname* and *subsystemname*
+3.7. Under label Coralogix => match ** change *privatekey*, *appname* and *subsystemname*
 ![coralogix](/img/coralogix/image2.png)

@@ -1,6 +1,8 @@
-TestFairy has 2 types of SDKs: Testing and Proiduction.
-The difference between the two is auto-update. Testing SDK includes it and Production does not.
-It is **critical** that production builds will not include the testing SDK, because auto-update should not be included in Play Store apps.
+TestFairy has 2 types of SDKs: Testing and Production.
+
+The difference is auto-update. Testing SDK includes auto update functionality and Production does not.
+
+It is **critical** that Play Store builds will not include auto-update.
 
 
 

@@ -1,7 +1,13 @@
 In this document:
 
 - [Installation](#installation)
-
+- [Setting Screen Name](#set-screen-name)
+- [Logging Exceptions](#log-exceptions)
+- [Exporting Ad-hoc or Production Builds for iOS](#export-adhoc)
+- [Troubleshooting](#troubleshooting)
+- [Identifying Your Users](#identify-users)
+- [Setting Session Attributes](#session-attributes)
+- [Remote Logging](#remote-logging)
 
 <a name="installation"></a>
 ## Installation
@@ -53,6 +59,7 @@ The steps in this section are an example of how to add the TestFairy Unity SDK t
 
 ## Usage
 
+<a name="set-screen-name"></a>
 ### Setting Screen Name
 
 TestFairy can capture screenshots during a recorded session. It attempts to autmatically name a screenshot based on different measures. In order to override this you can invoke `setScreenName`, and set your own name for a captured screen. `setScreenName` expects a String, so developers are free to label screenshots with any appropriate label. Some developers make use of the level name to set the screenshot, for example:
@@ -72,6 +79,7 @@ public class cameraScript : MonoBehaviour {
 }
 ```
 
+<a name="log-exceptions"></a>
 ### Log your exceptions
 
 If you would like to capture exception logs and send them to the TestFairy dashbord use this code example:
@@ -95,6 +103,7 @@ private void HandleLog(string message, string stackTrace, LogType type)
 }
 ```
 
+<a name="export-adhoc"></a>
 ## Exporting Ad-hoc or Production Builds for iOS
 
 When building your Unity project for iOS, a few extra steps are required. 
@@ -135,7 +144,8 @@ public class TestFairyBuildPostProcessor {
 
 ```
 
-### Possible errors and solutions
+<a name="troubleshooting"></a>
+### Troubleshooting
 
 If you omit adding the above script, you may encounter the following errors:
 
@@ -148,14 +158,17 @@ This happens when you export your iOS app for the App store. The App Store only 
 
 This happens when you export an Ad hoc version of your iOS app. Most often seen in Unity Cloud build.
 
+<a name="identify-users"></a>
 ### Identifying your users
 
 See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#unity) for more information.
 
+<a name="session-attributes"></a>
 ### Session Attributes
 
 See the [SDK Documentation](https://docs.testfairy.com/SDK/Session_Attributes.html#unity) for more information.
 
+<a name="remote-logging"></a>
 ### Remote Logging
 
 See the [SDK Documentation](https://docs.testfairy.com/SDK/Remote_Logging.html#unity) for more information.

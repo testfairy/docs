@@ -1,4 +1,9 @@
+In this document:
 
+- [Installation](#installation)
+
+
+<a name="installation"></a>
 ## Installation
 
 The steps in this section are an example of how to add the TestFairy Unity SDK to your Unity project.

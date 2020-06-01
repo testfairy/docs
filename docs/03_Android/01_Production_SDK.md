@@ -2,7 +2,7 @@ TestFairy has 2 types of SDKs: Testing and Production.
 
 The difference is auto-update. Testing SDK includes auto update functionality and Production does not.
 
-It is **critical** that Play Store builds will not include auto-update.
+It is **critical** for Play Store builds not to include auto-update functionality.
 
 
 
@@ -11,7 +11,7 @@ Both Java and Kotlin apps are supported.
 [ ![Download](https://api.bintray.com/packages/testfairy/testfairy/testfairy-production/images/download.svg) ](https://bintray.com/testfairy/testfairy/testfairy-production/_latestVersion)
 -->
 
-## Debug (testing only)
+## Debug (Testing only)
 
 In case your app uses TestFairy only in debug builds use the following Gradle configuration:
 

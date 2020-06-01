@@ -54,5 +54,5 @@ Please make sure to replace the following params:
 
 ## 4. Run FluentD
 
-4. Run fluentd with terminal parameter **-c /etc/config/fluentd.conf** (change based on where you downloaded **fluentd.conf** in _3.5_) and enjoy the flow of TestFairy logs into your Coralogix account. FluentD will automatically ship new logs as they are dowbloaded by testfairy-fetch-sessions cron job.
+Run fluentd with terminal parameter **-c /etc/config/fluentd.conf** (change based on where you downloaded **fluentd.conf** in _3.5_) and enjoy the flow of TestFairy logs into your Coralogix account. FluentD will automatically ship new logs as they are dowbloaded by testfairy-fetch-sessions cron job.
 

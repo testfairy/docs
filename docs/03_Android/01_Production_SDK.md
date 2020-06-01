@@ -19,7 +19,7 @@ Both Java and Kotlin apps are supported.
 
 ## Use Production SDK only for store releases
 
-Although Production SDK is enough for your production needs, you may want to still enjoy app distribution capabilities during your internal testing process. For such projects, we suggest utilizing build variants in gradle to selectively depend on the proper SDK.
+Although Production SDK is enough for your production needs, you may still want to enjoy app distribution capabilities during your internal testing process. For such projects, we suggest utilizing build variants in gradle to selectively depend on the proper SDK.
 
 The default Android app project comes with two build types, namely **debug** and **release**. We want to add a new type to represent internal testing. We will call that **staging**. The code below showcases how to use Production SDK for only release builds.
 

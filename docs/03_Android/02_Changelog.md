@@ -1,3 +1,8 @@
+### Version 1.10.1
+Released: 2020-06-02
+
+* [BUGFIX] User feedbacks now also grab session attributes just like feedback form.
+
 ### Version 1.10.0
 Released: 2020-05-28
 

@@ -34,6 +34,7 @@ Please make sure to replace the following params:
 
 * Optional: add **--all-time** flag to get logs from all time. If not used, tool will fetch logs from the last 24 hours.
 
+* Optional: add **--prepend-attributes** to start every log line with all session attributes.
 
 ## 3. Install FluentD
 

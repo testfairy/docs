@@ -17,9 +17,10 @@ Some apps won't require you to register your device. In this case, simply click 
 2. Make sure you open the link with the **Safari** browser.
 3. The link will open your tester dashboard at [my.testfairy.com](https://my.testfairy.com) and display the `Register device` button. Click it to initiate the download.
 4. You will be prompted to download the TestFairy configuration profile. Click the **Allow** button to download it.
-5. Once the profile was downloaded go to the **settings app** and click on the **profile downloaded** menu. 
-6. The profile installer will open. Click on **Install**.
-7. Your device is now registered in TestFairy. Please wait for the developer to send you a download link.
+5. Once the profile was downloaded go to the **settings app** and  go to the **General** --> **Profiles** menu.
+6. On the right side you will see a list of profiles with a section of **Downloaded Profiles**. Press the **TestFairy** profile that is located there.
+7. The profile installer will open. Click on **Install**.
+8. Your device is now registered in TestFairy. Please wait for the developer to send you a download link.
 
 
 ### Downloading apps

@@ -1,3 +1,13 @@
+### Version 1.11.0
+Released: 2020-06-08
+
+* [IMPROVEMENT] Improved screenshots and video recording algorithm.
+
+### Version 1.10.2
+Released: 2020-06-04
+
+* [IMPROVEMENT] Refactored auto update module further to comply with Play Store guidelines.
+
 ### Version 1.10.1
 Released: 2020-06-02
 

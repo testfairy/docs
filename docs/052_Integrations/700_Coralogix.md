@@ -32,9 +32,10 @@ Please make sure to replace the following params:
 
 * Optional: replace **../my_private_keys/private.pem** with the path to your private key if you have one.
 
-* Optional: add **--all-time** flag to get logs from all time. If not used, tool will fetch logs from the last 24 hours.
-
 * Optional: add **--json** to have log line as a json with all session attributes.
+
+* Optional: add **--all-time** flag to get logs from all time. If not used, tool will fetch logs from the last 24 hours only. Do not use this option unless this is the first time you are debugging the service. Logs older than 24 hours are usually pure waste of disk space.
+
 
 ## 3. Install FluentD
 

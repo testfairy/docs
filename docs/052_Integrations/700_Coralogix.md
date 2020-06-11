@@ -12,9 +12,7 @@ npm install -g --link git+https://github.com/testfairy/testfairy-fetch-sessions.
 
 ## 2. Configure a cron job that will run the TestFairy client 
 
-Create a cron job that will run the TestFairy Logs client every 15 minutes.
-
-This is the comment you need to run:
+Create a cron job that will run this command every 15 minutes.
 
 ```
 testfairy-fetch-sessions --endpoint "your_subdomain.testfairy.com" --user "john@example.com" --api-key "YOUR_API_KEY" --project-id=1000 --logs --rsa-private-key ../my_private_keys/private.pem

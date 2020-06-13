@@ -15,7 +15,7 @@ npm install -g --link git+https://github.com/testfairy/testfairy-fetch-sessions.
 Create a cron job that will run this command every 15 minutes.
 
 ```
-testfairy-fetch-sessions --endpoint "your_subdomain.testfairy.com" --user "john@example.com" --api-key "YOUR_API_KEY" --project-id=1000 --logs --rsa-private-key ../my_private_keys/private.pem
+testfairy-fetch-sessions --endpoint "your_subdomain.testfairy.com" --user "john@example.com" --api-key "YOUR_API_KEY" --project-id=1000 --logs --json --rsa-private-key ../my_private_keys/private.pem
 ```
 
 Please make sure to replace the following params:
@@ -32,7 +32,7 @@ Please make sure to replace the following params:
 
 * Optional: add **--json** to have log line as a json with all session attributes.
 
-* Optional: add **--all-time** flag to get logs from all time. If not used, tool will fetch logs from the last 24 hours only. Do not use this option unless this is the first time you are debugging the service. Logs older than 24 hours are usually pure waste of disk space.
+* Optional: add **--all-time** flag to get logs from all time. If not used, tool will fetch logs from the last 24 hours only. Do not use this option unless this is the first time you are debugging the service. Logs older than 24 hours are usually a pure waste of good disk space.
 
 
 ## 3. Install FluentD

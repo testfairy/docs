@@ -2,6 +2,7 @@
 Released: 2020-06-08
 
 * [IMPROVEMENT] Improved screenshots and video recording algorithm.
+* [BUGFIX] Removed legacy library org.apache.http.legacy from manifest. 
 
 ### Version 1.10.2
 Released: 2020-06-04

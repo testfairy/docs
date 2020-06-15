@@ -1,3 +1,8 @@
+### Version 1.11.3
+Released: 2020-06-15
+
+* [NEW] Customize Auto-Update and Provide Feedback dialog colors.
+
 ### Version 1.11.0
 Released: 2020-06-08
 

@@ -21,9 +21,11 @@ jobs:
     steps:
       # ... steps to build IPA or APK
       - testfairy/uploader:
-          api-key: 1234567890
+          api-key: TESTFAIRY_API_KEY
           file: app.apk
 ```
+
+Where TESTFAIRY_API_KEY is name environment variable that contains your API key. Environment variables is the best practice so you don't commit secret values into your code repository.
 
 You can see the full list of supported commands by visiting the [CircleCI TestFairy ORB Repository](https://circleci.com/orbs/registry/orb/testfairy/uploader).
 

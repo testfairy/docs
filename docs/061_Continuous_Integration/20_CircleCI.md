@@ -7,7 +7,7 @@ In order to use the ORB, add the following line to the `orbs` section of your `.
 
 ```yml
 orbs:
- testfairy: testfairy/uploader@1.0.0
+ testfairy: testfairy/uploader@2.0.1
 ```
 
 Then, in order to upload your IPA or APK, you'll have to call `testfairy/uploader` providing the path to the file and your API key. As an example of creating add the following command:
@@ -23,7 +23,5 @@ jobs:
           file: app.apk
 ```
 
-To learn more, about the ORB, check out the ORB in the [Circle CI ORB repository](https://circleci.com/orbs/registry/orb/testfairy/uploader).
+You can see the full list of supported commands by visiting the [Circle CI ORB Repository](https://circleci.com/orbs/registry/orb/testfairy/uploader).
 
-# Deploying an iOS app to the App Store
-Page moved to [https://circleci.com/docs/2.0/deploying-ios/#uploading-to-testfairy](https://circleci.com/docs/2.0/deploying-ios/#uploading-to-testfairy)

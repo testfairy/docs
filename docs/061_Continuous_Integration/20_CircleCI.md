@@ -1,7 +1,9 @@
 
-# TestFairy's Circle CI ORB
+# CircleCI
 
-You can use the TestFairy ORB from the Circle CI ORB registry to upload builds to TestFairy.
+[circleCI](https://circleci.com) is a cloud based CI/CD service that helps developers automate their development process with CI hosted in the cloud or on a private server.
+
+TestFairy has a CircleCI "ORB" that allows you to easily upload builds to TestFairy.
 
 In order to use the ORB, add the following line to the `orbs` section of your `.circleci/config.yml`:
 
@@ -23,5 +25,5 @@ jobs:
           file: app.apk
 ```
 
-You can see the full list of supported commands by visiting the [Circle CI ORB Repository](https://circleci.com/orbs/registry/orb/testfairy/uploader).
+You can see the full list of supported commands by visiting the [CircleCI TestFairy ORB Repository](https://circleci.com/orbs/registry/orb/testfairy/uploader).
 

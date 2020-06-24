@@ -1,3 +1,8 @@
+### Version 1.24.4
+Released 2020-06-23
+
+* [NEW] Added `setEncryptionPolicy` which allows you to control whether logs, or screenshot are encrypted
+
 ### Version 1.24.3
 Released 2020-05-11
 

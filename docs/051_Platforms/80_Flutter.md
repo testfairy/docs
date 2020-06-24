@@ -80,6 +80,18 @@ If you need to update the native iOS SDK used by your current integration, run `
 
 ### Troubleshooting
 
+* I see `Errno::ENOENT - No such file or directory @ rb_sysopen - ./ios/Pods/Local Podspecs/testfairy.podspec.json` when I build an iOS app.
+
+Add the following line to the beginning of your generated iOS project's Podfile.
+
+```
+# Beginning of file
+use_frameworks!
+
+# The rest of the file contents
+# ...
+```
+
 * I see `Looks like TestFairy has an upgrade to do... 1.X.Y+hotfixZ is the latest stable branch` or errors related to Jetifier in the logs when I call an SDK method. --> Migrate your Android project to AndroidX by following [this](https://flutter.dev/docs/development/androidx-migration) guide.
 
 * I see `Undefined symbols for architecture` error during compilation. --> You must use frameworks and specify a platform version of at least `9.0` in your generated iOS project's Podfile. Please make the following changes in *ios/Podfile* and rebuild:

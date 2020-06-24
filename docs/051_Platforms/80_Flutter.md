@@ -37,39 +37,30 @@ import 'dart:io';
 import 'package:testfairy/testfairy.dart';
 
 void main() {
-    HttpOverrides.runWithHttpOverrides(
-         () async {
-           try {
-             // Enables widget error logging
-             FlutterError.onError =
-                 (details) => TestFairy.logError(details.exception);
-   
-             // Initializes a session
-             await TestFairy.begin(TOKEN);
-   
-             // Runs your app
-             runApp(TestfairyExampleApp());
-           } catch (error) {
-   
-             // Logs synchronous errors
-             TestFairy.logError(error);
-   
-           }
-         },
-   
-         // Logs network events
-         TestFairy.httpOverrides(),
-   
-         // Logs asynchronous errors
-         onError: TestFairy.logError,
-   
-         // Logs console messages
-         zoneSpecification: new ZoneSpecification(
-           print: (self, parent, zone, message) {
-             TestFairy.log(message);
-           },
-         )
-     );
+  HttpOverrides.global = TestFairy.httpOverrides();
+
+  runZonedGuarded(
+    () async {
+      try {
+        FlutterError.onError =
+            (details) => TestFairy.logError(details.exception);
+
+        // Call `await TestFairy.begin()` or any other setup code here.
+
+        runApp(TestfairyExampleApp());
+      } catch (error) {
+        TestFairy.logError(error);
+      }
+    },
+    (e, s) {
+      TestFairy.logError(e);
+    },
+    zoneSpecification: new ZoneSpecification(
+      print: (self, parent, zone, message) {
+        TestFairy.log(message);
+      },
+    )
+  );
 }
 ```
 

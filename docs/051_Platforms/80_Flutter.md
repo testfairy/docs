@@ -28,7 +28,11 @@ import 'package:testfairy/testfairy.dart';
 ```
 
 ### Quick Start
-Include the library and run your main app like this. Make sure your project is [AndroidX](https://flutter.dev/docs/development/androidx-migration) compatible.
+Include the library and run your main app like this. 
+
+Make sure your project is [AndroidX](https://flutter.dev/docs/development/androidx-migration) compatible.
+
+Minimum supported iOS target is 9.0.
 
 ```dart
 // inside your main.dart
@@ -73,8 +77,21 @@ If you need to update the native iOS SDK used by your current integration, run `
 
 * I see `Errno::ENOENT - No such file or directory @ rb_sysopen - ./ios/Pods/Local Podspecs/testfairy.podspec.json` when I build an iOS app.
 
-Add the following line to the beginning of your generated iOS project's Podfile.
+This happens due to a pod misconfiguration bug on the Flutter side.
 
+Clean your project, remove *ios/Podfile* and Xcode workspace file entirely. (make sure you have backups just in case)
+```
+flutter clean
+rm -rf ios/Podfile ios/Podfile.lock pubspec.lock ios/Pods ios/Runner.xcworkspace
+```
+
+Revert to **cocoapods 1.7.5** temporarily.
+```
+gem uninstall cocoapods
+gem install cocoapods -v 1.7.5
+```
+
+Add the following line to the beginning of your iOS project's generated Podfile.
 ```
 # Beginning of file
 use_frameworks!
@@ -82,6 +99,18 @@ use_frameworks!
 # The rest of the file contents
 # ...
 ```
+
+Install pods.
+```
+pod repo update
+cd ios
+pod install
+cd ..
+```
+
+Retry your build.
+
+Once your build is successful, you can update cocoapods back to its latest version.
 
 * I see `Looks like TestFairy has an upgrade to do... 1.X.Y+hotfixZ is the latest stable branch` or errors related to Jetifier in the logs when I call an SDK method. --> Migrate your Android project to AndroidX by following [this](https://flutter.dev/docs/development/androidx-migration) guide.
 

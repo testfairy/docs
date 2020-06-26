@@ -75,9 +75,13 @@ If you need to update the native iOS SDK used by your current integration, run `
 
 ### Troubleshooting
 
-* I see `Errno::ENOENT - No such file or directory @ rb_sysopen - ./ios/Pods/Local Podspecs/testfairy.podspec.json` when I build an iOS app.
+* I have my own `HttpOverrides.global` setup. How can I make it work with TestFairy?
 
-This happens due to a pod misconfiguration bug on the Flutter side.
+Copy [this](https://github.com/testfairy/testfairy-flutter/blob/master/lib/src/network_logging.dart) file to your project. Add the necessary functionality and assign to `HttpOverrides.global` an instance from your new implementation.
+
+* I see **Errno::ENOENT - No such file or directory @ rb_sysopen - ./ios/Pods/Local Podspecs/testfairy.podspec.json** when I build an iOS app.
+
+This happens due to a pod misconfiguration bug on the Flutter side. We have [blog post](https://blog.testfairy.com/errnoenoent-fix-for-flutter-ios/) explaining the issue if you are interested.
 
 Clean your project, remove *ios/Podfile* and Xcode workspace file entirely. (make sure you have backups just in case)
 ```

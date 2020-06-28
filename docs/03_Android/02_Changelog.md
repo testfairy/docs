@@ -1,3 +1,10 @@
+### Version 1.11.4
+Released: 2020-06-23
+
+* [NEW] Specify a policy to toggle encryption for logs and video.
+* [BUGFIX] Touch events in dialogs are now recognized properly.
+* [IMPROVEMENT] Reduced amount of network calls made.
+
 ### Version 1.11.3
 Released: 2020-06-15
 

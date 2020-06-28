@@ -33,7 +33,6 @@ Please follow these steps to integrate TestFairy's Android SDK in your project:
 5. Add these two activities in your `<application>` section in *AndroidManifest.xml*:
   ```
   <activity android:name="com.testfairy.activities.ProvideFeedbackActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Holo.Light" />
-  <activity android:name="com.testfairy.activities.AutoUpdateActivity" android:configChanges="orientation|screenSize" />
   ```
 
 6. Add Testfairy to your main applications's `onCreate`:

@@ -30,7 +30,7 @@ Please follow these steps to integrate TestFairy's Android SDK in your project:
   <uses-permission android:name="android.permission.BATTERY_STATS" />  
   ```
 
-5. Add these two activities in your `<application>` section in *AndroidManifest.xml*:
+5. Add this activity in your `<application>` section in *AndroidManifest.xml*:
   ```
   <activity android:name="com.testfairy.activities.ProvideFeedbackActivity" android:configChanges="orientation|screenSize" android:theme="@android:style/Theme.Holo.Light" />
   ```

@@ -25,15 +25,6 @@ Both Java and Kotlin apps are supported.
 2. Add Testfairy to your main activity's `onCreate`:
 <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
-## Production Use
-
-TestFairy SDK also ships a sister Production SDK which excludes app distribution capabilities to be able to comply with app store publishing policies. It is strongly advised to use [TestFairy Production SDK](https://docs.testfairy.com/Android/Production_SDK.html) if you are going to release your app on Google Play.
-
-```
-   dependencies {
-       implementation 'com.testfairy.production.sdk:testfairy-android-production-sdk:1.+@aar'
-   }
-```
 
 ## Proguard (optional)
 

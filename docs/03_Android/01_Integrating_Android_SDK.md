@@ -25,6 +25,7 @@ Both Java and Kotlin apps are supported.
 2. Add Testfairy to your main activity's `onCreate`:
 <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
+* *(Optional)* You may also include the SDK as an asset and [load it dynamically during runtime](TODO). This improves memory consumption during app launch but initial setup is a little less trivial. Most apps don't require this type of integration unless their memory budgets are more strict than the common practice.
 
 ## Proguard (optional)
 

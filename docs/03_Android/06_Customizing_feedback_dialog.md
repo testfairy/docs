@@ -39,7 +39,7 @@ TestFairy.setFeedbackOptions(feedbackOptions);
 
 #### setDefaultText(String)
 
-You can provide a submission guideline to your users so that all reported feedbacks will have the minimum required info needed to troubleshoot reported issues easily.
+In order to change the default text that users see in the feedback form textarea, please use the following:
 
 ```java
 FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()

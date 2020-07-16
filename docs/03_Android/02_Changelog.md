@@ -1,3 +1,11 @@
+### Version 1.11.6
+Released: 2020-07-16
+
+* [IMPROVEMENT] View ids in view tree are now reported as resource strings instead of integers.
+* [IMPROVEMENT] EditText focus detection.
+* [BUGFIX] Fixed duplicate user interactions in timeline.
+* [BUGFIX] Improved performance for video when there are hidden views.
+
 ### Version 1.11.5
 Released: 2020-07-06
 

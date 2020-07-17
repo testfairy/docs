@@ -1,3 +1,8 @@
+### Version 1.25.0
+Released 2020-07-15
+
+* [BUGFIX] Fix video recording when Intercom window is visible
+
 ### Version 1.24.4
 Released 2020-06-23
 

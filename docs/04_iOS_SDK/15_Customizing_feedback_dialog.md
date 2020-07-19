@@ -27,7 +27,7 @@ You can decide whether the email field is visible or not, and whether the email 
 
 In order to change the default text that users see in the feedback form textarea, please use the following:
 
-```java
+```objc
 [TestFairy setFeedbackOptions:@{
 	@"defaultText": @"Tested on the following device:\n\n\nSteps to reproduce:\n1.\n\n2.\n\n3.\n\nActual Result:\nExpected Result:\n"
 }];

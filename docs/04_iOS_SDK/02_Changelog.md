@@ -1,3 +1,8 @@
+### Version 1.25.1
+Released 2020-07-19
+
+* [NEW] Added new API `setFeedbackOptions`
+
 ### Version 1.25.0
 Released 2020-07-15
 

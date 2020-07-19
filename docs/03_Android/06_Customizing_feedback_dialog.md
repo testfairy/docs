@@ -2,13 +2,13 @@ In-app feedback works out of the box, allowing users to report bugs by shaking t
 
 This feature is customizable and allows you to launch the feedback from from a button inside your UI or any other gesture, or change the way the feature works.
 
-If you already called `TestFairy.begin()` and have a session, you can simply use `TestFairy.showFeedbackForm()` to launch the form yourself. 
+If you already called `TestFairy.begin()` and have a session, you can simply use `TestFairy.showFeedbackForm()` to launch the form yourself.
 
 Otherwise, you can utilize `TestFairy.showFeedbackForm(Context context, String appToken, boolean captureScreenshot)` anywhere in your app to launch the form without a session. The user will be presented with possible actions to take such as capturing a new screenshot or screen recording.
 
 Here are a few methods that can help you customize the feedback behaviour:
 
-- `setBrowserUrl()`: Open a web browser instead of a built-in dialog (eg, a questionnaire). 
+- `setBrowserUrl()`: Open a web browser instead of a built-in dialog (eg, a questionnaire).
 - `setEmailFieldVisible()`: Whether or not email input text should be displayed.
 - `setEmailMandatory()`: Whether or not people have to identify themselves when submitting feedback.
 - `setCallback()`: Get notified when a feedback has been sent.
@@ -27,7 +27,7 @@ TestFairy.setFeedbackOptions(feedbackOptions);
 
 #### setEmailFieldVisible(boolean) / setEmailMandatory(boolean)
 
-You can decide whether the email field is visible or not, and whether the email is mandatory or not. 
+You can decide whether the email field is visible or not, and whether the email is mandatory or not.
 
 ```java
 FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
@@ -44,7 +44,7 @@ In order to change the default text that users see in the feedback form textarea
 ```java
 FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
 	.setDefaultText("Tested on the following device:\n" +
-                        *\n\n" +
+                        "\n\n" +
                         "Steps to reproduce:\n" +
                         "1.\n\n" +
                         "2.\n\n" +
@@ -68,19 +68,19 @@ FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
 		public void onFeedbackSent(FeedbackContent content) {
 			Toast.makeText(MyActivity.this, "onFeedbackSent text = " + content.getEmail() + ", " + content.getText() , Toast.LENGTH_LONG).show();
 		}
-	
+
 		@Override
 		public void onFeedbackCancelled() {
 			Toast.makeText(MyActivity.this, "onFeedbackCancelled", Toast.LENGTH_LONG).show();
 		}
-	
+
 		@Override
 		public void onFeedbackFailed(int reason, FeedbackContent content) {
 			Toast.makeText(MyActivity.this, "onFeedbackFailed text = " + content.getEmail() + ", " + content.getText() , Toast.LENGTH_LONG).show();
 		}
 	})
 	.build();
-	
+
 	TestFairy.setFeedbackOptions(feedbackOptions);
 ```
 
@@ -184,8 +184,8 @@ Example:
 
 ```java
 putString(
-    myActivity, 
-    "com.testfairy.feedback.thankYouText", 
+    myActivity,
+    "com.testfairy.feedback.thankYouText",
     "Thank you for the feedback. We'll take a look at it and notify you shortly."
 );
 ```
@@ -193,4 +193,3 @@ putString(
 ### Class Reference
 
 For more information, please refer to the Android SDK [class reference](https://app.testfairy.com/reference/android/).
-

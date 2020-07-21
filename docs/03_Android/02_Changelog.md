@@ -1,3 +1,8 @@
+### Version 1.11.7
+Released: 2020-07-21
+
+* [BUGFIX] Fixed Flutter screenshots on resumed sessions.
+
 ### Version 1.11.6
 Released: 2020-07-16
 

@@ -161,51 +161,7 @@ Once your build is successful, you can update cocoapods back to its latest versi
 
 * There are syntax errors in TestFairyFlutterPlugin.java or TestFairyFlutterPlugin.m file.
 
-  In your project root, run `flutter clean; cd ios; pod repo update; pod install; cd ..` and test again.
-
-* My widget's are not hidden in screenshots.
-
-  This is currently not supported in iOS and will be fixed in the next release.
-
-### Features supported by both Android and iOS
-
-* `begin`
-* `beginWithOptions`
-* `setServerEndpoint`
-* `getVersion`
-* `sendUserFeedback`
-* `addCheckpoint`
-* `addEvent`
-* `setCorrelationId`
-* `identifyWithTraits`
-* `identify`
-* `setUserId`
-* `setAttribute`
-* `getSessionUrl`
-* `showFeedbackForm`
-* `stop`
-* `resume`
-* `pause`
-* `log`
-* `setScreenName`
-* `didLastSessionCrash`
-* `enableCrashHandler`
-* `disableCrashHandler`
-* `enableMetric`
-* `disableMetric`
-* `enableFeedbackForm`
-* `disableFeedbackForm`
-* `setMaxSessionLength`
-* `bringFlutterToFront`
-* `enableVideo`
-* `disableVideo`
-* `takeScreenshot`
-* `disableAutoUpdate`
-
-### Features supported by only Android
-
-* `setFeedbackOptions`
-* `hideWidget`
+  In your project root, run `flutter clean; cd ios; pod repo update; pod install; cd ..` and test again
 
 ### API Reference
 You can find a detailed documentation of the latest Dart interface [here](https://pub.dartlang.org/documentation/testfairy/latest/).

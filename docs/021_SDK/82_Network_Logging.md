@@ -3,6 +3,9 @@
 With TestFairy, you can log all your network requests. This gives you an easy way to monitor network access your app is doing.
 
 
+![Log Network](/img/sdk/logHttp.png)
+
+
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
 		<a data-w-tab="tab-android" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;" href="#android">

@@ -37,12 +37,12 @@ We recommend to invoking `TestFairy.begin` from `onDeviceReady` in `index.js`:
   }
 ```
 
-### Catching 
+### Logging Errors 
 
 We recommend logging error event to TestFairy. This will display the exceptions along with the rest of the session data, including logs and attributes. Please
 refer to the [Exception Logging](https://docs.testfairy.com/SDK/Exception_Logging.html#cordova) document for more information.
 
-### Identifying your users
+### Identifying Your Users
 
 See the [SDK Documentation](https://docs.testfairy.com/SDK/Identifying_Your_Users.html#cordova) for more information.
 

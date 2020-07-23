@@ -48,6 +48,7 @@ Here are some reasons when auto-update of an app may fail:
 * The version number and name of the new build are **the same** as the old one. Auto-update will only work when versions are **different**.
 * The TestFairy SDK must be integrated into Both versions for auto-update to work.
 * (in Android) The sign certificate of each version must be the same. If an app is not signed with the same certificate TestFairy cant perform the auto-update action.
+* (In iOS) - you will have to sign your app with an __AD-HOC__ or __ENTERPRISE__ certificate for the auto-update feature to work.
 
 
 ### A method to force auto update

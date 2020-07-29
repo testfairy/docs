@@ -1,3 +1,9 @@
+### Version 1.25.2
+Released 2020-07-29
+
+[NEW] See taps handled on newly created UIWindows.
+[IMPROVEMENT] Improved timeline and events to understand app usage better.
+
 ### Version 1.25.1
 Released 2020-07-19
 

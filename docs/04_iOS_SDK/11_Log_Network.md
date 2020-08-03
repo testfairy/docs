@@ -4,14 +4,10 @@ A common issue our users discovered while monitoring their apps, is **slow** req
 
 ![see example](https://raw.githubusercontent.com/testfairy/docs/master/img/app/logHttp.png)
 
-### Android
+### Code Samples
 
-See the [Network Logging](https://docs.testfairy.com/SDK/Network_Logging.html#android) section for more information.
+[Android](https://docs.testfairy.com/SDK/Network_Logging.html#android) 
 
-### Objective-C
+[iOS Objective-C](https://docs.testfairy.com/SDK/Network_Logging.html#ios-objc) 
 
-See the [Network Logging](https://docs.testfairy.com/SDK/Network_Logging.html#ios-objc) section for more information.
-
-### Swift
-
-See the [Network Logging](https://docs.testfairy.com/SDK/Network_Logging.html#ios-swift) section for more information.
+[iOS Swift](https://docs.testfairy.com/SDK/Network_Logging.html#ios-swift) 

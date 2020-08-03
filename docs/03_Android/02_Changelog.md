@@ -1,3 +1,10 @@
+### Version 1.11.8
+Released: 2020-08-03
+
+* [NEW] Added support for HTTP call headers and bodies during network logging.
+* [BUGFIX] `TestFairy.log()` now behaves the same as native Android logging methods.
+* [BUGFIX] Fixed a bug where some sessions didn't finalize at the correct time point.
+
 ### Version 1.11.7
 Released: 2020-07-21
 

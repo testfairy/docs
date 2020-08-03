@@ -82,7 +82,7 @@ Using analytics requires integration of the SDK. This is a 2-minute task that in
 * Enterprise team is not included in prefix in embedded.mobileprovision file.
 * App is not signed with an Ad Hoc or Enterprise (in-house) certificate.
 
-TestFairy has a **Troubleshooting** tool to guide the tester or developer through the debugging of such problems. Simply visit ![https://my.testfairy.com/my/troubleshooting]https://my.testfairy.com/my/troubleshooting using Safari on your iOS device and follow the instructions.
+TestFairy has a **Troubleshooting** tool to guide the tester or developer through the debugging of such problems. Simply visit https://my.testfairy.com/my/troubleshooting using Safari on your iOS device and follow the instructions.
 
 If all this fails, please contact support by click on the **Support** button in your account page. Try to get the [system logs](/iOS_SDK/Exporting_Ad_Hoc_IPA.html#xcode-system-logs) from the device if possible as this makes debugging this sorts of problems a lot easier. We do our best to help debug causes and improve our one-of-a-kind Troubleshooting tool.
 

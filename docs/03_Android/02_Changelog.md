@@ -21,6 +21,7 @@ Released: 2020-07-16
 ### Version 1.11.5
 Released: 2020-07-06
 
+* [IMPROVEMENT] User interactions in the timeline now show view id resource strings.
 * [IMPROVEMENT] SDK now uses a more efficient thread pool.
 * [BUGFIX] SDK dialogs now use a standard material theme.
 * [BUGFIX] Improved video capture when hidden views are not known before `onCreate()`.

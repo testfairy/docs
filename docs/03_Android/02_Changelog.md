@@ -1,3 +1,9 @@
+### Version 1.11.9
+Released: 2020-08-06
+
+* [BUGFIX] hideView() now supports multiple views using the same id.
+* [BUGFIX] Flutter screenshots now work as expected.
+
 ### Version 1.11.8
 Released: 2020-08-03
 

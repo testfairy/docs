@@ -1,3 +1,8 @@
+### Version 1.25.3
+Released 2020-08-12
+
+* [NEW] Improve screenshot capture for flutter
+
 ### Version 1.25.2
 Released 2020-07-29
 

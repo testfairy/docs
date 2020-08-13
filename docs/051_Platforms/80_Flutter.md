@@ -69,9 +69,8 @@ void main() {
 ```
 
 ### How to update native SDKs?
-This is done automatically for Android. 
 
-If you need to update the native iOS SDK used by your current integration, run `pod repo update; pod install` in your *ios* directory.
+Run `pod repo update` and update the plugin in pubspec.yaml. Then run `cd ios; pod update TestFairy; cd...` to update the iOS SDK.
 
 ### Troubleshooting
 

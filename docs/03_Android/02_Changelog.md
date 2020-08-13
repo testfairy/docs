@@ -1,3 +1,8 @@
+### Versions 1.11.10
+Released: 2020-08-09
+
+* [IMPROVEMENT] Minor performance improvements.
+
 ### Version 1.11.9
 Released: 2020-08-06
 

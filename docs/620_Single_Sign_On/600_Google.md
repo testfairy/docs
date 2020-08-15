@@ -29,6 +29,7 @@ Sections:
   
 - In step 4, we will add the service provider details. Please change `acme` to your enterprise subdomain name on TestFairy.com in the ACS URL: `https://acme.testfairy.com/login/sso/`
   Entity ID: `https://acme.testfairy.com`
+(change to your subdomain)
   ![](https://docs.testfairy.com/img/sso/google/google-7.png)
   
 - Please review and then click `next` and in the next screen click `Finish` when done.

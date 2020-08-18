@@ -1,4 +1,9 @@
-### Versions 1.11.10
+### Version 1.11.11
+Released: 2020-08-18
+
+* [BUGFIX] Fixed a rare crash during auto update occurring on JAR releases.
+
+### Version 1.11.10
 Released: 2020-08-09
 
 * [IMPROVEMENT] Minor performance improvements.

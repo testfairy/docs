@@ -2,6 +2,7 @@
 Released: 2020-08-18
 
 * [BUGFIX] Fixed a rare crash during auto update occurring on JAR releases.
+* [BUGFIX] Added limit on number of logs sent out to prevent endless loops of log writing.
 
 ### Version 1.11.10
 Released: 2020-08-09

@@ -1,3 +1,9 @@
+### Version 1.25.4
+Released 2020-08-20
+
+* [BUGFIX] Fixed crashes with events sent after session recording duration reached
+* [BUGFIX] Sending events relative to start time
+
 ### Version 1.25.3
 Released 2020-08-12
 

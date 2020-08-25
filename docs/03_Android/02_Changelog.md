@@ -1,3 +1,10 @@
+### Version 1.11.12
+Released: 2020-08-25
+
+* [IMPROVEMENT] Improved text extraction from a view tree for React Native.
+* [IMPROVEMENT] Added `TestFairy.updateLocation()` support for all sessions.
+* [BUGFIX] Fixed a bug where some crashes are reported twice or never.
+
 ### Version 1.11.11
 Released: 2020-08-18
 

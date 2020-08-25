@@ -1,3 +1,9 @@
+### Version 1.11.13
+Released: 2020-08-25
+
+* [BUGFIX] Fixed video capture bug in some cases where ConstraintLayout is being used.
+
+
 ### Version 1.11.12
 Released: 2020-08-25
 

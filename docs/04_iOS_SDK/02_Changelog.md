@@ -1,3 +1,9 @@
+### Version 1.25.5
+Released 2020-08-27
+
+* [NEW] Added `installFeedbackHandler` API. Allows for installing shake for feedback without recording session insights
+* [NEW] Added new `addNetwork` API which allows passing in the request and response headers and body.
+
 ### Version 1.25.4
 Released 2020-08-20
 

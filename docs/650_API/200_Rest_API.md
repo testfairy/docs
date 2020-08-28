@@ -92,35 +92,6 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
-#### [api/1/projects/{project-id}/builds/{build-id}/crashes/](#)
-
-<div class="method">
-	<span>
-		<button class="expand">▶</button> List all crashes in build
-	</span>
-	<code>GET /api/1/projects/{project-id}/builds/{build-id}/crashes/</code>
-</div>
-<div class="method-description hidden">
-	Get all crashes in a specific build. These crashes ungrouped, meaning, the same stack trace may appear multiple times (one for each session).<br />
-	<span class="responses">Responses</span><br />
-	<span class="status-green">STATUS 200</span> OK<br />
-	<pre>
-{
-	"status": "ok",
-	"crashes": [
-		{
-			"id":"5310d26524a58cca5ecff143c956529b",
-			"self":"/projects/6804250-drawmeafairy/builds/8674596/crashes/5310d26524a58cca5ecff143c956529b",
-			"message":"com.testfairy.samples.drawmefairy.CrashActivity$MyCountDownTimer.onFinish (CrashActivity.java:41)",
-			"occurrences":4
-		}
-	]
-}
-</pre>
-</div>
-
-<hr />
-
 #### [api/1/projects/{project-id}/builds/{build-id}/sessions/](#)
 
 <div class="method">

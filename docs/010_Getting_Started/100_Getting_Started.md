@@ -1,17 +1,16 @@
 <div>
 	<div class="getting-started-title">Welcome to TestFairy! Let's get started...</div>
 	<div class="row">
-
 		<div class="col-md-6 col-sm-12">
 			<div class="getting-started-card">
 				<div class="row">
-					<div class="col-md-12">
-						<img class="pull-right getting-started-img" src="/img/getting-started/icon-app-distribution.png" />
+					<div class="col-md-12" style="text-align: center;">
+						<img class="getting-started-img" src="/img/getting-started/icon-app-distribution.png" />
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 16px;">
 					<div class="col-md-12">
-						<span class="align-bottom getting-started-question">App Distribution</span>
+						<span class="align-bottom getting-started-question">Distribute App to Testers</span>
 					</div>
 				</div>
 				<div class="row">
@@ -28,13 +27,13 @@
 		<div class="col-md-6 col-sm-12">
 			<div class="getting-started-card">
 				<div class="row">
-					<div class="col-md-12">
-						<img class="pull-right getting-started-img" src="/img/getting-started/icon-video.png" />
+					<div class="col-md-12" style="text-align: center;">
+						<img class="getting-started-img" src="/img/getting-started/icon-video.png" />
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 16px;">
 					<div class="col-md-12">
-						<span class="align-bottom getting-started-question">Video Recording</span>
+						<span class="align-bottom getting-started-question">Analyze User Behavior</span>
 					</div>
 				</div>
 				<div class="row">
@@ -55,13 +54,13 @@
 		<div class="col-md-6 col-sm-12">
 			<div class="getting-started-card">
 				<div class="row">
-					<div class="col-md-12">
-						<img class="pull-right getting-started-img" src="/img/getting-started/icon-in-app-feedback.png" />
+					<div class="col-md-12" style="text-align: center;">
+						<img class="getting-started-img" src="/img/getting-started/icon-in-app-feedback.png" />
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 16px;">
 					<div class="col-md-12">
-						<span class="align-bottom getting-started-question">In App Feedback</span>
+						<span class="align-bottom getting-started-question">Collect Feedbacks</span>
 					</div>
 				</div>
 				<div class="row">
@@ -78,8 +77,8 @@
 		<div class="col-md-6 col-sm-12">
 			<div class="getting-started-card">
 				<div class="row">
-					<div class="col-md-12">
-						<img class="pull-right getting-started-img" src="/img/getting-started/icon-security.png" />
+					<div class="col-md-12" style="text-align: center;">
+						<img class="getting-started-img" src="/img/getting-started/icon-security.png" />
 					</div>
 				</div>
 				<div class="row" style="padding-bottom: 16px;">

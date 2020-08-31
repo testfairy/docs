@@ -52,6 +52,6 @@ See the [SDK Documentation](https://docs.testfairy.com/SDK/Hiding_Sensitive_Data
 
 ### Where to go from here?
 
-* Have a look at the [API documentation](https://app.testfairy.com/reference/ios/) for other calls you can make to the TestFairy plugin
+* Have a look at the [API documentation](https://docs.testfairy.com/reference/ios/) for other calls you can make to the TestFairy plugin
 
 * Follow the project on [GitHub](https://github.com/testfairy/react-native-testfairy) for updates, bug reports, or to contribute to the project!

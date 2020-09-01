@@ -1,3 +1,8 @@
+### Version 1.11.15
+Released: 2020-09-01
+
+* [BUGFIX] Fixed a crash happening during shake recognition.
+
 ### Version 1.11.14
 Released: 2020-09-01
 

@@ -1,8 +1,13 @@
+### Version 1.11.14
+Released: 2020-09-01
+
+* [NEW] Added `installFeedbackHandler()` for shake gesture detection without calling `begin()`.
+* [BUGFIX] Fixed a bug where session lengths are reported incorrectly after a background timeout.
+
 ### Version 1.11.13
 Released: 2020-08-25
 
 * [BUGFIX] Fixed video capture bug in some cases where ConstraintLayout is being used.
-
 
 ### Version 1.11.12
 Released: 2020-08-25

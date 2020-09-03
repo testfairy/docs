@@ -1,3 +1,8 @@
+### Version 1.25.6
+Released 2020-09-03
+
+* [BUGFIX] Sending events relative to start time
+
 ### Version 1.25.5
 Released 2020-08-27
 

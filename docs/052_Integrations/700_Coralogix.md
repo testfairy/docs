@@ -15,7 +15,7 @@ npm install -g --link git+https://github.com/testfairy/testfairy-fetch-sessions.
 Create a cron job that will run this command every 15 minutes.
 
 ```
-testfairy-fetch-sessions --endpoint "your_subdomain.testfairy.com" --user "john@example.com" --api-key "YOUR_API_KEY" --project-id=1000 --logs --json --rsa-private-key ../my_private_keys/private.pem
+testfairy-fetch-sessions --endpoint "your_subdomain.testfairy.com" --user "john@example.com" --api-key "YOUR_API_KEY" --project-id=1000 --logs --json
 ```
 
 Please make sure to replace the following params:
@@ -28,31 +28,28 @@ Please make sure to replace the following params:
 
 * Replace **1000** with your project ID
 
-* Optional: replace **../my_private_keys/private.pem** with the path to your private key if you have one.
-
 * Optional: add **--json** to have log line as a json with all session attributes.
 
 * Optional: add **--all-time** flag to get logs from all time. If not used, tool will fetch logs from the last 24 hours only. Do not use this option unless this is the first time you are debugging the service. Logs older than 24 hours are usually a pure waste of good disk space.
 
+* Optional: if your logs are encrypted with RSA public key, then please use --rsa-private-key with your private key for decryption.
 
-## 3. Install FluentD
 
-3.1. Install [FluentD v1.0+](https://docs.fluentd.org/installation) for your environment.
+## 3. Install Coralogix shipper
 
-3.2 Install the following fluentd plugins:
-* Coralogix shipper plugin [fluent-plugin-coralogix](https://github.com/coralogix/fluentd-coralogix-image)
-* Detect exceptions plugin [fluent-plugin-detect-exceptions](https://github.com/GoogleCloudPlatform/fluent-plugin-detect-exceptions)
-* Concatenate lines plugin [fluent-plugin-concat](https://github.com/fluent-plugins-nursery/fluent-plugin-concat)
-
-3.5. Download the preconfigured [fluentd.conf](/img/coralogix/fluentd.conf) and save it (note the file location).
-
-3.6. Edit fluentd.conf and under &lt;source&gt; => *@type tail* update **path** to point to the testfairy sessions folder. You may also change the location of the _pos_file_ if you wish (which keeps track of the current pointer for each log file and prevents duplicates).
-![coralogix](/img/coralogix/image.png)
-
-3.7. Under &lt;label @CORALOGIX&gt; => &lt;match * *&gt; change **privatekey**, **appname** and **subsystemname**. Your Coralogix private_key can be found under Settings --> Send your logs.
-![coralogix](/img/coralogix/image2.png)
+1. Download the preconfigured [fluentd.conf](/img/coralogix/fluentd.conf)
+2. Edit `fluentd.conf`, and update `CORALOGIX_PRIVATEKEY` and `CORALOGIX_APPNAME`
 
 ## 4. Run FluentD
 
-Run fluentd with terminal parameter **-c /etc/config/fluentd.conf** (change based on where you downloaded **fluentd.conf** in _3.5_) and enjoy the flow of TestFairy logs into your Coralogix account. FluentD will automatically ship new logs as they are dowbloaded by testfairy-fetch-sessions cron job.
+Type this command in your terminal:
+```
+docker run -d -v `pwd`/fluentd.conf:/fluentd/etc/fluent.conf -v `pwd`:/opt coralogixrepo/fluentd-coralogix-image:latest
+```
+
+Fluentd will loop endlessly, looking for new logs files on disk. Make sure you keep this docker container running, while the cron job fetches sessions from TestFairy every now and then.
+
+Congratulations!
+You have integrated TestFairy with Coralogix, you can now analyze and monitor mobile app logs in production. 
+
 

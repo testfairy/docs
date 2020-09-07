@@ -1,3 +1,8 @@
+### Version 1.26.0
+Released 2020-09-07
+
+* [BUGFIX] Fixed a bug when keyboard would tap slow
+ 
 ### Version 1.25.6
 Released 2020-09-03
 

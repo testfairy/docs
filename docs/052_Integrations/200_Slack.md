@@ -54,6 +54,9 @@ In case you need to create a manual integration with slack follow these steps:
 
 * Copy this link and go to the Integrations menu and press the `Add Integration` button for __Slack__.
 
+* Open your TestFairy preferences, go to _Integrations_ and next to WEBHOOK click on _Add integration_ .
+![Slack Integration](/img/app/preferences/account-settings-4.png)
+
 
 * Paste the Webhook URL into the URL field and then `Save webhook`.
 ![](/img/integrations/slack/slack-manualint-5.png)

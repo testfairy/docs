@@ -8,4 +8,4 @@ In these cases, the *NEW UPLOAD* button is disabled.
 
 This also means that all of the app artifcats (IPA and APK files) are stored on a self-managed S3 bucket, and in order to upload files, you will have to use the [Upload API](https://docs.testfairy.com/API/Upload_API.html) and provide presigned URLs to an artficat for processing.
 
-for more information please [contact TestFairy Support](https://testfairy.com/contact)
+For more information please [contact TestFairy Support](https://testfairy.com/contact)

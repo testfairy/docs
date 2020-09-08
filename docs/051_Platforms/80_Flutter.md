@@ -34,6 +34,8 @@ Make sure your project is [AndroidX](https://flutter.dev/docs/development/androi
 
 Minimum supported iOS target is 9.0.
 
+* Make sure you have a ```TestFairy.begin[SDK_APP_TOKEN]``` statement in your code.
+
 ```dart
 // inside your main.dart
 import 'dart:async';

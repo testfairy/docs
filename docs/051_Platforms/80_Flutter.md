@@ -53,7 +53,7 @@ void main() {
 
         // Call `await TestFairy.begin()` or any other setup code here.
 
-        runApp(TestfairyExampleApp());
+        runApp(TestFairyGestureDetector(child: TestfairyExampleApp()));
       } catch (error) {
         TestFairy.logError(error);
       }
@@ -73,6 +73,53 @@ void main() {
 ### How to update native SDKs?
 
 Run `pod repo update` and update the plugin in pubspec.yaml. Then run `cd ios; pod update TestFairy; cd...` to update the iOS SDK.
+
+### How to compile with latest unreleased Flutter?
+
+Flutter's master channel introduces new Dart syntax and has breaking changes in its SDK classes. These changes will show up similar to the following error when you compile your project.
+
+```
+../pub.dartlang.org/testfairy-1.x.y/lib/src/network_logging.dart:253:7: 
+            Error: The non-abstract class '_TestFairyClientHttpRequest' is missing implementations for these members:
+
+     - HttpClientRequest.abort
+
+    Try to either
+     - provide an implementation,
+     - inherit an implementation from a superclass or mixin,
+     - mark the class as abstract, or
+     - provide a 'noSuchMethod' implementation.
+
+    class _TestFairyClientHttpRequest implements HttpClientRequest {
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    org-dartlang-sdk:///third_party/dart/sdk/lib/_http/http.dart:2045:8: Context: 'HttpClientRequest.abort' is defined here.
+      void abort([Object? exception, StackTrace? stackTrace]);
+           ^^^^^
+```
+
+In order to use TestFairy with the latest unstable Flutter, you must clone this repo and use it as an offline dependency instead of the published version in pub.
+
+* Clone this [repo](https://github.com/testfairy/testfairy-flutter).
+
+* Use the following code to include the clone as an offline dependency (assuming both projects reside in the same directory as siblings).
+
+```yaml
+dependencies:
+  testfairy:
+    path: ../testfairy-flutter # or "./testfairy-flutter" if you cloned it inside your main project as a child directory 
+```
+
+* Launch a terminal and run the following commands.
+
+```bash
+cd path/to/testfairy-flutter
+sed  "s/Modern Flutter \*\*/\//" lib/src/network_logging.dart > lib/src/network_logging.dart
+sed  "s/\*\* Modern Flutter/\//" lib/src/network_logging.dart > lib/src/network_logging.dart
+```
+
+* Checkout **testfairy-flutter** to your VCS without including its **.git** directory.
+
+* When there is a new update in this repo, delete **testfairy-flutter** and retry the steps.
 
 ### Troubleshooting
 

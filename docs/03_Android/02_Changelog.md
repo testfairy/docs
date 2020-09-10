@@ -1,3 +1,8 @@
+### Version 1.11.16
+Released: 2020-09-10
+
+* [NEW] Session timeline now shows scroll events for common scrollable views.
+
 ### Version 1.11.15
 Released: 2020-09-01
 

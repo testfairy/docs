@@ -1,3 +1,9 @@
+### Version 1.26.1
+Released 2020-09-14
+
+* [NEW] Added `takeScreenshot` API with callback for captured image
+* [NEW] Added `addUserInteraction` API to log interaction events on session timeline
+
 ### Version 1.26.0
 Released 2020-09-07
 

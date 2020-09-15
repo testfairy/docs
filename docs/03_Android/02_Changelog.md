@@ -1,3 +1,8 @@
+### Version 1.11.17
+Released: 2020-09-15
+
+* [NEW] Added an overload of `takeScreenshot()` which returns the captured `Bitmap`.
+
 ### Version 1.11.16
 Released: 2020-09-10
 

@@ -1,3 +1,8 @@
+### Version 1.11.18
+Released: 2020-18-09
+
+* [NEW] `sendUserFeedback()` now supports attaching bitmaps.
+
 ### Version 1.11.17
 Released: 2020-09-15
 

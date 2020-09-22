@@ -203,11 +203,20 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	"testers": [
 		{
 			"email":"james@example.com",
-			"groups":[100]
+			"groups":[{
+				id: 100,
+				name: "friends"
+			}]
 		},
 		{
 			"email":"alice@testfairy.com",
-			"groups":[100,200]
+			"groups":[{
+				id: 100,
+				name: "friends"
+			}, {
+				id: 200,
+				name: "family"
+			}]
 		}
 	]
 }

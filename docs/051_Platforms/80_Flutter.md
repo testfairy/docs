@@ -113,8 +113,9 @@ dependencies:
 
 ```bash
 cd path/to/testfairy-flutter
-sed  "s/Modern Flutter \*\*/\//" lib/src/network_logging.dart > lib/src/network_logging.dart
-sed  "s/\*\* Modern Flutter/\//" lib/src/network_logging.dart > lib/src/network_logging.dart
+sed  "s/Modern Flutter \*\*/\//" lib/src/network_logging.dart > lib/src/network_logging.temp
+sed  "s/\*\* Modern Flutter/\//" lib/src/network_logging.temp > lib/src/network_logging.dart
+rm -rf lib/src/network_logging.temp
 ```
 
 * Checkout **testfairy-flutter** to your VCS without including its **.git** directory.

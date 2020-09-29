@@ -1,3 +1,9 @@
+### Version 1.11.19
+Released: 2020-29-09
+
+* [BUGFIX] Fixed an issue where the app crashes after resume from background.
+* [BUGFIX] Removed duplicate interactions from timeline for Flutter apps.
+
 ### Version 1.11.18
 Released: 2020-18-09
 

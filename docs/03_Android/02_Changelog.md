@@ -1,3 +1,9 @@
+### Version 1.11.20
+Released: 2020-30-09
+
+* [BUGFIX] Screenshots now include dialogs.
+* [BUGFIX] Fixed feedback dialog theme for apps that override default Material theme.
+
 ### Version 1.11.19
 Released: 2020-29-09
 

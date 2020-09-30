@@ -1,3 +1,8 @@
+### Version 1.26.2
+Released 2020-09-30
+
+* [NEW] Perform email validation if email is mandatory in Feedback
+
 ### Version 1.26.1
 Released 2020-09-14
 

@@ -1,17 +1,22 @@
+### Version 1.11.21
+Released: 2020-10-01
+
+* [IMPROVEMENT] Reduced screen capture battery and memory consumption.
+
 ### Version 1.11.20
-Released: 2020-30-09
+Released: 2020-09-30
 
 * [BUGFIX] Screenshots now include dialogs.
 * [BUGFIX] Fixed feedback dialog theme for apps that override default Material theme.
 
 ### Version 1.11.19
-Released: 2020-29-09
+Released: 2020-09-29
 
 * [BUGFIX] Fixed an issue where the app crashes after resume from background.
 * [BUGFIX] Removed duplicate interactions from timeline for Flutter apps.
 
 ### Version 1.11.18
-Released: 2020-18-09
+Released: 2020-09-18
 
 * [NEW] `sendUserFeedback()` now supports attaching bitmaps.
 

@@ -1,7 +1,6 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HpLOsNwd_FM" frameborder="0" allowfullscreen></iframe>
 
-
-[TestFairy for React native](https://www.npmjs.com/package/react-native-testfairy) is a bridge to the TestFairy SDK. Integrating the TestFairy SDK into your app enables you to better understand how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metrics you may need to optimize your user experience and code.
+[TestFairy for React Native](https://www.npmjs.com/package/react-native-testfairy) is a bridge to the TestFairy SDK. Integrating the TestFairy SDK into your app enables you to better understand how your app performs on real devices. It tells you when and how people are using your app, and provides you with any metrics you may need to optimize your user experience and code.
 
 # Automatic Installation
 
@@ -52,6 +51,6 @@ See the [SDK Documentation](https://docs.testfairy.com/SDK/Hiding_Sensitive_Data
 
 ### Where to go from here?
 
-* Have a look at the [API documentation](https://docs.testfairy.com/reference/ios/) for other calls you can make to the TestFairy plugin
+- Have a look at the [API documentation](https://docs.testfairy.com/reference/ios/) for other calls you can make to the TestFairy plugin
 
-* Follow the project on [GitHub](https://github.com/testfairy/react-native-testfairy) for updates, bug reports, or to contribute to the project!
+- Follow the project on [GitHub](https://github.com/testfairy/react-native-testfairy) for updates, bug reports, or to contribute to the project!

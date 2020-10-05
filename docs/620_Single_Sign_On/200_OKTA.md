@@ -51,7 +51,7 @@ For example, say Alice is associated with the following groups in OKTA: ["QA", "
 
 To import groups each time a user signs into TestFairy, please follow these instructions. 
 
-- Open the TestFairy app in your OKTA account, select `General` tab, and click `Edit`. In `SAML Settings` section, under `Group Attribute Statements`, add a rule with name: "groups", and filter "Matches regex" with value `.*`. See screenshot: 
+- Open the TestFairy app in your OKTA account, select `General` tab, and click `Edit`. In `SAML Settings` section, under `Group Attribute Statements`, add a rule with name: "groups", (LOWERCASE!!!) and filter "Matches regex" with value `.*`. (dot asterisk) See screenshot: 
   ![](/img/sso/okta/okta-groups-2.png)
   
 - When done, please click on `Update Now` so OKTA updates caches. See screenshot:

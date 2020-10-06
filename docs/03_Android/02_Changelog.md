@@ -1,3 +1,8 @@
+### Version 1.11.22
+Released: 2020-10-06
+
+* [BUGFIX] Fixes duplicate user interactions in Flutter.
+
 ### Version 1.11.21
 Released: 2020-10-01
 

@@ -1,3 +1,8 @@
+### Version 1.26.3
+Released 2020-10-07
+
+* [NEW] Support capturing React Native touches
+
 ### Version 1.26.2
 Released 2020-09-30
 

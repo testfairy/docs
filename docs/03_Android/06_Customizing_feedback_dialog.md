@@ -190,6 +190,18 @@ putString(
 );
 ```
 
+### Feedback Prompt Dialog Customization
+
+The SDK recognizes shake gestures and automatically prompts a pop up dialog, asking for confirmation to show the feedback form. It is possible to customize colors in this dialog with the following code.
+
+```java
+getSharedPreferences("testfairy.prefs.dialog", MODE_PRIVATE).edit()
+    .putInt("textColor", Color.GREEN)
+    .putInt("backgroundColor", Color.BLUE)
+    .putInt("titleColor", Color.RED)
+    .commit();
+```
+
 ### Class Reference
 
 For more information, please refer to the Android SDK [class reference](https://app.testfairy.com/reference/android/).

@@ -1,3 +1,8 @@
+### Version 1.26.4
+Released 2020-10-10
+
+* [BUGFIX] Minor fix related to viewtree that includes a hidden view
+
 ### Version 1.26.3
 Released 2020-10-07
 

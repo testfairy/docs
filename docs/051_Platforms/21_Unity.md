@@ -29,7 +29,7 @@ The steps in this section are an example of how to add the TestFairy Unity SDK t
 
   ![Step 2](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step2.png)
 
-5. Type in the name of the script, for example `mainCameraScript`, choose `CSharp` and click on `Create and Add`.
+5. Click `Add Component` again, and select a `Script` component. Type in the name of the script, for example `mainCameraScript`, and click on `Create and Add`.
 
   ![Step 3](https://raw.githubusercontent.com/testfairy/testfairy-unity-plugin/master/Images/step3.png)
 
@@ -87,7 +87,6 @@ If you would like to capture exception logs and send them to the TestFairy dashb
 ```
 private void OnEnable()
 {
-
 	Application.logMessageReceivedThreaded += HandleLog;
 }
 

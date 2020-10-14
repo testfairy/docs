@@ -1,3 +1,8 @@
+### Version 1.26.5
+Released 2020-10-14
+
+* [BUGFIX] Do not install shake and crash handlers when calling `setUserFeedback` with app token
+
 ### Version 1.26.4
 Released 2020-10-10
 

@@ -1,3 +1,10 @@
+### Version 1.11.23
+Released: 2020-10-15
+
+* [IMPROVEMENT] Improved Flutter user interactions with scrollable widget keys. (only for Dart2)
+* [BUGFIX] Fixed a race condition in feedback form which caused screenshot button to disappear.
+* [BUGFIX] Fixed a bug where feedback screenshots were too big for upload.
+
 ### Version 1.11.22
 Released: 2020-10-06
 

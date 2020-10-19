@@ -74,6 +74,14 @@ void main() {
 
 Run `pod repo update` and update the plugin in pubspec.yaml. Then run `cd ios; pod update TestFairy; cd...` to update the iOS SDK.
 
+### How to opt-out from Dart 2?
+Starting from 2.0.0, *testfairy* will only work with projects that use Dart 2 as the development language. If you'd like to keep using legacy Dart, you may choose the following version.
+
+```
+dependencies:
+  testfairy: ^1.0.25
+```
+
 ### How to compile with latest unreleased Flutter?
 
 Flutter's master channel introduces new Dart syntax and has breaking changes in its SDK classes. These changes will show up similar to the following error when you compile your project.

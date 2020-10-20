@@ -82,6 +82,22 @@ dependencies:
   testfairy: ^1.0.25
 ```
 
+For project who [migrate](https://dart.dev/dart-2) to Dart 2, make sure your project root has an *analysis_options.yaml* that looks similar to [this](https://github.com/testfairy/testfairy-flutter/blob/master/analysis_options.yaml). The important part is the enabled experiment in the top declaration.
+
+You also have to enable the same experiment in your run and test commands:
+
+```
+flutter run --enable-experiment=non-nullable --no-sound-null-safety
+
+flutter drive --enable-experiment=non-nullable --no-sound-null-safety -v --target=test_driver/app.dart
+```
+
+Projects that donn't make the migration will otherwise get this error:
+```
+Error: This requires the null safety language feature, which is experimental.
+    You can enable the experiment using the '--enable-experiment=non-nullable' command line option.
+```
+
 ### How to compile with latest unreleased Flutter?
 
 Flutter's master channel introduces new Dart syntax and has breaking changes in its SDK classes. These changes will show up similar to the following error when you compile your project.

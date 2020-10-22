@@ -1,4 +1,6 @@
-TestFairy allows developers to record location changes and view them in your session.
+The TestFairy SDK does not require location permissions and does track location out of the box.
+
+In cases where developers whish to send location information to TestFairy, they will need to add location permissions to their app, and use the code below to call TestFairy.updateLocation. After doing that, location will be presented on a map as part of the session page.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">

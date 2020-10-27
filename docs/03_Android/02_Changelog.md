@@ -1,3 +1,10 @@
+### Version 1.11.24
+Released: 2020-10-26
+
+* [NEW] Interactions in scrollables are now properly detected in Flutter apps.
+* [BUGFIX] Fixed a crash happening after long pauses in background.
+* [BUGFIX] Fixed a bug in screenshots where some hidden views are painted black even when they are already obstructed.
+
 ### Version 1.11.23
 Released: 2020-10-15
 

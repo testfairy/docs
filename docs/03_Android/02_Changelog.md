@@ -1,3 +1,8 @@
+### Version 1.11.25
+Released: 2020-10-27
+
+* [BUGFIX] hideView() no longer pause video if not necessary.
+
 ### Version 1.11.24
 Released: 2020-10-26
 

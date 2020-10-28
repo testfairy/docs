@@ -1,3 +1,9 @@
+### Version 1.26.6
+Released 2020-10-27
+
+* [BUGFIX] Shake handler and crash handler no longer installed when using `sendUserFeedback` with app token
+* [BUGFIX] Improve bandwidth usage
+
 ### Version 1.26.5
 Released 2020-10-14
 

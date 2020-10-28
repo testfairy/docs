@@ -82,7 +82,7 @@ The wifi signal will be tracked.
 
 ## File Size
 
-The size of the TestFairy SDK is less than 500KB.
+The size of the TestFairy SDK is 500KB.
 
 <br><br>
 You might also like to read [Manual integration with Eclipse and Ant](http://docs.testfairy.com/Android/Manual_integration_with_Eclipse_and_Ant.html).

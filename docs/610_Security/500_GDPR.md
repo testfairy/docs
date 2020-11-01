@@ -1,6 +1,6 @@
 The EU General Data Protection Regulation (GDPR) was designed to harmonize data privacy laws across Europe, to protect and empower all EU citizens data privacy and to reshape the way organizations across the region approach data privacy. 
 
-Following the new regulations, we have added new capabilities that help our customers keep their users' privacy.
+Following these regulations, here are some answers to your questions:
 
 ### Can TestFairy provide a GDPR Compliant service?
 

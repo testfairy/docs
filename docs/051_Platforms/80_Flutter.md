@@ -74,15 +74,16 @@ void main() {
 
 Run `pod repo update` and update the plugin in pubspec.yaml. Then run `cd ios; pod update TestFairy; cd...` to update the iOS SDK.
 
-### How to opt-out from Dart 2?
-Starting from 2.0.0, *testfairy* will only work with projects that use Dart 2 as the development language. If you'd like to keep using legacy Dart, you may choose the following version.
+### Dart 2 Support
+To be able to use TestFairy Flutter Plugin 2.+, you must have the environment specified below and upgrade your project code base to Dart 2 using [this guide](https://dart.dev/dart-2). 
 
 ```
-dependencies:
-  testfairy: ^1.0.25
+environment:
+  sdk: ">=2.10.0 <3.0.0"
+  flutter: ">=1.22.0 <2.0.0"
 ```
 
-For project who [migrate](https://dart.dev/dart-2) to Dart 2, make sure your project root has an *analysis_options.yaml* that looks similar to [this](https://github.com/testfairy/testfairy-flutter/blob/master/analysis_options.yaml). The important part is the enabled experiment in the top declaration.
+Make sure your project root has an *analysis_options.yaml* that looks similar to [this](https://github.com/testfairy/testfairy-flutter/blob/master/analysis_options.yaml). The important part is the enabled experiment in the top declaration.
 
 You also have to enable the same experiment in your run and test commands:
 
@@ -92,10 +93,32 @@ flutter run --enable-experiment=non-nullable --no-sound-null-safety
 flutter drive --enable-experiment=non-nullable --no-sound-null-safety -v --target=test_driver/app.dart
 ```
 
-Projects that donn't make the migration will otherwise get this error:
+If this transition is not suitable for your project, you can stay in TestFairy plugin *1.0.25* but that requires an upper limit on your Dart and Flutter version specified like this:
+
+```
+environment:
+  sdk: ">=2.0.0 <2.1.0"
+  flutter: ">=1.0.0 <1.12.0"
+```
+
+Projects that don't make the migration will otherwise get this error:
 ```
 Error: This requires the null safety language feature, which is experimental.
     You can enable the experiment using the '--enable-experiment=non-nullable' command line option.
+```
+
+### How to opt-out from Dart 2?
+Starting from 2.0.0, *testfairy* will only work with projects that use Dart 2 as the development language. If this transition is not suitable for your project, you can stay in TestFairy plugin 1.0.25 but that requires an upper limit on your Dart and Flutter version specified like this:
+
+```
+environment:
+  sdk: ">=2.0.0 <2.1.0"
+  flutter: ">=1.0.0 <1.12.0"
+```
+
+```
+dependencies:
+  testfairy: ^1.0.25
 ```
 
 ### How to compile with latest unreleased Flutter?

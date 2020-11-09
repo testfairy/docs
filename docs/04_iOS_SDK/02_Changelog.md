@@ -1,3 +1,9 @@
+### Version 1.26.7
+Released 2020-11-09
+
+* [B UGFIX] Record overlay windows
+* [BUGFIX] Fix log timestamp
+
 ### Version 1.26.6
 Released 2020-10-27
 

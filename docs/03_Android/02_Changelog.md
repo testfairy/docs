@@ -1,7 +1,13 @@
+### Version 1.11.26
+Released: 2020-11-10
+
+* [BUGFIX] Feedback overlays are now always drawn in front of the activity.
+* [BUGFIX] `ConstraintLayout` children now render correctly during a session.
+
 ### Version 1.11.25
 Released: 2020-10-27
 
-* [BUGFIX] hideView() no longer pause video if not necessary.
+* [BUGFIX] `hideView()` no longer pause video if not necessary.
 
 ### Version 1.11.24
 Released: 2020-10-26

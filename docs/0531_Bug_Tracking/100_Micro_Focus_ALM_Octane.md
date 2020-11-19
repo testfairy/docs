@@ -25,4 +25,4 @@ The link in the URL field should be: `https://almoctane-eur.saas.microfocus.com/
 
 
 9. When you returne to the apps screen the workspace is mapped to the app.
-![](/img/bug-tracking/ALM-5.png)
+![](/img/bug-tracking/ALM-5.png) 

@@ -1,3 +1,14 @@
+### Version 1.11.27
+Released: 2020-11-24
+
+* [IMPROVEMENT] Flutter screenshots are now taken faster when there are no hidden widgets.
+* [BUGFIX] Flutter screenshots now properly work on api level 24 and 25.
+* [BUGFIX] Feedback form now correctly places itself in a safe area when its window is translucent.
+* [BUGFIX] A newly stopped session no longer hides feedback screenshot capture overlay.
+* [BUGFIX] Fixed a rare crash happening during view focus change.
+* [BUGFIX] Fixed a rare condition where screenshots are not removed from the submitted feedback on low-end devices.
+* [BUGFIX] Fixed log collection hang on apps with heavy logging.
+
 ### Version 1.11.26
 Released: 2020-11-10
 

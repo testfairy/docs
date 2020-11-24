@@ -6,7 +6,21 @@ If you are developing your app in flutter here are the instructions to add the T
 Use this package as a library
 
 ### 1. Depend on it
-Add this to your package's pubspec.yaml file:
+Add this to your package's pubspec.yaml file for Dart 2 projects:
+
+```
+dependencies:
+  testfairy: ^2.0.6 # for Dart 2 projects
+```
+
+If you prefer Dart 1, choose this instead:
+
+```
+dependencies:
+  testfairy: ^1.0.28 # for Dart 1 projects
+```
+
+If you prefer staying in the latest automatically, choose this:
 
 ```
 dependencies:
@@ -93,7 +107,7 @@ flutter run --enable-experiment=non-nullable --no-sound-null-safety
 flutter drive --enable-experiment=non-nullable --no-sound-null-safety -v --target=test_driver/app.dart
 ```
 
-If this transition is not suitable for your project, you can stay in TestFairy plugin *1.0.27*.
+If this transition is not suitable for your project, you can stay in TestFairy plugin *1.0.28*.
 
 Projects that don't make the migration will otherwise get this error:
 ```
@@ -106,7 +120,7 @@ Starting from 2.0.0, *testfairy* will only work with projects that use Dart 2 as
 
 ```
 dependencies:
-  testfairy: ^1.0.27
+  testfairy: ^1.0.28
 ```
 
 ### How to compile with latest unreleased Flutter?

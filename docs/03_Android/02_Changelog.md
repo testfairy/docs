@@ -1,3 +1,8 @@
+### Version 1.11.28
+Released: 2020-11-24
+
+* [NEW] Added new feedback options to be able to configure feedback form button visibilities.
+
 ### Version 1.11.27
 Released: 2020-11-24
 

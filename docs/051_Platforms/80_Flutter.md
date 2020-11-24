@@ -10,7 +10,7 @@ Add this to your package's pubspec.yaml file for Dart 2 projects:
 
 ```
 dependencies:
-  testfairy: ^2.0.6 # for Dart 2 projects
+  testfairy: any
 ```
 
 If you prefer Dart 1, choose this instead:
@@ -18,13 +18,6 @@ If you prefer Dart 1, choose this instead:
 ```
 dependencies:
   testfairy: ^1.0.28 # for Dart 1 projects
-```
-
-If you prefer staying in the latest automatically, choose this:
-
-```
-dependencies:
-  testfairy: any
 ```
 
 ### 2. Install it

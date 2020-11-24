@@ -13,12 +13,11 @@ dependencies:
   testfairy: any
 ```
 
-If you prefer Dart 1, choose this instead:
+*If you still use Dart 1, please choose this instead:
 
-```
 dependencies:
   testfairy: ^1.0.28 # for Dart 1 projects
-```
+
 
 ### 2. Install it
 You can install packages from the command line:

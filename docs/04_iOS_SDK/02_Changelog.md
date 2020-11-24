@@ -1,3 +1,8 @@
+### Version 1.26.8
+Released 2020-11-23
+
+* [NEW] Optimized rendering for Flutter
+
 ### Version 1.26.7
 Released 2020-11-09
 

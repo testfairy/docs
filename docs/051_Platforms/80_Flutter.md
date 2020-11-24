@@ -13,12 +13,12 @@ dependencies:
   testfairy: any
 ```
 
-*If you still use Dart 1, please choose this instead:
+If you still use Dart 1, please choose this instead:
 
+```
 dependencies:
-
-  testfairy: ^1.0.28 # for Dart 1 projects
-
+  testfairy: ^1.0.29 # for Dart 1 projects
+```
 
 ### 2. Install it
 You can install packages from the command line:
@@ -79,7 +79,7 @@ void main() {
 
 ### How to update native SDKs?
 
-Run `pod repo update` and update the plugin in pubspec.yaml. Then run `cd ios; pod update TestFairy; cd...` to update the iOS SDK.
+Run `pod repo update` and update the plugin in pubspec.yaml. Then run `cd ios; pod update TestFairy; cd ..` to update the iOS SDK.
 
 ### Dart 2 Support
 To be able to use TestFairy Flutter Plugin 2.+, you must have the environment specified below and upgrade your project code base to Dart 2 using [this guide](https://dart.dev/dart-2). 
@@ -100,7 +100,7 @@ flutter run --enable-experiment=non-nullable --no-sound-null-safety
 flutter drive --enable-experiment=non-nullable --no-sound-null-safety -v --target=test_driver/app.dart
 ```
 
-If this transition is not suitable for your project, you can stay in TestFairy plugin *1.0.28*.
+If this transition is not suitable for your project, you can stay in TestFairy plugin *1.0.29*.
 
 Projects that don't make the migration will otherwise get this error:
 ```
@@ -109,11 +109,11 @@ Error: This requires the null safety language feature, which is experimental.
 ```
 
 ### How to opt-out from Dart 2?
-Starting from 2.0.0, *testfairy* will only work with projects that use Dart 2 as the development language. If this transition is not suitable for your project, you can stay in TestFairy plugin 1.0.27.
+Starting from 2.0.0, *testfairy* will only work with projects that use Dart 2 as the development language. If this transition is not suitable for your project, you can stay in TestFairy plugin 1.0.29.
 
 ```
 dependencies:
-  testfairy: ^1.0.28
+  testfairy: ^1.0.29
 ```
 
 ### How to compile with latest unreleased Flutter?
@@ -170,7 +170,7 @@ rm -rf lib/src/network_logging.temp
 
 You have to update the native SDK alongside with CocoaPods repository.
 
-Run `pod repo update` and update the plugin in *pubspec.yaml*. Then run `cd ios; pod update TestFairy; cd..`.
+Run `pod repo update` and update the plugin in *pubspec.yaml*. Then run `cd ios; pod update TestFairy; cd ..`.
 
 * I have my own `HttpOverrides.global` setup. How can I make it work with TestFairy?
 

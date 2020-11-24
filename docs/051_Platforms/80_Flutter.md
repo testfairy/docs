@@ -16,6 +16,7 @@ dependencies:
 *If you still use Dart 1, please choose this instead:
 
 dependencies:
+
   testfairy: ^1.0.28 # for Dart 1 projects
 
 

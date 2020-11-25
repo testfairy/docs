@@ -1,3 +1,8 @@
+### Version 1.11.29
+Released: 2020-11-25
+
+* [BUGFIX] Fixed a bug where capture overlay sometimes stays on screen even after feedbacks are sent.
+
 ### Version 1.11.28
 Released: 2020-11-24
 

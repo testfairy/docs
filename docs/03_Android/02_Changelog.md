@@ -1,3 +1,8 @@
+### Version 1.11.30
+Released: 2020-11-26
+
+* [BUGFIX] Dismissing the feedback form now respects previous activity's window flags.
+
 ### Version 1.11.29
 Released: 2020-11-25
 

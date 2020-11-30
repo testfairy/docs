@@ -1,3 +1,8 @@
+### Version 1.11.31
+Released: 2020-11-30
+
+* [BUGFIX] Fixed a crash happening on api level 24-25 when video is enabled.
+
 ### Version 1.11.30
 Released: 2020-11-26
 

@@ -1,7 +1,7 @@
 ### Version 1.11.32
 Released: 2020-12-01
 
-* [NEW] Added new overloads of showFeedbackForm() to be able attach screenshots directly.
+* [NEW] Added new overloads of `showFeedbackForm()` to be able attach screenshots directly.
 
 ### Version 1.11.31
 Released: 2020-11-30

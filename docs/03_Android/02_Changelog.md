@@ -16,7 +16,8 @@ Released: 2020-11-26
 ### Version 1.11.29
 Released: 2020-11-25
 
-* [BUGFIX] Fixed a bug where capture overlay sometimes stays on screen even after feedbacks are sent.
+* [BUGFIX] Capture overlay would sometimes stay on screen even after feedbacks are sent.
+* [BUGFIX] Removed additional information from being displayed on timeline after EditText lost focus.
 
 ### Version 1.11.28
 Released: 2020-11-24

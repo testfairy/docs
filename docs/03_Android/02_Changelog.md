@@ -1,3 +1,8 @@
+### Version 1.11.33
+Released: 2020-12-08
+
+* [IMPROVEMENT] Improved battery consumption and time sent on network by 50%.
+
 ### Version 1.11.32
 Released: 2020-12-01
 

@@ -1,3 +1,9 @@
+### Version 1.11.34
+Released: 2020-12-09
+
+* [IMPROVEMENT] Hidden views in view trees are now shown properly.
+* [BUGFIX] Hidden views in dialogs are now blacked out at correct locations in screenshots.
+
 ### Version 1.11.33
 Released: 2020-12-08
 

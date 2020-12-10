@@ -1,13 +1,12 @@
-GitLab can automatically deploy your Android and iOS Apps to [TestFairy](https://www.testfairy.com/).
+GitLab can automatically deploy your Android or iOS Apps to [TestFairy](https://www.testfairy.com/).
 
-* On the TestFairy dashboard, navigate to the Preferences page.
-  ![](https://docs.testfairy.com/img/continuous-integration/testfairy-open-preferences.png)
-
-* On the Preferences page, go to the API Key section.
+* On the TestFairy dashboard, navigate to the __Preferences --> [Upload API Key](https://app.testfairy.com/settings/api-key)__ page.
   ![](https://docs.testfairy.com/img/continuous-integration/testfairy_upload_key.png)
 
-* Copy your API key and go to your application's project settings in GitLab.
+
+* Copy your API key and go to your application's project __Settings --> CI/CD -- Variables__ in GitLab. Add a variable called `TESTFAIRY_API_KEY` to the list with the value of your __Upload API key__.
   ![](https://docs.testfairy.com/img/continuous-integration/gitlab_secret_keys.png)
+
 
 * To deploy, add a job to your `.gitlab-ci.yml` configuration using [fastlane](https://docs.fastlane.tools/getting-started/ios/beta-deployment/) or `curl` (example below).
 ``` yaml

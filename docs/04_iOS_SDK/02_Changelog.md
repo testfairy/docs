@@ -1,3 +1,8 @@
+### Version 1.26.9
+Released 2020-12-14
+
+* [NEW] Understand which elements are hidden from screenshots in recorded session
+
 ### Version 1.26.8
 Released 2020-11-23
 

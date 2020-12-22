@@ -1,3 +1,8 @@
+### Version 1.11.35
+Released: 2020-12-22
+
+* [BUGFIX] Fixed a bug where some sessions could not be started if `setUserId()` is not called.
+
 ### Version 1.11.34
 Released: 2020-12-09
 

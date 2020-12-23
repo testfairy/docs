@@ -1,4 +1,4 @@
-### Disable the landing page
+### Disable the landing page 
 
 If you do not want a landing page you can disable it on the landing page settings page for that specific app:
 

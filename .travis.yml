@@ -14,7 +14,7 @@ before_install:
   - echo "aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}" >> ~/.aws/credentials
 
 before_script:
-  - npm install -g less tslib
+  - npm install -g less@3.13.1 tslib
 
 branches:
   only:

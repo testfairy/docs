@@ -26,6 +26,8 @@ Every build has its own settings, however, some of the definitions are shared by
 
 * **[Tags]()** Tags can be added to each build. They are comma separated text and can contain spaces.
 
+* **[Metadata]()** Metadata are details received from __Continuous integration (CI)__ systems that upload the build to the TestFairy Dashboard. They can not be edited.
+
 * **[Landing Page](https://docs.testfairy.com/App_Distribution/Landing_Pages.html)** - link to the landing page. Click the  `Configure` button to change the landing page for this build.
 
 ### Insights
@@ -35,23 +37,22 @@ Every build has its own settings, however, some of the definitions are shared by
 
 * __Recording:__ Choose whether recording of sessions is `enabled`, `disabled` or `enabled only when WiFi is on`. This is global and overrides all other settings.
 
-* __Max Duration:__ you can choose a maximum recording duration of 10 min, 1 or 5 hour. When going to background, session will automatically end after 5 minutes the app is in the background.
+* __Session__: this option defines the maximum length of session recorded.
 
-* __Collect Logs in background (only in android)__: this option will enable collecting logs also when the app is in the background.  Please note that this option may cause additional battery consumption.
-
-* **Video settings** - Changing video settings can be useful if you wish to decrease network overload: 
+* __Video__ - Changing video settings can be useful if you wish to decrease network overload: 
     * Enable / Disable video recording     
-* **Metrics**:
-   * Application logcat/logs - collect the app logs from device.
+* __Metrics__:
+   * Application logcat - collect the app logs from the device.
 
 
 ### Bug reporting
 
+
 <img src="../../img/getting-started/build-settings/build-settings-bugs.png" width="800"/>
    
-* **[In-App Bug Reporting](https://docs.testfairy.com/Testers/Submitting_User_Feedback.html)** - when enabled, testers can provide feedback simply by shaking their device and filling a form that pops up. On iOS, screenshot will trigger the same mechanism. 
+* __[In-App Bug Reporting]__(https://docs.testfairy.com/Testers/Submitting_User_Feedback.html)** - When in-app reporting is enabled tester will be able to shake their device in order to open a bug report. 
 
-* **[Bug System](https://docs.testfairy.com/Bug_Tracking/Overview.html)** - indicated which JIRA project is configured for this app. the general configuration of bug tracking systems is doen via the [Bug systems](https://app.testfairy.com/settings/bug-system/) menu item in the account preferences.
+* __[Bug System](https://docs.testfairy.com/Bug_Tracking/Overview.html)__ - indicated which JIRA project is connected to this app. The general configuration of bug tracking systems is doen via the [Bug systems](https://app.testfairy.com/settings/bug-system/) menu item in  __Account preferences__.
 
 ### Symbolication
 

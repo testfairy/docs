@@ -2,25 +2,25 @@
 
 ## 1. Create a JIRA API token
 
-- Log in to [https://id.atlassian.com/manage/api-tokens#](https://id.atlassian.com/manage/api-tokens#) and click on "Create API token"
+1.1 log in to [https://id.atlassian.com/manage/api-tokens#](https://id.atlassian.com/manage/api-tokens#) and click on "Create API token"
 
 ![Create JIRA API](/img/bug-tracking/jira-create-api.png)
 
-- Label the new token "TestFairy".
+1.2 Label the new token "TestFairy".
 
 ![Set TEstFairy JIRA Key](/img/bug-tracking/jira-label.png)
 
-- Copy the API Token.
+1.3 Copy the API Token.
 
 ![Copy token](/img/bug-tracking/jira-token.png)
 
 ## 2. Configure JIRA in your TestFairy settings: 
 
-- Open your TestFairy account Preferences 
+2.1. Open your TestFairy account Preferences 
 
 ![Open TestFairy preferences](/img/bug-tracking/jira-cloud-1.png)
 
-- Choose "Bug Systems" -> "JIRA", and enter your JIRA Username, API Token and JIRA URL. 
+2.2 Choose "Bug Systems" -> "JIRA", and enter your JIRA Username, API Token and JIRA URL. 
 
 ![Configure JIRA cloud](/img/bug-tracking/jira-cloud-2.png)
 
@@ -35,23 +35,23 @@ The TestFairy JIRA Add-on adds TestFairy videos to JIRA issues.
 
 In order to install it please follow these steps:
 
-- Open JIRA Settings
+4.1. Open JIRA Settings
 
 ![JIRA-settings](/img/bug-tracking/jira-settings.png)
 
-- Open Apps
+4.2 Open Apps
 
 ![JIRA-settings](/img/bug-tracking/jira-settings1.png)
 
-- In the Apps manu press 'Find new apps'
+4.3 In the Apps manu press 'Find new apps'
 
 ![JIRA-apps](/img/bug-tracking/jira-find-apps.png)
 
-- Add "TestFairy for Jira" to your account.
+4.4 Add "TestFairy for Jira" to your account.
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-discover.png)
 
-- On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
+4.5 On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
 
 ![JIRA-testfairy app](/img/bug-tracking/jira-3-dots.png)
 

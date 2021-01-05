@@ -1,3 +1,9 @@
+### Version 1.11.36
+Released: 2021-01-05
+
+* [BUGFIX] Feedback overlay no longer steals the focus from the `NativeActivity` beneath.
+* [BUGFIX] Fixed a null pointer exception when `setAttribute()` is given null values.
+
 ### Version 1.11.35
 Released: 2020-12-22
 

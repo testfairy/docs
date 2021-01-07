@@ -32,10 +32,15 @@ Alternatively, your editor might support flutter packages get. Check the docs fo
 Now in your Dart code, you can use:
 ```
 import 'package:testfairy/testfairy.dart';
+
+void main() {
+  TestFairy.begin("SDK-myToken");
+  runApp(MyApp());
+}
 ```
 
 ### Quick Start
-Include the library and run your main app like this. 
+If you want to use all the features of the TestFairy platform, you will want to run your main app like the example below.
 
 Make sure your project is [AndroidX](https://flutter.dev/docs/development/androidx-migration) compatible.
 
@@ -59,6 +64,7 @@ void main() {
             (details) => TestFairy.logError(details.exception);
 
         // Call `await TestFairy.begin()` or any other setup code here.
+        await TestFairy.begin(APP_TOKEN)
 
         runApp(TestFairyGestureDetector(child: TestfairyExampleApp()));
       } catch (error) {

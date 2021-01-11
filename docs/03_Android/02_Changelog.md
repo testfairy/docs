@@ -1,3 +1,8 @@
+### Version 1.11.37
+Released: 2021-01-11
+
+* [BUGFIX] Fixed missing web views in screenshots.
+
 ### Version 1.11.36
 Released: 2021-01-05
 

@@ -42,6 +42,7 @@ Since the data is encrypted using RSA, viewing a session requires the private ke
 
 **Important note:** it's cruical that you keep the private key safe. If lost, these sessions cannot be recovered and the recorded data will become useless.
 
+<a name="technical-details"></a>
 #### Technical details (How does it work?)
 
 As a developer who wants to encrypt their sessions, you generate a private key and derive a public key from it.

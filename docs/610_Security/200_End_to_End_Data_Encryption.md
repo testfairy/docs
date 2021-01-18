@@ -1,5 +1,5 @@
-TestFairy provides mechanism to encrypt the logs and the screenshots that are recorded from the mobile device. This way, the data that is kept on the cloud is encrypt and nobody can read it other than the people in your team who have the private key.
-In order to use this capability, you will need to  create a public key and a private key. The public key will be used to initialize the TestFairy SDK in your app. The private key, which should not be shared with anybody, will be used by you, when you log in to your TestFairy dashabord.
+TestFairy provides amechanism to encrypt the logs and the screenshots that are recorded from the mobile device. This way, the data that is kept on the cloud is encrypted and nobody can read it other than the people in your team who have the private key.
+In order to use this capability, you will need to  create a public key and a private key. The public key will be used to initialize the TestFairy SDK in your app. The private key, which should not be shared with anybody, will be used by you, when you log in to your TestFairy dashboard.
 
 This encryption is done with a randomly generated 256-bit AES key. This AES key is random and is only used in a single session recording. The AES key is then protected with an RSA key, where the public key is provided when constructing the SDK.
 
@@ -40,7 +40,7 @@ Enable end-to-end encryption for your iOS apps by calling `setPublicKey` before 
 
 Since the data is encrypted using RSA, viewing a session requires the private key. Simply visiting a recorded session will prompt a dialog for entry of the RSA Private Key. Just paste the private key text and click "OK". Your private keys are never sent to the server and are only kept within the browser session. 
 
-**Important note:** it's cruical that you keep the private key safe. If lost, these sessions cannot be recovered and the recorded data will become useless.
+**Important note:** it's crucial that you keep the private key safe. If lost, these sessions cannot be recovered and the recorded data will become useless.
 
 <a name="technical-details"></a>
 #### Technical details (How does it work?)
@@ -51,7 +51,7 @@ You put your public key in your app, and this key is not a secret. This key can 
 
 When a new session starts (calling TestFairy.begin after TestFairy.setPublicKey), the SDK generates a random AES key and encrypts it with the RSA public key you provided.
 
-This means that every session has a different AES key (in CBC mode), and is not shared between sessions. The AES key is 128 bit, and the encrypted data may be decrypted if you have the key. The random key is it encrypted by the public key by itself. This means that a 3rd party wants to view the session, they need to run 2^128 brute force combinations to find one session. AES is used to encrypt the data, as it is so much faster than RSA, and is not limited by length of cleartext value. 
+This means that every session has a different AES key (in CBC mode), and is not shared between sessions. The AES key is 128 bit, and the encrypted data may be decrypted if you have the key. The random key is encrypted by the public key by itself. This means that a 3rd party wants to view the session, they need to run 2^128 brute force combinations to find one session. AES is used to encrypt the data, as it is so much faster than RSA, and is not limited by length of cleartext value. 
 
 Notice that the data that is encrypted includes the logs and the screenshots. If encryption is enabled, certain features are automatically disabled, such as showing values entered in EditText fields, or the text of a button that was clicked.
 

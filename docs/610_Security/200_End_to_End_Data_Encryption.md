@@ -36,8 +36,21 @@ Enable end-to-end encryption for your iOS apps by calling `setPublicKey` before 
 [TestFairy begin:@"<APP TOKEN>"];
 ```
 
-#### Viewing sessions
+#### Viewing encrypted sessions
 
 Since the data is encrypted using RSA, viewing a session requires the private key. Simply visiting a recorded session will prompt a dialog for entry of the RSA Private Key. Just paste the private key text and click "OK". Your private keys are never sent to the server and are only kept within the browser session. 
 
 **Important note:** it's cruical that you keep the private key safe. If lost, these sessions cannot be recovered and the recorded data will become useless.
+
+#### Technical details (How does it work?)
+
+As a developer who wants to encrypt their sessions, you generate a private key and derive a public key from it.
+
+You put your public key in your app, and this key is not a secret. This key can be only used to encrypt data, but not decrypt it back.
+
+When a new session starts (calling TestFairy.begin after TestFairy.setPublicKey), the SDK generates a random AES key and encrypts it with the RSA public key you provided.
+
+This means that every session has a different AES key (in CBC mode), and is not shared between sessions. The AES key is 128 bit, and the encrypted data may be decrypted if you have the key. The random key is it encrypted by the public key by itself. This means that a 3rd party wants to view the session, they need to run 2^128 brute force combinations to find one session. AES is used to encrypt the data, as it is so much faster than RSA, and is not limited by length of cleartext value. 
+
+Notice that the data that is encrypted includes the logs and the screenshots. If encryption is enabled, certain features are automatically disabled, such as showing values entered in EditText fields, or the text of a button that was clicked.
+

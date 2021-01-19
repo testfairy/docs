@@ -1,3 +1,8 @@
+### Version 1.11.38
+Released: 2021-01-19
+
+* [NEW] Added new API to intercept feedback messages before they are sent.
+
 ### Version 1.11.37
 Released: 2021-01-11
 

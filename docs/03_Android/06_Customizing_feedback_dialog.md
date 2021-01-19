@@ -147,7 +147,7 @@ public class MyFeedbackVerifier implements FeedbackVerifier {
 }
 ```
 
-Then call provide the SDK your verifier with the following line.
+Then call the SDK with your verifier.
 
 ```java
 TestFairy.setFeedbackVerifier(new MyFeedbackVerifier());
@@ -159,7 +159,7 @@ The feedback form uses following heuristics to determine how to fill its email f
 
 * If you provide an email address to `TestFairy.setUserId(String)`, it will be automatically detected by the form.
 * If you set an attribute via `TestFairy.setAttribute("email", "jane@example.com")`, the form will make use of it.
-* If the app user sends a feedback and provides a new email address, it will also be saved for later use in case rules above cannot detect any email address.
+* If the user sends a feedback with a valid email address, it will also be saved for later use in case rules above cannot detect any other addresses.
 
 ### Feedback Form UI Customization
 

@@ -1,4 +1,9 @@
 ### Version 1.26.9
+Released 2021-01-18
+
+* [NEW] Strip `armv7s` support
+
+### Version 1.26.9
 Released 2020-12-14
 
 * [NEW] Understand which elements are hidden from screenshots in recorded session

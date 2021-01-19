@@ -84,6 +84,30 @@ FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
 	TestFairy.setFeedbackOptions(feedbackOptions);
 ```
 
+#### setFeedbackInterceptor(FeedbackOptions.Callback)
+
+A submitted feedback's content can be inspected with custom interceptors. Intereptors can modify the inspected feedback's message, user email or attached bitmap. This way, it is possible to add extra text to the submitted message such as ids from issue trackers and meta data relevant to current context the feedback is submitted from.
+
+```java
+FeedbackOptions feedbackOptions = new FeedbackOptions.Builder()
+	.setFeedbackInterceptor(new FeedbackOptions.FeedbackInterceptor() {
+		@Override
+		public FeedbackContent intercept(FeedbackContent feedbackContent) {
+			String exampleText = "Issue: " + generateIssueId() + "\n";
+
+			return new FeedbackContent(
+				exampleText + feedbackContent.getText(),
+				feedbackContent.getEmail(),
+				feedbackContent.getTimestamp(),
+				feedbackContent.getBitmap()
+			);
+		}
+	})
+	.build();
+
+TestFairy.setFeedbackOptions(feedbackOptions);
+```
+
 #### setFeedbackVerifier(FeedbackVerifier)
 
 It is also possible to define custom feedback verification logic by providing a verifier implementation.

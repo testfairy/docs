@@ -13,6 +13,9 @@ Here are a few methods that can help you customize the feedback behaviour:
 - `setEmailMandatory()`: Whether or not people have to identify themselves when submitting feedback.
 - `setCallback()`: Get notified when a feedback has been sent.
 - `setDefaultText()`: Set the initial text content of the feedback form to standardize reported feedbacks with submission guidelines.
+- `setRecordVideoButtonVisible`: Set whether set record video button is visible.
+- `setTakeScreenshotButtonVisible`: Set whether screenshot button is visible.
+- `setFeedbackInterceptor`: Intercept sent feedbacks to modify their message, email or attached screenshot on the fly.
 
 #### setBrowserUrl(String url)
 

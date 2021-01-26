@@ -1,3 +1,8 @@
+### Version 1.11.39
+Released: 2021-01-26
+
+* [BUGFIX] Feedback form now respects safely touchable area reported by the operating system.
+
 ### Version 1.11.38
 Released: 2021-01-19
 

@@ -18,8 +18,8 @@ Please read carefully the [Apple guidelines](https://developer.apple.com/app-sto
 5. It is strongly recomended to use a [private cloud](/Security/Private_Cloud.html) .
 
 6. In case you are using TestFairy for customer support to better understand your users in case of a technical issue,
-it is recomended to add a button to your app menu (call it "advanecd support"?) and have that button call TestFairy.begin().
-Before calling begin() ask the user if this is ok to record their screen for quality assurance purposes.
+it is recomended to add a button to your app menu (call it "advanced support"?) and have that button call `TestFairy.begin()`.
+Before calling `begin()` ask the user if this is ok to record their screen for quality assurance purposes.
 When doing that, make sure that session duration is set to 2-3 minutes, just enough to identify the cause of a problem.
 
 7. You **must** include a proper disclaimer in your app terms of service document.

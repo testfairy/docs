@@ -1,4 +1,4 @@
-Are are having problem instalaing an app on Android 10, and getting an error message "App not installed"?
+Are are having problem installing an app on Android 10, and getting an error message "App not installed"?
 
 ![](/img/android/sdk/app_not_installed.png)
 
@@ -22,7 +22,7 @@ By default Android allows installation only from the Play Store. In order to all
 
 # Does the problem happen only on Android 10?
 
-If you can install your app on old Android versions without a problem, and only new versions (Android 10?) give you a hard time, it might be related to your signature. 
+If you can install your app on old Android versions without a problem, and only new versions (Android 10?) give you a hard time, it might be related to your signature.
 
 Although this is not a globally defined default, some Android manufactures (Google and others)require signing apps with a v2 signature on their latest versions and may not allow installing apps signed only with the v1 signature scheme.
 

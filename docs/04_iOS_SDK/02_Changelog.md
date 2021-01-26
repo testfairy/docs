@@ -1,4 +1,4 @@
-### Version 1.26.9
+### Version 1.27.0
 Released 2021-01-18
 
 * [NEW] Strip `armv7s` support

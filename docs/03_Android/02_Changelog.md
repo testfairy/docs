@@ -1,7 +1,7 @@
 ### Version 1.11.40
 Released: 2021-01-27
 
-* [IMPROVEMENTS] Keyboard no longer obstructs feedback form content by default.
+* [IMPROVEMENT] Keyboard no longer obstructs feedback form content by default.
 
 ### Version 1.11.39
 Released: 2021-01-26

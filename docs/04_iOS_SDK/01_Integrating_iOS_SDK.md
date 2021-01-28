@@ -29,7 +29,7 @@ You get to:
   </div>
 
   <div class="docs-tabs-content w-tab-content">
-    <div data-w-tab="tab-manual" class="w-tab-pane w--tab-active">
+    <div data-w-tab="tab-spm" class="w-tab-pane w--tab-active">
       <p><b>Note: Requires Xcode 12+</b></p>
       <p>
         <ol>

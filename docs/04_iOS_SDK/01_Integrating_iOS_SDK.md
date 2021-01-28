@@ -14,8 +14,8 @@ You get to:
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
   <div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
-    <a data-w-tab="tab-manual" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;" href="#manual">
-      <div>Manual</div>
+    <a data-w-tab="tab-spm" class="docs-tab w-inline-block w-tab-link w--current" style="margin: 2px;" href="#spm">
+      <div>Swift Package Manager</div>
     </a>
     <a data-w-tab="tab-cocoapods" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#cocoapods">
       <div>Cocoapods</div>
@@ -23,10 +23,44 @@ You get to:
     <a data-w-tab="tab-carthage" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#carthage">
       <div>Carthage</div>
     </a>
+    <a data-w-tab="tab-manual" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#manual">
+      <div>Manual</div>
+    </a>
   </div>
 
   <div class="docs-tabs-content w-tab-content">
     <div data-w-tab="tab-manual" class="w-tab-pane w--tab-active">
+      <p><b>Note: Requires Xcode 12+</b></p>
+      <p>
+        <ol>
+          <li>
+            <p>Click "File > Swift Packages > Add Package Dependency..."</p>
+            <blockquote>
+              <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework1.png" alt="alt"></p>
+            </blockquote>
+          </li>
+          <li>
+            <p>Add the TestFairy package repository URL: <em>https://github.com/testfairy/testfairy-ios-sdk-swift-package</em> </p>
+            <blockquote>
+              <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework2.png" alt="alt"></p>
+            </blockquote>
+          </li>
+          <li>
+            <p>Select the appropriate package options</p>
+            <blockquote>
+              <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework3.png" alt="alt"></p>
+            </blockquote>
+          </li>
+          <li>
+            <p>Click "Finish"</p>
+            <blockquote>
+              <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework4.png" alt="alt"></p>
+            </blockquote>
+          </li>
+        </ol>
+      </p>
+    </div>
+    <div data-w-tab="tab-manual" class="w-tab-pane">
       <ol>
         <li>Download the framework from our <a href="https://app.testfairy.com/sdk/ios/" target="_blank">Download page</a>.</li>
         <li>

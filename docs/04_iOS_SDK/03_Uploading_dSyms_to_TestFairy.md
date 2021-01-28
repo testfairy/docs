@@ -96,6 +96,11 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 						<pre><code class="language-sh hljs bash">sh <span class="hljs-string">"<span class="hljs-variable">${SRCROOT}</span>/Carthage/Build/iOS/TestFairySDK.framework/upload-dsym.sh"</span> UPLOAD_API_KEY
 						</code></pre>
 
+						<p>If you're using <strong>Swift Package Manager</strong>, you will have to use a different path to <code>upload-dsym.sh</code></p>
+
+						<pre><code class="language-sh hljs bash">sh <span class="hljs-string">"<span class="hljs-variable">${TARGET_BUILD_DIR}</span>/TestFairy.framework/upload-dsym.sh"</span> UPLOAD_API_KEY
+						</code></pre>
+
 						<div>
 							<p>Make sure the specified path includes the upload-dsym.sh file.</p>
 							<p>Make sure to replace <strong>UPLOAD_API_KEY</strong> with the your secret upload API key, found in the <a href="https://app.testfairy.com/settings/api-key/">Settings</a> page.</p>

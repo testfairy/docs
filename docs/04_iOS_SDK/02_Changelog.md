@@ -1,3 +1,8 @@
+### Version 1.27.1
+Released 2021-01-28
+
+* [NEW] Support XCFramework and Swift Package Manager
+
 ### Version 1.27.0
 Released 2021-01-18
 

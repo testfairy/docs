@@ -1,3 +1,8 @@
+### Version 1.11.41
+Released: 2021-02-08
+
+* [NEW] Feedback forms can now be customized with various input fields.
+
 ### Version 1.11.40
 Released: 2021-01-27
 

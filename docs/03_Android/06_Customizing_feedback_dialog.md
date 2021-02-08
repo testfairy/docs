@@ -17,6 +17,8 @@ Here are a few methods that can help you customize the feedback behaviour:
 - `setTakeScreenshotButtonVisible()`: Set whether screenshot button is visible.
 - `setFeedbackInterceptor()`: Intercept sent feedbacks to modify their message, email or attached screenshot on the fly.
 
+- `setFeedbackVerifier()`: Intercept sent feedbacks to accept or reject them based on custom logic.
+
 #### setBrowserUrl(String url)
 
 You can setBrowserUrl, so Testfairy will open your own url for user feedback (or a questionnaire etc. ).
@@ -140,6 +142,13 @@ public class MyFeedbackVerifier implements FeedbackVerifier {
 			return false;
 		}
 
+		Map<String, String> attributes = content.getAttributes();
+		if (attributes.containsValue("IMPORTANT_CREDENTIALS")) {
+			// Example security measure to reject sensitive data coming from custom feedback form fields
+			lastError = "Please remove your password from the submitted feedback.";
+			return false;
+		}
+
 		return true;
 	}
 
@@ -160,9 +169,9 @@ TestFairy.setFeedbackVerifier(new MyFeedbackVerifier());
 
 The feedback form uses following heuristics to determine how to fill its email field.
 
-* If you provide an email address to `TestFairy.setUserId(String)`, it will be automatically detected by the form.
-* If you set an attribute via `TestFairy.setAttribute("email", "jane@example.com")`, the form will make use of it.
-* If the user sends a feedback with a valid email address, it will also be saved for later use in case rules above cannot detect any other addresses.
+- If you provide an email address to `TestFairy.setUserId(String)`, it will be automatically detected by the form.
+- If you set an attribute via `TestFairy.setAttribute("email", "jane@example.com")`, the form will make use of it.
+- If the user sends a feedback with a valid email address, it will also be saved for later use in case rules above cannot detect any other addresses.
 
 ### Feedback Form UI Customization
 
@@ -180,30 +189,33 @@ public static void putString(Activity activity, String key, String value) {
 Here is a list of fields you can override in your app.
 
 These keys will be used to override text contents of the form.
-* `"com.testfairy.feedback.description"`
-* `"com.testfairy.feedback.title"`
-* `"com.testfairy.feedback.thankYouText"`
-* `"com.testfairy.feedback.verifyErrorText"`
-* `"com.testfairy.feedback.sendingProgressText"`
-* `"com.testfairy.feedback.poweredByText"`
-* `"com.testfairy.feedback.emailPlaceholder"`
-* `"com.testfairy.feedback.feedbackDescriptionPlaceholder"`
-* `"com.testfairy.feedback.editScreenshot"`
-* `"com.testfairy.feedback.takeScreenshot"`
-* `"com.testfairy.feedback.removeScreenshot"`
-* `"com.testfairy.feedback.takeScreenRecord`"
-* `"com.testfairy.feedback.screenRecorded"`
+
+- `"com.testfairy.feedback.description"`
+- `"com.testfairy.feedback.title"`
+- `"com.testfairy.feedback.thankYouText"`
+- `"com.testfairy.feedback.verifyErrorText"`
+- `"com.testfairy.feedback.sendingProgressText"`
+- `"com.testfairy.feedback.poweredByText"`
+- `"com.testfairy.feedback.emailPlaceholder"`
+- `"com.testfairy.feedback.feedbackDescriptionPlaceholder"`
+- `"com.testfairy.feedback.editScreenshot"`
+- `"com.testfairy.feedback.takeScreenshot"`
+- `"com.testfairy.feedback.removeScreenshot"`
+- `"com.testfairy.feedback.takeScreenRecord`"
+- `"com.testfairy.feedback.screenRecorded"`
 
 These keys will be used to override content description of icon buttons. We strongly suggest make use of these keys for better accessiblity in your apps.
-* `"com.testfairy.feedback.sendButtonContent"`
-* `"com.testfairy.feedback.cancelButtonContent"`
-* `"com.testfairy.feedback.screenshotThumbnail"`
+
+- `"com.testfairy.feedback.sendButtonContent"`
+- `"com.testfairy.feedback.cancelButtonContent"`
+- `"com.testfairy.feedback.screenshotThumbnail"`
 
 These keys will be used to override the consent dialog users are shown when a screen recording is going to be captured.
-* `"com.testfairy.feedback.consentDialogTitle"`
-* `"com.testfairy.feedback.consentDialogMessage"`
-* `"com.testfairy.feedback.consentDialogOkButton"`
-* `"com.testfairy.feedback.consentDialogCancelButton"`
+
+- `"com.testfairy.feedback.consentDialogTitle"`
+- `"com.testfairy.feedback.consentDialogMessage"`
+- `"com.testfairy.feedback.consentDialogOkButton"`
+- `"com.testfairy.feedback.consentDialogCancelButton"`
 
 In Europe, GDPR mandates that you must clearly explain why you are collecting user data and how you are utilizing this data for your business needs. It is strongly suggested that these reasons should be stated in the consent dialog in a clear way. This kind of practice is being adopted by many countries/states and is really important to protect the privacy of your users.
 

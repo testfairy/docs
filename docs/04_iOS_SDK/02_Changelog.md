@@ -1,3 +1,9 @@
+### Version 1.27.2
+Released 2021-02-08
+
+* [NEW] Added new `setTestFairyFeedbackOptions` which allows more ways to control the feedback form.
+* [BUGFIX] Crash when device is shaken for feedback, but there's already an alert displayed. 
+
 ### Version 1.27.1
 Released 2021-01-28
 

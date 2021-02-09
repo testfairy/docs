@@ -1,6 +1,6 @@
 Do you want to add custom input fields to the submitted feedbacks?
 
-TestFairy SDK is transitioning to a new layout system which provides a fully customizable feedback form experience with its experimental `FeedbackOptions` API.
+TestFairy SDK is transitioning to a new layout system which provides a fully customizable feedback form experience with its `FeedbackOptions` API.
 
 Warning : Support for custom fields is still in its early stages. All class names and method signatures may change during development.
 
@@ -11,24 +11,16 @@ To get started, copy the code below and modify it according to your needs.
 ```java
 			Map<String, String> cities = new HashMap<>();
 			//cities.put(humanReadableName, machineReadableName)
-			cities.put("London", "London");
-			cities.put("Paris", "Paris");
-			cities.put("Berlin", "Berlin");
-			cities.put("Los Angeles", "Los Angeles");
-			cities.put("Beijing", "Beijing");
-
-			Map<String, String> currencies = new HashMap<>();
-			//currencies.put(humanReadableName, machineReadableName)
-			currencies.put("USD", "USD");
-			currencies.put("EUR", "EUR");
-			currencies.put("GBP", "GBP");
-			currencies.put("CNY", "CNY");
+			cities.put("London", "LON");
+			cities.put("Paris", "PAR");
+			cities.put("Berlin", "BER");
+			cities.put("Los Angeles", "LA");
+			cities.put("Beijing", "BEI");
 
 			List<FeedbackFormField> fields = new ArrayList<>();
-			fields.add(new StringFeedbackFormField(":userId", "Email", ""));
-			fields.add(new TextAreaFeedbackFormField(":text", "Your message", ""));
-			fields.add(new StringFeedbackFormField("city", "City", ""));
-			fields.add(new SelectFeedbackFormField("currency", "Currency", currencies, "GBP"));
+			fields.add(new StringFeedbackFormField(":userId", "Email", "")); // :userId is built-in for emails
+			fields.add(new TextAreaFeedbackFormField(":text", "Your message", "")); // :text is built-in for feedback messages
+			fields.add(new SelectFeedbackFormField("city", "City", cities, "Paris" /*default value*/)); // A custom select field
 
 			TestFairy.setFeedbackOptions(
 				new FeedbackOptions.Builder()
@@ -42,6 +34,15 @@ To get started, copy the code below and modify it according to your needs.
 ```
 
 Values set in these fields will be accessible by feedback interceptors and verifiers under `FeedbackContent::getAttributes()`.
+
+Here is the form generated in the example above.
+
+![alt](../../img/android/custom-feedbacks/custom-feedbacks-1.jpg)
+![alt](../../img/android/custom-feedbacks/custom-feedbacks-2.jpg)
+![alt](../../img/android/custom-feedbacks/custom-feedbacks-3.jpg)
+![alt](../../img/android/custom-feedbacks/custom-feedbacks-4.jpg)
+![alt](../../img/android/custom-feedbacks/custom-feedbacks-5.jpg)
+![alt](../../img/android/custom-feedbacks/custom-feedbacks-6.jpg)
 
 ### StringFeedbackFormField
 

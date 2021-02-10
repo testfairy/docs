@@ -1,3 +1,8 @@
+### Version 1.11.42
+Released: 2021-02-10
+
+* [NEW] Feedback form now supports dark mode.
+
 ### Version 1.11.41
 Released: 2021-02-08
 

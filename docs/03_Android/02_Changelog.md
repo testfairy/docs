@@ -1,3 +1,8 @@
+### Version 1.11.43
+Released: 2021-02-11
+
+* [BUGFIX] Services that launch their own processes are now detected with better accuracy.
+
 ### Version 1.11.42
 Released: 2021-02-10
 

@@ -1,3 +1,8 @@
+### Version 1.27.3
+Released 2021-02-17
+
+* [NEW] Added feedback content interceptor. Get a callback before a feedback is sent to server, and modify content or attributes if needed.
+
 ### Version 1.27.2
 Released 2021-02-08
 

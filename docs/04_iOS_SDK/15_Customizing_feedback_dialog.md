@@ -8,19 +8,19 @@ Otherwise, you can utilize `[TestFairy showFeedbackForm:(NSString *)appToken tak
 
 Here are a few methods that can help you customize the feedback behaviour:
 
-- `setEmailFieldVisible()`: Whether or not email input text should be displayed.
-- `setEmailMandatory()`: Whether or not people have to identify themselves when submitting feedback.
-- `setDefaultText()`: Set the initial text content of the feedback form to standardize reported feedbacks with submission guidelines.
+- `isEmailVisible`: Whether or not email input text should be displayed.
+- `isEmailMandatory`: Whether or not people have to identify themselves when submitting feedback.
+- `defaultText`: Set the initial text content of the feedback form to standardize reported feedbacks with submission guidelines.
 
 #### setEmailFieldVisible(boolean) / setEmailMandatory(boolean)
 
 You can decide whether the email field is visible or not, and whether the email is mandatory or not.
 
 ```objc
-[TestFairy setFeedbackOptions:@{
-	@"isEmailMandatory":@NO,
-	@"isEmailVisible": @NO
-}];
+[TestFairy setTestFairyFeedbackOptions:[TestFairyFeedbackOptions createWithBlock:^(TestFairyFeedbackOptionsBuilder *builder) {
+	builder.isEmailMandatory = YES;
+	builder.isEmailVisible = YES;
+}]];
 ```
 
 #### setDefaultText(String)
@@ -28,7 +28,26 @@ You can decide whether the email field is visible or not, and whether the email 
 In order to change the default text that users see in the feedback form textarea, please use the following:
 
 ```objc
-[TestFairy setFeedbackOptions:@{
-	@"defaultText": @"Tested on the following device:\n\n\nSteps to reproduce:\n1.\n\n2.\n\n3.\n\nActual Result:\nExpected Result:\n"
-}];
+[TestFairy setTestFairyFeedbackOptions:[TestFairyFeedbackOptions createWithBlock:^(TestFairyFeedbackOptionsBuilder *builder) {
+	builder.defaultText = @"Tested on the following device:\n" +
+                        "\n\n" +
+                        "Steps to reproduce:\n" +
+                        "1.\n\n" +
+                        "2.\n\n" +
+                        "3.\n\n" +
+                        "Actual Result:\n" +
+                        "Expected Result:\n";
+}]];
 ```
+
+### Automatic Email Detection
+
+The feedback form uses following heuristics to determine how to fill its email field.
+
+- If you provide an email address to `[TestFairy setUserId:(NString *)]`, it will be automatically detected by the form.
+- If you set an attribute via `[TestFairy setAttribute:@"email" withValue:@"jane@example.com"]`, the form will make use of it.
+- If the user sends a feedback with a valid email address, it will also be saved for later use in case rules above cannot detect any other addresses.
+
+### Class Reference
+
+For more information, please refer to the iOS SDK [class reference](https://app.testfairy.com/reference/ios/).

@@ -23,7 +23,7 @@ You can decide whether the email field is visible or not, and whether the email 
 }]];
 ```
 
-#### Setting default text
+#### Setting Default Text
 
 In order to change the default text that users see in the feedback form textarea, please use the following:
 
@@ -40,7 +40,7 @@ In order to change the default text that users see in the feedback form textarea
 }]];
 ```
 
-#### Intecepting feedback before submission
+#### Intecepting Feedback Before Submission
 
 Feedback provides mechanism for intercepting content before it is submitted to server. Using the `setTestFairyFeedbackOptions` method, you can set an `interceptor` callback block that receives a `TestFairyFeedbackContent` instance, and returns a new instance of that type.
 
@@ -59,7 +59,7 @@ Please closider the following code sample. It sets up an interceptor that will r
 }]];
 ```
 
-### Automatic email detection
+### Automatic Email Detection
 
 The feedback form uses following heuristics to determine how to fill its email field.
 
@@ -67,6 +67,6 @@ The feedback form uses following heuristics to determine how to fill its email f
 - If you set an attribute via `[TestFairy setAttribute:@"email" withValue:@"jane@example.com"]`, the form will make use of it.
 - If the user sends a feedback with a valid email address, it will also be saved for later use in case rules above cannot detect any other addresses.
 
-### Class reference
+### Class Reference
 
 For more information, please refer to the [iOS SDK class reference](https://app.testfairy.com/reference/ios/).

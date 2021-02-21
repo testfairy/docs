@@ -44,7 +44,7 @@ In order to change the default text that users see in the feedback form textarea
 
 Feedback provides mechanism for intercepting content before it is submitted to server. Using the `setTestFairyFeedbackOptions` method, you can set an `interceptor` callback block that receives a `TestFairyFeedbackContent` instance, and returns a new instance of that type.
 
-Please closider the following code sample. It sets up an interceptor that will receive the feedback content, and what is actually submitted to the server, is the original feedback text, but uppercased.
+Please cosider the following code sample. It sets up an interceptor that will receive the feedback content, and what is actually submitted to the server, is the original feedback text, but uppercased.
 
 ```objc
 [TestFairy setTestFairyFeedbackOptions: [TestFairyFeedbackOptions createWithBlock:^(TestFairyFeedbackOptionsBuilder *builder) {

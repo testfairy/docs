@@ -86,3 +86,22 @@ The size of the TestFairy SDK is 500KB.
 
 <br><br>
 You might also like to read [Manual integration with Eclipse and Ant](http://docs.testfairy.com/Android/Manual_integration_with_Eclipse_and_Ant.html).
+
+## Troubleshoot
+
+`Could not GET 'https://jcenter.bintray.com/testfairy/testfairy-android-sdk/1.11.45/testfairy-android-sdk-1.11.45.pom'. Received status code 400`
+`Could not GET 'https://jcenter.bintray.com/testfairy/testfairy-android-sdk/1.11.45/testfairy-android-sdk-1.11.45.pom'. Received status code 403`
+`Could not GET 'https://jcenter.bintray.com/testfairy/testfairy-android-sdk/1.11.45/testfairy-android-sdk-1.11.45.pom'. Received status code 407`
+
+If you see one of these when you include TestFairy SDK in your project, please make sure `jcenter()` is added to your list of maven repos in the project's *build.gradle* script.
+
+```
+// build.gradle
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+}
+```

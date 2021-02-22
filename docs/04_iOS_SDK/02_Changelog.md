@@ -1,3 +1,8 @@
+### Version 1.27.4
+Released 2021-02-22
+
+* [NEW] Dark Theme Support for Feedback
+
 ### Version 1.27.3
 Released 2021-02-17
 

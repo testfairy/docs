@@ -1,10 +1,10 @@
 # Connetcing your GitHub issues
 
-1. Go to your account **Preferences** under your account email (right side of screen) - select **Bug systems**.
+1. Go to your account **Preferences** under your account email (right side of screen) - select **Integrations**.
 
 ![alt](../../img/bug-tracking/Github1.png)
 
-2. Select **Github issue** from the menu and follow the **OAuth** process
+2. Scroll to **Github issue** and pres the `Add integration` button to start the **OAuth** process
 
 ![alt](../../img/bug-tracking/Github2.png)
 

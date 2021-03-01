@@ -1,3 +1,10 @@
+### Version 1.11.44
+Released: 2021-03-01
+
+* [NEW] TestFairy SDK can now detect malfunctioning accelerometers and report them in sessions.
+* [BUGFIX] Fixed black screenshots in feedbacks sent with Flutter plugin.
+* [BUGFIX] Fixed timestamps in sent feedbacks.
+
 ### Version 1.11.43
 Released: 2021-02-11
 

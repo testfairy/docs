@@ -20,7 +20,7 @@
 
 ![Open TestFairy preferences](/img/bug-tracking/jira-cloud-1.png)
 
-2.2 Choose "Bug Systems" -> "JIRA", and enter your JIRA Username, API Token and JIRA URL. 
+2.2 Choose "Integrations" -> and scroll to the "JIRA" line. Press the `Add integration` Button. In the next screen enter your JIRA Username, API Token and JIRA URL. 
 
 ![Configure JIRA cloud](/img/bug-tracking/jira-cloud-2.png)
 

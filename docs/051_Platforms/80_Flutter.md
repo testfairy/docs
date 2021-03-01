@@ -6,7 +6,7 @@ If you are developing your app in flutter here are the instructions to add the T
 Use this package as a library
 
 ### 1. Depend on it
-Add this to your package's pubspec.yaml file for Dart 2 projects:
+Add this to your package's pubspec.yaml file for null-safe Dart projects:
 
 ```
 dependencies:
@@ -87,8 +87,8 @@ void main() {
 
 Run `pod repo update` and update the plugin in pubspec.yaml. Then run `cd ios; pod update TestFairy; cd ..` to update the iOS SDK.
 
-### Dart 2 Support
-To be able to use TestFairy Flutter Plugin 2.+, you must have the environment specified below and upgrade your project code base to Dart 2 using [this guide](https://dart.dev/dart-2). 
+### Dart Null Safety Support
+To be able to use TestFairy Flutter Plugin 2.+, you must have the environment specified below and upgrade your project code base to null-safe Dart using [this](https://dart.dev/dart-2) and [this guide](https://flutter.dev/docs/null-safety). 
 
 ```
 environment:
@@ -114,8 +114,8 @@ Error: This requires the null safety language feature, which is experimental.
     You can enable the experiment using the '--enable-experiment=non-nullable' command line option.
 ```
 
-### How to opt-out from Dart 2?
-Starting from 2.0.0, *testfairy* will only work with projects that use Dart 2 as the development language. If this transition is not suitable for your project, you can stay in TestFairy plugin 1.0.29.
+### How to opt-out from Dart null safety?
+Starting from 2.0.0, *testfairy* will only work with projects that use null-safe Dart as the development language. If this transition is not suitable for your project, you can stay in TestFairy plugin 1.0.29.
 
 ```
 dependencies:

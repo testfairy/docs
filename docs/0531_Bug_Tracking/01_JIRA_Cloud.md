@@ -4,25 +4,30 @@
 
 1.1 log in to [https://id.atlassian.com/manage/api-tokens#](https://id.atlassian.com/manage/api-tokens#) and click on "Create API token"
 
-![Create JIRA API](/img/bug-tracking/jira-create-api.png)
+  ![Create JIRA API](/img/bug-tracking/jira-create-api.png)
 
 1.2 Label the new token "TestFairy".
 
-![Set TEstFairy JIRA Key](/img/bug-tracking/jira-label.png)
+  ![Set TEstFairy JIRA Key](/img/bug-tracking/jira-label.png)
 
 1.3 Copy the API Token.
 
-![Copy token](/img/bug-tracking/jira-token.png)
+  ![Copy token](/img/bug-tracking/jira-token.png)
 
 ## 2. Configure JIRA in your TestFairy settings: 
 
 2.1. Open your TestFairy account Preferences 
 
-![Open TestFairy preferences](/img/bug-tracking/jira-cloud-1.png)
+  ![Open TestFairy preferences](/img/bug-tracking/jira-cloud-1.png)
 
-2.2 Choose "Integrations" -> and scroll to the "JIRA" line. Press the `Add integration` Button. In the next screen enter your JIRA Username, API Token and JIRA URL. 
+2.2 Choose "Integrations" -> and scroll to "JIRA" and press the `Add integration` Button.
 
-![Configure JIRA cloud](/img/bug-tracking/jira-cloud-2.png)
+  ![](/img/bug-tracking/jira-cloud-1-1.png)
+
+
+2.3 In the next screen enter your JIRA Username, API Token and JIRA URL. Press the `Update Jira Settings` button when done.
+
+  ![Configure JIRA cloud](/img/bug-tracking/jira-cloud-2.png)
 
 
 ## 3. (optional) Install the TestFairy Chrome Extension
@@ -37,30 +42,30 @@ In order to install it please follow these steps:
 
 4.1. Open JIRA Settings
 
-![JIRA-settings](/img/bug-tracking/jira-settings.png)
+  ![JIRA-settings](/img/bug-tracking/jira-settings.png)
 
 4.2 Open Apps
 
-![JIRA-settings](/img/bug-tracking/jira-settings1.png)
+  ![JIRA-settings](/img/bug-tracking/jira-settings1.png)
 
 4.3 In the Apps manu press 'Find new apps'
 
-![JIRA-apps](/img/bug-tracking/jira-find-apps.png)
+  ![JIRA-apps](/img/bug-tracking/jira-find-apps.png)
 
 4.4 Add "TestFairy for Jira" to your account.
 
-![JIRA-testfairy app](/img/bug-tracking/jira-discover.png)
+  ![JIRA-testfairy app](/img/bug-tracking/jira-discover.png)
 
 4.5 On the first issue that is created, click on the "3 dots" icon and choose "TestFairy Session"
 
-![JIRA-testfairy app](/img/bug-tracking/jira-3-dots.png)
+  ![JIRA-testfairy app](/img/bug-tracking/jira-3-dots.png)
 
 
 ## This is how JIRA issues look After the installation
 
-![JIRA-setup](/img/bug-tracking/hira6a.png)
-![JIRA-setup](/img/bug-tracking/jira5b.png)
-![JIRA-setup](/img/bug-tracking/jira6c.png)
+  ![JIRA-setup](/img/bug-tracking/hira6a.png)
+  ![JIRA-setup](/img/bug-tracking/jira5b.png)
+  ![JIRA-setup](/img/bug-tracking/jira6c.png)
 
 ## 5. (optional ,highly recommended) Map JIRA Custom Fields.
 

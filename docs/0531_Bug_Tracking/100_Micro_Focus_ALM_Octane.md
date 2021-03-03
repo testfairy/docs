@@ -13,7 +13,6 @@ You can use an existing Api Access if you have its `API key(Client ID)` and `API
 
 
 4. Copy the `API key(Client ID)` and `API password (Client secret)` from your workspace to the fields in the __Bug System Configuration__ screen.
-
 ![](/img/bug-tracking/ALM-2_1.png)
 
 5. Copy your workspace number (you can find it in the URL of the workspace after `?admin&p=`.

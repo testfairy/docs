@@ -3,11 +3,10 @@ Before we start, make sure to connect TestFairy to your bug tracking account:
 
 - [Connect TestFairy to JIRA Cloud](https://docs.testfairy.com/Bug_Tracking/JIRA_Cloud.html)
 - [Connect TestFairy to JIRA Server](https://docs.testfairy.com/Bug_Tracking/JIRA_Server.html)
-- [Connect TestFairy to TFS](https://docs.testfairy.com/Bug_Tracking/TFS.html)
 - [Connect TestFairy to Github](https://docs.testfairy.com/Bug_Tracking/Github.html)
 - [Connect TestFairy to Trello](https://docs.testfairy.com/Bug_Tracking/Trello.html)
-- [Connect TestFairy to Bugzilla](https://docs.testfairy.com/Bug_Tracking/Bugzilla.html)
-- [Connect TestFairy to Pivotal](https://docs.testfairy.com/Bug_Tracking/Pivotal.html)
+- [Connect to TFC (TestFairy Connect)](https://docs.testfairy.com/Bug_Tracking/TestFairy_Connect.html)
+- [Connect TestFairy to Micro Focus ALM Octane](https://docs.testfairy.com/Bug_Tracking/Micro_Focus_ALM_Octane.html)
 
 # Shake to Feedback
 
@@ -25,6 +24,6 @@ Once they send this email, a feedback message is sent to all the relevant destin
 
 ![ alt upload](../../img/bug-tracking/build-settings.png)
 
-- Go to the "Bug Tracking" section and make sure to check the box in "In-app feedback"
+- Go to the "Bug Reporting" section of the build and make sure to check the box for __In-App Bug Reporting__ and then `Save changes`.
 
 ![ alt upload](../../img/bug-tracking/bug-report-enabled.png)

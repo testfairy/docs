@@ -1,9 +1,9 @@
 ### Connecting Micro Focus ALM Octane to TestFairy
 
-1. Go to your [__Bug Settings__](https://app.testfairy.com/settings/bug-system/) page.
+1. Go to your [__Integrations__](https://app.testfairy.com/settings/integrations/) page.
 
 
-2. From the drop down menu select the __Micro Focus ALM Octane__ Option.
+2. Scoll the list to the __Micro Focus ALM Octane__ line and press the `Add Integration` button.
 ![](/img/bug-tracking/ALM-1.png)
 
 
@@ -14,6 +14,7 @@ You can use an existing Api Access if you have its `API key(Client ID)` and `API
 
 4. Copy the `API key(Client ID)` and `API password (Client secret)` from your workspace to the fields in the __Bug System Configuration__ screen.
 
+![](/img/bug-tracking/ALM-2_1.png)
 
 5. Copy your workspace number (you can find it in the URL of the workspace after `?admin&p=`.
 The link in the URL field should be: `https://almoctane-eur.saas.microfocus.com/api/shared_spaces/[INSERT WORKSPACE NUMBER HERE]/`.

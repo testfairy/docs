@@ -133,7 +133,6 @@ First, make sure your Xcode project is configured to generate the debug symbols:
 					 &nbsp;&nbsp;&nbsp;-F api_key='UPLOAD_API_KEY' \ <br>
 					 &nbsp;&nbsp;&nbsp;-F file='YOUR IPA FILE GOES HERE' \ <br>
 					 &nbsp;&nbsp;&nbsp;-F symbols_file='YOUR ZIPPED SYMBOLS FILE GOES HERE' \ <br>
-					 &nbsp;&nbsp;&nbsp;-F metrics='cpu,network,logcat' \ <br>
 					&nbsp;&nbsp;&nbsp;-F testers_groups='friends,beta' \ <br>
 					&nbsp;&nbsp;&nbsp;-F notify='on'</code></p>
 				</li>

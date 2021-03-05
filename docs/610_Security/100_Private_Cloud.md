@@ -14,4 +14,4 @@ It includes the following features:
 
 
 
-![ alt upload](/img/testfairy_cloud.png)
+![ alt upload](/img/cloud-map.png)

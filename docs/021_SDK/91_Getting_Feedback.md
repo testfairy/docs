@@ -17,9 +17,9 @@ This feedback will be added to the existing session of the app they are currentl
 
 All feedback includes a screenshot, device information, submitter email, and text comments added. the feedback is added to the event timeline so you can easily find it.
 
-### Customizing In-app feedback 
+### Customizing In-app feedback
 
-In case you wish to use the TestFairy feedback form without having the user shake their device, you can invoke the feedback form programmatically and call the method at your choice. You can do it on any gesture, button click in your app, if the user opened the help menu, or even got an error message theyr didn't expect. 
+In case you wish to use the TestFairy feedback form without having the user shake their device, you can invoke the feedback form programmatically and call the method at your choice. You can do it on any gesture, button click in your app, if the user opened the help menu, or even got an error message theyr didn't expect.
 
 Please note that if you choose to programmatically invoke the feedback form, it will be shown regardless if the in-app feedback is disabled in your build settings.
 
@@ -68,8 +68,8 @@ import com.testfairy.TestFairy;
 TestFairy.showFeedbackForm();
       </pre>
      <h4>Note:</h4> For advanced customization look <a href="https://docs.testfairy.com/reference/android/com/testfairy/FeedbackOptions.Builder.html">here </a>.
-     
-     
+
+
 		</div>
 
 		<div data-w-tab="tab-ios" class="w-tab-pane">
@@ -87,12 +87,12 @@ TestFairy.showFeedbackForm();
 // or after your app passes a given page
 [TestFairy pushFeedbackController];
 			</pre>
-			
+
 
 			<h4>Note</h4>
 			<p>On iOS, if the <b>In-App Bug Reporting</b> feature is enabled, the feedback form will also be shown when the tester takes a screenshot.</p>
-			
-			You can also choose to hide the user email field in the feedback form using the 
+
+			You can also choose to hide the user email field in the feedback form using the
 			<a href="https://docs.testfairy.com/reference/ios/Classes/TestFairy.html#//api/name/setFeedbackEmailVisible:">setFeedbackEmailVisible </a> class.
 		</div>
 

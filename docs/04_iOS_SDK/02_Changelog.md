@@ -1,4 +1,9 @@
 ### Version 1.28.0
+Released 2021-03-08
+
+* [NEW] Minor speed improvements
+ 
+### Version 1.28.0
 Released 2021-03-03
 
 * [NEW] Add Custom Field support in Feedback Form. See [Documentation](https://docs.testfairy.com/FAQ/Feedback_Form_Customizations.html) for more information

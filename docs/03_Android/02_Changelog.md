@@ -2,6 +2,7 @@
 Released: 2021-03-11
 
 * [NEW] TestFairy Android SDK is now hosted in [maven.testfairy.com](https://maven.testfairy.com).
+* [NEW] TestFairy Android SDK and NDK support extension are moved to new group id. Please follow [these steps](TODO) to adapt your project.
 
 ### Version 1.11.44
 Released: 2021-03-01

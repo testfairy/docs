@@ -3,8 +3,8 @@ TestFairy SDK can also report crashes initiated from native code such as C/C++. 
 * Add the SDK and NDK support extension to your app module.
 ```
     dependencies {
-        implementation 'testfairy:testfairy-android-sdk:1.+@aar'
-        implementation 'com.testfairy.ndk:testfairy-android-ndk:1.+@aar'
+        implementation 'com.testfairy:testfairy-android-sdk:1.+@aar'
+        implementation 'com.testfairy:testfairy-android-ndk:1.+@aar'
     }
 ```
 

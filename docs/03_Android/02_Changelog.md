@@ -1,3 +1,8 @@
+### Version 1.12.0
+Released: 2021-03-11
+
+* [NEW] TestFairy Android SDK is now hosted in [maven.testfairy.com](https://maven.testfairy.com).
+
 ### Version 1.11.44
 Released: 2021-03-01
 

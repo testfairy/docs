@@ -10,19 +10,27 @@ Both Java and Kotlin apps are supported.
 
 ## Installation
 
-<!--
+<!-- Deprecated after Bintray
 [ ![Download](https://api.bintray.com/packages/testfairy/testfairy/testfairy/images/download.svg) ](https://bintray.com/testfairy/testfairy/testfairy/_latestVersion)
 -->
 
-1. Add the SDK to your build.gradle app module (eg. `app/build.gradle`)
+1. Add the SDK to your app modules's build.gradle (eg. `app/build.gradle`)
 ```
     dependencies {
-        implementation 'testfairy:testfairy-android-sdk:1.+@aar'
+        implementation 'com.testfairy:testfairy-android-sdk:1.+@aar'
     }
 ```
-   Make sure you have the jcenter() repository included.
 
-2. Add Testfairy to your main activity's `onCreate`:
+2. Add the TestFairy maven repository to your project's build.gradle (eg. `PROJECT_ROOT/build.gradle`)
+```
+    buildscript {
+        repositories {
+            maven { url 'https://maven.testfairy.com' }
+        }
+    }
+```
+
+3. Add Testfairy to your main activity's `onCreate`:
 <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
 

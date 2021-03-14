@@ -1,8 +1,8 @@
 ### Version 1.12.0
 Released: 2021-03-11
 
-* [IMPORTANT] <span style="color: blue;"><strong>Android SDK moved away from nBintray/JCenter and is now hosted in [maven.testfairy.com](https://maven.testfairy.com).</strong></span>
-* [IMPORTANT] Group id changed to `com.testfairy`. Please follow [these steps](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html) to adapt your project.</strong></span>
+* [IMPORTANT] <span style="color: blue;">Android SDK moved away from nBintray/JCenter and is now hosted in [maven.testfairy.com](https://maven.testfairy.com).
+* [IMPORTANT] Group id changed to `com.testfairy`. Please follow [these steps](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html) to adapt your project.</span>
 
 ### Version 1.11.44
 Released: 2021-03-01

@@ -14,14 +14,14 @@ Both Java and Kotlin apps are supported.
 [ ![Download](https://api.bintray.com/packages/testfairy/testfairy/testfairy/images/download.svg) ](https://bintray.com/testfairy/testfairy/testfairy/_latestVersion)
 -->
 
-### 1. Add the SDK to your app module's build.gradle (eg. `app/build.gradle`)
+#### 1. Add the SDK to your app module's build.gradle (eg. `app/build.gradle`)
 ```
     dependencies {
         implementation 'com.testfairy:testfairy-android-sdk:1.+@aar'
     }
 ```
 
-### 2. Add the TestFairy maven repository to your project's build.gradle (eg. `PROJECT_ROOT/build.gradle`)
+#### 2. Add the TestFairy maven repository to your project's build.gradle (eg. `PROJECT_ROOT/build.gradle`)
 ```
     buildscript {
         repositories {
@@ -30,7 +30,7 @@ Both Java and Kotlin apps are supported.
     }
 ```
 
-### 3. Add TestFairy to your main activity's `onCreate`:
+#### 3. Add TestFairy to your main activity's `onCreate`:
 <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
 
@@ -101,4 +101,4 @@ You might also like to read [Manual integration with Eclipse and Ant](http://doc
 `Could not GET 'https://jcenter.bintray.com/testfairy/testfairy-android-sdk/1.11.45/testfairy-android-sdk-1.11.45.pom'. Received status code 403`
 `Could not GET 'https://jcenter.bintray.com/testfairy/testfairy-android-sdk/1.11.45/testfairy-android-sdk-1.11.45.pom'. Received status code 407`
 
-If you see one of these when you include TestFairy SDK in your project, please make sure you follow the installation steps in this page from scratch. It is likely you've been using TestFairy SDK for a while and trying to fetch it from Bintray which is now [discontinued](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html).
+If you see one of these when you include TestFairy SDK in your project, please make sure you follow the installation steps in this page from scratch. It is likely you've already been using TestFairy SDK for a while and tryed to fetch it from Bintray which is now [discontinued](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html).

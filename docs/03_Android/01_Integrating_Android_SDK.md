@@ -30,7 +30,7 @@ Both Java and Kotlin apps are supported.
     }
 ```
 
-3. Add Testfairy to your main activity's `onCreate`:
+3. Add TestFairy to your main activity's `onCreate`:
 <iframe frameBorder="0" width="100%" height="200" src="https://app.testfairy.com/sdk/android/iframe"></iframe>
 
 

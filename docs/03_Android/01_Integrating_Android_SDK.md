@@ -14,7 +14,7 @@ Both Java and Kotlin apps are supported.
 [ ![Download](https://api.bintray.com/packages/testfairy/testfairy/testfairy/images/download.svg) ](https://bintray.com/testfairy/testfairy/testfairy/_latestVersion)
 -->
 
-1. Add the SDK to your app modules's build.gradle (eg. `app/build.gradle`)
+1. Add the SDK to your app module's build.gradle (eg. `app/build.gradle`)
 ```
     dependencies {
         implementation 'com.testfairy:testfairy-android-sdk:1.+@aar'

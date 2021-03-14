@@ -1,5 +1,6 @@
 Jfrog has recently announced the [sunset of JCenter and Bintray](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/), great services that we used to distribute our SDK.
-Starting from version [1.12.0](/Android/Changelog.html), the TestFairy Android SDK will be hosted under [maven.testfairy.com](https://maven.testfairy.com). 
+
+As a result, starting from version [1.12.0](/Android/Changelog.html), the TestFairy Android SDK will be hosted under [maven.testfairy.com](https://maven.testfairy.com). 
 
 In order to continue get updates, developers MUST update gradle to keep getting new TestFairy Android SDK versions.
 

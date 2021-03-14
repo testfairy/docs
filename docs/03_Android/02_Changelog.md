@@ -1,8 +1,8 @@
 ### Version 1.12.0
 Released: 2021-03-11
 
-* [IMPORTANT] <span style="color: blue;">SDK moved away from Bintray/JCenter and is now hosted in [maven.testfairy.com](https://maven.testfairy.com).
-* [IMPORTANT] Group id changed to `com.testfairy`. Please follow [these steps](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html) to adapt your project.</span>
+* [IMPORTANT] <span style="color: blue;">SDK moved away from Bintray/JCenter and is now hosted in [maven.testfairy.com](https://maven.testfairy.com).</span>
+* [IMPORTANT] <span style="color: blue;">Group id changed to `com.testfairy`. Please follow [these steps](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html) to adapt your project.</span>
 
 ### Version 1.11.44
 Released: 2021-03-01

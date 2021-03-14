@@ -1,8 +1,8 @@
 Starting from version 1.12.0, TestFairy Android SDK and its NDK support extension is hosted under [maven.testfairy.com](https://maven.testfairy.com). This change was made after Jfrog [announced](https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/) that new packages will no longer be accepted starting April 2021.
 
-This means projects that doesn't apply the transition in their gradle scripts will not be able to receive TestFairy Android SDK updates.
+Projects MUST update gradle to keep getting new TestFairy Android SDK versions.
 
-If you are still using an SDK with version **1.11.44** or below, please follow the steps below to point your project to the new maven repository.
+If you are still using an SDK prior to version **1.12.0**, please follow the steps below to point your project to the new maven repository.
 
 ### 1. Add TestFairy maven repository to your project's **build.gradle** script
 

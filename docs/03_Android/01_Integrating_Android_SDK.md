@@ -101,4 +101,5 @@ You might also like to read [Manual integration with Eclipse and Ant](http://doc
 `Could not GET 'https://jcenter.bintray.com/testfairy/testfairy-android-sdk/1.11.45/testfairy-android-sdk-1.11.45.pom'. Received status code 403`
 `Could not GET 'https://jcenter.bintray.com/testfairy/testfairy-android-sdk/1.11.45/testfairy-android-sdk-1.11.45.pom'. Received status code 407`
 
-If you see one of these when you include TestFairy SDK in your project, please make sure you follow the installation steps in this page from scratch. It is likely you've already been using TestFairy SDK for a while and tryed to fetch it from Bintray which is now [discontinued](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html).
+If you see one of these errors when you include TestFairy SDK in your project, please make sure you followed step 2 in the installation section on this page. 
+TestFairy is not on Jcenter any more, and you need to switch to maven.testfairy.com. Read more [here](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html).

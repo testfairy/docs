@@ -1,3 +1,9 @@
+### Version 1.28.2
+Released 2021-03-18
+
+* [NEW] Allow moving the record button when capturing screenshots for feedback
+* [BUGFIX] Improved double tap detection
+
 ### Version 1.28.1
 Released 2021-03-08
 

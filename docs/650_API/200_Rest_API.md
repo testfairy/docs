@@ -335,6 +335,42 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+#### [api/1/audits/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get recent audit trail items
+	</span>
+	<code>GET /api/1/audits/</code>
+</div>
+<div class="method-description hidden">
+	Get recent audit trail items<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"audits": [
+		{
+			"id": 23534603,
+			"timestamp": "2020-04-21 02:31:54",
+			"ipAddress": "54.235.41.91",
+			"eventType": "download_app",
+			"eventData": {			
+				"projectId": 6833287,
+				"buildId": 9087976,
+				"appName": "MyApp",
+				"appVersion": "1.0 (10)",
+				"testerEmail": "john@example.com",
+				"filesize": 31348
+			}
+		}
+	]
+}
+	</pre>
+</div>
+
+<hr />
 
 
 #### [api/1/cpanel/permissions/](#)

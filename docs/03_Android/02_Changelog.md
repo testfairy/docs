@@ -1,3 +1,10 @@
+### Version 1.12.1
+Released: 2021-03-18
+
+[BUGFIX] Fixed a crash where on some devices, detecting services produced null exceptions.
+[BUGFIX] Fixed a crash happening due to malfunctioning accelerometer sensors.
+[BUGFIX] Fixed false positive stacktrace logs during WebView capture on higher api levels.
+
 ### Version 1.12.0
 Released: 2021-03-11
 

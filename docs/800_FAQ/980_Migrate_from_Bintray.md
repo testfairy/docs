@@ -6,6 +6,9 @@ In order to continue get updates, developers MUST update gradle to keep getting 
 
 Please follow the steps below to point your project to the new maven repository.
 
+For Further reading on this subject you can go yo our blog: [JCenter and Bintray is shutting down, what to do?
+](https://testfairy.com/blog/jcenter-and-bintray-is-shutting-down-what-to-do/)
+
 ### 1. Add TestFairy maven repository to your project's **build.gradle** script
 
 In *PROJECT_ROOT/build.gradle*:

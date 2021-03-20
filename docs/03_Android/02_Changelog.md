@@ -2,9 +2,9 @@
 Released: 2021-03-18
 
 * [IMPORTANT] <span style="color: blue;">Reminder: Since version 1.12.0 Group id changed to com.testfairy and maven changed to maven.testfairy.com. [Please read](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html).</span>
-[BUGFIX] Fixed a crash where on some devices, detecting services produced null exceptions.
-[BUGFIX] Fixed a crash happening due to malfunctioning accelerometer sensors.
-[BUGFIX] Fixed false positive stacktrace logs during WebView capture on higher api levels.
+* [BUGFIX] Fixed a crash where on some devices, detecting services produced null exceptions.
+* [BUGFIX] Fixed a crash happening due to malfunctioning accelerometer sensors.
+* [BUGFIX] Fixed false positive stacktrace logs during WebView capture on higher api levels.
 
 ### Version 1.12.0
 Released: 2021-03-11

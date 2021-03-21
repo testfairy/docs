@@ -1,3 +1,8 @@
+### Version 1.12.2
+Released: 2021-03-21
+
+* [BUGFIX] Camera icon overlay when taking a feedback now retains systemUiVisibility flags properly
+
 ### Version 1.12.1
 Released: 2021-03-18
 

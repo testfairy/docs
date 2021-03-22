@@ -53,7 +53,7 @@ dependencies:
 // You can use other dart versions but we suggest 2.12 for better compile time checks.
 import 'dart:async';
 import 'dart:io';
-import 'package:testfairy/testfairy.dart';
+import 'package:testfairy_flutter/testfairy.dart';
 
 void main() {
   HttpOverrides.global = TestFairy.httpOverrides();

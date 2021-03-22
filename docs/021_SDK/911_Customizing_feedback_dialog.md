@@ -462,9 +462,9 @@ TestFairy.setFeedbackOptions(
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-1.jpg" alt="alt">
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-2.jpg" alt="alt">
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-3.jpg" alt="alt"><br/>
-            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-1.jpg" alt="alt">
-            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-2.jpg" alt="alt">
-            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-3.jpg" alt="alt"><br/>
+            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-1.png" alt="alt">
+            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-2.png" alt="alt">
+            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-3.png" alt="alt"><br/>
 
             <h3>Built-in Form Elements</h3>
             <p><code>setFeedbackFormFields</code> expects a list of <code>FeedbackFormField</code> objects. The SDK provides a few, ready to use elements listed below:</p>

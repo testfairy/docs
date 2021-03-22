@@ -345,6 +345,9 @@ To get started, copy the code below and modify it according to your needs.
         <a data-w-tab="tab-ios" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-objc">
             <div>iOS</div>
         </a>
+        <a data-w-tab="tab-flutter" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#flutter">
+            <div>Flutter</div>
+        </a>
     </div>
     <div class="docs-tabs-content w-tab-content">
         <div data-w-tab="tab-ios" class="w-tab-pane">
@@ -428,6 +431,43 @@ TestFairy.setFeedbackOptions(
             <h3>Built-in Form Elements</h3>
             <p><code>setFeedbackFormFields</code> expects a list of <code>FeedbackFormField</code> objects, which is an interface any app developer can implement to inject custom made views into the form hierarchy.</p>
             <p>However, the SDK provides a few, ready to use elements listed below:</p>
+
+            <h4>StringFeedbackFormField</h4>
+            <p>A single line text input. Mainly used for emails, phone numbers and similar identifiers.</p>
+
+            <h4>TextAreaFeedbackFormField</h4>
+            <p>A multi line text input. Mainly used for feedback messages and Q/A sections.</p>
+
+            <h4>SelectFeedbackFormField</h4>
+            <p>A single choice picker for choosing from a set of predefined values. Mainly used for area codes, currencies or questions with single, definite answers.</p>
+        </div>
+        <div data-w-tab="tab-flutter" class="w-tab-pane w--tab-active">
+            <h3>Code Example</h3>
+            <pre>
+  final List<FeedbackFormField> fields = <FeedbackFormField>[
+    StringFeedbackFormField('fullname', 'Your name', ''),
+    TextAreaFeedbackFormField('bio', 'Bio', 'Tell us about yourself'),
+    SelectFeedbackFormField(
+        'country',
+        'Country',
+        <String, String>{'Turkey': '+90', 'Canada': '+1', 'Israel': '+972'},
+        'Canada')
+  ];
+
+  await TestFairy.setFeedbackOptions(feedbackFormFields: fields);
+  await TestFairy.showFeedbackForm();
+            </pre>
+
+            <p>Here is the form generated in the example above.</p>
+            <img src ="../../img/android/custom-feedbacks/custom-feedbacks-1.jpg" alt="alt">
+            <img src ="../../img/android/custom-feedbacks/custom-feedbacks-2.jpg" alt="alt">
+            <img src ="../../img/android/custom-feedbacks/custom-feedbacks-3.jpg" alt="alt"><br/>
+            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-1.jpg" alt="alt">
+            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-2.jpg" alt="alt">
+            <img src ="../../img/ios/custom-feedbacks/custom-feedbacks-3.jpg" alt="alt"><br/>
+
+            <h3>Built-in Form Elements</h3>
+            <p><code>setFeedbackFormFields</code> expects a list of <code>FeedbackFormField</code> objects. The SDK provides a few, ready to use elements listed below:</p>
 
             <h4>StringFeedbackFormField</h4>
             <p>A single line text input. Mainly used for emails, phone numbers and similar identifiers.</p>

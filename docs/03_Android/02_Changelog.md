@@ -1,3 +1,9 @@
+### Version 1.12.3
+Released: 2021-03-23
+
+* [BUGFIX] Fixed a bug where React Native navigation components ignored touches.
+* [BUGFIX] Fixed a bug where RecyclerView instances didn't layout correctly when an Activity launches for the first time.
+
 ### Version 1.12.2
 Released: 2021-03-21
 

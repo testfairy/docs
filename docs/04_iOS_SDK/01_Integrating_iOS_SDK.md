@@ -179,6 +179,10 @@ You get to:
           </ul>
 
           <pre><code class=" hljs java">#<span class="hljs-keyword">import</span> <span class="hljs-string">"TestFairy.h"</span></code></pre>
+	  <p>NOTE: If framework wasn't uploaded manually please try:</p>
+	  <pre><code class=" hljs java">#<span class="hljs-keyword">import</span> <span class="hljs-string">"TestFairy/TestFairy.h"</span></code></pre>
+
+	 
 
           <p>Update Build Settings with the new bridging header:</p>
 

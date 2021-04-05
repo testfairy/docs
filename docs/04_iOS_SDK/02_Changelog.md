@@ -1,3 +1,11 @@
+### Version 1.28.3
+Released 2021-04-05
+
+* [BUGFIX] Set cursor to beginning of the placeholder in custom feedback TextAreas.
+* [BUGFIX] Fix crashing with TextAreas in custom feedback.
+* [BUGFIX] Set default values for TextArea and Spinner selections in custom feedbacks
+* [NEW] Move feedback capture icon anywhere on screen.
+
 ### Version 1.28.2
 Released 2021-03-18
 

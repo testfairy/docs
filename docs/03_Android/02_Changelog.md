@@ -1,3 +1,10 @@
+### Version 1.12.4
+Released: 2021-04-06
+
+* [NEW] Users can now drag screenshot capture button around the screen.
+* [IMPROVEMENT] Inside feedback form, screenshot modifications are gathered in one single screen now.
+* [BUGFIX] Removed a repeatedly generated warning log.
+
 ### Version 1.12.3
 Released: 2021-03-23
 

@@ -1,3 +1,8 @@
+### Version 1.12.5
+Released: 2021-04=07
+
+* [BUGFIX] Fixed a bug where some layouts don't render when video is enabled.
+
 ### Version 1.12.4
 Released: 2021-04-06
 

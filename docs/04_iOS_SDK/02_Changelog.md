@@ -1,3 +1,8 @@
+### Version 1.28.4
+Released 2021-04-08
+
+* [BUGFIX] File integrity of files attached with `attachFile`
+
 ### Version 1.28.3
 Released 2021-04-05
 

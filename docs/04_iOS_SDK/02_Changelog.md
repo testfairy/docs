@@ -1,3 +1,9 @@
+### Version 1.28.5
+Released 2021-04-13
+
+* [BUGFIX] Save Custom Feedback form values when capturing screenshots
+* [BUGFIX] Remove session attributes from feedback validation
+
 ### Version 1.28.4
 Released 2021-04-08
 

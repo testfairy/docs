@@ -1,3 +1,8 @@
+### Version 1.12.6
+Released: 2021-04-13
+
+* [BUGFIX] Fixed a bug where values of custom feedback form fields are forgotten after capture.
+
 ### Version 1.12.5
 Released: 2021-04-07
 

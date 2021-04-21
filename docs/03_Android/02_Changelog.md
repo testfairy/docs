@@ -1,4 +1,5 @@
 ### Version 1.12.6
+* [IMPORTANT] <span style="color: blue;">Reminder: Group id changed to com.testfairy and maven changed to maven.testfairy.com. [read more...](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html).</span>
 Released: 2021-04-13
 
 * [BUGFIX] Fixed a bug where values of custom feedback form fields are forgotten after capture.

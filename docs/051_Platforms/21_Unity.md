@@ -3,7 +3,6 @@ In this document:
 - [Installation](#installation)
 - [Setting Screen Name](#set-screen-name)
 - [Logging Exceptions](#log-exceptions)
-- [Exporting Ad-hoc or Production Builds for iOS](#export-adhoc)
 - [Troubleshooting](#troubleshooting)
 - [Identifying Your Users](#identify-users)
 - [Setting Session Attributes](#session-attributes)
@@ -100,47 +99,6 @@ private void HandleLog(string message, string stackTrace, LogType type)
 	TestFairy.log(message);
 	TestFairy.log(stackTrace);
 }
-```
-
-<a name="export-adhoc"></a>
-## Exporting Ad-hoc or Production Builds for iOS
-
-When building your Unity project for iOS, a few extra steps are required. 
-
-The TestFairy SDK for Unity includes architectures for both Simulator and Device. However, Apple does not allow you to package an App for a device that includes a library with Simulator architectures.
-
-In order to remove those architectures from your project during your iOS build, add a new file named `TestFairyBuildPostProcessor.cs` in your `Editor` directory with the following contents.
-
-> **Note**: This script can also be used when building your iOS project using Unity Build.
-
-![post-build-script](/img/unity/post-build-script.png)
-
-```
-using UnityEngine;
-using UnityEditor;
-using System.Collections;
-using System.IO;
-
-using UnityEditor.Callbacks;
-using UnityEditor.iOS.Xcode;
-
-public class TestFairyBuildPostProcessor {
-  [PostProcessBuildAttribute(1)]
-  public static void OnPostprocessBuild(BuildTarget buildTarget, string path) {
-    if (buildTarget == BuildTarget.iOS) {
-      string projPath = path + "/Unity-iPhone.xcodeproj/project.pbxproj";
-
-      PBXProject proj = new PBXProject();
-      proj.ReadFromString(File.ReadAllText(projPath));
-      var mainTarget = proj.GetUnityMainTargetGuid();
-
-      proj.AddShellScriptBuildPhase(mainTarget, "Strip unused architectures", "", "sh Frameworks/Plugins/iOS/TestFairy.framework/strip-architectures.sh");
-
-      File.WriteAllText(projPath, proj.WriteToString());
-    }
-  }
-}
-
 ```
 
 <a name="troubleshooting"></a>

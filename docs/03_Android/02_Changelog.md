@@ -1,7 +1,17 @@
-### Version 1.12.6
-Released: 2021-04-13
+### Version 1.12.8
+Released: 2021-04-28
 
 * [IMPORTANT] <span style="color: blue;">Reminder: Group id changed to com.testfairy and maven changed to maven.testfairy.com. [read more...](https://docs.testfairy.com/FAQ/Migrate_from_Bintray.html).</span>
+
+* [BUGFIX] Fixed a bug where launching the feedback form could crash the app.
+
+### Version 1.12.7
+Released: 2021-04-13
+
+* [BUGFIX] Provide only the feedback custom fields for inspection and validation.
+
+### Version 1.12.6
+Released: 2021-04-13
 
 * [BUGFIX] Fixed a bug where values of custom feedback form fields are forgotten after capture.
 

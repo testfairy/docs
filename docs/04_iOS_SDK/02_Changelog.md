@@ -1,3 +1,8 @@
+### Version 1.28.7
+Released 2021-04-27
+
+* [BUGFIX] Fix simulator compilation error `___llvm_profile_runtime `
+
 ### Version 1.28.6
 Released 2021-04-26
 

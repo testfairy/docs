@@ -1,3 +1,8 @@
+### Version 1.12.9
+Released: 2021-05-11
+
+* [BUGFIX] Fixed a bug where sending a feedback with a screenshot crashes on low api levels.
+
 ### Version 1.12.8
 Released: 2021-04-28
 

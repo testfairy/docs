@@ -1,3 +1,8 @@
+### Version 1.29.0
+Released 2021-05-11
+
+* [NEW] Removed usage of `identifierForVendor `
+
 ### Version 1.28.7
 Released 2021-04-27
 

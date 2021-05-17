@@ -52,6 +52,8 @@ When defining fields in the Configure Fields window follow the below conventions
   * `{app.name}` - the app name.
   * `{app.version}`  - the _versionName_ or _CFBundleShortVersionString_ of the build. example: 1.7.0
   * `{app.fullVersion}` - the _versionName_ + (_versionCode_ or _CFBundleVersion_) of the build. example: 1.7.0 (1700)
+  * `{feedback.timestamp}` - the timestamp of the feedback (absolute)
+  * `{feedback.relTimestamp}` - relative timestamp of the feedback (mm:ss) since session started
 
 In order to use these values add them to the `-Dynamic value-` field that opens when you select the **-Dynamic value-** option like so:
 

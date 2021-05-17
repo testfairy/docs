@@ -23,8 +23,8 @@ environment:
 
 * Run `dart pub get` to update dependencies.
 
-* You'll start lots of Dart analysis errors, that's alright.
+* You'll start seeing lots of Dart analysis errors, that's alright.
 
 * Add `// @dart=2.9` to beginning of every file that is still using the old Dart to let the compiler know which files should skip compile time checks for null safety.
 
-If you are still having analysis error, it means some of your dependencies doesn't have the `// @dart=2.9` annotation properly placed in the its source code. Try checking if those libraries has null-safe (named usually as `packageName-nullsafe`) versions in `pub`.
+If you are still having analysis error, it means some of your dependencies doesn't have the `// @dart=2.9` annotation properly placed in their source code. Try checking if those libraries has null-safe (named usually as `libname-nullsafe`) versions in `pub`.

@@ -1,3 +1,8 @@
+### Version 1.29.1
+Released 2021-05-18
+
+* [BUGFIX] Edge-case crashing around shaking for feedback
+
 ### Version 1.29.0
 Released 2021-05-11
 

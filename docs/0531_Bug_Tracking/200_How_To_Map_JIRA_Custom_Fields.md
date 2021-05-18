@@ -52,6 +52,7 @@ When defining fields in the Configure Fields window follow the below conventions
   * `{app.name}` - the app name.
   * `{app.version}`  - the _versionName_ or _CFBundleShortVersionString_ of the build. example: 1.7.0
   * `{app.fullVersion}` - the _versionName_ + (_versionCode_ or _CFBundleVersion_) of the build. example: 1.7.0 (1700)
+  * `{feedback.text}` - the feedback message
   * `{feedback.timestamp}` - the timestamp of the feedback (absolute)
   * `{feedback.relTimestamp}` - relative timestamp of the feedback (mm:ss) since session started
 

@@ -24,7 +24,7 @@ The top bar has the general statistics of your account - number of sessions, cra
 Contains the list of all the apps loaded into the system. 
 The app in display is the last version loaded.
 
-It details the app name and bundle ID, whether it is an iOS or Android app, the latest version name & number, and some details about how many sessions, builds, crashes and issues were logged for the app.
+It details the app name and bundle ID, whether it is an iOS, Android or MacOS app, the latest version name & number, and some details about how many sessions, builds, crashes and issues were logged for the app.
 You can also see the date the last build was loaded to the system and the date the latest session was logged.
 Pressing on the app's row will lead you to the [Builds table](https://docs.testfairy.com/TestFairy_Dashboard/Builds.html). 
 
@@ -40,7 +40,7 @@ A list of the recent sessions logged in the system.
 
 Contains the list of your testers and assigned apps. See the [managing testers](https://docs.testfairy.com/Testers/Managing_Testers.html) page for more details.
 
-### `CRASHES` (Beta) tab
+### `CRASHES` tab
 
 ![](/img/dashboard/dashboard-crashes.png)
 

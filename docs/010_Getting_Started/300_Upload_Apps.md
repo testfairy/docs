@@ -20,7 +20,7 @@ The code of our command line uploader, Jenkins and Gradle plugins is open source
 ## Manual upload process.
 
 ### Choose your build file
-In the first stage you need to choose the file you want to upload. it can be an **.ipa** or **.apk** file)
+In the first stage you need to choose the file you want to upload. it can be an **.ipa** (for iOS), **.apk** (for Android) or **.zip** (for MacOS)file.
 ![choose file](/img/getting-started/upload/upload-app-android-1.png)
 
 ### Selecting Your Project Settings

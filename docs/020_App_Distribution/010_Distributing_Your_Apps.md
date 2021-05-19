@@ -66,6 +66,6 @@ Once you have defined the groups of some or all of the testers the groups appear
 Ticking the checkbox of a group makes the app (and all its builds) available for that group (and hence all its testers).
 The app is then displayed in the [testers dashboard](https://docs.testfairy.com/TestFairy_Dashboard/Testers_Dashboard.html) and can be downloaded by the testers. Unchecking a group checkbox will remove the app from the testers dashboard that are part of that group.
 
-### Production SDK
+### Production
 
-App distribution must not be used in production. [See here](https://docs.testfairy.com/Android/Production_SDK.html) to learn how to opt out.
+Please note that Auto Update must be disabled for apps that are running in production.

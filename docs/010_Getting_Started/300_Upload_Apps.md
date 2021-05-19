@@ -19,6 +19,12 @@ The code of our command line uploader, Jenkins and Gradle plugins is open source
 
 ## Manual upload process.
 
+### Supported Plaforms
+
+  * **Android**: TestFairy supports uploading and distributing Android Applications. In order to distribute Android apps with TestFairy  apps must be packaged as a `.apk` file. 
+  * **iOS**: TestFairy supports uploading and distributing iOS Applications. iOS apps can be signed with either __AdHoc__, __Development__ and __Enterprise__ certificates. In order to distribute iOS apps with TestFairy, apps must be packaged as an `.ipa` file. 
+  * **MacOS**: TestFairy supports uploading and distributing iOS Applications. iOS apps can be signed with either __AdHoc__, __Development__ and __Enterprise__ certificates. MacOS apps are bundled as `.app` files, however, In order to distribute MacOS apps with TestFairy, those `.app` files must be zipped into a `.zip` file. 
+
 ### Choose your build file
 In the first stage you need to choose the file you want to upload. it can be an **.ipa** (for iOS), **.apk** (for Android) or **.zip** (for MacOS)file.
 ![choose file](/img/getting-started/upload/upload-app-android-1.png)

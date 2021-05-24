@@ -1,3 +1,8 @@
+### Version 1.12.10
+Released: 2021-05-24
+
+* [BUGFIX] Fixed a rare crash during activity transitions.
+
 ### Version 1.12.9
 Released: 2021-05-11
 

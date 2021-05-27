@@ -1,3 +1,8 @@
+### Version 1.12.11
+Released: 2021-05-27
+
+* [NEW] Added French, German, Portuguese, Dutch and Spanish localization for feedback form UI.
+
 ### Version 1.12.10
 Released: 2021-05-24
 

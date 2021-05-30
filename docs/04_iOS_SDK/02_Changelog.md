@@ -16,8 +16,8 @@ Released 2021-04-27
 ### Version 1.28.6
 Released 2021-04-26
 
-[BUGFIX] Fix crashes with touches after calling stop
-[NEW] Minimum Xcode support set to 12
+* [BUGFIX] Fix crashes with touches after calling stop
+* [NEW] Minimum Xcode support set to 12
 
 ### Version 1.28.5
 Released 2021-04-13

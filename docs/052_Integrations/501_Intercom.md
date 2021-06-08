@@ -1,4 +1,4 @@
-## Zendesk
+## Intercom
 
 1. Login to [Intercom Developer Hub](https://app.intercom.com/a/apps/_/developer-hub), create a new app. 
 

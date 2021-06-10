@@ -264,30 +264,60 @@ In the example above, you can see that our user is `john@example.com` and the AP
 </pre>
 </div>
 
+<!---- -->
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Block a tester
+	</span>
+	<code>POST /api/1/testers/{tester-id}/block/</code>
+</div>
+<div class="method-description hidden">
+	Blocks a single tester. They cannot download the apps they were invited to. However, the data
+	stays. You can later unblock this tester, or delete them completely.
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
+
+<!--- --->
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Unblock a tester
+	</span>
+	<code>DELETE /api/1/testers/{tester-id}/block/</code>
+</div>
+<div class="method-description hidden">
+	Unblocks a single tester. Their invitations are restored. If the user is already unblocked, then
+	nothing happens.
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
+
+
+<!--- -->
+
 <div class="method">
 	<span>
 		<button class="expand">▶</button> Delete a tester
 	</span>
-	<code>DELETE /api/1/testers/</code>
+	<code>DELETE /api/1/testers/{tester-id}</code>
 </div>
 <div class="method-description hidden">
 	Delete a single tester, remove them from any tester-groups they might be in, and invalidate
 	all invitations that were sent.<br />
-
-	<table>
-	<tr>
-		<th style="width: 160px;"><b>parameter</b></th>
-		<th style="width: 100px;"><b>type</b></th>
-		<th><b>description</b></th>
-	</tr>
-	<tr>
-		<td>email</td>
-		<td><em>string</em></td>
-		<td>
-			An email address of a tester to be removed.
-		</td>
-        </tr>
-	</table>
 
 	<span class="responses">Responses</span><br />
 	<span class="status-green">STATUS 200</span> OK<br />

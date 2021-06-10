@@ -18,6 +18,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+<a name="projects"></a>
 #### [api/1/projects](#)
 
 <div class="method">
@@ -48,6 +49,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+<a name="builds"></a>
 #### [api/1/projects/{project-id}/builds/](#)
 
 <div class="method">
@@ -92,6 +94,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+<a name="sessions"></a>
 #### [api/1/projects/{project-id}/builds/{build-id}/sessions/](#)
 
 <div class="method">
@@ -185,6 +188,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+<a name="testers"></a>
 #### [api/1/testers/](#)
 
 <div class="method">
@@ -330,6 +334,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+<a name="feedbacks"></a>
 #### [api/1/feedbacks/](#)
 
 <div class="method">
@@ -402,7 +407,7 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
-
+<a name="permissions"></a>
 #### [api/1/cpanel/permissions/](#)
 
 <div class="method">

@@ -462,4 +462,223 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+<a name="webhooks"></a>
+#### [api/1/webhooks/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> List all webhooks
+	</span>
+	<code>GET /api/1/webhooks/</code>
+</div>
+<div class="method-description hidden">
+	List all webhooks in this account.<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status":"ok",
+	"webhooks":[
+		{
+			"id":12,
+			"status":"0",
+			"name":"Slack Webhook @vijay",
+			"url":"https://hooks.slack.com/services/",
+			"actions":"crash,feedback,upload,new-udid",
+			"projectIds":"12345,45643"
+		}
+	]
+}
+</pre>
+</div>
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Add a new webhook
+	</span>
+	<code>POST /api/1/webhook/</code>
+</div>
+<div class="method-description hidden">
+	Add a new webhook to account.<br />
+
+	<table>
+	<tr>
+		<th style="width: 160px;"><b>parameter</b></th>
+		<th style="width: 100px;"><b>type</b></th>
+		<th><b>description</b></th>
+	</tr>
+	<tr>
+		<td>webhook-name</td>
+		<td><em>string</em></td>
+		<td>
+			Required. The name of the webhook.
+		</td>
+	</tr>
+	<tr>
+		<td>webhook-url</td>
+		<td><em>string</em></td>
+		<td>
+			Required. The url for the webhook.
+		</td>
+	</tr>
+	<tr>
+		<td>webhook-status</td>
+		<td><em>string</em></td>
+		<td>
+			Enables or disables the webhook, true or false.<br>
+			Default value: false
+		</td>
+	</tr>
+	<tr>
+		<td>actions</td>
+		<td><em>string</em></td>
+		<td>
+			Comma separated list of actions. options include
+			<ul>
+				<li>crash</li>
+				<li>feedback</li>
+				<li>upload</li>
+				<li>new-udid</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>webhook-project-ids</td>
+		<td><em>string</em></td>
+		<td>
+			Optional. Comma separated list of project IDs.
+		</td>
+	</tr>
+	</table>
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
+
+<!---- -->
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> GET a single webhook
+	</span>
+	<code>GET /api/1/webhhook/{webhook-id}/</code>
+</div>
+<div class="method-description hidden">
+	Returns a single webhook.
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"webhook": {
+		"id":12,
+		"status":"0",
+		"name":"Slack Webhook @vijay",
+		"url":"https://hooks.slack.com/services/",
+		"actions":"crash,feedback,upload,new-udid",
+		"projectIds":"12345,45643"
+	}
+}
+</pre>
+</div>
+
+<!--- --->
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> MODIFY a webhook
+	</span>
+	<code>POST /api/1/webhhook/{webhook-id}/</code>
+</div>
+<div class="method-description hidden">
+	Modifies a single webhook.
+
+<table>
+	<tr>
+		<th style="width: 160px;"><b>parameter</b></th>
+		<th style="width: 100px;"><b>type</b></th>
+		<th><b>description</b></th>
+	</tr>
+	<tr>
+		<td>webhook-name</td>
+		<td><em>string</em></td>
+		<td>
+			Required. The name of the webhook.
+		</td>
+	</tr>
+	<tr>
+		<td>webhook-url</td>
+		<td><em>string</em></td>
+		<td>
+			Required. The url for the webhook.
+		</td>
+	</tr>
+	<tr>
+		<td>webhook-status</td>
+		<td><em>string</em></td>
+		<td>
+			Enables or disables the webhook, true or false.<br>
+			Default value: false
+		</td>
+	</tr>
+	<tr>
+		<td>actions</td>
+		<td><em>string</em></td>
+		<td>
+			Comma separated list of actions. options include
+			<ul>
+				<li>crash</li>
+				<li>feedback</li>
+				<li>upload</li>
+				<li>new-udid</li>
+			</ul>
+		</td>
+	</tr>
+	<tr>
+		<td>webhook-project-ids</td>
+		<td><em>string</em></td>
+		<td>
+			Optional. Comma separated list of project IDs.
+		</td>
+	</tr>
+	</table>
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
+
+
+<!--- -->
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Delete a webhook
+	</span>
+	<code>DELETE /api/1/webhhook/{webhook-id}/</code>
+</div>
+<div class="method-description hidden">
+	Delete a single webhook.<br />
+
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
+
+<hr />
+
 <style>h4 {margin-bottom: 30px;}</style>

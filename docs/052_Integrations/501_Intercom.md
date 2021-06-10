@@ -6,8 +6,7 @@
 
     - Select "New App"
     - Enter an "App Name"
-    - Select a your workspace. Create one if you don't have one
-    ![](/img/integrations/intercom/intercom_2.png)
+    - Select a your *workspace*. Create one if you needed.
     - Select "Internal app" (Optional)
 
 2. Select your newly created app

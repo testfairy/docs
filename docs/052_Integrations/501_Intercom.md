@@ -4,25 +4,25 @@
 
     ![](/img/integrations/intercom/intercom_1.png)
 
-    1. Select "New App"
-    2. Enter an "App Name"
-    3. Select a your workspace. Create one if you don't have one
+    - Select "New App"
+    - Enter an "App Name"
+    - Select a your workspace. Create one if you don't have one
     ![](/img/integrations/intercom/intercom_2.png)
-    4. Select "Internal app" (Optional)
+    - Select "Internal app" (Optional)
 
 2. Select your newly created app
     
     ![](/img/integrations/intercom/intercom_3.png)
     
-    1. Go into Authentication.
-    2. Copy your Access Token. You'll need it for the next step
-    3. You only need 2 Permissions for the integration: "Write users and companies", and "Write Conversations"
+    - Go into Authentication.
+    - Copy your Access Token. You'll need it for the next step
+    - You only need 2 Permissions for the integration: "Write users and companies", and "Write Conversations"
 
 3. In TestFairy, from the Preferences page, select [Integrations](https://app.testfairy.com/settings/integrations/)
 
     ![](/img/integrations/intercom/intercom_4.png)
     
-    1. Click the "Add integration" next to the Intercom row
+    - Click the "Add integration" next to the Intercom row
 
 4. Paste the copied Intercom Access Token into the input field and click "Save Settings".
     

@@ -1,3 +1,9 @@
+### Version 1.29.2
+Released 2021-06-14
+
+* [NEW] Support Turkish, German, Dutch and French
+* [BUGFIX] Identify Firebase Crashlytics crashes.
+
 ### Version 1.29.1
 Released 2021-05-18
 

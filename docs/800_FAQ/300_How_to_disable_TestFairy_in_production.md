@@ -4,9 +4,9 @@ The SDK is very modular and is built to handle the your needs and your company's
 
 This document talks about how to exclude the TestFairy SDK from production builds. It was designed for enterprises who use TestFairy throughout development and QA cycles, but would like to remove TestFairy SDK when building production releases.
 
-### Excluding from iOS production releases
+## iOS 
 
-#### Option 1: Calling [TestFairy begin] only in DEBUG
+### Option 1: Calling [TestFairy begin] only in DEBUG
 
 Without a call to [TestFairy begin], the SDK is not initialized. An uninitialized SDK won't consume any memory, won't open sockets, and won't catch uncaught exceptions. Even though it does not impact your app in any way, the SDK is still linked with your app. This is the easiest option.
 
@@ -56,7 +56,7 @@ TestFairy.begin("APP_TOKEN")
 
 If you are also worried about reducing the app size in your final release build, proceed to Option 2.
 
-#### Option 2: Configure link options in a scheme for App Store
+### Option 2: Configure link options in a scheme for App Store
 
 A common pattern we see from our customers is having a dedicated scheme for App Store. Meaning there's a Debug, Release and App Store (and maybe others.)
 
@@ -69,7 +69,7 @@ Navigate to project build settings and locate **Excluded Source File Name** opti
 Try building your project. If the compilation fails, locate the lines where TestFairy is used and wrap them with `#ifdef` or `#if` directives explained in Option 1.
 
 <a name="ios-noop"></a>
-### Option 3: Add the TestFairy Noop files to your project
+### Option 3: No-op SDK
 
 Similar to Option #2, you're required to have multiple schemes in your project, but **does not** require the use of `#ifdef` or `#if`.
 
@@ -79,9 +79,9 @@ Similar to Option #2, you're required to have multiple schemes in your project, 
 
 This will allow you to keep all your calls to `TestFairy` as-is, but replaced with empty implementations. 
 
-### Excluding from Android production releases
+## Android 
 
-#### Option 1: Calling TestFairy.begin() only in Debug mode.
+### Option 1: Calling TestFairy.begin() only in Debug mode.
 
 Your Gradle variants can alter the code path of your app. Use debug flavor to call `TestFairy.begin()`, and release flavor to emit this call.
 
@@ -112,7 +112,7 @@ public class TestFairyWrapper {
 
 Without any calls to any of the TestFairy SDK, Proguard will eventually remove the entire compiled code from the result `classes.dex` and the final APK.
 
-#### Option 2: Use a class loader
+### Option 2: Use a class loader
 
 Android allows loading classes into memory on-the-fly. This is for advanced developers. You can use Java reflections to load TestFairy class into memory only on a Debug build.
 

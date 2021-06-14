@@ -68,13 +68,14 @@ Navigate to project build settings and locate **Excluded Source File Name** opti
 
 Try building your project. If the compilation fails, locate the lines where TestFairy is used and wrap them with `#ifdef` or `#if` directives explained in Option 1.
 
+<a name="ios-noop"></a>
 ### Option 3: Add the TestFairy Noop files to your project
 
 Similar to Option #2, you're required to have multiple schemes in your project, but **does not** require the use of `#ifdef` or `#if`.
 
-Add the `.m` file from [TestFairy iOS NoOp files](https://github.com/testfairy/testfairy-ios-sdk-noop) to your project's Production/App Store scheme. (Note, that the `.m` file needs to be put in a place where it can find the `TestFairy.h` file).
-
-Navigate to project build settings and locate **Excluded Source File Name** option. Expand the list and find the build scheme you want to exclude TestFairy from. Double click the row add an entry to the excluded file list for the **libTestFairy.a** file.
+1. Download the [TestFairy iOS No-Op SDK](https://github.com/testfairy/testfairy-ios-sdk-noop)
+2. Add `TestFairy.m` to your project's *Production* or *App Store* scheme. (Note, that the `.m` file needs to be put in a place where it can find the `TestFairy.h` file).
+3. Navigate to project build settings and locate **Excluded Source File Name** option. Expand the list and find the build scheme you want to exclude TestFairy from. Double click the row add an entry to the excluded file list for the **libTestFairy.a** file.
 
 This will allow you to keep all your calls to `TestFairy` as-is, but replaced with empty implementations. 
 

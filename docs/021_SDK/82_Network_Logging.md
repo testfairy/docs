@@ -17,6 +17,9 @@ With TestFairy, you can log all your network requests. This gives you an easy wa
 		<a data-w-tab="tab-ios-swift" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#ios-swift">
 			<div>iOS - Swift</div>
 		</a>
+		<a data-w-tab="tab-ios-react-native" class="docs-tab w-inline-block w-tab-link" style="margin: 2px;" href="#react-native">
+			<div>React Native</div>
+		</a>
 	</div>
 
 	<div class="docs-tabs-content w-tab-content">
@@ -116,9 +119,22 @@ NotificationCenter.default.addObserver(forName: Request.didComplete, object: nil
 	let request = info?["org.alamofire.notification.key.request"] as! Request
 	request.tasks.forEach { TestFairy.addNetwork($0, error: nil) }
 }
-</pre>
+			</pre>
 		</div>
 
+		<div data-w-tab="tab-ios-react-native" class="w-tab-pane">
+			<p>TestFairy supports network logging for Fetch API. Simply call the following method to start capturing network calls.</p>
+			<pre>
+// Capture network logs
+TestFairy.enableNetworkLogging(window);
+
+// Capture network logs including http headers and content
+TestFairy.enableNetworkLogging(window, { includeHeaders: true, includeBodies: true });
+
+// Disable network logging
+TestFairy.disableNetworkLogging(window);
+			</pre>
+		</div>
 
 	</div>
 </div>

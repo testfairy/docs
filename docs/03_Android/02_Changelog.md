@@ -1,3 +1,8 @@
+### Version 1.12.12
+Released: 2021-06-24
+
+* [BUGFIX] Fixed a crash happening when SDK listens for touch events on instrumented apps.
+
 ### Version 1.12.11
 Released: 2021-05-27
 

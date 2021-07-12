@@ -2,7 +2,7 @@
 
 ### 1. Create a Centercode API Key
 
-(Centercode docs available [here](https://centercode.help/en/articles/2577104-send-testfairy-feedback-to-centercode))
+(Centercode docs available [here](https://help.centercode.com/send-testfairy-feedback-to-centercode))
 
 Open the Centercode Community Homepage, and go to Community Tools > Configuration > API Keys (under Advanced Configuration)   > Create an API Key. Name the new API KEY "TestFairy".
   

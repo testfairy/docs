@@ -257,6 +257,15 @@ In the example above, you can see that our user is `john@example.com` and the AP
 			Default value: none<br />
 		</td>
 	</tr>
+	<tr>
+		<td>notify</td>
+		<td><em>string</em></td>
+		<td>
+			Pass "notify=on" to send out a welcome email when inviting this tester. The email sent is
+			the `Tester Welcome Email` template and can be configured.
+			Default value: off<br />
+		</td>
+	</tr>
 	</table>
 
 	<span class="responses">Responses</span><br />

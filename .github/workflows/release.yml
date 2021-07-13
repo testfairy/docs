@@ -19,6 +19,10 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
+      - name: Setup PHP Version
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.4'
       - name: Install Dependencies
         run: |
           npm install -g less@3.13.1 tslib

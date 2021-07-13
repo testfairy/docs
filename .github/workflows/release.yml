@@ -1,0 +1,33 @@
+name: Release TestFairy Docs
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '15.12.0'
+      - name: Configure AWS Credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+      - name: Install Dependencies
+        run: |
+          npm install -g less@3.13.1 tslib
+      - name: Build and upload docs
+        run: |
+          lessc -x less/daux-navy.less >css/daux-navy.min.css
+          php index.php generate
+          cp static/Getting_Started/Getting_Started.html static/index.html
+          cp add-ons/* static/
+          aws s3 sync --delete --exclude "reference/*" --acl public-read static s3://docs.testfairy.com/
+          aws cloudfront create-invalidation --distribution-id $CF_DISTRIBUTION_ID --paths '/*'
+        env:
+          CF_DISTRIBUTION_ID: ${{ secrets.CF_DISTRIBUTION_ID }}

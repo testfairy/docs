@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   release:
@@ -23,6 +24,7 @@ jobs:
           npm install -g less@3.13.1 tslib
       - name: Build and upload docs
         run: |
+          php -v
           lessc -x less/daux-navy.less >css/daux-navy.min.css
           php index.php generate
           cp static/Getting_Started/Getting_Started.html static/index.html

@@ -2,7 +2,7 @@
 
 This is the reference document for the TestFairy REST API. This API allows the developer to access and interact with TestFairy data remotely.
 
-#### Getting Started
+#### Getting Started 
 
 Getting started with the REST API is easy, and can be done via command line with any programming language. Let's begin with a simple example. We will start by listing all our projects.
 

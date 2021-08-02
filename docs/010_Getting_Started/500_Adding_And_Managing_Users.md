@@ -8,7 +8,7 @@ There are 4 types of users in the system:
 1. **Account Owner** - the owner of the account. This user cannot be changed and has full control on the account. The owner  can add Admins, make them Managers and add Testers.
 2. **Account Manager** - an admin account that in addition to admin actions can add and delete other admin users(not managers). Managers can not add account manages and can not remove the account owner.
 3. **Admin** - a developer that can upload builds, delete builds and view and delete sessions. 
-4. **Tester** - can download builds of apps. See [here](https://docs.testfairy.com/Getting_Started/How_To_Invite_Testers.html).
+4. **Beta Tester** - can download builds of apps. See [here](https://docs.testfairy.com/Getting_Started/How_To_Invite_Testers.html).
 
 You can define an admin as a manager by selecting the account from the list and selecting the `Set as manager` action from the **more actions** menu under the list (you need to be an `owner` or `manager` to perform this action):
 

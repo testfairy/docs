@@ -1,3 +1,9 @@
+### Version 1.12.13
+Released: 2021-09-01
+
+* [NEW] All sessions now automatically hides password fields in the timeline.
+* [BUGFIX] Fixed a bug where some interactions are registered for the wrong views.
+
 ### Version 1.12.12
 Released: 2021-06-24
 

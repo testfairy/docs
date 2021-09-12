@@ -45,7 +45,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | release_notes   | Optional    | Release notes for this upload. This text will be added to emails and landing pages. |
 | auto_update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
 | tags            | Optional    | Set of comma-separated tags to be displayed and search upon. |
-| folder_name     | Optional    | Name of dashboard folder to contain this app. |
+| folder_name     | Optional    | Name of the dashboard folder that will contain this app. |
 
 
 ### Error Codes

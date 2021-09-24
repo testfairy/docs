@@ -1,3 +1,8 @@
+### Version 1.29.3
+Released 2021-09-23
+
+* [BUGFIX] Return value from map when using `TestFairySelectFeedbackFormField`
+
 ### Version 1.29.2
 Released 2021-06-14
 

@@ -1,3 +1,8 @@
+### Version 1.12.14
+Released: 2021-09-28
+
+* [BUGFIX] Fixed a bug where enabling video polluted logcat.
+
 ### Version 1.12.13
 Released: 2021-09-01
 

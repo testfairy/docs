@@ -24,7 +24,7 @@ Alternatively, your editor might support flutter packages get. Check the docs fo
 ### 3. Import it
 Now in your Dart code, you can use:
 ```
-import 'package:testfairy_flutter/testfairy.dart';
+import 'package:testfairy_flutter/testfairy_flutter.dart';
 
 void main() {
   TestFairy.begin("SDK-myToken");

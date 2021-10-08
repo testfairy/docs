@@ -1,3 +1,8 @@
+### Version 1.12.15
+Released: 2021-10-08
+
+* [BUGFIX] Fixed a bug where sending crash reports sometimes polluted logcat.
+
 ### Version 1.12.14
 Released: 2021-09-28
 

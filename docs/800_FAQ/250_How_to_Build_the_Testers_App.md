@@ -24,10 +24,10 @@ Fork this project: [https://github.com/testfairy/testers-app-ios](https://github
 
 ### Code Changes
 
-Change [config.xml](https://github.com/testfairy/testers-app-ios/blob/master/src/config.xml#L10)
+Change [ViewController.swift](https://github.com/testfairy/testers-app-ios/blob/master/TestFairy/ViewController.swift#L9)
 
 ```
-<content src="https://<YOUR_SUBDOMAIN_HERE>.testfairy.com" />
+let TESTFAIRY_URL = "https://<YOUR_SUBDOMAIN_HERE>.testfairy.com"
 ```
 
 

@@ -90,5 +90,3 @@ No.
 
 
 
-That's it!
-Need our assistance? Don't hesitate to [contact support](https://www.testfairy.com/contact_us.php).

@@ -1,3 +1,8 @@
+### Version 1.12.16
+Released: 2021-10-21
+
+* [IMPROVEMENTS] SDK is now compiled with target api level 31 (Android 12).
+
 ### Version 1.12.15
 Released: 2021-10-08
 

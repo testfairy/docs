@@ -2,7 +2,7 @@ One of the key strengths of TestFairy's SDK, is the ease of installation. Our *.
 
 Please follow these steps to integrate TestFairy's Android SDK in your project:
 
-- Download the latest *.aar* archive from [our maven](http://maven.testfairy.com/com/testfairy/testfairy-android-sdk/1.12.13/testfairy-android-sdk-1.12.13.aar).
+- [Download](https://maven.testfairy.com/latest/testfairy-android-sdk.aar) the latest *.aar* archive from our maven.
 
 - Copy this .aar file into a directory called `libs` in your project. If you don't have such a directory, please create one in your source root.
 

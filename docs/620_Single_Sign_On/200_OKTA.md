@@ -57,5 +57,38 @@ To import groups each time a user signs into TestFairy, please follow these inst
 - When done, please click on `Update Now` so OKTA updates caches. See screenshot:
   ![](/img/sso/okta/okta-groups-1.png)
 
+
+# FAQ
+
+### What is my login URL?
+
+Your users will login at https://yoursubdomain.testfairy.com/login
+ACS URL is https://yoursubdomain.testfairy.com/login/sso
+Entity ID is https://yoursubdomain.testfairy.com/
+
+### Can TestFairy reference an XML file?
+
+Yes.
+
+### Can TestFairy reference IdP metadata URL?
+
+Yes, however at the moment this would be done manually by our support team.
+
+### How does TestFairy map group/role memberships?
+
+Mapping is one to many. A TestFairy user can belong to multiple groups. 
+
+### What attributes need to be included in the SAML assertion?
+
+Email is required. Groups are optional, see "importing groups from OKTA" in this page.
+
+### Can TestFairy store multiple IdP SAML certificates at once?
+
+No.
+
+
+
+
+
 That's it!
 Need our assistance? Don't hesitate to [contact support](https://www.testfairy.com/contact_us.php).

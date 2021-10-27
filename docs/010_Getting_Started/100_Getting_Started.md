@@ -1,5 +1,5 @@
 <div>
-	<div class="getting-started-title">Welcome to TestFairy! Let's get started...</div>
+	<div class="getting-started-title">Welcome to TestFairy!.</div>
 	<div class="row">
 		<div class="col-md-6 col-sm-12">
 			<div class="getting-started-card">
@@ -60,12 +60,12 @@
 				</div>
 				<div class="row" style="padding-bottom: 16px;">
 					<div class="col-md-12">
-						<span class="align-bottom getting-started-question">Collect Feedbacks</span>
+						<span class="align-bottom getting-started-question">Collect Feedback</span>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 getting-started-body">
-						TestFairy helps users provide feedback by simply shaking their device or taking a screenshot. Their report can automatically get posted to JIRA along with the session video recording, logs, metrics and crash reports.
+						TestFairy users can provide feedback by shaking their device or taking a screenshot. The feedback report can be automatically posted to Jira, along with the session video recording, logs, metrics, and crash reports.
 					</div>
 				</div>
 				<div class="row">
@@ -88,7 +88,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 getting-started-body">
-						TestFairy is available as a private cloud or an on-premise installation and can integrate with any SAML Single Sign-on service. TestFairy is the only platform that provides end-to-end data encryption using your private/public keys, so that nobody but you can see your data.
+						TestFairy is available as a private cloud or an on-premise installation. It can integrate with any SAML single sign-on service, and provides end-to-end data encryption using your private/public keys.
 					</div>
 				</div>
 				<div class="row">

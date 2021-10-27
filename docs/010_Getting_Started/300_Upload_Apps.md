@@ -1,60 +1,43 @@
-If you don’t have an account yet, please <a href="http://www.testfairy.com/signup" target="_blank">sign up</a>. It's easy, and free!
-If you have a TestFairy account, please <a href="https://app.testfairy.com/login" target="_blank">log in</a>.
+You can upload an app to TestFairy in two ways:
+* Via the TestFairy UI (see below)
+* Via the TestFairy API (see [Upload API](https://docs.testfairy.com/API/Upload_API.html))
 
+## Supported Platforms
+TestFairy supports uploading and distributing the following types of applications:
+  * Android: To distribute Android apps with TestFairy, apps must be packaged as an `.apk` file.
+  * iOS: iOS apps can be signed with __AdHoc__, __Development__, or __Enterprise__ certificates. To distribute iOS apps with TestFairy, apps must be packaged as an `.ipa` file.
+  * MacOS: iOS apps can be signed with __AdHoc__, __Development__, or __Enterprise__ certificates. MacOS apps are bundled as `.app` files, however, To distribute MacOS apps with TestFairy, the `.app` files must be packaged as a `.zip` file.
 
-<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/wdtj0svxnh-xftb9kmde0"></iframe>
+## Uploading via the TestFairy UI
+1. In TestFairy, in the top navigation, click **NEW UPLOAD**.
 
+![NEW UPLOAD](/img/getting-started/upload/new-upload-nav.png)
 
-## <a id="Uploading"></a> Uploading Your Application
+1. In the **Upload New File** window, navigate to and select the file to upload.
 
-Once your account is created and verified, you are ready to upload your app.
+![Select file to upload](/img/getting-started/upload/upload-select-file.png)
 
-Uploading is just as simple as it sounds! Just click on the **Upload** button on the top-right side of the upper menu, and follow the on-screen instructions.
+1. Click **Start Upload**.
 
-![ alt upload](../../img/app/upload2.png)
+![Start Upload](/img/getting-started/upload/upload-start-upload.png)
 
-We recommend using our <a href="https://docs.testfairy.com/API/Upload_API.html">Upload API</a> to enable our <a href="https://wiki.jenkins-ci.org/display/JENKINS/TestFairy+Plugin">Jenkins plugin</a>, <a href="#">Gradle plugin</a>, or <a href="https://github.com/testfairy/command-line-uploader" target="_blank">Command line uploader</a>. 
+1. When the app has uploaded successfully, you can enable or disable certain settings before completing the upload process:
+  * In-app feedback - Enables/disables the "shake to report" feature in your app. When enabled, users can shake their device to send a feedback report, along with a video recording, screenshots, logs, and metrics of the testing session.
+  * Auto-Update - When enabled, users of previous versions of the app will be notified in the app about a new version, and the new version will be downloaded automatically. No email notification will be sent.
+  * Text box - Add release notes, descriptions of updates or changes, or any other information that testers should be aware of.
 
-The code of our command line uploader, Jenkins and Gradle plugins is open source, so you can feel free to change and improve on it.
+![Upload settings](/img/getting-started/upload/upload-settings.png)
 
-## Manual upload process.
+  :::note
+  These settings are only accessible if you have added the TestFairy SDK to the app.
+  :::
 
-### Supported Plaforms
+For more information about build settings, see [App Build Settings](https://docs.testfairy.com/Getting_Started/App_Build_Settings.html).
 
-  * **Android**: TestFairy supports uploading and distributing Android Applications. In order to distribute Android apps with TestFairy  apps must be packaged as a `.apk` file. 
-  * **iOS**: TestFairy supports uploading and distributing iOS Applications. iOS apps can be signed with either __AdHoc__, __Development__ and __Enterprise__ certificates. In order to distribute iOS apps with TestFairy, apps must be packaged as an `.ipa` file. 
-  * **MacOS**: TestFairy supports uploading and distributing iOS Applications. iOS apps can be signed with either __AdHoc__, __Development__ and __Enterprise__ certificates. MacOS apps are bundled as `.app` files, however, In order to distribute MacOS apps with TestFairy, those `.app` files must be zipped into a `.zip` file. 
+### Updating an App
 
-### Choose your build file
-In the first stage you need to choose the file you want to upload. it can be an **.ipa** (for iOS), **.apk** (for Android) or **.zip** (for MacOS)file.
-![choose file](/img/getting-started/upload/upload-app-android-1.png)
+To update a build you have already loaded, without changing the version, upload the new file (with the same name). The new file will override the old build without creating a new version of the app.
 
-### Selecting Your Project Settings
+### Uploading a New Version
 
-You can define your build settings right in the upload process:
-
--- **In-app reporting** - Check this box to enable/disable the "shake to report" feature in your app. When enabled, users can simply shake their device to send out a feedback report, along with a video recording, screenshots, logs and metrics of their testing session.
-
--- **Auto-Update** - When auto update is enabled, users using previous versions of this app will get a notification about the new version next time they open up the app. The new version will be downloaded automatically, so the user doesn't have to actively download it. Please note that in this case no email notification will be sent to the testers.
-
--- **Custom Comments** - Use this section to add release notes, describe the updated/changes and write about anything else you would like your testers to be aware of.
-
-Please note: these settings are relevant only if you added our SDK to your app.
-
-![ alt testfairy-upload](../../img/app/upload-settings.png)
-
-More build settings available in the [Account_Settings](Account_Settings.html) page.
-
- 
-### <a id="Uploading"></a> Updating an app
-
-If you wish to update a build you already loaded, all you have to do is simply upload the same file again - the same build with the same version. 
-
-The new build file will override the old build **without** creating a new app version.
-
-### <a id="Uploading"></a> Uploading a new version
-
-If you wish to upload a new build - which is a new version of the same app, all you have to do is upload the new version in the exact same way you've uploaded the old version. Our service will identify that both apps have the same package name (bundle identifier) and group them together in the same project (app).
-
-
-**What you should read next:** [Build Settings](https://docs.testfairy.com/Getting_Started/App_Build_Settings.html).
+To upload a build that is a new version of an existing app, upload the new version of the file. TestFairy will identify that both apps have the same package name (bundle identifier) and group them together in the same project (app).

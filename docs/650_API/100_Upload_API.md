@@ -47,6 +47,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | tags            | Optional    | Set of comma-separated tags to be displayed and search upon. |
 | folder_name     | Optional    | Name of the dashboard folder that will contain this app. |
 | app_permission_groups     | Optional    | Comma seperated tester groups that will be allowed to download this app. |
+| landing_page_mode | Optional    | Landing page mode. Can be "open" or "closed". |
 
 
 ### Error Codes

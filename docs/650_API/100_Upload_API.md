@@ -40,7 +40,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | api_key         | Required    | Your API application key. See https://app.testfairy.com/settings for details. |
 | file            | Required    | APK (Android), IPA (iOS) or ZIP (MacOS) file data. |
 | symbols_file    | Optional    | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
-| invitation_groups  | Optional    | Comma-separated list of tester groups to be invited on the new build. Use "all" to invite all the testers in your account. |
+| invitation_groups  | Optional    | Comma-separated list of tester groups to be invited on the new build. |
 | notify          | Optional    | Send email to all users in invitation_groups. The default is "on". |
 | release_notes   | Optional    | Release notes for this upload. This text will be added to emails and landing pages. |
 | auto_update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |

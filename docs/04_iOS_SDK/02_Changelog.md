@@ -1,3 +1,9 @@
+### Version 1.29.4
+Released 2021-12-05
+
+* [NEW] Set a title for feedback form
+* [NEW] Add support for displaying x,y coordinates in timeline
+
 ### Version 1.29.3
 Released 2021-09-23
 

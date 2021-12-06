@@ -1,3 +1,8 @@
+### Version 1.12.17
+Released: 2021-12-06
+
+* [NEW] A new feature to display x,y coordinates in the Timeline
+
 ### Version 1.12.16
 Released: 2021-10-21
 

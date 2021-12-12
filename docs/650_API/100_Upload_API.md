@@ -48,6 +48,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | folder_name     | Optional    | Name of the dashboard folder that will contain this app. |
 | app_permission_groups     | Optional    | Comma seperated tester groups that will be allowed to download this app. |
 | landing_page_mode | Optional    | Landing page mode. Can be "open" or "closed". |
+| upload_to_saucelabs | Optional    | Upload file directly to Sauce Labs. Can be "on" or "off". Default is "off". Only Android, iOS and iOS Simulator apps suuported. |
 
 
 ### Error Codes

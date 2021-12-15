@@ -32,7 +32,7 @@ You get to:
     <div data-w-tab="tab-spm" class="w-tab-pane w--tab-active">
       <p><b>Note: Requires Xcode 12+. Screenshots taken from Xcode 13.1</b></p>
       <p>
-        <ol>
+        <ul>
           <li>
             <p>
               <ol>
@@ -40,7 +40,7 @@ You get to:
                 <li>Make sure your project is selected from Project and Target list.</li>
                 <li>Click the "Package Dependencies" Toolbar item</li>
                 <li>Click the '+' icon to add a package</li>
-              <ol>
+              </ol>
             </p>
             <blockquote>
               <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework1.png" alt="alt"></p>
@@ -51,7 +51,7 @@ You get to:
               <ol>
                 <li>In the newly opened dialog search for the TestFairy package repository using the URL: <em>https://github.com/testfairy/testfairy-ios-sdk-swift-package</em> in the top right search bar</li>
                 <li>Click the "Add Pacakge" button</li>
-              <ol>
+              </ol>
             </p>
             <blockquote>
               <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework2.png" alt="alt"></p>
@@ -63,13 +63,13 @@ You get to:
                 <li>After the package has been downloaded, in the newly opened dialog, make sure the TestFairy package is selcted in the "Package Product" column</li>
                 <li>Make sure the right target is selected in the "Add to target" column</li>
                 <li>Click the "Add Pacakge" button</li>
-            <ol>
+            </ol>
           </p>
             <blockquote>
               <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework3.png" alt="alt"></p>
             </blockquote>
           </li>
-        </ol>
+        </ul>
       </p>
     </div>
     <div data-w-tab="tab-manual" class="w-tab-pane">

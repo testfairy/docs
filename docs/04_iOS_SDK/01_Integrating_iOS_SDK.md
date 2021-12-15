@@ -49,7 +49,7 @@ You get to:
           <li>
             <p>
               <ol>
-                <li>In the newly opened dialog search for the TestFairy package repository using the URL: <em>https://github.com/testfairy/testfairy-ios-sdk-swift-package</em> in the top right search bar</li>
+                <li>In the newly opened dialog search for the TestFairy package repository using the URL: <span style="font-weight: 1000;">https://github.com/testfairy/testfairy-ios-sdk-swift-package</span> in the top right search bar</li>
                 <li>Click the "Add Pacakge" button</li>
               </ol>
             </p>

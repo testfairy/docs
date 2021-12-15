@@ -40,13 +40,12 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | api_key         | Required    | Your API application key. See https://app.testfairy.com/settings for details. |
 | file            | Required    | APK (Android), IPA (iOS) or ZIP (MacOS) file data. |
 | symbols_file    | Optional    | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
-| invitation_groups  | Optional    | Comma-separated list of tester groups to be invited on the new build. |
-| notify          | Optional    | Send email to all users in invitation_groups. The default is "on". |
+| groups          | Optional    | Comma-separated list of tester groups that will get permission to download this app. |
+| notify          | Optional    | Send email to all users in 'groups'. The default is "on". |
 | release_notes   | Optional    | Release notes for this upload. This text will be added to emails and landing pages. |
 | auto_update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
 | tags            | Optional    | Set of comma-separated tags to be displayed and search upon. |
 | folder_name     | Optional    | Name of the dashboard folder that will contain this app. |
-| app_permission_groups     | Optional    | Comma seperated tester groups that will be allowed to download this app. |
 | landing_page_mode | Optional    | Landing page mode. Can be "open" or "closed". |
 | upload_to_saucelabs | Optional    | Upload file directly to Sauce Labs. Can be "on" or "off". Default is "off". |
 
@@ -73,7 +72,7 @@ curl https://upload.testfairy.com/api/upload \
 	-F api_key='your_api_key' \
 	-F file=@sample.apk \
 	-F symbols_file=@sample_mapping.txt \
-	-F invitation_groups='friends,beta' \
+	-F groups='friends,beta' \
 	-F notify='on' \
 	-F release_notes='stabilitty fixes, improvedment in ui' \
 	-F tags='production, english'

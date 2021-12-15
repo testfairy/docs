@@ -30,31 +30,43 @@ You get to:
 
   <div class="docs-tabs-content w-tab-content">
     <div data-w-tab="tab-spm" class="w-tab-pane w--tab-active">
-      <p><b>Note: Requires Xcode 12+</b></p>
+      <p><b>Note: Requires Xcode 12+. Screenshots taken from Xcode 13.1</b></p>
       <p>
         <ol>
           <li>
-            <p>Click "File > Swift Packages > Add Package Dependency..."</p>
+            <p>
+              <ol>
+                <li>Select your project from the Xcode navigator to open your project's configuration</li>
+                <li>Make sure your project is selected from Project and Target list.</li>
+                <li>Click the "Package Dependencies" Toolbar item</li>
+                <li>Click the '+' icon to add a package</li>
+              <ol>
+            </p>
             <blockquote>
               <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework1.png" alt="alt"></p>
             </blockquote>
           </li>
           <li>
-            <p>Add the TestFairy package repository URL: <em>https://github.com/testfairy/testfairy-ios-sdk-swift-package</em> </p>
+            <p>
+              <ol>
+                <li>In the newly opened dialog search for the TestFairy package repository using the URL: <em>https://github.com/testfairy/testfairy-ios-sdk-swift-package</em> in the top right search bar</li>
+                <li>Click the "Add Pacakge" button</li>
+              <ol>
+            </p>
             <blockquote>
               <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework2.png" alt="alt"></p>
             </blockquote>
           </li>
           <li>
-            <p>Select the appropriate package options</p>
+          <p>
+            <ol>
+                <li>After the package has been downloaded, in the newly opened dialog, make sure the TestFairy package is selcted in the "Package Product" column</li>
+                <li>Make sure the right target is selected in the "Add to target" column</li>
+                <li>Click the "Add Pacakge" button</li>
+            <ol>
+          </p>
             <blockquote>
               <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework3.png" alt="alt"></p>
-            </blockquote>
-          </li>
-          <li>
-            <p>Click "Finish"</p>
-            <blockquote>
-              <p><img src="https://docs.testfairy.com/img/ios/sdk/xcframework4.png" alt="alt"></p>
             </blockquote>
           </li>
         </ol>

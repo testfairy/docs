@@ -41,7 +41,7 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | file            | Required    | APK (Android), IPA (iOS) or ZIP (MacOS) file data. |
 | symbols_file    | Optional    | Symbols mapping file. For iOS this should be a path to the **zipped** symbols file. For Android, this is the path to the mappings.txt file |
 | groups          | Optional    | Comma-separated list of tester groups that will get permission to download this app. |
-| notify          | Optional    | Send email to all users in 'groups'. The default is "on". |
+| notify          | Optional    | Send email to all users in 'groups'. The default is "off". |
 | release_notes   | Optional    | Release notes for this upload. This text will be added to emails and landing pages. |
 | auto_update     | Optional    | Allows an easy upgrade of all users to the current version. The default is "off", to enable set as "on". |
 | tags            | Optional    | Set of comma-separated tags to be displayed and search upon. |

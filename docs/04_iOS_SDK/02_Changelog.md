@@ -1,3 +1,13 @@
+### Version 1.29.6
+Released 2022-01-18
+
+* [NEW] Added `[TestFairy enableLogs]` and `[TestFairy disableLogs]`
+
+### Version 1.29.5
+Released 2021-12-27
+
+* [NEW] Added `uninstallShakeHandler` method to disable in-app feedback after it has been enabled
+
 ### Version 1.29.4
 Released 2021-12-05
 

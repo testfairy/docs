@@ -1,3 +1,8 @@
+### Version 1.12.19
+Released: 2022-01-18
+
+* [NEW] Added `enableLogs()` and `disableLogs()`.
+
 ### Version 1.12.18
 Released: 2021-12-15
 

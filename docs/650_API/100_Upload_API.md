@@ -48,6 +48,8 @@ Streamline your build process and upload APKs or IPAs directly to TestFairy.
 | folder_name     | Optional    | Name of the dashboard folder that will contain this app. |
 | landing_page_mode | Optional    | Landing page mode. Can be "open" or "closed". Default is "open". |
 | upload_to_saucelabs | Optional    | Upload file directly to Sauce Labs. Can be "on" or "off". Default is "off". |
+| platform | Optional    | In case app is not iOS or Android, which are detected automatically, use this to mark an app for specific desktop or console platforms. Values can be "xbox", "playstation", "switch", "windows", "macos". This feature is not enabled by default, please contact support for more information.  |
+
 
 
 ### Error Codes

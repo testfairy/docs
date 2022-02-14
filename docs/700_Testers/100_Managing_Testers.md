@@ -43,4 +43,4 @@ In order to delete a group you will first have to delete all its mentions in the
 ![ alt delete group](../../img/app/delete-group.png)
 
  
-**What you should read next:** [How To Analyze Test Results](How_To_Analyze_Test_Results.html).
+<!-- **What you should read next:** [How To Analyze Test Results](How_To_Analyze_Test_Results.html).-->

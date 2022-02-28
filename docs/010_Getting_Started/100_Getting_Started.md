@@ -1,5 +1,5 @@
-<div>
-	<div class="getting-started-title">Welcome to TestFairy! Let's get started...</div>
+ <div>
+	<div class="getting-started-title">Welcome to TestFairy!</div>
 	<div class="row">
 		<div class="col-md-6 col-sm-12">
 			<div class="getting-started-card">
@@ -15,7 +15,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 getting-started-body">
-						TestFairy offers enterprise-grade app distribution capabilities, allowing companies to easily and securely distribute the right apps to the right users. The platform allows admins to easily enforce corporate security policies during testing and has the capability to automatically update apps to new versions or revoke access to installed apps or users.
+						TestFairy offers enterprise-grade app distribution capabilities, allowing companies to easily and securely distribute the right apps to the right users. The platform allows admins to easily enforce corporate security policies during testing, and has the capability to automatically update apps to new versions or revoke access to installed apps or users.
 					</div>
 				</div>
 				<div class="row">
@@ -38,7 +38,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 getting-started-body">
-						TestFairy provides mobile teams with videos showing exactly what happened on a mobile device during testing, before a crash, or before something went wrong and by that helps teams fix bugs faster than ever and significantly improve their mobile apps quality.
+						TestFairy provides mobile teams with videos showing exactly what happened during a mobile device test, before a crash, or before something went wrong, which ensures that bugs are fixed quickly.
 					</div>
 				</div>
 				<div class="row">
@@ -60,12 +60,12 @@
 				</div>
 				<div class="row" style="padding-bottom: 16px;">
 					<div class="col-md-12">
-						<span class="align-bottom getting-started-question">Collect Feedbacks</span>
+						<span class="align-bottom getting-started-question">Collect Feedback</span>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-12 getting-started-body">
-						TestFairy helps users provide feedback by simply shaking their device or taking a screenshot. Their report can automatically get posted to JIRA along with the session video recording, logs, metrics and crash reports.
+						TestFairy's feedback features help users provide feedback by shaking their device or taking a screenshot. A report can automatically be posted to Jira along with the session video recording, logs, metrics, and crash reports.
 					</div>
 				</div>
 				<div class="row">
@@ -88,7 +88,7 @@
 				</div>
 				<div class="row">
 					<div class="col-md-12 getting-started-body">
-						TestFairy is available as a private cloud or an on-premise installation and can integrate with any SAML Single Sign-on service. TestFairy is the only platform that provides end-to-end data encryption using your private/public keys, so that nobody but you can see your data.
+						TestFairy is available as a private cloud or an on-premise installation and can integrate with any SAML single sign-on service. TestFairy is the only platform that provides end-to-end data encryption using your private/public keys, so your data remains private.
 					</div>
 				</div>
 				<div class="row">

@@ -34,3 +34,11 @@ Users who sign up and are approved will automatically be added to a testers' gro
 If your app is an iOS app signed with an ad-hoc certificate, users will first get an email asking them to register their device and, only after they register, you will get an email with their UDID.
 
 To enable the option to automatically approve all users who sign up, contact us.
+
+## Disabling a Landing Page
+
+If you do not want a landing page, you can disable it on the landing page settings page for that specific app:
+
+![dissable landing page](/img/landing-pages-on-off.png)
+
+Disabling the page will not stop the distribution of the app since it still appears on the **testers dashboard** and is still alive in the system.

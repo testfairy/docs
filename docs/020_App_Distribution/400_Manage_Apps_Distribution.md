@@ -1,46 +1,39 @@
-### Disable the landing page 
 
-If you do not want a landing page you can disable it on the landing page settings page for that specific app:
+## Stopping Distribution
 
-![dissable landing page](/img/landing-pages-on-off.png)
+To stop the distribution of an app, you can:
 
-Disabling the page will not stop the distribution of the app since it still appears in the **testers dashboard** and is still alive in the system.
+* Disable the distribution OR
+* Delete the build
 
+### Disabling Distribution
 
-If you want to **`stop`** distribution of your app you will need to do one of 2 actions:
-
-### Disable distribution
-
-In the build **Settings** go to **App Distribution**  and change it to `Disabled` and press save changes.
+In build settings, toggle **App Distribution** to **Disabled** and then click **Save Changes**.
 
 ![](/img/app_distribution/dissable-dist-build.png)
 
-You will see a message confirming the new settings have been changed:
+You will see a message confirming the settings have been changed.
 
 ![](/img/app_distribution/app-dist-save-sucsess.png)
 
-And If you go to the build overview you will see another message that the build is expired and testers will not be able to install this build:
+On the build overview you will also see message that the build is expired and testers will not be able to install it.
 
 ![](/img/app_distribution/build-invalid.png)
 
-_______
-**PLEASE NOTE:** Once the build is disabled the app **will not appear** in the testers dashboard but Testers who already installed the app will be able to continue using it.
-_______
+**Note:** Once a build is disabled, the app will no longer appear on the testers dashboard, but testers who have already installed the app will be able to continue using it.
 
-### Deleting the build from the dashboard
+### Deleting a Build from the Dashboard
 
-If you want to delete a build from the system go to the builds **App Overview** menu:
+To delete a build from the system, go to the **App Overview** menu.
 
 ![](/img/app_distribution/select-builds.png)
 
-On the left column select the checkbox of the build you want to delete. You can choose one, many or all the builds.
+In the left column, select the checkbox of the build you want to delete. You can choose one, many, or all the builds.
 
-Once you select the build, in the bottom actions drop down choose Delete (n) builds:
+Once you select the build, in the bottom actions drop-down, click **Delete (n) builds**.
 
 ![](/img/app_distribution/delet-builds.png)
 
-Confirm the deletion:
+Confirm the deletion.
 
 ![](/img/app_distribution/confirm-delete.png)
-
-A message confirming the duild was deleted will be displayed.

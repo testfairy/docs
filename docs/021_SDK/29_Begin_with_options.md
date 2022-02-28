@@ -145,7 +145,7 @@ public class MyApplication extends Application {
 			<p>Refer to the <a href="https://app.testfairy.com/reference/android/index.html">Class Reference</a> for more information on which metric can be passed.</p>
 
 			<h3>Code Example</h3>
-			<p>In the following snippet, the CPU metric will be recorded, and the Memory metric wil not be recorded, regarless of what's set in the build settings.</p>
+			<p>In the following snippet, the CPU metric will be recorded, and the Memory metric will not be recorded, regardless of what's set in the build settings.</p>
 			<pre><code class="java">
 import com.testfairy.TestFairy;
 

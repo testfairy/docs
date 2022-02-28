@@ -1,30 +1,27 @@
-## Tags
-
 Tags are text labels that can be attached to builds and used for identification and search. Every build (app version) can have different tags.
 
-#### How to add tags to builds that are uploaded via API
+## Adding Tags Via Upload API
 
-- Tags can be added programmatically when uploading the build via the [TestFairy Upload API](https://docs.testfairy.com/API/Upload_API.html) using the `tags` parameter.
+Tags can be added when uploading the build via the upload API (see [Upload API](https://docs.testfairy.com/API/Upload_API.html)) using the `tags` parameter.
 
+## Adding and Editing Tags
 
-#### How to add/edit tags to existing builds
+Once a build is available on your dashboard, tags can be added, edited, and deleted in the build settings menu.
 
-- Once the build is already available in your dashboard, Tags can be added, edited or deleted in [build settings](https://docs.testfairy.com/TestFairy_Dashboard/Builds.html) menu under __App Distribution__ --> __Tags__.
+## Displaying Tags to Admins
 
-#### Displaying tags to admins
-
-Tags appear in a project page:
+Tags appear on project pages.
 
 ![](/img/dashboard/builds-table.png)  
-  
-In the dashboard, Tags are searchable in the `Search...` textbox available at the top right.
 
-#### Displaying tags to testers
+Tags are searchable on the dashboard.
 
-Testers can see Tags in their Testers Dahsboard available at [my.testfairy.com](my.testfairy.com):
+## Displaying Tags to Testers
+
+Testers can view tags on the testers dashboard.
 
 ![](/img/app_distribution/builds-my-view.png)  
 
-Tags are also available at the top of every landing page, just below the main headline:
+Tags are also viewable at the top of every landing page.
 
 ![](/img/app_distribution/landing-page-tags.png)  

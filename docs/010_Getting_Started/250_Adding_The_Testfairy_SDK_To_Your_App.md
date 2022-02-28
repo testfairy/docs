@@ -1,5 +1,3 @@
-### The TestFairy SDK
-
 The TestFairy SDK helps you understand how users really interact with your app. It can handle problems like crashes and on-screen error messages, and integrate with your current development workflow.
 
 TestFairy SDK features include:
@@ -10,7 +8,7 @@ TestFairy SDK features include:
 - Identifying and tagging users for searching and custom reports
 - Auto updates to ensure your users are on the latest version
 
-### Supported platforms
+### Supported Platforms
 
 To add the TestFairy SDK to your app, see the instructions for the relevant development platform:
 

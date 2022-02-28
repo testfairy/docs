@@ -1,44 +1,36 @@
-### Managing Landing pages
 
-TestFairy Landing pages allow you to easily distribute apps to testers.
-Every TestFairy app has a landing page that is created automatically.
-Landing page can be disabled at the top of the landing page settings page.
+Landing pages give testers a convenient location from which they can access apps. Every app has a landing page that is created automatically, and they can be disabled from the landing page settings page.
 
 ![disable landing page](/img/landing-pages-on-off.png)
 
-
 ![landing page settings](/img/app_distribution/landing_pages/landing-page-fields.png)
 
+* **Landing page URL** - The URL that is automatically generated for each landing page. The last token of the url is configurable.
 
-* **Landing page URL:** The URL that is automatically generated for each landing page. The last token of the url is configurable.
+* **App version** - Indicates which version of the app will be shown. You can choose to always show the latest version, always show the auto-update version, or freeze on a specific version.
 
-* **App version:** Indicates which version of the app will be shown. You can choose to always show the latest version, always show the auto-update version, or freeze on a specific version.
+* **Visability**  
+  * Open Beta (Anyone can download) - The landing page is visible to everyone.
+  * Closed Beta (Testers required to login) - Users must log in to see the landing page.
 
-* **Visability:**  
-  * _Open Beta (Anyone can download)_ - Landing page is visible to anybody.
-  * _Closed Beta (Testers required to login)_ - Users must log in in order to see the page.
+* **App description** - Used to include instructions or other information. Can be formatted in Markdown.
 
-* **App description:** A description you add to the landing page for testers instructions or other information. Can be formatted in <a href=https://guides.github.com/features/mastering-markdown/ target=_blank >Markdown</a>.
+* **Add release notes** - When enabled, automatically includes release notes on the landing page (see [Release Notes](https://docs.testfairy.com/App_Distribution/Release_Notes.html)).
 
-* **Add release notes:** Check in order to automatically include [release notes](/App_Distribution/Release_Notes.html) in landing page
+* **Add custom CSS** - When enabled, adds a custom CSS to the landing page (see [Landing Page Customization](https://docs.testfairy.com/FAQ/Landing_Page_Customization.html)).
 
-* **Add custom CSS:**  Check in order to add custom CSS, for [landing page customization](https://docs.testfairy.com/FAQ/Landing_Page_Customization.html)
+Changes to settings won't take effect until you save them. You can preview the changes by clicking **Preview landing page**.
 
+## Recruitment Pages
 
-Once you make changes to the settings you need to save them so they take effect. You can preview the changes using the `Preview landing page` button.
+Recruitment pages allow users to request to join your testing project.
 
-#### Recruitment Pages
+When users sign up, they will show up in your account as "Pending Approval," and you will get an email prompting you to approve or reject them. If approved, they will get an email prompting them to download the app.
 
-Recruitment pages allow you to easily let users request to join your testing project. 
+In order for recruitment pages to work, visibility must be in "open beta" mode.
 
-When users signup, they will show up in your account in "Pending Apprvoal" status and you will get an email allowing you to approve or reject these users. Once approved they will get an email inviting them to download the app.
+Users who sign up and are approved will automatically be added to a testers' group called "recruit".
 
-* In order for recruitment pages to work, visibility must be in "open beta" mode.
+If your app is an iOS app signed with an ad-hoc certificate, users will first get an email asking them to register their device and, only after they register, you will get an email with their UDID.
 
-* Users who sign up and approved will atuamatically be added to a testers group called "recruit".
-
-* in case your app is an iOS app signed with an ad-hoc certificate, users will first get an email asking them to register their device and only after they register, you will get an email with their UDID.
-
-* It is possible to automatically approve all users who signup, please contact us to enable this option for your account.
-
- 
+To enable the option to automatically approve all users who sign up, contact us.

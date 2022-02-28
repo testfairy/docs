@@ -1,6 +1,6 @@
 TestFairy allows developers to hide specific views from the recorded video. As a developer, you may choose to hide one or more views from the video for security and privacy reasons.
 
-For example, you might want to prevent all information related to credit card data from appearing in the session.
+For example, you might want to prevent all information related to credit card data from appearing in a session.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
@@ -24,15 +24,15 @@ For example, you might want to prevent all information related to credit card da
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
-			<p>To hide a view from video, all you need to do is this:</p>
+			<p>To hide a view from video:</p>
 			<p>
-				<b>TestFairy.hideView(Integer.valueOf(R.id.my_view));</b><br />
+				<code>TestFairy.hideView(Integer.valueOf(R.id.my_view));</code><br />
 				or<br />
-				<b>TestFairy.hideView(View myView);</b>
+				<code>TestFairy.hideView(View myView);</code>
 			</p>
 
 			<p>
-				Replace <b>R.id.my_view</b> with the identifier of the view you wish to hide. Please review the full example below:
+				Replace <code>R.id.my_view</code> with the identifier of the view you wish to hide.
 			</p>
 
 			<h3>Code Example</h3>
@@ -54,12 +54,12 @@ public class MyActivity extends Activity {
 		<div data-w-tab="tab-ios" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				To hide a view from video, all you need to do is call the static instance method hideView in the TestFairy class:
+				To hide a view from video, call the static instance method <code>hideView</code> in the TestFairy class:
 			</p>
 
 			<p>
-				<b>UIView *view = ...</b><br />
-				<b>[TestFairy hideView:view];</b><br />
+				<code>UIView *view = ...</code><br />
+				<code>[TestFairy hideView:view];</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -91,7 +91,7 @@ public class MyActivity extends Activity {
 				<b>&lt;Text ref="instructions"&gt;This will be hidden&lt;/Text&gt;</b>
 			</p>
 
-			<p>Next, in a component callback, such as componentDidMount, pass the reference ID back to TestFairy by invoking hideView.</p>
+			<p>Next, in a component callback, such as componentDidMount, pass the reference ID back to TestFairy by invoking <code>hideView</code>.</p>
 
 			<h3>Code Example</h3>
 			<pre>
@@ -111,7 +111,7 @@ var MyComponent = React.createClass({
 
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 			<h3>Syntax</h3>
-			<p><b>TestFairySDK.hideView(view);</b></p>
+			<p><code>TestFairySDK.hideView(view);</code></p>
 
 			<h3>Code Example</h3>
 			<pre>
@@ -128,8 +128,8 @@ TestFairySDK.hideView(view);
 
 		<div data-w-tab="tab-xamarin" class="w-tab-pane">
 			<h3>Syntax</h3>
-			<p><b>TestFairy.HideView (View view)</b> - on Android</p>
-			<p><b>TestFairy.HideView (UIView view)</b> - on iOS</p>
+			<p><code>TestFairy.HideView (View view)</code> (Android)</p>
+			<p><code>TestFairy.HideView (UIView view)</code> (iOS)</p>
 
 			<h3>Code Example</h3>
 			<pre>
@@ -149,9 +149,9 @@ TestFairy.HideView (view);
 	</div>
 </div>
 
-### Sample video
+## Sample Video
 
-Below is a sample screen taken from a demo video. On the left, you can see what the app normally looks like. On the right, there is a screenshot taken with the "Card Number" EditText hidden by testfairy-secure-viewid.
+Below is a sample screen taken from a demo video. On the left, you can see what the app normally looks like. On the right, there is a screenshot taken with the "Card Number" EditText hidden by <code>testfairy-secure-viewid</code>.
 
 <div>
 	<img style="float:left; border: none; box-shadow: none;" src="../../img/ios/hidden_views/iphone-with-fields.png" width="400" />
@@ -162,6 +162,6 @@ Below is a sample screen taken from a demo video. On the left, you can see what 
 
 ### Notes
 
-* Hidden views are removed **before** sending video.
+* Hidden views are removed before sending video.
 * You may hide multiple views.
 * You may add the same view multiple times, no checks needed.

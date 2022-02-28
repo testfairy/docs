@@ -1,7 +1,7 @@
-TestFairy allows the developer to correlate sessions to app-specific information such as users, server-sessions or events.
-This is useful in cases where sessions are anonymous and or when sessions are related to server activities that are critical to understanding test behavior.
+TestFairy allows developers to correlate sessions to app-specific information such as users, server sessions, or events.
+This is useful in cases where sessions are anonymous or when sessions are related to server activities that are critical to understanding test behavior.
 
-Furthermore, TestFairy enables the identification of users with traits such as name, email or phone number. These traits will later be available for the developer to search upon, or review when looking at a specific session recording.
+Furthermore, TestFairy enables the identification of users with traits such as name, email, or phone number. These traits will later be available for the developer to search or review when looking at a specific session recording.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
@@ -38,10 +38,10 @@ Furthermore, TestFairy enables the identification of users with traits such as n
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<code>TestFairy.setUserId("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -55,10 +55,10 @@ TestFairy.setUserId("john@example.com");
 		<div data-w-tab="tab-ios" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>[TestFairy setUserId:@"&lt;userId&gt;"];</b><br />
+				<code>[TestFairy setUserId:@"&lt;userId&gt;"];</code><br />
 			</p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
 			<h3>Code Example</h3>
 			<pre>
@@ -72,10 +72,10 @@ TestFairy.setUserId("john@example.com");
 		<div data-w-tab="tab-cordova" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<code>TestFairy.setUserId("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -86,10 +86,10 @@ TestFairy.setUserId("john@example.com");
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<code>TestFairy.setUserId("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -104,10 +104,10 @@ TestFairy.setUserId("john@example.com");
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairySDK.setUserId("&lt;userId&gt;");</b><br />
+				<code>TestFairySDK.setUserId("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -121,10 +121,10 @@ TestFairySDK.setUserId("john@example.com");
 		<div data-w-tab="tab-xamarin" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.SetUserId ("&lt;userId&gt;");</b><br />
+				<code>TestFairy.SetUserId ("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -138,10 +138,10 @@ TestFairy.SetUserId ("john@example.com");
 		<div data-w-tab="tab-unity" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<code>TestFairy.setUserId("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -155,10 +155,10 @@ TestFairy.setUserId("john@example.com");
 		<div data-w-tab="tab-adobe-air" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>AirTestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<code>AirTestFairy.setUserId("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <code>userId</code> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -172,10 +172,10 @@ AirTestFairy.setUserId("john@example.com");
 		<div data-w-tab="tab-titanium" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TiTestFairy.setUserId("&lt;userId&gt;");</b><br />
+				<code>TiTestFairy.setUserId("&lt;userId&gt;");</code><br />
       </p>
 
-			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user id that your app may use. This value may not be nil, and is searchable via API and web search.</p>
+			<p>Where <b>userId</b> is a string representing an association to your backend. We recommend passing values such as email, phone number, or user ID that your app may use. This value may not be nil, and is searchable via API and web search.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -189,7 +189,7 @@ TiTestFairy.setUserId("john@example.com");
 	</div>
 </div>
 
-### Notes
+## Notes
 
-1. `setUserId:` may be called many times.
-2. You may call `setUserId` before or after `begin`.
+* `setUserId:` may be called many times
+* You may call `setUserId` before or after `begin`

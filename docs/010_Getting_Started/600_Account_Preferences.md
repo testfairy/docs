@@ -1,37 +1,32 @@
-<iframe width="800" height="600" frameborder="0" allowfullscreen="true" style="box-sizing: border-box; margin-bottom:5px; max-width: 100%; border: 1px solid rgba(0,0,0,1); background-color: rgba(255,255,255,0); box-shadow: 0px 2px 4px rgba(0,0,0,0.1);" src="https://testfairy.fleeq.io/l/0ijyr11qum-2z57bu31bz"></iframe>
+Global account settings can be managed on the **Preferences** page.
 
-
-Global definitions for your account are done in the Preferences menu.
- 
 <img src="../../img/app/preferences-link.png"/>
- 
-The first 2 menu items are your SDK and API app tokens.
 
-### SDK token
+The first two menu items are your SDK and API app tokens.
+
+### SDK Token
 ![ alt app-token](../../img/app/app-token.png)
- 
-Your App Token is used to initializing the [TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_Testfairy_SDK_To_Your_App.html). 
- 
 
-### API key
+Your app token is used to initialize the [TestFairy SDK](https://docs.testfairy.com/SDK/Adding_The_Testfairy_SDK_To_Your_App.html).
+
+### API Key
 ![ alt api-key](../../img/app/api-key.png)
- 
-You can use the TestFairy API to directly upload builds and invite testers. For more information please read the [Upload API](https://docs.testfairy.com/API/Upload_API.html) guide.
- 
+
+You can use the TestFairy API to directly upload builds and invite testers. For more information, see [Upload API](https://docs.testfairy.com/API/Upload_API.html).
 
 ### Notifications
-The notifications options are used to define what type of messages you want to receive about new builds, crashes and user feedback.
+The notifications options are used to define what type of messages you want to receive about new builds, crashes, and user feedback.
+
 ![notifications](/img/app/preferences/account-settings-3.png)
- 
 
 ### Integrations
-You can integrate your TestFairy account with different services in order to customize and streamline your work processes.
+You can integrate your TestFairy account with different services to customize and streamline your work processes.
 
-* __SMTP and Gmail__: look [here](https://docs.testfairy.com/Integrations/SMTP_and_Gmail.html) how to connect your SMTP email server or your gmail account (including enterprise G suite) so the emails you send from your TestFairy account will be sent from your business email and you will be able to see the sent items in your email account.
+* SMTP and Gmail - See [SMTP and Gmail](https://docs.testfairy.com/Integrations/SMTP_and_Gmail.html) for information about connecting your SMTP email server or your Gmail account. This ensures the emails you send from your TestFairy account will be sent from the email account you used to register.
 
 * __Slack:__ see [here](https://docs.testfairy.com/Integrations/Slack.html) for how to integrate your slack account with TestFairy.
 
-* __Zendesk:__ see [here](https://docs.testfairy.com/Integrations/Zendesk.html) for how to integrate your account to Zendesk. 
+* __Zendesk:__ see [here](https://docs.testfairy.com/Integrations/Zendesk.html) for how to integrate your account to Zendesk.
 
 * __Webhooks:__ you can also connect various services using our webhooks. Here is an example how to connect [MSFT Teams](https://docs.testfairy.com/Integrations/Microsoft_Teams.html)
 
@@ -43,10 +38,10 @@ You can integrate your TestFairy account with different services in order to cus
 When you connect your bug system to the TestFairy service it creates a seamless process of reporting bugs straight to your [JIRA](https://docs.testfairy.com/Bug_Tracking/JIRA_Cloud.html), [Bugzilla](https://docs.testfairy.com/Bug_Tracking/Bugzilla.html), [GitHub](https://docs.testfairy.com/Bug_Tracking/Github.html), [Trello](https://docs.testfairy.com/Bug_Tracking/Trello.html) or one of the other systems you can connect.
 
 ![bug systems](/img/app/preferences/account-settings-5.png)
- 
+
 
 ### Email templates
-TestFairy lets you customize the invitation email it sends. This feature is available only if you use a [custom email](https://docs.testfairy.com/Integrations/SMTP_and_Gmail.html) server. 
+TestFairy lets you customize the invitation email it sends. This feature is available only if you use a [custom email](https://docs.testfairy.com/Integrations/SMTP_and_Gmail.html) server.
 You can customize the app invitation email sent to invite testers to a specific app and the testers invite email that is used to invite testers to create a testers account in TestFairy.
 The email is HTML based and can use custom tags.
 
@@ -68,14 +63,14 @@ In the account menu you can change the following settings:
 
 * First and last name of the account owner.
 * Your company name.
-* Your subdomain - the part that will come before your TestFairy domain URL: **subdomain**.testfairy.com 
+* Your subdomain - the part that will come before your TestFairy domain URL: **subdomain**.testfairy.com
 * Update your account password
 * Change your account user name.
 * Update your timezone
 
 
 ![account](/img/app/preferences/account-settings-8.png)
- 
+
 ### Billing
 
 Here you will see your account invoices.
@@ -90,4 +85,3 @@ This is useful in cases where customer support teams wish to enable recording fo
 ![whitelist](/img/app/preferences/account-settings-10.png)
 
 What to read next: [Adding_And_Managing_Users](Adding_And_Managing_Users.html)
-

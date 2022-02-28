@@ -1,5 +1,6 @@
-TestFairy allows developers to attach files to sessions. As a developer, you can upload up to 5 files to a given session, with a maximum size of 15MB per file. Files must be local to the device.
-Be sure to check the device logs if there were any problems uploading files. Only file extensions [.jpeg, .jpg, .png, .txt and .sqlite] are supported, others uploads will be ignored.
+TestFairy allows developers to attach files to sessions. As a developer, you can upload up to five files to a given session, with a maximum size of 15MB per file. Files must be local to the device.
+
+Be sure to check the device logs if there were any problems uploading files. Only file extensions .jpeg, .jpg, .png, .txt, and .sqlite are supported.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
@@ -15,11 +16,11 @@ Be sure to check the device logs if there were any problems uploading files. Onl
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
       <p>
-        To attach a file to a session, all you need to do is call the static instance method attachFile in the TestFairy class:
+        To attach a file to a session, all you need to do is call the static instance method <code>attachFile</code> in the TestFairy class:
       </p>
       <p>
-        <b>File file = ...</b><br />
-        <b>TestFairy.attachFile(file);</b><br />
+        <code>File file = ...</code><br />
+        <code>TestFairy.attachFile(file);</code><br />
       </p>
       <h3>Code Example</h3>
       <pre>
@@ -34,8 +35,8 @@ TestFairy.attachFile(file);
 				To attach a file to a session, all you need to do is call the static instance method attachFile in the TestFairy class:
 			</p>
 			<p>
-				<b>NSURL *file = ...</b><br />
-				<b>[TestFairy attachFile:file];</b><br />
+				<code>NSURL *file = ...</code><br />
+				<code>[TestFairy attachFile:file];</code><br />
 			</p>
 
 			<h3>Code Example</h3>

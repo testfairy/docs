@@ -35,10 +35,10 @@ TestFairy can collect additional information from your session, which can help y
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <code>key</code> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -56,10 +56,10 @@ TestFairy.setAttribute("level","20");
 		<div data-w-tab="tab-ios" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>[TestFairy setAttribute:@"&lt;key&gt;" withValue:@"&lt;value&gt;"];</b><br />
+				<code>[TestFairy setAttribute:@"&lt;key&gt;" withValue:@"&lt;value&gt;"];</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -76,10 +76,10 @@ TestFairy.setAttribute("level","20");
 		<div data-w-tab="tab-cordova" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <code>key</code> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -93,10 +93,10 @@ TestFairy.setAttribute("favorite_color","blue");
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -114,10 +114,10 @@ TestFairy.setAttribute("favorite_color","blue");
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairySDK.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>TestFairySDK.setAttribute("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <code>key</code> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -134,10 +134,10 @@ TestFairySDK.setAttribute("favorite_color","blue");
 		<div data-w-tab="tab-xamarin" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.SetAttribute ("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>TestFairy.SetAttribute ("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <code>key</code> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -154,10 +154,10 @@ TestFairy.SetAttribute ("favorite_color","blue");
 		<div data-w-tab="tab-unity" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>TestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <code>key</code> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -174,10 +174,10 @@ TestFairy.setAttribute("favorite_color","blue");
 		<div data-w-tab="tab-adobe-air" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>AirTestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>AirTestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <code>key</code> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -194,10 +194,10 @@ AirTestFairy.setAttribute("favorite_color","blue");
 		<div data-w-tab="tab-titanium" class="w-tab-pane">
 			<h3>Syntax</h3>
       <p>
-				<b>TiTestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</b><br />
+				<code>TiTestFairy.setAttribute("&lt;key&gt;", "&lt;value&gt;");</code><br />
       </p>
 
-			<p>The first value is a string <b>key</b> to help you search for the attribute in your session. The second parameter, <b>value</b>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
+			<p>The first value is a string <code>key</code> to help you search for the attribute in your session. The second parameter, <code>value</code>, is any string value for the attribute associated with the session. Neither value can be nil. These attributes are available later in the session recording page, are available via API, and are searchable.</p>
 
       <h3>Code Example</h3>
       <pre>
@@ -216,8 +216,8 @@ TiTestFairy.setAttribute("favorite_color","blue");
 
 Adding these lines will mark this session with the values above, so when you review the recording, you have more information about the person running the app.
 
-### Notes
+## Notes
 
-1. `setAttribute` may be called many times.
-2. You may call `setAttribute` before or after `begin`.
-3. You can only store a maximum of 64 keys. The keys can be a maximum of 64 characters. The values can have a maximum of 1000 characters.
+* `setAttribute` may be called many times.
+* You may call `setAttribute` before or after `begin`.
+* You can only store a maximum of 64 keys. The keys can be a maximum of 64 characters. The values can have a maximum of 1000 characters.

@@ -1,6 +1,4 @@
-Events are used to provide insights on the how testers use your apps.
-
-These can help you keep track of when a tester reaches key points in your app, such as visiting the in-app store.
+Events are used to provide insights into how testers use your apps. They can help you keep track of when a tester reaches key points in your app, such as visiting the in-app store.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
@@ -19,9 +17,9 @@ These can help you keep track of when a tester reaches key points in your app, s
 	<div class="docs-tabs-content w-tab-content">
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
-			<p>To add an event to your timeline, all you need to do is this:</p>
+			<p>To add an event to your timeline:</p>
 			<p>
-				<b>TestFairy.addEvent("&lt;event name&gt;");</b>
+				<code>TestFairy.addEvent("&lt;event name&gt;");</code>
 			</p>
 
 			<h3>Code Example</h3>
@@ -36,9 +34,9 @@ public class MyActivity extends Activity {
 
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
-			<p>To add an event to your timeline, all you need to do is this:</p>
+			<p>To add an event to your timeline:</p>
 			<p>
-				<b>[TestFairy addEvent:@"&lt;event name&gt;"];</b>
+				<code>[TestFairy addEvent:@"&lt;event name&gt;"];</code>
 			</p>
 
 			<h3>Code Example</h3>
@@ -56,9 +54,9 @@ public class MyActivity extends Activity {
 
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
 			<h3>Syntax</h3>
-			<p>To add an event to your timeline, all you need to do is this:</p>
+			<p>To add an event to your timeline:</p>
 			<p>
-				<b>TestFairy.addEvent("&lt;event name&gt;");</b>
+				<code>TestFairy.addEvent("&lt;event name&gt;");</code>
 			</p>
 
 			<h3>Code Example</h3>
@@ -74,7 +72,3 @@ var MyComponent = React.createClass({
 
 	</div>
 </div>
-
-By adding the line above, a new column in your [Build Coverage Report](http://docs.testfairy.com/Getting_Started/Testing_Reports.html) page will appear, titled according to the event (in this case "Purchase OK").
-
-Please remember that events are rendered in a table, consider using indicative names and keep them short.

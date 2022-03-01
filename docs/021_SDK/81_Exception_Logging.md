@@ -1,4 +1,6 @@
-TestFairy allows developers to log up to 5 exceptions or errors to a given session. **Note**: This does not mark the sessions as crashed, it will only log the exception or error to the session.
+TestFairy allows developers to log up to five exceptions or errors for a given session.
+
+**Note**: This does not mark the sessions as crashed; it will only log the exception or error to the session.
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
@@ -26,7 +28,7 @@ TestFairy allows developers to log up to 5 exceptions or errors to a given sessi
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
 			<p>
-				<b>TestFairy.logThrowable(&lt;throwable exception&gt;);</b><br />
+				<code>TestFairy.logThrowable(&lt;throwable exception&gt;);</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -41,8 +43,8 @@ TestFairy.logThrowable(new Throwable("Some Message"));
 		<div data-w-tab="tab-ios" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>[TestFairy logError:&lt;NSError&gt;];</b><br />
-				<b>[TestFairy logError:&lt;NSError&gt; stacktrace:&lt;NSArray&lt;NSString&gt;&gt;];</b><br />
+				<code>[TestFairy logError:&lt;NSError&gt;];</code><br />
+				<code>[TestFairy logError:&lt;NSError&gt; stacktrace:&lt;NSArray&lt;NSString&gt;&gt;];</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -57,8 +59,8 @@ TestFairy.logThrowable(new Throwable("Some Message"));
 		<div data-w-tab="tab-ios-swift" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>TestFairy.logError(&lt;NSError&gt;)</b><br />
-				<b>TestFairy.logError(&lt;NSError&gt;, stacktrace:&lt;[String]&gt;)</b><br />
+				<code>TestFairy.logError(&lt;NSError&gt;)</code><br />
+				<code>TestFairy.logError(&lt;NSError&gt;, stacktrace:&lt;[String]&gt;)</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -72,7 +74,7 @@ TestFairy.logError(error)
 		<div data-w-tab="tab-cordova" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>TestFairy.logException(&lt;Error&gt;);</b><br />
+				<code>TestFairy.logException(&lt;Error&gt;);</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -81,7 +83,7 @@ var error = new Error("Some Message");
 TestFairy.logException(error);
 			</pre>
 
-			<p>We recommend adding a listener to the <b>window</b> to capture <b>error</b> statements, which will automatically send the exception to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
+			<p>We recommend adding a listener to the <code>window</code> to capture <code>error</code> statements, which will automatically send the exception to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
 window.addEventListener("error", function(e) {
 	TestFairy.logException(e);
@@ -92,7 +94,7 @@ window.addEventListener("error", function(e) {
 		<div data-w-tab="tab-react-native" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>TestFairy.logException(&lt;Error&gt;);</b><br />
+				<code>TestFairy.logException(&lt;Error&gt;);</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -119,7 +121,7 @@ ErrorUtils.setGlobalHandler((error, isFatal) => {
 		<div data-w-tab="tab-nativescript" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>TestFairySDK.logException(&lt;Error&gt;);</b><br />
+				<code>TestFairySDK.logException(&lt;Error&gt;);</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -131,7 +133,7 @@ var error = new Error("Some Message");
 TestFairySDK.logException(error);
 			</pre>
 
-			<p>We recommend adding a listener to the <b>window</b> to capture <b>error</b> statements, which will automatically send the exception to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
+			<p>We recommend adding a listener to the <code>window</code> to capture <code>error</code> statements, which will automatically send the exception to TestFairy sessions. One suggestion we have is to add a method that looks like this:</p>
 			<pre>
 window.addEventListener("error", function(e) {
 	TestFairy.logException(e);

@@ -1,10 +1,6 @@
-### Network Loging
-
-With TestFairy, you can log all your network requests. This gives you an easy way to monitor network access your app is doing.
-
+TestFairy gives you the ability to log all your network requests. This gives you an easy way to monitor your app's network access.
 
 ![Log Network](/img/sdk/logHttp.png)
-
 
 <div data-duration-in="300" data-duration-out="100" class="docs-tabs w-tabs">
 	<div class="docs-tabs-menu w-tab-menu" style="flex-wrap: wrap;">
@@ -26,7 +22,7 @@ With TestFairy, you can log all your network requests. This gives you an easy wa
 		<div data-w-tab="tab-android" class="w-tab-pane w--tab-active">
 			<h3>Syntax</h3>
 			<p>
-				<b>TestFairy.addNetworkEvent(URI uri, String method, int code, long startTimeMillis, long endTimeMillis, long requestSize, long responseSize, String errorMessage);</b><br />
+				<code>TestFairy.addNetworkEvent(URI uri, String method, int code, long startTimeMillis, long endTimeMillis, long requestSize, long responseSize, String errorMessage);</code><br />
 			</p>
 
 			<h3>Code Example</h3>
@@ -68,12 +64,12 @@ OkHttpClient client = new OkHttpClient.Builder()
 		<div data-w-tab="tab-ios-objc" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>[TestFairy addNetwork:(NSURLSessionTask *)task error:(NSError *)error]</b><br />
+				<code>[TestFairy addNetwork:(NSURLSessionTask *)task error:(NSError *)error]</code><br />
 			</p>
 
 			<h3>Code Example</h3>
-			<p>If you are using <b>NSURLConnection</b> all you need to do is add callback to your request at the beginning of the request and at the end.</p>
-			<p>Note: If you have <b>AFNetworking</b> added to your project, network requests will be automatically captured when enabled in your build settings.</p>
+			<p>If you are using <code>NSURLConnection</code> all you need to do is add callback to your request at the beginning of the request and at the end.</p>
+			<p><b>Note:</b> If you have <code>AFNetworking</code> added to your project, network requests will be automatically captured when enabled in your build settings.</p>
 			<pre>
 // Be sure to import TestFairy
 #import "TestFairy.h"
@@ -90,11 +86,11 @@ __block NSURLSessionTask *task = [[NSURLSession sharedSession] dataTaskWithURL:u
 		<div data-w-tab="tab-ios-swift" class="w-tab-pane">
 			<h3>Syntax</h3>
 			<p>
-				<b>TestFairy.addNetwork(&lt;URLSessionTask&gt;, error:&lt;NSError&gt;)</b><br />
+				<code>TestFairy.addNetwork(&lt;URLSessionTask&gt;, error:&lt;NSError&gt;)</code><br />
 			</p>
 
 			<h3>Code Example</h3>
-			<p>If you are using <b>URLConnection</b> all you need to do is add callback to your request at the beginning of the request and at the end:</p>
+			<p>If you are using <code>URLConnection</code> all you need to do is add callback to your request at the beginning of the request and at the end:</p>
 			<pre>
 var task: URLSessionTask? = nil
 task = URLSession.shared.dataTask(with: URL(string:"")!) { (data, response, error) in
@@ -104,7 +100,7 @@ TestFairy.addNetwork(task, error: nil)
 task?.resume()
 			</pre>
 
-			<p>With <b>Alamofire</b>, it's even easier:</p>
+			<p>With <code>Alamofire</code>, it's even easier:</p>
 			<pre>
 import Alamofire
 
@@ -123,7 +119,7 @@ NotificationCenter.default.addObserver(forName: Request.didComplete, object: nil
 		</div>
 
 		<div data-w-tab="tab-ios-react-native" class="w-tab-pane">
-			<p>TestFairy supports network logging for Fetch API. Simply call the following method to start capturing network calls.</p>
+			<p>TestFairy supports network logging for <b>Fetch API</b>. Simply call the following method to start capturing network calls.</p>
 			<pre>
 // Capture network logs
 TestFairy.enableNetworkLogging(window);

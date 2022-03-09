@@ -47,15 +47,21 @@ Now, please logout and if SSO is configured into your account, the login page is
 
 When managing large teams with OKTA, it is most likely that people are already associated with groups. 
 
-For example, say Alice is associated with the following groups in OKTA: ["QA", "QA San Francisco"]. With auto-import of groups, she will be automatically be associated with the following groups in TestFairy next time she signs in: "okta", "okta-qa", and "okta-qa-san-francisco". If she was removed from group "QA", she will be automatically be removed from "okta-qa" group in TestFairy, the next time she signs in.
+For example, say Alice is associated with the following groups in OKTA: ["QA", "QA San Francisco"]. 
+With auto-import of groups, Alice will automatically be associated with the following groups in TestFairy next time she signs in: "okta", "okta-qa", and "okta-qa-san-francisco". 
+Once removed from group "QA", Alice will be automatically be removed from "okta-qa" group in TestFairy, next time she signs in.
 
-To import groups each time a user signs into TestFairy, please follow these instructions. 
+In order to import groups each time a user signs into TestFairy, please follow these instructions. 
 
-- Open the TestFairy app in your OKTA account, select `General` tab, and click `Edit`. In `SAML Settings` section, under `Group Attribute Statements`, add a rule with name: "groups", (LOWERCASE!!!) and filter "Matches regex" with value `.*`. (dot asterisk) See screenshot: 
-  ![](/img/sso/okta/okta-groups-2.png)
-  
-- When done, please click on `Update Now` so OKTA updates caches. See screenshot:
-  ![](/img/sso/okta/okta-groups-1.png)
+1. Open the TestFairy app in your OKTA account, select `General` tab, and click `Edit`. 
+ ![](https://docs.testfairy.com/img/sso/okta/okta1.png)
+
+2. Click on "Attributes"
+ ![](https://docs.testfairy.com/img/sso/okta/okta2.png)
+
+3. Under `Group Attribute Statements`, add a rule with name: "groups", (LOWERCASE!!!) and filter "Matches regex" with value `.*`. (dot asterisk) 
+
+![](https://docs.testfairy.com/img/sso/okta/okta3.png)
 
 
 # FAQ

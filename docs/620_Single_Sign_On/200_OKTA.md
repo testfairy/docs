@@ -53,7 +53,7 @@ Once removed from group "QA", Alice will be automatically be removed from "okta-
 
 In order to import groups each time a user signs into TestFairy, please follow these instructions. 
 
-1. Open the TestFairy app in your OKTA account, select `General` tab, and click `Edit`. 
+1. Open the TestFairy app in your OKTA account, select the Sing On tab, and click Edit. 
  ![](https://docs.testfairy.com/img/sso/okta/okta1.png)
 
 2. Click on "Attributes"

@@ -22,6 +22,7 @@ Both Java and Kotlin apps are supported.
 ```
 
 #### 2. Add the TestFairy maven repository to your project's build.gradle (eg. `PROJECT_ROOT/build.gradle`)
+(Please note that in the new Android Studio, buildscript should be placed above plugins)
 ```
     buildscript {
         repositories {

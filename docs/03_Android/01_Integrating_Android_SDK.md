@@ -36,7 +36,7 @@ The most popular option is by adding to build.gradle (eg. `PROJECT_ROOT/build.gr
 
 **OR**
 
-For projects that were created with the newer versions of Android Studio, please add the TestFairy maven to settings.gradle
+For projects that were created with the newer versions of Android Studio, please add the TestFairy maven to `settings.gradle`
 
 ```
 dependencyResolutionManagement {

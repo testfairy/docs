@@ -21,14 +21,33 @@ Both Java and Kotlin apps are supported.
     }
 ```
 
-#### 2. Add the TestFairy maven repository to your project's build.gradle (eg. `PROJECT_ROOT/build.gradle`)
-(Please note that in the new Android Studio, buildscript should be placed above plugins)
+#### 2. Add the TestFairy maven repository to your project
+
+There are multiple options to add the TestFairy Maven, depends on the way your project is built.
+
+The most popular option is by adding to build.gradle (eg. `PROJECT_ROOT/build.gradle`)
 ```
     buildscript {
         repositories {
             maven { url 'https://maven.testfairy.com' }
         }
     }
+```
+
+**OR**
+
+For projects that were created with the newer versions of Android Studio, please add the TestFairy maven to settings.gradle
+
+```
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://maven.testfairy.com' }
+
+    }
+}
 ```
 
 #### 3. Add TestFairy to your main activity's `onCreate`:

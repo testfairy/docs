@@ -1,4 +1,4 @@
-### Version 1.12.24
+### Version 1.12.25
 Released: 2022-03-31
 
 * [NEW] Minor small improvements

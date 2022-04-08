@@ -1,3 +1,8 @@
+### Version 1.29.7
+Released 2022-04-08
+
+* [NEW] Minor bug fixes when capturing touches
+
 ### Version 1.29.6
 Released 2022-01-18
 

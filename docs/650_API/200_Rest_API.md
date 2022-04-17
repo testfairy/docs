@@ -138,10 +138,11 @@ In the example above, you can see that our user is `john@example.com` and the AP
 	<span>
 		<button class="expand">▶</button> Delete a specific build.
 	</span>
-	<code>GET /api/1/projects/{project-id}/builds/{build-id}</code>
+	<code>DELETE /api/1/projects/{project-id}/builds/{build-id}</code>
 </div>
 <div class="method-description hidden">
-	Delete a specific build. When all builds of a project have been deleted, the project itself is removed from /api/1/projects API. When deleting a build, all of its artifacts (IPA/APK files), recorded sessions and crashes are also deleted. 
+	Delete a specific build. When all builds of a project have been deleted, the project itself is removed from /api/1/projects API.<br />
+	When deleting a build, all of its artifacts (IPA/APK files), recorded sessions and crashes are also deleted. <br />
 	<span class="responses">Responses</span><br />
 	<span class="status-green">STATUS 200</span> OK<br />
 	<pre>

@@ -1,6 +1,6 @@
 # The TestFairy Platform
 
-[Full demo (6:40 mins)](https://youtu.be/K5Ctsh65BCY)
+<!-- [Full demo (6:40 mins)](https://youtu.be/K5Ctsh65BCY) -->
 
 <!---* [Signing up to TestFairy](https://testfairy.fleeq.io/l/1rfum3nb5d-bw5iw8zq2w){target="_blank"}--->
 
@@ -36,7 +36,9 @@
 
 # TestFairy for Android
 
+<!--
 * [How to Upload Android .APK from Windows](https://youtu.be/7wg07Q7TYbA)
+-->
 
 * [How to Upload Android APK from Command Line on Mac](https://youtu.be/_eV-B1HfV8E)
 

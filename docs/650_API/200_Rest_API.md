@@ -94,6 +94,65 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+#### [api/1/projects/{project-id}/builds/{build-id}](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Get metadata for a specific build
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/{build-id}</code>
+</div>
+<div class="method-description hidden">
+	Get a specific build of a specific project. Query the /api/1/projects/{project-id} API for a list of available builds.<br />
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok",
+	"build": {
+		"id":8830728,
+		"self":"/projects/6806100-myapplication/builds/8830728",
+		"projectId":"6806100",
+		"appName":"My Application",
+		"appVersion":"DemoApp",
+		"appVersionCode":"20",
+		"appDisplayName":"My Application - DemoApp (20)",
+		"iconUrl":"[APP ICON URL]",
+		"appUrl":"[URL TO APK OR IPA FILE]",
+		"sessions":6,
+		"crashes":0,
+		"testers":0,
+		"feedbacks":0,
+		"downloads":1,
+		"uploadedAt":"2019-04-04 16:03:15",
+		"uploadedVia":"[UPLOAD DETAILS]",
+		"hasTestFairySdk":true,
+		"insightsEnabled":true,
+		"videoEnabled":true
+	}
+}
+</pre>
+</div>
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Delete a specific build.
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/{build-id}</code>
+</div>
+<div class="method-description hidden">
+	Delete a specific build. When all builds of a project have been deleted, the project itself is removed from /api/1/projects API. When deleting a build, all of its artifacts (IPA/APK files), recorded sessions and crashes are also deleted. 
+	<span class="responses">Responses</span><br />
+	<span class="status-green">STATUS 200</span> OK<br />
+	<pre>
+{
+	"status": "ok"
+}
+</pre>
+</div>
+
+<hr />
+
 <a name="sessions"></a>
 #### [api/1/projects/{project-id}/builds/{build-id}/sessions/](#)
 

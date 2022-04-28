@@ -1,4 +1,4 @@
-### Version 1.12.26
+### Version 1.12.27
 Released: 2022-04-27
 
 * [NEW] Minor small improvements with view tree capture

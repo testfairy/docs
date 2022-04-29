@@ -1,3 +1,8 @@
+### Version 1.29.8
+Released 2022-04-28
+
+* [NEW] Minor bug fixes when capturing view trees
+
 ### Version 1.29.7
 Released 2022-04-08
 

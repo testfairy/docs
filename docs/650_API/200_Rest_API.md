@@ -154,6 +154,21 @@ In the example above, you can see that our user is `john@example.com` and the AP
 
 <hr />
 
+<a name="download build"></a>
+#### [api/1/projects/{project-id}/builds/{build-id}/download/](#)
+
+<div class="method">
+	<span>
+		<button class="expand">▶</button> Download the uploaded artifact
+	</span>
+	<code>GET /api/1/projects/{project-id}/builds/{build-id}/download/</code>
+</div>
+<div class="method-description hidden">
+	Downloads the binary file uploaded to TestFairy
+</div>
+
+<hr />
+
 <a name="sessions"></a>
 #### [api/1/projects/{project-id}/builds/{build-id}/sessions/](#)
 

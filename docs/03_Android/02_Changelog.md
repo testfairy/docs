@@ -1,3 +1,8 @@
+### Version 1.12.28
+Released: 2022-05-17
+
+* [BUGFIX] Fix memory data collection for Android 10+
+
 ### Version 1.12.27
 Released: 2022-04-27
 

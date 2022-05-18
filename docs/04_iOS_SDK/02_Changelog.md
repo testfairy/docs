@@ -1,3 +1,8 @@
+### Version 1.29.9
+Released 2022-05-12
+
+* [BUGFIX] Close background task after uploaded events
+
 ### Version 1.29.8
 Released 2022-04-28
 

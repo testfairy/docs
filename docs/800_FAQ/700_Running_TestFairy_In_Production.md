@@ -9,7 +9,7 @@ Therefore it is important to follow these guidelines:
 1. On iOS, you **must** request explicit user consent before recording start.
 Please read carefully the [Apple guidelines](https://developer.apple.com/app-store/review/guidelines/) and pay special attention to section 2.5.14
 
-2. On Android, you **must** use [TestFairy Production SDK](https://docs.testfairy.com/Android/Production_SDK.html) to comply with [Play Store Developer Distribution Agreement](https://play.google.com/about/developer-distribution-agreement.html).
+2. On Android, please call disableAutoUpdate() in order to comply with [Play Store Developer Distribution Agreement](https://play.google.com/about/developer-distribution-agreement.html).
 
 3. When recording sensitive data you **must** use TestFairy's [end-to-end encryption](/Security/End_to_End_Data_Encryption.html) with your own private keys, so that only your team will be able to see your sessions.
 

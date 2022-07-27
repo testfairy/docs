@@ -304,6 +304,16 @@ TestFairy.setFeedbackVerifier(new MyFeedbackVerifier());
         return NO;
     }
 
+    if (![content.email containsString:@"@"] && ![content.email containsString:@"."]) {
+		_lastError = @"Invalid email address";
+		return NO;
+	}
+	
+	if (content.email.length < 10) {
+		_lastError = @"Feedback body must be at least 10 characters long, please write something..";
+		return NO;
+	}
+
     return YES;
 }
 

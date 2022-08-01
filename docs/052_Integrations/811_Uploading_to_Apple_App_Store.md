@@ -1,5 +1,3 @@
-# Upload to Apple App Store
-
 **Note**: To enable to  feature, please reach out to support
 
 TestFairy provides the ability to upload your production app directory to the Apple App Store.

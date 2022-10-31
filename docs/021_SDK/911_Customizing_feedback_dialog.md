@@ -437,6 +437,21 @@ TestFairy.setFeedbackOptions(
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-4.jpg" alt="alt">
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-5.jpg" alt="alt">
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-6.jpg" alt="alt"><br/>
+	    
+	    <p>If you just need to localize the form without changing its structure, you can use the snippet below and define your strings in *res/values/strings.xml* as usual.</p>
+	    <pre>
+Resources resources = context.getResources();
+List fields = new ArrayList<>();
+
+fields.add(new StringFeedbackFormField(":userId", resources.getString(R.string.email), "")); // :userId is built-in for emails
+fields.add(new TextAreaFeedbackFormField(":text", resources.getString(R.string.description), "")); // :text is built-in for feedback messages
+
+TestFairy.setFeedbackOptions(
+    new FeedbackOptions.Builder()
+        .setFeedbackFormFields(fields)
+        .build()
+);
+            </pre>
 
             <h3>Built-in Form Elements</h3>
             <p><code>setFeedbackFormFields</code> expects a list of <code>FeedbackFormField</code> objects, which is an interface any app developer can implement to inject custom made views into the form hierarchy.</p>

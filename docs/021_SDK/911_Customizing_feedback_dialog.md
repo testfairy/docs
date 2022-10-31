@@ -440,13 +440,16 @@ TestFairy.setFeedbackOptions(
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-6.jpg" alt="alt"><br/>
 	    
             <h3><a name="android-feedback-localization">Localization</a></h3>
-	    <p>If you just need to localize the form without changing its structure, you can use the snippet below and define your strings in *res/values/strings.xml* as usual.</p>
+	    <p>If you just need to localize the form without changing its structure, you can use the snippet below and define your strings in *res/values/strings.xml* as usual. </p>
 	    <pre>
 Resources resources = context.getResources();
 List fields = new ArrayList<>();
 
-fields.add(new StringFeedbackFormField(":userId", resources.getString(R.string.email), "")); // :userId is built-in for emails
-fields.add(new TextAreaFeedbackFormField(":text", resources.getString(R.string.description), "")); // :text is built-in for feedback messages
+// :userId is built-in for emails. form_email is defined in xml
+fields.add(new StringFeedbackFormField(":userId", resources.getString(R.string.form_email), "")); 
+
+// :text is built-in for feedback messages. form_description is defined in xml.
+fields.add(new TextAreaFeedbackFormField(":text", resources.getString(R.string.form_description), "")); 
 
 TestFairy.setFeedbackOptions(
     new FeedbackOptions.Builder()

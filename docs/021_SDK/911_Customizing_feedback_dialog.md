@@ -20,6 +20,7 @@ Here are a few methods that can help you customize the feedback behaviour:
 - [`setFeedbackInterceptor`](#setFeedbackInterceptor): Intercept sent feedbacks to modify their message, email or attached screenshot on the fly.
 - [`setFeedbackVerifier`](#setFeedbackVerifier): Intercept sent feedbacks to accept or reject them based on custom logic.
 - [`setFeedbackFormFields`](#setFeedbackFormFields): Create a customized Feedback form.
+- [Localize](#android-feedback-localization) the feedback form.
 
 #### <a name="setBrowserUrl"></a>setBrowserUrl
 
@@ -438,6 +439,7 @@ TestFairy.setFeedbackOptions(
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-5.jpg" alt="alt">
             <img src ="../../img/android/custom-feedbacks/custom-feedbacks-6.jpg" alt="alt"><br/>
 	    
+            <h3><a name="android-feedback-localization">Localization</a></h3>
 	    <p>If you just need to localize the form without changing its structure, you can use the snippet below and define your strings in *res/values/strings.xml* as usual.</p>
 	    <pre>
 Resources resources = context.getResources();

@@ -91,6 +91,10 @@ curl https://upload.testfairy.com/api/upload \
 }
 ```
 
+### What are the supported filesizes?
+
+You can upload any iOS and Android apps up to 4GB!
+
 ### Where can I find my API Key?
 
 In order to get your API KEY, open your account preferences at https://app.testfairy.com/settings/ and click on "Upload API Key".

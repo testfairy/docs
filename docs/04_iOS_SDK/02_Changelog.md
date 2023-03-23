@@ -1,3 +1,8 @@
+### Version 1.30.3
+Released 2023-03-23
+
+* [BUGFIX] Replace native long press recognizer with a custom recognizer
+
 ### Version 1.29.9
 Released 2022-05-12
 

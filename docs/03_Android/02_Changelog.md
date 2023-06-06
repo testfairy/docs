@@ -1,3 +1,8 @@
+### Version 1.12.31
+Released: 2023-06-06
+
+* [NEW] Support for auto-update within folders
+
 ### Version 1.12.29
 Released: 2022-05-19
 
